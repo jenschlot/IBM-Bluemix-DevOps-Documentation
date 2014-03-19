@@ -1,6 +1,4 @@
 applications:
-- services:
-  - jazzhublearni:DataCache
   host: jazzhublearni
   disk: 1024M
   name: jazzublearni
