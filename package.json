@@ -1,0 +1,16 @@
+{
+  "name": "jazzhubtutorials",
+  "description": "Tutorials for JazzHub",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "marked": "*",
+    "less-middleware": "*",
+    "consolidate": "*",
+    "dustjs-linkedin": "*"
+  }
+}

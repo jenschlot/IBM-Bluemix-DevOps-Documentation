@@ -1,0 +1,12 @@
+applications:
+- services:
+  - jazzhubtutorials:DataCache
+  host: jazzhubtutorials
+  disk: 1024M
+  name: jazzubtutorials
+  command: node app.js
+  path: .
+  domain: ng.bluemix.net
+  mem: 512M
+  instances: 1
+
