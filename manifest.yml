@@ -1,4 +1,5 @@
 applications:
+- services:
   host: jazzhublearni
   disk: 1024M
   name: jazzublearni
