@@ -29,7 +29,7 @@ RUNNING
 DEPLOYING
 ---------
 
-Commit.  Deploys will go to [TBD](https://jazzhubtutorials.ng.bluemix.net).
+Commit.  Deploys will go to [jazzhublearni.ng](https://jazzhublearni.ng.bluemix.net).
 
 
 BUGS
