@@ -102,5 +102,5 @@ Making Changes
 * If these changes complete your feature, click on Commit and Push.  You're done.
 * If this is just a step towards completing something, click Commit to make a new version of your local clone of the main branch.  Later, when you're ready to push your changes, click on the Push button (the cylinder with a red arrow) in the Synchronize view to push.
 * Before pushing changes, you'll get a dialog listing the commits you're about to push.  Review and click OK to confirm.
-* Browse to (the deploy tab)[https://hub.jazz.net/project/agarcher/JazzHub%20Tutorials/deployment] of the JazzHub Tutorials project to check the progress of the auto-deploy.
-* Browse to (the deployed instance)[http://jazzhublearni.ng.bluemix.net/] to test things out.
+* Browse to [the deploy tab](https://hub.jazz.net/project/agarcher/JazzHub%20Tutorials/deployment) of the JazzHub Tutorials project to check the progress of the auto-deploy.
+* Browse to [the deployed instance](http://jazzhublearni.ng.bluemix.net/) to test things out.
