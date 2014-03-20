@@ -66,5 +66,5 @@ if ('development' == app.get('env')) {
 
 /* Actually stand up an http server with behavior governed by the express app configured above. */
 http.createServer(app).listen(app.get('port'), function(){
-  console.log('Express server listening on port ' + app.get('port'));
+  console.log('Express server listening on port #' + app.get('port'));
 });
