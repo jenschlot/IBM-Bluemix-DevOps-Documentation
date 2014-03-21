@@ -10,10 +10,10 @@ var config = require("../config.json");
 
 module.exports = function(req, res){
     /* Render the requested document from markdown. */
-    var id = req.params.id;
+    var id = req.params[0];
 
     /* Only allow simple template names. */
-    if (id.match(/[^a-zA-Z0-9_]/)) {
+    if (id.match(/[^a-zA-Z0-9_\/]/)) {
 	    res.send("Invalid document");
 	    return;
     }

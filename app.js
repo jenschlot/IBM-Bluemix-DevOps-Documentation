@@ -56,7 +56,7 @@ app.use(express.static(path.join(__dirname, 'public')));
  * index.js in this directory pulls in all of the required routes.
  */
 var routes = require('./routes');
-app.get('/document/:id', routes.document);
+app.get(/^\/document\/(.+)/, routes.document);
 
 
 /* Pulls in a default error handler (in case requests fall through) but only on dev. */
