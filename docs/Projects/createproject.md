@@ -29,7 +29,7 @@ Once the project is created, you are taken to the new project's home page. There
 
 Basically, all you do is change the switch to **ON**. Once auto-deployment is on, a dialog prompts you for your BlueMix credentials, so JazzHub can verify that it can push code on your behalf. After that, the page switches to something like this image:
 
->	![Auto deploy page](docs/images/guidebm/jazzhubautodeploypage.jpg)
+>	![Auto deploy page](../images/guidebm/jazzhubautodeploypage.jpg)
 
 Notice the Git URL field. That is the URL that you are going to use with your Git commands. You can copy it now, or come back to this page later, but either way you are ready to load your repository with the code for the app, so let's go get it.
 
@@ -42,12 +42,12 @@ next step is to create a JazzHub project to hold the app code.
 
 Complete the steps above to create your project but be sure to choose a Git hosted repo 
 
->	![Git hosted repo](docs/images/guidebm/jazzhubrepos.jpg)
+>	![Git hosted repo](../images/guidebm/jazzhubrepos.jpg)
 
 
 and the option to deploy the app to BlueMix.
 
->	![Deploy option](docs/images/guidebm/jazzhubdeployopt.jpg)
+>	![Deploy option](../images/guidebm/jazzhubdeployopt.jpg)
 
 ## Create a JazzHub project and add code with Eclipse
 

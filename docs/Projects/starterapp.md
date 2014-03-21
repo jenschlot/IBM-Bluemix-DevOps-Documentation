@@ -23,14 +23,14 @@ while we build a new app.
 
 You can start by signing in to Codename BlueMix, which takes you to the Dashboard:
 
->	![Bluemix dashboard](docs/images/guide bm/bluemixdashboard.jpg)
+>	![Bluemix dashboard](../images/guide bm/bluemixdashboard.jpg)
 
 Clicking **Add an application** lets you choose different kinds of runtimes (like Java or Ruby), 
 services (such as DataCache or Mongo) and boilerplates, which are essentially pre-configured application templates 
 that are great ways to get started. Let's select the Node JS Web Starter Boilerplate, 
 which opens a panel that displays more information about what it does:
 
->	![Bluemix NodeJS app](docs/images/guide bm/bluemixnodejsstarter.jpg)
+>	![Bluemix NodeJS app](../images/guide bm/bluemixnodejsstarter.jpg)
 
 As you can see, the application is a simple Node.JS web server that includes some example code that 
 demonstrates the IBM DataCache Service. Let's try it! 
@@ -40,7 +40,7 @@ At this point, you are just two clicks away from having a running application:
 1. Click **CREATE APPLICATION**
 2. In the Create application window, fill in the **App name** and **Host** fields, and click **CREATE**.
 
->	![Bluemix create app](docs/images/guide bm/bluemixcreateapp.jpg)
+>	![Bluemix create app](../images/guide bm/bluemixcreateapp.jpg)
 
 The **App name** is a simple name you can use to find this application the next time you come back to the 
 dashboard. **Host** defines the URL that let's you access your new app from the Internet. 
@@ -49,11 +49,11 @@ dashboard. **Host** defines the URL that let's you access your new app from the 
 That's all there is to it! It takes a short while for the application to start up, but once it does a 
 tile on the dashboard shows it running.
 
->	![Bluemix app tile](docs/images/guide bm/bluemixapptile.jpg)
+>	![Bluemix app tile](../images/guide bm/bluemixapptile.jpg)
 
 When you click the URL on the tile, it takes you to your already Internet visible, running application.
 
->	![Bluemix running app](docs/images/guide bm/bluemixrunningapp.jpg)
+>	![Bluemix running app](../images/guide bm/bluemixrunningapp.jpg)
 
 Cool!
 
