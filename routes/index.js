@@ -5,3 +5,4 @@ exports.index = function(req, res){
 };
 
 exports.document = require("./document.js");
+exports.documentdir = require("./documentdir.js");

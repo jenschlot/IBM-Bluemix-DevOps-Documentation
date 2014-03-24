@@ -6,34 +6,32 @@
  */
 var marked = require("marked");
 var fs = require("fs");
-var config = require("../config.json");
+var path = require("path");
 
-module.exports = function(req, res){
-    /* Render the requested document from markdown. */
-    var id = req.params[0];
-
-    /* Only allow simple template names. */
-    if (id.match(/[^a-zA-Z0-9_\/]/)) {
-	    res.send("Invalid document");
-	    return;
-    }
-    
+module.exports = function(req, res, next){
     /* Determine the path to the markdown file. */
-    var markdownFile = "./docs/" + id + ".md";
+    var markdownFile = path.join(req.documentPath);
+
+    if (!markdownFile.match(/\.md$/)) {
+	markdownFile = markdownFile + ".md";
+    }
 
     /* Read it and render it. */
     fs.exists(markdownFile, function (exists) {
-    	if (exists) {
-    		fs.readFile(markdownFile, "utf8", function (err, data) {
-    			marked(data, function (err, content) {
-    				res.render('document', { markdown: content, jazzhuburl: config.jazzhub.url });
-    			});
-    		});
-    	} else {
-    		console.log(markdownFile + ": File not found.");
-    		res.send(404);
-    	}
+	if (!exists) {
+		next();
+		return;
+	}
+
+	fs.readFile(markdownFile, "utf8", function (err, data) {
+		if (err) {
+			next();
+			return;
+		}
+
+		marked(data, function (err, content) {
+			res.render('document', { markdown: content, jazzhuburl: req.config.jazzhub.url });
+		});
+	});
     });
-    
-    return;
 };

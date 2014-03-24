@@ -45,18 +45,30 @@ app.use(express.methodOverride()); // Not sure what this does.
 
 app.use(app.router); // Not 100% sure what this does either.
 
-/* Pulls in non-default middleware for handling generated stylesheets in less format. */
-app.use(require('less-middleware')(path.join(__dirname, 'public')));
-
-/* Pulls in middleware that serves up files in public directory as static content. */
-app.use(express.static(path.join(__dirname, 'public')));
-
+var config = require('./config.json');
 
 /* Set up the routing table.  The actual handlers for routes are in the ./routes directory.
  * index.js in this directory pulls in all of the required routes.
  */
 var routes = require('./routes');
-app.get(/^\/document\/(.+)/, routes.document);
+var middleware = [ 
+	function(req, res, next) {
+		req.config = config;
+		next();
+	},
+	function(req, res, next) {
+		req.documentPath = path.join(__dirname, 'docs', req.params[0]);
+		next();
+	},
+	routes.documentdir,
+	routes.document
+];
+
+app.use(require('less-middleware')(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
+app.get(/^\/document(\/.*)$/, [ middleware ]);
+app.get("/", function(req, res) { res.redirect("/document/"); });
+app.get("/document", function(req, res) { res.redirect("/document/"); });
 
 
 /* Pulls in a default error handler (in case requests fall through) but only on dev. */

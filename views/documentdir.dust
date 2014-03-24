@@ -1,0 +1,6 @@
+{>header/}
+<h1>{path}</h1>
+<ul>
+{#files}<li><a href={.path}>{.name}</a></li>{/files}
+</ul>
+{>footer/}
