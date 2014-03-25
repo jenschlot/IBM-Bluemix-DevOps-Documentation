@@ -45,28 +45,41 @@ app.use(express.methodOverride()); // Not sure what this does.
 
 app.use(app.router); // Not 100% sure what this does either.
 
+
+/* Defines an Express middleware for tacking configuration details to a request. */
 var config = require('./config.json');
+var config_middleware = function(req, res, next) {
+	req.config = config;
+	next();
+};
+
 
 /* Set up the routing table.  The actual handlers for routes are in the ./routes directory.
  * index.js in this directory pulls in all of the required routes.
  */
 var routes = require('./routes');
-var middleware = [ 
-	function(req, res, next) {
-		req.config = config;
-		next();
-	},
+
+/* .less files in public/ will be preprocessed before they're served. */
+app.use(require('less-middleware')(path.join(__dirname, 'public')));
+
+
+app.use(express.static(path.join(__dirname, 'public')));
+/* When a request comes in for /document/<something>, tack on configuration
+ * details, resolve the path to the document requested and render it as either
+ * a directory or a markdown file.
+ */
+app.get(/^\/document(\/.*)$/, [ 
+	config_middleware,
 	function(req, res, next) {
 		req.documentPath = path.join(__dirname, 'docs', req.params[0]);
 		next();
 	},
 	routes.documentdir,
-	routes.document
-];
+	routes.documentfile
+]);
+/* If the file is neither markdown nor a directory, just send the file. */
+app.use('/document/', express.static(path.join(__dirname, 'docs')));
 
-app.use(require('less-middleware')(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, 'public')));
-app.get(/^\/document(\/.*)$/, [ middleware ]);
 app.get("/", function(req, res) { res.redirect("/document/"); });
 app.get("/document", function(req, res) { res.redirect("/document/"); });
 

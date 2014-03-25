@@ -11,7 +11,7 @@ module.exports = function (req, res, next) {
 	var fileObjects = [];
 	var i;
 	for(i=0; i<fileNames.length; i++) {
-		fileObjects[i] = { name: fileNames[i], path: path.join(req.path, fileNames[i]) };
+		fileObjects[i] = { name: fileNames[i], path: path.join(req.path, fileNames[i].replace('.md', '')) };
 	}
 
   	res.render('documentdir', { path: req.path, files: fileObjects, jazzhuburl: req.config.jazzhub.url });
