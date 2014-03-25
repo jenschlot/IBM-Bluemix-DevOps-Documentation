@@ -35,6 +35,8 @@ Notice the Git URL field. That is the URL that you are going to use with your Gi
 
 Now it’s time to get code into the project. Click  Edit Code. Select File>Import to import individual files or *.zip compressions. 
 
+Or you can load the repo of starter app code by using the Git command line (clone, unzip, push). Lets use the command line.
+
 ## Create a JazzHub project and add code from a BlueMix starter app
 
 You've just come from BlueMix where you added a a simple Node.JS web server app and ran that app in BlueMix. Since you want to modify the app, your

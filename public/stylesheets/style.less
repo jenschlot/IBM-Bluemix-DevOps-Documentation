@@ -1,12 +1,233 @@
+/******************************************************************************
+	Global String Variables
+******************************************************************************/
+
+@jh-namespace: com-ibm-team-jazzhub;
+
+/******************************************************************************
+	Global Color Variables
+******************************************************************************/
+
+@jh-color-page-background: #747D85;
+@jh-color-link: #02ADD0;
+@jh-color-link-hover: #F47D64;
+
+@jh-color-white: #ffffff;
+@jh-color-dark-grey: #333333;
+@jh-color-very-light-grey: #E0E0E0;
+
+
+/******************************************************************************
+	Global Size Variables
+******************************************************************************/
+
+/* Widths & Heights */
+@jh-min-width: 980px;
+@jh-max-width: 1180px;
+
+/* Base em value for margins/padding (16px base) */
+@jh-base-em: 0.3125;
+@jh-base-px: 16px;
+
+
+
+/******************************************************************************
+	Global Re-usable Classes
+******************************************************************************/
+.footer-padding {
+	padding-bottom: 80px;
+}
+
+.jh-border-box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
 body {
   margin: 0;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 100% Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+
+/******************************************************************************
+	Common Styles
+******************************************************************************/
+
+.rela {
+	position: relative;
 }
 
-.content {
-  margin: 2em;
+.absl {
+	position: absolute;
 }
+
+.fixed {
+	position: fixed;
+}
+
+.f_left {
+	float: left;
+}
+
+.f_right {
+	float: right;
+}
+
+.@{jh-namespace} { /* com-ibm-team-jazzhub */
+	min-height: 100%;
+	background-color: @jh-color-page-background;
+	.footer-padding;
+	.jh-border-box;
+}
+
+	.@{jh-namespace} a {
+	  color: @jh-color-link;
+	  text-decoration: none;
+	  &:hover {
+	  	color: @jh-color-link-hover;
+	  }
+	}
+
+	.@{jh-namespace} .fixed-content,
+	.@{jh-namespace} .fixed-content *,
+	.@{jh-namespace} .fluid-content,
+	.@{jh-namespace} .fluid-content * {
+		.jh-border-box;
+		background-color: @jh-color-white;
+	}
+
+	.@{jh-namespace} .fixed-content {
+		width: @jh-min-width;
+		margin: 0 auto;
+		padding: 0 15px;
+	}
+
+	.@{jh-namespace} .fluid-content {
+		min-width: @jh-min-width;
+		max-width: @jh-max-width;
+		margin: 0 auto;
+		padding: 15px;	
+	}
+
+/******************************************************************************
+	JazzHub Columns
+******************************************************************************/
+
+@jh-number-of-columns: 12;
+
+.com-ibm-team-jazzhub .jh-columns {
+	width: 100%;
+	overflow: hidden;
+	.rela;
+}
+
+.generate-jh-cols(@jh-number-of-columns);
+
+.generate-jh-cols(@n, @i: 1) when (@i =< @n) {
+	.@{jh-namespace} .jh-columns > .jh-col-12-@{i} {
+		.f_left;
+		width: round((@i * (100% / @jh-number-of-columns)), 2);
+	}
+
+	.generate-jh-cols(@n, (@i + 1));
+}
+
+/******************************************************************************
+	 Re-usable margins and padding
+	 Syntax:
+	 	m/p : margin/padding
+	 	t/l/b/r/v/h/a : top/left/bottom/right/vert/horizontal/all
+	 	n/xs/s/m/l/xl: 0, 5, 10, 20, 40, 60 pixels (equivalents of ems below)
+	 Example:
+		class="heading mtxl mbl"
+			Top margin of 3.75em (60px)
+			Bottom margin of 2.5em (40px)
+******************************************************************************/
+
+//Base em value is @jh-base-em
+//@size-list and @em-multipliers must be of equal length
+
+//TODO needs directions for a and v
+@size-list: n, xs, s, m, l, xl, xxl;
+@em-multipliers: 0, 1, 2, 4, 8, 12, 16;
+
+.generateMarginsAndPadding(7);
+.generateMarginsAndPadding(@n, @i: 1) when (@i < @n) {
+	.doGenerateMarginsAndPadding(t, top, extract(@size-list, @i), extract(@em-multipliers, @i));
+	.doGenerateMarginsAndPadding(b, bottom, extract(@size-list, @i), extract(@em-multipliers, @i));
+	.doGenerateMarginsAndPadding(l, left, extract(@size-list, @i), extract(@em-multipliers, @i));
+	.doGenerateMarginsAndPadding(r, right, extract(@size-list, @i), extract(@em-multipliers, @i));
+	.generateMarginsAndPadding(@n, @i + 1);
+}
+
+.doGenerateMarginsAndPadding(@direction, @fulldirection, @size-name, @multiplier) {
+	.m@{direction}@{size-name} {
+		margin-@{fulldirection}: @multiplier * @jh-base-em * 1em;
+	}
+	.p@{direction}@{size-name} {
+		padding-@{fulldirection}: @multiplier * @jh-base-em * 1em;
+	}
+}
+
+
+/******************************************************************************
+	extract Mode (FAQ page as example)
+	Adds the proper margins and padding to heading and paragraph tags
+******************************************************************************/
+
+.com-ibm-team-jazzhub .jh-docmode h1,
+.com-ibm-team-jazzhub .jh-docmode h2,
+.com-ibm-team-jazzhub .jh-docmode h3,
+.com-ibm-team-jazzhub .jh-docmode h4,
+.com-ibm-team-jazzhub .jh-docmode h5,
+.com-ibm-team-jazzhub .jh-docmode h6 {
+	.mtl;
+	.mbxs;
+}
+
+.com-ibm-team-jazzhub .jh-docmode p {
+	margin: (@jh-base-em*2em) 0;
+	color: @jh-color-dark-grey;
+	line-height: 1.4em;
+}
+
+.com-ibm-team-jazzhub .jh-docmode ul {
+	color: @jh-color-dark-grey;
+}
+
+.com-ibm-team-jazzhub .jh-docmode h1 + p,
+.com-ibm-team-jazzhub .jh-docmode h2 + p,
+.com-ibm-team-jazzhub .jh-docmode h3 + p,
+.com-ibm-team-jazzhub .jh-docmode h4 + p,
+.com-ibm-team-jazzhub .jh-docmode h5 + p,
+.com-ibm-team-jazzhub .jh-docmode h6 + p {
+	.mts;
+}
+
+.jh-docmode h1:nth-of-type(1),
+.jh-docmode h2:nth-of-type(1),
+.jh-docmode h3:nth-of-type(1),
+.jh-docmode h4:nth-of-type(1){
+	.mtm;
+}
+
+.jh-docmode hr {
+	margin: (@jh-base-em * 4em) 0;
+}
+
+.jh-docmode ul,
+.jh-docmode ol
+.jh-docmode table {
+	margin: (@jh-base-em * 2em) 0;
+}
+
+.jh-docmode img {
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	border: 1px solid @jh-color-very-light-grey;
+	padding: @jh-base-em*1em;
+	margin: (@jh-base-em*8em) auto;	
+}
+

@@ -2,10 +2,13 @@
 	<head>
 		<title>JazzHub</title>
 		<link rel='stylesheet' href='{jazzhuburl}/embed/css/navbar'></link>
-		<link rel='stylesheet' href='/stylesheets/style.css'></link>
+		<link rel='stylesheet' href='/stylesheets/style.css'></link>		
 	</head>
 	<body>
-		<div id='navbar'></div>
-		<script src='{jazzhuburl}/embed/js/navbar?e=navbar&navSelection=help'></script>
-		
-		<div class='content'>
+		<div class="com-ibm-team-jazzhub">
+			<div id='navbar'></div>
+			<script src='{jazzhuburl}/embed/js/navbar?e=navbar&navSelection=help'></script>
+			
+
+			<div class='content fluid-content'>
+				<div class="fixed-content jh-docmode">
