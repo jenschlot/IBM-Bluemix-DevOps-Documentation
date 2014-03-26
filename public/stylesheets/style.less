@@ -11,6 +11,7 @@
 @jh-color-page-background: #747D85;
 @jh-color-link: #02ADD0;
 @jh-color-link-hover: #F47D64;
+@jh-default-text: #26343F;
 
 @jh-color-white: #ffffff;
 @jh-color-dark-grey: #333333;
@@ -77,6 +78,10 @@ body {
 .@{jh-namespace} { /* com-ibm-team-jazzhub */
 	min-height: 100%;
 	background-color: @jh-color-page-background;
+	color: @jh-default-text;
+	margin: 0;
+	padding: 0;
+	z-index: 0;
 	.footer-padding;
 	.jh-border-box;
 }
@@ -176,47 +181,43 @@ body {
 	Adds the proper margins and padding to heading and paragraph tags
 ******************************************************************************/
 
+
 .com-ibm-team-jazzhub .jh-docmode h1,
 .com-ibm-team-jazzhub .jh-docmode h2,
 .com-ibm-team-jazzhub .jh-docmode h3,
 .com-ibm-team-jazzhub .jh-docmode h4,
 .com-ibm-team-jazzhub .jh-docmode h5,
 .com-ibm-team-jazzhub .jh-docmode h6 {
-	.mtl;
-	.mbxs;
+	.mtm;
+	.mbm;
+}
+
+.jh-docmode h1:nth-of-type(1) {
+	.mtm; // First heading1 on page (title)
+	.mbs;
 }
 
 .com-ibm-team-jazzhub .jh-docmode p {
-	margin: (@jh-base-em*2em) 0;
-	color: @jh-color-dark-grey;
+	.mtm;
+	.mbm;
 	line-height: 1.4em;
 }
 
 .com-ibm-team-jazzhub .jh-docmode ul {
-	color: @jh-color-dark-grey;
-}
-
-.com-ibm-team-jazzhub .jh-docmode h1 + p,
-.com-ibm-team-jazzhub .jh-docmode h2 + p,
-.com-ibm-team-jazzhub .jh-docmode h3 + p,
-.com-ibm-team-jazzhub .jh-docmode h4 + p,
-.com-ibm-team-jazzhub .jh-docmode h5 + p,
-.com-ibm-team-jazzhub .jh-docmode h6 + p {
-	.mts;
-}
-
-.jh-docmode h1:nth-of-type(1),
-.jh-docmode h2:nth-of-type(1),
-.jh-docmode h3:nth-of-type(1),
-.jh-docmode h4:nth-of-type(1){
 	.mtm;
+	.mbm;
+	li {
+		margin: (@jh-base-em*2em) 0;
+	}
 }
 
 .jh-docmode hr {
-	margin: (@jh-base-em * 4em) 0;
+	.mtn;
+	.mbn;
+	border: none;
+	border-top: 1px solid @jh-color-very-light-grey;
 }
 
-.jh-docmode ul,
 .jh-docmode ol
 .jh-docmode table {
 	margin: (@jh-base-em * 2em) 0;
@@ -229,5 +230,14 @@ body {
 	border: 1px solid @jh-color-very-light-grey;
 	padding: @jh-base-em*1em;
 	margin: (@jh-base-em*8em) auto;	
+}
+
+#navbar {
+	margin: 0;
+	padding: 0;
+}
+
+.-jazzhub-navbar .button {
+	line-height: 50px;
 }
 
