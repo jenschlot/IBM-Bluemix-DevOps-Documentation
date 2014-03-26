@@ -3,9 +3,9 @@
 If you started at BlueMix with a starter app, you've used command line tools to modify your code 
 and push it to the repository, but you can also use the JazzHub editor to change the code. 
 
-If you go back to the JazzHub project page, you can see a button labelled Edit Code. 
+If you go back to the JazzHub project page, you can see a button labelled **Edit Code**. 
 Clicking this button, takes you to a complete online integrated development environment (IDE), 
-based on the work of the Orion open source project. Here's what it looks like open on our example project:
+based on the work of the Orion open source project. Here's what it looks like open for our example project:
 
 >	![JazzHub editor](../images/guidebm/jazzhubeditor.jpg) 
 
@@ -20,7 +20,7 @@ and then simply edit in place.
 
 >	![JazzHub editor code change](../images/guidebm/jazzhubeditorcodechg.jpg) 
 
-You can then use the integrated Git support to push the change. Read on at [push code from JazzHub](../Deploy/pushfromjh).
+You can then use the integrated Git support to push the change. Read on at [push changes from the JazzHub editor](../Deploy/pushfromjh).
 
 ## Run Git commands from the Jazzhub editor shell
 
