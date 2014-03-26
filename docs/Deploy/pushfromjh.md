@@ -1,6 +1,13 @@
 # Deploy to BlueMix 
 
-Talk about deployment options and what they mean and why you want to use each.
+You can auto-deploy app changes to BlueMix. Because BlueMix is based on CloudFoundry, it is also possible to 
+manually deploy apps directly to BlueMix using the standard cf and gcf command line tools. Similarly, 
+in the JazzHub web IDE, you can click **Deploy** to directly deploy whatever you are working on to BlueMix.
+
+In both cases, this can be an effective way to work when you are doing rapid, solo development, 
+but for many of you, the added security of having auto-deploy control of what is being pushed, 
+is a better way to go. In essence, by using auto-deploy you always know that the code running in the application 
+matches some known state in the repository, instead of whatever happened to be in your working directory at the time you pushed.
 
 ***
 ## Deploy automatically from the JazzHub auto-deployment page  
