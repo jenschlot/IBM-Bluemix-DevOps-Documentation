@@ -11,10 +11,13 @@
 @jh-color-page-background: #747D85;
 @jh-color-link: #02ADD0;
 @jh-color-link-hover: #F47D64;
+@jh-color-footer-background: #EDF1F4;
 
 @jh-color-white: #ffffff;
 @jh-color-dark-grey: #333333;
 @jh-color-very-light-grey: #E0E0E0;
+@jh-color-smoky-black: #26343F;
+@jh-separator-color: #B3B3B3;
 
 
 /******************************************************************************
@@ -34,10 +37,6 @@
 /******************************************************************************
 	Global Re-usable Classes
 ******************************************************************************/
-.footer-padding {
-	padding-bottom: 80px;
-}
-
 .jh-border-box {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -77,7 +76,6 @@ body {
 .@{jh-namespace} { /* com-ibm-team-jazzhub */
 	min-height: 100%;
 	background-color: @jh-color-page-background;
-	.footer-padding;
 	.jh-border-box;
 }
 
@@ -86,6 +84,7 @@ body {
 	  text-decoration: none;
 	  &:hover {
 	  	color: @jh-color-link-hover;
+	  	text-decoration: underline;
 	  }
 	}
 
@@ -100,15 +99,67 @@ body {
 	.@{jh-namespace} .fixed-content {
 		width: @jh-min-width;
 		margin: 0 auto;
-		padding: 0 15px;
+		padding: 15px;
 	}
 
 	.@{jh-namespace} .fluid-content {
 		min-width: @jh-min-width;
 		max-width: @jh-max-width;
 		margin: 0 auto;
-		padding: 15px;	
 	}
+	
+	@{jh-namespace} .content-box {
+		padding: 0 15px;
+	}
+	
+	.@{jh-namespace} .footer,
+	.@{jh-namespace} .footer * {
+		background-color: @jh-color-footer-background;
+	}
+	
+	.@{jh-namespace} .footer {
+		overflow: hidden;
+		.jh-border-box;
+		padding: 0 20px 0 20px;
+		height: 80px;
+		color: @jh-color-smoky-black;
+		.left {
+			.f_left;
+			margin: 23px 0 0 0; 
+		};
+		.right {
+			.f_right;
+			margin: 16px 0 0 0;
+		};
+		.center {
+			width: 500px;
+			margin: 0 auto;
+			.content-links-area {
+				margin: 30px 0 0 0;
+				.text-links {
+					.f_left;
+					text-align: center;
+					.separator {
+						width: 1px;
+						height: 20px;
+						background-color: @jh-separator-color;
+						margin: 0 1.25em;
+						display: inline-block;
+						vertical-align: bottom;
+					}
+				}
+				.twitter-site {
+					.f_left;
+					margin: 1px 1.25em 0 1.25em;
+				}
+				.facebook-site {
+					.f_left;
+					margin: 1px 0 0 0;
+				}
+			}
+		};
+	}
+	
 
 /******************************************************************************
 	JazzHub Columns

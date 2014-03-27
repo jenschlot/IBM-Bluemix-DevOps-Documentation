@@ -1,5 +1,56 @@
+					</div>		
 				</div>
-			</div>
+				
+				<div id="footer" class="footer">
+				
+					<!-- Left -->
+				
+					<div class="left">
+						<a href="http://www.ibm.com"><img class="ibm-image" src="/images/footer/IBM-Logo.png" alt="IBM"></a>
+					</div>
+					
+					<!-- Right -->
+				
+					<div class="right">
+						<a href="${jazzhuburl}"><img class="jazzhub-image" src="/images/footer/JazzHub-Color-Logo.png" alt="Jazz"></a>
+					</div>
+					
+					<!-- Middle -->
+					
+					<div class="center">
+				
+						<!-- Content links Area -->
+				
+						<div class="content-links-area">
+				
+							<div class="text-links">
+								<a href="${jazzhuburl}terms">Terms of Use</a>
+								<span class="separator"></span>
+								<!-- TODO: Update link. Placeholder for now. This is not the proper feedback link -->  
+								<a href="https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.workitem.viewWelcome">Feedback</a>
+							</div>
+						
+							<div class="twitter-site">
+								<a href="https://twitter.com/JazzHub" class="twitter-follow-button" data-show-count="false">Follow @JazzHub</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+							</div>
+					
+							<div id="facebook-site" class="facebook-site">
+								<div class="fb-like" data-href="https://www.facebook.com/jazzhub" data-width="450" data-layout="button_count" data-show-faces="false" data-ref="jazzhub-footer" data-send="false"></div>
+								<div id="fb-root"></div>
+								<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+							</div>
+				
+						</div>
+					 
+						<!-- Unsupported Browser Message Area -->
+					 
+						<div id="browser-support" class="browser-support"></div>
+							
+					</div>
+				</div>						
+						
+			</div>			
 		</div>
 	</body>
 </html>
