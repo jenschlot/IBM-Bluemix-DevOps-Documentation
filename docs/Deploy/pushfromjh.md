@@ -12,6 +12,7 @@ matches some known state in the repository, instead of whatever happened to be i
 ***
 ## Deploy automatically from the JazzHub auto-deployment page  
 
+### Check the auto-deployment page for the BlueMix starter app 
 You've just pushed the BlueMix starter app code to your Git hosted repo on JazzHub. 
 When you created a JazzHub project you set auto-deployment on. 
 Now, let's check the auto-deployment page, you see something like this image: 
@@ -30,8 +31,17 @@ everything started working.
 So, now let's change your app source code and see what happens. And let's use the command line to do that.
 Read on at [edit code with the Git command line](../Edit/editgitcmdline).  
 
+### Turn on auto-deployment for the Sentiment Analysis app
+So far you have pushed changes to your remote repo but you want to trigger a deployment automatically every time code gets pushed there. 
+To set that up, you turn on auto-deployment. You do this by going to the AUTO-DEPLOYMENT tab on the project page 
+and clicking the **ON** button. Clicking the **REFRESH** button shows you the status of your deployment in the Recent Auto-Deployments section. 
+Upon successful deployment, a link to the deployed application is displayed beside the **Deploy to application** field on the page.
+
+>	![JazzHub turn auto deploy on page](../images/guidejhwebide/jazzhubturnautodeployonsentimentapp.jpg)
+
 ## Push changes from the JazzHub editor  
 
+### Push changes for the BlueMix starter app 
 You've just made changes to your BlueMix starter app code by using the JazzHub editor. 
 You can then use the integrated Git support to push the change.
 
@@ -56,10 +66,27 @@ And then, finally, you can see once again that your app was updated.
 
 >	![BlueMix running app changed again](../images/guidebm/bluemixrunningappchangedagain.jpg)
 
-If auto-deployment is on, your changes are automatically deployed to BlueMix.  If auto-deployment is off, you
-can manually deploy your changes (see the next section) or you can turn auto-deployment on for you project by changing
-your project settings (coming soon).
+If auto-deployment is on, your changes are automatically deployed to BlueMix.  
 
+### Push changes for the JazzHub Sentiment analysis app
+You've started your JazzHub app work by changing the sentiment analysis app and then forking that app to your
+own JazzHub project.  You want to share your changes with other users of the project 
+so let's push them from your local repo to the remote repo. 
+First you go to the Git Status page in the code editor and stage the app.js file.
 
+>	![Git status page](../images/guidejhwebide/jazzhubgitstatuspageforsentimentapp.jpg)
+
+Next, you click **COMMIT**, enter a commit message and click **Submit**. 
+This backs up your changes to your local repository.
+
+>	![Git commit](../images/guidejhwebide/jazzhubgitcommitsentimentapp.jpg)
+
+Clicking **PUSH** pushes the changes to the remote project repo.
+
+>	![Git push](../images/guidejhewebide/jazzhubgitpushsentimentapp.jpg)
+
+But wait, how do you get your changes automatically deployed to BlueMix. You can use the JazzHub
+auto-deployment feature. Read on at [Turn on auto-deployment for the Sentiment Analysis app](pushfromjh) 
+ 
 ## Deploy manually from the JazzHub editor  
 
