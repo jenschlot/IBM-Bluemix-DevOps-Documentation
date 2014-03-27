@@ -1,5 +1,15 @@
 # Develop code from a BlueMix starter app 
-* [Create an app from a NodeJS Web Starter Boilerplate](../Projects/starterapp)
-* [Create a JazzHub project [Git repo and auto-deploy) to contain the starter app](../Projects/createproject)
-* [Edit code with the Web IDE](../Edit/editjheditor)
-* [Push changes by using the JazzHub editor](../Deploy/pushfromjh)
+Start with this guide if you want to build an app from a BlueMix
+starter app, host the code in a Git repo hosted on JazzHub, and automatically deploy
+the app to BlueMix. Click the first link to start creating your BlueMix app now.
+
+1. [Create an app from a NodeJS Web Starter Boilerplate](../Projects/starterapp)
+2. [Create a JazzHub project to contain the starter app](../Projects/createproject)
+3. [Deploy automatically the starter app to BlueMix](../Deploy/pushfromjh)
+4. [Edit code by using the Git command line](../Edit/editgitcmdline)
+5. [Edit code with the JazzHub editor](../Edit/editjheditor)
+6. [Push changes by using the JazzHub editor](../Deploy/pushfromjh)
+
+So that's all there is to it. In a few steps you created a new app from a BlueMix starter app, loaded it 
+in to a Git repo hosted at JazzHub, then changed and pushed the code with the Git command line and
+JazzHub editor. With auto-deployment on you saw your app changes automatically deployed to BlueMix. 

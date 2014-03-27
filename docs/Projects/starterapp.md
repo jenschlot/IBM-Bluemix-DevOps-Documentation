@@ -8,7 +8,7 @@ as well as capabilities from ecosystem partners and open source,
 all through an as-a-service model in the cloud.
 
 If you haven't already done so, the first step to use these capabilities is to register. 
-There is lots of information about registering and signing in here. (Register and sign article link)
+Take a look at [Register or sign in at JazzHub and BlueMix](../Setup/registerandsignin).
 
 Once you've registered, there is lots of helpful information available on the Codename BlueMix site, such as ...
 
@@ -66,41 +66,7 @@ If you go back to your Codename BlueMix Dashboard, and click the tile for the ap
 
 >	![Bluemix app view guide](../images/guidebm/bluemixappviewgde.jpg)
 
-This guide shows simple ways to interact with the app directly on BlueMix, but since your going to use auto-deploy to work with the code, the part you care about is the link labelled **Download the starter application package**. Clicking that link gives you a zip of the code for your application.
+This guide shows simple ways to interact with the app directly on BlueMix, but since you're going to use auto-deploy to work with the code, the part you care about is the link labelled **Download the starter application package**. Clicking that link gives you a zip of the code for your application.
 
-Ok, you've got a zip of the app code, but where can you store that code so you can work with it. Your ready
-to create a repo and a JazzHub project provides that. Read on at [create a project for a bluemix app](createproject) to learn more. 
-
-## Load your repo with starter app code by using the Git command line (clone, unzip, push)
-
-So, now you have a repository to hold your code, and a zip file to put in it. Lots of tools can be used to work with Git, including all of the major desktop IDEs and even directly from the web using the JazzHub IDE (which we'll talk about later) but for now let's just use the command line Git support.
-
-First you clone the repository using the URL from the JazzHub auto-deploy page:
-
-	git clone https://hub.jazz.net/git/amadeus/MyCoolWebApp
-
-Then you unzip the contents of the zip file into that directory.
-
-	unzip  /Users/mcq/downloads/mycoolwebapp.zip
-
-And finally you apply some standard Git magic to push the contents into the repository at JazzHub. First commit the changes to the local clone.
-
-	git add *
-
-	git commit -m "Committing the initial sample code"
-
-And then push them to the remote repository. If you get prompted for your credentials, just enter your JazzHub ID and password.
-
-	git push
-	
-Now, this is where it starts to get interesting! If you go back to JazzHub and check the auto-deployment page, you'll see the results
-of your commit and a message about a missing manifest file.  
-So lets go and check that out at [push changes automatically from the JazzHub auto-deployment page](../Deploy/pushfromjh)  
-
-
-
-Next steps (reference other articles)
-- change code and push changes using
-Git command line; view running code from BM
-- change code and push changes using JazzHub editor 
-(Web IDE)
+Ok, you've got a zip of the app code, but where can you store that code so you can work with it. You're ready
+to create a repo and a JazzHub project provides that. Do that at [create a project for a bluemix app](createproject). 
