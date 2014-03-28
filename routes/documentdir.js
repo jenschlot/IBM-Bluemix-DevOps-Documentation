@@ -8,12 +8,22 @@ module.exports = function (req, res, next) {
 		return;
 	}
 
-	var fileObjects = [];
-	var i;
-	for(i=0; i<fileNames.length; i++) {
-		fileObjects[i] = { name: fileNames[i], path: path.join(req.path, fileNames[i].replace('.md', '')) };
-	}
+	var indexDoc = path.join(req.documentPath, 'index.md');
 
-  	res.render('documentdir', { path: req.path, files: fileObjects, jazzhuburl: req.config.jazzhub.url });
+	fs.exists(indexDoc, function(exists) {
+		if (exists) {
+			req.documentPath = indexDoc;
+			next();
+			return;
+		}
+
+		var fileObjects = [];
+		var i;
+		for(i=0; i<fileNames.length; i++) {
+			fileObjects[i] = { name: fileNames[i], path: path.join(req.path, fileNames[i].replace('.md', '')) };
+		}
+
+		res.render('documentdir', { path: req.path, files: fileObjects, jazzhuburl: req.config.jazzhub.url });
+	});
   });
 };
