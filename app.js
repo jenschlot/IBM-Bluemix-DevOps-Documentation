@@ -74,7 +74,6 @@ app.get(/^\/document(\/.*)$/, [
 		req.documentPath = path.join(__dirname, 'docs', req.params[0]);
 		next();
 	},
-	routes.documentdirindex,
 	routes.documentdir,
 	routes.documentfile
 ]);
