@@ -86,7 +86,7 @@ Clicking **PUSH** pushes the changes to the remote project repo.
 >	![Git push](../images/guidejhewebide/jazzhubgitpushsentimentapp.jpg)
 
 But wait, how do you get your changes automatically deployed to BlueMix. You can use the JazzHub
-auto-deployment feature. Read on at [Turn on auto-deployment for the Sentiment Analysis app](pushfromjh) 
+auto-deployment feature. Read on at [Turn on auto-deployment for the Sentiment Analysis app](pushfromjh). 
  
 ## Deploy manually from the JazzHub editor  
 
