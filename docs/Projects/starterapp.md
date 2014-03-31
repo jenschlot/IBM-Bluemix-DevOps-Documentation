@@ -1,6 +1,4 @@
 # Start coding with a BlueMix starter app
-
-***
 Codename BlueMix is an open-standards, cloud-based platform for building, 
 managing and running apps of all types (web, mobile, big data, new smart devices). 
 Capabilities include Java, mobile backend development, application monitoring, 
@@ -10,13 +8,13 @@ all through an as-a-service model in the cloud.
 If you haven't already done so, the first step to use these capabilities is to register. 
 Take a look at [Register or sign in at JazzHub and BlueMix](../Setup/registerandsignin).
 
-Once you've registered, there is lots of helpful information available on the Codename BlueMix site, such as ...
+Once you've registered, there is lots of helpful information available on the Codename BlueMix site, such as
 
 * Getting Started with BlueMix
 * BlueMix Overview
 -and a range of Tutorials
 
-... but if you're like us and prefer to try things rather than read about them, just follow along 
+but if you're like us and prefer to try things rather than read about them, just follow along 
 while we build a new app.
 
 ## Create an app from a NodeJS Web Starter Boilerplate
