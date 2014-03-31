@@ -77,26 +77,3 @@ And then push them to the remote repository. If you get prompted for your creden
 	
 Now, this is where it starts to get interesting! If you go back to JazzHub and check the auto-deployment page, you'll see the results
 of your commit and a message about a missing manifest file. So lets go and check that out at [push changes automatically from the JazzHub auto-deployment page](../Deploy/pushfromjh).  
-
-
-***
-## Create a JazzHub project and add code with Eclipse
-
-* Create an application manifest
-* Connect RTC with the Git repo hosted at JazzHub
-
-* Next steps
-* Update the app Make a change and push it Accept a teammate's change
-* Connect to BlueMix using the Cloud Foundry plug-in
-* Push the app to BlueMix
-
-***
-## Create a JazzHub project and add code with the JazzHub editor
-
-* Create an application manifest
-* Update the app
-
-* Next steps:
-* Push the app to BlueMix from the JazzHub editor
-* Push the app to BlueMix from the JazzHub auto-deployment page
-

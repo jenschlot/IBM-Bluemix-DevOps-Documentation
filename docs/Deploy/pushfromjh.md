@@ -1,4 +1,4 @@
-# Deploy to BlueMix 
+# Push changes to BlueMix from the Web IDE
 
 You can auto-deploy app changes to BlueMix. Because BlueMix is based on CloudFoundry, it is also possible to 
 manually deploy apps directly to BlueMix using the standard cf and gcf command line tools. Similarly, 

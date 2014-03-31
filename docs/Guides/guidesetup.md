@@ -1,4 +1,4 @@
-# Setting up Eclipse, Git, and RTC Desktop Clients for use with JazzHub 
+# Set up Eclipse, Git, and RTC Desktop Clients for use with JazzHub 
 JazzHub lets you decide how you code. Want to get started right away? This guide helps you set up the client 
 that's best for you.
 
