@@ -7,5 +7,11 @@ the app to BlueMix. Click the first link to start creating your JazzHub Java app
 1. [Fork code from a JazzHub project (Twitter Influence Analyzer Java app)](../Projects/forkproject)
 2. [Push changes by using the JazzHub editor](../Deploy/pushfromeclipse)
 
-You've just seen how easy it is to develop and deploy a BlueMix application with Eclipse and JazzHub.
+You've just seen how easy it is to develop and deploy a BlueMix application with Eclipse and JazzHub. If
+you want to, you can invite others to join your Twitter Influence Analyzer project and 
+you can also push app changes and have a team member accept those changes. 
+
+* [Optional: Invite others to join your project](../Collaborate/invite)
+* [Optional: Share your app code with teammates](../sharecode)
+
 

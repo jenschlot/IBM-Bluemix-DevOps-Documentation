@@ -1,6 +1,7 @@
 # Share code changes from Eclipse
-You can update your application that is in a Git repo hosted at JazzHub and then push those changes so that your teammates have them. 
-The following instructions explain how to complete those tasks from Eclipse.
+You can update your application and then push those changes so that your teammates have them. 
+The following instructions explain how to complete those tasks from Eclipse when you have your source
+code in a Git repo hosted at JazzHub.
 
 This procedure is more effective if you complete it with a partner, so the steps are divided between Partner A and Partner B.
 
@@ -9,48 +10,34 @@ This procedure is more effective if you complete it with a partner, so the steps
 Partner A completes these steps:
 
 Application source code is contained in your JazzHub project. You must commit the code into Eclipse to edit it. 
-1. In Eclipse, click Window > Show View> Project Explorer. 
-Screenshot: Project Explorer
-
-2. In the Project Explorer view, double-click the hosted Git application to expand its contents. Double-click the WebContent folder. 
-3. Select the WEB-INF folder. Right-click and select New > File. 
-Screenshot: new file
-
+1. In Eclipse, click **Window > Show View> Project Explorer**. 
+2. In the Project Explorer view, double-click the hosted Git application to expand its contents. 
+Double-click the **WebContent** folder. 
+3. Select the **WEB-INF** folder. Right-click and select **New > File**. 
 4. In the New File window, name your file and click Finish. 
-Screenshot: New name
-
-5. Edit your file and save it by clicking File > Save. 
-
+>	![Add file](../images/guidejheclipse/eclipseaddfile.jpg)
+5. Edit your file and save it.
 6. Select the project in the Project Explorer view.
-7. Right-click and select Team > Commit. This backs up your changes in the local respository for the project. 
-Screenshot: Commit
-
+7. Right-click and select **Team > Commit**. This backs up your changes in the local respository for the project. 
+>	![Commit from Eclipse](../images/guidejheclipse/eclipsegitcommit.jpg)
 8. If prompted, enter your Jazz user ID and email. 
-Screenshot: Jazz.net Username and Email
-
 9. When prompted, enter a commit message. 
-Screenshot: Commit Message
-
-10. Right-click and select Team > Push to Upstream. This backs up the changes to the remote repository for the project. 
-Screenshot: Push to upstream
-
-11. If prompted, enter your jazz.net credentials and click OK. 
-Screenshot: Credentials
-
-12. Click OK again. The changes that you made should be in the repository. 
-Screenshot: Review results
+>	![Commit msg](../images/guidejheclipse/eclipsegitmsg.jpg)
+10. Right-click and select **Team > Push to Upstream**. This backs up the changes to the remote repository for the project. 
+11. If prompted, enter your jazz.net credentials and click **OK**. 
+12. Click **OK** again. The changes that you made should be in the repository. 
+>	![Push results](../images/guidejheclipse/eclipsepushresults.jpg)
 
 ## Accept your teammate’s changes from Eclipse
 
 Partner B completes these steps: 
-1. In Eclipse, select Window > Show View. Click Project Explorer.
+1. In Eclipse, select **Window > Show View**. Click Project Explorer.
 2. In the Project Explorer view, right-click the hosted Git application.
-3. Select Team > Pull. 
-Screenshot: Pull
+3. Select **Team > Pull**. 
 4. In the Pull Result window, review the commits that were pulled and click OK. 
-Screenshot: Review commits
+>	![Pull result](../images/guidejheclipse/eclipsepullresult.jpg)
 
-You edited an application and pushed the updates to your teammates.  
+You edited an application in a Git repo hosted on JazzHub and pushed the updates to your teammates.  
 
 ***
 # Share code changes from the JazzHub Web IDE 
