@@ -1,6 +1,6 @@
 # Edit code from the JazzHub code editor
 
-If you started at BlueMix with a starter app, you've used command line tools to modify your code 
+If you started at BlueMix with a starter app, you've used [Git command line tools to modify your code](editgitcmdline) 
 and push it to the repository, but you can also use the JazzHub editor to change the code. 
 
 If you go back to the JazzHub project page, you can see a button labelled **Edit Code**. 

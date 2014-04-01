@@ -36,7 +36,7 @@ demonstrates the IBM DataCache Service. Let's try it!
 At this point, you are just two clicks away from having a running application:
 
 1. Click **CREATE APPLICATION**
-2. In the Create application window, fill in the **App name** and **Host** fields, and click **CREATE**.
+2. In the Create application window, give the app and host each a name, and click **CREATE**.
 
 >	![Bluemix create app](../images/guidebm/bluemixcreateapp.jpg)
 
@@ -67,4 +67,4 @@ If you go back to your Codename BlueMix Dashboard, and click the tile for the ap
 This guide shows simple ways to interact with the app directly on BlueMix, but since you're going to use auto-deploy to work with the code, the part you care about is the link labelled **Download the starter application package**. Clicking that link gives you a zip of the code for your application.
 
 Ok, you've got a zip of the app code, but where can you store that code so you can work with it. You're ready
-to create a repo and a JazzHub project provides that. Do that at [create a project for a bluemix app](createproject). 
+to create a repo and a JazzHub project provides that. Do that at [create a project for a bluemix app](createproject#projectforbluemixstarter). 

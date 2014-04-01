@@ -1,6 +1,8 @@
 # Edit code with the Git command line
 
-You started at BlueMix with a starter app and have loaded the app code into a Git hosted repo at JazzHub.
+You started at BlueMix with a starter app and have loaded the app code into a Git hosted repo at JazzHub. You just finished checking
+the [auto-deployment page at JazzHub to see how auto-deployment works]((../Deploy/pushfromjh#autodeploybluemixstarterapp).  
+).
 You now want to edit that code with the Git command line.
 In the views folder there's a file called index.ejs. This file implements the main page from the example. 
 If you change this file, for example, by modifying the title that is displayed, and then do another git push, like this image:

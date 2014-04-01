@@ -7,7 +7,7 @@ about getting servers and installing software.
 
 So, if you haven't already done so, the first step to use these capabilities is to register. 
 
-If you are registered, and want to sign in, then skip to Sign in.
+If you are registered, and want to sign in, then skip to Sign in to JazzHub or Sign in to BlueMix.
 
 ***
 ## Register at JazzHub 
@@ -18,13 +18,13 @@ If you do not already have a Jazz user ID, you can register for one now.
 2. Click the button to register.
 3. Complete the form. Make note of your user ID and password. Agree to the terms of use, and click **Register**.
 
-You have registered at JazzHub, next register at Codename BlueMix. 
+You have registered at JazzHub, next register at BlueMix. 
 
 ***
 ## Register at BlueMix 
 You can use your IBM ID, and password to sign in to both BlueMix and many other
 IBM resources such as IBM applications, services, communities, support, and on-line purchasing.
-To recap, if you want to use the deployment capability provided by BlueMix, you must register at BlueMix. 
+If you want to use the deployment capability provided by BlueMix, you must register at BlueMix. 
 If you do not already have an IBM ID, you can register for one now.
 
 1. Go to https://ace.ng.bluemix.net/
@@ -32,7 +32,7 @@ If you do not already have an IBM ID, you can register for one now.
 3. Complete the form. Make note of your user ID and password. Agree to the terms of use, and click **Register**.
 4. When you access the Codename BlueMix site, you accept the terms and provide a reason why you want to join the beta. For the reason use JazzHub tutorial to help us track the use of the beta with our tutorials.
 
-You have registered at CodeName BlueMix, next sign in.
+You have registered at BlueMix, next sign in.
 ***
 ## Sign in to JazzHub 
 Use your Jazz ID to sign in to JazzHub.
