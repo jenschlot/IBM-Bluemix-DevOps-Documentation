@@ -7,8 +7,8 @@
 * Share your JazzHub project 
 ***
 ## Setup
-* [Register and sign in at JazzHub and Bluemix](../Setup/registerandsignin)
-* [Code with Eclipes plug-ins](../Setup/eclipseclient)
+* [Register and sign in at JazzHub and Bluemix](Setup/registerandsignin)
+* [Code with Eclipse plug-ins](../Setup/eclipseclient)
 * [Connect with a command line](../Setup/commandline)
 * [Code with Visual Studio](../Setup/visualstudio)
 ***
