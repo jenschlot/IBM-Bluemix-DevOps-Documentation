@@ -36,7 +36,7 @@
 * [Add a BlueMix service](Edit/addbmservice)
 ***
 ## Collaborate
-* [Invite others](Collaborate/invite)
+* [Show off your work](Collaborate/invite)
 * [Share code](Collaborate/sharecode)
 * [Manage members](Collaborate/managembrs)
 ***

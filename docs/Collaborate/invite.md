@@ -1,4 +1,4 @@
-# Show off yor work
+# Show off your work
 You can invite other people to join and collaborate on your project.
 
 **Note**: If you are working as a team, only one person on your team needs to invite teammates to join it.

@@ -1,3 +1,4 @@
+<a id="startcodinginaproject"></a>
 # Start coding in a new JazzHub project 
 
 There are a lot of ways you can work with your application code, but one of the slickest is to use something called auto-deploy. 
@@ -17,10 +18,10 @@ If you want to know more about JazzHub, you can start by reading the information
 but since you're like us and prefer to try things rather than read about them, let's do something with JazzHub.
 
 To start you must register at JazzHub. Take a look at [Register or sign in at JazzHub and BlueMix](../Setup/registerandsignin).
-After registration or signing in, you always end up at the JazzHub My Stuff page. From there, you can click **CREATE PROJECT** and fill in the details. 
+After registering or signing in, you always end up at the JazzHub My Stuff page. From there, you can click **CREATE PROJECT** and fill in the details. 
 Most of it is a personal choice, but there are are two important options. The first is the repo to use to manage your source code and the second is the option to deploy your app to BlueMix. 
 
-JazzHub provides hosted Jazz SCM and Git repos and also allows you to connect to an existing GitHub repo. If you choose hosted Git and you plan on using the Git command line or another Git client, you’ll need the Git Repository URL. The repository URL is shown on this page and is also  available later on your project’s pages.
+JazzHub provides hosted Jazz SCM and Git repos and also lets you connect to an existing GitHub repo. If you choose hosted Git and you plan on using the Git command line or another Git client, you’ll need the Git Repository URL. The repository URL is shown on this page and is also  available later on your project’s pages.
 Or, if you have source code in a project at GitHub, you can choose GitHub as an option and specify the URL to your GitHub repository.
 
 In addition to enabling auto-deploy for the project, choosing the option to deploy to BlueMix configures the project with other capabilities that are useful for BlueMix development — more about that later.
@@ -41,7 +42,7 @@ You can copy it now, or come back to this page later.
 You've just come from [BlueMix where you added a simple Node.JS web server app](starterapp) and ran that app in BlueMix. Since you want to modify the app, your
 next step is to create a JazzHub project to hold the app code. 
 
-Read about JazzHub projects and how to create one in the previous section, but be sure to choose a Git hosted repo 
+[Read about JazzHub projects and how to create one](#startcodinginaproject) in the previous section, but be sure to choose a Git hosted repo 
 
 >	![Git hosted repo](../images/guidebm/jazzhubrepos.jpg)
 
@@ -52,7 +53,8 @@ and the option to deploy the app to BlueMix.
 
 Now it’s time to add the starter code into the project. 
 You have a couple of choices. You can click **Edit Code** and select from the **File** menu to import individual files or *.zip files. 
-Or you can use the Git command line to load your repo. Let's use the command line. 
+Or you can use the Git command line to load your repo. 
+[Let's use the command line](#loadrepoforbluemixstarter]. 
 
 <a id="loadrepoforbluemixstarter"></a>
 ### Load your repo with the starter app code by using the Git command line (clone, unzip, push)
