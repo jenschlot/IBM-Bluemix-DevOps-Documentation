@@ -60,7 +60,7 @@ If you look at the **Team Artifacts** tab,you'll see the new Repository Connecti
 So your connected to your Jazz SCM repo hosted at JazzHub from Eclipse, what's next.  Load your
 code from repo so you can work with the code from Eclipse.  
 
-#### Load code into Eclipse from Jazz SCM
+### Load code into Eclipse from Jazz SCM
 Your JazzHub project uses a Jazz SCM repo for source control and you want to load that code into Eclipse. 
 
 First you want to create a repo workspace. That's easy to do. Right-click **My Repository Workspaces** and
@@ -84,60 +84,78 @@ You have created a repo workspace and loaded code.
 Now you can use the Package or Project Explorer to browse the loaded files, open a file, and edit code. 
 >	![Project files view](../images/guidesetup/setupprojfilesview.jpg)
 
+If you want to deploy to the IBM Cloud platform also known as BlueMix, then you'll want to install the Cloud
+Foundry Eclipse plug-in too. Let's do that next.
+
 <a id="cf"></a>
 ## Cloud Foundry Eclipse plug-in
-You use the Cloud Foundry Eclipse plug-in to connect to Codename BlueMix.
-1. In Eclipse, click **Help > Eclipse Marketplace**. 
-2. In the Eclipse Marketplace window, in the **Find** field, 
-enter Cloud Foundry Integration for Eclipse, and click the search icon.
+You use the Cloud Foundry Eclipse plug-in to connect to Codename BlueMix. 
+
+In Eclipse, go to the Help menu and find the option to get to the Eclipse marketplace. Next you want to
+find the plug-in with the name Cloud Foundry Integration for Eclipse, so type that search string 
+and click the search icon.
 >	![Cloud Foundry](../images/guidesetup/setupcffind.jpg)
-3. After the results are displayed, in the section for Cloud Foundry Integration for Eclipse 1.5.1, click **Install**.
+
+After the results are displayed, click **Install**.
 >	![Cloud Foundry confirm](../images/guidesetup/setupcfplugin.jpg)
-4. On the Confirm Selected Features page, clear the **GoPivotal, Inc. UAA Integration (optional)** check box 
+
+On the Confirm Selected Features page, clear the **GoPivotal, Inc. UAA Integration (optional)** check box 
 and click **Confirm**.
 >	![Cloud Foundry confirm](../images/guidesetup/setupcfconfirm.jpg)
-5. When you are prompted, accept the terms and click **Finish**.
-6. If you are prompted to restart Eclipse, click **Yes**.
+
+When you are prompted, accept the terms and click **Finish**. If you are prompted to restart Eclipse, click **Yes**.
+
 
 <a id="egit"></a>
 ## EGit Eclipse plug-in
 You use EGit to work with Rational Team Concert and a Git repo hosted on JazzHub.
-First install EGit. Then connector to a Git repo hosted at JazzHub using EGit. 
+First install EGit. Then connect to a Git repo hosted at JazzHub using EGit. 
 
 ### Install EGit
-Before you install EGit, check to see if it is already installed. In Eclipse, 
-go to **Window > Show View > Other** and enter git as the filter text. 
-2. If you see views similar to the following list of git tools, 
-skip ahead to Connecting to your JazzHub Project with EGit.
+Before you install EGit, check to see if it is already installed. In Eclipse, open the Other view
+(**Window > Show View > Other**) and enter git as the filter text. 
+If you see a view that shows a list of git tools, 
+skip ahead to [Connecting to your JazzHub Project with EGit].
 >	![EGit tools](../images/guidesetup/setupegit.jpg)
-3. In Eclipse, click **Help > Install New Software**. 
-4. In the Install window, complete the following steps: 
-	* In the Work with field, enter http://download.eclipse.org/egit/updates, and click **Add**.
-	* Select the **Eclipse Git Team Provider** check box.
-	* Click **Next**. 
-	>	![EGit tools](../images/guidesetup/setupegitprovider.jpg)
-5. Click **Next** to complete the steps in the wizard.
-6. When you are prompted, accept the terms and click **Finish**.
-7.If you receive a security warning message, click **OK**.
-8.If you are prompted to restart Eclipse, click **Yes**.
 
+Next, in Eclipse, go to the Help menu and find the option to install new software. 
+Get to the Install page and make these selections:
+	* http://download.eclipse.org/egit/updates for the download location, and click **Add**.
+	* **Eclipse Git Team Provider** 
+	>	![EGit tools](../images/guidesetup/setupegitprovider.jpg)
+	
+Keep paging through the wizard until you see the license terms. Accept the terms and then click **Finish** 
+to install the plug-in. 
+
+Installing the plug-in can take several minutes. You might see a warning message that you are 
+installing software that contains unsigned content, which is expected. Keep going. 
+
+Finally, if prompted, restart Eclipse for the changes to take effect. 
+
+Your done. Well, not quite. You've got EGit running in Eclipse, which is great, but 
+you want to connect your Git repo that is hosted in a JazzHub project with Rational Team Concert too. So, lets do that next. 
+	
+<a id="egitconnect"></a>
 ### Connect to your JazzHub Project with EGit
-After your project is set up, 
+After your Git repo that is hosted in a JazzHub project is set up, 
 you can copy the Git URL so that you can connect Rational Team Concert with your hosted Git repository. 
 
-1. Go to https://hub.jazz.net and log in.
-2. From the list in the View field, select **All My Projects**.
-3. Click the link to open the project details page for your project.
-4. In the Code section, click the Git URL link and copy the text in the Git URL box.
+Go to JazzHub at https://hub.jazz.net and log in, if you're not already. Get a list of your projects, then
+choose the project you want to see details about. Now you want to get the GIT URL link and
+copy that link. 
 >	![Git URL](../images/guidesetup/setupconnectgiturl.jpg)
-5. In Eclipse, use the Import wizard to load your Git repo. Use **File > Import** from Eclipse. Click **Next** to page
-through the Import wizard.
-	* Select your Git project source to import.
+
+Ok, you've got the Git URL link and can use that link to load your Git hosted repo. Let's do that.
+
+In Eclipse, you can use the Import wizard (**File > Import) to load your Git repo. Paging through the Import wizard
+make these selections: 
+	* Git project source to import.
 >	![Git project source](../images/guidesetup/setupselectgitprojectsource.jpg)
-	* Select the Git repo URI.
+	* Git repo URI. Paste your copied Git URL.
 >	![Git URI](../images/guidesetup/setupselectgituri.jpg)
-	* Paste the copied Git URL in the URI field. Also enter your Jazz.net User ID and password in the Authentication section.    
+	* Jazz User ID and password.    
 >	![Git URI](../images/guidesetup/setupgituriauthentication.jpg)
-	* Update the Local Destination of the cloned repository if needed. 
+	* Local Destination of the cloned repository, change if you want to. 
 >	![Git URI](../images/guidesetup/setupdirectorygit.jpg)
-	* Click **Next** and then **Finish**.
+	
+Click **Finish** to load your repo.  You're all set.  
