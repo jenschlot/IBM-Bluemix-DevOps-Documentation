@@ -10,6 +10,7 @@ Take a look at this list of Eclipse plug-ins, and decide which tools can help yo
 
 * [EGit](#egit)
 
+***
 <a id="rtc"></a>
 ## Rational Team Concert 
 
@@ -87,25 +88,27 @@ Now you can use the Package or Project Explorer to browse the loaded files, open
 If you want to deploy to the IBM Cloud platform also known as BlueMix, then you'll want to install the Cloud
 Foundry Eclipse plug-in too. Let's do that next.
 
+***
 <a id="cf"></a>
 ## Cloud Foundry Eclipse plug-in
 You use the Cloud Foundry Eclipse plug-in to connect to Codename BlueMix. 
 
 In Eclipse, go to the Help menu and find the option to get to the Eclipse marketplace. Next you want to
-find the plug-in with the name Cloud Foundry Integration for Eclipse, so type that search string 
+find the plug-in with the name Cloud Foundry Integration for Eclipse 1.5.1, so type that search string 
 and click the search icon.
 >	![Cloud Foundry](../images/guidesetup/setupcffind.jpg)
 
 After the results are displayed, click **Install**.
 >	![Cloud Foundry confirm](../images/guidesetup/setupcfplugin.jpg)
 
-On the Confirm Selected Features page, clear the **GoPivotal, Inc. UAA Integration (optional)** check box 
-and click **Confirm**.
+Next confirm your selection. You don't want the GoPivotal entry, so clear that check box.  
+Click **Confirm**.
 >	![Cloud Foundry confirm](../images/guidesetup/setupcfconfirm.jpg)
 
-When you are prompted, accept the terms and click **Finish**. If you are prompted to restart Eclipse, click **Yes**.
+When you are prompted, accept the terms and click **Finish**. 
+If you are prompted to restart Eclipse, click **Yes**.
 
-
+***
 <a id="egit"></a>
 ## EGit Eclipse plug-in
 You use EGit to work with Rational Team Concert and a Git repo hosted on JazzHub.
@@ -120,9 +123,10 @@ skip ahead to [Connecting to your JazzHub Project with EGit].
 
 Next, in Eclipse, go to the Help menu and find the option to install new software. 
 Get to the Install page and make these selections:
-	* http://download.eclipse.org/egit/updates for the download location, and click **Add**.
-	* **Eclipse Git Team Provider** 
-	>	![EGit tools](../images/guidesetup/setupegitprovider.jpg)
+
+* http://download.eclipse.org/egit/updates for the download location, and click **Add**.
+* **Eclipse Git Team Provider** 
+>	![EGit tools](../images/guidesetup/setupegitprovider.jpg)
 	
 Keep paging through the wizard until you see the license terms. Accept the terms and then click **Finish** 
 to install the plug-in. 
@@ -147,15 +151,23 @@ copy that link.
 
 Ok, you've got the Git URL link and can use that link to load your Git hosted repo. Let's do that.
 
-In Eclipse, you can use the Import wizard (**File > Import) to load your Git repo. Paging through the Import wizard
+In Eclipse, you can use the Import wizard (**File > Import**) to load your Git repo. Paging through the Import wizard
 make these selections: 
-	* Git project source to import.
+
+* Git project source to import.
 >	![Git project source](../images/guidesetup/setupselectgitprojectsource.jpg)
-	* Git repo URI. Paste your copied Git URL.
+
+* Git repo URI. Paste your copied Git URL.
 >	![Git URI](../images/guidesetup/setupselectgituri.jpg)
-	* Jazz User ID and password.    
->	![Git URI](../images/guidesetup/setupgituriauthentication.jpg)
-	* Local Destination of the cloned repository, change if you want to. 
->	![Git URI](../images/guidesetup/setupdirectorygit.jpg)
+
+* Jazz User ID and password.    
+>	![Authentication](../images/guidesetup/setupgituriauthentication.jpg)
+
+* Branches that you want to work in
+>	![Branches](../images/guidesetup/setupbranchesgit.jpg)
+
+* Local Destination of the cloned repository, change if you want to. 
+>	![Local destination](../images/guidesetup/setupdirectorygit.jpg)
 	
-Click **Finish** to load your repo.  You're all set.  
+Click **Finish** to load your repo.  You're all set to code. 
+
