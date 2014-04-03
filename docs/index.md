@@ -1,6 +1,6 @@
 # Documentation contents
 ***
-## Get Started with JazzHub
+## Get started 
 * Take a Tour
 * Create a JazzHub project
 * Fork a JazzHub project
