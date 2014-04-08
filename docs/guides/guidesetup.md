@@ -9,9 +9,9 @@ is likely all you need to make changes.
 
 You're an Eclipse or .NET developer and already have a favorite client? 
 We'll show you how to configure your client and connect to your JazzHub project from within the Rational Team Concert 
-client for Eclipse or Visual Studio. Skip to [Coding with Eclipse plug-ins](../Setup/eclipseclient). 
-More details about [Coding with Visual Studio](../Setup/visualstudio) are coming soon.
+client for Eclipse or Visual Studio. Skip to [Coding with Eclipse plug-ins](../guidsetup/eclipseclient). 
+More details about [Coding with Visual Studio](../guidesetup/visualstudio) are coming soon.
 
 Prefer to use your trusty command line tool? 
-Go right ahead to [Connecting with the command line](../Setup/commandline). 
+Go right ahead to [Connecting with the command line](../guidesetup/commandline). 
 

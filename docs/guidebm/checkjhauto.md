@@ -1,6 +1,6 @@
 # Check the auto-deployment page for the BlueMix starter app 
-You've just [pushed the BlueMix starter app code to your Git hosted repo on JazzHub](createproject#loadrepoforbluemixstarter). 
-When you created a JazzHub project you set auto-deployment on. 
+You've just [pushed the BlueMix starter app code to your Git hosted repo on IBM DevOps Services](addcodetojh). 
+When you created a IBM DevOps Services project you set auto-deployment on. 
 Now, let's check the auto-deployment page. You see something like this image: 
 
 >	![Auto deploy page results](../images/guidebm/jazzhubautodeploypageresults.jpg)
@@ -15,7 +15,7 @@ BlueMix provides that file in the download zip for the application, so once you 
 everything started working. 
 
 So, now let's change your app source code and see what happens. And let's use the command line to do that.
-Try it at [edit code with the Git command line](../Edit/editgitcmdline).  
+Try it at [edit code with the Git command line](editgitcmdline).  
 
 
   

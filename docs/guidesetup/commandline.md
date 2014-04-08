@@ -4,11 +4,11 @@ If you like working with a command line to code, then you've come to the right p
 get set up to use the Git command line, work with the Jazz SCM command line, or the Cloud Foundry command line.
 
 ***
-## Working with Git (hosted by JazzHub or GitHub) 
+## Working with Git (hosted by IBM DevOps Services or GitHub) 
 
 To work with the Git command line there are a few steps to get set up. First you can
 install Git if its not already installed and then you can make a local copy of your 
-Git repo hosted at JazzHub.
+Git repo hosted at IBM DevOps Services.
 
 If you are coding with Eclipse and Git, you might also want to look at  
 [Coding with Eclipse plug-ins](eclipseclient).
@@ -23,20 +23,20 @@ If Git is not installed, download and install the version for your platform from
 
 That's it. Now you want to load your Git repo into your local repo. Let's do that next.
 
-### Connect to a Git repo hosted at JazzHub
+### Connect to a Git repo hosted at IBM DevOps Services
 
 Find the URL to clone your Git repo from one of the following pages:
 
-* Create a project page. When you create a project on JazzHub with the option to create a Git repo hosted at JazzHub, 
+* Create a project page. When you create a project on IBM DevOps Services with the option to create a Git repo hosted at IBM DevOps Services, 
 you can copy the Git repo URL from the Create a project page. 
->	![Git JazzHub project](../images/guidesetup/setupgitjhproj.jpg)
+>	![Git IBM DevOps Services project](../images/guidesetup/setupgitjhproj.jpg)
 * Project details page. Look for the **Git URL** link.
 >	![Git URL](../images/guidesetup/setupgiturl.jpg) 
 * **Settings** tab on the Project page.  
 >	![Git project name](../images/guidesetup/setupgitprojname.jpg)
 
 You've got your Git URL, so open a Terminal session and change to the directory
-where you want to put the code from your Git repo hosted at JazzHub. 
+where you want to put the code from your Git repo hosted at IBM DevOps Services. 
 Next, enter git clone and paste the Git repo URL. The result should look similar to this image:
 >	![Git clone](../images/guidesetup/setupgitclone.jpg)
 
@@ -44,9 +44,9 @@ Your done! With a a local copy of the code for your project, you're ready to cod
 Browse http://git-scm.com/doc to learn more about working with Git. 
 
 
-### Connect to a Git repo at GitHub from JazzHub
+### Connect to a Git repo at GitHub from IBM DevOps Services
 
-You have a Git repo at GitHub and want to connect to that from JazzHub. That's easy. First
+You have a Git repo at GitHub and want to connect to that from IBM DevOps Services. That's easy. First
 find the URL to clone your Git repo to your local computer. 
 View your project page on GitHub and find the URL to clone through your choice of HTTPS or SSH. Next, copy the URL. 
 >	![Git clone](../images/guidesetup/setupgithub.jpg)

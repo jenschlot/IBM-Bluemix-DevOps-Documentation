@@ -1,5 +1,5 @@
-# Push more changes for the BlueMix starter app from the JazzHub Web IDE
-You've just made [changes to your BlueMix starter app code by using the JazzHub editor](../Edit/editjheditor). 
+# Push more changes for the BlueMix starter app from the Web IDE
+You've just made [changes to your BlueMix starter app code by using the Web IDE](editjheditor). 
 You can then use the integrated Git support to push the change.
 
 You start by switching to the Git Status page.
