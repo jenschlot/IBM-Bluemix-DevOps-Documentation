@@ -1,7 +1,7 @@
 # Share code changes from Eclipse
 You can update your application and then push those changes so that your teammates have them. 
 The following instructions explain how to complete those tasks from Eclipse when you have your source
-code in a Git repo hosted at JazzHub.
+code in a Git repo hosted at IBM DevOps Services.
 
 This procedure is more effective if you complete it with a partner, so the steps are divided between Partner A and Partner B.
 
@@ -9,7 +9,7 @@ This procedure is more effective if you complete it with a partner, so the steps
 
 Partner A completes these steps.
 
-Application source code is contained in your JazzHub project. You must commit the code into Eclipse to edit it. 
+Application source code is contained in your IBM DevOps Services project. You must commit the code into Eclipse to edit it. 
 
 1. In Eclipse, click **Window > Show View> Project Explorer**. 
 2. In the Project Explorer view, double-click the hosted Git application to expand its contents. 
@@ -39,5 +39,5 @@ Partner B completes these steps.
 4. In the Pull Result window, review the commits that were pulled and click OK. 
 >	![Pull result](../images/guidejheclipse/eclipsepullresult.jpg)
 
-You edited an application in a Git repo hosted on JazzHub, pushed, fetched and merged updates by using Eclipse.  
+You edited an application in a Git repo hosted on IBM DevOps Services, pushed, fetched and merged updates by using Eclipse.  
 
