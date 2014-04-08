@@ -17,7 +17,7 @@ Indeed, JazzHub is all about development with features like:
 If you want to know more about JazzHub, you can start by reading the information at http://hub.jazz.net, 
 but since you're like us and prefer to try things rather than read about them, let's do something with JazzHub.
 
-To start you must register at JazzHub. Take a look at [Register or sign in at JazzHub and BlueMix](../Setup/registerandsignin).
+To start you must register at JazzHub. Take a look at [Register or sign in at JazzHub and BlueMix](registerandsignin).
 After registering or signing in, you always end up at the JazzHub My Stuff page. From there, you can click **CREATE PROJECT** and fill in the details. 
 Most of it is a personal choice, but there are are two important options. The first is the repo to use to manage your source code and the second is the option to deploy your app to BlueMix. 
 
@@ -35,49 +35,13 @@ Basically, all you do is change the switch to **ON**. Once auto-deployment is on
 Notice the Git URL field. That is the URL that you are going to use with your Git commands. 
 You can copy it now, or come back to this page later.
 
-<a id="projectforbluemixstarter"></a>
-***
-## Create a JazzHub project and add code from a BlueMix starter app
+You can auto-deploy your app changes to BlueMix. Because BlueMix is based on CloudFoundry, it is also possible to 
+manually deploy apps directly to BlueMix using the standard cf and gcf command line tools. Similarly, 
+in the JazzHub Web IDE, you can click **Deploy** to directly deploy whatever you are working on to BlueMix.
 
-You've just come from [BlueMix where you added a simple Node.JS web server app](starterapp) and ran that app in BlueMix. Since you want to modify the app, your
-next step is to create a JazzHub project to hold the app code. 
-
-[Read about JazzHub projects and how to create one](#startcodinginaproject) in the previous section, but be sure to choose a Git hosted repo 
-
->	![Git hosted repo](../images/guidebm/jazzhubrepos.jpg)
+In both cases, this can be an effective way to work when you are doing rapid, solo development, 
+but for many of you, the added security of having auto-deploy control of what is being pushed, 
+is a better way to go. In essence, by using auto-deploy you always know that the code running in the application 
+matches some known state in the repository, instead of whatever happened to be in your working directory at the time you pushed.
 
 
-and the option to deploy the app to BlueMix.
-
->	![Deploy option](../images/guidebm/jazzhubautodeployopt.jpg)
-
-Now it’s time to add the starter code into the project. 
-You have a couple of choices. You can click **Edit Code** and select from the **File** menu to import individual files or *.zip files. 
-Or you can use the Git command line to load your repo. 
-[Let's use the command line](#loadrepoforbluemixstarter]. 
-
-<a id="loadrepoforbluemixstarter"></a>
-### Load your repo with the starter app code by using the Git command line (clone, unzip, push)
-
-So, now you have a repository (also known as a JazzHub project) to hold your code, and a zip file to put in it. Lots of tools can be used to work with Git, including all of the major desktop IDEs and even directly from the web using the JazzHub IDE (which we'll talk about later) but for now let's just use the command line Git support.
-
-First you clone the repository using the URL from the JazzHub auto-deploy page
-
-	git clone https://hub.jazz.net/git/amadeus/MyCoolWebApp
-
-Then you unzip the contents of the zip file into that directory
-
-	unzip  /Users/mcq/downloads/mycoolwebapp.zip
-
-And finally you apply some standard Git magic to push the contents into the repository at JazzHub. First commit the changes to the local clone.
-
-	git add *
-
-	git commit -m "Committing the initial sample code"
-
-And then push them to the remote repository. If you get prompted for your credentials, just enter your Jazz User ID and password.
-
-	git push
-	
-Now, this is where it starts to get interesting! If you go back to JazzHub and check the auto-deployment page, you'll see the results
-of your commit and a message about a missing manifest file. So lets go and check that out at [push changes automatically from the JazzHub auto-deployment page](../Deploy/pushfromjh#autodeploybluemixstarterapp).  

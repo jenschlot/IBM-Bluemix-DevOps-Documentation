@@ -6,7 +6,7 @@ as well as capabilities from ecosystem partners and open source,
 all through an as-a-service model in the cloud.
 
 If you haven't already done so, the first step to use these capabilities is to register. 
-Take a look at [Register or sign in at JazzHub and BlueMix](../Setup/registerandsignin).
+Take a look at [Register or sign in at JazzHub and BlueMix](registerandsignin).
 
 Once you've registered, there is lots of helpful information available on the Codename BlueMix site, such as
 
@@ -15,7 +15,7 @@ Once you've registered, there is lots of helpful information available on the Co
 -and a range of Tutorials
 
 but if you're like us and prefer to try things rather than read about them, just follow along 
-while we build a new app.
+to build a new app.
 
 ## Create an app from a NodeJS Web Starter Boilerplate
 
