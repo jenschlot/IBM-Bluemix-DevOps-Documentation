@@ -14,7 +14,6 @@
 * [Set up Eclipse, Git, and RTC Desktop Clients for use with IBM DevOps Services](guides/guidesetup)
 ***
 ## Using Projects
-* [Tell me about JazzHub projects](Projects/projects)
 * [Tell me about IBM DevOps Services projects](projects)
 * [Start coding in a IBM DevOps Services projects](createproject)
 * [Fork code from a node.js app in a IBM DevOps Services project](guidejheclipse/forktwitterapp)
@@ -31,16 +30,10 @@
 ## Coding
 * [Code with Eclipse plug-ins](guidesetup/eclipseclient)
 * [Connect with a command line](guidesetup/commandline)
-* [Code with Visual Studio](guidesetup/visualstudio)[Code with Eclipse plug-ins](Setup/eclipseclient)
-* [Connect with a command line](Setup/commandline)
-* [Code with Visual Studio](Setup/visualstudio)[Edit code from Eclipse](Edit/editeclipse)
-* [Edit code from the Git command line](Edit/editgitcmdline)
-* [Edit code from the JazzHub code editor](Edit/editjheditor)
-* [Add a BlueMix service](Edit/addbmservice)
+* [Code with Visual Studio](guidesetup/visualstudio)
 ***
 ## Collaborating
 * [Show off your work](invite)
 * [Share code from Eclipse](sharecodefromeclipse)
 * [Share code from the Web IDE](sharecodefromjh)
 * [Manage members](managembrs)
- 
