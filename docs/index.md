@@ -1,4 +1,4 @@
-# Documentation contents
+# Documentation contents  ![JazzHub icon](images/jazzhub-icon.gif)
 ***
 ## Get started 
 * Take a Tour
