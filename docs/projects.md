@@ -1,7 +1,7 @@
-# Tell me about JazzHub projects 
+# Tell me about IBM DevOps Services projects 
 
-So what's a JazzHub project.  Well, its really another name
-for a repo. There are different repos that you can work with at JazzHub, but 
+So what's a IBM DevOps Services project.  Well, its really another name
+for a repo. There are different repos that you can work with at IBM DevOps Services, but 
 more about that later. Ok, so what can you do with a project. There are
 many things you can do. Let's look at them. 
 
@@ -28,13 +28,13 @@ Anyone you want can join your project – all you need is an email address.
 ## Code in the cloud
 Easily edit any text file or script from within your browser. 
 If your project contains JavaScript, HTML, CSS, Ruby or PHP code, 
-the JazzHub editor is likely all you need to make changes.
+the Web IDE is likely all you need to make changes.
 
 ## Automatically deploy to the cloud
 Configure your project to automatically deploy your app's to the IBM cloud 
 platform, Codename BlueMix, 
 whenever a member of your team pushes code to your Git repo hosted at 
-JazzHub.
+IBM DevOps Services.
 
 ## Manage code with built-in source code management
 Easy code delivery and seamless tracking of changes from 
@@ -45,7 +45,7 @@ associate code changes with work items, and view a history of recent updates.
 
 ## Connect to your GitHub projects	
 If you have existing source code in a GitHub repository, 
-you can easily connect to your JazzHub project to track changes.
+you can easily connect to your IBM DevOps Services project to track changes.
 
 ## Show off your work or not 
 You decide if your project is public or private and who becomes a member. 
@@ -59,7 +59,7 @@ Project members can edit work items, plans, and code.
 Right now public projects are free – so create as many as you like. 
 Likewise, contribute to any project you're invited to, 
 at no cost. We might introduce practical limits, such as on storage, 
-as part of future JazzHub price plans. 
+as part of future IBM DevOps Services price plans. 
 
 Private Projects are currently available at no charge. 
 We intend to introduce a rate plan for Private Projects in 2014.
