@@ -1,4 +1,4 @@
-# Documentation contents  ![JazzHub icon](images/jazzhub-icon.gif)
+# Documentation contents 
 ***
 ## Get started 
 * Take a Tour
@@ -37,3 +37,5 @@
 * [Share code from Eclipse](sharecodefromeclipse)
 * [Share code from the Web IDE](sharecodefromjh)
 * [Manage members](managembrs)
+***
+ ![JazzHub icon](images/jazzhub-icon.gif)
