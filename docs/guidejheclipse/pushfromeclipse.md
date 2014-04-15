@@ -1,7 +1,6 @@
 # Push changes to BlueMix from Eclipse 
-So far you've forked and configured the [Twitter Influence Analyzer project](../Projects/forkproject), 
-and now you are ready to
-push that sample to BlueMix. Before you can push the app, you must connect to BlueMix.  
+So far you've forked and configured the [Twitter Influence Analyzer project](forktwitterapp), 
+and now you are ready to push that sample to BlueMix. Before you can push the app, you must connect to BlueMix.  
 
 ## Connect to BlueMix from Eclipse by using the Cloud Foundry plug-in #
 You've [installed the Cloud Foundry Eclipse plug-in](../Setup/eclipseclient). Now you
