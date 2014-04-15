@@ -25,6 +25,14 @@
 * [Start coding with a BlueMix starter app](Projects/starterapp)
 * [Manage project settings](Projects/manageprojectsettings)
 ***
+## Track and Plan
+* [Create a timeline of JazzHub project](TrackPlan/timeline)
+* [Create and maintain product backlog](TrackPlan/productbacklog)
+* [Create release and iteration plan](TrackPlan/releaseplan)
+* [Working on interaion plan (Task Board)](TrackPlan/taskboard)
+* [Create a work item query](TrackPlan/workitemquery)
+* [Establish team dashboard](TrackPlan/dashboard)
+***
 ## Deploy
 * [Push changes to BlueMix from Eclipse](Deploy/pushfromeclipse)
 * [Push changes to BlueMix from the Web IDE](Deploy/pushfromjh)
