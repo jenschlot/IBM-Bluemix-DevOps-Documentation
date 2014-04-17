@@ -7,7 +7,7 @@ working on a task.
 
 
 
-# Change iteration view to Task Board
+### Change iteration view to Task Board
 
 During the sprint, the team member work on stories to acomplish 
 sprint goal. Agile product often use task board. Each developer
@@ -21,19 +21,45 @@ below.
 
 1. Open the sprint backlog.
 2. Change "View As:" to "Task Board".
+>  ![Taskboad](../images/trackplan/taskboard.changeview.png)
 
 JazzHub shows stories at the left hand side of board.
 
-# Pick up story and create tasks for a story.
+>  ![Taskboad View](../images/trackplan/taskboard.view.png)
+
+
+### Pick up story and create tasks for a story.
 
 Each developer pick up the story, and then create associated
-tasks to complete the story. 
+tasks to complete the story. Here is how to create tasks under each story.
 
-Here is how to create tasks under each story.
+1. Select one of the story and select menu "Create Child Work Item"
+>  ![Create Child work item](../images/trackplan/taskboard.createchildtask.png)
+2. Enter summary of the task.
+>  ![Enter summary](../images/trackplan/taskboard.entersummary.png)
+3. Optionally, you may enter estimate of effort to complete the task.
+>  ![Enter Estimate](../images/trackplan/taskboard.efforttracking.png)
+4. Save the plan by clicking "Save" button.
 
-1. Select one of the story and select menu "Ce"
+If you check the story, it will open workitem mini window.
+You may notice that effort is equivalent to which you entered at the
+task. 
+
+>  ![Story sum up estimate](../images/trackplan/taskboard.sumupeffort.png)
+
+JazzHub sums up efforts to complete the task in the parent work item (Story in this case).
+
+### Move to "In Progress" and "Close" status.
+
+You can use this task board to change the status of task into "In Progress". 
+To do this, just drag and drop the work item.
+
+1. Select a task and move into "In Progress"
+>  ![Move into In progress](../images/trackplan/taskboard.changestate.png)
+
+Now, you are ready to work on a task in "In Progress" state.
 
 
-# Move to "In Progress" and "Close" status.
+
 
 
