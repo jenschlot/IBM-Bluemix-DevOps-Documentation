@@ -1,11 +1,33 @@
-## Working on Iteration Plan
+## Working on Sprint backlog.
 
-Once the Iteration plan has been created, the team member pick up story
-and create relevant tasks associated with the story. In this tutorial,
+Once the Sprint backlog has been created, the team member pick up story
+and create relevant tasks associated with the story. 
+
+The Sprint Backlog is the set of Product Backlog items selected for 
+the Sprint, plus a plan for delivering the product increment and 
+meeting the Sprint Goal.  It provides visibility of the team’s work 
+during the Sprint.
+
+Some characteristics are:
+
+* Contains enough detail so that changes in progress can be understood in Daily Scrum
+* Sprint Backlog belongs solely to the Development Team
+* All Sprint Backlog Items are "owned" by the entire Development Team, 
+even though each one may be done by an individual team member.
+* The Sprint is over when its time-box has expired.
+
+The Development Team is responsible to:
+
+* Update estimates and remaining work as work is performed or completed
+* Remove items if they are no longer needed to create a done piece of functionality
+* Add work items as the team learns more about the work
+* Total the remaining work at least for every Daily Scrum and project 
+the likelihood of achieving the Sprint Goal; this should be done prior to the Daily Scrum
+
+
+In this tutorial,
 you will learn how to create tasks associated with Story, and start to 
 working on a task.
-
-
 
 ### Change iteration view to Task Board
 

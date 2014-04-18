@@ -7,7 +7,11 @@ may not be relevant to the market at all.
 
 The candidates of features are managed in the release backlog, and
 make priorities accoding to the needs of stakeholders. Here you
-will learn how to create release backlog and make priorities. 
+will learn how to create release backlog and make priorities.
+Note that assigning the priorities are preferable at the
+product backlog management level rather than release backlog.
+This section focus on how to use JazzHub on assignning 
+priorities.
 
 Higher priority features will be a candidate of interation plan.
 You will learn how to create iteration plan too.
@@ -51,7 +55,7 @@ selected stories are moved to release backlog.
 
 ### Priorities the stories and assign story points and plan the release.
 
-Depending on situation, the priority and story point may be assigned at the 
+Depending on situation, the priority and story point will be assigned at the 
 time of product backlog. But in this tutorial, these are set in the release
 backlog. Note handle priority and story point according to your Agile 
 practice. 

@@ -52,6 +52,7 @@
 * [Working on interaion plan (Task Board)](TrackPlan/taskboard)
 * [Create a work item query](TrackPlan/workitemquery)
 * [Establish team dashboard](TrackPlan/dashboard)
+* [For more information about Agile development](TrackPlan/formoreinfo)
 ***
 ## Deploy
 * [Push changes to BlueMix from Eclipse](Deploy/pushfromeclipse)
@@ -68,6 +69,4 @@
 * [Share code](Collaborate/sharecode)
 * [Manage members](Collaborate/managembrs)
 ***
-=======
  ![JazzHub icon](images/jazzhub-icon.gif)
->>>>>>> 11cab4caaa8632214a121fa9c2ba0259431bc387

@@ -12,7 +12,26 @@ The figure shows how these backlog are handled in the Agile development process.
 
 > ![Scrum Backlog Process](../images/trackplan/productbacklog.scrumplan.png)
 
-In this section. You will create product backlog for the project using JazzHub planning capability.
+A product backlog is an ordered features list, containing short descriptions 
+of all functionality desired in the product.
+
+The Product backlog is a single source of requirement for any changes to be made 
+to the products. And this is living artifact (never complete).
+
+Some characteristics are:
+
+* Typically lists features, functions, requirements, enhancements, and fixes that are desired in the product. Technical work and knowledge acquisition 
+also belong in the product backlog
+
+* Product Backlog items can be of varying size, effort or complexity
+
+* Backlog items selected for the upcoming Sprint are fine-grained and so that any one item can be done within the Sprint time-box
+
+* ultiple Scrum teams often work on the same Product Backlog; an attribute is used to group items
+
+
+In this section. You will create product backlog for the project using 
+JazzHub planning capability.
 
 ## Manage Product backlog
 
