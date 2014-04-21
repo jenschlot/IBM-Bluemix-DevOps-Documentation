@@ -38,7 +38,7 @@ pick up story or task card, and put the card to "In Progress".
 JazzHub provides electric task board. This task board can be
 shared even in a geophysically distributed team.
 
-To learn how to work on sprint using Task board, follow the step
+To learn how to work on sprint using Task board, follow the steps
 below.
 
 1. Open the sprint backlog.

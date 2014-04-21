@@ -6,22 +6,19 @@ as iterations. Each iteration defines its own start and end dates.
 
 ## Create a timeline.
 
-[Note] for international users. If you have problem to follow the steps. Change the browser 
-language setting to use English. Currently, this problem is tracked as defect.
 
 To create a timeline. Follow the steps below.
 
 1. Click "CURRENT WORK" at project top page
 >  ![CURRENT WORK](../images/trackplan/timeline.currentwork.png)
-2. Click "Create Timeline" link
+2. Click "Create Timeline" button
 >  ![Create Timeline](../images/trackplan/timeline.createtimeline.png)
-3. Enter start date, duration of print and number of Sprints.
+3. Enter start date, duration of Sprint and number of Sprints.
 >  ![Timeline Dialog](../images/trackplan/timeline.timelinedialog.png)
 
 Once the timeline is created, the timeline will be shown at the project top page.
 
 > ![Timeline Display](../images/trackplan/timeline.timelinedisplay.png)
-
 
 
 

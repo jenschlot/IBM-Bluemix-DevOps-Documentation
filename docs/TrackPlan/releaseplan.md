@@ -1,12 +1,13 @@
 ## Create release and iteration plan using JazzHub
 
-So far you have created Product backlog. These backlogs are not nessesary
+So far you have created Product backlog. The backlog items are not nessesary
 going to be included in the software. For example, stakeholders may have
 input several feature requests. However, at some point, the features
 may not be relevant to the market at all. 
 
-The candidates of features are managed in the release backlog, and
-make priorities accoding to the needs of stakeholders. Here you
+The candidates of features to be included in software 
+are managed in the release backlog, and
+assign priorities accoding to the needs of stakeholders. Here you
 will learn how to create release backlog and make priorities.
 Note that assigning the priorities are preferable at the
 product backlog management level rather than release backlog.
@@ -25,7 +26,7 @@ a release backlog, follow the steps below:
 1. Click "TRACK & PLAN" button (if you are not in this mode).
 2. Select "Plan" -> "Release Backlog" menu
 >  ![Create release backlog](../images/trackplan/releaseplan.createreleasebacklog.png)
-3. Enter the name of Plan (e.g. Release Plan)
+3. Enter the name of Plan (e.g. Release Backlog)
 >  ![Name the release backlog](../images/trackplan/releaseplan.setplanname.png)
 4. Click "Owner" button. Select your project name.
 >  ![Set the owner](../images/trackplan/releaseplan.setowner.png)
@@ -53,7 +54,7 @@ At this time, un-selected stories will remain as product backlog, and
 selected stories are moved to release backlog.
 
 
-### Priorities the stories and assign story points and plan the release.
+### Assign priorities and story points to the stories and plan the release.
 
 Depending on situation, the priority and story point will be assigned at the 
 time of product backlog. But in this tutorial, these are set in the release
@@ -70,6 +71,9 @@ practice.
 5. Drag and drop high priority stories to Sprint1
 >  ![Move to Sprint 1](../images/trackplan/releaseplan.draganddropstories.png)
 6. Drag and drop rest of stories to Sprint2
+
+In this way, stories which have higher priorities are managed as release plans,
+and then managed in each interations. 
 
 
 ### Create a iteration plan.

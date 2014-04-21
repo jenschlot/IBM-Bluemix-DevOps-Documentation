@@ -27,7 +27,7 @@ also belong in the product backlog
 
 * Backlog items selected for the upcoming Sprint are fine-grained and so that any one item can be done within the Sprint time-box
 
-* ultiple Scrum teams often work on the same Product Backlog; an attribute is used to group items
+* Multiple Scrum teams often work on the same Product Backlog; an attribute is used to group items
 
 
 In this section. You will create product backlog for the project using 
@@ -41,7 +41,7 @@ follow the steps below.
 1. Click "TRACK&PLAN" icon.
 > ![Click TRACK&PLAN](../images/trackplan/productbacklog.trackplanbutton.png)
 
-2. Select "Plans" -> "ALl Plans" menu
+2. Select "Plans" -> "All Plans" menu
 > ![Click TRACK&PLAN](../images/trackplan/productbacklog.allplanmenu.png)
 
 3. Click "Product Backlog"
@@ -50,7 +50,7 @@ follow the steps below.
 
 As you may notice, the plan editor is probably empty. For ease of use of
 this tutorial. Check "Auto-Save" checkbox botton. This will enable to
-save when you edit the plan.
+auto-save when you edit the plan.
 
 > ![Auto Save](../images/trackplan/productbacklog.autosave.png)
 
