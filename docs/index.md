@@ -1,4 +1,4 @@
-# Documentation contents 
+# Documentation content 
 ***
 ## Get started 
 * Take a Tour
