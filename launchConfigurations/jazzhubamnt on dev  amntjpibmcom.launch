@@ -1,0 +1,1 @@
+{"Name":"jazzhubamnt on dev / amnt@jp.ibm.com","ServiceId":"com.ibm.cloudoe.orion.client.deploy","Params":{"Target":{"Url":"https://api.ng.bluemix.net","Org":"amnt@jp.ibm.com","Space":"dev"},"Name":"jazzhubamnt"},"Url":"http://jazzhubamnt.ng.bluemix.net","Path":"manifest.yml","UrlTitle":"jazzhubamnt","Type":"Cloud Foundry"}
