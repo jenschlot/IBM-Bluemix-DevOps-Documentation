@@ -2,27 +2,29 @@
 
 ##BlueMix
 
-BlueMix is an open-standards, cloud-based platform for building, managing and running apps of all types
+***[BlueMix](https://ace.ng.bluemix.net/) is an open-standards, cloud-based platform for building, managing and running apps of all types
 (web, mobile, big data, new smart devices). Capabilities include Java, mobile backend development, 
-application monitoring, as well as capabilities from ecosystem partners and open source, all through an as-a-service model in the cloud.
+application monitoring, as well as capabilities from ecosystem partners and open source, 
+all through an as-a-service model in the cloud.***
 
 If you haven't already done so, the first step to use these capabilities is to register. 
-BlueMix is currently in beta, so you can register by going to the BlueMix home page and 
+BlueMix is currently in beta, so you can register by going to the [BlueMix home page](https://ace.ng.bluemix.net/) and 
 clicking **Sign up for the free beta**.
 
-<Join us in beta>
+>	![Join us in beta](images/bm-join.png)
 
-Once you've registered, there is lots of helpful information available on the BlueMix site, such as ...
+Once you've registered, there is lots of helpful information available on the [BlueMix](https://ace.ng.bluemix.net/) site, such as ...
 
-* Getting Started with BlueMix
-* BlueMix Overview
-* and a range of Tutorials
+* [Getting Started with BlueMix](https://www.ng.bluemix.net/docs/QuickStart.jsp)
+* [BlueMix Overview](https://www.ng.bluemix.net/docs/BlueMixIntro.jsp)
+* and a range of [Tutorials](https://www.ng.bluemix.net/docs/Tutorials.jsp)
 
-... but if you're like us and prefer to try things rather than read about them, just follow along while we build a new application.
+... but if you're like us and prefer to ***try*** things rather than read about them, 
+just ***follow along*** while we build a new application.
 
-You can start by signing in to BlueMix, which takes you to the Dashboard:
+You can start by signing in to BlueMix, which takes you to the ***Dashboard***:
 
-<BlueMix Dashboard>
+>	![Bluemix dashboard](images/bm-home.png)
 
 Clicking **Add an application** lets you choose different kinds of Runtimes 
 (like Java or Ruby), Services (such as DataCache or Mongo) and Boilerplates, 
@@ -30,30 +32,32 @@ which are essentially pre-configured application templates that are great ways t
 Let's select the Node JS Web Starter Boilerplate, which opens a panel that displays 
 more information about what it does:
 
-<BlueMix Node JS Web Starter>
+>	![Bluemix NodeJS app](images/bm-web-starter.png)
 
 As you can see, the application is a simple Node.JS web server that includes some example code 
 that demonstrates the IBM DataCache Service. Let's try it!
 
-At this point, you are just two clicks away from having a running application:
+At this point, ***you are just two clicks away from having a running application:***
 
 1. Click CREATE APPLICATION
-2. In the Create application window, fill in the App name and Host fields, and click **CREATE**.
+2. In the Create application window, fill in the **App name** and **Host** fields, and click **CREATE**.
 
-<BlueMix Create App dialog>
+>	![BlueMix Create App dialog](images/bm-create.png)
 
-The App name is a simple name you can use to find this application the next time you come back to the 
+The **App name** is a simple name you can use to find this application the next time you come back to the 
 BlueMix dashboard. Host defines the URL that lets you access your new app from the Internet. 
 As you probably guessed this URL must be unique.
 
 That's all there is to it! It takes a short while for the application to start up, 
 but once it does a tile on the dashboard shows it running.
 
-<BlueMix Application tile>
+>	![BlueMix Application tile](images/bm-app-panel.png)
 
 When you click the URL on the tile, it takes you to your already Internet-visible, running application.
 
-<A running web application>
+ 
+>	![A running web application](images/bm-example.png)
+
 
 Cool!
 
@@ -61,7 +65,7 @@ But wait, it's great that the application is running, but it's not very useful
 if you can't see the code (and modify it), so let's do that.
 
 There are a lot of ways you can work with your application code, 
-but one of the slickest is to use something called auto deploy. 
+but one of the slickest is to use something called ***auto deploy***. 
 With auto-deploy you can modify the code that is running in your app by simply pushing the changes to a 
 Git repository. The mechanism that implements auto-deploy is provided by the IBM DevOps Services powered by 
 JazzHub Build & Deploy support, but more about that later.
@@ -70,24 +74,26 @@ To enable automatic deployment, go back to your BlueMix application's dashboard 
 click **Add Git Integration**. With this single click, you get a Git repo, 
 loaded with example code and a deployed app, right from BlueMix. Now that's cool.
 
-<Add Git Integration button>
+>	![Add Git Integration button](images/bm-add-git-integration.png)
+
 
 You may be asked to enter your password because DevOps Services must verify that it can act on your behalf, 
 so enter your IBM id password and click **Sign In**.
 
-<DevOps Services sign in page>
+>	![DevOps Services sign in page](images/jh-signin.png)
 
-**Note:** The first time you access DevOps Services, you might need to create a "Jazz ID" and link it to your IBM id. A Jazz ID is a kind of "short name" that is used in several places, 
+***Note: The first time you access DevOps Services, you might need to create a "Jazz ID" and link it to your IBM id. A Jazz ID is a kind of "short name" that is used in several places, 
 including the URL for the repository that is about to be created for you. 
-Just follow the instructions in the dialog — you will only ever see it once.
-
+Just follow the instructions in the dialog — you will only ever see it once.***
+ 
 Make sure the box to populate the Git repo with the starter application package and 
 automatically deploy the app, is checked.
 
-<Create Git repo dialog>
+>	![Create Git repo dialog](images/bm-create-git-repo.png)
 
 Success! You've created a Git repo, loaded it with the example code, and deployed the app, all in a few clicks.
 
+>	![Git repo success message dialog](images/bm-git-repo-success-msg.png)
 <Git repo success message dialog>
 
 Now let's go see the status of the deployed app. Go to the BlueMix Dashboard and click **CODE**.
@@ -246,9 +252,9 @@ What can we do better? Post your comments to our forum or send us an email.
 
 Interested in trying more BlueMix and DevOps capabilities? Here is a list of tutorials:
 
-    Getting Started with BlueMix and DevOps Services using Java
-    Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Service
-    Developing BlueMix applications in Node.js with the DevOps Services Web IDE
-    Developing BlueMix applications in Java with Eclipse and DevOps Services
+* Getting Started with BlueMix and DevOps Services using Java
+* Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Service
+* Developing BlueMix applications in Node.js with the DevOps Services Web IDE
+* Developing BlueMix applications in Java with Eclipse and DevOps Services
 
 
