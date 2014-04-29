@@ -14,9 +14,9 @@ clicking **Sign up for the free beta**.
 
 Once you've registered, there is lots of helpful information available on the BlueMix site, such as ...
 
-    Getting Started with BlueMix
-    BlueMix Overview
-    and a range of Tutorials
+* Getting Started with BlueMix
+* BlueMix Overview
+* and a range of Tutorials
 
 ... but if you're like us and prefer to try things rather than read about them, just follow along while we build a new application.
 
