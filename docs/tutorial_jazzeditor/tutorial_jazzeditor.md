@@ -64,6 +64,9 @@ Cool!
 But wait, it's great that the application is running, but it's not very useful 
 if you can't see the code (and modify it), so let's do that.
 
+---
+## DevOps Services
+
 There are a lot of ways you can work with your application code, 
 but one of the slickest is to use something called ***auto deploy***. 
 With auto-deploy you can modify the code that is running in your app by simply pushing the changes to a 
@@ -119,6 +122,7 @@ BlueMix you can click **MANAGE**.
 
 The Git URL is what you use with your Git commands. You can copy it now, or come back to this page later.
 
+---
 ##The Command Line
 
 You have a Git repo with example code. Lots of tools can be used to work with Git, including all of the major desktop IDEs 
@@ -131,12 +135,12 @@ First you clone the local repo using the URL from the BlueMix application dashbo
 >	![Clone the local repository](images/cli-git-clone.png)
 
 Next, let's change your app source code and see what happens. 
-In the views folder there's a file called index.ejs. This file implements the main page from the example. 
+In the views folder there's a file called `index.ejs`. This file implements the main page from the example. 
 If you change this file, for example, by modifying the title that is displayed,
 
 >	![Changing the title](images/cli-edit-file.png)
 
-and then do another Git push, like this image:
+and then do another `Git push`, like this image:
 
 >	![Pushing the change](images/cli-edit-push.png)
 
@@ -152,7 +156,6 @@ Next go look at your running app by clicking the link next to the **Deploy to** 
 that the title was updated (**Hint**: The title was Application Example: run DataCache using REST API): 
 You may need to refresh your browser to ensure the updated page is displayed.
 
-<Application page showing new title>
 >	![Application page showing new title](images/app-new-title.png)
 
 Well there you go. Now you can continue to make modifications to the example and push them to the 
@@ -160,6 +163,7 @@ Git repository as often as needed. And as the scope of the work grows, and more 
 project to work on it, everyone can push changes to the repository. Standard repository operations and 
 build and deploy are all that is required to ensure that the right bits are always running.
 
+---
 ##Back to DevOps Services
 
 It turns out though that in addition to auto-deploy, DevOps Services provides a lot of other capabilities 
@@ -181,7 +185,6 @@ However, there is another way you can work with DevOps Services.
 If you go back to the deployment page, you can see a button labeled **Edit Code**. Clicking this button, takes you to a complete online integrated development environment (IDE), 
 based on the work of the [Orion](http://orion.eclipse.org/) open source project. Here's what it looks like open on our example project:
 
-<Orion at DevOps Services>
 >	![Orion at DevOps Services](images/jh-auto-deployed.png)
 
 From this environment, you can edit files with syntax coloring support for multiple languages including html, 
@@ -193,7 +196,7 @@ by BlueMix. For example, here's what it looks like providing completion for the 
 
 So just to round out the process, let's make one more modification to your application using the Web IDE. 
 You can navigate using the tree until you get to the same file you worked on 
-before (for example, views/index.ejs), and then simply edit in place.
+before (for example, `views/index.ejs`), and then simply edit in place.
 
 >	![Orion editing index](images/orion-really-cool.png)
 
@@ -220,6 +223,7 @@ And then, finally, you can see once again that your app was updated.
 <Our really cool app>
 >	![Our really cool app](images/really-cool.png)
 
+---
 ##Manual Deployment
 
 So far in this tutorial, you have only looked at using simple deploy with BlueMix. 
@@ -240,6 +244,7 @@ In essence, by using auto-deploy you always know that the code running in the ap
 some known state in the repository, instead of whatever happened to be in your working directory 
 at the time you pushed.
 
+---
 ##A Final Note
 
 You've seen how easy it is to create a node.js web app at BlueMix and run that app. 
@@ -256,6 +261,7 @@ Thanks for following along. And tell us what you think. What did we do well?
 What can we do better? Post your comments to our [forum](https://www.ibmdw.net/answers?community=jazzhub) 
 or send us an [email](hub_help@jazz.net).
 
+---
 ##More Tutorials
 
 Interested in trying more BlueMix and DevOps capabilities? Here is a list of tutorials:
