@@ -5,14 +5,11 @@
 			<div class="landing-header-body jh-columns pll prl">
 				<div class="landing-header-left jh-col-12-6 prm">
 					<div class="landing-title">
-						<h1>Learning @ JazzHub</h1>
+						<h1>Learning @ IBM DevOps Services</h1>
 					</div>
 					<div class="landing-intro">
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ante libero, auctor a condimentum eget, fringilla in felis. Donec rutrum justo lectus, at iaculis ante cursus ac.
-						</p>
-						<p>
-							Quisque sit amet facilisis purus. Nullam lobortis massa vitae turpis venenatis mollis. Nullam ut erat eget erat massa nunc.
+							Click. Clack. Deploy.
 						</p>
 					</div>
 					<div class="landing-get-started">
@@ -20,9 +17,7 @@
 					</div>
 				</div>
 				<div class="landing-header-right jh-col-12-6 plm">
-					<div class="table-of-contents">
-						test
-					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -34,7 +29,9 @@
 					<div class="tutorial-section">
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
-								<h2 id="section-title-one">Section Title</h2>
+								<a href="document/tutorial_jazzeditor/tutorial_jazzeditor">
+									<h2 id="section-title-one">Getting Started with BlueMix and DevOps Services using Node.js</h2>
+								</a>
 							</div>
 							<div class="back-to-top f_right">
 								<a href="#landing-top">back to top</a>
@@ -42,17 +39,11 @@
 						</div>
 						<div class="tutorial-section-body">
 							<div class="tutorial-section-description">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus dui elit, tristique rhoncus nulla ornare sed. Fusce elementum justo sed.
+								You'll see how easy it is to create a node.js web app at BlueMix and run that app. With one click you'll create a Git repo, load it with the example code and automatically deploy the app. You'll see how easy it will be to change the code and push it using the Git command line and the Web IDE, to check the status of the app deployment, and to run the app to show your changes. 
 							</div>
 							<div class="tutorial-section-list">
 								<ul>
-									<li><a href="#">Tutorial Link One</a></li>
-									<li><a href="#">Tutorial Link Two</a></li>
-									<li><a href="#">Tutorial Link Three</a></li>
-									<li><a href="#">Tutorial Link Four</a></li>
-									<li><a href="#">Tutorial Link Five</a></li>
-									<li><a href="#">Tutorial Link Six</a></li>
-
+									<li><a href="document/tutorial_jazzeditor/tutorial_jazzeditor">Try it</a></li>
 								</ul>
 							</div>
 						</div>
@@ -63,7 +54,9 @@
 					<div class="tutorial-section">
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
-								<h2 id="section-title-three">Section Title</h2>
+								<a href="document/tutorial_clients/tutorial_clients">
+									<h2 id="section-title-three">Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services</h2>
+								</a>
 							</div>
 							<div class="back-to-top f_right">
 								<a href="#landing-top">back to top</a>
@@ -71,17 +64,11 @@
 						</div>
 						<div class="tutorial-section-body">
 							<div class="tutorial-section-description">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus dui elit, tristique rhoncus nulla ornare sed. Fusce elementum justo sed.
+								If you want to work with a desktop client, this tutorial shows you how to configure your clients based on what type of DevOps Services project you are working with. 
 							</div>
 							<div class="tutorial-section-list">
 								<ul>
-									<li><a href="#">Tutorial Link One</a></li>
-									<li><a href="#">Tutorial Link Two</a></li>
-									<li><a href="#">Tutorial Link Three</a></li>
-									<li><a href="#">Tutorial Link Four</a></li>
-									<li><a href="#">Tutorial Link Five</a></li>
-									<li><a href="#">Tutorial Link Six</a></li>
-
+									<li><a href="document/tutorial_clients/tutorial_clients">Try it</a></li>
 								</ul>
 							</div>
 						</div>
@@ -91,7 +78,9 @@
 					<div class="tutorial-section">
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
-								<h2 id="section-title-five">Section Title</h2>
+								<a href="document/tutorial_jazzrtc/tutorial_jazzrtc">
+									<h2 id="section-title-five">Developing BlueMix applications in Java with Eclipse and DevOps Services</h2>
+								</a>
 							</div>
 							<div class="back-to-top f_right">
 								<a href="#landing-top">back to top</a>
@@ -99,17 +88,11 @@
 						</div>
 						<div class="tutorial-section-body">
 							<div class="tutorial-section-description">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus dui elit, tristique rhoncus nulla ornare sed. Fusce elementum justo sed.
+								This tutorial shows you how to develop a Java application using BlueMix, DevOps Services and the RTC client for Eclipse.
 							</div>
 							<div class="tutorial-section-list">
 								<ul>
-									<li><a href="#">Tutorial Link One</a></li>
-									<li><a href="#">Tutorial Link Two</a></li>
-									<li><a href="#">Tutorial Link Three</a></li>
-									<li><a href="#">Tutorial Link Four</a></li>
-									<li><a href="#">Tutorial Link Five</a></li>
-									<li><a href="#">Tutorial Link Six</a></li>
-
+									<li><a href="document/tutorial_jazzrtc/tutorial_jazzrtc">Try it</a></li>
 								</ul>
 							</div>
 						</div>
@@ -123,7 +106,9 @@
 					<div class="tutorial-section">
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
-								<h2 id="section-title-two">Section Title</h2>
+								<a href="document/tutorial_jazzeditorjava/tutorial_jazzeditorjava">
+									<h2 id="section-title-two">Getting Started with BlueMix and DevOps Services using Java</h2>
+								</a>
 							</div>
 							<div class="back-to-top f_right">
 								<a href="#landing-top">back to top</a>
@@ -131,17 +116,11 @@
 						</div>
 						<div class="tutorial-section-body">
 							<div class="tutorial-section-description">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus dui elit, tristique rhoncus nulla ornare sed. Fusce elementum justo sed.
+								You will see how easy it is to create a Java web app at BlueMix and run that app. With a few clicks, you'll create a Git repo, load it with the example code, and automatically deploy the app. In minutes, you will make code changes and push them using the Git command line and the Web IDE, automatically run a build and deploy, check the status of the app deployment, and run the app to show your changes.
 							</div>
 							<div class="tutorial-section-list">
 								<ul>
-									<li><a href="#">Tutorial Link One</a></li>
-									<li><a href="#">Tutorial Link Two</a></li>
-									<li><a href="#">Tutorial Link Three</a></li>
-									<li><a href="#">Tutorial Link Four</a></li>
-									<li><a href="#">Tutorial Link Five</a></li>
-									<li><a href="#">Tutorial Link Six</a></li>
-
+									<li><a href="document/tutorial_jazzeditorjava/tutorial_jazzeditorjava">Try it</a></li>
 								</ul>
 							</div>
 						</div>
@@ -151,7 +130,9 @@
 					<div class="tutorial-section">
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
-								<h2 id="section-title-four">Section Title</h2>
+								<a href="document/tutorial_jazzweb/tutorial_jazzweb">
+									<h2 id="section-title-four">Developing BlueMix applications in Node.js with the Web IDE</h2>
+								</a>
 							</div>
 							<div class="back-to-top f_right">
 								<a href="#landing-top">back to top</a>
@@ -159,17 +140,11 @@
 						</div>
 						<div class="tutorial-section-body">
 							<div class="tutorial-section-description">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus dui elit, tristique rhoncus nulla ornare sed. Fusce elementum justo sed.
+								This tutorial shows you how to use DevOps Services to develop an application in the cloud and deploy it to BlueMix.
 							</div>
 							<div class="tutorial-section-list">
 								<ul>
-									<li><a href="#">Tutorial Link One</a></li>
-									<li><a href="#">Tutorial Link Two</a></li>
-									<li><a href="#">Tutorial Link Three</a></li>
-									<li><a href="#">Tutorial Link Four</a></li>
-									<li><a href="#">Tutorial Link Five</a></li>
-									<li><a href="#">Tutorial Link Six</a></li>
-
+									<li><a href="document/tutorial_jazzweb/tutorial_jazzweb">Try it</a></li>
 								</ul>
 							</div>
 						</div>

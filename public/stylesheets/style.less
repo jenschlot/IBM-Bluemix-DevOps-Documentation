@@ -317,7 +317,7 @@ body {
 
 	.landing-header {
 		width: 100%;
-		height: 450px;
+		height: 300px;
 		background-color: @jh-color-blue;
 
 		background: #00add0; /* Old browsers */
@@ -391,11 +391,16 @@ body {
 				.mtxs;
 				.mbxs;
 			}
+
+			a {
+				color: #333333;
+			}
 		}
 
 		.back-to-top {
 			.f_right;
 			line-height: 2.8em;
+			display: none; /* Going into hiding */
 		}
 	}
 
@@ -410,11 +415,15 @@ body {
 			ul {
 				margin: 0;
 				.mtxs;
-				.pll;
+				list-style-type: none; /*Temp */
+				.mln; /*Temp */
+				.pln; /*Temp */
 
 				li {
 					font-size: 1rem;
 					line-height: 1.4em;
+					.mln; /*Temp */
+					.pln; /*Temp */
 				}
 			}
 		}
