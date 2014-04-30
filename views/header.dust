@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<title>JazzHub</title>
+		<link rel='icon' type='image/x-icon' href='/favicon.ico'></link>
 		<link rel='stylesheet' href='{jazzhuburl}/embed/css/navbar'></link>
 		<link rel='stylesheet' href='/stylesheets/style.css'></link>		
 	</head>

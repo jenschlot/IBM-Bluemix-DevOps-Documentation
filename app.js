@@ -37,11 +37,6 @@ app.engine('dust', cons.dust);
  * the favicon into response headers, logging connections, processing json,
  * and urlencoded request bodies, etc.
  */
-app.use(express.favicon());
-app.use(express.logger('dev'));
-app.use(express.json());
-app.use(express.urlencoded());
-app.use(express.methodOverride()); // Not sure what this does.
 
 app.use(app.router); // Not 100% sure what this does either.
 
@@ -61,19 +56,27 @@ var routes = require('./routes');
 var markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dirname, 'docs'));
 
 app
+ .use(config_middleware) // loads global app configuration.
  .get('/', [ config_middleware, routes.landing ])
  .get('/landing', [ config_middleware, routes.landing ])
- .use(markdown_middleware.file)
- .use(markdown_middleware.directory)
- .use(routes.render_markdown)
- .use(require('less-middleware')(path.join(__dirname, 'public')))
- .use(express.static(path.join(__dirname, 'public')))
- .use(express.static(path.join(__dirname, 'docs')))
- .use(express.directory(path.join(__dirname, 'docs')));
+ .use(express.favicon(path.join(__dirname, 'public', 'favicon.ico'))) // serve up a favicon on request.
+ .use(express.logger('dev')) // log each connection to the standard output.
+ .use(express.json()) // pre-parses json request bodies.
+ .use(express.urlencoded()) // pre-parses urlencoded request bodies.
+ .use(express.methodOverride()) // for clients that don't support the HTTP methods, uses a header as an override.
+ .use(markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
+ .use(markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
+ .use(routes.render_markdown) // renders markdown if any was compiled.
+ .use(require('less-middleware')(path.join(__dirname, 'public'))) // compiles less stylesheets into css.
+ .use(express.static(path.join(__dirname, 'public'))) // serves up static content if it exists in public/
+ .use(express.static(path.join(__dirname, 'docs'))) // serves up static content if it exists in docs/
+// DO NOT leave the directory middleware in in production.
 
 /* Pulls in a default error handler (in case requests fall through) but only on dev. */
 if ('development' == app.get('env')) {
-  app.use(express.errorHandler());
+  app
+   .use(express.errorHandler()) // provides nice looking errors.
+   .use(express.directory(path.join(__dirname, 'docs'))); // provides directory indexing for files in docs.
 }
 
 /* Actually stand up an http server with behavior governed by the express app configured above. */
