@@ -23,7 +23,7 @@ a new project, a new project name and a copy of the code from the sample project
 Now that you've forked the project, you'll need to deliver the changes to the Jazz SCM repository. Browse to the Jazz
 SCM Changes page.
 
->	![Jazz SCM Changes page](images/jazzscm.jpg "Click Edit Code")
+>	![Jazz SCM Changes page](images/jazzscm.jpg "Jazz SCM Changes page")
 
 Click ***Deliver***.
 
@@ -74,7 +74,7 @@ You can get the Jazz Repository information here.
 
 >	![Team Invitation](images/team_invite.jpg "Team Invitation")
 
-The [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services](./../tutorial_clients/tutorial_clients#jazzscm) tutorial shows you how to
+The [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services](./../tutorial_clients/tutorial_clients#working_with_a_jazz_scm_project) tutorial shows you how to
 set up the RTC client for Eclipse, connect to your project and load the code.						
 
 ---
