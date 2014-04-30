@@ -8,7 +8,7 @@ We'll start by forking the sample project, [WordCounter](https://hub.jazz.net/pr
 This project uses Jazz Source Control Management (Jazz SCM for short). It contains a manifest for deploying to Bluemix
 and can be loaded directly in the RTC client for Eclipse. DevOps Services also supports Git projects. To find out more
 about support for Git, check out the
-[Getting Started with BlueMix and DevOps Services using Java](tutorial_jazzeditorjava/tutorial_jazzeditorjava) tutorial.
+[Getting Started with BlueMix and DevOps Services using Java](./../tutorial_jazzeditorjava/tutorial_jazzeditorjava) tutorial.
 
 Go to the [WordCounter](https://hub.jazz.net/project/pskhadke/WordCounter/overview) project. Click ***EDIT CODE*** to
 open the Web IDE.
