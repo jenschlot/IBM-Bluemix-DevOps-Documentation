@@ -9,12 +9,13 @@
 ******************************************************************************/
 
 @jh-color-page-background: #747D85;
-@jh-color-link: #02ADD0;
+@jh-color-link: @jh-color-blue;
 @jh-color-link-hover: #F47D64;
 @jh-color-footer-background: #EDF1F4;
 @jh-default-text: #26343F;
 
 @jh-color-white: #ffffff;
+@jh-color-blue: #00ADD0;
 @jh-color-dark-grey: #333333;
 @jh-color-very-light-grey: #E0E0E0;
 @jh-color-smoky-black: #26343F;
@@ -102,7 +103,6 @@ body {
 	.@{jh-namespace} .fluid-content,
 	.@{jh-namespace} .fluid-content * {
 		.jh-border-box;
-		background-color: @jh-color-white;
 	}
 
 	.@{jh-namespace} .fixed-content {
@@ -185,7 +185,7 @@ body {
 
 @jh-number-of-columns: 12;
 
-.com-ibm-team-jazzhub .jh-columns {
+.@{jh-namespace} .jh-columns {
 	width: 100%;
 	overflow: hidden;
 	.rela;
@@ -246,12 +246,12 @@ body {
 ******************************************************************************/
 
 
-.com-ibm-team-jazzhub .jh-docmode h1,
-.com-ibm-team-jazzhub .jh-docmode h2,
-.com-ibm-team-jazzhub .jh-docmode h3,
-.com-ibm-team-jazzhub .jh-docmode h4,
-.com-ibm-team-jazzhub .jh-docmode h5,
-.com-ibm-team-jazzhub .jh-docmode h6 {
+.@{jh-namespace} .jh-docmode h1,
+.@{jh-namespace} .jh-docmode h2,
+.@{jh-namespace} .jh-docmode h3,
+.@{jh-namespace} .jh-docmode h4,
+.@{jh-namespace} .jh-docmode h5,
+.@{jh-namespace} .jh-docmode h6 {
 	.mtm;
 	.mbm;
 }
@@ -261,13 +261,13 @@ body {
 	.mbs;
 }
 
-.com-ibm-team-jazzhub .jh-docmode p {
+.@{jh-namespace} .jh-docmode p {
 	.mtm;
 	.mbm;
 	line-height: 1.4em;
 }
 
-.com-ibm-team-jazzhub .jh-docmode ul {
+.@{jh-namespace} .jh-docmode ul {
 	.mtm;
 	.mbm;
 	li {
@@ -305,4 +305,119 @@ body {
 	line-height: 50px;
 }
 
+/******************************************************************************
+	Landing Styles
+******************************************************************************/
+
+.@{jh-namespace}-Docs {
+	background-color: @jh-color-white;
+}
+
+.tutorial-landing {
+
+	.landing-header {
+		width: 100%;
+		height: 450px;
+		background-color: @jh-color-blue;
+
+		background: #00add0; /* Old browsers */
+		background: -moz-linear-gradient(top,  #00add0 96%, #00a0c1 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(96%,#00add0), color-stop(100%,#00a0c1)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #00add0 96%,#00a0c1 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #00add0 96%,#00a0c1 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #00add0 96%,#00a0c1 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #00add0 96%,#00a0c1 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00add0', endColorstr='#00a0c1',GradientType=0 ); /* IE6-9 */
+
+
+
+		.landing-header-body {
+
+			.landing-title {
+				color: @jh-color-white;
+				padding-top: 100px;
+
+				h1 {
+					margin: 0;
+					font-weight: normal;
+				}
+			}
+
+			.landing-intro {
+				color: @jh-color-white;
+			}
+
+			.landing-header-right {
+
+				position: relative;
+
+				.table-of-contents {
+					background-color: #0abce0;
+					width: 200px;
+					height: 200px;
+					position: absolute;
+					right: 0;
+					bottom: 0;
+					z-index: 200;
+
+				}
+
+			}
+
+		}
+
+	}
+
+	.tutorial-section {
+		.mtm;
+	}
+}
+
+.tutorial-section {
+	
+	.mbl;
+
+	.tutorial-section-header {
+		border-bottom: 1px solid @jh-color-very-light-grey;
+		overflow: hidden;
+		.mbs;
+
+		.section-title {
+			.f_left;
+
+			h2 {
+				margin: 0;
+				padding: 0;
+				.mtxs;
+				.mbxs;
+			}
+		}
+
+		.back-to-top {
+			.f_right;
+			line-height: 2.8em;
+		}
+	}
+
+	.tutorial-section-body {
+
+		.tutorial-section-description {
+			font-size: 0.9rem;
+			color: @jh-color-page-background;
+		}
+
+		.tutorial-section-list {
+			ul {
+				margin: 0;
+				.mtxs;
+				.pll;
+
+				li {
+					font-size: 1rem;
+					line-height: 1.4em;
+				}
+			}
+		}
+	}
+}
 

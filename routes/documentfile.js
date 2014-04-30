@@ -32,6 +32,7 @@ module.exports = function(req, res, next){
 		marked(data, function (err, content) {
 			res.render('document', { markdown: content, jazzhuburl: req.config.jazzhub.url });
 		});
+		
 	});
     });
 };

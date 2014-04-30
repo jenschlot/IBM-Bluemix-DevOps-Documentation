@@ -77,11 +77,20 @@ app.get(/^\/document(\/.*)$/, [
 	routes.documentdir,
 	routes.documentfile
 ]);
+
+app.get("/landing", [ 
+	config_middleware,
+	routes.landing
+]);
+
 /* If the file is neither markdown nor a directory, just send the file. */
 app.use('/document/', express.static(path.join(__dirname, 'docs')));
 
-app.get("/", function(req, res) { res.redirect("/document/"); });
 app.get("/document", function(req, res) { res.redirect("/document/"); });
+
+//Nothing specified, redirect to landing
+app.get("/", function(req, res) { res.redirect("/landing"); });
+app.get("/landing/", function(req, res) { res.redirect("/landing"); });
 
 
 /* Pulls in a default error handler (in case requests fall through) but only on dev. */

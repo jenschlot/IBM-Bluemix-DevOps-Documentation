@@ -8,7 +8,7 @@ module.exports = function (req, res, next) {
 		return;
 	}
 
-	var indexDoc = path.join(req.documentPath, 'index.md');
+	var indexDoc = path.join(req.documentPath, 'landing.md');
 
 	fs.exists(indexDoc, function(exists) {
 		if (exists) {

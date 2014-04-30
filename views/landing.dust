@@ -1,0 +1,183 @@
+{>header/}
+<div class="com-ibm-team-jazzhub-Docs fluid-content">
+	<div class="content tutorial-landing">
+		<div class="landing-header" id="landing-top">
+			<div class="landing-header-body jh-columns pll prl">
+				<div class="landing-header-left jh-col-12-6 prm">
+					<div class="landing-title">
+						<h1>Learning @ JazzHub</h1>
+					</div>
+					<div class="landing-intro">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ante libero, auctor a condimentum eget, fringilla in felis. Donec rutrum justo lectus, at iaculis ante cursus ac.
+						</p>
+						<p>
+							Quisque sit amet facilisis purus. Nullam lobortis massa vitae turpis venenatis mollis. Nullam ut erat eget erat massa nunc.
+						</p>
+					</div>
+					<div class="landing-get-started">
+
+					</div>
+				</div>
+				<div class="landing-header-right jh-col-12-6 plm">
+					<div class="table-of-contents">
+						test
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="landing-body-wrapper pll prl">
+			<div class="landing-body jh-columns">
+				<div class="jh-col-12-6 prm">
+					<!--Start Section -->
+					<div class="tutorial-section">
+						<div class="tutorial-section-header">
+							<div class="section-title f_left">
+								<h2 id="section-title-one">Section Title</h2>
+							</div>
+							<div class="back-to-top f_right">
+								<a href="#landing-top">back to top</a>
+							</div>
+						</div>
+						<div class="tutorial-section-body">
+							<div class="tutorial-section-description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus dui elit, tristique rhoncus nulla ornare sed. Fusce elementum justo sed.
+							</div>
+							<div class="tutorial-section-list">
+								<ul>
+									<li><a href="#">Tutorial Link One</a></li>
+									<li><a href="#">Tutorial Link Two</a></li>
+									<li><a href="#">Tutorial Link Three</a></li>
+									<li><a href="#">Tutorial Link Four</a></li>
+									<li><a href="#">Tutorial Link Five</a></li>
+									<li><a href="#">Tutorial Link Six</a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!--End Section -->
+
+					<!--Start Section -->
+					<div class="tutorial-section">
+						<div class="tutorial-section-header">
+							<div class="section-title f_left">
+								<h2 id="section-title-three">Section Title</h2>
+							</div>
+							<div class="back-to-top f_right">
+								<a href="#landing-top">back to top</a>
+							</div>
+						</div>
+						<div class="tutorial-section-body">
+							<div class="tutorial-section-description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus dui elit, tristique rhoncus nulla ornare sed. Fusce elementum justo sed.
+							</div>
+							<div class="tutorial-section-list">
+								<ul>
+									<li><a href="#">Tutorial Link One</a></li>
+									<li><a href="#">Tutorial Link Two</a></li>
+									<li><a href="#">Tutorial Link Three</a></li>
+									<li><a href="#">Tutorial Link Four</a></li>
+									<li><a href="#">Tutorial Link Five</a></li>
+									<li><a href="#">Tutorial Link Six</a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!--End Section -->
+					<!--Start Section -->
+					<div class="tutorial-section">
+						<div class="tutorial-section-header">
+							<div class="section-title f_left">
+								<h2 id="section-title-five">Section Title</h2>
+							</div>
+							<div class="back-to-top f_right">
+								<a href="#landing-top">back to top</a>
+							</div>
+						</div>
+						<div class="tutorial-section-body">
+							<div class="tutorial-section-description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus dui elit, tristique rhoncus nulla ornare sed. Fusce elementum justo sed.
+							</div>
+							<div class="tutorial-section-list">
+								<ul>
+									<li><a href="#">Tutorial Link One</a></li>
+									<li><a href="#">Tutorial Link Two</a></li>
+									<li><a href="#">Tutorial Link Three</a></li>
+									<li><a href="#">Tutorial Link Four</a></li>
+									<li><a href="#">Tutorial Link Five</a></li>
+									<li><a href="#">Tutorial Link Six</a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!--End Section -->
+
+				</div>
+				
+				<div class="jh-col-12-6 plm">
+					<!--Start Section -->
+					<div class="tutorial-section">
+						<div class="tutorial-section-header">
+							<div class="section-title f_left">
+								<h2 id="section-title-two">Section Title</h2>
+							</div>
+							<div class="back-to-top f_right">
+								<a href="#landing-top">back to top</a>
+							</div>
+						</div>
+						<div class="tutorial-section-body">
+							<div class="tutorial-section-description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus dui elit, tristique rhoncus nulla ornare sed. Fusce elementum justo sed.
+							</div>
+							<div class="tutorial-section-list">
+								<ul>
+									<li><a href="#">Tutorial Link One</a></li>
+									<li><a href="#">Tutorial Link Two</a></li>
+									<li><a href="#">Tutorial Link Three</a></li>
+									<li><a href="#">Tutorial Link Four</a></li>
+									<li><a href="#">Tutorial Link Five</a></li>
+									<li><a href="#">Tutorial Link Six</a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!--End Section -->
+					<!--Start Section -->
+					<div class="tutorial-section">
+						<div class="tutorial-section-header">
+							<div class="section-title f_left">
+								<h2 id="section-title-four">Section Title</h2>
+							</div>
+							<div class="back-to-top f_right">
+								<a href="#landing-top">back to top</a>
+							</div>
+						</div>
+						<div class="tutorial-section-body">
+							<div class="tutorial-section-description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus dui elit, tristique rhoncus nulla ornare sed. Fusce elementum justo sed.
+							</div>
+							<div class="tutorial-section-list">
+								<ul>
+									<li><a href="#">Tutorial Link One</a></li>
+									<li><a href="#">Tutorial Link Two</a></li>
+									<li><a href="#">Tutorial Link Three</a></li>
+									<li><a href="#">Tutorial Link Four</a></li>
+									<li><a href="#">Tutorial Link Five</a></li>
+									<li><a href="#">Tutorial Link Six</a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!--End Section -->
+				</div>			
+			</div>
+		</div>
+	</div>
+</div>
+{>footer/}

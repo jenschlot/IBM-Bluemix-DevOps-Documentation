@@ -1,3 +1,9 @@
 {>header/}
-{markdown|s}
+<div class='com-ibm-team-jazzhub-Docs content fluid-content'>
+	<div class="fixed-content jh-docmode">
+		<div class="content-box">
+			{markdown|s}
+		</div>
+	</div>
+</div>
 {>footer/}
