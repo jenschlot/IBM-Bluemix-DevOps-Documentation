@@ -178,4 +178,4 @@ Did you find the information you needed? Tell us what you think. What did we do 
 More Tutorials
 --------------
 
-Interested in trying more BlueMix and DevOps capabilities, [click here](..) to find more tutorials.
+Interested in trying more BlueMix and DevOps capabilities? [Click here](..) to find more tutorials.
