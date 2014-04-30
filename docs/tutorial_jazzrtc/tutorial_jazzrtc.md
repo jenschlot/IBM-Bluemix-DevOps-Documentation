@@ -4,21 +4,24 @@ This tutorial shows you how to develop a Java application using BlueMix, DevOps 
 
 ##Getting your app
 
-We'll start by forking the sample project, [WordCounter] (https://hub.jazz.net/project/pskhadke/WordCounter/overview).This project uses Jazz Source 
-Control Management (Jazz SCM for short). It contains a manifest for deploying to Bluemix and can be loaded directly in the RTC client for Eclipse. 
-DevOps Services also supports Git projects. To find out more about support for Git, check out the [Getting Started with BlueMix and DevOps Services 
-using Java](tutorial_jazzeditorjava/tutorial_jazzeditorjava) tutorial.
+We'll start by forking the sample project, [WordCounter](https://hub.jazz.net/project/pskhadke/WordCounter/overview).
+This project uses Jazz Source Control Management (Jazz SCM for short). It contains a manifest for deploying to Bluemix
+and can be loaded directly in the RTC client for Eclipse. DevOps Services also supports Git projects. To find out more
+about support for Git, check out the
+[Getting Started with BlueMix and DevOps Services using Java](tutorial_jazzeditorjava/tutorial_jazzeditorjava) tutorial.
 
-Go to the [WordCounter](https://hub.jazz.net/project/pskhadke/WordCounter/overview) project. Click ***EDIT CODE*** to open the Web IDE.
+Go to the [WordCounter](https://hub.jazz.net/project/pskhadke/WordCounter/overview) project. Click ***EDIT CODE*** to
+open the Web IDE.
 
 >	![Click Edit Code](images/click_edit_code.jpg)
 
-You can build your own application by clicking the ***FORK*** button and entering a unique name when prompted. You get a new project, a new project 
-name and a copy of the code from the sample project.
+You can build your own application by clicking the ***FORK*** button and entering a unique name when prompted. You get
+a new project, a new project name and a copy of the code from the sample project.
 
 >	![Fork](images/fork.jpg)
 
-Now that you've forked the project, you'll need to deliver the changes to the Jazz SCM repository. Browse to the Jazz SCM Changes page.
+Now that you've forked the project, you'll need to deliver the changes to the Jazz SCM repository. Browse to the Jazz
+SCM Changes page.
 
 >	![Jazz SCM Changes page](images/jazzscm.jpg)
 
@@ -28,29 +31,30 @@ Click ***Deliver***.
 
 ##Running your app
 
-You got your project in minutes! That's great! Now, let's set up how it's going to get built and deployed. Go to the deployment page by clicking the 
-***BUILD & DEPLOY*** button. Turn on deployment in the advanced mode by clicking the ***ADVANCED*** button. On the Configure Builder page, specify
+You got your project in minutes! That's great! Now, let's set up how it's going to get built and deployed. Go to the
+deployment page by clicking the ***BUILD & DEPLOY*** button. Turn on deployment in the advanced mode by clicking the
+***ADVANCED*** button. On the Configure Builder page, specify
 	
 * The password associated with your IBM id as the "Your IBM DevOps Services password"
 * The folder containing your code, i.e. "WordCounter" as the "Build script path"
 * A name for the "Build archive directory"	
 
-The folder "WordCounter" is the folder that Eclipse uses to represent your project. The "Build archive directory" is where the output war and manifest
-for your project will go after a successful build.
+The folder "WordCounter" is the folder that Eclipse uses to represent your project. The "Build archive directory" is
+where the output war and manifest for your project will go after a successful build.
 
 Check the "Enable unit tests" checkbox to run test cases during a build. Finally, click ***Save***.
 
 >	![Configure Builder](images/configure_builder.jpg)
 
-Click on ***Deployer*** to open the Configure Deployer page. This page will use the settings provided by the `manifest.yml` file, included as part of
-the project. All of the values, except for the hostname, can be used directly as provided. The hostname is used to define your application's url and
-needs to be unqiue for each application deployed. Let's override the host with the `-n` option in the `cf push` command as below. Click ***Save*** and
-you're all set!
+Click on ***Deployer*** to open the Configure Deployer page. This page will use the settings provided by the `manifest.yml`
+file, included as part of the project. All of the values, except for the hostname, can be used directly as provided. The
+hostname is used to define your application's url and needs to be unqiue for each application deployed. Let's override the
+host with the `-n` option in the `cf push` command as below. Click ***Save*** and you're all set!
 
 >	![Configure Deployer](images/configure_deployer.jpg)
 
-Click the ***REQUEST BUILD*** button to see your project get built and deployed for the first time. This takes a couple of minutes. And then... the
-circle goes green! The app's live!
+Click the ***REQUEST BUILD*** button to see your project get built and deployed for the first time. This takes a couple of
+minutes. And then... the circle goes green! The app's live!
 
 >	![Successful Build](images/build1_success.jpg)
 
@@ -61,8 +65,8 @@ Click the application link... It works! Awesome!
 ---
 ##Accessing your app from the RTC client for Eclipse
 
-Now that you have a running application, let's connect to it from the RTC client for Eclipse. Click on the project link to go to the Project Overview
-page. 
+Now that you have a running application, let's connect to it from the RTC client for Eclipse. Click on the project link to
+go to the Project Overview page. 
 
 >	![Project Link](images/project_link.jpg)
 
@@ -76,11 +80,13 @@ set up the RTC client for Eclipse, connect to your project and load the code.
 ---
 ##Delivering your first change
 
-You're in the RTC client for Eclipse. So, let's change something and see it go live. For example, change the app name on line 10 of index.html.
+You're in the RTC client for Eclipse. So, let's change something and see it go live. For example, change the app name on
+line 10 of index.html.
 
 >	![Edit Code](images/edit_code.jpg)
 
-Next, you'll want to deliver the change to the Jazz SCM repository. To do this, check-in the change in a new Change set using the Pending Changes view.
+Next, you'll want to deliver the change to the Jazz SCM repository. To do this, check-in the change in a new Change set
+using the Pending Changes view.
 
 >	![Check In Change](images/checkin.jpg)
 
@@ -92,17 +98,20 @@ And then deliver it.
 
 >	![Deliver Change Set](images/deliver.jpg)
 
-Visit the deployment page in the browser. A build should get triggered soon. The page gets automatically updated. Wait for it to go green.
+Visit the deployment page in the browser. A build should get triggered soon. The page gets automatically updated. Wait for
+it to go green.
 
 >	![Successful Build](images/build2_success.jpg)
 
-You click the app link and voila! The app name's updated! Cool!						
+You click the app link and voila! The app name's updated! Cool!
+
+>	![Application](images/app2.jpg)					
 
 ---
 ##Adding a test failure
 
-Let's add a failure to the JUnit tests so that you can see what happens when the build fails. Set "this.wcFinder" to null on line 23 of 
-WordCounterFinderTest.java.
+Let's add a failure to the JUnit tests so that you can see what happens when the build fails. Set "this.wcFinder" to null
+on line 23 of WordCounterFinderTest.java.
 
 >	![Edit Test Case](images/edit_testcase.jpg)
 
@@ -110,8 +119,8 @@ In addition, change the app name on line 10 of index.html. Deliver the changes.
 
 >	![Edit App Name Again](images/edit_code_2.jpg)
 
-The deployment page shows a failed build, as expected. Note how the build was not deployed automatically. Only successful builds are automatically
-deployed. Also note that when you click the app link, the app name is not updated. 
+The deployment page shows a failed build, as expected. Note how the build was not deployed automatically. Only successful
+builds are automatically deployed. Also note that when you click the app link, the app name is not updated. 
 
 >	![Failed Build](images/build3_failure.jpg)
 
@@ -134,8 +143,9 @@ So is our app... Great!
 
 >	![Application](images/app3.jpg)
 						
-That was easy. Now you can develop Java applications on your own. Thanks for following along. And tell us what you think. What did we do well? What can
-we do better? Post your comments to our [forum](https://www.ibmdw.net/answers?community=jazzhub)" or send us an [email](mailto:hub_help@jazz.net).
+That was easy. Now you can develop Java applications on your own. Thanks for following along. And tell us what you think.
+What did we do well? What can we do better? Post your comments to our [forum](https://www.ibmdw.net/answers?community=jazzhub)
+or send us an [email](mailto:hub_help@jazz.net).
 
 ---
 
