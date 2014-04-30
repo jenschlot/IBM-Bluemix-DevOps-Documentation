@@ -1,4 +1,3 @@
 /* Export an object, the fields of which are route handlers. */
-exports.documentfile = require("./documentfile.js");
-exports.documentdir = require("./documentdir.js");
+exports.render_markdown = require("./render_markdown.js");
 exports.landing = require("./landing.js");

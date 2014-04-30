@@ -58,40 +58,18 @@ var config_middleware = function(req, res, next) {
  * index.js in this directory pulls in all of the required routes.
  */
 var routes = require('./routes');
+var markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dirname, 'docs'));
 
-/* .less files in public/ will be preprocessed before they're served. */
-app.use(require('less-middleware')(path.join(__dirname, 'public')));
-
-
-app.use(express.static(path.join(__dirname, 'public')));
-/* When a request comes in for /document/<something>, tack on configuration
- * details, resolve the path to the document requested and render it as either
- * a directory or a markdown file.
- */
-app.get(/^\/document(\/.*)$/, [ 
-	config_middleware,
-	function(req, res, next) {
-		req.documentPath = path.join(__dirname, 'docs', req.params[0]);
-		next();
-	},
-	routes.documentdir,
-	routes.documentfile
-]);
-
-app.get("/landing", [ 
-	config_middleware,
-	routes.landing
-]);
-
-/* If the file is neither markdown nor a directory, just send the file. */
-app.use('/document/', express.static(path.join(__dirname, 'docs')));
-
-app.get("/document", function(req, res) { res.redirect("/document/"); });
-
-//Nothing specified, redirect to landing
-app.get("/", function(req, res) { res.redirect("/landing"); });
-app.get("/landing/", function(req, res) { res.redirect("/landing"); });
-
+app
+ .get('/', [ config_middleware, routes.landing ])
+ .get('/landing', [ config_middleware, routes.landing ])
+ .use(markdown_middleware.file)
+ .use(markdown_middleware.directory)
+ .use(routes.render_markdown)
+ .use(require('less-middleware')(path.join(__dirname, 'public')))
+ .use(express.static(path.join(__dirname, 'public')))
+ .use(express.static(path.join(__dirname, 'docs')))
+ .use(express.directory(path.join(__dirname, 'docs')));
 
 /* Pulls in a default error handler (in case requests fall through) but only on dev. */
 if ('development' == app.get('env')) {
