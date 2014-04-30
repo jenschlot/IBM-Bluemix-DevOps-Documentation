@@ -178,4 +178,9 @@ Did you find the information you needed? Tell us what you think. What did we do 
 More Tutorials
 --------------
 
-Interested in trying more BlueMix and DevOps capabilities? [Click here](..) to find more tutorials.
+Interested in trying more BlueMix and DevOps capabilities, here is a list of tutorials:
+
+
+* [Getting Started with BlueMix and DevOps Services using Java](https://hub.jazz.net/tutorials/jazzeditorjava)
+* [Developing BlueMix applications in Node.js with the DevOps Services Web IDE](https://hub.jazz.net/tutorials/jazzweb)
+* [Developing BlueMix applications in Java with Eclipse and DevOps Services](https://hub.jazz.net/tutorials/jazzrtc)
