@@ -98,17 +98,17 @@ Success! You've created a Git repo, loaded it with the example code, and deploye
 
 Now let's go see the status of the deployed app. Go to the BlueMix Dashboard and click **CODE**.
 
-<CODE button>
+>	![CODE button](images/bm-code-button.png)
 
 Your new project opens in the Web IDE. There is lots of useful information on this page, 
 which you can try later, but since we're just here to check the status of the application, 
 you should go ahead and click the **BUILD & DEPLOY** button.
 
-<Web IDE>
+>	![Web IDE](images/orion.png)
 
 Clicking that button opens a page that lets you configure and see the status of deployment from this project.
 
-<DevOps Services auto deploy page>
+>	![DevOps Services auto deploy page](images/jh-auto-deploy.png)
 
 If you're wondering about the **ADVANCED** entry on the Build & Deploy page 
 that allows you to add a Build step which is useful for Java applications, and control 
@@ -124,27 +124,28 @@ The Git URL is what you use with your Git commands. You can copy it now, or come
 You have a Git repo with example code. Lots of tools can be used to work with Git, including all of the major desktop IDEs 
 and even directly from the web using the Web IDE (which we saw briefly above) 
 but for now let's just use the command line Git support. (**Note**: If you need to install Git, 
-take a look at here.)
+take a look at [here](https://hub.jazz.net/tutorials/clients#cli).
 
 First you clone the local repo using the URL from the BlueMix application dashboard:
 
-<Clone the local repository>
+>	![Clone the local repository](images/cli-git-clone.png)
 
 Next, let's change your app source code and see what happens. 
 In the views folder there's a file called index.ejs. This file implements the main page from the example. 
 If you change this file, for example, by modifying the title that is displayed,
 
-<changing the title>
+>	![Changing the title](images/cli-edit-file.png)
+
 and then do another Git push, like this image:
 
-<changing the title>
+>	![Pushing the change](images/cli-edit-push.png)
 
 Now, this is where it starts to get interesting! If you go back to the Web IDE and check the 
 Build & Deploy page, you see something like this image:
 
-<Auto-deploy in action>
+>	![Auto-deploy in action](images/jh-auto-deployed.png)
 
-Notice that at the top of the Recent auto-deployments list is an entry with a comment that 
+Notice that at the top of the **Recent auto-deployments** list is an entry with a comment that 
 matches the commit you did using the command line. That shows your app is now running the code you pushed.
 
 Next go look at your running app by clicking the link next to the **Deploy to** field and see 
@@ -152,6 +153,7 @@ that the title was updated (**Hint**: The title was Application Example: run Dat
 You may need to refresh your browser to ensure the updated page is displayed.
 
 <Application page showing new title>
+>	![Application page showing new title](images/app-new-title.png)
 
 Well there you go. Now you can continue to make modifications to the example and push them to the 
 Git repository as often as needed. And as the scope of the work grows, and more people are added to the 
@@ -160,7 +162,8 @@ build and deploy are all that is required to ensure that the right bits are alwa
 
 ##Back to DevOps Services
 
-It turns out though that in addition to auto-deploy, DevOps Services provides a lot of other capabilities that are useful for application development. Indeed, DevOps Services is all about development with features like:
+It turns out though that in addition to auto-deploy, DevOps Services provides a lot of other capabilities 
+that are useful for application development. Indeed, DevOps Services is all about development with features like:
 
     Free public project hosting
     Multiple source code repositories
@@ -169,55 +172,59 @@ It turns out though that in addition to auto-deploy, DevOps Services provides a 
     Continuous delivery pipeline to deploy applications to BlueMix
     and lots more coming...
 
-If you want to know more about DevOps Services, you can start by checking out the information here, 
+If you want to know more about DevOps Services, you can start by checking out the information [here](https://hub.jazz.net/learn), 
 but just as you did with BlueMix, let's do something.
 
 So far you've used command line tools to modify your code and push it to the repository, and you've seen that this works just fine. 
 However, there is another way you can work with DevOps Services.
 
 If you go back to the deployment page, you can see a button labeled **Edit Code**. Clicking this button, takes you to a complete online integrated development environment (IDE), 
-based on the work of the Orion open source project. Here's what it looks like open on our example project:
+based on the work of the [Orion](http://orion.eclipse.org/) open source project. Here's what it looks like open on our example project:
 
 <Orion at DevOps Services>
+>	![Orion at DevOps Services](images/jh-auto-deployed.png)
 
 From this environment, you can edit files with syntax coloring support for multiple languages including html, 
 css, javascript, ruby, python and more. For some languages, such as JavaScript, the IDE also supports 
 syntax checking and code completion, both for standard language constructs and for the services provided 
 by BlueMix. For example, here's what it looks like providing completion for the standard node.js express module:
 
-<Orion showing express completions>
+>	![Orion showing express completions](images/completion.png)
 
 So just to round out the process, let's make one more modification to your application using the Web IDE. 
 You can navigate using the tree until you get to the same file you worked on 
 before (for example, views/index.ejs), and then simply edit in place.
 
-<Orion editing index>
+>	![Orion editing index](images/orion-really-cool.png)
 
 You can then use the integrated Git support to push the change. You start by switching to the Git Status page.
 
-<Orion git status menu>
+>	![Orion Git status menu](images/orion-git-status.png)
 
 Where you can then stage...
 
-<Orion git staging>
+>	![Orion Git staging](images/orion-git-stage.png)
 
 ... commit...
 
-<Orion git commit>
+>	![Orion Git commit](images/orion-commit.png)
 
 ... and push the change...
 
-<Orion git push>
+>	![Orion Git push](images/orion-push.png)
 
-... just like you did with the command line (only with a few more clicks and a lot less typing). And then, finally, you can see once again that your app was updated. (Hint: Click the link next to the Deploy to field on the Build & Deploy page to see that the title was updated.)
+... just like you did with the command line (only with a few more clicks and a lot less typing). 
+And then, finally, you can see once again that your app was updated. 
+(**Hint**: Click the link next to the **Deploy to** field on the Build & Deploy page to see that the title was updated.)
 
 <Our really cool app>
+>	![Our really cool app](images/really-cool.png)
 
 ##Manual Deployment
 
 So far in this tutorial, you have only looked at using simple deploy with BlueMix. 
 If you want more control over the deployment options, you can choose advanced deploy. 
-And because BlueMix is based on CloudFoundry, it is also possible to manually deploy 
+And because BlueMix is based on [Cloud Foundry](http://cloudfoundry.com/), it is also possible to manually deploy 
 applications directly to BlueMix using the standard cf and gcf command line tools.
 
 Similarly, in the Web IDE, you can use the **Deploy** button (see the IDE screenshot above) 
@@ -246,15 +253,16 @@ with BlueMix and DevOps Services using Node.js. Lots of details were glossed ove
 but the documentation links at the start can fill those in.
 
 Thanks for following along. And tell us what you think. What did we do well? 
-What can we do better? Post your comments to our forum or send us an email.
+What can we do better? Post your comments to our [forum](https://www.ibmdw.net/answers?community=jazzhub) 
+or send us an [email](hub_help@jazz.net).
 
 ##More Tutorials
 
 Interested in trying more BlueMix and DevOps capabilities? Here is a list of tutorials:
 
-* Getting Started with BlueMix and DevOps Services using Java
-* Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Service
-* Developing BlueMix applications in Node.js with the DevOps Services Web IDE
-* Developing BlueMix applications in Java with Eclipse and DevOps Services
+* [Getting Started with BlueMix and DevOps Services using Java](https://hub.jazz.net/tutorials/jazzeditorjava)
+* [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Service](https://hub.jazz.net/tutorials/clients)
+* [Developing BlueMix applications in Node.js with the DevOps Services Web IDE](https://hub.jazz.net/tutorials/jazzweb)
+* [Developing BlueMix applications in Java with Eclipse and DevOps Services](https://hub.jazz.net/tutorials/jazzrtc)
 
 
