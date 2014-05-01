@@ -97,7 +97,7 @@ automatically deploy the app, is checked.
 Success! You've created a Git repo, loaded it with the example code, and deployed the app, all in a few clicks.
 
 >	![Git repo success message dialog](images/bm-git-repo-success-msg.png)
-<Git repo success message dialog>
+
 
 Now let's go see the status of the deployed app. Go to the BlueMix Dashboard and click **CODE**.
 
@@ -128,7 +128,7 @@ The Git URL is what you use with your Git commands. You can copy it now, or come
 You have a Git repo with example code. Lots of tools can be used to work with Git, including all of the major desktop IDEs 
 and even directly from the web using the Web IDE (which we saw briefly above) 
 but for now let's just use the command line Git support. (**Note**: If you need to install Git, 
-take a look at [here](./../tutorial_clients/tutorial_clients#gitinstall).
+take a look [here](./../tutorial_clients/tutorial_clients#gitinstall).
 
 First you clone the local repo using the URL from the BlueMix application dashboard:
 
@@ -140,7 +140,7 @@ If you change this file, for example, by modifying the title that is displayed,
 
 >	![Changing the title](images/cli-edit-file.png)
 
-and then do another `Git push`, like this image:
+and then do another `git push`, like this image:
 
 >	![Pushing the change](images/cli-edit-push.png)
 
@@ -161,7 +161,7 @@ You may need to refresh your browser to ensure the updated page is displayed.
 Well there you go. Now you can continue to make modifications to the example and push them to the 
 Git repository as often as needed. And as the scope of the work grows, and more people are added to the 
 project to work on it, everyone can push changes to the repository. Standard repository operations and 
-build and deploy are all that is required to ensure that the right bits are always running.
+auto-deploy are all that is required to ensure that the right bits are always running.
 
 ---
 ##Back to DevOps Services
@@ -169,12 +169,12 @@ build and deploy are all that is required to ensure that the right bits are alwa
 It turns out though that in addition to auto-deploy, DevOps Services provides a lot of other capabilities 
 that are useful for application development. Indeed, DevOps Services is all about development with features like:
 
-    Free public project hosting
-    Multiple source code repositories
-    Support for teams doing Agile development
-    Web based development tools with customizations specifically for working with BlueMix
-    Continuous delivery pipeline to deploy applications to BlueMix
-    and lots more coming...
+* Free public project hosting
+* Multiple source code repositories
+* Support for teams doing Agile development
+* Web based development tools with customizations specifically for working with BlueMix
+* Continuous delivery pipeline to deploy applications to BlueMix
+* and lots more coming...
 
 If you want to know more about DevOps Services, you can start by checking out the information [here](https://hub.jazz.net/learn), 
 but just as you did with BlueMix, let's do something.
@@ -185,7 +185,7 @@ However, there is another way you can work with DevOps Services.
 If you go back to the deployment page, you can see a button labeled **Edit Code**. Clicking this button, takes you to a complete online integrated development environment (IDE), 
 based on the work of the [Orion](http://orion.eclipse.org/) open source project. Here's what it looks like open on our example project:
 
->	![Orion at DevOps Services](images/jh-auto-deployed.png)
+>	![Orion at DevOps Services](images/orion.png)
 
 From this environment, you can edit files with syntax coloring support for multiple languages including html, 
 css, javascript, ruby, python and more. For some languages, such as JavaScript, the IDE also supports 
@@ -220,7 +220,6 @@ Where you can then stage...
 And then, finally, you can see once again that your app was updated. 
 (**Hint**: Click the link next to the **Deploy to** field on the Build & Deploy page to see that the title was updated.)
 
-<Our really cool app>
 >	![Our really cool app](images/really-cool.png)
 
 ---
