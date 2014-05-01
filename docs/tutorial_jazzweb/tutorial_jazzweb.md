@@ -141,5 +141,5 @@ Interested in trying more BlueMix and DevOps capabilities? Here is a list of tut
    [18]: images/manualdeploy.gif
    [19]: images/UpdatedApp.gif
    [20]: https://www.ibmdw.net/answers?community=jazzhub (forum)
-   [21]: mailto:hub_help%40jazz.net
+   [21]: mailto:hub%40jazz.net
   
