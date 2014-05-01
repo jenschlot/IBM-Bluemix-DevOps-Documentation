@@ -128,7 +128,7 @@ The Git URL is what you use with your Git commands. You can copy it now, or come
 You have a Git repo with example code. Lots of tools can be used to work with Git, including all of the major desktop IDEs 
 and even directly from the web using the Web IDE (which we saw briefly above) 
 but for now let's just use the command line Git support. (**Note**: If you need to install Git, 
-take a look at [here](./../tutorial_clients/tutorial_clients#gitinstall).
+take a look [here](./../tutorial_clients/tutorial_clients#gitinstall).
 
 First you clone the local repo using the URL from the BlueMix application dashboard:
 
