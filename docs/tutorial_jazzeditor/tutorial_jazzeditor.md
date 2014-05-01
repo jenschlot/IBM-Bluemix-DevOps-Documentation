@@ -97,7 +97,7 @@ automatically deploy the app, is checked.
 Success! You've created a Git repo, loaded it with the example code, and deployed the app, all in a few clicks.
 
 >	![Git repo success message dialog](images/bm-git-repo-success-msg.png)
-<Git repo success message dialog>
+
 
 Now let's go see the status of the deployed app. Go to the BlueMix Dashboard and click **CODE**.
 
@@ -220,7 +220,6 @@ Where you can then stage...
 And then, finally, you can see once again that your app was updated. 
 (**Hint**: Click the link next to the **Deploy to** field on the Build & Deploy page to see that the title was updated.)
 
-<Our really cool app>
 >	![Our really cool app](images/really-cool.png)
 
 ---
