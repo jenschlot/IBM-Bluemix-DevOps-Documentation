@@ -140,7 +140,7 @@ If you change this file, for example, by modifying the title that is displayed,
 
 >	![Changing the title](images/cli-edit-file.png)
 
-and then do another `Git push`, like this image:
+and then do another `git push`, like this image:
 
 >	![Pushing the change](images/cli-edit-push.png)
 
@@ -161,7 +161,7 @@ You may need to refresh your browser to ensure the updated page is displayed.
 Well there you go. Now you can continue to make modifications to the example and push them to the 
 Git repository as often as needed. And as the scope of the work grows, and more people are added to the 
 project to work on it, everyone can push changes to the repository. Standard repository operations and 
-build and deploy are all that is required to ensure that the right bits are always running.
+auto-deploy are all that is required to ensure that the right bits are always running.
 
 ---
 ##Back to DevOps Services
@@ -185,7 +185,7 @@ However, there is another way you can work with DevOps Services.
 If you go back to the deployment page, you can see a button labeled **Edit Code**. Clicking this button, takes you to a complete online integrated development environment (IDE), 
 based on the work of the [Orion](http://orion.eclipse.org/) open source project. Here's what it looks like open on our example project:
 
->	![Orion at DevOps Services](images/jh-auto-deployed.png)
+>	![Orion at DevOps Services](images/orion.png)
 
 From this environment, you can edit files with syntax coloring support for multiple languages including html, 
 css, javascript, ruby, python and more. For some languages, such as JavaScript, the IDE also supports 
