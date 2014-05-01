@@ -264,6 +264,6 @@ Interested in trying more BlueMix and DevOps capabilities? Here is a list of tut
    [39]: mailto:hub_help%40jazz.net
    [40]: ../tutorial_jazzrtc/tutorial_jazzrtc (Developing BlueMix applications in Java with Eclipse and DevOps Services)
    [41]: ../tutorial_jazzeditor/tutorial_jazzeditor (Getting Started with BlueMix and DevOps Services using Node.js)
-   [42]: ../tutorials_clients/tutorials_clients (Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services)
-   [43]: ../tutorials_jazzweb/tutorials_jazzweb (Developing BlueMix applications in Node.js with the DevOps Services Web IDE)
+   [42]: ../tutorial_clients/tutorial_clients (Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services)
+   [43]: ../tutorial_jazzweb/tutorial_jazzweb (Developing BlueMix applications in Node.js with the DevOps Services Web IDE)
   
