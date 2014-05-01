@@ -258,7 +258,7 @@ but the documentation links at the start can fill those in.
 
 Thanks for following along. And tell us what you think. What did we do well? 
 What can we do better? Post your comments to our [forum](https://www.ibmdw.net/answers?community=jazzhub) 
-or send us an [email](hub%40jazz.net).
+or send us an [email](mailto:hub%40jazz.net).
 
 ---
 ##More Tutorials
