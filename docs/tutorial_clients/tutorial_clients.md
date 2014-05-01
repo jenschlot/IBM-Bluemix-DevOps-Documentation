@@ -173,7 +173,7 @@ If your project is in a Jazz SCM repository, follow these steps to create a new 
 7. Select the Eclipse projects to be loaded into your local Eclipse. Click **Finish**.
 8. If you are working on an existing project with code, click on the **Package or Project Explorer** tab to browse the loaded files, open a file, and edit code.
 
-Did you find the information you needed? Tell us what you think. What did we do well? What can we do better? Post your comments to our [forum](https://www.ibmdw.net/answers?community=jazzhub) or send us an [email](mailto:hub@jazz.net).
+Did you find the information you needed? Tell us what you think. What did we do well? What can we do better? Post your comments to our [forum](https://www.ibmdw.net/answers?community=jazzhub) or send us an [email](mailto:hub%40jazz.net).
 
 More Tutorials
 --------------

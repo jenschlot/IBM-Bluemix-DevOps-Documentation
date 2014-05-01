@@ -145,7 +145,7 @@ So is our app... Great!
 						
 That was easy. Now you can develop Java applications on your own. Thanks for following along. And tell us what you think.
 What did we do well? What can we do better? Post your comments to our [forum](https://www.ibmdw.net/answers?community=jazzhub)
-or send us an [email](mailto:hub@jazz.net).
+or send us an [email](mailto:hub%40jazz.net).
 
 ---
 
