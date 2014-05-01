@@ -169,12 +169,12 @@ build and deploy are all that is required to ensure that the right bits are alwa
 It turns out though that in addition to auto-deploy, DevOps Services provides a lot of other capabilities 
 that are useful for application development. Indeed, DevOps Services is all about development with features like:
 
-    Free public project hosting
-    Multiple source code repositories
-    Support for teams doing Agile development
-    Web based development tools with customizations specifically for working with BlueMix
-    Continuous delivery pipeline to deploy applications to BlueMix
-    and lots more coming...
+* Free public project hosting
+* Multiple source code repositories
+* Support for teams doing Agile development
+* Web based development tools with customizations specifically for working with BlueMix
+* Continuous delivery pipeline to deploy applications to BlueMix
+* and lots more coming...
 
 If you want to know more about DevOps Services, you can start by checking out the information [here](https://hub.jazz.net/learn), 
 but just as you did with BlueMix, let's do something.
