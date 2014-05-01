@@ -128,7 +128,7 @@ The Git URL is what you use with your Git commands. You can copy it now, or come
 You have a Git repo with example code. Lots of tools can be used to work with Git, including all of the major desktop IDEs 
 and even directly from the web using the Web IDE (which we saw briefly above) 
 but for now let's just use the command line Git support. (**Note**: If you need to install Git, 
-take a look at [here](https://hub.jazz.net/tutorials/clients#cli).
+take a look at [here](./../tutorial_clients/tutorial_clients#gitinstall).
 
 First you clone the local repo using the URL from the BlueMix application dashboard:
 
@@ -266,9 +266,9 @@ or send us an [email](hub_help@jazz.net).
 
 Interested in trying more BlueMix and DevOps capabilities? Here is a list of tutorials:
 
-* [Getting Started with BlueMix and DevOps Services using Java](https://hub.jazz.net/tutorials/jazzeditorjava)
-* [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Service](https://hub.jazz.net/tutorials/clients)
-* [Developing BlueMix applications in Node.js with the DevOps Services Web IDE](https://hub.jazz.net/tutorials/jazzweb)
-* [Developing BlueMix applications in Java with Eclipse and DevOps Services](https://hub.jazz.net/tutorials/jazzrtc)
+* [Getting Started with BlueMix and DevOps Services using Java](../tutorial_jazzeditorjava/tutorial_jazzeditorjava)
+* [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Service](../tutorial_clients/tutorial_clients)
+* [Developing BlueMix applications in Node.js with the DevOps Services Web IDE](../tutorial_jazzweb/tutorial_jazzweb)
+* [Developing BlueMix applications in Java with Eclipse and DevOps Services](../tutorial_jazzrtc/tutorial_jazzrtc)
 
 

@@ -115,10 +115,10 @@ Thanks for following along. And tell us what you think. What did we do well? Wha
 
 Interested in trying more BlueMix and DevOps capabilities? Here is a list of tutorials:
 
-* [Getting Started with BlueMix and DevOps Services using Node.js](https://hub.jazz.net/tutorials/jazzeditorjava)
-* [Getting Started with BlueMix and DevOps Services using Java](https://hub.jazz.net/tutorials/jazzeditorjava)
-* [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Service](https://hub.jazz.net/tutorials/clients)
-* [Developing BlueMix applications in Java with Eclipse and DevOps Services](https://hub.jazz.net/tutorials/jazzrtc)
+* [Getting Started with BlueMix and DevOps Services using Node.js](../tutorial_jazzweb/tutorial_jazzweb.md)
+* [Getting Started with BlueMix and DevOps Services using Java](../tutorial_jazzeditorjava/tutorial_jazzeditorjava.md)
+* [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Service](../tutorial_clients/tutorial_clients.md)
+* [Developing BlueMix applications in Java with Eclipse and DevOps Services](../tutorial_jazzrtc/tutorial_jazzrtc)
 
 
    [1]: https://ace.ng.bluemix.net/ (BlueMix)

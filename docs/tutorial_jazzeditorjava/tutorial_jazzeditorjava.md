@@ -242,13 +242,13 @@ Interested in trying more BlueMix and DevOps capabilities? Here is a list of tut
    [17]: images/simpledeploy.gif 
    [18]: images/configbuilder.gif 
    [19]: images/deployer.gif 
-   [20]: https://hub.jazz.net/tutorials/clients (Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Services)
+   [20]: ../tutorial_clients/tutorial_clients (Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Services)
    [21]: images/cli-git-clone.gif 
    [22]: images/cli-stage-commit.gif 
    [23]: images/cli-push.gif 
    [24]: images/autodeploy.gif 
    [25]: images/app-new-title.gif 
-   [26]: https://hub.jazz.net/tutorials/clients/ (Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Services)
+   [26]: ../tutorial_clients/tutorial_clients (Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Services)
    [27]: https://hub.jazz.net/learn (DevOps Services introduction)
    [28]: http://orion.eclipse.org/ (The Eclipse Orion project)
    [29]: images/orion.gif 
@@ -262,8 +262,8 @@ Interested in trying more BlueMix and DevOps capabilities? Here is a list of tut
    [37]: images/manualdeploy.gif
    [38]: https://www.ibmdw.net/answers?community=jazzhub (forum)
    [39]: mailto:hub_help%40jazz.net
-   [40]: https://hub.jazz.net/tutorials/jazzrtc/ (Developing BlueMix applications in Java with Eclipse and DevOps Services)
-   [41]: https://hub.jazz.net/tutorials/jazzeditor/ (Getting Started with BlueMix and DevOps Services using Node.js)
-   [42]: https://hub.jazz.net/tutorials/clients/ (Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services)
-   [43]: https://hub.jazz.net/tutorials/jazzweb/ (Developing BlueMix applications in Node.js with the DevOps Services Web IDE)
+   [40]: ../tutorial_jazzrtc/tutorial_jazzrtc (Developing BlueMix applications in Java with Eclipse and DevOps Services)
+   [41]: ../tutorial_jazzeditor/tutorial_jazzeditor (Getting Started with BlueMix and DevOps Services using Node.js)
+   [42]: ../tutorials_clients/tutorials_clients (Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services)
+   [43]: ../tutorials_jazzweb/tutorials_jazzweb (Developing BlueMix applications in Node.js with the DevOps Services Web IDE)
   
