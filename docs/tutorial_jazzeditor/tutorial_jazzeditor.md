@@ -80,14 +80,14 @@ loaded with example code and a deployed app, right from BlueMix. Now that's cool
 >	![Add Git Integration button](images/bm-add-git-integration.png)
 
 
-You may be asked to enter your password because DevOps Services must verify that it can act on your behalf, 
+You might be asked to enter your password because DevOps Services must verify that it can act on your behalf, 
 so enter your IBM id password and click **Sign In**.
 
 >	![DevOps Services sign in page](images/jh-signin.png)
 
 ***Note: The first time you access DevOps Services, you might need to create a "Jazz ID" and link it to your IBM id. A Jazz ID is a kind of "short name" that is used in several places, 
 including the URL for the repository that is about to be created for you. 
-Just follow the instructions in the dialog — you will only ever see it once.***
+Just follow the instructions in the dialog — you'll only ever see it once.***
  
 Make sure the box to populate the Git repo with the starter application package and 
 automatically deploy the app, is checked.
@@ -115,7 +115,7 @@ Clicking that button opens a page that lets you configure and see the status of 
 
 If you're wondering about the **ADVANCED** entry on the Build & Deploy page 
 that allows you to add a Build step which is useful for Java applications, and control 
-additional deployment options — but that's beyond the scope of this tutorial.
+additional deployment options — that's beyond the scope of this tutorial.
 
 You can change the deployment settings by clicking **CONFIGURE**. And if you want to manage your app in 
 BlueMix you can click **MANAGE**.
@@ -154,7 +154,7 @@ matches the commit you did using the command line. That shows your app is now ru
 
 Next go look at your running app by clicking the link next to the **Deploy to** field and see 
 that the title was updated (**Hint**: The title was Application Example: run DataCache using REST API): 
-You may need to refresh your browser to ensure the updated page is displayed.
+You might need to refresh your browser to ensure the updated page is displayed.
 
 >	![Application page showing new title](images/app-new-title.png)
 
@@ -232,7 +232,7 @@ applications directly to BlueMix using the standard cf and gcf command line tool
 
 Similarly, in the Web IDE, you can use the **Deploy** button (see the IDE screenshot above) 
 to manually deploy whatever you are working in the Web IDE to BlueMix. **Note**: The **Deploy** button 
-in the Web IDE deploys the current state of your code in your Web IDE, whereas Auto-Deploy deploys 
+in the Web IDE deploys the current state of your code in your Web IDE, whereas auto-deploy deploys 
 from what is checked into the repository.
 
 Whether you are using command line tools or the Web IDE, 
@@ -248,9 +248,9 @@ at the time you pushed.
 
 You've seen how easy it is to create a node.js web app at BlueMix and run that app. 
 With one click you created a Git repo, loaded it with the example code and automatically 
-deployed the app. You saw how easy it was to change the code and push it using the Git command line and the 
-Web IDE, to check the status of the app deployment, and to run the app to show your changes. 
-That's all there is to it.
+deployed the app. In minutes you changed the code and pushed it using the Git command line and the 
+Web IDE, automatically ran a build and deploy, checked the status of the app deployment, 
+and to run the app to show your changes. That's all there is to it.
 
 For those of you who made it this far, we hope this tutorial has given you a feel for how to get started 
 with BlueMix and DevOps Services using Node.js. Lots of details were glossed over, 
