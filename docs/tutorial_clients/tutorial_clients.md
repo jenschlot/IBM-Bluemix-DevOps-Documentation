@@ -91,10 +91,10 @@ If you are using Eclipse and you have a Git project, you can use the EGit tool t
 2. If you see a list of Git-related views, skip ahead to [Connecting to your DevOps Services Project with EGit](#connecting_to_your_devops_services_project_with_egit)
 3. In Eclipse, go to **Help > Install New Software...**
 4. In the **Install** window, complete the following steps:
-  1. In the **Work with** field, enter `http://download.eclipse.org/egit/updates`
-  2. Press **Enter** to load the contents of the update site.
-  3. Select the **Eclipse Git Team Provider** check box.
-  4. Click **Next**.
+  a. In the **Work with** field, enter `http://download.eclipse.org/egit/updates`
+  b. Press **Enter** to load the contents of the update site.
+  c. Select the **Eclipse Git Team Provider** check box.
+  d. Click **Next**.
 5. Click on **Next**. Review the license terms and if you agree to the terms, accept them.
 6. Click **Finish** to install the plug-in.
 7. If you receive a security warning message, click **OK**.
@@ -148,11 +148,11 @@ Installing Eclipse and the Rational Team Concert plug-in
 and install [Eclipse 4.2.2](http://www.eclipse.org/downloads/packages/release/juno/sr2) from Eclipse.org.
 2. In Eclipse, go to **Help > Install New Software...**
 3. In the **Install** window, complete the following steps:
-  1. In the **Work with** field, enter `https://jazz.net/downloads/rational-team-concert/4.0.6/4.0.6/p2`
-  1. Press **Enter** to load the contents of the update site.
-  2. Select the **Rational Team Concert Client Feature** check box.
-  3. Select the **Group items by category** check box
-  4. Click **Next**.
+  a. In the **Work with** field, enter `https://jazz.net/downloads/rational-team-concert/4.0.6/4.0.6/p2`
+  b. Press **Enter** to load the contents of the update site.
+  c. Select the **Rational Team Concert Client Feature** check box.
+  d. Select the **Group items by category** check box
+  e. Click **Next**.
 4. Click on **Next**. Review the license terms and if you agree to the terms, accept them.
 5. Click **Finish** to install the plug-in.
 6. If you receive a security warning message, click **OK**.
