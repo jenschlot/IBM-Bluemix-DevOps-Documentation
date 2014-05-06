@@ -40,8 +40,8 @@ need. Where is your code stored? Look at your project page on
 software configuration management (SCM) your project uses. You will see a link on the
  right side of the page that says either **Jazz Repository** or **Git URL**.
 
-- If your link is a *Git URL*, you want to take a look at [Working with a Git project](#working_with_a_git_project).
-- If the link is a *Jazz Repository*, then you have a Jazz SCM project. You should check out [Working with a Jazz SCM project](#working_with_a_jazz_scm_project).
+- If your link is a **Git URL**, you want to take a look at [Working with a Git project](#working_with_a_git_project).
+- If the link is a **Jazz Repository**, then you have a Jazz SCM project. You should check out [Working with a Jazz SCM project](#working_with_a_jazz_scm_project).
 
 
 ***
@@ -70,7 +70,7 @@ Connecting to your Git project from the command line
 ----------------------------------------------------
 
 1. Browse to your project page on [DevOps Services](https://hub.jazz.net/).
-2. Copy the *Git URL* from the right side of your project page.
+2. Copy the **Git URL** from the right side of your project page.
 3. Open a Terminal.
 4. Change to the directory where you want to put the code from your Git project.
 5. Type `git clone`, paste in the Git URL, and press Enter.
@@ -195,7 +195,7 @@ If your project is in a Jazz SCM repository, follow these steps to create a new 
 
 1. In Eclipse, go to **Window > Show View > Team Artifacts**.
 2. Expand your Project Area to see the **Source Control** folder.
-3. Select the *Source Control* folder, right-click, and select **New > Repository Workspace...**
+3. Select the **Source Control** folder, right-click, and select **New > Repository Workspace...**
 4. Select the stream you want to flow to. Click **Next**.
 5. Specify a new name for your repository workspace. Include the word "Eclipse" in the name. Click **Finish**.
 6. The tool continues with additional steps. Select **Find and load Eclipse projects** to load all of the projects from the components in the new repository workspace into your local Eclipse.
