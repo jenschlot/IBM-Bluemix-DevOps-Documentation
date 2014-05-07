@@ -56,7 +56,7 @@ given tutorial.
 - [What's next](whats_next)
 - [Tell us what you think](feedback)
 - [Link definitions](link_definitions)
-
+- [Check content against IBM style](check_content_against_IBM_style)
 ---
 <a name='section_titles'></a>
 # Section titles, major headings, and minor headings
@@ -364,19 +364,25 @@ What can we do better? Post your comments to our [forum][8]
 or send us an [email][9].
 
 ---
+<a name='check_content_against_IBM_style'></a>
+# Check your content against IBM style
+
+Run the Acronlinx IQ Desktop Checker to check your text quality against IBM style guidelines.
+Read the instructions to [setup and run this checker][15].  
+---
 <a name='link_definitions'></a>
 # Link definitions
 <!---
 Add your link definitions to the bottom of your document to make it easier to maintain them.
 -->
 
-   [1]: https://releaseblueprints.ibm.com/display/CLOUDOE/Cloud+OE+Content+Design#CloudOEContentDesign-Screencaptures
+   [1]: https://releaseblueprints.ibm.com/display/CLOUDOE/Cloud+OE+Content+Design#CloudOEContentDesign-Screencaptures (BlueMix Screen Capture Guidelines)
    [2]: images/app-new-title-sml.png 
    [3]: images/app-new-title-lge.png
-   [4]: https://ace.ng.bluemix.net/
+   [4]: https://ace.ng.bluemix.net/ (BlueMix website)
    [5]: ./../tutorial_clients/tutorial_clients#gitinstall
    [6]: https://github.com/colingourlay/simple-sidebars/blob/master/README.markdown
-   [7]: https://releaseblueprints.ibm.com/display/CLOUDOE/Cloud+OE+Content+Design#CloudOEContentDesign-BlueMixtextstyleguidelines
+   [7]: https://releaseblueprints.ibm.com/display/CLOUDOE/Cloud+OE+Content+Design#CloudOEContentDesign-BlueMixtextstyleguidelines (BlueMix Style Text Guidelines)
    [8]: https://www.ibmdw.net/answers?community=jazzhub (forum)
    [9]: mailto:hub%40jazz.net
    [10]: ../tutorial_jazzeditor/tutorial_jazzeditor (Getting Started with BlueMix and DevOps Services using Node.js)
@@ -384,3 +390,4 @@ Add your link definitions to the bottom of your document to make it easier to ma
    [12]: ../tutorial_clients/tutorial_clients (Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services)
    [13]: ../tutorial_jazzweb/tutorial_jazzweb (Developing BlueMix applications in Node.js with the DevOps Services Web IDE)
    [14]: ../tutorial_jazzrtc/tutorial_jazzrtc (Developing BlueMix applications in Java with Eclipse and DevOps Services)
+   [15]: https://w3-connections.ibm.com/files/app#/file/92d4625e-47e4-405a-985b-94baa86daaf1 (Acronlinx IQ Desktop Checker)
