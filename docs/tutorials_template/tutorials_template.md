@@ -50,14 +50,16 @@ given tutorial.
 - [Conversational style](#conversational_style)
 - [Hightlighting conventions](#highlighting_conventions)
 - [Notes and hints](#notes_and_hints)
-- [Markdown summary for content](markdown_summary)
-- [Inline HTML](inline_html)
-- [A final note](summary)
-- [What's next](whats_next)
-- [Tell us what you think](feedback)
-- [Link definitions](link_definitions)
-- [Check content against IBM style](check_content_against_IBM_style)
+- [Markdown summary for content](#markdown_summary)
+- [Inline HTML](#inline_html)
+- [A final note](#summary)
+- [What's next](#whats_next)
+- [Tell us what you think](#feedback)
+- [Link definitions](#link_definitions)
+- [Check content against IBM style](#check_content_against_IBM_style)
+
 ---
+
 <a name='section_titles'></a>
 # Section titles, major headings, and minor headings
 
@@ -87,8 +89,8 @@ Within minor sections you can use paragraphs of content, perhaps including illus
 
 Lower level headings are used for figures, code listings, tables, and sidebars. We'll discuss those when we get to those elements.
 
-
 ---
+
 <a name='lists'></a>
 # Lists
 
@@ -102,8 +104,8 @@ example.
    You can indent a paragraph in a list item too.
    
 2. Next numbered item
-  2. Sub ordered item
-  2. Sub ordered item
+	* Sub ordered item
+	* Sub ordered item
 3. Last ordered item
 
 In this example, an unordered list is shown with an unordered sub list.  
@@ -116,6 +118,7 @@ In this example, an unordered list is shown with an unordered sub list.
 
 
 ---
+
 <a name='code_listings'></a>
 # Code listings or preformatted text
 
@@ -150,6 +153,7 @@ excerpt the most important lines, and consider offering the entire code listing 
 
 
 ---
+
 <a name='code_downloads'></a>
 # Code downloads
 
@@ -157,6 +161,7 @@ If you have downloadable code to go with your content, contact the tutorials pro
 
 
 ---
+
 <a name='figures'></a>
 # Figures
 
@@ -176,10 +181,11 @@ Figure 4. Caption for your figure
 This line above, in combination with the link definitions at the bottom of this document combine to produce a clickable image link. 
 
 As an alternative, you can use html tags to produce the same result.
-<a href="images/app-new-title-sml.png" target="largeImage"><img alt="BlueMix starter app title change" src="images/app-new-title-lge.png" style="border: 0px solid; width: 910px; height: 418px;" /></a>
+<a href="images/app-new-title-lge.png" target="largeImage"><img alt="BlueMix starter app title change" src="images/app-new-title-sml.png" style="border: 0px solid; width: 910px; height: 418px;" /></a>
 
 
 ---
+
 <a name='tables'></a>
 # Tables
 
@@ -194,8 +200,10 @@ Tables can help explain your content.
 | 4444               |left aligned        |$1                  |
 
 ---
+
 <a name='links'></a>
 # Links 
+
 <!---
 When you add links to other tutorial content, instead of the text repeating a section or
 heading title, make the link text conversational. 
@@ -207,6 +215,7 @@ You can also link to locations in another tutorial. For example, **Note**: If yo
 take a look [here][5].
 
 ---
+
 <a name='sidebars'></a>
 # Sidebars (not available yet)
 
@@ -238,6 +247,7 @@ One or more videos can help reinforce your content.
 Separate logical sections with a horizontal rule. 
 
 ---
+
 <a name='conversational_style'></a>
 # Conversational style
 
@@ -246,6 +256,7 @@ Read [text style guidelines][7] for guidance.
 
 
 ---
+
 <a name='highlighting_conventions'></a>
 # Highlighting conventions
 
@@ -312,12 +323,14 @@ You might need to refresh your browser to ensure the updated page is displayed.
 There are many references about Markdown syntax. [Here](http://daringfireball.net/projects/markdown/syntax) is one for your reference.
 
 ---
+
 <a name='inline_html'></a>
 # Inline HTML
 You can use HTML tags in your Markdown. The anchors to create the contents entries for this template use
 HTML tags as do the comments tags. 
 
 ---
+
 <a name='summary'></a>
 # A final note 
 
@@ -337,6 +350,7 @@ For those of you who made it this far, we hope this tutorial has given you a fee
 with BlueMix and DevOps Services using Node.js. Lots of details were glossed over, but the documentation links at the start can fill those in.
 
 ---
+
 <a name='whats_next'></a>
 # What's next
 <!---
@@ -364,14 +378,17 @@ What can we do better? Post your comments to our [forum][8]
 or send us an [email][9].
 
 ---
+
 <a name='check_content_against_IBM_style'></a>
 # Check your content against IBM style
 
 Run the Acronlinx IQ Desktop Checker to check your text quality against IBM style guidelines.
 Read the instructions to [setup and run this checker][15].  
+
 ---
 <a name='link_definitions'></a>
 # Link definitions
+
 <!---
 Add your link definitions to the bottom of your document to make it easier to maintain them.
 -->
