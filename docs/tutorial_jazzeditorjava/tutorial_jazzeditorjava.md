@@ -161,15 +161,23 @@ From this environment, you can edit files with syntax coloring support for multi
 
 ![Orion showing express completions][30]
 
-So just to round out the process, let's make one more modification to your application using the Web IDE. You can navigate using the tree until you get to the same file you worked on before (for example, `WebContent/index.html`), and then simply edit in place.
+So just to round out the process, let's make one more modification to your application using the Web IDE. Before you do that, though, you must fetch and merge the app title change that you just made with the command line so that it shows in the Web IDE. You do that with the Git Status page. We'll go over more about this page in a moment, but in the meantime, switch to the Git Status page. 
 
-![Orion editing index][31]
+![Orion git status menu](images/orion-git-status.png)
 
-You can then use the integrated Git support to push the change. You start by switching to the Git Status page.
+From the Git Status page, fetch and then merge the change to your app.
 
-![Orion git status menu][32]
+![Fetching and merging the change](images/merge.png)
 
-Where you can then stage...
+Next, navigate through the directory tree until you get to the same file you worked on before (for example, <tt>WebContent/index.html</tt>), then simply edit in place.
+
+![Orion editing index](images/heyworld.gif)
+
+You can then use the integrated Git support to push the change. Head back to the Git Status page.
+
+![Orion git status menu](images/orion-git-status.png)
+
+Where you can then stage..
 
 ![Orion git staging][33]
 
