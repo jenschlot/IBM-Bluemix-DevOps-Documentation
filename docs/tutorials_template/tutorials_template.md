@@ -9,21 +9,24 @@ and what he or she can gain from reading and doing this tutorial (benefits).
 Welcome to the Markdown template to create tutorial content. You can use this template as a basis for a new tutorial, 
 or use it to help you prepare existing content for a tutorial.
 
-Tutorials are delivered on DevOps Services in HTML format, are generated from a Markdown format. 
-Prior to delivery, validate the Markdown source of each tutorial for acceptable markup as defined in this template. 
-Open your Markdown file with the **Orion Markdown Viewer** to check your content. 
+Tutorials are delivered to DevOps Services in HTML5 format and are generated from a Markdown format. 
+Prior to delivery, validate the Markdown source of each tutorial for acceptable markup as defined in this template
+by opening your Markdown file with the **Orion Markdown Viewer**. 
 
-This template provides examples of the things most commonly used in tutorials. 
+This template provides examples of common constructs used in tutorials. 
 Following the guidelines in this template can help you create content that is consistent and converts well to HTML. 
 
 The easiest way to create tutorial content with this template is to follow these steps.
 
-1. Copy this template. 
-2. Paste this template into the docs folder. When you do so, give your template the name tutorial_xxx.md where xxx
-is the name of your tutorial.
+1. Copy this template folder.
+2. Paste this template into the docs folder. When you do so, give your template folder
+the name tutorial_xxx where xxx
+is the name of your tutorial.Then rename the tutorials_template.md to tutorials_xxx 
+where xxx is the name of your tutorial.
 3. Add your own content to your tutorial so you can compare it to the content here, 
-referring to these instructions as needed. 
-4. When you are ready to deliver your work, remove the instructions, and stage, commit and push it to the master branch. 
+refering to these instructions as needed.
+4. Read your tutorial checking for typos and that you are following the guidelines mentioned in the template.
+5. When you are ready to deliver your work, remove the instructions, and stage, commit and push it to the master branch. 
 
 That's it!
 
@@ -48,15 +51,16 @@ given tutorial.
 - [Videos](#videos)
 - [Horizontal rule](#horizontal_rule)
 - [Conversational style](#conversational_style)
-- [Hightlighting conventions](#highlighting_conventions)
+- [Highlighting conventions](#highlighting_conventions)
 - [Notes and hints](#notes_and_hints)
 - [Markdown summary for content](#markdown_summary)
 - [Inline HTML](#inline_html)
 - [A final note](#summary)
 - [What's next](#whats_next)
 - [Tell us what you think](#feedback)
-- [Link definitions](#link_definitions)
 - [Check content against IBM style](#check_content_against_IBM_style)
+- [Check content with SMEs](#check_content_with_SME)
+- [Link definitions](#link_definitions)
 
 ---
 
@@ -81,7 +85,7 @@ Within each section you'll have several paragraphs of content, perhaps including
 Sections are comprised of smaller information chunks we'll call major sections, using level 2 headings, as the heading above this paragraph.   
 
 <a name='minor_headings'></a>
-## Minor headings
+### Minor headings
 Long major sections can be broken into smaller subsections that we'll call minor sections, using level 3 headings. Create minor headings by using the level 3 heading, as the heading above this paragraph.
 
 Minor headings help organize the content under major headings. 
@@ -103,7 +107,7 @@ example.
    
    You can indent a paragraph in a list item too.
    
-2. Next numbered item
+2. Next ordered item
 	* Sub ordered item
 	* Sub ordered item
 3. Last ordered item
@@ -139,7 +143,7 @@ level 3, as do figure, table, and sidebar captions.
 
 Limit code listing length to no more than 100 lines. 
 For a listing longer than 100 lines, divide it into smaller listings, or
-excerpt the most important lines, and consider offering the entire code listing as a download.  
+Excerpt the most important lines, and consider offering the entire code listing as a download.  
 
 ### Listing 1. Sample code listing at maximum width
 	|--------10--------20--------30--------40--------50--------60--------70--------80--------|
@@ -384,6 +388,16 @@ or send us an [email][9].
 
 Run the Acronlinx IQ Desktop Checker to check your text quality against IBM style guidelines.
 Read the instructions to [setup and run this checker][15].  
+
+---
+<a name='check_content_with SME'></a>
+# Check your content with SMEs
+
+<!---
+Add in the comments section who your SME is for technical review and
+approval. 
+-->
+Make sure your tutorial is reviewed and approved by your Subject Matter Expert (SME).
 
 ---
 <a name='link_definitions'></a>
