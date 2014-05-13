@@ -4,6 +4,8 @@
 Your introduction goes here. Put the main points and key phrases in this section. Make your introduction
 succinct. Aim for three to five sentences that tell the reader why they would care about the content (motive)
 and what he or she can gain from reading and doing this tutorial (benefits).
+
+Also include any pre-requisite information in a Before you begin section as needed.
 -->
 
 Welcome to the Markdown template to create tutorial content. You can use this template as a basis for a new tutorial, 
@@ -14,7 +16,7 @@ Prior to delivery, validate the Markdown source of each tutorial for acceptable 
 by opening your Markdown file with the **Orion Markdown Viewer**. 
 
 This template provides examples of common constructs used in tutorials. 
-Following the guidelines in this template can help you create content that is consistent and converts well to HTML. 
+Following the guidelines in this template can help you create content that is consistent and converts well to HTML5. 
 
 The easiest way to create tutorial content with this template is to follow these steps.
 
@@ -249,7 +251,7 @@ One or more videos can help reinforce your content.
 # Horizontal rule
 
 Separate logical sections with a horizontal rule. 
-
+**Note:** We are looking at the CSS to do this consistently for us.
 ---
 
 <a name='conversational_style'></a>
