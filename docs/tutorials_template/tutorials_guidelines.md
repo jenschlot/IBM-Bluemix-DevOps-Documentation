@@ -196,9 +196,10 @@ Figure 4. Caption for your figure
 
 This line above, in combination with the link definitions at the bottom of this document combine to produce a clickable image link. 
 
+<!---
 As an alternative, you can use html tags to produce the same result.
-<a href="images/app-new-title-lge.png" target="largeImage"><img alt="BlueMix starter app title change" src="images/app-new-title-sml.png" style="border: 0px solid; width: 910px; height: 418px;" /></a>
-
+<a href="images/app-new-title-sml.png" target="largeImage"><img alt="BlueMix starter app title change" src="images/app-new-title-lge.png" /></a>
+-->
 
 ---
 
