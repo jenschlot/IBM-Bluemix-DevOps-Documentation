@@ -1,6 +1,16 @@
 # Using the tutorials Markdown template
 
 <!---
+Your name, title, and email information goes here. 
+-->
+
+<Your name>
+<Your job title>
+<Your email>
+
+---
+
+<!---
 Your introduction goes here. Put the main points and key phrases in this section. Make your introduction
 succinct. Aim for three to five sentences that tell the reader why they would care about the content (motive)
 and what he or she can gain from reading and doing this tutorial (benefits).
@@ -12,8 +22,6 @@ Welcome to the Markdown template to create tutorial content. You can use this te
 or use it to help you prepare existing content for a tutorial.
 
 Tutorials are delivered to DevOps Services in HTML5 format and are generated from a Markdown format. 
-Prior to delivery, validate the Markdown source of each tutorial for acceptable markup as defined in this template
-by opening your Markdown file with the **Orion Markdown Viewer**. 
 
 This template provides examples of common constructs used in tutorials. 
 Following the guidelines in this template can help you create content that is consistent and converts well to HTML5. 
@@ -23,12 +31,14 @@ The easiest way to create tutorial content with this template is to follow these
 1. Copy this template folder.
 2. Paste this template into the docs folder. When you do so, give your template folder
 the name tutorial_xxx where xxx
-is the name of your tutorial.Then rename the tutorials_template.md to tutorials_xxx 
+is the name of your tutorial.Then rename the tutorial_template.md to tutorial_xxx 
 where xxx is the name of your tutorial.
 3. Add your own content to your tutorial so you can compare it to the content here, 
 refering to these instructions as needed.
-4. Read your tutorial checking for typos and that you are following the guidelines mentioned in the template.
-5. When you are ready to deliver your work, remove the instructions, and stage, commit and push it to the master branch. 
+4. Validate the Markdown source of each tutorial for acceptable markup as defined in this template
+by opening your Markdown file with the **Orion Markdown Viewer**. 
+5. Read your tutorial checking for typos and that you are following the guidelines mentioned in the template.
+6. When you are ready to deliver your work, remove the instructions, and stage, commit and push it to the master branch. 
 
 That's it!
 
