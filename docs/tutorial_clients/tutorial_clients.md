@@ -38,10 +38,10 @@ Take a moment to inspect your DevOps Services project to decide which clients yo
 need. Where is your code stored? Look at your project page on 
 [DevOps Services](https://hub.jazz.net/) to determine what type of 
 software configuration management (SCM) your project uses. You will see a link on the
- right side of the page that says either **Jazz Repository** or **Git URL**.
+ right side of the page that says either **Configure Eclipse client** or **Git URL**.
 
 - If your link is a **Git URL**, you want to take a look at [Working with a Git project](#working_with_a_git_project).
-- If the link is a **Jazz Repository**, then you have a Jazz SCM project. You should check out [Working with a Jazz SCM project](#working_with_a_jazz_scm_project).
+- If the link is a **Configure Eclipse client**, then you have a Jazz SCM project. You should check out [Working with a Jazz SCM project](#working_with_a_jazz_scm_project).
 
 
 ***
@@ -179,9 +179,9 @@ Option 1: Connect via the **Manage JazzHub Projects** tool
 Option 2: Accept a **Team Invitation**
 
 1. Browse to your project page on [DevOps Services](https://hub.jazz.net/).
-2. Click on the **Jazz Repository** link on the right side of the project page.
+2. Click on the **Configure Eclipse client** link on the right side of the project page.
 3. Copy the text for the project invitation.
-4. In Eclipse, go to **File > Accept Team Invitation**.
+4. In Eclipse, go to **File > Accept JazzHub Client Configuration**. (If you don't see that menu option, go to **File > Accept Team Invitation**.)
 5. Paste the copied invitation text, and click **Finish**.
 
 Now you have connceted to your DevOps Services project in Eclipse. Click the **Team Artifacts** tab and see the new Repository Connection and Project Area
