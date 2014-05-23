@@ -123,23 +123,23 @@ Interested in trying more BlueMix and DevOps capabilities? Here is a list of tut
 
    [1]: https://ace.ng.bluemix.net/ (BlueMix)
    [2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview
-   [3]: images/forkbutton.gif
-   [4]: images/ForkNew.gif
-   [5]: images/simpledeployment.gif
-   [6]: images/closesimple.gif
-   [7]: images/StockApp.gif
-   [8]: images/Builder1.gif
-   [9]: images/DeployScriptEx.gif
-   [10]: images/history.gif
+   [3]: /tutorials/tutorial_jazzweb/images/forkbutton.gif
+   [4]: /tutorials/tutorial_jazzweb/images/ForkNew.gif
+   [5]: /tutorials/tutorial_jazzweb/images/simpledeployment.gif
+   [6]: /tutorials/tutorial_jazzweb/images/closesimple.gif
+   [7]: /tutorials/tutorial_jazzweb/images/StockApp.gif
+   [8]: /tutorials/tutorial_jazzweb/images/Builder1.gif
+   [9]: /tutorials/tutorial_jazzweb/images/DeployScriptEx.gif
+   [10]: /tutorials/tutorial_jazzweb/images/history.gif
    [11]: https://ace.ng.bluemix.net
-   [12]: images/startappbluemix.gif
-   [13]: images/AutocompleteSearch.gif
-   [14]: images/staging.gif
-   [15]: images/commit.gif
-   [16]: images/pushing.gif
-   [17]: images/manifest.gif
-   [18]: images/manualdeploy.gif
-   [19]: images/UpdatedApp.gif
+   [12]: /tutorials/tutorial_jazzweb/images/startappbluemix.gif
+   [13]: /tutorials/tutorial_jazzweb/images/AutocompleteSearch.gif
+   [14]: /tutorials/tutorial_jazzweb/images/staging.gif
+   [15]: /tutorials/tutorial_jazzweb/images/commit.gif
+   [16]: /tutorials/tutorial_jazzweb/images/pushing.gif
+   [17]: /tutorials/tutorial_jazzweb/images/manifest.gif
+   [18]: /tutorials/tutorial_jazzweb/images/manualdeploy.gif
+   [19]: /tutorials/tutorial_jazzweb/images/UpdatedApp.gif
    [20]: https://www.ibmdw.net/answers?community=jazzhub (forum)
    [21]: mailto:hub%40jazz.net
   

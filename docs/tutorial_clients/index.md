@@ -172,7 +172,7 @@ Option 1: Connect via the **Manage JazzHub Projects** tool
 
 1. In Eclipse, go to **Window > Show View > Team Artifacts**.
 2. Click on the JazzHub icon to launch the **Manage JazzHub Projects** tool
-![Manage JazzHub Projects button within the Team Artifacts View](images/jazzhubfeature.png)
+![Manage JazzHub Projects button within the Team Artifacts View](/tutorials/tutorial_clients/images/jazzhubfeature.png)
 3. In the **Manage JazzHub Projects** window, enter your Jazz User ID and IBM ID password for authentication to DevOps Services.
 4. Select the DevOps Services projects you want to connect to and click **Finish**.
 
