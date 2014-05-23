@@ -8,7 +8,7 @@ We'll start by forking the sample project, [WordCounter](https://hub.jazz.net/pr
 This project uses Jazz Source Control Management (Jazz SCM for short). It contains a manifest for deploying to Bluemix
 and can be loaded directly in the RTC client for Eclipse. DevOps Services also supports Git projects. To find out more
 about support for Git, check out the
-[Getting Started with BlueMix and DevOps Services using Java](../tutorial_jazzeditorjava/tutorial_jazzeditorjava) tutorial.
+[Getting Started with BlueMix and DevOps Services using Java](/tutorials/tutorial_jazzeditorjava) tutorial.
 
 Go to the [WordCounter](https://hub.jazz.net/project/pskhadke/WordCounter/overview) project. Click ***EDIT CODE*** to
 open the Web IDE.
@@ -74,7 +74,7 @@ You can get the Jazz Repository information here.
 
 >	![Team Invitation](/tutorials/tutorial_jazzrtc/images/team_invite.jpg "Team Invitation")
 
-The [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services](../tutorial_clients/tutorial_clients#working_with_a_jazz_scm_project) tutorial shows you how to
+The [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services](/tutorials/tutorial_clients#working_with_a_jazz_scm_project) tutorial shows you how to
 set up the RTC client for Eclipse, connect to your project and load the code.						
 
 ---
@@ -153,8 +153,8 @@ or send us an [email](mailto:hub%40jazz.net).
 
 If you're interested in trying more BlueMix and DevOps capabilities, here is a list of tutorials:
 
-* [Getting Started with BlueMix and DevOps Services using Node.js](../tutorial_jazzeditor/tutorial_jazzeditor)
-* [Getting Started with BlueMix and DevOps Services using Java](../tutorial_jazzeditorjava/tutorial_jazzeditorjava)
-* [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services](../tutorial_clients/tutorial_clients)
-* [Developing BlueMix applications in Node.js with the DevOps Services Web IDE](../tutorial_jazzweb/tutorial_jazzweb)
+* [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/tutorial_jazzeditor)
+* [Getting Started with BlueMix and DevOps Services using Java](/tutorials/tutorial_jazzeditorjava)
+* [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services](/tutorials/tutorial_clients)
+* [Developing BlueMix applications in Node.js with the DevOps Services Web IDE](/tutorials/tutorial_jazzweb)
 			
