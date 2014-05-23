@@ -3,13 +3,13 @@
 					<!-- Left -->
 				
 					<div class="left">
-						<a href="http://www.ibm.com"><img class="ibm-image" src="/images/footer/IBM-Logo.png" alt="IBM"></a>
+						<a href="http://www.ibm.com"><img class="ibm-image" src="/tutorials/images/footer/IBM-Logo.png" alt="IBM"></a>
 					</div>
 					
 					<!-- Right -->
 				
 					<div class="right">
-						<a href="{jazzhuburl}"><img class="jazzhub-image" src="/images/footer/JazzHub-Color-Logo.png" alt="Jazz"></a>
+						<a href="/"><img class="jazzhub-image" src="/tutorials/images/footer/JazzHub-Color-Logo.png" alt="Jazz"></a>
 					</div>
 					
 					<!-- Middle -->
@@ -21,7 +21,7 @@
 						<div class="content-links-area">
 				
 							<div class="text-links">
-								<a href="{jazzhuburl}/terms">Terms of Use </a>
+								<a href="/terms">Terms of Use </a>
 								<span class="separator"></span>
 								<!-- TODO: Update link. Placeholder for now. This is not the proper feedback link -->  
 								<a href="https://www.ibmdw.net/answers?community=jazzhub">Feedback</a>

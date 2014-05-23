@@ -5,8 +5,7 @@ module.exports = function(req, res, next) {
 	res.render(
 		'document',
 		{ 
-			markdown: req.rendered_markdown, 
-			jazzhuburl: req.config.jazzhub.url
+			markdown: req.rendered_markdown
 		}
 	);
 }

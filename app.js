@@ -57,34 +57,47 @@ var markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dir
 
 app
  .use(config_middleware) // loads global app configuration.
- .get('/', [ config_middleware, routes.landing ])
- .get('/landing', [ config_middleware, routes.landing ])
- .use(express.favicon(path.join(__dirname, 'public', 'favicon.ico'))) // serve up a favicon on request.
+ .get('/tutorials', [ config_middleware, routes.landing ])
+ .get('/tutorials/landing', [ config_middleware, routes.landing ])
+ .use('/tutorials', express.favicon(path.join(__dirname, 'public', 'favicon.ico'))) // serve up a favicon on request.
  .use(express.logger('dev')) // log each connection to the standard output.
  .use(express.json()) // pre-parses json request bodies.
  .use(express.urlencoded()) // pre-parses urlencoded request bodies.
  .use(express.methodOverride()) // for clients that don't support the HTTP methods, uses a header as an override.
- .use(markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
- .use(markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
+ .use('/tutorials', markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
+ .use('/tutorials', markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
  .use(routes.render_markdown) // renders markdown if any was compiled.
- .use(require('less-middleware')(path.join(__dirname, 'public'))) // compiles less stylesheets into css.
- .use(express.static(path.join(__dirname, 'public'))) // serves up static content if it exists in public/
- .use(express.static(path.join(__dirname, 'docs'))) // serves up static content if it exists in docs/
+ .use('/tutorials', require('less-middleware')(path.join(__dirname, 'public'))) // compiles less stylesheets into css.
+ .use('/tutorials', express.static(path.join(__dirname, 'public'))) // serves up static content if it exists in public/
+ .use('/tutorials', express.static(path.join(__dirname, 'docs'))) // serves up static content if it exists in docs/
 // DO NOT leave the directory middleware in in production.
 
 /* Setup routes that allow this app to replace /tutorials */
-app.get('/jazzeditor', function (req, res, next) { res.redirect('/tutorial_jazzeditor/tutorial_jazzeditor')});
-app.get('/jazzeditorjava', function (req, res, next) { res.redirect('/tutorial_jazzeditorjava/tutorial_jazzeditorjava')});
-app.get('/clients', function (req, res, next) { res.redirect('/tutorial_clients/tutorial_clients')});
-app.get('/jazzweb', function (req, res, next) { res.redirect('/tutorial_jazzweb/tutorial_jazzweb')});
-app.get('/jazzrtc', function (req, res, next) { res.redirect('/tutorial_jazzrtc/tutorial_jazzrtc')});
+app.get('/tutorials/jazzeditor', function (req, res, next) { res.redirect('/tutorials/tutorial_jazzeditor/tutorial_jazzeditor')});
+app.get('/tutorials/jazzeditorjava', function (req, res, next) { res.redirect('/tutorials/tutorial_jazzeditorjava/tutorial_jazzeditorjava')});
+app.get('/tutorials/clients', function (req, res, next) { res.redirect('/tutorials/tutorial_clients/tutorial_clients')});
+app.get('/tutorials/jazzweb', function (req, res, next) { res.redirect('/tutorials/tutorial_jazzweb/tutorial_jazzweb')});
+app.get('/tutorials/jazzrtc', function (req, res, next) { res.redirect('/tutorials/tutorial_jazzrtc/tutorial_jazzrtc')});
 
 /* Pulls in a default error handler (in case requests fall through) but only on dev. */
 if ('development' == app.get('env')) {
   app
-   .use(express.errorHandler()) // provides nice looking errors.
-   .use(express.directory(path.join(__dirname, 'docs'))); // provides directory indexing for files in docs.
+   .use('/tutorials', express.errorHandler()) // provides nice looking errors.
+   .use('/tutorials', express.directory(path.join(__dirname, 'docs'))); // provides directory indexing for files in docs.
 }
+
+/* Proper error handler. */
+app.use('/tutorials', function (req, res) { 
+	res.status = 404; 
+	res.end(req.path + ": File not found");
+});
+
+/* While doing internal testing, direct all un-handled requests to JazzHub. 
+ * Where this app is behind the proxy, this handler will never be called.
+ */
+app.use(function (req, res) { 
+	res.redirect(config.jazzhub.url + req.path.replace(/^\/*/, ''));
+});
 
 /* Actually stand up an https server with behavior governed by the express app configured above. */
 https.createServer({

@@ -29,7 +29,7 @@
 					<div class="tutorial-section">
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
-								<a href="/tutorial_jazzeditor/tutorial_jazzeditor">
+								<a href="/tutorials/tutorial_jazzeditor/tutorial_jazzeditor">
 									<h2 id="section-title-one">Getting Started with BlueMix and DevOps Services using Node.js</h2>
 								</a>
 							</div>
@@ -43,7 +43,7 @@
 							</div>
 							<div class="tutorial-section-list">
 								<ul>
-									<li><a href="/tutorial_jazzeditor/tutorial_jazzeditor">Try it</a></li>
+									<li><a href="/tutorials/tutorial_jazzeditor/tutorial_jazzeditor">Try it</a></li>
 								</ul>
 							</div>
 						</div>
@@ -54,7 +54,7 @@
 					<div class="tutorial-section">
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
-								<a href="/tutorial_clients/tutorial_clients">
+								<a href="/tutorials/tutorial_clients/tutorial_clients">
 									<h2 id="section-title-three">Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services</h2>
 								</a>
 							</div>
@@ -68,7 +68,7 @@
 							</div>
 							<div class="tutorial-section-list">
 								<ul>
-									<li><a href="/tutorial_clients/tutorial_clients">Try it</a></li>
+									<li><a href="/tutorials/tutorial_clients/tutorial_clients">Try it</a></li>
 								</ul>
 							</div>
 						</div>
@@ -78,7 +78,7 @@
 					<div class="tutorial-section">
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
-								<a href="/tutorial_jazzrtc/tutorial_jazzrtc">
+								<a href="/tutorials/tutorial_jazzrtc/tutorial_jazzrtc">
 									<h2 id="section-title-five">Developing BlueMix applications in Java with Eclipse and DevOps Services</h2>
 								</a>
 							</div>
@@ -92,7 +92,7 @@
 							</div>
 							<div class="tutorial-section-list">
 								<ul>
-									<li><a href="/tutorial_jazzrtc/tutorial_jazzrtc">Try it</a></li>
+									<li><a href="/tutorials/tutorial_jazzrtc/tutorial_jazzrtc">Try it</a></li>
 								</ul>
 							</div>
 						</div>
@@ -106,7 +106,7 @@
 					<div class="tutorial-section">
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
-								<a href="/tutorial_jazzeditorjava/tutorial_jazzeditorjava">
+								<a href="/tutorials/tutorial_jazzeditorjava/tutorial_jazzeditorjava">
 									<h2 id="section-title-two">Getting Started with BlueMix and DevOps Services using Java</h2>
 								</a>
 							</div>
@@ -120,7 +120,7 @@
 							</div>
 							<div class="tutorial-section-list">
 								<ul>
-									<li><a href="/tutorial_jazzeditorjava/tutorial_jazzeditorjava">Try it</a></li>
+									<li><a href="/tutorials/tutorial_jazzeditorjava/tutorial_jazzeditorjava">Try it</a></li>
 								</ul>
 							</div>
 						</div>
@@ -130,7 +130,7 @@
 					<div class="tutorial-section">
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
-								<a href="/tutorial_jazzweb/tutorial_jazzweb">
+								<a href="/tutorials/tutorial_jazzweb/tutorial_jazzweb">
 									<h2 id="section-title-four">Developing BlueMix applications in Node.js with the Web IDE</h2>
 								</a>
 							</div>
@@ -144,7 +144,7 @@
 							</div>
 							<div class="tutorial-section-list">
 								<ul>
-									<li><a href="/tutorial_jazzweb/tutorial_jazzweb">Try it</a></li>
+									<li><a href="/tutorials/tutorial_jazzweb/tutorial_jazzweb">Try it</a></li>
 								</ul>
 							</div>
 						</div>

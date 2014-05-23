@@ -198,7 +198,7 @@ This line above, in combination with the link definitions at the bottom of this 
 
 <!---
 As an alternative, you can use html tags to produce the same result.
-<a href="images/app-new-title-sml.png" target="largeImage"><img alt="BlueMix starter app title change" src="images/app-new-title-lge.png" /></a>
+<a href="/tutorials/images/app-new-title-sml.png" target="largeImage"><img alt="BlueMix starter app title change" src="/tutorials/images/app-new-title-lge.png" /></a>
 -->
 
 ---
