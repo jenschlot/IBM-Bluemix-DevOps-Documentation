@@ -4,12 +4,13 @@
 
 /* 
  * express - The MVC framework.
- * http - Defines an http server.
+ * https - Defines an https server.
  * path - Utilities for manipulating paths.
  * cons - A compatibility layer between our template engine, dust and express.
  */
+var fs = require('fs');
 var express = require('express');
-var http = require('http');
+var https = require('https');
 var path = require('path');
 var cons = require('consolidate');
 
@@ -85,7 +86,10 @@ if ('development' == app.get('env')) {
    .use(express.directory(path.join(__dirname, 'docs'))); // provides directory indexing for files in docs.
 }
 
-/* Actually stand up an http server with behavior governed by the express app configured above. */
-http.createServer(app).listen(app.get('port'), function(){
+/* Actually stand up an https server with behavior governed by the express app configured above. */
+https.createServer({
+	key: fs.readFileSync('keys/server.key'),
+	cert: fs.readFileSync('keys/server.crt')
+},app).listen(app.get('port'), function(){
   console.log('Express server listening on port #' + app.get('port'));
 });
