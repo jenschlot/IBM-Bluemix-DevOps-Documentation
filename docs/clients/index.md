@@ -172,7 +172,7 @@ Option 1: Connect via the **Manage JazzHub Projects** tool
 
 1. In Eclipse, go to **Window > Show View > Team Artifacts**.
 2. Click on the JazzHub icon to launch the **Manage JazzHub Projects** tool
-![Manage JazzHub Projects button within the Team Artifacts View](/tutorials/tutorial_clients/images/jazzhubfeature.png)
+![Manage JazzHub Projects button within the Team Artifacts View](/tutorials/clients/images/jazzhubfeature.png)
 3. In the **Manage JazzHub Projects** window, enter your Jazz User ID and IBM ID password for authentication to DevOps Services.
 4. Select the DevOps Services projects you want to connect to and click **Finish**.
 
@@ -211,7 +211,7 @@ More Tutorials
 
 Interested in trying more BlueMix and DevOps capabilities, here is a list of tutorials:
 
-* [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/tutorial_jazzeditor)
-* [Getting Started with BlueMix and DevOps Services using Java](/tutorials/tutorial_jazzeditorjava)
-* [Developing BlueMix applications in Node.js with the DevOps Services Web IDE](/tutorials/tutorial_jazzweb)
-* [Developing BlueMix applications in Java with Eclipse and DevOps Services](/tutorials/tutorial_jazzrtc)
+* [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/jazzeditor)
+* [Getting Started with BlueMix and DevOps Services using Java](/tutorials/jazzeditorjava)
+* [Developing BlueMix applications in Node.js with the DevOps Services Web IDE](/tutorials/jazzweb)
+* [Developing BlueMix applications in Java with Eclipse and DevOps Services](/tutorials/jazzrtc)

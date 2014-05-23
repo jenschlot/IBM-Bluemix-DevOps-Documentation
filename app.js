@@ -72,13 +72,6 @@ app
  .use('/tutorials', express.static(path.join(__dirname, 'docs'))) // serves up static content if it exists in docs/
 // DO NOT leave the directory middleware in in production.
 
-/* Setup routes that allow this app to replace /tutorials */
-app.get('/tutorials/jazzeditor', function (req, res, next) { res.redirect('/tutorials/tutorial_jazzeditor/tutorial_jazzeditor')});
-app.get('/tutorials/jazzeditorjava', function (req, res, next) { res.redirect('/tutorials/tutorial_jazzeditorjava/tutorial_jazzeditorjava')});
-app.get('/tutorials/clients', function (req, res, next) { res.redirect('/tutorials/tutorial_clients/tutorial_clients')});
-app.get('/tutorials/jazzweb', function (req, res, next) { res.redirect('/tutorials/tutorial_jazzweb/tutorial_jazzweb')});
-app.get('/tutorials/jazzrtc', function (req, res, next) { res.redirect('/tutorials/tutorial_jazzrtc/tutorial_jazzrtc')});
-
 /* Pulls in a default error handler (in case requests fall through) but only on dev. */
 if ('development' == app.get('env')) {
   app

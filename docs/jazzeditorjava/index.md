@@ -163,19 +163,19 @@ From this environment, you can edit files with syntax coloring support for multi
 
 So just to round out the process, let's make one more modification to your application using the Web IDE. Before you do that, though, you must fetch and merge the app title change that you just made with the command line so that it shows in the Web IDE. You do that with the Git Status page. We'll go over more about this page in a moment, but in the meantime, switch to the Git Status page. 
 
-![Orion git status menu](/tutorials/tutorial_jazzeditorjava/images/orion-git-status.png)
+![Orion git status menu](/tutorials/jazzeditorjava/images/orion-git-status.png)
 
 From the Git Status page, fetch and then merge the change to your app.
 
-![Fetching and merging the change](/tutorials/tutorial_jazzeditorjava/images/merge.png)
+![Fetching and merging the change](/tutorials/jazzeditorjava/images/merge.png)
 
 Next, navigate through the directory tree until you get to the same file you worked on before (for example, <tt>WebContent/index.html</tt>), then simply edit in place.
 
-![Orion editing index](/tutorials/tutorial_jazzeditorjava/images/heyworld.gif)
+![Orion editing index](/tutorials/jazzeditorjava/images/heyworld.gif)
 
 You can then use the integrated Git support to push the change. Head back to the Git Status page.
 
-![Orion git status menu](/tutorials/tutorial_jazzeditorjava/images/orion-git-status.png)
+![Orion git status menu](/tutorials/jazzeditorjava/images/orion-git-status.png)
 
 Where you can then stage..
 
@@ -232,46 +232,46 @@ Interested in trying more BlueMix and DevOps capabilities? Here is a list of tut
 
 
    [1]: https://ace.ng.bluemix.net/ (BlueMix)
-   [2]: /tutorials/tutorial_jazzeditorjava/images/bm-join.gif 
+   [2]: /tutorials/jazzeditorjava/images/bm-join.gif 
    [3]: https://www.ng.bluemix.net/docs/QuickStart.jsp (BlueMix getting started)
    [4]: https://www.ng.bluemix.net/docs/BlueMixIntro.jsp (BlueMix overview)
    [5]: https://www.ng.bluemix.net/docs/Tutorials.jsp (BlueMix tutorials)
-   [6]: /tutorials/tutorial_jazzeditorjava/images/demo-dash.gif 
-   [7]: /tutorials/tutorial_jazzeditorjava/images/bm-java-starter.gif 
-   [8]: /tutorials/tutorial_jazzeditorjava/images/bm-create-jws.gif 
-   [9]: /tutorials/tutorial_jazzeditorjava/images/examplepanel.gif 
-   [10]: /tutorials/tutorial_jazzeditorjava/images/bm-example.gif 
-   [11]: /tutorials/tutorial_jazzeditorjava/images/addgitintegration.gif 
-   [12]: /tutorials/tutorial_jazzeditorjava/images/jh-signin.gif 
-   [13]: /tutorials/tutorial_jazzeditorjava/images/bm-create-git-repo.gif 
-   [14]: /tutorials/tutorial_jazzeditorjava/images/bm-git-repo-success-msg.gif 
-   [15]: /tutorials/tutorial_jazzeditorjava/images/bm-code-button.gif 
-   [16]: /tutorials/tutorial_jazzeditorjava/images/webide.gif 
-   [17]: /tutorials/tutorial_jazzeditorjava/images/simpledeploy.gif 
-   [18]: /tutorials/tutorial_jazzeditorjava/images/configbuilder.gif 
-   [19]: /tutorials/tutorial_jazzeditorjava/images/deployer.gif 
-   [20]: /tutorials/tutorial_clients (Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Services)
-   [21]: /tutorials/tutorial_jazzeditorjava/images/cli-git-clone.gif 
-   [22]: /tutorials/tutorial_jazzeditorjava/images/cli-stage-commit.gif 
-   [23]: /tutorials/tutorial_jazzeditorjava/images/cli-push.gif 
-   [24]: /tutorials/tutorial_jazzeditorjava/images/autodeploy.gif 
-   [25]: /tutorials/tutorial_jazzeditorjava/images/app-new-title.gif 
-   [26]: /tutorials/tutorial_clients (Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Services)
+   [6]: /tutorials/jazzeditorjava/images/demo-dash.gif 
+   [7]: /tutorials/jazzeditorjava/images/bm-java-starter.gif 
+   [8]: /tutorials/jazzeditorjava/images/bm-create-jws.gif 
+   [9]: /tutorials/jazzeditorjava/images/examplepanel.gif 
+   [10]: /tutorials/jazzeditorjava/images/bm-example.gif 
+   [11]: /tutorials/jazzeditorjava/images/addgitintegration.gif 
+   [12]: /tutorials/jazzeditorjava/images/jh-signin.gif 
+   [13]: /tutorials/jazzeditorjava/images/bm-create-git-repo.gif 
+   [14]: /tutorials/jazzeditorjava/images/bm-git-repo-success-msg.gif 
+   [15]: /tutorials/jazzeditorjava/images/bm-code-button.gif 
+   [16]: /tutorials/jazzeditorjava/images/webide.gif 
+   [17]: /tutorials/jazzeditorjava/images/simpledeploy.gif 
+   [18]: /tutorials/jazzeditorjava/images/configbuilder.gif 
+   [19]: /tutorials/jazzeditorjava/images/deployer.gif 
+   [20]: /tutorials/clients (Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Services)
+   [21]: /tutorials/jazzeditorjava/images/cli-git-clone.gif 
+   [22]: /tutorials/jazzeditorjava/images/cli-stage-commit.gif 
+   [23]: /tutorials/jazzeditorjava/images/cli-push.gif 
+   [24]: /tutorials/jazzeditorjava/images/autodeploy.gif 
+   [25]: /tutorials/jazzeditorjava/images/app-new-title.gif 
+   [26]: /tutorials/clients (Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Services)
    [27]: https://hub.jazz.net/learn (DevOps Services introduction)
    [28]: http://orion.eclipse.org/ (The Eclipse Orion project)
-   [29]: /tutorials/tutorial_jazzeditorjava/images/orion.gif 
-   [30]: /tutorials/tutorial_jazzeditorjava/images/completion.png 
-   [31]: /tutorials/tutorial_jazzeditorjava/images/heyworld.gif 
-   [32]: /tutorials/tutorial_jazzeditorjava/images/orion-git-status.png 
-   [33]: /tutorials/tutorial_jazzeditorjava/images/unstaged.gif 
-   [34]: /tutorials/tutorial_jazzeditorjava/images/commit.gif 
-   [35]: /tutorials/tutorial_jazzeditorjava/images/push.gif 
-   [36]: /tutorials/tutorial_jazzeditorjava/images/endexampleapp.gif 
-   [37]: /tutorials/tutorial_jazzeditorjava/images/manualdeploy.gif
+   [29]: /tutorials/jazzeditorjava/images/orion.gif 
+   [30]: /tutorials/jazzeditorjava/images/completion.png 
+   [31]: /tutorials/jazzeditorjava/images/heyworld.gif 
+   [32]: /tutorials/jazzeditorjava/images/orion-git-status.png 
+   [33]: /tutorials/jazzeditorjava/images/unstaged.gif 
+   [34]: /tutorials/jazzeditorjava/images/commit.gif 
+   [35]: /tutorials/jazzeditorjava/images/push.gif 
+   [36]: /tutorials/jazzeditorjava/images/endexampleapp.gif 
+   [37]: /tutorials/jazzeditorjava/images/manualdeploy.gif
    [38]: https://www.ibmdw.net/answers?community=jazzhub (forum)
    [39]: mailto:hub%40jazz.net
-   [40]: /tutorials/tutorial_jazzrtc (Developing BlueMix applications in Java with Eclipse and DevOps Services)
-   [41]: /tutorials/tutorial_jazzeditor (Getting Started with BlueMix and DevOps Services using Node.js)
-   [42]: /tutorials/tutorial_clients (Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services)
-   [43]: /tutorials/tutorial_jazzweb (Developing BlueMix applications in Node.js with the DevOps Services Web IDE)
+   [40]: /tutorials/jazzrtc (Developing BlueMix applications in Java with Eclipse and DevOps Services)
+   [41]: /tutorials/jazzeditor (Getting Started with BlueMix and DevOps Services using Node.js)
+   [42]: /tutorials/clients (Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services)
+   [43]: /tutorials/jazzweb (Developing BlueMix applications in Node.js with the DevOps Services Web IDE)
   

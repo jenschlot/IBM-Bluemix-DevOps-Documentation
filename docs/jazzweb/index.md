@@ -115,31 +115,31 @@ Thanks for following along. And tell us what you think. What did we do well? Wha
 
 Interested in trying more BlueMix and DevOps capabilities? Here is a list of tutorials:
 
-* [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/tutorial_jazzeditor)
-* [Getting Started with BlueMix and DevOps Services using Java](/tutorials/tutorial_jazzeditorjava)
-* [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Service](/tutorials/tutorial_clients)
-* [Developing BlueMix applications in Java with Eclipse and DevOps Services](/tutorials/tutorial_jazzrtc)
+* [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/jazzeditor)
+* [Getting Started with BlueMix and DevOps Services using Java](/tutorials/jazzeditorjava)
+* [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Service](/tutorials/clients)
+* [Developing BlueMix applications in Java with Eclipse and DevOps Services](/tutorials/jazzrtc)
 
 
    [1]: https://ace.ng.bluemix.net/ (BlueMix)
    [2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview
-   [3]: /tutorials/tutorial_jazzweb/images/forkbutton.gif
-   [4]: /tutorials/tutorial_jazzweb/images/ForkNew.gif
-   [5]: /tutorials/tutorial_jazzweb/images/simpledeployment.gif
-   [6]: /tutorials/tutorial_jazzweb/images/closesimple.gif
-   [7]: /tutorials/tutorial_jazzweb/images/StockApp.gif
-   [8]: /tutorials/tutorial_jazzweb/images/Builder1.gif
-   [9]: /tutorials/tutorial_jazzweb/images/DeployScriptEx.gif
-   [10]: /tutorials/tutorial_jazzweb/images/history.gif
+   [3]: /tutorials/jazzweb/images/forkbutton.gif
+   [4]: /tutorials/jazzweb/images/ForkNew.gif
+   [5]: /tutorials/jazzweb/images/simpledeployment.gif
+   [6]: /tutorials/jazzweb/images/closesimple.gif
+   [7]: /tutorials/jazzweb/images/StockApp.gif
+   [8]: /tutorials/jazzweb/images/Builder1.gif
+   [9]: /tutorials/jazzweb/images/DeployScriptEx.gif
+   [10]: /tutorials/jazzweb/images/history.gif
    [11]: https://ace.ng.bluemix.net
-   [12]: /tutorials/tutorial_jazzweb/images/startappbluemix.gif
-   [13]: /tutorials/tutorial_jazzweb/images/AutocompleteSearch.gif
-   [14]: /tutorials/tutorial_jazzweb/images/staging.gif
-   [15]: /tutorials/tutorial_jazzweb/images/commit.gif
-   [16]: /tutorials/tutorial_jazzweb/images/pushing.gif
-   [17]: /tutorials/tutorial_jazzweb/images/manifest.gif
-   [18]: /tutorials/tutorial_jazzweb/images/manualdeploy.gif
-   [19]: /tutorials/tutorial_jazzweb/images/UpdatedApp.gif
+   [12]: /tutorials/jazzweb/images/startappbluemix.gif
+   [13]: /tutorials/jazzweb/images/AutocompleteSearch.gif
+   [14]: /tutorials/jazzweb/images/staging.gif
+   [15]: /tutorials/jazzweb/images/commit.gif
+   [16]: /tutorials/jazzweb/images/pushing.gif
+   [17]: /tutorials/jazzweb/images/manifest.gif
+   [18]: /tutorials/jazzweb/images/manualdeploy.gif
+   [19]: /tutorials/jazzweb/images/UpdatedApp.gif
    [20]: https://www.ibmdw.net/answers?community=jazzhub (forum)
    [21]: mailto:hub%40jazz.net
   
