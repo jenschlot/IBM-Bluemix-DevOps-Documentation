@@ -96,7 +96,7 @@ app.use('/tutorials', function (req, res) {
  * Where this app is behind the proxy, this handler will never be called.
  */
 app.use(function (req, res) { 
-	res.redirect(config.jazzhub.url + req.path.replace(/^\/*/, ''));
+	res.redirect(config.jazzhub.url + req.url.replace(/^\/*/, ''));
 });
 
 /* Actually stand up an https server with behavior governed by the express app configured above. */
