@@ -7,7 +7,7 @@ jazzhubtutorials
 DESCRIPTION
 -----------
 
-Tutorials for the JazzHub cloud development environment.
+Tutorials for the IBM DevOps Services cloud development environment.
 
 
 MAINTAINING
@@ -41,7 +41,7 @@ None known
 AUTHOR
 ------
 
-The JazzHub Team <hub@jazz.net>
+The IBM DevOps Services Team <hub@jazz.net>
 
 
 
