@@ -24,7 +24,7 @@ Syntax highlighting is now available as well!
 
 Check out this video about using live Markdown editing. 
 
-<iframe width="640" height="390" src="//www.youtube.com/watch?v=6FbZdz8561Y" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="390" src="//www.youtube.com/v/6FbZdz8561Y" frameborder="0" allowfullscreen></iframe>
 
 ## Better file sharing
 
