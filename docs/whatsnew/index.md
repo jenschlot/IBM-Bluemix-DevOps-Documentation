@@ -154,14 +154,14 @@ The Web IDE now provides syntax highlighting for C program (.c), C header (.h), 
 
 ### JavaScript tooling inside HTML script blocks
 
-Much of the JavaScript tooling support is now available while working in the HTML editor. Linting support will now run on JavaScript code inside of <script> tags. "Show occurrences" will function when variables and functions are selected inside your scripts.
+Much of the JavaScript tooling support is now available while working in the HTML editor. Linting support will now run on JavaScript code inside of &lt;script&gt tags. "Show occurrences" will function when variables and functions are selected inside your scripts.
 
 >	![HTML JavaScript Linting](/tutorials/whatsnew/images/html-javascript-linting.png)
 
 
 ### JavaScript validation overhaul
 
-The validation/linting support for JavaScript, built on ESLint, has been given an overhaul with new rules, an updated engine and more user flexibility. The validator will scan your JavaScript files (as well as HTML <script> tags) and add errors or warnings to the margin of the editor. Hovering provides a more detailed explanation of the issue.
+The validation/linting support for JavaScript, built on ESLint, has been given an overhaul with new rules, an updated engine and more user flexibility. The validator will scan your JavaScript files (as well as HTML &lt;script&gt; tags) and add errors or warnings to the margin of the editor. Hovering provides a more detailed explanation of the issue.
 
 You can now customize the warnings they see on the validation settings page. Each validation rule can be set to error, warning or ignore. In addition, seven new validation rules have been added to capture more varieties of coding errors.
 
@@ -189,7 +189,7 @@ at DevOps Services. For example,
 the commit comment `Implements story 32` links to 
 the referenced work item, which you can see in your 
 project. The format for the comment is work item 
-`<keyword> <number>`, where the keyword can be: 
+`&lt;keyword&gt; &lt;number&gt;`, where the keyword can be: 
 `adoption item`, `bug`, `defect`, `epic`, `impediment`, `item`, `retrospective`, `story`, `task`, `track build item`, `work item`.
 
 >	![Git Comment with Link to Task Work Item](/tutorials/whatsnew/images/commit-task-git.png)
