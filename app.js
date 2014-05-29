@@ -69,6 +69,14 @@ app
  .use('/whatsnew', whatsnew_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
  .use('/tutorials', tutorials_markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
  .use('/tutorials', tutorials_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
+ .use('/whatsnew', function (req, res, next) {
+	req.sectionname="What's New";
+	next();
+ })
+ .use('/tutorials', function (req, res, next) {
+	req.sectionname="Tutorials";
+	next();
+ })
  .use(routes.render_markdown) // renders markdown if any was compiled.
  .use('/tutorials', require('less-middleware')(path.join(__dirname, 'public'))) // compiles less stylesheets into css.
  .use('/tutorials', express.static(path.join(__dirname, 'public'))) // serves up static content if it exists in public/

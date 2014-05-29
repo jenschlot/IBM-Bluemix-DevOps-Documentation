@@ -5,7 +5,8 @@ module.exports = function(req, res, next) {
 	res.render(
 		'document',
 		{ 
-			markdown: req.rendered_markdown
+			markdown: req.rendered_markdown,
+			sectionname: req.sectionname
 		}
 	);
 }

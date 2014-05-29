@@ -1,3 +1,5 @@
 module.exports = function (req, res, next) {
-	res.render('landing', {});
+	res.render('landing', {
+		'sectionname': 'Tutorials'
+	});
 };
