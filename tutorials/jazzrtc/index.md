@@ -1,6 +1,6 @@
-#Developing BlueMix applications in Java with Eclipse and DevOps Services
+#Developing Bluemix applications in Java with Eclipse and DevOps Services
 
-This tutorial shows you how to develop a Java application using BlueMix, DevOps Services and the RTC client for Eclipse.
+This tutorial shows you how to develop a Java application using Bluemix, DevOps Services and the RTC client for Eclipse.
 
 ##Getting your app
 
@@ -8,7 +8,7 @@ We'll start by forking the sample project, [WordCounter](https://hub.jazz.net/pr
 This project uses Jazz Source Control Management (Jazz SCM for short). It contains a manifest for deploying to Bluemix
 and can be loaded directly in the RTC client for Eclipse. DevOps Services also supports Git projects. To find out more
 about support for Git, check out the
-[Getting Started with BlueMix and DevOps Services using Java](/tutorials/jazzeditorjava) tutorial.
+[Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava) tutorial.
 
 Go to the [WordCounter](https://hub.jazz.net/project/pskhadke/WordCounter/overview) project. Click ***EDIT CODE*** to
 open the Web IDE.
@@ -151,10 +151,10 @@ or send us an [email](mailto:hub%40jazz.net).
 
 ##More Tutorials
 
-If you're interested in trying more BlueMix and DevOps capabilities, here is a list of tutorials:
+If you're interested in trying more Bluemix and DevOps capabilities, here is a list of tutorials:
 
-* [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/jazzeditor)
-* [Getting Started with BlueMix and DevOps Services using Java](/tutorials/jazzeditorjava)
+* [Getting Started with Bluemix and DevOps Services using Node.js](/tutorials/jazzeditor)
+* [Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava)
 * [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services](/tutorials/clients)
-* [Developing BlueMix applications in Node.js with the DevOps Services Web IDE](/tutorials/jazzweb)
+* [Developing Bluemix applications in Node.js with the DevOps Services Web IDE](/tutorials/jazzweb)
 			
