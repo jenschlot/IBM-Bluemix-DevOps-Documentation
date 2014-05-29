@@ -293,7 +293,7 @@ In addition to manually deploying your applications from within the Web IDE you 
 
 The Web IDE has new capabilities for JavaScript development and code assist. Just add a small line in your JavaScript file /* jshint node:true */ to have access to content assist for common node modules plus some of the node services at Bluemix including MongoDB and Redis. Also, there is a growing list of Templates to help you get started with services such as MongoDB.
 
->	![Orion capabilities](/whatsnew/images/orion-capabilities.png)
+>	![Orion capabilities](/whatsnew/images/orion-capabilites.png)
 	
 # Easier handling of multiple invitations
 
