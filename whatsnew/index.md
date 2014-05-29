@@ -20,7 +20,7 @@ When you select a Markdown file for editing,
 you will now see a side-by-side live preview of the rendered HTML. 
 Syntax highlighting is now available as well!
 
->	![live markdown editing](/tutorials/whatsnew/images/live-markdown-editing.png)
+>	![live markdown editing](/whatsnew/images/live-markdown-editing.png)
 
 Check out this video about using live Markdown editing. 
 
