@@ -1,6 +1,6 @@
-#Developing Bluemix applications in Java with Eclipse and DevOps Services
+#Developing IBM Bluemix applications in Java with Eclipse and DevOps Services
 
-This tutorial shows you how to develop a Java application using Bluemix, DevOps Services and the RTC client for Eclipse.
+This tutorial shows you how to develop a Java application using IBM Bluemix, DevOps Services and the RTC client for Eclipse.
 
 ##Getting your app
 
