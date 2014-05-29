@@ -53,7 +53,8 @@ var config_middleware = function(req, res, next) {
  * index.js in this directory pulls in all of the required routes.
  */
 var routes = require('./routes');
-var markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dirname, 'docs'));
+var tutorials_markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dirname, 'tutorials'));
+var whatsnew_markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dirname, 'whatsnew'));
 
 app
  .use(config_middleware) // loads global app configuration.
@@ -64,12 +65,15 @@ app
  .use(express.json()) // pre-parses json request bodies.
  .use(express.urlencoded()) // pre-parses urlencoded request bodies.
  .use(express.methodOverride()) // for clients that don't support the HTTP methods, uses a header as an override.
- .use('/tutorials', markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
- .use('/tutorials', markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
+ .use('/whatsnew', whatsnew_markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
+ .use('/whatsnew', whatsnew_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
+ .use('/tutorials', tutorials_markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
+ .use('/tutorials', tutorials_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
  .use(routes.render_markdown) // renders markdown if any was compiled.
  .use('/tutorials', require('less-middleware')(path.join(__dirname, 'public'))) // compiles less stylesheets into css.
  .use('/tutorials', express.static(path.join(__dirname, 'public'))) // serves up static content if it exists in public/
  .use('/tutorials', express.static(path.join(__dirname, 'docs'))) // serves up static content if it exists in docs/
+ .use('/whatsnew', express.static(path.join(__dirname, 'whatsnew'))) // serves up static content if it exists in docs/
 // DO NOT leave the directory middleware in in production.
 
 /* Pulls in a default error handler (in case requests fall through) but only on dev. */
