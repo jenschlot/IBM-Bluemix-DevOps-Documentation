@@ -1,28 +1,28 @@
-#Getting Started with BlueMix and DevOps Services using Java
+#Getting Started with Bluemix and DevOps Services using Java
 
-##BlueMix
+##Bluemix
 
-*[ BlueMix][1] is an open-standards, cloud-based platform for building, managing and running apps of all types (web, mobile, big data, new smart devices). Capabilities include Java, mobile backend development, application monitoring, as well as capabilities from ecosystem partners and open source, all through an as-a-service model in the cloud.*
+*[ Bluemix][1] is an open-standards, cloud-based platform for building, managing and running apps of all types (web, mobile, big data, new smart devices). Capabilities include Java, mobile backend development, application monitoring, as well as capabilities from ecosystem partners and open source, all through an as-a-service model in the cloud.*
 
-If you haven't already done so, the first step to use these capabilities is to register. BlueMix is currently in beta, so you can register by going to the [BlueMix home page][1] and clicking **Sign up for the free beta**.
+If you haven't already done so, the first step to use these capabilities is to register. Bluemix is currently in beta, so you can register by going to the [Bluemix home page][1] and clicking **Sign up for the free beta**.
 
 ![Join us in beta][2]
 
-Once you've registered, there is lots of helpful information available on the [ BlueMix][1] site, such as ...
+Once you've registered, there is lots of helpful information available on the [ Bluemix][1] site, such as ...
 
-  * [Getting Started with BlueMix][3]
-  * [BlueMix Overview][4]
+  * [Getting Started with Bluemix][3]
+  * [Bluemix Overview][4]
   * and a range of [Tutorials][5]
 
 ... but if you're like us and prefer to _try_ things rather than read about them, just _follow along_ while we build a new application.
 
-You can start by signing in to BlueMix, which takes you to the _Dashboard_:
+You can start by signing in to Bluemix, which takes you to the _Dashboard_:
 
-![BlueMix Dashboard][6]
+![Bluemix Dashboard][6]
 
 Clicking **Add an application** lets you choose different kinds of Runtimes (like Java or Ruby), Services (such as DataCache or Mongo) and Boilerplates, which are essentially pre-configured application templates that are great ways to get started. Let's select the **Java Web Starter** Boilerplate, which opens a panel that displays more information about what it does:
 
-![BlueMix Java Web Starter][7]
+![Bluemix Java Web Starter][7]
 
 As you can see, the application is a simple Java Web server that includes some example code that demonstrates the IBM DataCache Service. Let's try it!
 
@@ -31,9 +31,9 @@ At this point, _you are just two clicks away from having a running application:_
   1. Click **CREATE APPLICATION**
   2. In the Create application window, fill in the **Name** and **Host** fields, and click **CREATE**.
 
-![BlueMix Create App dialog][8]
+![Bluemix Create App dialog][8]
 
-The **Name** is a simple name you can use to find this application the next time you come back to the BlueMix dashboard. **Host** partially defines the URL (the rest comes BlueMix itself) that lets you access your new app from the Internet. As you probably guessed, this URL must be unique, since the URL space is shared amongst all users.
+The **Name** is a simple name you can use to find this application the next time you come back to the Bluemix dashboard. **Host** partially defines the URL (the rest comes Bluemix itself) that lets you access your new app from the Internet. As you probably guessed, this URL must be unique, since the URL space is shared amongst all users.
 
 That's all there is to it! It takes a short while for the application to start up, but once it does a tile on the dashboard shows it running.
 
@@ -49,7 +49,7 @@ But wait, it's great that the application is running, but it's not very useful i
 
 There are a lot of ways you can work with your application code, but one of the slickest is to use something called _auto-deploy_. With auto-deploy you can modify the code that is running in your app by simply pushing the changes to a Git repository. The mechanism that implements auto-deploy is provided by the IBM DevOps Services powered by JazzHub Build &amp; Deploy support, but more about that later.
 
-To enable automatic deployment, go back to your BlueMix application's dashboard and click **Add Git Integration**. With this single click, you get a Git repo, loaded with example code and a deployed app, right from BlueMix. Now that's cool.
+To enable automatic deployment, go back to your Bluemix application's dashboard and click **Add Git Integration**. With this single click, you get a Git repo, loaded with example code and a deployed app, right from Bluemix. Now that's cool.
 
 ![Add Git Integration][11]
 
@@ -67,7 +67,7 @@ Success! You've created a Git repo, loaded it with the example code, and deploye
 
 ![Git repo success message dialog][14]
 
-Now let's go see the status of the deployed app. Go to the BlueMix Dashboard and click **CODE**.
+Now let's go see the status of the deployed app. Go to the Bluemix Dashboard and click **CODE**.
 
 ![CODE button][15]
 
@@ -80,32 +80,32 @@ Your new project opens in the DevOps Services Web IDE. There is lots of useful i
 
 Clicking that button opens a page that lets you configure and see the project's deployment status.
 
-Select **Simple** deployment. With this deployment option, the contents of the Git repository are deployed directly to BlueMixâ€”there is no intermediate build step.
+Select **Simple** deployment. With this deployment option, the contents of the Git repository are deployed directly to Bluemixâ€”there is no intermediate build step.
 
-In a few seconds, the application will automatically deploy to BlueMix. Your sample app is available at the location linked after **Deploy to**, while you can click **Manage** to monitor the app on BlueMix.
+In a few seconds, the application will automatically deploy to Bluemix. Your sample app is available at the location linked after **Deploy to**, while you can click **Manage** to monitor the app on Bluemix.
 
 ![DevOps Services auto deploy page][17]
 
-You might be wondering how we're deploying a Java application directly from source, and well, we're not: this project is designed to help you get a sample application running on BlueMix as quickly as possible, after all. The app has already been compiled, and the sample .war file is in the root directory.
+You might be wondering how we're deploying a Java application directly from source, and well, we're not: this project is designed to help you get a sample application running on Bluemix as quickly as possible, after all. The app has already been compiled, and the sample .war file is in the root directory.
 
 Once you change things, you'll need to build the app again, and the Simple deployer doesn't do that. It's time to change the switch to **Advanced**.
 
 ---
 ## Configuring Advanced Build &amp; Deploy
 
-With the Advanced option, you can configure a builder to compile and package your application using an Ant or Grunt build script, and you can configure a deployer to deploy the application to BlueMix with any additional options needed.
+With the Advanced option, you can configure a builder to compile and package your application using an Ant or Grunt build script, and you can configure a deployer to deploy the application to Bluemix with any additional options needed.
 
 First, let's configure the builder. The default settings will work for this project: build using Ant and pull from the master branch. The builder will find `build.xml` in the root directory and run it during the build. The files that are needed for deployment are output into the build artifacts directory. It defaults to the same directory as the build script path, so there's no need to change that, either.
 
 ![Configuring the Builder][18]
 
-Then, go to the Deployer. As you might guess, this is what you configure to _deploy_ to BlueMix. You can give the app a name; by default, this comes from the manifest, which `` is a file that tells BlueMix how to deploy your application. Let's leave it blank so that it will use the name in the manifest.
+Then, go to the Deployer. As you might guess, this is what you configure to _deploy_ to Bluemix. You can give the app a name; by default, this comes from the manifest, which `` is a file that tells Bluemix how to deploy your application. Let's leave it blank so that it will use the name in the manifest.
 
 You can choose which space you want, or create a new one. Leave it as dev. The script section shows the deployment script that will be executed to deploy the application. The `CF_APP` variable resolves to the app name. In this case, it will resolve to the name in the manifest as we did not specify a different app name.
 
 ![Configuring the Deployer][19]
 
-Once everything is configured, click **REQUEST BUILD**. The page refreshes with the **HISTORY** tab selected. You can see the build is running; click on it if you want to see a build log. When the build finishes successfully, it will deploy automatically to BlueMix, just as you've configured it. Click on the gear icon to view your app on BlueMix:
+Once everything is configured, click **REQUEST BUILD**. The page refreshes with the **HISTORY** tab selected. You can see the build is running; click on it if you want to see a build log. When the build finishes successfully, it will deploy automatically to Bluemix, just as you've configured it. Click on the gear icon to view your app on Bluemix:
 
 You can also click the app route in the panel to visit your app on the web.
 
@@ -116,7 +116,7 @@ You now have a Git repo with example code. Lots of tools can be used to work wit
 
 (If you don't have Git, you can find information on installing it at [Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Service][20].)
 
-First, clone the repo using the URL, which you can find on the BlueMix application's dashboard _or_ the DevOps project's overview:
+First, clone the repo using the URL, which you can find on the Bluemix application's dashboard _or_ the DevOps project's overview:
 
 ![Clone the repository][21]
 
@@ -130,7 +130,7 @@ Now, this is where it starts to get interesting! If you go back to the Web IDE a
 
 ![Auto-deploy in action][24]
 
-Notice that a new build has been queued; it was automatically triggered by the changes you delivered to the project repository. ****When it's finished, it will be deployed to BlueMix. Once it's there, you can view your updated app on the web. Refresh your browser to ensure the updated page is displayed.
+Notice that a new build has been queued; it was automatically triggered by the changes you delivered to the project repository. ****When it's finished, it will be deployed to Bluemix. Once it's there, you can view your updated app on the web. Refresh your browser to ensure the updated page is displayed.
 
 ![Application page showing new title][25]
 
@@ -146,10 +146,10 @@ It turns out though that in addition to build and deploy, DevOps Services provid
   * Free public project hosting
   * Multiple source code repositories
   * Support for teams doing Agile development
-  * Web based development tools with customizations specifically for working with BlueMix
+  * Web based development tools with customizations specifically for working with Bluemix
   * and lots more coming...
 
-If you want to know more about DevOps Services, you can start by checking out the information [here][27], but just as you did with BlueMix, let's _do something_.
+If you want to know more about DevOps Services, you can start by checking out the information [here][27], but just as you did with Bluemix, let's _do something_.
 
 So far you've used command line tools to modify your code and push it to the repository, and you've seen that this works just fine. However, there is another way you can work with DevOps Services.
 
@@ -157,7 +157,7 @@ If you go back to the deployment page, you can see a button labeled **Edit Code*
 
 ![Orion at DevOps Services][29]
 
-From this environment, you can edit files with syntax coloring support for multiple languages including HTML, CSS, Java, JavaScript, Ruby, Python and more. For some languages, such as JavaScript, the IDE also supports syntax checking and code completion, both for standard language constructs and for the services provided by BlueMix. For example, here's what it looks like providing completion for the standard `node.js express` module:
+From this environment, you can edit files with syntax coloring support for multiple languages including HTML, CSS, Java, JavaScript, Ruby, Python and more. For some languages, such as JavaScript, the IDE also supports syntax checking and code completion, both for standard language constructs and for the services provided by Bluemix. For example, here's what it looks like providing completion for the standard `node.js express` module:
 
 ![Orion showing express completions][30]
 
@@ -196,7 +196,7 @@ Where you can then stage..
 ---
 ## Manual Deployment
 
-In the Web IDE, you can use the **Deploy** button to manually deploy whatever you are working in the Web IDE to BlueMix. It is important to remember that the **Deploy** button in the Web IDE deploys the current state of your code in your Web IDE, while Auto-Deploy deploys from what is checked into the repository.
+In the Web IDE, you can use the **Deploy** button to manually deploy whatever you are working in the Web IDE to Bluemix. It is important to remember that the **Deploy** button in the Web IDE deploys the current state of your code in your Web IDE, while Auto-Deploy deploys from what is checked into the repository.
 
 ![About to click the Deploy button in the Web IDE][37]
 
@@ -207,9 +207,9 @@ Whether you are using command line tools or the Web IDE, they can be an effectiv
 ---
 ## A Final Note
 
-You just saw how easy it is to create a Java web app at BlueMix and run that app. With a few clicks, you created a Git repo, loaded it with the example code, and automatically deployed the app. In minutes, you changed code and pushed it using the Git command line and the Web IDE, automatically ran a build and deploy, checked the status of the app deployment, and ran the app to show your changes. That's all there is to it.
+You just saw how easy it is to create a Java web app at Bluemix and run that app. With a few clicks, you created a Git repo, loaded it with the example code, and automatically deployed the app. In minutes, you changed code and pushed it using the Git command line and the Web IDE, automatically ran a build and deploy, checked the status of the app deployment, and ran the app to show your changes. That's all there is to it.
 
-For those of you who made it this far, we hope this tutorial has given you a feel for how to get started with BlueMix and DevOps Services using Java. Lots of details were glossed over, but the documentation links at the start can fill those in.
+For those of you who made it this far, we hope this tutorial has given you a feel for how to get started with Bluemix and DevOps Services using Java. Lots of details were glossed over, but the documentation links at the start can fill those in.
 
 Thanks for following along. And tell us what you think. What did we do well? What can we do better? Post your comments to our [forum][38] or send us an [email][39].
 
@@ -218,24 +218,24 @@ Thanks for following along. And tell us what you think. What did we do well? Wha
 
 If you want to learn more about configuring Eclipse or other desktop clients to work with your git repository, see [Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Service][26].
 
-If you want to learn about how to integrate unit testing into your DevOps Services projects, see [Developing BlueMix applications in Java with Eclipse and DevOps Services][40].
+If you want to learn about how to integrate unit testing into your DevOps Services projects, see [Developing Bluemix applications in Java with Eclipse and DevOps Services][40].
 
 ---
 ## More Tutorials
 
-Interested in trying more BlueMix and DevOps capabilities? Here is a list of tutorials:
+Interested in trying more Bluemix and DevOps capabilities? Here is a list of tutorials:
 
-  * [Getting Started with BlueMix and DevOps Services using Node.js][41]
+  * [Getting Started with Bluemix and DevOps Services using Node.js][41]
   * [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services][42]
-  * [Developing BlueMix applications in Node.js with the DevOps Services Web IDE][43]
-  * [Developing BlueMix applications in Java with Eclipse and DevOps Services][40]
+  * [Developing Bluemix applications in Node.js with the DevOps Services Web IDE][43]
+  * [Developing Bluemix applications in Java with Eclipse and DevOps Services][40]
 
 
-   [1]: https://ace.ng.bluemix.net/ (BlueMix)
+   [1]: https://ace.ng.bluemix.net/ (Bluemix)
    [2]: /tutorials/jazzeditorjava/images/bm-join.gif 
-   [3]: https://www.ng.bluemix.net/docs/QuickStart.jsp (BlueMix getting started)
-   [4]: https://www.ng.bluemix.net/docs/BlueMixIntro.jsp (BlueMix overview)
-   [5]: https://www.ng.bluemix.net/docs/Tutorials.jsp (BlueMix tutorials)
+   [3]: https://www.ng.bluemix.net/docs/QuickStart.jsp (Bluemix getting started)
+   [4]: https://www.ng.bluemix.net/docs/BlueMixIntro.jsp (Bluemix overview)
+   [5]: https://www.ng.bluemix.net/docs/Tutorials.jsp (Bluemix tutorials)
    [6]: /tutorials/jazzeditorjava/images/demo-dash.gif 
    [7]: /tutorials/jazzeditorjava/images/bm-java-starter.gif 
    [8]: /tutorials/jazzeditorjava/images/bm-create-jws.gif 
@@ -270,8 +270,8 @@ Interested in trying more BlueMix and DevOps capabilities? Here is a list of tut
    [37]: /tutorials/jazzeditorjava/images/manualdeploy.gif
    [38]: https://www.ibmdw.net/answers?community=jazzhub (forum)
    [39]: mailto:hub%40jazz.net
-   [40]: /tutorials/jazzrtc (Developing BlueMix applications in Java with Eclipse and DevOps Services)
-   [41]: /tutorials/jazzeditor (Getting Started with BlueMix and DevOps Services using Node.js)
+   [40]: /tutorials/jazzrtc (Developing Bluemix applications in Java with Eclipse and DevOps Services)
+   [41]: /tutorials/jazzeditor (Getting Started with Bluemix and DevOps Services using Node.js)
    [42]: /tutorials/clients (Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services)
-   [43]: /tutorials/jazzweb (Developing BlueMix applications in Node.js with the DevOps Services Web IDE)
+   [43]: /tutorials/jazzweb (Developing Bluemix applications in Node.js with the DevOps Services Web IDE)
   

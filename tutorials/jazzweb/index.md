@@ -1,8 +1,8 @@
-# Developing BlueMix applications in Node.js with the Web IDE
+# Developing Bluemix applications in Node.js with the Web IDE
 
-## Developing BlueMix applications in Node.js with the DevOps Services Web IDE
+## Developing Bluemix applications in Node.js with the DevOps Services Web IDE
 
-This tutorial shows you how to use DevOps Services to develop an application in the cloud and deploy it to [ BlueMix][1].
+This tutorial shows you how to use DevOps Services to develop an application in the cloud and deploy it to [ Bluemix][1].
 
 ---
 ## Start with a sample project
@@ -15,13 +15,13 @@ Enter whatever name you like for your fork of the Sentiment Analysis app. When y
 
 ![Fork new project][4]
 
-After your fork of the project is created, you'll see your project files in the Code Editor. You'll make your mark on the app in a moment, but for now, let's get this project live on the web using BlueMix.
+After your fork of the project is created, you'll see your project files in the Code Editor. You'll make your mark on the app in a moment, but for now, let's get this project live on the web using Bluemix.
 
 Click **Build &amp; Deploy** at the top of the Code Editor. Click **Simple**.
 
 ![Simple deployment interface][5]
 
-Simple deployment works by directly deploying the contents of the Git repository, using the `manifest.yml` file to tell it how to deploy to BlueMix. Your app will build and deploy in a few seconds. Click on the link to the deployed app to give it a look:
+Simple deployment works by directly deploying the contents of the Git repository, using the `manifest.yml` file to tell it how to deploy to Bluemix. Your app will build and deploy in a few seconds. Click on the link to the deployed app to give it a look:
 
 ![Simple view up close][6]
 
@@ -35,21 +35,21 @@ On the **Configure Builder** page, select "Grunt" as the **Builder**. Leave ever
 
 ![Configure Builder][8]
 
-Next, click the **Deployer** box on the left side of the screen. DevOps Services integrates with BlueMix, and this is a simple project, so the default information here is sufficient to deploy your project. To make sure that the project has a unique path, though, add the flag `-n` followed by a host name to the BlueMix script that's sure to be unique. As an example:
+Next, click the **Deployer** box on the left side of the screen. DevOps Services integrates with Bluemix, and this is a simple project, so the default information here is sufficient to deploy your project. To make sure that the project has a unique path, though, add the flag `-n` followed by a host name to the Bluemix script that's sure to be unique. As an example:
 
 ![Configure Deployer][9]
 
-If the project manifest file (`manifest.yml`) didn't specify a host name, or if the project required a particular service, you could define them here by adding `cf` command lines to the BlueMix script. The manifest included in this sample application specifies a host name and does not require any services, so we do not need to add anything to the script. Click **SAVE**, then click **Request Build**.
+If the project manifest file (`manifest.yml`) didn't specify a host name, or if the project required a particular service, you could define them here by adding `cf` command lines to the Bluemix script. The manifest included in this sample application specifies a host name and does not require any services, so we do not need to add anything to the script. Click **SAVE**, then click **Request Build**.
 
-From the **History** page, you can see that your project has been queued to build. When the build completes successfully, your app will automatically deploy to BlueMix. You can observe its status from this page, as well as open the app once it's deployed.
+From the **History** page, you can see that your project has been queued to build. When the build completes successfully, your app will automatically deploy to Bluemix. You can observe its status from this page, as well as open the app once it's deployed.
 
-To open the app, click the URL below its name. Click the gear button indicated below if you want to see your app's BlueMix dashboard:
+To open the app, click the URL below its name. Click the gear button indicated below if you want to see your app's Bluemix dashboard:
 
 ![History page][10]
 
-[BlueMix][11] allows you to manage the live application instance. The **Applications** tab on the **BlueMix Dashboard** has options to start, stop, and delete the application. The **Services** tab has options to add various services such as MongoDB, SSO, MapReduce, and more.
+[Bluemix][11] allows you to manage the live application instance. The **Applications** tab on the **Bluemix Dashboard** has options to start, stop, and delete the application. The **Services** tab has options to add various services such as MongoDB, SSO, MapReduce, and more.
 
-![Stopping a BlueMix app][12]
+![Stopping a Bluemix app][12]
 
 ---
 ## Editing the Sample Application
@@ -91,7 +91,7 @@ Deploying a DevOps Services project from the Web IDE requires the project to hav
 ---
 ## Manual Deployment
 
-In the Web IDE, you can use the Deploy button to manually deploy whatever you are working in the Web IDE to BlueMix. It is important to remember that the Deploy button in the Web IDE deploys the current state of your code in your Web IDE, while Auto-Deploy deploys from what is checked into the repository.
+In the Web IDE, you can use the Deploy button to manually deploy whatever you are working in the Web IDE to Bluemix. It is important to remember that the Deploy button in the Web IDE deploys the current state of your code in your Web IDE, while Auto-Deploy deploys from what is checked into the repository.
 
 ![About to click the Deploy button in the Web IDE][18]
 
@@ -104,24 +104,24 @@ Whether you are using command line tools or the Web IDE, they can be an effectiv
 
 Builds are automatically delivered when changes are delivered to a project, and successful builds are automatically deployed. You can also manually deploy from the build history page by dragging a successful build into the **Environment** box, or clicking **Deploy to** on a successful build. When the app is deployed, click on its web URL to give it a whirl:
 
-![Our updated app on BlueMix][19]
+![Our updated app on Bluemix][19]
 
-And that's it! You now know just what you need to do to develop and deploy a BlueMix application with the Web IDE. If it seemed a little too easy, well, that's just how working with BlueMix and DevOps Services is. Have fun!
+And that's it! You now know just what you need to do to develop and deploy a Bluemix application with the Web IDE. If it seemed a little too easy, well, that's just how working with Bluemix and DevOps Services is. Have fun!
 
 Thanks for following along. And tell us what you think. What did we do well? What can we do better? Post your comments to our [forum][20] or send us an [email][21].
 
 ---
 ## More Tutorials
 
-Interested in trying more BlueMix and DevOps capabilities? Here is a list of tutorials:
+Interested in trying more Bluemix and DevOps capabilities? Here is a list of tutorials:
 
-* [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/jazzeditor)
-* [Getting Started with BlueMix and DevOps Services using Java](/tutorials/jazzeditorjava)
+* [Getting Started with Bluemix and DevOps Services using Node.js](/tutorials/jazzeditor)
+* [Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava)
 * [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Service](/tutorials/clients)
-* [Developing BlueMix applications in Java with Eclipse and DevOps Services](/tutorials/jazzrtc)
+* [Developing Bluemix applications in Java with Eclipse and DevOps Services](/tutorials/jazzrtc)
 
 
-   [1]: https://ace.ng.bluemix.net/ (BlueMix)
+   [1]: https://ace.ng.bluemix.net/ (Bluemix)
    [2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview
    [3]: /tutorials/jazzweb/images/forkbutton.gif
    [4]: /tutorials/jazzweb/images/ForkNew.gif

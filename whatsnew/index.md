@@ -55,7 +55,7 @@ You can now sign in with your IBM id to get a more seamless experience across th
 We are running [Rational Team Concert 4.0.6](https://jazz.net/blog/index.php/2014/02/28/off-and-running-in-2014-announcing-clm-4-0-6/) for tracking and planning, and Jazz source control. If you'd like to learn more, check out [what's new](https://jazz.net/products/rational-team-concert/whatsnew/) for Rational Team Concert.
 
 
-# Build and deploy to BlueMix
+# Build and deploy to Bluemix
 
 ## Simple application deployment configuration
 
@@ -73,7 +73,7 @@ You can now configure a build engine to compile your source within Git and Jazz 
 
 ## Automatic deployment of built applications
 
-You now have the option to configure a Deployer to deploy built packages to BlueMix. Once you have a successfully configured Builder, select Deployer to configure your deployment options for your application. Once configured, any successful build will trigger a push of the Application to BlueMix. 
+You now have the option to configure a Deployer to deploy built packages to Bluemix. Once you have a successfully configured Builder, select Deployer to configure your deployment options for your application. Once configured, any successful build will trigger a push of the Application to Bluemix. 
 
 >	![Automatic deployments of built applications](/whatsnew/images/automatic-deployment-built-applications.png)
 
@@ -87,23 +87,23 @@ Leveraging the Advanced Build & Deploy you can now drill in to your build to vie
 
 ## Select builds for deployment
 
-You can select any build to deploy to your BlueMix space with the click of a button. To deploy a previous build, expand the desired build and select your space to deploy to. 
+You can select any build to deploy to your Bluemix space with the click of a button. To deploy a previous build, expand the desired build and select your space to deploy to. 
 
 >	![Select builds for deployment](/whatsnew/images/select-builds-deployment.png)
 
 
 ## View your deployment history
 
-You can now view the history of Application deployments to your BlueMix space. Just click the History button from the advanced Build & Deploy page, and then click the Space link. 
+You can now view the history of Application deployments to your Bluemix space. Just click the History button from the advanced Build & Deploy page, and then click the Space link. 
 
 >	![View your deployment history](/whatsnew/images/deployment-history.png)
 	
 
-## Direct access to your BlueMix application
+## Direct access to your Bluemix application
 
-View your active deployment, with information directly from your BlueMix application. Access the application URL, and drill directly into your BlueMix application dashboard. 
+View your active deployment, with information directly from your Bluemix application. Access the application URL, and drill directly into your Bluemix application dashboard. 
 
->	![Direct access to your BlueMix application](/whatsnew/images/drill-in-bluemix.png)
+>	![Direct access to your Bluemix application](/whatsnew/images/drill-in-bluemix.png)
 	
 
 # Web IDE enhancements
@@ -259,7 +259,7 @@ You can update your project's information or change options - all from the new p
 
 # A new welcome page for My Stuff
 
-The welcome page for My Stuff has been redesigned to better help you get started. Click to start a new project, or to explore existing projects that you can fork. Also, learn more about deploying your app to BlueMix.
+The welcome page for My Stuff has been redesigned to better help you get started. Click to start a new project, or to explore existing projects that you can fork. Also, learn more about deploying your app to Bluemix.
 
 >	![My Stuff welcome page](/whatsnew/images/mystuff-gettingstarted.png)
  
@@ -275,15 +275,15 @@ Menu items and a navigation bar have been added, and you can hide the navigation
 
 # Deployment options from the Web IDE
 
-Click **Deploy** to manually push a new application to BlueMix. This type of deployment uses the contents of the manifest.yml file, and your sign in credentials. If you're editing a file you can click **Deploy As** to re-deploy to an existing application name.
+Click **Deploy** to manually push a new application to Bluemix. This type of deployment uses the contents of the manifest.yml file, and your sign in credentials. If you're editing a file you can click **Deploy As** to re-deploy to an existing application name.
 
 >	![Orion deploy options](/whatsnew/images/orion-deploy-options.png)
  
 	
 
-# Auto-Deploying applications to BlueMix
+# Auto-Deploying applications to Bluemix
 
-In addition to manually deploying your applications from within the Web IDE you can also setup Auto-Deploy of your BlueMix application. If you selected the **Deploy to BlueMix** option when creating your Git-hosted project you'll find an Auto-Deployment section in the Project overview page. When this is enabled, any push to the git repository for this project will trigger a push of the Application to BlueMix using the contents of the selected branch.
+In addition to manually deploying your applications from within the Web IDE you can also setup Auto-Deploy of your Bluemix application. If you selected the **Deploy to Bluemix** option when creating your Git-hosted project you'll find an Auto-Deployment section in the Project overview page. When this is enabled, any push to the git repository for this project will trigger a push of the Application to Bluemix using the contents of the selected branch.
 
 >	![Automatic deployment](/whatsnew/images/auto-deploy.jpg)
  
@@ -291,7 +291,7 @@ In addition to manually deploying your applications from within the Web IDE you 
 
 # JavaScript development and code assist
 
-The Web IDE has new capabilities for JavaScript development and code assist. Just add a small line in your JavaScript file /* jshint node:true */ to have access to content assist for common node modules plus some of the node services at BlueMix including MongoDB and Redis. Also, there is a growing list of Templates to help you get started with services such as MongoDB.
+The Web IDE has new capabilities for JavaScript development and code assist. Just add a small line in your JavaScript file /* jshint node:true */ to have access to content assist for common node modules plus some of the node services at Bluemix including MongoDB and Redis. Also, there is a growing list of Templates to help you get started with services such as MongoDB.
 
 >	![Orion capabilities](/whatsnew/images/orion-capabilities.png)
 	

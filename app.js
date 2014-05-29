@@ -72,7 +72,7 @@ app
  .use(routes.render_markdown) // renders markdown if any was compiled.
  .use('/tutorials', require('less-middleware')(path.join(__dirname, 'public'))) // compiles less stylesheets into css.
  .use('/tutorials', express.static(path.join(__dirname, 'public'))) // serves up static content if it exists in public/
- .use('/tutorials', express.static(path.join(__dirname, 'docs'))) // serves up static content if it exists in docs/
+ .use('/tutorials', express.static(path.join(__dirname, 'tutorials'))) // serves up static content if it exists in docs/
  .use('/whatsnew', express.static(path.join(__dirname, 'whatsnew'))) // serves up static content if it exists in docs/
 // DO NOT leave the directory middleware in in production.
 
