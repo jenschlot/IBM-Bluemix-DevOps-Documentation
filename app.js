@@ -93,11 +93,11 @@ if ('development' == app.get('env')) {
 
 /* Proper error handler. */
 app.use('/tutorials', function (req, res) { 
-	res.status = 404; 
+	res.status(404);
 	res.end(req.path + ": File not found");
 });
 app.use('/whatsnew', function (req, res) { 
-	res.status = 404; 
+	res.status(404);
 	res.end(req.path + ": File not found");
 });
 
