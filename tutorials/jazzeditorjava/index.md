@@ -1,4 +1,4 @@
-#Getting Started with Bluemix and DevOps Services using Java
+#Getting Started with IBM Bluemix and DevOps Services using Java
 
 ##IBM Bluemix
 
