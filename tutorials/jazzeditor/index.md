@@ -1,8 +1,8 @@
-#Getting Started with Bluemix and DevOps Services using Node.js
+#Getting Started with IBM Bluemix and DevOps Services using Node.js
 
-##Bluemix
+##IBM Bluemix
 
-***[Bluemix](https://ace.ng.bluemix.net/) is an open-standards, cloud-based platform for building, managing and running apps of all types
+***[IBM Bluemix](https://ace.ng.bluemix.net/) is an open-standards, cloud-based platform for building, managing and running apps of all types
 (web, mobile, big data, new smart devices). Capabilities include Java, mobile backend development, 
 application monitoring, as well as capabilities from ecosystem partners and open source, 
 all through an as-a-service model in the cloud.***
