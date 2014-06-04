@@ -1,7 +1,7 @@
 # FAQs
+##### Updated on June 4, 2014
 
 Can't find the answer to your question here? [Check out our forum](https://www.ibmdw.net/answers?community=jazzhub).
-
 ____
 
 -   [I see JazzHub is now called IBM DevOps Services. Can you tell me
@@ -22,6 +22,7 @@ ____
 -   [Which browser should I be using?](#q20)
 -   [Which repos can  I use?](#q21)
 -   [Which local clients can I use?](#q22)
+-   [Tips for using the Eclipse RTC client](#rtc)
 
 ____
 
@@ -133,3 +134,8 @@ DevOps Services supports Git, GitHub and Jazz Source Control (from Rational Team
 ### Which local clients can I use? 
 
 DevOps Services supports the Eclipse client (with Rational Team Concert extension) 
+
+<a name="rtc"></a>
+### Tips for using the Elcipse Rational Team Concert client 
+
+You should set UTF-8 as the default encoding in the preferences using *Window* > *Preferences* > *General* > *Workspaces*.
