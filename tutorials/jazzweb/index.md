@@ -1,4 +1,4 @@
-# Developing Bluemix applications in Node.js with the Web IDE
+# Developing IBM Bluemix applications in Node.js with the Web IDE
 
 ## Developing IBM Bluemix applications in Node.js with the DevOps Services Web IDE
 
