@@ -1,4 +1,4 @@
-#Getting Started with IBM Bluemix and DevOps Services using Node.js
+#Getting Started with IBM Bluemix and IBM DevOps Services using Node.js
 
 ##IBM Bluemix
 
