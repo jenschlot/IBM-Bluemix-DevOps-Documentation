@@ -1,7 +1,5 @@
 # Developing IBM Bluemix applications in Node.js with the Web IDE
 
-## Developing IBM Bluemix applications in Node.js with the DevOps Services Web IDE
-
 This tutorial shows you how to use DevOps Services to develop an application in the cloud and deploy it to [IBM Bluemix][1].
 
 ---
