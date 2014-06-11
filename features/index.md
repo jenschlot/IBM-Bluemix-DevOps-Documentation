@@ -53,7 +53,7 @@ projects), or the world.  Edit your source, push commits, and
 automatically deploy changes to	the cloud, all without leaving your
 browser. And, don't worry, your favorite Git client is supported too.
  
->	![Integrated source code editor](/features/images/jazzhub-editor.png)		
+>	![Integrated source code editor](/features/images/git-hosting.png)		
  
 ## Connect with your GitHub repository
 			
