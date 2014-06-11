@@ -56,6 +56,7 @@ var routes = require('./routes');
 var tutorials_markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dirname, 'tutorials'));
 var whatsnew_markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dirname, 'whatsnew'));
 var faq_markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dirname, 'help', 'faq'));
+var features_markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dirname, 'features'));
 
 app
  .use(config_middleware) // loads global app configuration.
@@ -72,6 +73,8 @@ app
  .use('/tutorials', tutorials_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
  .use('/help/faq', faq_markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
  .use('/help/faq', faq_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
+ .use('/features', features_markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
+ .use('/features', features_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
  .use('/help/faq', function (req, res, next) {
 	req.sectionname="Help";
 	next();
@@ -84,11 +87,16 @@ app
 	req.sectionname="Tutorials";
 	next();
  })
+ .use('/features', function (req, res, next) {
+	req.sectionname="Features";
+	next();
+ })
  .use(routes.render_markdown) // renders markdown if any was compiled.
  .use('/tutorials', require('less-middleware')(path.join(__dirname, 'public'))) // compiles less stylesheets into css.
  .use('/tutorials', express.static(path.join(__dirname, 'public'))) // serves up static content if it exists in public/
  .use('/tutorials', express.static(path.join(__dirname, 'tutorials'))) // serves up static content if it exists in tutorials/
  .use('/whatsnew', express.static(path.join(__dirname, 'whatsnew'))) // serves up static content if it exists in whatsnew/
+ .use('/features', express.static(path.join(__dirname, 'features'))) // serves up static content if it exists in features/
  .use('/help/faq', express.static(path.join(__dirname, 'help', 'faq'))) // serves up static content if it exists in help/faq/
 // DO NOT leave the directory middleware in in production.
 
@@ -109,6 +117,10 @@ app.use('/whatsnew', function (req, res) {
 	res.end(req.path + ": File not found");
 });
 app.use('/help/faq', function (req, res) { 
+	res.status(404);
+	res.end(req.path + ": File not found");
+});
+app.use('/features', function (req, res) { 
 	res.status(404);
 	res.end(req.path + ": File not found");
 });
