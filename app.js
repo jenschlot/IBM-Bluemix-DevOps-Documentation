@@ -71,10 +71,10 @@ app
  .use('/whatsnew', whatsnew_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
  .use('/tutorials', tutorials_markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
  .use('/tutorials', tutorials_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
- .use('/help/faq', faq_markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
- .use('/help/faq', faq_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
  .use('/features', features_markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
  .use('/features', features_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
+ .use('/help/faq', faq_markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
+ .use('/help/faq', faq_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
  .use('/help/faq', function (req, res, next) {
 	req.sectionname="Help";
 	next();
