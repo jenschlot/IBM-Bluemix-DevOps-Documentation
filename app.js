@@ -37,12 +37,20 @@ _.each(['/tutorials', '/tutorials/landing'],
 
 /*
  * Depending on the request path, try to load and render the corresponding markdown source.
+ * See config.json for a rundown of which prefixes load what.
  */
-app.use('/tutorials', routes.section_router(app.get('env'), 'Tutorials', path.join(__dirname, 'tutorials')))
-   .use('/help/faq', routes.section_router(app.get('env'), 'Help', path.join(__dirname, 'help', 'faq')))
-   .use('/whatsnew', routes.section_router(app.get('env'), "What's New", path.join(__dirname, 'whatsnew')))
-   .use('/features', routes.section_router(app.get('env'), "Features", path.join(__dirname, 'features')))
-   .use('/maintenance', routes.section_router(app.get('env'), "Maintenance Schedule", path.join(__dirname, 'maintenance')));
+_.each(
+	config.content,
+	function (content) {
+		app.use(
+			content.uri_prefix, 
+			routes.section_router(app.get('env'), 
+					      content.section_name, 
+					      path.join(__dirname, content.directory)
+			)
+		);
+	}
+);
 
 /*
  * If nothing was rendered, defer to an arbitrary JazzHub server.  Because this app will be deployed
