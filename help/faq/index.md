@@ -27,6 +27,7 @@ ____
 ____
 
 <a name="q1"></a>
+
 ### I see JazzHub is now called IBM DevOps Services. Can you tell me more? 
 
 JazzHub has a new name! The JazzHub of today began its life as an experimental development collaboration hub for academia and researchers, based on IBM's Jazz technology. We learned a lot from that experience and since then we have re-implemented JazzHub in the cloud and opened it up to everyone.
@@ -35,11 +36,13 @@ We integrated the [Eclipse](http://eclipse.org/ "Eclipse") Orion Web IDE, introd
 plan to expand that capability to include continuous integration, unit test, and deployment based on Jenkins and UrbanCode. With these new capabilities and more to come, JazzHub builds on the core Jazz services to provide a pretty nice environment for cloud application development. To reflect the expanded role of JazzHub in the IBM family, we are renaming it "IBM DevOps Services", or "IDS" for short. JazzHub will continue to refer to the underlying technology stack, as in "Powered by JazzHub".
 
 <a name="q2"></a>
+
 ### How much does it cost?
 
 Read the [latest information about cost](/learn/cost).
 
 <a name="q17"></a>
+
 ### What additional help resources are available? 
 
 We developed the following tutorials to help you get started.
@@ -50,13 +53,16 @@ We developed the following tutorials to help you get started.
 - [Developing BlueMix applications in Node.js with the DevOps Services Web IDE](/tutorials/jazzweb)
 - [Developing BlueMix applications in Java with Eclipse and DevOps Services](/tutorials/jazzrtc)
 
-<a name="rtcgit"></a>### Why does my sign in to DevOps Services fail from my Rational Team Concert desktop client or Git client? 
+<a name="rtcgit"></a>
+
+### Why does my sign in to DevOps Services fail from my Rational Team Concert desktop client or Git client? 
 
 You can now sign in to DevOps Services with your Jazz User ID or your IBM id. More than likely, you are reading this FAQ because you use an IBM id to access DevOps Services, and you cannot sign in to DevOps Services from your Rational Team Concert desktop client, or you see an authentication failure when you try to access your Git repository from your local Git client. This failure is probably because your IBM id and Jazz User ID are linked, and you did not use your IBM id password with your Jazz User ID. To fix this problem, you must sign in with your Jazz User ID and IBM id password.
 
 This odd combination of Jazz User ID and IBM id password is required to support the desktop-client users who created data with Jazz User IDs. Desktop-client users include those who use Rational Team Concert clients for Eclipse and Visual Studio, as well as any local Git client. So, for now, new or existing desktop-client users must sign in with their Jazz User ID and IBM id password when they connect to DevOps Services.
 
 <a name="git"></a>
+
 ### Can I connect my project to a GitHub repository? 
 
 Yes. When you create a project, select the option for GitHub and input your GitHub repository.
@@ -66,22 +72,26 @@ You can track and plan the work you'll store in your GitHub repository from with
 You can also edit the code stored in your GitHub repository using the Web IDE. When you want to begin coding, navigate to your project and click **Edit Code** at the top of the page. Your GitHub repository will automatically be cloned for you, and your existing files will display in the navigation pane. You can create new files or edit existing ones. When you have saved changes to your files, select **Activities \> Git Status**. On this page, you can stage, commit, and push your changes.
 
 <a name="q5"></a>
+
 ### Is DevOps Services right for me if our team is not developing code? 
 
 Yes it is. You can plan, define requirements, track tasks, and collaborate on any type of project.
 
 <a name="q7"></a>
+
 ### How do I report a bug? 
 
 If something's not working, we'd like to hear about it. [Report a bug here](https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
 
 <a name="q8"></a>
+
 ### How can I provide additional feedback?
 
 We love feedback. If you have a suggestion about how to make something better, [share your idea here](https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
 To ask a question, check out [our forum](https://www.ibmdw.net/answers?community=jazzhub).
 
 <a name="ibmer"></a>
+
 ### I'm an IBMer. What do I need to know about starting a DevOps Services project? 
 
 In the spirit of open development, we encourage both public and private
@@ -93,12 +103,14 @@ projects, and we ask that you remember the following:
   as needed.
 
 <a name="q18"></a>
+
 ### How can I report abuse? 
 
 To report an instance of abuse of DevOps Services or a violation of the
 [Terms of Use](/terms), send an email to [hub@jazz.net](mailto:hub@jazz.net?subject=Reporting%20abuse%20of%20Jazzhub&body=Please%20include%20the%20following%20information:%0D%0A%0D%0A%20-%20Your%20email%20address:%0D%0A%20-%20The%20URL(s)%20where%20you%20observed%20abuse%20on%20Jazzhub:%0D%0A%20-%20Any%20other%20details%20you%20feel%20could%20help%20in%20our%20investigation%20of%20this%20issue:%0D%0A%0D%0AThank%20you%20for%20your%20report,%0D%0A%0D%0AThe%20JazzHub%20Team). Please include as much information as possible including the URL where you see the abuse and a description of the nature of the problem.
 
 <a name="q19"></a>
+
 ### How can I see what's new?
 
 See our [What's New](/whatsnew) page.
@@ -119,6 +131,7 @@ DevOps Services supports the following browsers:
 If your browser is not listed above, you may have a compromised experience.
 
 <a name="q21"></a>
+
 ### Which repos can  I use? 
 
 DevOps Services supports Git, GitHub and Jazz Source Control (from Rational Team Concert).
@@ -131,11 +144,13 @@ DevOps Services supports Git, GitHub and Jazz Source Control (from Rational Team
 | Location | DevOps  - https://hub.jazz.net/git | GitHub | DevOps Services site https://hub.jazz.net/ccm |
 
 <a name="q22"></a>
+
 ### Which local clients can I use? 
 
 DevOps Services supports the Eclipse client (with Rational Team Concert extension) 
 
 <a name="rtc"></a>
-### Tips for using the Elcipse Rational Team Concert client 
+
+### How do I get most out of the Eclipse Rational Team Concert client 
 
 You should set UTF-8 as the default encoding in the preferences using *Window* > *Preferences* > *General* > *Workspaces*.
