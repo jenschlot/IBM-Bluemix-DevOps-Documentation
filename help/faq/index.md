@@ -1,5 +1,5 @@
 # FAQs
-##### Updated on June 4, 2014
+##### Updated on June 13, 2014
 
 Can't find the answer to your question here? [Check out our forum](https://www.ibmdw.net/answers?community=jazzhub).
 ____
@@ -107,7 +107,7 @@ projects, and we ask that you remember the following:
 ### How can I report abuse? 
 
 To report an instance of abuse of DevOps Services or a violation of the
-[Terms of Use](/terms), send an email to [hub@jazz.net](mailto:hub@jazz.net?subject=Reporting%20abuse%20of%20Jazzhub&body=Please%20include%20the%20following%20information:%0D%0A%0D%0A%20-%20Your%20email%20address:%0D%0A%20-%20The%20URL(s)%20where%20you%20observed%20abuse%20on%20Jazzhub:%0D%0A%20-%20Any%20other%20details%20you%20feel%20could%20help%20in%20our%20investigation%20of%20this%20issue:%0D%0A%0D%0AThank%20you%20for%20your%20report,%0D%0A%0D%0AThe%20JazzHub%20Team). Please include as much information as possible including the URL where you see the abuse and a description of the nature of the problem.
+[Terms of Use](/terms), send an email to [hub@jazz.net](mailto:hub@jazz.net?Subject=Reporting%20abuse%20of%20JazzHub&Body=Please%20include%20the%20following%20information%3A%0A%0A%20-%20Your%20email%20address%3A%0A%20-%20The%20URL%28s%29%20where%20you%20observed%20abuse%20on%20Jazzhub%3A%0A%20-%20Any%20other%20details%20you%20feel%20could%20help%20in%20our%20investigation%20of%20this%20issue%3A%0A%0AThank%20you%20for%20your%20report%2C%0A%0AThe%20JazzHub%20Team). Please include as much information as possible including the URL where you see the abuse and a description of the nature of the problem.
 
 <a name="q19"></a>
 
@@ -120,13 +120,21 @@ See our [What's New](/whatsnew) page.
 
 DevOps Services supports the following browsers:
 
-<span style="color:blue">Chrome v24+ </span>
+<div class="jh-columns">
+	<div class="f_left google-chrome pts pbs mrxs ">
+		__Chrome__ v24+
+	</div>
+	<div class="f_left mozilla-firefox pts pbs mrxs ">
+		__Firefox__ v17+
+	</div>
+	<div class="f_left microsoft-ie pts pbs mrxs ">
+		__Internet Explorer__ 10+
+	</div>
+	<div class="f_left apple-safari pts pbs">
+		__Safari__ 6+
+	</div>
+</div>
 
-> Firefox v17+
-
-> Internet Explorer 10+
-
-> Safari 6+
 
 If your browser is not listed above, you may have a compromised experience.
 
@@ -138,10 +146,26 @@ DevOps Services supports Git, GitHub and Jazz Source Control (from Rational Team
 
 #### Comparison of Git, GitHub and Jazz Source Control Management (Jazz SCM).
 
-| Repo | Git | GitHub | Jazz SCM |
-|-----|-----|---------|--------|
-| Description | distributed version control system. Git is responsible for keeping track of changes to content (usually source code files), and it provides mechanisms for sharing that content with others | hosting service for Git repositories | Rational Team Concert source control stores artifacts such as files and folders in the Jazz repository |
-| Location | DevOps  - https://hub.jazz.net/git | GitHub | DevOps Services site https://hub.jazz.net/ccm |
+<div name="table-header" class="jh-columns pbs">
+	<div class="jh-col-12-2 f_left prm">__Repo__</div>
+	<div class="jh-col-12-7 prm">__Description__</div>
+	<div class="jh-col-12-2 f_right">__Location__</div>
+</div> 
+<div name="git" class="jh-columns pbs">
+	<div class="jh-col-12-2 f_left prm">Git</div>
+	<div class="jh-col-12-7 prm">Distributed version control system. Git is responsible for keeping track of changes to content (usually code files) and it provides mechanisms for sharing that content with others</div>
+	<div class="jh-col-12-3 f_right">[DevOps Git](https://hub.jazz.net/git "DevOps Git - https://hub.jazz.net/git")</div>
+</div> 
+<div name="github" class="jh-columns pbs">
+	<div class="jh-col-12-2 f_left prm">Git Hub</div>
+	<div class="jh-col-12-7 prm">Hosting Service for Git Repositories</div>
+	<div class="jh-col-12-3 f_right">GitHub</div>
+</div> 
+<div name="jazz-scm" class="jh-columns pbs">
+	<div class="jh-col-12-2 f_left prm">Jazz SCM</div>
+	<div class="jh-col-12-7 prm">Rational Team Concert source control stores artifacts such as repository files and folders in the Jazz repsitory</div>
+	<div class="jh-col-12-3 f_right">[DevOps Services Site](https://hub.jazz.net/ccm "DevOps Services Site - https://hub.jazz.net/ccm")</div>
+</div> 
 
 <a name="q22"></a>
 

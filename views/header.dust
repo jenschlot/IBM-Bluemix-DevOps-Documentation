@@ -3,7 +3,13 @@
 		<title>IBM DevOps Services</title>
 		<link rel='icon' type='image/x-icon' href='/tutorials/favicon.ico'></link>
 		<link rel='stylesheet' href='/embed/css/navbar'></link>
-		<link rel='stylesheet' href='/tutorials/stylesheets/style.css'></link>		
+		<link rel='stylesheet' href='/tutorials/stylesheets/style.css'></link>
+		<style type="text/css">
+ 			.google-chrome{background-color: #fde907; width: 24%; text-align: center;}
+ 			.mozilla-firefox{background-color: #fd9d07; width: 24%; text-align: center;}
+ 			.microsoft-ie{background-color: #00ccff; width: 24%; text-align: center;} 
+ 			.apple-safari{background-color: #008ee4; width: 24%; text-align: center;}
+		</style>		
 	</head>
 	<body>
 		<div class="com-ibm-team-jazzhub">
