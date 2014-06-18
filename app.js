@@ -44,6 +44,7 @@ _.each(['/docs'],
  * Depending on the request path, try to load and render the corresponding markdown source.
  * See config.json for a rundown of which prefixes load what.
  */
+ 
 _.each(
 	config.topic,
 	function (topic) {
@@ -82,7 +83,6 @@ app.use(
 	// Any requests outside of the ones above will be deferred to JazzHub
 	function (req, res, next) {
 		res.redirect(config.jazzhub.url + req.url.replace(/^\/*/, ''));
-
 	}
 );
 
