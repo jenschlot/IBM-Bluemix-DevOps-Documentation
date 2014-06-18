@@ -56,6 +56,7 @@ var config_middleware = function(req, res, next) {
 var routes = require('./routes');
 var tutorials_markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dirname, 'tutorials'));
 var whatsnew_markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dirname, 'whatsnew'));
+var glossary_markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dirname, 'glossary'));
 var faq_markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dirname, 'help', 'faq'));
 var features_markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dirname, 'features'));
 
@@ -68,6 +69,8 @@ app
  .use(express.json()) // pre-parses json request bodies.
  .use(express.urlencoded()) // pre-parses urlencoded request bodies.
  .use(express.methodOverride()) // for clients that don't support the HTTP methods, uses a header as an override.
+ .use('/glossary', glossary_markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
+ .use('/glossary', glossary_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
  .use('/whatsnew', whatsnew_markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
  .use('/whatsnew', whatsnew_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
  .use('/tutorials', tutorials_markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
@@ -78,6 +81,10 @@ app
  .use('/help/faq', faq_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
  .use('/help/faq', function (req, res, next) {
 	req.sectionname="Help";
+	next();
+ })
+ .use('/glossary', function (req, res, next) {
+	req.sectionname="Glossary";
 	next();
  })
  .use('/whatsnew', function (req, res, next) {
@@ -96,6 +103,7 @@ app
  .use('/tutorials', require('less-middleware')(path.join(__dirname, 'public'))) // compiles less stylesheets into css.
  .use('/tutorials', express.static(path.join(__dirname, 'public'))) // serves up static content if it exists in public/
  .use('/tutorials', express.static(path.join(__dirname, 'tutorials'))) // serves up static content if it exists in tutorials/
+ .use('/glossary', express.static(path.join(__dirname, 'glossary'))) // serves up static content if it exists in whatsnew/
  .use('/whatsnew', express.static(path.join(__dirname, 'whatsnew'))) // serves up static content if it exists in whatsnew/
  .use('/features', express.static(path.join(__dirname, 'features'))) // serves up static content if it exists in features/
  .use('/help/faq', express.static(path.join(__dirname, 'help', 'faq'))) // serves up static content if it exists in help/faq/
@@ -110,6 +118,10 @@ if ('development' == app.get('env')) {
 
 /* Proper error handler. */
 app.use('/tutorials', function (req, res) { 
+	res.status(404);
+	res.end(req.path + ": File not found");
+});
+app.use('/glossary', function (req, res) { 
 	res.status(404);
 	res.end(req.path + ": File not found");
 });
