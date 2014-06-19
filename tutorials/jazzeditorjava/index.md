@@ -132,13 +132,38 @@ You now have a Git repo with example code. Lots of tools can be used to work wit
 
 First, clone the repo using the URL, which you can find on the Bluemix application's dashboard _or_ the DevOps project's overview:
 
-![Clone the repository][21]
 
-Next, let's change your app source code and see what happens. In the `WebContent` folder there's a file called `index.html`. This contains some of what you see when you view your app on the web. Change some text in the body of the HTML there with whatever tool you like. If you just want to see a quick change, search for the title, "Application Example: run ECAAS operations using Java Native APIs," and change a word or two. When you're done, `git stage`, `git commit`, and `git push`, like so:
+    $ git clone https://hub.jazz.net/git/jazzhubdemouser/YourApp-2014
+    Cloning into 'YourApp-2014'...
+    Username for 'https://hub.jazz.net': jazzhubdemouser
+    Password for 'https://jazzhubdemouser@hub.jazz.net':
+    remote: Counting objects: 49, done
+    remote: Finding sources: 100% (49/49)
+    remote: Total 49 (delta 0), reused 49 (delta 0)
+    Unpacking objects: 100% (49/49), done.
+    Checking connectivity... done. 
 
-![changing the title][22]
+Next, let's change your app source code and see what happens. In the `WebContent` folder there's a file called `index.html`. This contains some of what you see when you view your app on the web. Change some text in the body of the HTML there with whatever tool you like. If you just want to see a quick change, search for the title, "Application Example: run ECAAS operations using Java Native APIs," and change a word or two. When you're done, change to your project directory and `git stage`, `git commit`, and `git push`, like so:
 
-![pushing the title change][23]
+    $ cd /project_directory
+    $ git stage Webcontent/index.html
+    $ git commit -M "Sample app headline change"
+    [master 2336018] Sample app headline change
+    1 file changed, 1 insertion(+), 1 deletion(-)
+
+
+    $ git push
+    Username for 'https://hub.jazz.net': jazzhubdemouser
+    Password for 'https://jazzhubdemouser@hub.jazz.net':
+    Counting objects: 8, done.
+    Delta compression using up to 4 threads.
+    Compressing objects: 100% (4/4), done.
+    Writing objects: 100% (4/4), 382 bytes | 0 bytes/s, done.
+    Total 4 (delta 3), reused 0 (delta 0)
+    remote: Resolving deltas: 100% (3/3)
+    remote: Processing changes: refs: 1, done
+    To https://hub.jazz.net/git/jazzhubdemouser/YourApp-2014
+    	ab4aaad..2336018 master -> master
 
 Now, this is where it starts to get interesting! If you go back to the Web IDE and check the Build &amp; Deploy page, you see something like this image:
 
