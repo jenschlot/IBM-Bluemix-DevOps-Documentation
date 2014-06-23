@@ -53,7 +53,7 @@ software configuration management (SCM) your project uses. You will see a link o
 
 ***
 
-<a name='working_with_a_git_project'></a>
+<a name='working_with_a_git_project' id='git'></a>
 Working with a Git project
 --------------------------
 
@@ -125,7 +125,7 @@ If you are using Eclipse and you have a Git project, you can use the EGit tool t
 
 ***
 
-<a name='working_with_a_jazz_scm_project'></a>
+<a name='working_with_a_jazz_scm_project' id='jazzscm'></a>
 Working with a Jazz SCM project
 ===============================
 
