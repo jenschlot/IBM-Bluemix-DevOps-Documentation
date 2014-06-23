@@ -11,6 +11,13 @@ You can edit any text file or script from within your browser. If your project c
 If you want to work with a desktop client, this tutorial shows you how to configure 
 your clients based on what type of DevOps Services project you are working with.
 
+You have 2 ways to work with your JazzHub project sourced in GIT
+
+1. Git from the command line
+2. EGit plug-in in Eclipse
+
+If you have a JazzHub project sourced in Jazz SCM, you can use the RTC plug-in in Eclipse.
+
 *** 
 
 ### Contents
@@ -41,7 +48,7 @@ software configuration management (SCM) your project uses. You will see a link o
  right side of the page that says either **Configure Eclipse client** or **Git URL**.
 
 - If your link is a **Git URL**, you want to take a look at [Working with a Git project](#working_with_a_git_project).
-- If the link is a **Configure Eclipse client**, then you have a Jazz SCM project. You should check out [Working with a Jazz SCM project](#working_with_a_jazz_scm_project).
+- If the link is **Configure Eclipse client**, then you have a Jazz SCM project. You should check out [Working with a Jazz SCM project](#working_with_a_jazz_scm_project).
 
 
 ***
@@ -62,7 +69,7 @@ Installing Git
 --------------
 
 1. Check to see if Git is already installed. Open a Terminal and enter: `git --version`. If Git is installed, the command returns with your version and you can skip step 2.
-2. Download and install the version for your platform from [Git](http://git-scm.com/downloads).
+2. Download and install the version for your platform from [Git](http://git-scm.com/downloads). You can accept the defaults.
 
 
 <a name='connecting_to_your_git_project_from_the_command_line'></a>
@@ -71,7 +78,7 @@ Connecting to your Git project from the command line
 
 1. Browse to your project page on [DevOps Services](https://hub.jazz.net/).
 2. Copy the **Git URL** from the right side of your project page.
-3. Open a Terminal.
+3. Open a Terminal. If you are using Windows, open Git Bash.
 4. Change to the directory where you want to put the code from your Git project.
 5. Type `git clone`, paste in the Git URL, and press Enter.
 6. Once it completes, you have a local repository of the code for your project. Browse [git documentation](http://git-scm.com/doc) to learn more about working with Git.
@@ -111,7 +118,7 @@ If you are using Eclipse and you have a Git project, you can use the EGit tool t
 3. In Eclipse, select **File > Import**.
 4. In the Import window, select **Git > Projects from Git** and click **Next**.
 5. Select **Clone URI** and click **Next**.
-6. Paste the copied Git URL in the **URI** field. Enter your Jazz.net User ID and IBM ID password in the Authentication section. Click **Next**.
+6. Paste the copied Git URL in to the **URI** field. Enter your Jazz.net User ID and IBM ID password in the Authentication section. Click **Next**.
 7. Select the branches that you want to work on and click **Next**.
 8. Update the Local Destination of the cloned repository if needed and click **Next**.
 9. Click **Next** and then **Finish**.
