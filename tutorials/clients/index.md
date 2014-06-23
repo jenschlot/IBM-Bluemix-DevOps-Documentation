@@ -100,7 +100,7 @@ If you are using Eclipse and you have a Git project, you can use the EGit tool t
 4. In the **Install** window, complete the following steps:
   * In the **Work with** field, enter `http://download.eclipse.org/egit/updates`
   * Press **Enter** to load the contents of the update site.
-  * Select the **Eclipse Git Team Provider** check box.
+  * Under Eclipse Git Team Provider, select only the **Eclipse Git Team Provider** check box.
   * Click **Next**.
 5. Enter your Jazz.net credentials.
 6. Click **Next**. Review the license terms and if you agree to the terms, accept them.
