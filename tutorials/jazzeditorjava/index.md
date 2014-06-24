@@ -12,7 +12,6 @@ Once you've registered, there is lots of helpful information available on the [B
 
 * [Getting Started with IBM Bluemix](https://www.ng.bluemix.net/docs/QuickStart.jsp)
 * [IBM Bluemix Overview](https://www.ng.bluemix.net/docs/BlueMixIntro.jsp)
-* Several [tutorials](https://www.ng.bluemix.net/docs/Tutorials.jsp)
 
 ... but if you prefer to _try_ things rather than read about them, just follow along. You can have a sample application up and running in minutes.
 
