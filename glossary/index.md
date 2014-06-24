@@ -1,6 +1,9 @@
 # IBM DevOps Services Glossary
 
-Below are a list of some terms we use.
+Below are a list of some terms we use in IBM DevOps Services.
+
+##App
+A software application.
 
 ##Auto-deploy
 An automated process that retrieves and packages build output, and then moves that 
@@ -91,9 +94,6 @@ Scrum is a daily morning development sync call where each person has 1-2 min to 
 they're working on and what's blocking their work. It's meant to be short and brief. 
 Discussions on long standing issues that require more time is taken off the call. 
 
-
-
-
 ## Sprint
 A sprint is a repeat work cycle for a team which spans a period of time, so 1 week, 2 week, 
 3 week or 1 month. Each development team defines their sprint cycles differently. Teams usually 
@@ -119,14 +119,22 @@ Use work items to manage the tasks and issues that your team must address during
 development cycle. 
 
 ### Work Item Types
-**Adoption Item**: Tracks when changes by one team must be adopted by another team 
-Defect: Identifies a bug 
-**Retrospective**: Records what went well and what did not go well in the recently completed iteration 
-**Story**: Describes part of a use case 
-**Task**: Describes a specific piece of work 
-**Impediment**: Tracks things that get in the way of progress 
-**Epic**: Used when a story is too big to complete in a single iteration (sometimes called a "sprint") or when there are too many unknowns to estimate the amount of work. An Epic can be broken down into several stories. 
-**Track build item**: Typically created from a build result to track the fixes that are needed for a failed build 
+
+* **Adoption Item**: Tracks when changes by one team must be adopted by another team 
+
+* **Defect**: Identifies a bug 
+
+* **Retrospective**: Records what went well and what did not go well in the recently completed iteration 
+
+* **Story**: Describes part of a use case 
+
+* **Task**: Describes a specific piece of work 
+
+* **Impediment**: Tracks things that get in the way of progress 
+
+* **Epic**: Used when a story is too big to complete in a single iteration (sometimes called a "sprint") or when there are too many unknowns to estimate the amount of work. An Epic can be broken down into several stories. 
+
+* **Track build item**: Typically created from a build result to track the fixes that are needed for a failed build 
 
 ## Workspace
 In Eclipse, the collection of projects and other resources that the user is currently developing in the workbench. Metadata about these resources resides in a directory on the file system; the resources might reside in the same directory.
