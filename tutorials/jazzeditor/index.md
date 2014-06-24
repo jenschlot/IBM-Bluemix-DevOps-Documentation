@@ -131,13 +131,13 @@ Start by cloning the local repository using the URL from the Bluemix application
 
 >	![Clone the local repository](/tutorials/jazzeditor/images/cli-git-clone.png)
 
-Next, change the application source code to see what happens. 
+Next, change the application source code to see what happens. Change to your Git clone directory. 
 The views folder contains a file named `index.ejs`. This file implements the main page for the example. 
 Change this file, for example, modify the title that is displayed.
 
 >	![Changing the title](/tutorials/jazzeditor/images/cli-edit-file.png)
 
-Then, do a Git push as shown in this image:
+Then, change to your Git clone directory and do a Git push as shown in this image:
 
 >	![Pushing the change](/tutorials/jazzeditor/images/cli-edit-push.png)
 
@@ -272,6 +272,6 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 * [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access IBM DevOps Services](/tutorials/clients)
 * [Developing IBM Bluemix applications in Node.js with the IBM DevOps Services Web IDE](/tutorials/jazzweb)
 * [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)    
-  
+* [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)  
     
 &copy; Copyright IBM Corporation 2013, 2014.
