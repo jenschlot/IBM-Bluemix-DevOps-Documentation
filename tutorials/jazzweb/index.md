@@ -25,7 +25,19 @@ Simple deployment works by directly deploying the contents of the Git repository
 
 ![Sentiment Analysis Sample App][7]
 
-We want to go deeper, though. Let's add some JSHint validation to make sure our code is prim, proper, and error free. The simple deployer doesn't support that sort of thing. To do this, we need to configure a builder. Head back to **Build &amp; Deploy** and click **Advanced**.
+Next, you'll add some JSHint validation to make sure that your code is prim, proper, and error free. The simple deployer doesn't support that sort of thing. You need to configure a builder, which is only available in **Advanced** mode. Before you go there, though, you need to enable the DeliveryPipeline add-on in Bluemix. Click **Manage** to open your app's Bluemix overview.
+
+Next:
+
+1. Click **Connect an Add-on** from your new app's dashboard.
+2. Choose **DeliveryPipeline** in the *DevOps* category. 
+3. Click **Create and add to app** 
+4. Make sure your app's name is in the **Add to** box. It should be there by default. 
+5. **Create** the add-on. 
+
+The DeliveryPipeline add-on will be added to your Bluemix space, ready to spring into action when you need it later.  
+
+Click **CODE** at the top of the overview, then open **Build &amp; Deploy** again. Click **Advanced**.
 
 You can do as much creation and customization as you like when you configure your own project. This one, however, has been configured to require minimal fuss to get things up and running: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it will automatically be found.
 
@@ -48,6 +60,8 @@ To open the app, click the URL below its name. Click the gear button indicated b
 [Bluemix][11] allows you to manage the live application instance. The **Applications** tab on the **Bluemix Dashboard** has options to start, stop, and delete the application. The **Services** tab has options to add various services such as MongoDB, SSO, MapReduce, and more.
 
 ![Stopping a Bluemix app][12]
+
+Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to spend. For more information on Bluemix pricing, consult the [Bluemix pricing page](https://ace.stage1.ng.bluemix.net/#/pricing).
 
 ---
 ## Editing the Sample Application

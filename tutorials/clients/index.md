@@ -1,4 +1,4 @@
-Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services
+Setting up Eclipse, Git, and RTC Desktop Clients to access IBM DevOps Services
 ==========================================================================
 
 DevOps Services lets you decide how you code.
@@ -10,6 +10,13 @@ You can edit any text file or script from within your browser. If your project c
 
 If you want to work with a desktop client, this tutorial shows you how to configure 
 your clients based on what type of DevOps Services project you are working with.
+
+You have 2 ways to work with your JazzHub project sourced in GIT
+
+1. Git from the command line
+2. EGit plug-in in Eclipse
+
+If you have a JazzHub project sourced in Jazz SCM, you can use the RTC plug-in in Eclipse.
 
 *** 
 
@@ -41,16 +48,16 @@ software configuration management (SCM) your project uses. You will see a link o
  right side of the page that says either **Configure Eclipse client** or **Git URL**.
 
 - If your link is a **Git URL**, you want to take a look at [Working with a Git project](#working_with_a_git_project).
-- If the link is a **Configure Eclipse client**, then you have a Jazz SCM project. You should check out [Working with a Jazz SCM project](#working_with_a_jazz_scm_project).
+- If the link is **Configure Eclipse client**, then you have a Jazz SCM project. You should check out [Working with a Jazz SCM project](#working_with_a_jazz_scm_project).
 
 
 ***
 
-<a name='working_with_a_git_project'></a>
+<a name='working_with_a_git_project' id='git'></a>
 Working with a Git project
 --------------------------
 
-If your code is in Git, you may choose to interact with your code by installing Git and using the command line or 
+If your code is in Git, you can choose to interact with your code by installing Git and using the command line or 
 by installing the EGit tool in Eclipse. You can also connect to your DevOps Services project using Rational Team 
 Concert to work on project plans and track work items. 
 See [Working with Rational Team Concert](#working_with_rational_team_concert) for more details. 
@@ -62,7 +69,7 @@ Installing Git
 --------------
 
 1. Check to see if Git is already installed. Open a Terminal and enter: `git --version`. If Git is installed, the command returns with your version and you can skip step 2.
-2. Download and install the version for your platform from [Git](http://git-scm.com/downloads).
+2. Download and install the version for your platform from [Git](http://git-scm.com/downloads). You can accept the defaults.
 
 
 <a name='connecting_to_your_git_project_from_the_command_line'></a>
@@ -71,7 +78,7 @@ Connecting to your Git project from the command line
 
 1. Browse to your project page on [DevOps Services](https://hub.jazz.net/).
 2. Copy the **Git URL** from the right side of your project page.
-3. Open a Terminal.
+3. Open a Terminal. If you are using Windows, open Git Bash.
 4. Change to the directory where you want to put the code from your Git project.
 5. Type `git clone`, paste in the Git URL, and press Enter.
 6. Once it completes, you have a local repository of the code for your project. Browse [git documentation](http://git-scm.com/doc) to learn more about working with Git.
@@ -87,18 +94,19 @@ If you are using Eclipse and you have a Git project, you can use the EGit tool t
 <a name='installing_the_egit_eclipse_plugin'></a>
 ### Installing the EGit Eclipse plug-in
 
-1. Before installing EGit, check to see if it is already installed. In Eclipse, go to **Window > Show View > Other...** and enter `git` as the filter text.
+1. Before installing EGit, check to see if it is already installed. In Eclipse, go to **Window > Show View > Other** and enter `git` as the filter text.
 2. If you see a list of Git-related views, skip ahead to [Connecting to your DevOps Services Project with EGit](#connecting_to_your_devops_services_project_with_egit)
-3. In Eclipse, go to **Help > Install New Software...**
+3. In Eclipse, go to **Help > Install New Software**
 4. In the **Install** window, complete the following steps:
   * In the **Work with** field, enter `http://download.eclipse.org/egit/updates`
   * Press **Enter** to load the contents of the update site.
-  * Select the **Eclipse Git Team Provider** check box.
+  * Under Eclipse Git Team Provider, select only the **Eclipse Git Team Provider** check box.
   * Click **Next**.
-5. Click on **Next**. Review the license terms and if you agree to the terms, accept them.
-6. Click **Finish** to install the plug-in.
-7. If you receive a security warning message, click **OK**.
-8. If you are required to restart Eclipse, click **Yes**.
+5. Enter your Jazz.net credentials.
+6. Click **Next**. Review the license terms and if you agree to the terms, accept them.
+7. Click **Finish** to install the plug-in.
+8. If you receive a security warning message, click **OK**.
+9. If you are required to restart Eclipse, click **Yes**.
 
 
 
@@ -110,14 +118,14 @@ If you are using Eclipse and you have a Git project, you can use the EGit tool t
 3. In Eclipse, select **File > Import**.
 4. In the Import window, select **Git > Projects from Git** and click **Next**.
 5. Select **Clone URI** and click **Next**.
-6. Paste the copied Git URL in the **URI** field. Enter your Jazz.net User ID and IBM ID password in the Authentication section. Click **Next**.
+6. Paste the copied Git URL in to the **URI** field. Enter your Jazz.net User ID and IBM ID password in the Authentication section. Click **Next**.
 7. Select the branches that you want to work on and click **Next**.
 8. Update the Local Destination of the cloned repository if needed and click **Next**.
 9. Click **Next** and then **Finish**.
 
 ***
 
-<a name='working_with_a_jazz_scm_project'></a>
+<a name='working_with_a_jazz_scm_project' id='jazzscm'></a>
 Working with a Jazz SCM project
 ===============================
 
@@ -144,11 +152,11 @@ DevOps Services is built on Rational Team Concert, so this is a great place to s
 Installing Eclipse and the Rational Team Concert plug-in
 --------------------------------------------------------
 
-1. Rational Team Concert requires Eclipse 4.2.2. If you don't have Eclipse 4.2.2, download 
+1. Rational Team Concert requires Eclipse 4.3.2. If you don't have Eclipse 4.3.2, download 
 and install [Eclipse 4.2.2](http://www.eclipse.org/downloads/packages/release/juno/sr2) from Eclipse.org.
-2. In Eclipse, go to **Help > Install New Software...**
+2. In Eclipse, go to **Help > Install New Software**
 3. In the **Install** window, complete the following steps:
-  * In the **Work with** field, enter `https://jazz.net/downloads/rational-team-concert/4.0.6/4.0.6/p2`
+  * In the **Work with** field, enter `https://jazz.net/downloads/rational-team-concert/5.0/5.0/p2`
   * Press **Enter** to load the contents of the update site.
   * Select the **Rational Team Concert Client Feature** check box.
   * Select the **Group items by category** check box
@@ -165,13 +173,13 @@ Connecting to your DevOps Services projects from Eclipse
 
 You have two options to connect to your projects from Rational Team Concert:
 
-- Connect via the **Manage JazzHub Projects** tool
-- Or accept a **Team Invitation**
+- Connect with the **Manage JazzHub Projects** tool
+- Accept a **Team Invitation**
 
-Option 1: Connect via the **Manage JazzHub Projects** tool
+Option 1: Connect with the **Manage JazzHub Projects** tool
 
 1. In Eclipse, go to **Window > Show View > Team Artifacts**.
-2. Click on the JazzHub icon to launch the **Manage JazzHub Projects** tool
+2. Click the JazzHub icon to launch the **Manage JazzHub Projects** tool.
 ![Manage JazzHub Projects button within the Team Artifacts View](/tutorials/clients/images/jazzhubfeature.png)
 3. In the **Manage JazzHub Projects** window, enter your Jazz User ID and IBM ID password for authentication to DevOps Services.
 4. Select the DevOps Services projects you want to connect to and click **Finish**.
@@ -179,12 +187,13 @@ Option 1: Connect via the **Manage JazzHub Projects** tool
 Option 2: Accept a **Team Invitation**
 
 1. Browse to your project page on [DevOps Services](https://hub.jazz.net/).
-2. Click on the **Configure Eclipse client** link on the right side of the project page.
+2. Click **Configure eclipse client** on the right side of the project page.
 3. Copy the text for the project invitation.
 4. In Eclipse, go to **File > Accept JazzHub Client Configuration**. (If you don't see that menu option, go to **File > Accept Team Invitation**.)
 5. Paste the copied invitation text, and click **Finish**.
+6. Enter your login credentials for your project.
 
-Now you have connceted to your DevOps Services project in Eclipse. Click the **Team Artifacts** tab and see the new Repository Connection and Project Area
+Now you have connected to your DevOps Services project in Eclipse. Click the **Team Artifacts** tab and see the new Repository Connection and Project Area
 
 
 <a name='loading_code_into_eclipse_from_jazz_scm'></a>
@@ -195,12 +204,12 @@ If your project is in a Jazz SCM repository, follow these steps to create a new 
 
 1. In Eclipse, go to **Window > Show View > Team Artifacts**.
 2. Expand your Project Area to see the **Source Control** folder.
-3. Select the **Source Control** folder, right-click, and select **New > Repository Workspace...**
+3. Select the **Source Control** folder, right-click, and select **New > Repository Workspace**
 4. Select the stream you want to flow to. Click **Next**.
-5. Specify a new name for your repository workspace. Include the word "Eclipse" in the name. Click **Finish**.
-6. The tool continues with additional steps. Select **Find and load Eclipse projects** to load all of the projects from the components in the new repository workspace into your local Eclipse.
+5. Specify a new name for your repository workspace. Add the word `Eclipse` in the name. Click **Finish**.
+6. The tool continues with additional steps. Select **Find and load Eclipse projects** to load all of the projects from the components in the new repository workspace into your local Eclipse. Click **Next**.
 7. Select the Eclipse projects to be loaded into your local Eclipse. Click **Finish**.
-8. If you are working on an existing project with code, click on the **Package or Project Explorer** tab to browse the loaded files, open a file, and edit code.
+8. If you are working on an existing project with code, click the **Package or Project Explorer** tab to browse the loaded files, open a file, and edit code.
 
 ***
 
@@ -211,7 +220,8 @@ More Tutorials
 
 Interested in trying more Bluemix and DevOps capabilities, here is a list of tutorials:
 
-* [Getting Started with Bluemix and DevOps Services using Node.js](/tutorials/jazzeditor)
-* [Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava)
-* [Developing Bluemix applications in Node.js with the DevOps Services Web IDE](/tutorials/jazzweb)
-* [Developing Bluemix applications in Java with Eclipse and DevOps Services](/tutorials/jazzrtc)
+* [Getting Started with IBM Bluemix and IBM DevOps Services using Node.js](/tutorials/jazzeditor)
+* [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)
+* [Developing IBM Bluemix applications in Node.js with the IBM DevOps Services Web IDE](/tutorials/jazzweb)
+* [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)
+* [Getting Started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)

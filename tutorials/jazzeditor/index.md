@@ -16,7 +16,7 @@ After you register, the [IBM Bluemix site](https://ace.ng.bluemix.net/) offers h
 
 * [Getting Started with IBM Bluemix](https://www.ng.bluemix.net/docs/QuickStart.jsp)
 * [IBM Bluemix Overview](https://www.ng.bluemix.net/docs/BlueMixIntro.jsp)
-* Several [tutorials](https://www.ng.bluemix.net/docs/Tutorials.jsp)
+
 
 To get started now, 
 follow this workflow to create and deploy a new application.
@@ -25,7 +25,7 @@ Start by signing in to IBM Bluemix, which takes you to a dashboard:
 
 >	![Bluemix dashboard](/tutorials/jazzeditor/images/bm-home.png)
 
-Click **Add an application** to choose different runtimes 
+Click **Create an Application** to choose different runtimes 
 (such as Java or Ruby), services (such as IBM DataCache or MongoDB), and boilerplates, 
 which are preconfigured application templates. 
 
