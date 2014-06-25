@@ -1,5 +1,5 @@
 # FAQs
-##### Updated on June 13, 2014
+##### Updated on June 24, 2014
 
 Can't find the answer to your question here? [Check out our forum](https://www.ibmdw.net/answers?community=jazzhub).
 ____
@@ -22,7 +22,7 @@ ____
 -   [Which browser should I be using?](#q20)
 -   [Which repos can  I use?](#q21)
 -   [Which local clients can I use?](#q22)
--   [How can I get the most from using the Eclipse client](#rtc)
+-   [What encoding should I use in the Eclipse client?](#rtc)
 
 ____
 
@@ -175,6 +175,6 @@ DevOps Services supports the Eclipse client (with the Rational Team Concert exte
 
 <a name="rtc"></a>
 
-### How do I get most out of the Eclipse client 
+### What encoding should I use in the Eclipse client?
 
 You should set UTF-8 as the default encoding in the preferences using *Window* > *Preferences* > *General* > *Workspaces*.
