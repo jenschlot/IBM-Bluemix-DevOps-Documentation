@@ -22,7 +22,7 @@ ____
 -   [Which browser should I be using?](#q20)
 -   [Which repos can  I use?](#q21)
 -   [Which local clients can I use?](#q22)
--   [Tips for using the Eclipse RTC client](#rtc)
+-   [How can I get the most from using the Eclipse client](#rtc)
 
 ____
 
@@ -140,7 +140,7 @@ If your browser is not listed above, you may have a compromised experience.
 
 <a name="q21"></a>
 
-### Which repos can  I use? 
+### Which repo should I use? 
 
 DevOps Services supports Git, GitHub and Jazz Source Control (from Rational Team Concert).
 
@@ -149,32 +149,32 @@ DevOps Services supports Git, GitHub and Jazz Source Control (from Rational Team
 <div name="table-header" class="jh-columns pbs">
 	<div class="jh-col-12-2 f_left prm">__Repo__</div>
 	<div class="jh-col-12-7 prm">__Description__</div>
-	<div class="jh-col-12-2 f_right">__Location__</div>
+	
 </div> 
 <div name="git" class="jh-columns pbs">
 	<div class="jh-col-12-2 f_left prm">Git</div>
 	<div class="jh-col-12-7 prm">Distributed version control system. Git is responsible for keeping track of changes to content (usually code files) and it provides mechanisms for sharing that content with others</div>
-	<div class="jh-col-12-3 f_right">[DevOps Git](https://hub.jazz.net/git "DevOps Git - https://hub.jazz.net/git")</div>
+	
 </div> 
 <div name="github" class="jh-columns pbs">
 	<div class="jh-col-12-2 f_left prm">Git Hub</div>
 	<div class="jh-col-12-7 prm">Hosting Service for Git Repositories</div>
-	<div class="jh-col-12-3 f_right">GitHub</div>
+
 </div> 
 <div name="jazz-scm" class="jh-columns pbs">
 	<div class="jh-col-12-2 f_left prm">Jazz SCM</div>
 	<div class="jh-col-12-7 prm">Rational Team Concert source control stores artifacts such as repository files and folders in the Jazz repsitory</div>
-	<div class="jh-col-12-3 f_right">[DevOps Services Site](https://hub.jazz.net/ccm "DevOps Services Site - https://hub.jazz.net/ccm")</div>
+	
 </div> 
 
 <a name="q22"></a>
 
 ### Which local clients can I use? 
 
-DevOps Services supports the Eclipse client (with Rational Team Concert extension) 
+DevOps Services supports the Eclipse client (with the Rational Team Concert extension) 
 
 <a name="rtc"></a>
 
-### How do I get most out of the Eclipse Rational Team Concert client 
+### How do I get most out of the Eclipse client 
 
 You should set UTF-8 as the default encoding in the preferences using *Window* > *Preferences* > *General* > *Workspaces*.
