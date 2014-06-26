@@ -19,11 +19,7 @@ You can start by signing in to Bluemix, which takes you to the _Dashboard_:
 
 ![Bluemix Dashboard][6]
 
-The dashboard provides you an overview of the active Bluemix space for your organization. By default, the space will be "dev" and the organization will be the project creator's username. For example, if bob@example.com were to log into Bluemix for the first time, his active space would be "dev" and his organization would be "bob@example.com." 
-
-If you create additional organizations or spaces in Bluemix, remember to be consistent as you follow our tutorials. If you stick to the default selections, you should be just fine. 
-
-Clicking **Add an application** lets you choose different kinds of Runtimes (like Java or Ruby), Services (such as DataCache or Mongo) and Boilerplates, which are essentially pre-configured application templates that are great ways to get started. Select the **Java Web Starter** Boilerplate, which opens a panel that displays more information about what it does:
+Clicking **Create an application** lets you choose different kinds of Runtimes (like Java or Ruby), Services (such as DataCache or Mongo) and Boilerplates, which are essentially pre-configured application templates that are great ways to get started. Select the **Java Web Starter** Boilerplate, which opens a panel that displays more information about what it does:
 
 ![Bluemix Java Web Starter][7]
 
@@ -68,16 +64,6 @@ Success! You've created a Git repo, loaded it with the example code, and deploye
 
 ![Git repo success message dialog][14]
 
-There's just one more thing to do before moving on to DevOps Services: you need to enable the DeliveryPipeline add-on in Bluemix. This will allow you to experience some of our fancier automated build and deployment capabilities later on. To do so:
-
-1. Click **Connect an Add-on** from your new app's overview.
-2. Choose **DeliveryPipeline** in the *DevOps* category. 
-3. Click **Create and add to app** 
-4. Make sure your app's name is in the **Add to** box. It should be there by default. 
-5. **Create** the add-on. 
-
-The DeliveryPipeline add-on will be added to your Bluemix space, ready to spring into action when you need it later.  
-
 Let's go see the status of the deployed app. Go to the Bluemix Dashboard and click **CODE**.
 
 ![CODE button][15]
@@ -91,7 +77,7 @@ Your new project opens in the DevOps Services Web IDE. There is lots of useful i
 
 Clicking that button opens a page that lets you configure and see the project's deployment status.
 
-Select **Simple** deployment. With this deployment option, the contents of the Git repository are deployed directly to Bluemi. There is no intermediate build step.
+Select **Simple** deployment. With this deployment option, the contents of the Git repository are deployed directly to Bluemix. There is no intermediate build step.
 
 In a few seconds, the application will automatically deploy to Bluemix. Your sample app is available at the location linked after **Deploy to**, while you can click **Manage** to monitor the app on Bluemix.
 
@@ -119,8 +105,6 @@ You can choose which space you want, or create a new one. Leave it as dev. The s
 Once everything is configured, click **REQUEST BUILD**. The page refreshes with the **HISTORY** tab selected. You can see the build is running; click on it if you want to see a build log. When the build finishes successfully, it will deploy automatically to Bluemix, just as you've configured it. Click on the gear icon to view your app on Bluemix:
 
 You can also click the app route in the panel to visit your app on the web.
-
-Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to spend. For more information on Bluemix pricing, consult the [Bluemix pricing page](https://ace.stage1.ng.bluemix.net/#/pricing).
 
 ---
 ##Push changes to the Git repository by using the command line
@@ -215,19 +199,19 @@ You can then use the integrated Git support to push the change. Head back to the
 
 ![Orion git status menu](/tutorials/jazzeditorjava/images/orion-git-status.png)
 
-Where you can then stage..
+Then, stage the change by checking the box next to it:
 
 ![Orion git staging][33]
 
-... commit...
+Enter a commit message and then hit **Commit**:
 
 ![Orion git commit][34]
 
-... and push the change...
+And **Push** the change to the <tt>master</tt> branch on the <tt>origin</tt> remote:
 
 ![Orion git push][35]
 
-... just like you did with the command line (only with a few more clicks and a lot less typing). And then, finally, you can see once again that your app was updated (refresh your browser to see the changes).
+It's just like you did with the command line, only with a few more clicks and a lot less typing. And now that you've done that, you can again see that your app was updated (refresh your browser to view the changes).
 
 ![Our really cool app][36]
 
@@ -267,7 +251,7 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
   * [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services][42]
   * [Developing Bluemix applications in Node.js with the DevOps Services Web IDE][43]
   * [Developing Bluemix applications in Java with Eclipse and DevOps Services][40]
-
+  * [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)
 
    [1]: https://ace.ng.bluemix.net/ (Bluemix)
    [2]: /tutorials/jazzeditorjava/images/bm-join.gif 

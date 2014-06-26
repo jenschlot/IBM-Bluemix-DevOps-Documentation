@@ -25,17 +25,7 @@ Simple deployment works by directly deploying the contents of the Git repository
 
 ![Sentiment Analysis Sample App][7]
 
-Next, you'll add some JSHint validation to make sure that your code is prim, proper, and error free. The simple deployer doesn't support that sort of thing. You need to configure a builder, which is only available in **Advanced** mode. Before you go there, though, you need to enable the DeliveryPipeline add-on in Bluemix. Click **Manage** to open your app's Bluemix overview.
-
-Next:
-
-1. Click **Connect an Add-on** from your new app's dashboard.
-2. Choose **DeliveryPipeline** in the *DevOps* category. 
-3. Click **Create and add to app** 
-4. Make sure your app's name is in the **Add to** box. It should be there by default. 
-5. **Create** the add-on. 
-
-The DeliveryPipeline add-on will be added to your Bluemix space, ready to spring into action when you need it later.  
+Next, you'll add some JSHint validation to make sure that your code is prim, proper, and error free. The simple deployer doesn't support that sort of thing. You need to configure a builder, which is only available in **Advanced** mode. 
 
 Click **CODE** at the top of the overview, then open **Build &amp; Deploy** again. Click **Advanced**.
 
@@ -61,8 +51,6 @@ To open the app, click the URL below its name. Click the gear button indicated b
 
 ![Stopping a Bluemix app][12]
 
-Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to spend. For more information on Bluemix pricing, consult the [Bluemix pricing page](https://ace.stage1.ng.bluemix.net/#/pricing).
-
 ---
 ## Editing the Sample Application
 
@@ -79,11 +67,11 @@ Replace occurrences of that message with whatever you like. When you're finished
 ---
 ## Pushing changes to the repository
 
-After making changes, you'll want to share them with other members of your project, so let's push them to the repository. Hover over the repositories icon in the sidebar, and click **Git Status**. Stage the changes to `app.js`:
+After making that change, you'll want to share it with other members of your project, so let's push it to the repository. Click the **Git Repository** icon in the sidebar. Stage the change to `app.js` by selecting the checkbox next to it:
 
 ![Stage Changes][14]
 
-Commit your changes to the git repository for your project by clicking **COMMIT**, entering a commit message, and finally hitting **Submit**.
+Commit your change to the git repository for your project by entering a commit message, and finally hitting **Commit 1 file(s)**.
 
 ![Committing changes][15]
 
@@ -91,7 +79,7 @@ Clicking the **PUSH** button pushes the changes to the remote project repository
 
 ![Pushing Changes][16]
 
-Those changes will automatically queue a build, which, when it completes successfully, will be automatically deployed.
+Any changes delivered to your project will trigger a build, which, when it completes successfully, will be automatically deployed.
 
 ---
 ## About the manifest
@@ -131,7 +119,7 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 * [Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava)
 * [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Service](/tutorials/clients)
 * [Developing Bluemix applications in Java with Eclipse and DevOps Services](/tutorials/jazzrtc)
-
+* [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)
 
    [1]: https://ace.ng.bluemix.net/ (Bluemix)
    [2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview
