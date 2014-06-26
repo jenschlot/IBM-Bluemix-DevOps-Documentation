@@ -169,9 +169,9 @@ DevOps Services supports Git, GitHub and Jazz Source Control (from Rational Team
 
 <a name="q22"></a>
 
-### Which local clients can I use? 
+### Which clients can I use? 
 
-DevOps Services supports the Eclipse client (with the Rational Team Concert extension) 
+You can use your favorite Git client, such as EGit or Xcode.
 
 <a name="rtc"></a>
 
