@@ -19,7 +19,7 @@ You can start by signing in to Bluemix, which takes you to the _Dashboard_:
 
 ![Bluemix Dashboard][6]
 
-Clicking **Create an application** lets you choose different kinds of Runtimes (like Java or Ruby), Services (such as DataCache or Mongo) and Boilerplates, which are essentially pre-configured application templates that are great ways to get started. Select the **Java Web Starter** Boilerplate, which opens a panel that displays more information about what it does:
+Clicking **Create an Application** lets you choose different kinds of Runtimes (like Java or Ruby), Services (such as DataCache or Mongo) and Boilerplates, which are essentially pre-configured application templates that are great ways to get started. Select the **Java Web Starter** Boilerplate, which opens a panel that displays more information about what it does:
 
 ![Bluemix Java Web Starter][7]
 
@@ -90,7 +90,7 @@ Once you change things, you'll need to build the app again, and the Simple deplo
 ---
 ## Configuring Advanced Build &amp; Deploy
 
-With the Advanced option, you can configure a builder to compile and package your application using an Ant or Grunt build script, and you can configure a deployer to deploy the application to Bluemix with any additional options needed.
+With the Advanced option, you can configure a builder to compile and package your application using a build script, and you can configure a deployer to deploy the application to Bluemix with any additional options needed.
 
 First, let's configure the builder. The default settings will work for this project: build using Ant and pull from the master branch. The builder will find `build.xml` in the root directory and run it during the build. The files that are needed for deployment are output into the build artifacts directory. It defaults to the same directory as the build script path, so there's no need to change that, either.
 
@@ -98,7 +98,7 @@ First, let's configure the builder. The default settings will work for this proj
 
 Then, go to the Deployer. As you might guess, this is what you configure to _deploy_ to Bluemix. You can give the app a name; by default, this comes from the manifest, which is a file that tells Bluemix how to deploy your application. Let's leave it blank so that it will use the name in the manifest.
 
-You can choose which space you want, or create a new one. Leave it as dev. The script section shows the deployment script that will be executed to deploy the application. The `CF_APP` variable resolves to the app name. In this case, it will resolve to the name in the manifest as we did not specify a different app name.
+Leave the organization as it is.You can choose which space you want, or create a new one. Leave it as dev. The script section shows the deployment script that will be executed to deploy the application. The `CF_APP` variable resolves to the app name. In this case, it will resolve to the name in the manifest as we did not specify a different app name.
 
 ![Configuring the Deployer][19]
 
@@ -260,7 +260,7 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 [5]: https://www.ng.bluemix.net/docs/Tutorials.jsp (Bluemix tutorials)
 [6]: /tutorials/jazzeditorjava/images/demo-dash.gif 
 [7]: /tutorials/jazzeditorjava/images/bm-java-starter.gif 
-   [8]: /tutorials/jazzeditorjava/images/bm-create-jws.gif 
+   [8]: /tutorials/jazzeditorjava/images/create-jws-app.gif 
    [9]: /tutorials/jazzeditorjava/images/examplepanel.gif 
    [10]: /tutorials/jazzeditorjava/images/bm-example.gif 
    [11]: /tutorials/jazzeditorjava/images/addgitintegration.gif 
