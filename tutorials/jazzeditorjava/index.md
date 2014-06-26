@@ -247,19 +247,19 @@ If you want to learn about how to integrate unit testing into your DevOps Servic
 
 Interested in trying more Bluemix and DevOps capabilities? Here is a list of tutorials:
 
-  * [Getting Started with Bluemix and DevOps Services using Node.js][41]
-  * [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services][42]
-  * [Developing Bluemix applications in Node.js with the DevOps Services Web IDE][43]
-  * [Developing Bluemix applications in Java with Eclipse and DevOps Services][40]
-  * [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)
+* [Getting Started with Bluemix and DevOps Services using Node.js][41]
+* [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services][42]
+* [Developing Bluemix applications in Node.js with the DevOps Services Web IDE][43]
+* [Developing Bluemix applications in Java with Eclipse and DevOps Services][40]
+* [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)
 
-   [1]: https://ace.ng.bluemix.net/ (Bluemix)
-   [2]: /tutorials/jazzeditorjava/images/bm-join.gif 
-   [3]: https://www.ng.bluemix.net/docs/QuickStart.jsp (Bluemix getting started)
-   [4]: https://www.ng.bluemix.net/docs/BlueMixIntro.jsp (Bluemix overview)
-   [5]: https://www.ng.bluemix.net/docs/Tutorials.jsp (Bluemix tutorials)
-   [6]: /tutorials/jazzeditorjava/images/demo-dash.gif 
-   [7]: /tutorials/jazzeditorjava/images/bm-java-starter.gif 
+[1]: https://ace.ng.bluemix.net/ (Bluemix)
+[2]: /tutorials/jazzeditorjava/images/bm-join.gif 
+[3]: https://www.ng.bluemix.net/docs/QuickStart.jsp (Bluemix getting started)
+[4]: https://www.ng.bluemix.net/docs/BlueMixIntro.jsp (Bluemix overview)
+[5]: https://www.ng.bluemix.net/docs/Tutorials.jsp (Bluemix tutorials)
+[6]: /tutorials/jazzeditorjava/images/demo-dash.gif 
+[7]: /tutorials/jazzeditorjava/images/bm-java-starter.gif 
    [8]: /tutorials/jazzeditorjava/images/bm-create-jws.gif 
    [9]: /tutorials/jazzeditorjava/images/examplepanel.gif 
    [10]: /tutorials/jazzeditorjava/images/bm-example.gif 
