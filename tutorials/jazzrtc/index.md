@@ -15,10 +15,13 @@ open the Web IDE.
 
 >	![Click Edit Code](/tutorials/jazzrtc/images/click_edit_code.jpg "Click Edit Code")
 
-You can build your own application by clicking the ***FORK*** button and entering a unique name when prompted. You get
-a new project, a new project name and a copy of the code from the sample project.
+You can build your own application by clicking the ***FORK*** button and entering a unique name when prompted.
 
 >	![Fork](/tutorials/jazzrtc/images/fork.jpg "Fork")
+
+You get a new project, a new project name and a copy of the code from the sample project.
+
+>  ![Create Project Dialog](/tutorials/jazzrtc/images/create_project.jpg "Create Project Dialog")
 
 ##Running your app
 
