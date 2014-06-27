@@ -2,6 +2,10 @@
 
 This tutorial shows you how to develop a Java application using IBM Bluemix, DevOps Services and the RTC client for Eclipse.
 
+##Prerequisites
+
+Before you proceed, ensure that you register your IBM id with [Bluemix](https://bluemix.net/). Use the same IBM id to login to IBM DevOps Services.
+
 ##Getting your app
 
 We'll start by forking the sample project, [WordCounter](https://hub.jazz.net/project/pskhadke/WordCounter/overview).
@@ -23,10 +27,12 @@ You get a new project, a new project name and a copy of the code from the sample
 
 >  ![Create Project Dialog](/tutorials/jazzrtc/images/create_project.jpg "Create Project Dialog")
 
-##Running your app
+If you see an error here, you probably didn't register with Bluemix yet. Otherwise... that's it! You've got your very own project
+in a manner of minutes! Now let's set up the automatic builds and deployments.
 
-You got your project in minutes! That's great! Now, let's set up how it's going to get built and deployed. Go to the
-deployment page by clicking the ***BUILD & DEPLOY*** button. Turn on deployment in the advanced mode by clicking the
+##Deploying your app
+
+Go to the deployment page by clicking the ***BUILD & DEPLOY*** button. Turn on deployment in the advanced mode by clicking the
 ***ADVANCED*** button. On the Configure Builder page, specify
 	
 * The password associated with your IBM id as the "Your IBM DevOps Services password"
