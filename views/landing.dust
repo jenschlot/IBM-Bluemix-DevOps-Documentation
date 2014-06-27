@@ -147,6 +147,33 @@
 						</div>
 					</div>
 					<!--End Section -->
+
+	<!--Start Section -->
+					<div class="tutorial-section">
+						<div class="tutorial-section-header">
+							<div class="section-title f_left">
+								<a href="/tutorials/jazzweb">
+									<h2 id="section-title-four">Getting started with tracking and planning in IBM DevOps Services</h2>
+								</a>
+							</div>
+							<div class="back-to-top f_right">
+								<a href="#landing-top">back to top</a>
+							</div>
+						</div>
+						<div class="tutorial-section-body">
+							<div class="tutorial-section-description">
+							This tutorial shows you how to activate and use the Track & Plan Beta feature in an agile IBM DevOps Services project.
+							</div>
+							<div class="tutorial-section-list">
+								<ul>
+									<li><a href="/tutorials/trackplan">Try it</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!--End Section -->
+
+
 				</div>			
 			</div>
 		</div>
