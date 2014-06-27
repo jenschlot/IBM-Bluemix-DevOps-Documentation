@@ -75,11 +75,11 @@ Commit your change to the git repository for your project by entering a commit m
 
 ![Committing changes][15]
 
-Clicking the **PUSH** button pushes the changes to the remote project repository.
+Clicking the **PUSH** button pushes the change to the remote project repository.
 
 ![Pushing Changes][16]
 
-Any changes delivered to your project will trigger a build, which, when it completes successfully, will be automatically deployed.
+Any changes delivered to your project will trigger a build, which, when it completes successfully, will be automatically deployed. If you click **Build & Deploy** again, you'll see that your change has kicked off a new build that, when it finishes, will be deployed.
 
 ---
 ## About the manifest
@@ -102,7 +102,7 @@ Whether you are using command line tools or the Web IDE, they can be an effectiv
 ---
 ## Auto-deployment
 
-Builds are automatically delivered when changes are delivered to a project, and successful builds are automatically deployed. You can also manually deploy from the build history page by dragging a successful build into the **Environment** box, or clicking **Deploy to** on a successful build. When the app is deployed, click on its web URL to give it a whirl:
+Builds are triggered when changes are delivered to a project, and successful builds are automatically deployed. You can also manually deploy from the build history page by dragging a successful build into the **Environment** box, or clicking **Deploy to** on a successful build. When the app is deployed, click on its web URL to give it a whirl:
 
 ![Our updated app on Bluemix][19]
 
