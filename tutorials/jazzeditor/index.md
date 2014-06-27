@@ -114,7 +114,7 @@ enables you to add a build step, which is useful for Java applications, and to c
 additional deployment options. But those options are more advanced than this basic workflow.
 
 To change the deployment settings, you click **CONFIGURE**. To manage your application in 
-Bluemix, you click **MANAGE**.
+Bluemix, you click **MANAGE**. You can request a build of your application by clicking **REQUEST BUILD**.
 
 You use the Git URL in Git commands. You can copy this URL now or return to the page to copy it later.
 
@@ -195,12 +195,12 @@ by IBM Bluemix. For example, this image shows code completion for the standard N
 >	![Orion showing express completions](/tutorials/jazzeditor/images/completion.png)
 
 To try working in the Web IDE, you can make another change to your application. 
-But, before you do, you must fetch and merge the title change that you made with the command line
-so that it shows in the Web IDE. You fetch and merge from the Git Status page. 
+But, before you do, you must merge the title change that you made with the command line
+so that it shows in the Web IDE. You merge from the Git Repository page. 
 
->	![Orion Git status menu](/tutorials/jazzeditor/images/orion-git-status.png)
+>	![Orion Git repository icon](/tutorials/jazzeditor/images/orion-git-status.png)
 
-On the Git Status page, fetch and then merge the change that you made to the title.
+On the Git Repository page, merge the change that you made to the title.
 
 >	![Orion Git merge](/tutorials/jazzeditor/images/orion-git-merge.png)
 
@@ -209,19 +209,19 @@ before (for example, `views/index.ejs`) and edit it in the integrated editor.
 
 >	![Orion editing index](/tutorials/jazzeditor/images/orion-really-cool.png)
 
-You can then use the integrated Git support to push the change. Switch to the Git Status page and follow these steps:
+You can then use the integrated Git support to push the change. Switch to the Git Repository page and follow these steps:
 
->	![Orion Git status menu](/tutorials/jazzeditor/images/orion-git-status.png)
+>	![Orion Git repository icon](/tutorials/jazzeditor/images/orion-git-status.png)
 
-Stage the changes:
+Select the changed files:
 
 >	![Orion Git staging](/tutorials/jazzeditor/images/orion-git-stage.png)
 
-Commit the changes:
+Commit the change:
 
 >	![Orion Git commit](/tutorials/jazzeditor/images/orion-commit.png)
 
-Push the changes:
+Push the change:
 
 >	![Orion Git push](/tutorials/jazzeditor/images/orion-push.png)
 
@@ -231,7 +231,7 @@ To see that your app was updated again, go to the Build & Deploy page and click 
 >	![Our really cool app](/tutorials/jazzeditor/images/really-cool.png)
 
 ---
-##Advanced manual deployment features
+##Advanced deployment features
 
 In this workflow, you only used the simple deploy features with IBM Bluemix. 
 For more control over deployment, you can use the advanced options. 
@@ -272,6 +272,6 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 * [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access IBM DevOps Services](/tutorials/clients)
 * [Developing IBM Bluemix applications in Node.js with the IBM DevOps Services Web IDE](/tutorials/jazzweb)
 * [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)    
-* [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)  
+* [Getting Started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)  
     
 &copy; Copyright IBM Corporation 2013, 2014.

@@ -15,10 +15,13 @@ open the Web IDE.
 
 >	![Click Edit Code](/tutorials/jazzrtc/images/click_edit_code.jpg "Click Edit Code")
 
-You can build your own application by clicking the ***FORK*** button and entering a unique name when prompted. You get
-a new project, a new project name and a copy of the code from the sample project.
+You can build your own application by clicking the ***FORK*** button and entering a unique name when prompted.
 
 >	![Fork](/tutorials/jazzrtc/images/fork.jpg "Fork")
+
+You get a new project, a new project name and a copy of the code from the sample project.
+
+>  ![Create Project Dialog](/tutorials/jazzrtc/images/create_project.jpg "Create Project Dialog")
 
 ##Running your app
 
@@ -148,4 +151,4 @@ If you're interested in trying more Bluemix and DevOps capabilities, here is a l
 * [Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava)
 * [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services](/tutorials/clients)
 * [Developing Bluemix applications in Node.js with the DevOps Services Web IDE](/tutorials/jazzweb)
-			
+* [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)			
