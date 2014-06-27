@@ -15,7 +15,7 @@ Once you've registered, there is lots of helpful information available on the [B
 
 ... but if you prefer to _try_ things rather than read about them, just follow along. You can have a sample application up and running in minutes.
 
-You can start by signing in to Bluemix, which takes you to the _Dashboard_:
+You can start by signing in to [Bluemix][1], which takes you to the _Dashboard_:
 
 ![Bluemix Dashboard][6]
 
@@ -46,7 +46,7 @@ It's great that the application is running, but it's not very useful if you can'
 
 There are a lot of ways you can work with your application code, but one of the slickest is to use something called _auto-deploy_. With auto-deploy you can modify the code that is running in your app by simply pushing the changes to a Git repository. The mechanism that implements auto-deploy is provided by the IBM DevOps Services powered by JazzHub Build &amp; Deploy support, but more about that later.
 
-To enable automatic deployment, go back to your Bluemix application's dashboard, and click **Add Git Integration**. With this single click, you get a Git repo, loaded with example code and a deployed app, right from Bluemix.
+To enable automatic deployment, click on your Bluemix application and then **Add Git Integration**. With this, you get a Git repo that's populated with the code from the sample Java app.
 
 ![Add Git Integration][11]
 
@@ -54,7 +54,7 @@ You may be asked to enter your password because DevOps Services must verify that
 
 ![DevOps Services sign in page][12]
 
-*Note: The first time you access DevOps Services, you might need to create a "Jazz ID" and link it to your IBM id. A Jazz ID is a kind of "short name" that is used in several places, including the URL for the repository that is about to be created for you. Just follow the instructions in the dialogue. You'll only ever see it once.*
+*Note: The first time you access DevOps Services, you might need to create a "Jazz ID" and link it to your IBM id. A Jazz ID is a kind of "short name" that is used in several places, including the URL for the repository that is about to be created for you. Just follow the instructions in the dialog. You'll only ever see it once.*
 
 Make sure the box to populate the Git repo with the starter application package and automatically deploy the app is checked.
 
@@ -64,14 +64,14 @@ Success! You've created a Git repo, loaded it with the example code, and deploye
 
 ![Git repo success message dialog][14]
 
-Let's go see the status of the deployed app. Go to the Bluemix Dashboard and click **CODE**.
+What if you want to see the app's code, though, or how it's being deployed? You'll need IBM DevOps Services for that. Go to the Bluemix Dashboard and click **CODE**.
 
 ![CODE button][15]
 
 ---
 ##DevOps Services
 
-Your new project opens in the DevOps Services Web IDE. There is lots of useful information on this page, which you can try later, but since we're just here to check the status of the application, you should go ahead and click the **BUILD &amp; DEPLOY** button.
+Your new project opens in the DevOps Services Web IDE. When you clicked "Add Git Integration" in Bluemix, you chose to populate a new Git repository with the code that's now in front of you. There is lots of useful information on this page, which you can peruse later, but, for now, let's see how the code you have here is pushed out to Bluemix. Click the **BUILD &amp; DEPLOY** button.
 
 ![Web IDE][16]
 
@@ -103,6 +103,8 @@ Leave the organization as it is.You can choose which space you want, or create a
 ![Configuring the Deployer][19]
 
 Once everything is configured, click **REQUEST BUILD**. The page refreshes with the **HISTORY** tab selected. You can see the build is running; click on it if you want to see a build log. When the build finishes successfully, it will deploy automatically to Bluemix, just as you've configured it. Click on the gear icon to view your app on Bluemix:
+
+![Deployed app panel with highlighted gear icon][44]
 
 You can also click the app route in the panel to visit your app on the web.
 
@@ -148,7 +150,7 @@ Next, let's change your app source code and see what happens. In the `WebContent
     To https://hub.jazz.net/git/jazzhubdemouser/YourApp-2014
     	ab4aaad..2336018 master -> master
 
-Now, this is where it starts to get interesting! If you go back to the Web IDE and check the Build &amp; Deploy page, you see something like this image:
+Now, this is where it starts to get interesting! If you go back to the Build &amp; Deploy page, you'll see something like this image:
 
 ![Auto-deploy in action][24]
 
@@ -296,4 +298,5 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
    [41]: /tutorials/jazzeditor (Getting Started with Bluemix and DevOps Services using Node.js)
    [42]: /tutorials/clients (Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services)
    [43]: /tutorials/jazzweb (Developing Bluemix applications in Node.js with the DevOps Services Web IDE)
+   [44]: /tutorials/jazzeditorjava/images/panel_gear.gif
   
