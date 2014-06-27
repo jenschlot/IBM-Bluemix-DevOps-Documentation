@@ -20,9 +20,6 @@ ____
 -   [How can I report abuse?](#q18)
 -   [How can I see what's new?](#q19)
 -   [Which browser should I be using?](#q20)
--   [Which repos can  I use?](#q21)
--   [Which local clients can I use?](#q22)
--   [What encoding should I use in the Eclipse client?](#rtc)
 
 ____
 
@@ -137,44 +134,3 @@ DevOps Services supports the following browsers:
 
 
 If your browser is not listed above, you may have a compromised experience.
-
-<a name="q21"></a>
-
-### Which repo should I use? 
-
-DevOps Services supports Git, GitHub and Jazz Source Control (from Rational Team Concert).
-
-#### Comparison of Git, GitHub and Jazz Source Control Management (Jazz SCM).
-
-<div name="table-header" class="jh-columns pbs">
-	<div class="jh-col-12-2 f_left prm">__Repo__</div>
-	<div class="jh-col-12-7 prm">__Description__</div>
-	
-</div> 
-<div name="git" class="jh-columns pbs">
-	<div class="jh-col-12-2 f_left prm">Git</div>
-	<div class="jh-col-12-7 prm">Distributed version control system. Git is responsible for keeping track of changes to content (usually code files) and it provides mechanisms for sharing that content with others</div>
-	
-</div> 
-<div name="github" class="jh-columns pbs">
-	<div class="jh-col-12-2 f_left prm">Git Hub</div>
-	<div class="jh-col-12-7 prm">Hosting Service for Git Repositories</div>
-
-</div> 
-<div name="jazz-scm" class="jh-columns pbs">
-	<div class="jh-col-12-2 f_left prm">Jazz SCM</div>
-	<div class="jh-col-12-7 prm">Rational Team Concert source control stores artifacts such as repository files and folders in the Jazz repsitory</div>
-	
-</div> 
-
-<a name="q22"></a>
-
-### Which clients can I use? 
-
-You can use your favorite Git client, such as EGit or Xcode.
-
-<a name="rtc"></a>
-
-### What encoding should I use in the Eclipse client?
-
-You should set UTF-8 as the default encoding in the preferences using *Window* > *Preferences* > *General* > *Workspaces*.
