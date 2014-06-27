@@ -20,15 +20,6 @@ a new project, a new project name and a copy of the code from the sample project
 
 >	![Fork](/tutorials/jazzrtc/images/fork.jpg "Fork")
 
-Now that you've forked the project, you'll need to deliver the changes to the Jazz SCM repository. Browse to the Jazz
-SCM Changes page.
-
->	![Jazz SCM Changes page](/tutorials/jazzrtc/images/jazzscm.jpg "Jazz SCM Changes page")
-
-Click ***Deliver***.
-
->	![Deliver Changes](/tutorials/jazzrtc/images/share.jpg "Deliver Changes")
-
 ##Running your app
 
 You got your project in minutes! That's great! Now, let's set up how it's going to get built and deployed. Go to the
@@ -111,7 +102,7 @@ You click the app link and voila! The app name's updated! Cool!
 ##Adding a test failure
 
 Let's add a failure to the JUnit tests so that you can see what happens when the build fails. Set "this.wcFinder" to null
-on line 23 of WordCounterFinderTest.java.
+on line 26 of WordCounterFinderTest.java.
 
 >	![Edit Test Case](/tutorials/jazzrtc/images/edit_testcase.jpg "Edit Test Case")
 
