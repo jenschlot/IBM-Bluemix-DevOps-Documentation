@@ -121,25 +121,25 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 * [Developing Bluemix applications in Java with Eclipse and DevOps Services](/tutorials/jazzrtc)
 * [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)
 
-   [1]: https://ace.ng.bluemix.net/ (Bluemix)
-   [2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview
-   [3]: /tutorials/jazzweb/images/forkbutton.gif
-   [4]: /tutorials/jazzweb/images/forknew.gif
-   [5]: /tutorials/jazzweb/images/simpledeployment.gif
-   [6]: /tutorials/jazzweb/images/closesimple.gif
-   [7]: /tutorials/jazzweb/images/StockApp.gif
-   [8]: /tutorials/jazzweb/images/Builder1.gif
-   [9]: /tutorials/jazzweb/images/DeployScriptEx.gif
-   [10]: /tutorials/jazzweb/images/history.gif
-   [11]: https://ace.ng.bluemix.net
-   [12]: /tutorials/jazzweb/images/startappbluemix.gif
-   [13]: /tutorials/jazzweb/images/AutocompleteSearch.gif
-   [14]: /tutorials/jazzweb/images/staging.gif
-   [15]: /tutorials/jazzweb/images/commit.gif
-   [16]: /tutorials/jazzweb/images/pushing.gif
-   [17]: /tutorials/jazzweb/images/manifest.gif
-   [18]: /tutorials/jazzweb/images/manualdeploy.gif
-   [19]: /tutorials/jazzweb/images/UpdatedApp.gif
-   [20]: https://www.ibmdw.net/answers?community=jazzhub (forum)
-   [21]: mailto:hub%40jazz.net
+[1]: https://ace.ng.bluemix.net/ (Bluemix)
+[2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview
+[3]: /tutorials/jazzweb/images/forkbutton.gif
+[4]: /tutorials/jazzweb/images/ForkNew.gif
+[5]: /tutorials/jazzweb/images/simpledeployment.gif
+[6]: /tutorials/jazzweb/images/closesimple.gif
+[7]: /tutorials/jazzweb/images/StockApp.gif
+[8]: /tutorials/jazzweb/images/Builder1.gif
+[9]: /tutorials/jazzweb/images/DeployScriptEx.gif
+[10]: /tutorials/jazzweb/images/history.gif
+[11]: https://ace.ng.bluemix.net
+[12]: /tutorials/jazzweb/images/startappbluemix.gif
+[13]: /tutorials/jazzweb/images/AutocompleteSearch.gif
+[14]: /tutorials/jazzweb/images/staging.gif
+[15]: /tutorials/jazzweb/images/commit.gif
+[16]: /tutorials/jazzweb/images/pushing.gif
+[17]: /tutorials/jazzweb/images/manifest.gif
+[18]: /tutorials/jazzweb/images/manualdeploy.gif
+[19]: /tutorials/jazzweb/images/UpdatedApp.gif
+[20]: https://www.ibmdw.net/answers?community=jazzhub (forum)
+[21]: mailto:hub%40jazz.net
   
