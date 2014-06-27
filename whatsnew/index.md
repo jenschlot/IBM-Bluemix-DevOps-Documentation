@@ -4,7 +4,7 @@
 
 # Build and Deploy to Bluemix
 
-# Simple application deployment to Bluemix for Jazz SCM projects
+## Simple application deployment to Bluemix for Jazz SCM projects
 
 You can now set up Simple auto-deployment of your Bluemix application for
 a Jazz SCM project. 
@@ -15,9 +15,9 @@ When Simple is turned on, any changes delivered to the configured
 Jazz SCM stream triggers a push 
 of the application to Bluemix.
 
-## Improved Project Management
+# General enhancements
 
-# More choices when forking a project
+## More choices when forking a project
 
 When you fork a project from the Web IDE, you can now select if your project is public or private, if
 you would like to add features for Scrum
