@@ -17,7 +17,7 @@ of the application to Bluemix.
 
 # General enhancements
 
-## More choices when forking a project
+## More options when forking a project
 
 When you fork a project from the Web IDE, you can now select if your project is public or private, if
 you would like to add features for Scrum
