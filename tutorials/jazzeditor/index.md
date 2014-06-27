@@ -213,7 +213,7 @@ You can then use the integrated Git support to push the change. Switch to the Gi
 
 >	![Orion Git repository icon](/tutorials/jazzeditor/images/orion-git-status.png)
 
-Select the changed file:
+Select the changed files:
 
 >	![Orion Git staging](/tutorials/jazzeditor/images/orion-git-stage.png)
 
@@ -272,6 +272,6 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 * [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access IBM DevOps Services](/tutorials/clients)
 * [Developing IBM Bluemix applications in Node.js with the IBM DevOps Services Web IDE](/tutorials/jazzweb)
 * [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)    
-* [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)  
+* [Getting Started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)  
     
 &copy; Copyright IBM Corporation 2013, 2014.
