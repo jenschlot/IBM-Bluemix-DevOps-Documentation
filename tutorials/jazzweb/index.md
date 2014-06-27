@@ -9,7 +9,7 @@ Let's start with the sample project, [Sentiment Analysis App][2]. This is a host
 
 ![Fork button][3]
 
-Enter whatever name you like for your fork of the Sentiment Analysis app. When you click **Save**, the code will be pushed into a new Git repository for you.
+Enter whatever name you like for your fork of the Sentiment Analysis app. Also, make sure that the **Deploy to Bluemix** box is checked. You can leave the other options at their defaults. When you click **Save**, the code will be pushed into a new Git repository for you.
 
 ![Fork new project][4]
 
@@ -35,7 +35,7 @@ On the **Configure Builder** page, select "Grunt" as the **Builder**. Leave ever
 
 ![Configure Builder][8]
 
-Next, click the **Deployer** box on the left side of the screen. DevOps Services integrates with Bluemix, and this is a simple project, so the default information here is sufficient to deploy your project. To make sure that the project has a unique path, though, add the flag `-n` followed by a host name to the Bluemix script that's sure to be unique. As an example:
+Next, click the **Deployer** box on the left side of the screen. DevOps Services integrates with Bluemix, and this is a simple project, so the default information here is sufficient to deploy your project. To make sure that the project has a unique path, though, add the flag `-n` followed by a unique host name to the first line of the Bluemix script. As an example:
 
 ![Configure Deployer][9]
 
@@ -62,7 +62,7 @@ Let's change how the app greets its users with a little help from the editor. Cl
 
 ![Configure Builder][13]
 
-Replace occurrences of that message with whatever you like. When you're finished, hit Control %2B s (or Command %2B s on a Mac) to make sure that everything is saved.
+Replace occurrences of that message with whatever you like. When you're finished, hit Control + S (or Command + S on a Mac) to make sure that everything is saved.
 
 ---
 ## Pushing changes to the repository
@@ -124,7 +124,7 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
    [1]: https://ace.ng.bluemix.net/ (Bluemix)
    [2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview
    [3]: /tutorials/jazzweb/images/forkbutton.gif
-   [4]: /tutorials/jazzweb/images/ForkNew.gif
+   [4]: /tutorials/jazzweb/images/forknew.gif
    [5]: /tutorials/jazzweb/images/simpledeployment.gif
    [6]: /tutorials/jazzweb/images/closesimple.gif
    [7]: /tutorials/jazzweb/images/StockApp.gif
