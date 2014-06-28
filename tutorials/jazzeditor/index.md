@@ -10,7 +10,7 @@ all through an as-a-service model in the cloud.
 Before you can use the IBM Bluemix capabilities, you have to register. To register, go to the [IBM Bluemix home page](https://ace.ng.bluemix.net/) and 
 click **Sign up for the free beta**.
 
->	![Join us in beta](/tutorials/jazzeditor/images/bm-join.png)
+![Join us in beta](/tutorials/jazzeditor/images/bm-join.png)
 
 After you register, the [IBM Bluemix site](https://ace.ng.bluemix.net/) offers helpful information about Bluemix:
 
@@ -23,7 +23,7 @@ follow this workflow to create and deploy a new application.
 
 Start by signing in to IBM Bluemix, which takes you to a dashboard:
 
->	![Bluemix dashboard](/tutorials/jazzeditor/images/bm-home.png)
+![Bluemix dashboard](/tutorials/jazzeditor/images/bm-home.png)
 
 Click **Create an Application** to choose different runtimes 
 (such as Java or Ruby), services (such as IBM DataCache or MongoDB), and boilerplates, 
@@ -32,7 +32,7 @@ which are preconfigured application templates.
 For this workflow, select the Node JS Web Starter boilerplate and review 
 its description:
 
->	![Bluemix NodeJS app](/tutorials/jazzeditor/images/bm-web-starter.png)
+![Bluemix NodeJS app](/tutorials/jazzeditor/images/bm-web-starter.png)
 
 As you can see, the application is a simple Node.js web server that includes example code 
 that demonstrates the IBM DataCache service. 
@@ -46,18 +46,18 @@ The name is a descriptive name to identify the application on the
 Bluemix dashboard. The host is a unique URL where you access your app. 
 
 
->	![Bluemix Create App dialog](/tutorials/jazzeditor/images/bm-create.png)
+![Bluemix Create App dialog](/tutorials/jazzeditor/images/bm-create.png)
 
 
 That's all there is to creating an application. It takes a moment for the application to start, 
 but when it does, a tile on the dashboard shows that it's running.
 
->	![Bluemix Application tile](/tutorials/jazzeditor/images/bm-app-panel.png)
+![Bluemix Application tile](/tutorials/jazzeditor/images/bm-app-panel.png)
 
 When you click the URL on the tile, it takes you to your already Internet-visible, running application.
 
  
->	![A running web application](/tutorials/jazzeditor/images/bm-example.png)
+![A running web application](/tutorials/jazzeditor/images/bm-example.png)
 
 
 Now that your application is running, you can see and modify its code with IBM DevOps Services.
@@ -75,12 +75,12 @@ To enable auto-deployment, go to the Bluemix dashboard for your application and
 click **Add Git Integration**. This single click in Bluemix gives you a Git repository that's 
 loaded with example code and a deployed application. 
 
->	![Add Git Integration button](/tutorials/jazzeditor/images/bm-add-git-integration.png)
+![Add Git Integration button](/tutorials/jazzeditor/images/bm-add-git-integration.png)
 
 
 You might need to enter your password to verify that DevOps Services can act on your behalf. Enter your IBM ID password and click **Sign In**.
 
->	![DevOps Services sign in page](/tutorials/jazzeditor/images/jh-signin.png)
+![DevOps Services sign in page](/tutorials/jazzeditor/images/jh-signin.png)
 
 **Note:** The first time that you access IBM DevOps Services, you might need to create a Jazz ID and link it to your IBM ID. A Jazz ID is a "short name" that is used in several places, 
 including the URL for the repository that is created for you. For this one-time process, follow 
@@ -89,25 +89,25 @@ the instructions in the dialog box.
 Ensure that the check box is selected to populate the Git repository with the starter application package and 
 to automatically deploy the app.
 
->	![Create Git repo dialog](/tutorials/jazzeditor/images/bm-create-git-repo.png)
+![Create Git repo dialog](/tutorials/jazzeditor/images/bm-create-git-repo.png)
 
 With these few clicks, you created a Git repository, loaded it with the example code, and deployed the application.
 
->	![Git repo success message dialog](/tutorials/jazzeditor/images/bm-git-repo-success-msg.png)
+![Git repo success message dialog](/tutorials/jazzeditor/images/bm-git-repo-success-msg.png)
 
 
 To see the status of the deployed app, go to the Bluemix dashboard and click **CODE**.
 
->	![CODE button](/tutorials/jazzeditor/images/bm-code-button.png)
+![CODE button](/tutorials/jazzeditor/images/bm-code-button.png)
 
 Your new project opens in the Web IDE. This page contains a lot of useful information that you can review later. To check the status of the application, 
 click **BUILD & DEPLOY**.
 
->	![Web IDE](/tutorials/jazzeditor/images/orion.png)
+![Web IDE](/tutorials/jazzeditor/images/orion.png)
 
 A page opens where you can configure and see the deployment status for the project.
 
->	![DevOps Services auto deploy page](/tutorials/jazzeditor/images/jh-auto-deploy.png)
+![DevOps Services auto deploy page](/tutorials/jazzeditor/images/jh-auto-deploy.png)
 
 **Tip:** If you're curious, the **ADVANCED** option 
 enables you to add a build step, which is useful for Java applications, and to control 
@@ -129,22 +129,22 @@ see [Installing Git](/tutorials/clients#installing_git).
 
 Start by cloning the local repository using the URL from the Bluemix application dashboard:
 
->	![Clone the local repository](/tutorials/jazzeditor/images/cli-git-clone.png)
+![Clone the local repository](/tutorials/jazzeditor/images/cli-git-clone.png)
 
 Next, change the application source code to see what happens. Change to your Git clone directory. 
 The views folder contains a file named `index.ejs`. This file implements the main page for the example. 
 Change this file, for example, modify the title that is displayed.
 
->	![Changing the title](/tutorials/jazzeditor/images/cli-edit-file.png)
+![Changing the title](/tutorials/jazzeditor/images/cli-edit-file.png)
 
 Then, change to your Git clone directory and do a Git push as shown in this image:
 
->	![Pushing the change](/tutorials/jazzeditor/images/cli-edit-push.png)
+![Pushing the change](/tutorials/jazzeditor/images/cli-edit-push.png)
 
 If you go back to the Web IDE and check the 
 Build & Deploy page, you should see something similar to this image:
 
->	![Auto-deploy in action](/tutorials/jazzeditor/images/jh-auto-deployed.png)
+![Auto-deploy in action](/tutorials/jazzeditor/images/jh-auto-deployed.png)
 
 The top of the **Recent auto-deployments** list shows an entry with a comment that 
 matches the commit operation you made from the command line. The entry shows that your app is running the code that you pushed.
@@ -155,7 +155,7 @@ that the title was updated. You might need to refresh your browser to see the up
 **Tip**: The original title was Application Example: run DataCache using REST API. 
 
 
->	![Application page showing new title](/tutorials/jazzeditor/images/app-new-title.png)
+![Application page showing new title](/tutorials/jazzeditor/images/app-new-title.png)
 
 You can continue to modify the example code and push the changes to the 
 Git repository as often as you like. If your project and scope of work grows, you can add more people to the 
@@ -185,50 +185,50 @@ based on the [Eclipse Orion](http://orion.eclipse.org/) open-source project.
 
 Here's what the Web IDE looks like with the example project open:
 
->	![Orion at DevOps Services](/tutorials/jazzeditor/images/orion.png)
+![Orion at DevOps Services](/tutorials/jazzeditor/images/orion.png)
 
 From this environment, you can edit files with color syntax support for multiple languages, including HTML, 
 CSS, JavaScript, Ruby, Python, and more. For some languages, such as JavaScript, the Web IDE also supports 
 syntax checking and code completion, both for standard language constructs and for the services provided 
 by IBM Bluemix. For example, this image shows code completion for the standard Node.js express module:
 
->	![Orion showing express completions](/tutorials/jazzeditor/images/completion.png)
+![Orion showing express completions](/tutorials/jazzeditor/images/completion.png)
 
 To try working in the Web IDE, you can make another change to your application. 
 But, before you do, you must merge the title change that you made with the command line
 so that it shows in the Web IDE. You merge from the Git Repository page. 
 
->	![Orion Git repository icon](/tutorials/jazzeditor/images/orion-git-status.png)
+![Orion Git repository icon](/tutorials/jazzeditor/images/orion-git-status.png)
 
 On the Git Repository page, merge the change that you made to the title.
 
->	![Orion Git merge](/tutorials/jazzeditor/images/orion-git-merge.png)
+![Orion Git merge](/tutorials/jazzeditor/images/orion-git-merge.png)
 
 Next, use the navigation tree to find the file that you modified 
 before (for example, `views/index.ejs`) and edit it in the integrated editor.
 
->	![Orion editing index](/tutorials/jazzeditor/images/orion-really-cool.png)
+![Orion editing index](/tutorials/jazzeditor/images/orion-really-cool.png)
 
 You can then use the integrated Git support to push the change. Switch to the Git Repository page and follow these steps:
 
->	![Orion Git repository icon](/tutorials/jazzeditor/images/orion-git-status.png)
+![Orion Git repository icon](/tutorials/jazzeditor/images/orion-git-status.png)
 
 Select the changed files:
 
->	![Orion Git staging](/tutorials/jazzeditor/images/orion-git-stage.png)
+![Orion Git staging](/tutorials/jazzeditor/images/orion-git-stage.png)
 
 Commit the change:
 
->	![Orion Git commit](/tutorials/jazzeditor/images/orion-commit.png)
+![Orion Git commit](/tutorials/jazzeditor/images/orion-commit.png)
 
 Push the change:
 
->	![Orion Git push](/tutorials/jazzeditor/images/orion-push.png)
+![Orion Git push](/tutorials/jazzeditor/images/orion-push.png)
 
 These are the same steps that you performed with the command line. 
 To see that your app was updated again, go to the Build & Deploy page and click the link in the **Deploy to** field.
 
->	![Our really cool app](/tutorials/jazzeditor/images/really-cool.png)
+![Our really cool app](/tutorials/jazzeditor/images/really-cool.png)
 
 ---
 ##Advanced deployment features
