@@ -1,12 +1,10 @@
-#Developing IBM Bluemix applications in Java with Eclipse and DevOps Services
+####Developing IBM Bluemix applications in Java with Eclipse and DevOps Services
 
-This tutorial shows you how to develop a Java application using IBM Bluemix, DevOps Services and the RTC client for Eclipse.
+This tutorial shows you how to develop a Java application using IBM Bluemix, IBM DevOps Services and the RTC client for Eclipse. 
+Make sure that your IBM id is registered with [Bluemix](//bluemix.net). Login to DevOps Services with your IBM id.
 
-##Prerequisites
 
-Before you proceed, ensure that you register your IBM id with [Bluemix](https://bluemix.net/). Use the same IBM id to login to IBM DevOps Services.
-
-##Getting your app
+#####Getting your app
 
 We'll start by forking the sample project, [WordCounter](https://hub.jazz.net/project/pskhadke/WordCounter/overview).
 This project uses Jazz Source Control Management (Jazz SCM for short). It contains a manifest for deploying to Bluemix
@@ -14,12 +12,12 @@ and can be loaded directly in the RTC client for Eclipse. DevOps Services also s
 about support for Git, check out the
 [Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava) tutorial.
 
-Go to the [WordCounter](https://hub.jazz.net/project/pskhadke/WordCounter/overview) project. Click ***EDIT CODE*** to
+Go to the [WordCounter](https://hub.jazz.net/project/pskhadke/WordCounter/overview) project. Click **EDIT CODE** to
 open the Web IDE.
 
 >	![Click Edit Code](/tutorials/jazzrtc/images/click_edit_code.jpg "Click Edit Code")
 
-You can build your own application by clicking the ***FORK*** button and entering a unique name when prompted.
+You can build your own application by clicking the **FORK** button and entering a unique name when prompted.
 
 >	![Fork](/tutorials/jazzrtc/images/fork.jpg "Fork")
 
@@ -27,33 +25,34 @@ You get a new project, a new project name and a copy of the code from the sample
 
 >  ![Create Project Dialog](/tutorials/jazzrtc/images/create_project.jpg "Create Project Dialog")
 
-If you see an error here, you probably didn't register with Bluemix yet. Otherwise... that's it! You've got your very own project
-in a manner of minutes! Now let's set up the automatic builds and deployments.
+If you're getting an error, then you probably didn't register with Bluemix yet. Otherwise... you're all set to build and deploy!
+Great!
 
-##Deploying your app
 
-Go to the deployment page by clicking the ***BUILD & DEPLOY*** button. Turn on deployment in the advanced mode by clicking the
-***ADVANCED*** button. On the Configure Builder page, specify
+#####Deploying your app
+
+Go to the deployment page by clicking the **BUILD & DEPLOY** button. Turn on deployment in the advanced mode by clicking the
+**ADVANCED** button as you need builds to compile your Java code. The simple mode doesn't support builds.
+
+On the Configure Builder page, specify
 	
 * The password associated with your IBM id as the "Your IBM DevOps Services password"
-* The folder containing your code, i.e. "WordCounter" as the "Build script path"
-* A name for the "Build archive directory"	
+* The folder containing your code, i.e. "WordCounter" as the "Build script path". On loading the project in the RTC client, this folder
+automatically maps to an Eclipse project.
+* A name for the "Build archive directory". This is where the build output files go and are archived as part of the build result.
 
-The folder "WordCounter" is the folder that Eclipse uses to represent your project. The "Build archive directory" is
-where the output war and manifest for your project will go after a successful build.
-
-Check the "Enable unit tests" checkbox to run test cases during a build. Finally, click ***Save***.
+Check the "Enable unit tests" checkbox to run test cases during a build. Finally, click **Save**.
 
 >	![Configure Builder](/tutorials/jazzrtc/images/configure_builder.jpg "Configure Builder")
 
-Click on ***Deployer*** to open the Configure Deployer page. This page will use the settings provided by the `manifest.yml`
+Click on **Deployer** to open the Configure Deployer page. This page will use the settings provided by the `manifest.yml`
 file, included as part of the project. All of the values, except for the hostname, can be used directly as provided. The
 hostname is used to define your application's url and needs to be unqiue for each application deployed. Let's override the
-host with the `-n` option in the `cf push` command as below. Click ***Save*** and you're all set!
+host with the `-n` option in the `cf push` command as below. Click **Save** and you're all set!
 
 >	![Configure Deployer](/tutorials/jazzrtc/images/configure_deployer.jpg "Configure Deployer")
 
-Click the ***REQUEST BUILD*** button to see your project get built and deployed for the first time. This takes a couple of
+Click the **REQUEST BUILD** button to see your project get built and deployed for the first time. This takes a couple of
 minutes. And then... the circle goes green! The app's live!
 
 >	![Successful Build](/tutorials/jazzrtc/images/build1_success.jpg "Successful Build")
@@ -63,7 +62,7 @@ Click the application link... It works! Awesome!
 >	![Application](/tutorials/jazzrtc/images/app.jpg "Application")
 
 ---
-##Accessing your app from the RTC client for Eclipse
+#####Accessing your app from the RTC client for Eclipse
 
 Now that you have a running application, let's connect to it from the RTC client for Eclipse. Click on the project link to
 go to the Project Overview page. 
@@ -78,7 +77,7 @@ The [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services]
 set up the RTC client for Eclipse, connect to your project and load the code.						
 
 ---
-##Delivering your first change
+#####Delivering your first change
 
 You're in the RTC client for Eclipse. So, let's change something and see it go live. For example, change the app name on
 line 10 of index.html.
@@ -108,7 +107,7 @@ You click the app link and voila! The app name's updated! Cool!
 >	![Application](/tutorials/jazzrtc/images/app2.jpg "Application") 
 
 ---
-##Adding a test failure
+#####Adding a test failure
 
 Let's add a failure to the JUnit tests so that you can see what happens when the build fails. Set "this.wcFinder" to null
 on line 26 of WordCounterFinderTest.java.
@@ -124,12 +123,12 @@ builds are automatically deployed. Also note that when you click the app link, t
 
 >	![Failed Build](/tutorials/jazzrtc/images/build3_failure.jpg "Failed Build")
 
-On the deployment page, click the build to access the logs.
+In the history section of the deployment page, click the build to access the build logs and test results.
 
 >	![Click Build](/tutorials/jazzrtc/images/build_log.jpg "Click Build")
 
 ---
-##Fixing the bug
+#####Fixing the bug
 
 Let's revert the code in WordCounterFinderTest.java to its previous state and deliver the change.
 
@@ -149,7 +148,7 @@ or send us an [email](mailto:hub%40jazz.net).
 
 ---
 
-##More Tutorials
+#####More Tutorials
 
 If you're interested in trying more Bluemix and DevOps capabilities, here is a list of tutorials:
 
