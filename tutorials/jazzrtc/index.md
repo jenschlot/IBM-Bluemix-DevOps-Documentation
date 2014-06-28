@@ -32,12 +32,12 @@ Great!
 ##Deploying your app
 
 Go to the deployment page by clicking the **BUILD & DEPLOY** button. Turn on deployment in the advanced mode by clicking the
-**ADVANCED** button as you need builds to compile your Java code. The simple mode doesn't support builds.
+**ADVANCED** button. You need builds to compile your Java code and there's no support for it in the simple mode.
 
 On the Configure Builder page, specify
 	
 * The password associated with your IBM id as the "Your IBM DevOps Services password"
-* The folder containing your code, i.e. "WordCounter" as the "Build script path". On loading the project in the RTC client, this folder
+* The folder containing your code, i.e. "WordCounter" as the "Build script path". Upon loading the project in the RTC client, this folder
 automatically maps to an Eclipse project.
 * A name for the "Build archive directory". This is where the build output files go and are archived as part of the build result.
 
