@@ -25,18 +25,7 @@ Simple deployment works by directly deploying the contents of the Git repository
 
 ![Sentiment Analysis Sample App][7]
 
-Next, you'll add some JSHint validation to make sure that your code is prim, proper, and error free. The simple deployer doesn't support that sort of thing. You need to configure a builder, which is only available in **Advanced** mode. Before you go there, though, you need to enable the Delivery Pipeline add-on in Bluemix. 
-
-Click **Manage** to open your app's Bluemix overview.
-Then:
-
-1. Choose **CONNECT AN ADD-ON** from your new app's dashboard.
-2. Click **Delivery Pipeline** from the list of Add-Ons (or just type the name in the search bar). 
-4. Make sure the correct space is selected, and that your app's name is in the **App** box. It should be there by default.
-5. **CREATE** the add-on. 
-
-The Delivery Pipeline Add-on will be added to your Bluemix space, ready to spring into action when you need it later.  
-
+Next, you'll add some JSHint validation to make sure that your code is prim, proper, and error free. The simple deployer doesn't support that sort of thing. You need to configure a builder, which is only available in **Advanced** mode.
 Click **CODE** at the top of the overview, then open **Build &amp; Deploy** again. Click **Advanced**.
 
 You can do as much creation and customization as you like when you configure your own project. This one, however, has been configured to require minimal fuss to get things up and running: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it will automatically be found.

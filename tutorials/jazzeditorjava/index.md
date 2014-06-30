@@ -108,6 +108,8 @@ Once everything is configured, click **REQUEST BUILD**. The page refreshes with 
 
 You can also click the app route in the panel to visit your app on the web.
 
+Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to spend. For more information on Bluemix pricing for any Service or Add-on, log in to Bluemix and click **CATALOG** at the top of the page. Click on a Service or Add-on's icon to learn more about it.
+
 ---
 ##Push changes to the Git repository by using the command line
 
