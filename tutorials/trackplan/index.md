@@ -9,7 +9,19 @@ With support for many project roles, you can use the Track & Plan feature for la
 To try the Track & Plan feature, follow these instructions to start a simple, public, agile project. You'll use basic story, task, and defect work items to plan a chat page for a website.
 
 ---
+## Contents
 
+* [Set up an IBM DevOps Services project](#set_up_an_IBM_devops_services_project)
+* [Create your first work items](#create_your_first_work_items)
+* [Create work items in the backlog](#create_work_items_in_the_backlog)
+* [Triage the backlog](#triage_the_backlog)
+* [Plan Sprint 1](#plan_sprint_1)
+* [Work through the sprint](#work_through_the_sprint)
+* [Activate Track & Plan in your IBM Bluemix project](#activate_track&plan_in_your_IBM_bluemix_project)
+* [Summary](#summary)
+
+---
+<a name='set_up_an_IBM_devops_services_project'></a>
  ##Set up an IBM DevOps Services project
 1. Log in to [IBM DevOps Services][1], which takes you to your My Stuff page. 
 ![DevOps Services new user landing page][2]
@@ -19,7 +31,8 @@ To try the Track & Plan feature, follow these instructions to start a simple, pu
 4. Click the **Create a Git repository** icon to make a new repository for your code at the specified location.  
 **Tip**: You can also manage an existing Git repository or a new Jazz SCM database.
 5. Leave the **Private** check box cleared.  
-**Note**: IBM DevOps Services supports both public and private projects. Anyone with a DevOps Services account can access your public projects, but only the DevOps Services users you invite can access your private projects.  
+**Note**: IBM DevOps Services supports both public and private projects. Anyone can access your public projects, but only the DevOps Services users you invite can access your private projects.  
+**Note**: You can use the Track & Plan feature with all your public IBM DevOps Services projects at no cost. If you use the feature with private projects, a fee might apply. See the [subscription] details.
 6. Leave the **Add features for Scrum development** check box selected. By enabling Scrum, you can create sprints from your project's backlog of work items.  
 **Note**: You need to enable Scrum development to use the full Track & Plan capabilities. However, if you plan traditional projects that use simple tasks and iterations without a backlog, you would clear this check box.
 7. Leave the **Deploy to Bluemix** check box cleared.  
@@ -29,13 +42,13 @@ To try the Track & Plan feature, follow these instructions to start a simple, pu
      ![New project selections][4]
 
 ---
-
+<a name='create_your_first_work_items'></a>
  ##Create your first work items
 
 1. Click **TRACK & PLAN**. Review and close the message that welcomes you to the Track & Plan Beta.  
 **Note**: If you do not see the welcome message, you need to manually activate the Track & Plan Beta feature. Click the down arrow by **TRACK & PLAN** icon (<img src="/tutorials/trackplan/images/downarrow.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -5px;"> ) and click **Try the new Track & Plan Beta** to access the Settings. Select the **Try the new Track & Plan Beta** check box and click **SAVE**. Now, click **TRACK & PLAN** again.   
 2. Review the My Work view. From this view, you can see all the project work items that are assigned to you. Because you're the only person working on this project, you want to assign ownership of all work items to your Jazz user ID. The fastest way to do this is to create your work items from this page.
-2. Click in the **Create a Work Item field** and type a summary for the first work item: `Create a simple chat page for our site.` Press **Enter** to create the new task.  
+2. Click in the **Create a Work Item** field and type a summary for the first work item: `Create a simple chat page for our site.` Press **Enter** to create the new task.  
 **Note**: The default work item type is **Task**.
 3. Now, add more parameters to your task. Use the icons in the title bar to set the priority to **High**. 
 4. Click the tag icon and type `website` in the displayed field. Press **Enter** to assign the tag.  
@@ -46,7 +59,8 @@ To try the Track & Plan feature, follow these instructions to start a simple, pu
 **Note**: You use these icons to set the work item attributes. Don't worry if you aren't sure about an attribute or think one might change, because you can always change it later.
 7. Use the icons to set these parameters for the work item:
  * Set the type to **Defect** 
- * Set the severity to **Major** 
+ * Set the severity to **Major**   
+**Note**: You can only assign severity to defects.
  * Add a tag named `messages` 
  * Set the priority to **High**  
 **Tip**: Notice the new text after your summary. When you set an attribute, the text code for that attribute is added after the summary.  
@@ -56,7 +70,7 @@ To try the Track & Plan feature, follow these instructions to start a simple, pu
 7. Click the **Triage to Backlog** icon for each work item.
 
 ---
-
+<a name='create_work_items_in_the_backlog'></a>
  ##Create work items in the backlog
  
 You need to make a few more work items for your project.
@@ -95,7 +109,7 @@ This number is unique to your project and helps you keep track of each work item
      ![Unranked work items in the backlog][10]
 
 ---
-
+<a name='triage_the_backlog'></a>
  ##Triage the backlog
 
 Before you populate a sprint, you should triage the work items in your backlog. If you use agile management techniques with your projects, you probably use a similar process during your sprint planning meetings.
@@ -103,29 +117,29 @@ Before you populate a sprint, you should triage the work items in your backlog. 
 1. Collapse the parent items, and notice how each work item's rank is **Not Ranked**. You can easily change this status. Drag the "Create a simple chat page for our site" task to the top of the list and see how its rank changes to 1. 
 2. Rank the rest of the work items in this order: 
      ![Ranked work items in the backlog][11]
-3. Now that you've ranked the work items, assign story points to them. Expand each story by clicking the plus sign and review its child items. Then, click **0 pts** beside each story and select **20 pts** from the drop-down list.  
-**Note**: In agile projects, story points are a team-determined scale reflecting the effort required to implement a story.
-4. Before you finish triaging your tasks, finish assigning work items owners. In the text filter field, type `#`. Notice how a list of your project's tags appears. Type `login` and press Enter.  
-**Tip**: Another way to display the unassigned tasks is to enter `@:unassigned` into the text filter field and press **Enter**.
-5. Click the **Owner** icon for each filtered work item and select your name from the drop-down list. After you assign your items, delete `#login` from the query bar.  
+3. Now that you've ranked the work items, assign story points to the stories.  Then, click **0 pts** beside each story and select **20 pts** from the drop-down list.  
+**Note**: In agile projects, story points are a team-determined scale reflecting the effort required to implement a story. Remember that you can expand each story by clicking the plus sign to review its child items.
+4. Before you finish triaging your tasks, finish assigning work items owners. In the text filter field, type `@:unassigned` and press **Enter**.  
+5. Click the **Owner** icon for each filtered work item and select your name from the drop-down list. After you assign your items, delete `@:unassigned` from the query bar.  
 **Tip**: If you are working with other team members, you can use this method to assign related work items to them.
-6. Because you've assigned your story points and owners, you can create time estimates to ensure you place an appropriate number of stories on a sprint. Click to expand the "Integrate OAuth to the chat site" item's drop-down menu and select **Estimate: Unassigned** from the drop-down menu.
+6. You should create time estimates to ensure you place an appropriate number of stories on a sprint. Click to expand the "Integrate OAuth to the chat site" item's drop-down menu and select **Estimate: Unassigned** from the drop-down menu.
+**Tip**: Remember to review your story points and work item owners when creating time estimates.
 7. Set the duration to 3 days and click OK.
      ![Location of Estimate: unassigned][12]  
 8. Assign 3-day estimates to your defect and remaining tasks.
 
 ---
- 	
+ <a name='plan_sprint_1'></a>	
 ##Plan Sprint 1
 
-1. To start creating springs for your project, click **Sprint Planning** and then click **Create Sprints**. Use the calendars by the start and end dates to create two 2-week sprints that start on Mondays.  
+1. To start creating sprints for your project, click **Sprint Planning** and then click **Create Sprints**. Use the calendars by the start and end dates to create two 2-week sprints that start on Mondays.  
 **Note**: Only the project owner can create and edit sprints.
      ![Sprint creation dialog showing two two-week sprints][13]
 2. Click **OK** and you  can see lanes for your backlog and for Sprint 1. Scroll to the right to see Sprint 2.
 3. Click the title bar of the "Create a simple chat page for our site" task from the backlog lane and drag it to the Sprint 1 lane. Drag the rest of the work items to Sprint 1 in ascending order by ranking.
 
 ---
-
+ <a name='work_through_the_sprint'></a>
  ##Work through the sprint
  
 Now that you set up your sprint you're ready to start work.
@@ -143,7 +157,7 @@ Now that you set up your sprint you're ready to start work.
 
 The Track & Plan feature makes it easy for you to track your sprint's work as you complete planned tasks. It's also easy to create and address new work items.
 
-1. In the Open lane, click in the **Create a work item field** and make three more work items:
+1. In the Open lane, click in the **Create a work item** field and make three more work items:
   * As a user, I'd like your chat site to look good on my phone. *story #mobile $low 
   * Test site on mobile devices and optimize Bootstrap and CSS files to improve performance. *task #mobile #website $low
   * The server handles the requests too slowly. *defect #server $high !major 
@@ -152,7 +166,29 @@ The Track & Plan feature makes it easy for you to track your sprint's work as yo
 **Tip**: If you are leading a team, you would want to triage new work items in the Incoming Work view and the Backlog view during your sprints.
 
 ---
- 
+<a name='activate_track&plan_in_your_IBM_bluemix_project'></a>
+##Activate Track & Plan in your IBM Bluemix project
+
+The best way to learn more about IBM DevOps Services Track & Plan feature is to use it in your own projects. 
+
+To activate Track & Plan with an IBM Bluemix project, follow these instructions.
+**Note**: If you do not have a Bluemix project, complete the [Getting Started with Bluemix and DevOps Services using Node.js][41] or [Getting Started with Bluemix and DevOps Services using Java][44].
+
+1. Log into Bluemix. Confirm that you are in the dev Space (<img src="/tutorials/trackplan/images/devspace.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -5px;"> )of your dashboard.
+2. Click the application you want to use Track & Plan with.
+3. Click **CODE** (<img src="/tutorials/trackplan/images/code.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -5px;"> )to launch DevOps Services in a new browser tab.
+**Note**: If you do not see the **CODE** button, you need to create a Git repository. Click **ADD GIT**. Review the contents of the pop-up, then click **CONTINUE** and **CLOSE** to create a Git repository and link it to your project.
+4. From DevOps Services, click the **SETTINGS** icon. Click **OPTIONS** and select the **Enable Tracking & Planning** check box. Click **SAVE**.
+5. Click **BETA FEATURES** and select the **Try the new Track & Plan Beta** check box. Click **SAVE**.
+6. Return to your Bluemix tab and click **DASHBOARD**. Confirm that you are still in your dev Space.
+7. Click **Connect an Add-On** (<img src="/tutorials/trackplan/images/connectaddon.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -5px;"> ). Locate the DevOps section on the new page and click **Track & Plan**.
+     ![IBM DevOps Services Track & Plan add-on tile][20]
+8. After you review the contents of the pop-up, click **CREATE**.
+9. Notice that the Track & Plan add-on is listed as an add-on. Click **Track & Plan** and confirm that your project is listed.
+10. Return to your DevOps services browser tab and click **TRACK & PLAN**. You're ready to begin planning.
+
+---
+ <a name='summary'></a> 
  ##Summary
 
 You should now have a good overview of the Track & Plan feature and see that you can use it to track any type of project, no matter how small or complex.
@@ -174,7 +210,7 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 [3]: https://ace.ng.bluemix.net/ (Register for Bluemix)
 [4]: /tutorials/trackplan/images/newprojectselection.gif
 [5]: /tutorials/trackplan/images/wiicons.gif
-
+[6]: https://ace.stage1.ng.bluemix.net/#/pricing/cloudOEPaneId=pricing 
 [7]: /tutorials/trackplan/images/appendeddefect.gif
 [8]: /tutorials/trackplan/images/workitemeditor.gif
 [9]: /tutorials/trackplan/images/attributechange.gif
@@ -188,7 +224,7 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 [17]: https://ace.ng.bluemix.net/
 [18]: https://www.ibmdw.net/answers?community=jazzhub (DevOps Services forum)
 [19]: mailto:hub%40jazz.net
-
+[20]: /tutorials/trackplan/images/taptile.gif 
 [40]: /tutorials/jazzrtc (Developing Bluemix applications in Java with Eclipse and DevOps Services)
 [41]: /tutorials/jazzeditor (Getting Started with Bluemix and DevOps Services using Node.js)
 [42]: /tutorials/clients (Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services)
