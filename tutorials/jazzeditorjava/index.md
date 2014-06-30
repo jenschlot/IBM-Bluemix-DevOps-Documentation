@@ -19,20 +19,18 @@ You can start by signing in to [Bluemix][1], which takes you to the _Dashboard_:
 
 ![Bluemix Dashboard][6]
 
-Clicking **Create an Application** lets you choose different kinds of Runtimes (like Java or Ruby), Services (such as DataCache or Mongo) and Boilerplates, which are essentially pre-configured application templates that are great ways to get started. Select the **Java Web Starter** Boilerplate, which opens a panel that displays more information about what it does:
+Clicking **CREATE AN APP** lets you choose different kinds of Runtimes (like Java or Ruby), Services (such as DataCache or Mongo) and Boilerplates, which are essentially pre-configured application templates that are great ways to get started. Select the **Java Web Starter** Boilerplate, which opens a panel that displays more information about what it does:
 
 ![Bluemix Java Web Starter][7]
 
 As you can see, the application is a simple Java Web server that includes some example code that demonstrates the IBM DataCache Service. Let's try it!
 
-At this point, you're just two clicks away from having a running application:
+At this point, you're just a few clicks away from having a running application.
 
-  1. Click **CREATE APPLICATION**
-  2. In the Create application window, fill in the **Name** and **Host** fields, and click **CREATE**.
-
+In the *Create an app* panel, enter a **Name** for your app. Enter a different host if Bluemix indicates that a host route is taken (or if you just want a host that's different from the app name).
 ![Bluemix Create App dialog][8]
 
-The **Name** is a simple name you can use to find this application the next time you come back to the Bluemix dashboard. **Host** partially defines the URL (the rest comes Bluemix itself) that lets you access your new app from the Internet. As you probably guessed, this URL must be unique, since the URL space is shared amongst all users.
+The **Name** is a simple name you can use to find this application the next time you come back to the Bluemix dashboard. **Host** partially defines the URL (the rest comes from Bluemix itself) that lets you access your new app from the Internet. As you probably guessed, this URL must be unique, since the URL space is shared amongst all users. Your default space should be okay, and you can leave the Datacache **Plan** set to *Free.*
 
 That's all there is to it! It takes a short while for the application to start up, but once it does a tile on the dashboard shows it running.
 
@@ -46,9 +44,9 @@ It's great that the application is running, but it's not very useful if you can'
 
 There are a lot of ways you can work with your application code, but one of the slickest is to use something called _auto-deploy_. With auto-deploy you can modify the code that is running in your app by simply pushing the changes to a Git repository. The mechanism that implements auto-deploy is provided by the IBM DevOps Services powered by JazzHub Build &amp; Deploy support, but more about that later.
 
-To enable automatic deployment, click on your Bluemix application and then **Add Git Integration**. With this, you get a Git repo that's populated with the code from the sample Java app.
+To enable automatic deployment, click on your Bluemix application and then **ADD GIT**. With this, you get a Git repo that's populated with the code from the sample Java app.
 
-![Add Git Integration][11]
+![Add Git][11]
 
 You may be asked to enter your password because DevOps Services must verify that it can act on your behalf, so enter your IBM id password and click **Sign In**.
 
@@ -108,7 +106,7 @@ Once everything is configured, click **REQUEST BUILD**. The page refreshes with 
 
 You can also click the app route in the panel to visit your app on the web.
 
-Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to spend. For more information on Bluemix pricing for any Service or Add-on, log in to Bluemix and click **CATALOG** at the top of the page. Click on a Service or Add-on's icon to learn more about it.
+Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accrue. For more information on Bluemix pricing for any Service or Add-on, log in to Bluemix and click **CATALOG** at the top of the page. Click on a Service or Add-on's icon to learn more about it.
 
 ---
 ##Push changes to the Git repository by using the command line
