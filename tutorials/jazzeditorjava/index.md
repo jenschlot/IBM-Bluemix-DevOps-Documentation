@@ -191,7 +191,7 @@ So just to round out the process, let's make one more modification to your appli
 
 From the Git Status page, fetch and then merge the change to your app.
 
-![Fetching and merging the change](/tutorials/jazzeditorjava/images/merge.png)
+![Fetching and merging the change](/tutorials/jazzeditorjava/images/merge.gif)
 
 Next, navigate through the directory tree until you get to the same file you worked on before (for example, <tt>WebContent/index.html</tt>), then simply edit in place.
 

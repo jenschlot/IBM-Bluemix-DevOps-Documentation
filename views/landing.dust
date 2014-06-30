@@ -5,7 +5,7 @@
 			<div class="landing-header-body jh-columns pll prl">
 				<div class="landing-header-left jh-col-12-6 prm">
 					<div class="landing-title">
-						<h1>Tutorials @ IBM DevOps Services</h1>
+						<h1>Tutorials</h1>
 					</div>
 					<div class="landing-intro">
 					</div>
@@ -152,7 +152,7 @@
 					<div class="tutorial-section">
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
-								<a href="/tutorials/jazzweb">
+								<a href="/tutorials/trackplan">
 									<h2 id="section-title-four">Getting started with tracking and planning in IBM DevOps Services</h2>
 								</a>
 							</div>
