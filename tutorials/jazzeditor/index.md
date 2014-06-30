@@ -25,6 +25,14 @@ Start by logging in to IBM Bluemix, which takes you to a dashboard:
 
 ![Bluemix dashboard](/tutorials/jazzeditor/images/bm-home.png)
 
+The dashboard gives you an overview of the active Bluemix space for your organization. 
+By default, the space is `dev` and the organization is the project creator's username. 
+For example, if `bob@example.com` logs in to Bluemix for the first time, Bob's active space is `dev` and Bobs organization 
+is `bob@example.com`.
+
+If you create additional organizations or spaces in Bluemix, 
+remember to be consistent as you follow our tutorials. If you stick to the default selections, you should be just fine.
+
 Click **CREATE AN APP** to choose different runtimes 
 (such as Java or Ruby), services (such as IBM DataCache or MongoDB), and boilerplates, 
 which are preconfigured application templates. 
