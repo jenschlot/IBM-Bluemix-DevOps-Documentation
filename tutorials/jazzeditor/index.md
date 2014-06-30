@@ -8,9 +8,9 @@ application monitoring, as well as capabilities from ecosystem partners and open
 all through an as-a-service model in the cloud.
 
 Before you can use the IBM Bluemix capabilities, you have to register. To register, go to the [IBM Bluemix home page](https://ace.ng.bluemix.net/) and 
-click **Sign up for the free beta**.
+click **Sign up for a free trial**.
 
-![Join us in beta](/tutorials/jazzeditor/images/bm-join.png)
+![Sign up for a free trial](/tutorials/jazzeditor/images/bm-join.png)
 
 After you register, the [IBM Bluemix site](https://ace.ng.bluemix.net/) offers helpful information about Bluemix:
 
@@ -21,26 +21,32 @@ After you register, the [IBM Bluemix site](https://ace.ng.bluemix.net/) offers h
 To get started now, 
 follow this workflow to create and deploy a new application.
 
-Start by signing in to IBM Bluemix, which takes you to a dashboard:
+Start by logging in to IBM Bluemix, which takes you to a dashboard:
 
 ![Bluemix dashboard](/tutorials/jazzeditor/images/bm-home.png)
 
-Click **Create an Application** to choose different runtimes 
+The dashboard gives you an overview of the active Bluemix space for your organization. 
+By default, the space is `dev` and the organization is the project creator's username. 
+For example, if `bob@example.com` logs in to Bluemix for the first time, Bob's active space is `dev` and Bobs organization 
+is `bob@example.com`.
+
+If you create additional organizations or spaces in Bluemix, 
+remember to be consistent as you follow our tutorials. If you stick to the default selections, you should be just fine.
+
+Click **CREATE AN APP** to choose different runtimes 
 (such as Java or Ruby), services (such as IBM DataCache or MongoDB), and boilerplates, 
 which are preconfigured application templates. 
 
 For this workflow, select the Node JS Web Starter boilerplate and review 
 its description:
 
-![Bluemix NodeJS app](/tutorials/jazzeditor/images/bm-web-starter.png)
-
 As you can see, the application is a simple Node.js web server that includes example code 
 that demonstrates the IBM DataCache service. 
 
-At this point, you are two clicks away from a running application:
+At this point, you are a click away from a running application:
 
-1. Click **CREATE APPLICATION**.
-2. Complete the **Name** and **Host** fields, and click **CREATE**.
+1. Complete the **Name** and **Host** fields.
+2. Click **CREATE**.
 
 The name is a descriptive name to identify the application on the 
 Bluemix dashboard. The host is a unique URL where you access your app. 
@@ -72,10 +78,10 @@ Git repository. The mechanism that implements auto-deployment is powered by
 the Build & Deploy capabilities of IBM DevOps Services.
 
 To enable auto-deployment, go to the Bluemix dashboard for your application and 
-click **Add Git Integration**. This single click in Bluemix gives you a Git repository that's 
+click **ADD GIT**. This single click in Bluemix gives you a Git repository that's 
 loaded with example code and a deployed application. 
 
-![Add Git Integration button](/tutorials/jazzeditor/images/bm-add-git-integration.png)
+![Add Git button](/tutorials/jazzeditor/images/bm-add-git-integration.png)
 
 
 You might need to enter your password to verify that DevOps Services can act on your behalf. Enter your IBM ID password and click **Sign In**.
