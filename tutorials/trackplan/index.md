@@ -1,3 +1,4 @@
+
 #Getting started with tracking and planning in IBM DevOps Services
 
 The Track & Plan Beta feature in IBM DevOps Services offers an easy way to manage any type of project by using an agile approach. After you enable the Track & Plan feature, you can start getting organized right away by creating and assigning work items for your project.
@@ -46,28 +47,28 @@ To try the Track & Plan feature, follow these instructions to start a simple, pu
  ##Create your first work items
 
 1. Click **TRACK & PLAN**. Review and close the message that welcomes you to the Track & Plan Beta.  
-**Note**: If you do not see the welcome message, you need to manually activate the Track & Plan Beta feature. Click the down arrow by **TRACK & PLAN** icon (<img src="/tutorials/trackplan/images/downarrow.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -5px;"> ) and click **Try the new Track & Plan Beta** to access the Settings. Select the **Try the new Track & Plan Beta** check box and click **SAVE**. Now, click **TRACK & PLAN** again.   
+**Note**: If you do not see the welcome message, you need to manually activate the Track & Plan Beta feature. Click the down arrow by **TRACK & PLAN** icon (<img src="/tutorials/trackplan/images/downarrow.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and click **Try the new Track & Plan Beta** to access the Settings. Select the **Try the new Track & Plan Beta** check box and click **SAVE**. Now, click **TRACK & PLAN** again.   
 2. Review the My Work view. From this view, you can see all the project work items that are assigned to you. Because you're the only person working on this project, you want to assign ownership of all work items to your Jazz user ID. The fastest way to do this is to create your work items from this page.
 2. Click in the **Create a Work Item** field and type a summary for the first work item: `Create a simple chat page for our site.` Press **Enter** to create the new task.  
-**Note**: The default work item type is **Task**.
-3. Now, add more parameters to your task. Use the icons in the title bar to set the priority to **High**. 
-4. Click the tag icon and type `website` in the displayed field. Press **Enter** to assign the tag.  
+**Note**: The default work item type is **Task** (<img src="/tutorials/trackplan/images/task.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">).
+3. Now, add more parameters to your task. Use the **Priority** icon (<img src="/tutorials/trackplan/images/nopriority.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) in the title bar to set the priority to **High**. 
+4. Click the tag icon (<img src="/tutorials/trackplan/images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and type `website` in the displayed field. Press **Enter** to assign the tag.  
 **Tip**: A tag can help you group related work items. For example, you can use filtering options to view only the items that have a certain tag.
 5. Type a summary for the next work item: `Incoming messages are not reaching other chat participants.`
 6. Now, hover over the icons under the summary.  
 ![Set Attributes at work item creation using these][5]  
 **Note**: You use these icons to set the work item attributes. Don't worry if you aren't sure about an attribute or think one might change, because you can always change it later.
 7. Use the icons to set these parameters for the work item:
- * Set the type to **Defect** 
- * Set the severity to **Major**   
+ * Set the type to **Defect** (<img src="/tutorials/trackplan/images/defect.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">)
+ * Set the severity (<img src="/tutorials/trackplan/images/severity.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) to **Major**   
 **Note**: You can only assign severity to defects.
- * Add a tag named `messages` 
- * Set the priority to **High**  
+ * Add a tag (<img src="/tutorials/trackplan/images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">)named `messages` 
+ * Set the priority (<img src="/tutorials/trackplan/images/priority.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) to **High**  
 **Tip**: Notice the new text after your summary. When you set an attribute, the text code for that attribute is added after the summary.  
 ![Defect summary appended with attribute codes][7]
 5. When you're finished, click **SAVE**.
-6. Click **Incoming Work** and evaluate your new work items. They are ranked by severity so that you know which tasks are most important. You can either send incoming work items to your backlog to be included on a sprint or you can trash them, which marks the work item as Invalid and moves it to the TRASHED tab.
-7. Click the **Triage to Backlog** icon for each work item.
+6. Click **Incoming Work** and evaluate your new work items. They are ranked by severity so that you know which tasks are most important. You can either send incoming work items to your backlog to be included on a sprint (<img src="/tutorials/trackplan/images/triagetobacklog.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) or you can trash (<img src="/tutorials/trackplan/images/trash.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) them, which marks the work item as Invalid and moves it to the TRASHED tab.
+7. Click the **Triage to Backlog** icon (<img src="/tutorials/trackplan/images/triagetobacklog.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) for each work item.
 
 ---
 <a name='create_work_items_in_the_backlog'></a>
@@ -77,14 +78,14 @@ You need to make a few more work items for your project.
  
 1. Click **Backlog**, and then click in the **Create a Work Item** field.
 2. Type a summary for the next work item: `As a user, I'd like your site to have a chat page.`  
-**Tip**: Notice that the **Type** icon has changed from **Task**. By typing `As a user`, you automatically assigned the **Story** attribute to this work item.
-3. Use the icons to finish setting the attributes. Make yourself the work item's owner, add a `website` tag, and set the priority to **Medium**. 
+**Tip**: Notice that the **Type** icon has changed from **Task** (<img src="/tutorials/trackplan/images/task.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">). By typing `As a user`, you automatically assigned the **Story** (<img src="/tutorials/trackplan/images/story.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) attribute to this work item.
+3. Use the icons to finish setting the attributes. Make yourself the work item's owner (<img src="/tutorials/trackplan/images/owner.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">), add a `website` tag (<img src="/tutorials/trackplan/images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">), and set the priority (<img src="/tutorials/trackplan/images/priority.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) to **Medium**. 
 4. Click **SAVE**.  
 **Tip**: You can set or change attributes of existing work items in several ways. For example, you can click the summary of your story to open the work item editor.   
      ![Work item editor page][8]    
 You can change or set any work item attribute from within this editor. You can change most of the attributes from the **OVERVIEW** tab. If you want to add a file, create a relationship with another work item, or add a subscriber, click **LINKS**. You can explore the other tabs later.  
 **Tip**: When you share work with a team, add more details about a work item to the **OVERVIEW** tab in the **DESCRIPTION** field.
-5. In the **Priority** field, change the priority to **High**. Now, click **Save** to capture your changes and click **Back to Backlog** (<img src="/tutorials/trackplan/images/backtobacklog.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -5px;"> ) to return to the backlog.
+5. In the **Priority** field, change the priority to **High**. Now, click **Save** to capture your changes and click **Back to Backlog** (<img src="/tutorials/trackplan/images/backtobacklog.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) to return to the backlog.
 6. Click in the story's title field. You can modify more attributes from this drop-down menu. Click **Priority: High** icon and set the priority to **Medium**. 
      ![Attribute modification icons and dropdown][9]
 7. Note the ID number of your story. For example, the story ID in the image is 1080.  
@@ -92,11 +93,11 @@ This number is unique to your project and helps you keep track of each work item
 8. Now, click in the **Type a work item summary** field and type `Configure a chat server using node.js.` 
 9. Slowly type `\*task` to assign the task type. Watch how the **Type** drop-down menu appears when you type the asterisk (\*).  
 **Tip**: If you prefer to keep your hands on the keyboard, you can enter most of the attributes by typing their text code instead of using the mouse. 
-10. Enter these attributes and then click SAVE:
+10. Enter these attributes and then click **SAVE**:
  * @:*yourJazzID* 
  * \#server 
  * $high 
-11. Click the **Add a child** icon in your story's attributes. Now, type `node` into the search field and select the **Configure a chat server using node.js.** task.
+11. Click the **Add a child** icon (<img src="/tutorials/trackplan/images/addachild.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) in your story's attributes. Now, type `node` into the search field and select the **Configure a chat server using node.js.** task.
 12. Notice that a plus sign appears beside the story. Click the plus sign to confirm that your new task is nested under your story.  
 **Note**: Notice that the task remains on your ranked list. This behavior lets you see the tasks that are associated with a story, but you can still rank the tasks individually.
 12. Make the "Create a simple chat page for our site" task a child of your story. Click the **Add Child** icon beside your story again, search for `website`, and select the task from the results.  
@@ -120,7 +121,8 @@ Before you populate a sprint, you should triage the work items in your backlog. 
 3. Now that you've ranked the work items, assign story points to the stories.  Then, click **0 pts** beside each story and select **20 pts** from the drop-down list.  
 **Note**: In agile projects, story points are a team-determined scale reflecting the effort required to implement a story. Remember that you can expand each story by clicking the plus sign to review its child items.
 4. Before you finish triaging your tasks, finish assigning work items owners. In the text filter field, type `@:unassigned` and press **Enter**.  
-5. Click the **Owner** icon for each filtered work item and select your name from the drop-down list. After you assign your items, delete `@:unassigned` from the query bar.  
+![Empty text filter field][14]
+5. Click the **Owner** icon for each filtered work item and select your name from the drop-down list. After you assign your items, delete `@:unassigned` from the text filter field.  
 **Tip**: If you are working with other team members, you can use this method to assign related work items to them.
 6. You should create time estimates to ensure you place an appropriate number of stories on a sprint. Click to expand the "Integrate OAuth to the chat site" item's drop-down menu and select **Estimate: Unassigned** from the drop-down menu.
 **Tip**: Remember to review your story points and work item owners when creating time estimates.
@@ -147,8 +149,8 @@ Now that you set up your sprint you're ready to start work.
 1. Click **Team's Work**. At first, you'll see all the team's work for the whole project. In this view, work items are grouped by owner, so you always know which tasks your team members own. Click **All Sprints** and select **Sprint 1** from the drop-down menu to hide items from other sprints so that you can focus on this sprint's work.  
 **Tip**: This view is useful when you share work with others.
 2. Click **My Work**. Because you own all the tasks and haven't started working on them, you can see them all in your Open lane.  
-**Note**: If you do not see both the Open and In Progress lanes, click **Display as Lanes** (<img src="/tutorials/trackplan/images/displaylanes.gif"  align="bottom"  style="display: inline; margin: 0px; border-style: none; margin-bottom: -5px;"> ) to switch from the list view.
-3. For the "Configure a chat server using node.js" task, click the **Status** icon and click **Start Working** from the pop-up menu.
+**Note**: If you do not see both the Open and In Progress lanes, click **Display as Lanes** (<img src="/tutorials/trackplan/images/displaylanes.gif"  align="bottom"  style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) to switch from the list view.
+3. For the "Configure a chat server using node.js" task, click the **Status** icon (<img src="/tutorials/trackplan/images/statusnew.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and click **Start Working** from the pop-up menu.
 4. Notice how this item moves from the Open lane to the In Progress lane.
 4. Just like in the Sprint Planning view, you can drag items between lanes. Drag the "Integrate OAuth to the chat site" task to the In Progress lane.
 5. As you work on your tasks that are in progress, update the number of hours spent on the task. Find the "Configure a chat server using node.js" task and click in its title bar to expand the drop-down menu. Use the **Time Spent** option to show that you've spent 16 hours on the task.
@@ -174,14 +176,14 @@ The best way to learn more about IBM DevOps Services Track & Plan feature is to 
 To activate Track & Plan with an IBM Bluemix project, follow these instructions.
 **Note**: If you do not have a Bluemix project, complete the [Getting Started with Bluemix and DevOps Services using Node.js][41] or [Getting Started with Bluemix and DevOps Services using Java][44].
 
-1. Log into Bluemix. Confirm that you are in the dev Space (<img src="/tutorials/trackplan/images/devspace.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -5px;"> )of your dashboard.
+1. Log into Bluemix. Confirm that you are in the dev Space (<img src="/tutorials/trackplan/images/devspace.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) of your dashboard.
 2. Click the application you want to use Track & Plan with.
-3. Click **CODE** (<img src="/tutorials/trackplan/images/code.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -5px;"> )to launch DevOps Services in a new browser tab.
+3. Click **CODE** (<img src="/tutorials/trackplan/images/code.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) to launch DevOps Services in a new browser tab.
 **Note**: If you do not see the **CODE** button, you need to create a Git repository. Click **ADD GIT**. Review the contents of the pop-up, then click **CONTINUE** and **CLOSE** to create a Git repository and link it to your project.
-4. From DevOps Services, click the **SETTINGS** icon. Click **OPTIONS** and select the **Enable Tracking & Planning** check box. Click **SAVE**.
+4. From DevOps Services, click the **SETTINGS** icon (<img src="/tutorials/trackplan/images/gearicon.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">). Click **OPTIONS** and select the **Enable Tracking & Planning** check box. Click **SAVE**.
 5. Click **BETA FEATURES** and select the **Try the new Track & Plan Beta** check box. Click **SAVE**.
 6. Return to your Bluemix tab and click **DASHBOARD**. Confirm that you are still in your dev Space.
-7. Click **Connect an Add-On** (<img src="/tutorials/trackplan/images/connectaddon.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -5px;"> ). Locate the DevOps section on the new page and click **Track & Plan**.
+7. Click **Connect an Add-On** (<img src="/tutorials/trackplan/images/connectaddon.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">). Locate the DevOps section on the new page and click **Track & Plan**.
      ![IBM DevOps Services Track & Plan add-on tile][20]
 8. After you review the contents of the pop-up, click **CREATE**.
 9. Notice that the Track & Plan add-on is listed as an add-on. Click **Track & Plan** and confirm that your project is listed.
@@ -218,7 +220,7 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 [11]: /tutorials/trackplan/images/rankedlist.gif
 [12]: /tutorials/trackplan/images/estimateunassigned.gif
 [13]: /tutorials/trackplan/images/editsprints.gif
-
+[14]: /tutorials/trackplan/images/querybar.gif
 [15]: https://hub.jazz.net/tutorials/jazzeditor
 [16]: https://hub.jazz.net/tutorials/jazzeditorjava
 [17]: https://ace.ng.bluemix.net/
