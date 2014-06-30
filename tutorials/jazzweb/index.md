@@ -25,7 +25,17 @@ Simple deployment works by directly deploying the contents of the Git repository
 
 ![Sentiment Analysis Sample App][7]
 
-Next, you'll add some JSHint validation to make sure that your code is prim, proper, and error free. The simple deployer doesn't support that sort of thing. You need to configure a builder, which is only available in **Advanced** mode. 
+Next, you'll add some JSHint validation to make sure that your code is prim, proper, and error free. The simple deployer doesn't support that sort of thing. You need to configure a builder, which is only available in **Advanced** mode. Before you go there, though, you need to enable the Delivery Pipeline add-on in Bluemix. 
+
+Click **Manage** to open your app's Bluemix overview.
+Then:
+
+1. Choose **CONNECT AN ADD-ON** from your new app's dashboard.
+2. Click **Delivery Pipeline** from the list of Add-Ons (or just type the name in the search bar). 
+4. Make sure the correct space is selected, and that your app's name is in the **App** box. It should be there by default.
+5. **CREATE** the add-on. 
+
+The Delivery Pipeline Add-on will be added to your Bluemix space, ready to spring into action when you need it later.  
 
 Click **CODE** at the top of the overview, then open **Build &amp; Deploy** again. Click **Advanced**.
 
@@ -50,6 +60,8 @@ To open the app, click the URL below its name. Click the gear button indicated b
 [Bluemix][11] allows you to manage the live application instance. The **Applications** tab on the **Bluemix Dashboard** has options to start, stop, and delete the application. The **Services** tab has options to add various services such as MongoDB, SSO, MapReduce, and more.
 
 ![Stopping a Bluemix app][12]
+
+Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to spend. For more information on Bluemix pricing for any Service or Add-on, log in to Bluemix and click **CATALOG** at the top of the page. Click on a Service or Add-on's icon to learn more about it.
 
 ---
 ## Editing the Sample Application
