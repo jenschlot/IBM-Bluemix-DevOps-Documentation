@@ -5,7 +5,7 @@ This tutorial shows you how to use DevOps Services to develop an application in 
 ---
 ## Start with a sample project
 
-Let's start with the sample project, [Sentiment Analysis App][2]. This is a hosted Node.js Git project that's configured with a Grunt build file to work out of the box with advanced building and deployment. Clicking **Edit Code** opens the Code Editor, where you can then click **Fork** to make your very own version of it.
+Let's start with the sample project, [Sentiment Analysis App][2]. This app is a hosted Node.js Git project that's configured with a Grunt build file, so the it's ready to use with Advanced building and deployment. The original sample is in a developer's project space, so you need to make a copy. Clicking **Edit Code** opens the Code Editor, where you can then click **Fork** to make your very own version of it.
 
 ![Fork button][3]
 
