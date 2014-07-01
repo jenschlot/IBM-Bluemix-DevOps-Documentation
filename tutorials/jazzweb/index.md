@@ -59,7 +59,7 @@ This is certainly exciting, but you probably haven't come here to just build and
 
 Click **Edit Code** again, and then open the file `app.js` by clicking on it in the side panel. Notice that the editor has recognized and highlighted the code as JavaScript.
 
-Let's change how the app greets its users with a little help from the editor. Click **Edit**, then **Find**. Search for the phrase "Welcome to the Twitter Sentiment Analysis app." You don't have to type the whole thing either, as the Web IDE will key in on that as a unique phrase in just a few characters:
+Let's change how the app greets its users with a little help from the editor. Click **Edit**, then **Find**. Search for the phrase "Welcome to the Twitter Sentiment Analysis app."
 
 ![Configure Builder][13]
 
