@@ -159,6 +159,9 @@ matches the commit operation you made from the command line. The entry shows tha
 Next, look at your running app by clicking the link in the **Deploy to** field and verify
 that the title was updated. You might need to refresh your browser to see the updates.
 
+When you click the link in the **Deploy to**field, the Bluemix application dashboard opens. 
+Then when you click the URL on the dashboard, it takes you to your updated running application.
+
 **Tip**: The original title was Application Example: run DataCache using REST API. 
 
 
@@ -236,6 +239,9 @@ These are the same steps that you performed with the command line.
 To see that your app was updated again, 
 go to the Build & Deploy page, wait until it shows that the 
 application was deployed again, and then click the link in the **Deploy to** field.
+
+The Bluemix application dashboard opens. When you click the URL on the dashboard, it takes you to your updated running application.
+
 
 ![Our really cool app](/tutorials/jazzeditor/images/really-cool.png)
 
