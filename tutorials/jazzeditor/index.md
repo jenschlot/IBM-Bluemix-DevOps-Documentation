@@ -60,7 +60,7 @@ but when it does, a tile on the dashboard shows that it's running.
 ![Bluemix Application tile](/tutorials/jazzeditor/images/bm-app-panel.png)
 
 Click the URL on the tile to open the application dashboard. 
-When you click the URL on the dashboard, it takes you to your already Internet-visible, running application.
+When you click the URL on the application dashboard, it takes you to your already Internet-visible, running application.
 
  
 ![A running web application](/tutorials/jazzeditor/images/bm-example.png)
@@ -102,7 +102,7 @@ With these few clicks, you created a Git repository, loaded it with the example 
 ![Git repo success message dialog](/tutorials/jazzeditor/images/bm-git-repo-success-msg.png)
 
 
-To see the status of the deployed app, go to the Bluemix dashboard and click **CODE**.
+To see the status of the deployed app, go to the Bluemix application dashboard and click **CODE**.
 
 ![CODE button](/tutorials/jazzeditor/images/bm-code-button.png)
 
@@ -164,7 +164,7 @@ Next, look at your running app and verify
 that the title was updated. You might need to refresh your browser to see the updates.
 
 Click the link in the **Deploy to** field. The Bluemix application dashboard opens. 
-When you click the URL on the dashboard, it takes you to your updated running application.
+When you click the URL on the application dashboard, it takes you to your updated running application.
 To get to your running application faster, just click the URL on the same line as the 
 **Deploy to** field.
 
@@ -230,15 +230,16 @@ You can then use the integrated Git support to push the change. Switch to the Gi
 
 ![Orion Git repository icon](/tutorials/jazzeditor/images/orion-git-status.png)
 
-Select the changed files:
+Select the changed files, which include project files from when you created the Git repository and
+your changed title file:
 
 ![Orion Git staging](/tutorials/jazzeditor/images/orion-git-stage.png)
 
-Commit the change:
+Commit the changes:
 
 ![Orion Git commit](/tutorials/jazzeditor/images/orion-commit.png)
 
-Push the change:
+Push the changes:
 
 ![Orion Git push](/tutorials/jazzeditor/images/orion-push.png)
 
