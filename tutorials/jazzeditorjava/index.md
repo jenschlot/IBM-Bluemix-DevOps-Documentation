@@ -4,9 +4,9 @@
 
 *[IBM Bluemix][1] is an open-standards, cloud-based platform for building, managing and running apps of all types (web, mobile, big data, new smart devices). Capabilities include Java, mobile backend development, application monitoring, as well as capabilities from ecosystem partners and open source, all through an as-a-service model in the cloud.*
 
-If you haven't already done so, the first step to use these capabilities is to register. Bluemix is currently in beta, so you can register by going to the [Bluemix home page][1] and clicking **Sign up for the free beta**.
+If you haven't already done so, the first step to use these capabilities is to register. Bluemix is currently in beta, so you can register by going to the [Bluemix home page][1] and clicking **Sign up for a free trial**.
 
-![Join us in beta][2]
+![Sign up for a free trial][2]
 
 Once you've registered, there is lots of helpful information available on the [Bluemix][1] site, such as ...
 
@@ -18,6 +18,10 @@ Once you've registered, there is lots of helpful information available on the [B
 You can start by signing in to [Bluemix][1], which takes you to the _Dashboard_:
 
 ![Bluemix Dashboard][6]
+
+The dashboard gives you an overview of the active Bluemix space for your organization. By default, the space is `dev` and the organization is the project creator's username. For example, if `bob@example.com` logs in to Bluemix for the first time, Bob's active space is `dev` and Bobs organization is `bob@example.com`.
+
+If you create additional organizations or spaces in Bluemix, remember to use the same ones as you follow our tutorials. If you stick to the default selections, you should be just fine.
 
 Clicking **CREATE AN APP** lets you choose different kinds of Runtimes (like Java or Ruby), Services (such as DataCache or Mongo) and Boilerplates, which are essentially pre-configured application templates that are great ways to get started. Select the **Java Web Starter** Boilerplate, which opens a panel that displays more information about what it does:
 
@@ -36,7 +40,7 @@ That's all there is to it! It takes a short while for the application to start u
 
 ![An example app panel][9]
 
-When you click the URL on the tile, it takes you to your already Internet-visible, running application.
+When you click the URL on the dashboard, it takes you to your already Internet-visible, running application.
 
 ![A running web application][10]
 
@@ -96,7 +100,7 @@ First, let's configure the builder. The default settings will work for this proj
 
 Then, go to the Deployer. As you might guess, this is what you configure to _deploy_ to Bluemix. You can give the app a name; by default, this comes from the manifest, which is a file that tells Bluemix how to deploy your application. Let's leave it blank so that it will use the name in the manifest.
 
-Leave the organization as it is.You can choose which space you want, or create a new one. Leave it as dev. The script section shows the deployment script that will be executed to deploy the application. The `CF_APP` variable resolves to the app name. In this case, it will resolve to the name in the manifest as we did not specify a different app name.
+Leave the organization as it is. You can choose which space you want, or create a new one. Leave it as dev. The script section shows the deployment script that will be executed to deploy the application. The `CF_APP` variable resolves to the app name. In this case, it will resolve to the name in the manifest as we did not specify a different app name.
 
 ![Configuring the Deployer][19]
 
@@ -177,7 +181,7 @@ If you want to know more about DevOps Services, you can start by checking out th
 
 So far you've used command line tools to modify your code and push it to the repository, and you've seen that this works just fine. However, there is another way you can work with DevOps Services.
 
-If you go back to the deployment page, you can see a button labeled **Edit Code**. Clicking this button, takes you to a complete online integrated development environment (IDE), based on the work of the [ Orion][28] open source project. Here's what it looks like when you open the example project:
+If you go back to the deployment page, you can see a button labeled **EDIT CODE**. Clicking this button, takes you to a complete online integrated development environment (IDE), based on the work of the [ Orion][28] open source project. Here's what it looks like when you open the example project:
 
 ![Orion at DevOps Services][29]
 
