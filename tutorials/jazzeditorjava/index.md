@@ -19,7 +19,7 @@ You can start by signing in to [Bluemix][1], which takes you to the _Dashboard_:
 
 ![Bluemix Dashboard][6]
 
-The dashboard gives you an overview of the active Bluemix space for your organization. By default, the space is `dev` and the organization is the project creator's username. For example, if `bob@example.com` logs in to Bluemix for the first time, Bob's active space is `dev` and Bobs organization is `bob@example.com`.
+The dashboard gives you an overview of the active Bluemix space for your organization. By default, the space is `dev` and the organization is the project creator's username. For example, if `sara@example.com` logs in to Bluemix for the first time, Sara's active space is `dev` and her organization is `sara@example.com`.
 
 If you create additional organizations or spaces in Bluemix, remember to use the same ones as you follow our tutorials. If you stick to the default selections, you should be just fine.
 
@@ -34,7 +34,7 @@ At this point, you're just a few clicks away from having a running application.
 In the *Create an app* panel, enter a **Name** for your app. Enter a different host if Bluemix indicates that a host route is taken (or if you just want a host that's different from the app name).
 ![Bluemix Create App dialog][8]
 
-The **Name** is a simple name you can use to find this application the next time you come back to the Bluemix dashboard. **Host** partially defines the URL (the rest comes from Bluemix itself) that lets you access your new app from the Internet. As you probably guessed, this URL must be unique, since the URL space is shared amongst all users. Your default space should be okay, and you can leave the Datacache **Plan** set to *Free.*
+The **Name** is a simple name you can use to find this application the next time you come back to the Bluemix dashboard. **Host** partially defines the URL (the rest comes from Bluemix itself) that lets you access your new app from the Internet. As you probably guessed, this URL must be unique, since the URL space is shared among all users. Your default space should be okay. In *Selected Plans*, leave **Liberty for Java™** as *Default* and **Datacache** as *Free.*
 
 That's all there is to it! It takes a short while for the application to start up, but once it does a tile on the dashboard shows it running.
 
