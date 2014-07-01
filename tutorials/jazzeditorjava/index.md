@@ -4,9 +4,9 @@
 
 *[IBM Bluemix][1] is an open-standards, cloud-based platform for building, managing and running apps of all types (web, mobile, big data, new smart devices). Capabilities include Java, mobile backend development, application monitoring, as well as capabilities from ecosystem partners and open source, all through an as-a-service model in the cloud.*
 
-If you haven't already done so, the first step to use these capabilities is to register. Bluemix is currently in beta, so you can register by going to the [Bluemix home page][1] and clicking **Sign up for the free beta**.
+If you haven't already done so, the first step to use these capabilities is to register. Bluemix is currently in beta, so you can register by going to the [Bluemix home page][1] and clicking **Sign up for a free trial**.
 
-![Join us in beta][2]
+![Sign up for a free trial][2]
 
 Once you've registered, there is lots of helpful information available on the [Bluemix][1] site, such as ...
 
