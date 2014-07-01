@@ -50,7 +50,7 @@ To open the app, click the URL below its name. Click the gear button indicated b
 
 ![Stopping a Bluemix app][12]
 
-Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accrue. For more information on Bluemix pricing for any Service or Add-on, log in to Bluemix and click **CATALOG** at the top of the page. Click on a Service or Add-on's icon to learn more about it.
+Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service or Add-on, visit the [Bluemix pricing page](https://ace.ng.bluemix.net/#/pricing).
 
 ---
 ## Editing the Sample Application
