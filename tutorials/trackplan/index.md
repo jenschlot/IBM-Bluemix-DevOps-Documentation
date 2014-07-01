@@ -62,7 +62,7 @@ To try the Track & Plan feature, follow these instructions to start a simple, pu
  * Set the type to **Defect** (<img src="/tutorials/trackplan/images/defect.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">)
  * Set the severity (<img src="/tutorials/trackplan/images/severity.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) to **Major**   
 **Note**: You can only assign severity to defects.
- * Add a tag (<img src="/tutorials/trackplan/images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">)named `messages` 
+ * Add a tag (<img src="/tutorials/trackplan/images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) named `messages` 
  * Set the priority (<img src="/tutorials/trackplan/images/priority.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) to **High**  
 **Tip**: Notice the new text after your summary. When you set an attribute, the text code for that attribute is added after the summary.  
 ![Defect summary appended with attribute codes][7]
@@ -91,7 +91,7 @@ You can change or set any work item attribute from within this editor. You can c
 7. Note the ID number of your story. For example, the story ID in the image is 1080.  
 This number is unique to your project and helps you keep track of each work item. If you know the ID for a particular work item, you can easily find it by using the search function above the view list or you can add relationships to it.
 8. Now, click in the **Type a work item summary** field and type `Configure a chat server using node.js.` 
-9. Slowly type `\*task` to assign the task type. Watch how the **Type** drop-down menu appears when you type the asterisk (\*).  
+9. Slowly type `*task` to assign the task type. Watch how the **Type** drop-down menu appears when you type the asterisk (\*).  
 **Tip**: If you prefer to keep your hands on the keyboard, you can enter most of the attributes by typing their text code instead of using the mouse. 
 10. Enter these attributes and then click **SAVE**:
  * @:*yourJazzID* 
@@ -115,7 +115,7 @@ This number is unique to your project and helps you keep track of each work item
 
 Before you populate a sprint, you should triage the work items in your backlog. If you use agile management techniques with your projects, you probably use a similar process during your sprint planning meetings.
 
-1. Collapse the parent items, and notice how each work item's rank is **Not Ranked**. You can easily change this status. Drag the "Create a simple chat page for our site" task to the top of the list and see how its rank changes to 1. 
+1. Collapse the parent items and notice how each work item's rank is **Not Ranked**. You can easily change this status. Drag the "Create a simple chat page for our site" task to the top of the list and see how its rank changes to 1. 
 2. Rank the rest of the work items in this order: 
      ![Ranked work items in the backlog][11]
 3. Now that you've ranked the work items, assign story points to the stories.  Then, click **0 pts** beside each story and select **20 pts** from the drop-down list.  
@@ -171,18 +171,18 @@ The Track & Plan feature makes it easy for you to track your sprint's work as yo
 <a name='activate_track&plan_in_your_IBM_bluemix_project'></a>
 ##Activate Track & Plan in your IBM Bluemix project
 
-The best way to learn more about IBM DevOps Services Track & Plan feature is to use it in your own projects. 
+The best way to learn more about the IBM DevOps Services Track & Plan feature is to use it in your own projects. 
 
 To activate Track & Plan for an IBM Bluemix project, follow these instructions.  
 **Note**: If you do not have a Bluemix project, complete the [Getting Started with Bluemix and DevOps Services using Node.js][41] or [Getting Started with Bluemix and DevOps Services using Java][44].
 
-1. Log into [Bluemix][21]. Confirm that you are in the dev Space (<img src="/tutorials/trackplan/images/devspace.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) of your dashboard.
+1. Log into [Bluemix][21], which takes you to your dashboard.
 2. Click the application you want to use Track & Plan with.
 3. Click **CODE** (<img src="/tutorials/trackplan/images/code.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) to launch DevOps Services in a new browser tab.  
 **Note**: If you do not see the **CODE** button, you need to create a DevOps Services project for your app. Click **ADD GIT**. Review the contents of the pop-up, then click **CONTINUE** and **CLOSE** to create a linked Git repository and DevOps Services project for your application.
 4. From DevOps Services, click the **SETTINGS** icon (<img src="/tutorials/trackplan/images/gearicon.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">). Click **OPTIONS** and select the **Enable Track & Plan** check box. Click **SAVE**.
 5. Click **BETA FEATURES** and select the **Try the new Track & Plan Beta** check box. Click **SAVE**.
-6. Return to your Bluemix tab and click **DASHBOARD**. Confirm that you are still in your dev Space.
+6. Return to your Bluemix tab and click **DASHBOARD**.
 7. Expand **ADD-ONS** and confirm that Track & Plan is not listed.  
 **Note**: If you see Track & Plan, skip the next two steps.
 7. Click **Connect an Add-On** (<img src="/tutorials/trackplan/images/connectaddon.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">). Locate the DevOps section on the new page and click **Track & Plan**.
