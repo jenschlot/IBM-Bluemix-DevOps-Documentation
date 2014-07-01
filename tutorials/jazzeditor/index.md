@@ -3,8 +3,8 @@
 ##Create an application with IBM Bluemix
 
 [IBM Bluemix](https://ace.ng.bluemix.net/) is an open-standards, cloud-based platform for building, managing, and running all types
-of applications (mobile, smart devices, web, big data). The platform includes capabilities for Java, mobile back-end development, 
-application monitoring, as well as capabilities from ecosystem partners and open source, 
+of applications (mobile, smart devices, web, big data). Capabilities include Java, mobile back-end development, 
+application monitoring, as well as features from ecosystem partners and open source, 
 all through an as-a-service model in the cloud.
 
 Before you can use the IBM Bluemix capabilities, you have to register. To register, go to the [IBM Bluemix home page](https://ace.ng.bluemix.net/) and 
@@ -31,9 +31,9 @@ For example, if `bob@example.com` logs in to Bluemix for the first time, Bob's a
 is `bob@example.com`.
 
 If you create additional organizations or spaces in Bluemix, 
-remember to be consistent as you follow our tutorials. If you stick to the default selections, you should be just fine.
+remember to use the same ones as you follow our tutorials. If you stick to the default selections, you should be just fine.
 
-Click **CREATE AN APP** to choose different runtimes 
+Click **CREATE AN APP** to choose particular runtimes 
 (such as Java or Ruby), services (such as IBM DataCache or MongoDB), and boilerplates, 
 which are preconfigured application templates. 
 
@@ -60,7 +60,8 @@ but when it does, a tile on the dashboard shows that it's running.
 
 ![Bluemix Application tile](/tutorials/jazzeditor/images/bm-app-panel.png)
 
-When you click the URL on the tile, it takes you to your already Internet-visible, running application.
+Click the URL on the tile to open the application dashboard. 
+When you click the URL on the dashboard, it takes you to your already Internet-visible, running application.
 
  
 ![A running web application](/tutorials/jazzeditor/images/bm-example.png)
@@ -117,7 +118,7 @@ A page opens where you can configure and see the deployment status for the proje
 
 **Tip:** If you're curious, the **ADVANCED** option 
 enables you to add a build step, which is useful for Java applications, and to control 
-additional deployment options. But those options are more advanced than this basic workflow.
+additional deployment options. However, those options are more advanced than this basic workflow.
 
 To change the deployment settings, you click **CONFIGURE**. To manage your application in 
 Bluemix, you click **MANAGE**. You can request a build of your application by clicking **REQUEST BUILD**.
@@ -183,10 +184,10 @@ for application development:
 
 To learn about all the features, see the [IBM DevOps Services website](https://hub.jazz.net/learn). 
 
-You've already used the command line modify your code and push it to the repository. 
+You've already used the command line to modify your code and push it to the repository. 
 Now you can use the Web IDE in DevOps Services to do the same thing.
 
-If you go back to the deployment page, you can click **Edit Code** to access the complete, integrated Web IDE that's 
+If you go back to the deployment page, you can click **EDIT CODE** to access the complete, integrated Web IDE that's 
 based on the [Eclipse Orion](http://orion.eclipse.org/) open-source project. 
 
 Here's what the Web IDE looks like with the example project open:
@@ -210,7 +211,7 @@ On the Git Repository page, merge the change that you made to the title.
 
 ![Orion Git merge](/tutorials/jazzeditor/images/orion-git-merge.png)
 
-Next, use the navigation tree to find the file that you modified 
+Next, click the pencil icon in the left bar to get back to the edit page, and then use the navigation tree to find the file that you modified 
 before (for example, `views/index.ejs`) and edit it in the integrated editor.
 
 ![Orion editing index](/tutorials/jazzeditor/images/orion-really-cool.png)
@@ -232,7 +233,9 @@ Push the change:
 ![Orion Git push](/tutorials/jazzeditor/images/orion-push.png)
 
 These are the same steps that you performed with the command line. 
-To see that your app was updated again, go to the Build & Deploy page and click the link in the **Deploy to** field.
+To see that your app was updated again, 
+go to the Build & Deploy page, wait until it shows that the 
+application was deployed again, and then click the link in the **Deploy to** field.
 
 ![Our really cool app](/tutorials/jazzeditor/images/really-cool.png)
 
