@@ -154,7 +154,7 @@ Now that you set up your sprint you're ready to start work.
 4. Notice how this item moves from the Open lane to the In Progress lane.
 4. Just like in the Sprint Planning view, you can drag items between lanes. Drag the "Integrate OAuth to the chat site" task to the In Progress lane.
 5. As you work on your tasks that are in progress, update the number of hours spent on the task. Find the "Configure a chat server using node.js" task and click in its title bar to expand the drop-down menu. Use the **Time Spent** option to show that you've spent 16 hours on the task.
-6. Find the the "Configure a chat server using node.js" task. Click its **Status** icon and select **Complete** from the pop-up menu to close the task.  
+6. Find the the "Configure a chat server using node.js" task. Click its **Status** icon (<img src="/tutorials/trackplan/images/statusopen.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and select **Complete** from the pop-up menu to close the task.  
 **Tip**: You can complete this process from the Team's Work view, too. You might find the ability to assign hours and complete tasks useful during your daily scrum meeting.  
 
 The Track & Plan feature makes it easy for you to track your sprint's work as you complete planned tasks. It's also easy to create and address new work items.
@@ -173,20 +173,22 @@ The Track & Plan feature makes it easy for you to track your sprint's work as yo
 
 The best way to learn more about IBM DevOps Services Track & Plan feature is to use it in your own projects. 
 
-To activate Track & Plan with an IBM Bluemix project, follow these instructions.
+To activate Track & Plan for an IBM Bluemix project, follow these instructions.  
 **Note**: If you do not have a Bluemix project, complete the [Getting Started with Bluemix and DevOps Services using Node.js][41] or [Getting Started with Bluemix and DevOps Services using Java][44].
 
-1. Log into Bluemix. Confirm that you are in the dev Space (<img src="/tutorials/trackplan/images/devspace.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) of your dashboard.
+1. Log into [Bluemix][21]. Confirm that you are in the dev Space (<img src="/tutorials/trackplan/images/devspace.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) of your dashboard.
 2. Click the application you want to use Track & Plan with.
-3. Click **CODE** (<img src="/tutorials/trackplan/images/code.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) to launch DevOps Services in a new browser tab.
-**Note**: If you do not see the **CODE** button, you need to create a Git repository. Click **ADD GIT**. Review the contents of the pop-up, then click **CONTINUE** and **CLOSE** to create a Git repository and link it to your project.
-4. From DevOps Services, click the **SETTINGS** icon (<img src="/tutorials/trackplan/images/gearicon.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">). Click **OPTIONS** and select the **Enable Tracking & Planning** check box. Click **SAVE**.
+3. Click **CODE** (<img src="/tutorials/trackplan/images/code.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) to launch DevOps Services in a new browser tab.  
+**Note**: If you do not see the **CODE** button, you need to create a DevOps Services project for your app. Click **ADD GIT**. Review the contents of the pop-up, then click **CONTINUE** and **CLOSE** to create a linked Git repository and DevOps Services project for your application.
+4. From DevOps Services, click the **SETTINGS** icon (<img src="/tutorials/trackplan/images/gearicon.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">). Click **OPTIONS** and select the **Enable Track & Plan** check box. Click **SAVE**.
 5. Click **BETA FEATURES** and select the **Try the new Track & Plan Beta** check box. Click **SAVE**.
 6. Return to your Bluemix tab and click **DASHBOARD**. Confirm that you are still in your dev Space.
+7. Expand **ADD-ONS** and confirm that Track & Plan is not listed.  
+**Note**: If you see Track & Plan, skip the next two steps.
 7. Click **Connect an Add-On** (<img src="/tutorials/trackplan/images/connectaddon.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">). Locate the DevOps section on the new page and click **Track & Plan**.
      ![IBM DevOps Services Track & Plan add-on tile][20]
 8. After you review the contents of the pop-up, click **CREATE**.
-9. Notice that the Track & Plan add-on is listed as an add-on. Click **Track & Plan** and confirm that your project is listed.
+9. Notice that the Track & Plan add-on is listed. Click **Track & Plan** and confirm that your project's add-on state is ON.
 10. Return to your DevOps services browser tab and click **TRACK & PLAN**. You're ready to begin planning.
 
 ---
@@ -227,6 +229,7 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 [18]: https://www.ibmdw.net/answers?community=jazzhub (DevOps Services forum)
 [19]: mailto:hub%40jazz.net
 [20]: /tutorials/trackplan/images/taptile.gif 
+[21]: https://ace.ng.bluemix.net/ (Log into Bluemix)
 [40]: /tutorials/jazzrtc (Developing Bluemix applications in Java with Eclipse and DevOps Services)
 [41]: /tutorials/jazzeditor (Getting Started with Bluemix and DevOps Services using Node.js)
 [42]: /tutorials/clients (Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services)
