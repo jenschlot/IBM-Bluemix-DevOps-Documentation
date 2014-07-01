@@ -50,6 +50,7 @@ At this point, you are a click away from a running application:
 
 The name is a descriptive name to identify the application on the 
 Bluemix dashboard. The host is a unique URL where you access your app. 
+Your default space is fine, and you can leave the Datacache **Plan** set to *Free*.
 
 
 ![Bluemix Create App dialog](/tutorials/jazzeditor/images/bm-create.png)
@@ -120,6 +121,10 @@ A page opens where you can configure and see the deployment status for the proje
 enables you to add a build step, which is useful for Java applications, and to control 
 additional deployment options. However, those options are more advanced than this basic workflow.
 
+Notice the warning message on this page about outgoing changes. These are project
+files that are created when you created your Git repository project. 
+You'll check in those files later in this tutorial.
+
 To change the deployment settings, you click **CONFIGURE**. To manage your application in 
 Bluemix, you click **MANAGE**. You can request a build of your application by clicking **REQUEST BUILD**.
 
@@ -154,13 +159,16 @@ Build & Deploy page, you should see something similar to this image:
 ![Auto-deploy in action](/tutorials/jazzeditor/images/jh-auto-deployed.png)
 
 The top of the **Recent auto-deployments** list shows an entry with a comment that 
-matches the commit operation you made from the command line. The entry shows that your app is running the code that you pushed.
+matches the commit operation you made from the command line. 
+The entry shows that your app is running the code that you pushed.
 
 Next, look at your running app by clicking the link in the **Deploy to** field and verify
 that the title was updated. You might need to refresh your browser to see the updates.
 
-When you click the link in the **Deploy to**field, the Bluemix application dashboard opens. 
+When you click the link in the **Deploy to** field, the Bluemix application dashboard opens. 
 Then when you click the URL on the dashboard, it takes you to your updated running application.
+To get to your running application faster, just click the URL on the same line as the 
+**Deploy to** field.
 
 **Tip**: The original title was Application Example: run DataCache using REST API. 
 
@@ -171,6 +179,7 @@ You can continue to modify the example code and push the changes to the
 Git repository as often as you like. If your project and scope of work grows, you can add more people to the 
 project and everyone can push changes to the repository. Standard repository operations and 
 auto-deployment are all you need to ensure that the application's always running.
+
 
 ---
 ##Push changes to the Git repository by using the Web IDE
@@ -238,9 +247,9 @@ Push the change:
 These are the same steps that you performed with the command line. 
 To see that your app was updated again, 
 go to the Build & Deploy page, wait until it shows that the 
-application was deployed again, and then click the link in the **Deploy to** field.
+application was deployed again, and then click the URL link next to the value in the **Deploy to** field.
 
-The Bluemix application dashboard opens. When you click the URL on the dashboard, it takes you to your updated running application.
+When you click the URL you see your updated running application.
 
 
 ![Our really cool app](/tutorials/jazzeditor/images/really-cool.png)
