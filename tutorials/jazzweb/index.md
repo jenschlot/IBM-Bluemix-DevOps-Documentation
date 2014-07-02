@@ -5,7 +5,7 @@ This tutorial shows you how to use DevOps Services to develop an application in 
 ---
 ## Start with a sample project
 
-Let's start with the sample project, [Sentiment Analysis App][2]. This app is a hosted Node.js Git project that's configured with a Grunt build file, so the it's ready to use with Advanced building and deployment. The original sample is in a developer's project space, so you need to make a copy. Clicking **Edit Code** opens the Code Editor, where you can then click **Fork** to make your very own version of it.
+Let's start with the sample project, [Sentiment Analysis App][2]. This app is a hosted Node.js Git project that's configured with a Grunt build file, so the it's ready to use with Advanced Build & Deploy. You need to make your own copy of it. Clicking **Edit Code** opens the Code Editor, where you can then click **Fork** to get started.
 
 ![Fork button][3]
 
@@ -92,7 +92,7 @@ Deploying a DevOps Services project from the Web IDE requires the project to hav
 ---
 ## Manual Deployment
 
-In the Web IDE, you can use the Deploy button to manually deploy whatever you are working in the Web IDE to Bluemix. It is important to remember that the Deploy button in the Web IDE deploys the current state of your code in your Web IDE, while Auto-Deploy deploys from what is checked into the repository.
+In the Web IDE, after opening the folder that contains your app' `manifest.yml` file, you can use the Deploy button to manually deploy whatever you are working in the Web IDE to Bluemix. It is important to remember that the Deploy button in the Web IDE deploys the current state of your code in your Web IDE, while Auto-Deploy deploys from what is checked into the repository.
 
 ![About to click the Deploy button in the Web IDE][18]
 
