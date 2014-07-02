@@ -98,7 +98,7 @@ First, let's configure the builder. The default settings will work for this proj
 
 ![Configuring the Builder][18]
 
-Then, go to the Deployer. As you might guess, this is what you configure to _deploy_ to Bluemix. You can give the app a name; by default, this comes from the manifest, which is a file that tells Bluemix how to deploy your application. Let's leave it blank so that it will use the name in the manifest.
+Then, go to the Deployer. As you might guess, this is what you configure to _deploy_ to Bluemix. You can give the app a name; by default, this comes from the manifest file, `manifest.yml`,which tells Bluemix how to deploy your application. Let's leave it blank so that it will use the name in the manifest.
 
 Leave the organization as it is. You can choose which space you want, or create a new one. Leave it as dev. The script section shows the deployment script that will be executed to deploy the application. The `CF_APP` variable resolves to the app name. In this case, it will resolve to the name in the manifest as we did not specify a different app name.
 
@@ -117,7 +117,7 @@ Building and deploying apps with Bluemix can result in charges to your Bluemix b
 
 You now have a Git repo with example code. Lots of tools can be used to work with Git, including all of the major desktop IDEs and even directly from the web using the Web IDE, but for now, let's just use the command line Git support.
 
-(If you don't have Git, you can find information on installing it at [Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Service][20].)
+**Note:** If you don't have Git, you can find information on installing it at [Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Service][20]. If you want to learn more about working with Git, you can browse the [Git documentation pages](http://git-scm.com/doc).
 
 First, clone the repo using the URL, which you can find on the Bluemix application's dashboard _or_ the DevOps project's overview:
 
@@ -171,7 +171,7 @@ If you want to configure desktop clients to work with your git repository, check
 
 In addition to build and deploy, DevOps Services provides a lot of other capabilities that are useful for application development:
 
-  * Free public project hosting
+  * Hosting for public projects
   * Multiple source code repositories
   * Support for teams doing Agile development
   * Web based development tools with customizations specifically for working with Bluemix
@@ -185,11 +185,13 @@ If you go back to the deployment page, you can see a button labeled **EDIT CODE*
 
 ![Orion at DevOps Services][29]
 
-From this environment, you can edit files with syntax coloring support for multiple languages including HTML, CSS, Java, JavaScript, Ruby, Python and more. For some languages, such as JavaScript, the IDE also supports syntax checking and code completion, both for standard language constructs and for the services provided by Bluemix. For example, here's what it looks like providing completion for the standard `node.js express` module:
+From this environment, you can edit files with syntax coloring support for multiple languages including HTML, CSS, Java, JavaScript, Ruby, Python and more. For some languages, such as JavaScript and CSS, the IDE also supports syntax checking and content assist, both for standard language constructs and for the services provided by Bluemix. To use Content Assist, just type Control + Space. For example, here's what it looks like providing code completion for the standard `node.js express` module:
 
 ![Orion showing express completions][30]
 
-So just to round out the process, let's make one more modification to your application using the Web IDE. Before you do that, though, you must fetch and merge the app title change that you just made with the command line so that it shows in the Web IDE. You do that with the Git Status page. We'll go over more about this page in a moment, but in the meantime, switch to the Git Repository page. 
+*Tip: Click outside of the code editor and type Shift + ? to search through the various key bindings in the IDE. Type Shift + Alt + ? to do so while you're in the editor.* 
+
+Just to round out the process, let's make one more modification to your application using the Web IDE. Before you do that, though, you must fetch and merge the app title change that you just made with the command line so that it shows in the Web IDE. You do that with the Git Status page. We'll go over more about this page in a moment, but in the meantime, switch to the Git Repository page. 
 
 ![Orion git status menu](/tutorials/jazzeditorjava/images/orion-git-status.gif)
 
@@ -224,7 +226,7 @@ It's just like you did with the command line, only with a few more clicks and a 
 ---
 ## Manual Deployment
 
-In the Web IDE, you can use the **Deploy** button to manually deploy whatever you are working in the Web IDE to Bluemix. It is important to remember that the **Deploy** button in the Web IDE deploys the current state of your code in your Web IDE, while Auto-Deploy deploys from what is checked into the repository.
+In the Web IDE, after opening the folder that contains your `manifest.yml` file, you can use the Deploy button to manually deploy whatever you are developing in the Web IDE to Bluemix. It is important to remember that the **Deploy** button in the Web IDE deploys the current state of your code in your Web IDE, while Auto-Deploy deploys from what is checked into the repository.
 
 ![About to click the Deploy button in the Web IDE][37]
 
