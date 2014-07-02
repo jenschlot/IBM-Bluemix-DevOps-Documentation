@@ -185,7 +185,7 @@ If you go back to the deployment page, you can see a button labeled **EDIT CODE*
 
 ![Orion at DevOps Services][29]
 
-From this environment, you can edit files with syntax coloring support for multiple languages including HTML, CSS, Java, JavaScript, Ruby, Python and more. For some languages, such as JavaScript and CSS, the IDE also supports syntax checking and content assist, both for standard language constructs and for the services provided by Bluemix. To use Content Assist, just type Control + Space. For example, here's what it looks like providing code completion for the standard `node.js express` module:
+From this environment, you can edit files with syntax coloring support for multiple languages including HTML, CSS, Java, JavaScript, Ruby, Python and more. For some languages, such as JavaScript and CSS, the IDE also supports syntax checking and content assist, both for standard language constructs and for the services provided by Bluemix. To use Content Assist, just press **Ctrl + Space**. For example, here's what it looks like providing code completion for the standard `node.js express` module:
 
 ![Orion showing express completions][30]
 
