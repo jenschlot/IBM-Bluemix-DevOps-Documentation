@@ -226,7 +226,7 @@ It's just like you did with the command line, only with a few more clicks and a 
 ---
 ## Manual Deployment
 
-In the Web IDE, after opening the folder that contains your `manifest.yml` file, you can use the Deploy button to manually deploy whatever you are developing in the Web IDE to Bluemix. It is important to remember that the **Deploy** button in the Web IDE deploys the current state of your code in your Web IDE, while Auto-Deploy deploys from what is checked into the repository.
+In the Web IDE, while you're in the directory that contains your `manifest.yml` file, you can use the Deploy button to manually deploy whatever you are developing in the Web IDE to Bluemix. It is important to remember that the **Deploy** button in the Web IDE deploys the current state of your code in your Web IDE, while Auto-Deploy deploys from what is checked into the repository.
 
 ![About to click the Deploy button in the Web IDE][37]
 
