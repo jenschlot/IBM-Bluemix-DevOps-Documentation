@@ -211,7 +211,7 @@ Here's what the Web IDE looks like with the example project open:
 From this environment, you can edit files with color syntax support for multiple languages, including HTML, 
 CSS, JavaScript, Ruby, Python, and more. For some languages, such as JavaScript, the Web IDE also supports 
 syntax checking and code completion, both for standard language constructs and for the services provided 
-by Bluemix. Press Ctrl+Space on a language construct to see code completion. For example, this image shows code completion for the standard Node.js express module:
+by Bluemix. To use Content Assist, just press **Ctrl + Space**. For example, this image shows code completion for the standard Node.js express module:
 
 ![Orion showing express completions](/tutorials/jazzeditor/images/completion.png)
 
