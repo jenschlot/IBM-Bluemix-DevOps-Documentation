@@ -189,7 +189,7 @@ From this environment, you can edit files with syntax coloring support for multi
 
 ![Orion showing express completions][30]
 
-*Tip: Click outside of the code editor and type Shift + ? to search through the various key bindings in the IDE. Type Shift + Alt + ? to do so while you're in the editor.* 
+*Tip: While outside of the code editor, type Shift + ? to search through the various key bindings in the IDE. Type Shift + Alt + ? to do so while you're in the editor.* 
 
 Just to round out the process, let's make one more modification to your application using the Web IDE. Before you do that, though, you must fetch and merge the app title change that you just made with the command line so that it shows in the Web IDE. You do that with the Git Status page. We'll go over more about this page in a moment, but in the meantime, switch to the Git Repository page. 
 
