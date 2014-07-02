@@ -139,7 +139,7 @@ and the browser-based Web IDE, but you can also use the command line.
 **Note**: If you need to install Git, 
 see [Installing Git](/tutorials/clients#installing_git).
 
-Browse [git documentation](http://git-scm.com/doc) to learn more about working with Git.
+Browse the [git documentation](http://git-scm.com/doc) to learn more about working with Git.
 
 Start by cloning the local repository using the Git URL from either the Bluemix application dashboard or the Build & Deploy page:
 

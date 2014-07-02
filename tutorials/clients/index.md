@@ -81,7 +81,7 @@ Connecting to your Git project from the command line
 3. Open a Terminal. If you are using Windows, open Git Bash.
 4. Change to the directory where you want to put the code from your Git project.
 5. Type `git clone`, paste in the Git URL, and press Enter.
-6. Once it completes, you have a local repository of the code for your project. Browse [git documentation](http://git-scm.com/doc) to learn more about working with Git.
+6. Once it completes, you have a local repository of the code for your project. Browse the [git documentation](http://git-scm.com/doc) to learn more about working with Git.
 
 
 <a name='working_with_egit'></a>
