@@ -33,7 +33,7 @@ Great!
 
 Go to the deployment page by clicking the **BUILD & DEPLOY** button. Turn on deployment in the advanced mode by clicking the
 **ADVANCED** button. You need builds to compile your Java code and this is supported by the advanced mode. Also note that
-charges may apply for building and deployment. For more information, checkout the [Bluemix pricing page](https://ace.ng.bluemix.net/#/pricing).
+charges may apply for building and deployment. For more information, check out the [Bluemix pricing page](https://ace.ng.bluemix.net/#/pricing).
 
 On the Configure Builder page, specify
 	
