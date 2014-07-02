@@ -47,7 +47,9 @@ At this point, you are a click away from a running application:
 
 1. Complete the **Name** and **Host** fields. The name is a descriptive name to identify the application on the 
 Bluemix dashboard. The host is a unique URL where you access your app. 
+
 2. Your default space is fine, and you can leave the Datacache Plan set to **Free**.
+
 3. Click **CREATE**.
 
 
