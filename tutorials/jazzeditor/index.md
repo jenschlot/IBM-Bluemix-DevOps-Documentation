@@ -137,6 +137,8 @@ and the browser-based Web IDE, but you can also use the command line.
 **Note**: If you need to install Git, 
 see [Installing Git](/tutorials/clients#installing_git).
 
+Browse [git documentation](http://git-scm.com/doc) to learn more about working with Git.
+
 Start by cloning the local repository using the Git URL from either the Bluemix application dashboard or the Build & Deploy page:
 
 ![Clone the local repository](/tutorials/jazzeditor/images/cli-git-clone.png)
@@ -185,7 +187,7 @@ auto-deployment are all you need to ensure that the application's always running
 In addition to auto-deployment, IBM DevOps Services provides many other useful capabilities 
 for application development:
 
-* Free hosting for public projects
+* Hosting for public projects
 * Multiple source code repositories
 * Support for agile development
 * Web-based development tools with customizations for Bluemix
