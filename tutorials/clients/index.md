@@ -152,7 +152,7 @@ Installing Eclipse and the Rational Team Concert plug-in
 --------------------------------------------------------
 
 1. Rational Team Concert requires Eclipse 4.3.2. If you don't have Eclipse 4.3.2, download 
-and install [Eclipse 4.2.2](http://www.eclipse.org/downloads/packages/release/juno/sr2) from Eclipse.org.
+and install [Eclipse 4.3.2](http://www.eclipse.org/downloads/packages/eclipse-standard-432/keplersr2) from Eclipse.org.
 2. In Eclipse, go to **Help > Install New Software**
 3. In the **Install** window, complete the following steps:
   * In the **Work with** field, enter `https://jazz.net/downloads/rational-team-concert/5.0/5.0/p2`
