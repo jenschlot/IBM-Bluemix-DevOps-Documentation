@@ -47,7 +47,9 @@ At this point, you are a click away from a running application:
 
 1. Complete the **Name** and **Host** fields. The name is a descriptive name to identify the application on the 
 Bluemix dashboard. The host is a unique URL where you access your app. 
+
 2. Your default space is fine, and you can leave the Datacache Plan set to **Free**.
+
 3. Click **CREATE**.
 
 
@@ -137,6 +139,8 @@ and the browser-based Web IDE, but you can also use the command line.
 **Note**: If you need to install Git, 
 see [Installing Git](/tutorials/clients#installing_git).
 
+Browse [git documentation](http://git-scm.com/doc) to learn more about working with Git.
+
 Start by cloning the local repository using the Git URL from either the Bluemix application dashboard or the Build & Deploy page:
 
 ![Clone the local repository](/tutorials/jazzeditor/images/cli-git-clone.png)
@@ -185,7 +189,7 @@ auto-deployment are all you need to ensure that the application's always running
 In addition to auto-deployment, IBM DevOps Services provides many other useful capabilities 
 for application development:
 
-* Free hosting for public projects
+* Hosting for public projects
 * Multiple source code repositories
 * Support for agile development
 * Web-based development tools with customizations for Bluemix
@@ -207,7 +211,7 @@ Here's what the Web IDE looks like with the example project open:
 From this environment, you can edit files with color syntax support for multiple languages, including HTML, 
 CSS, JavaScript, Ruby, Python, and more. For some languages, such as JavaScript, the Web IDE also supports 
 syntax checking and code completion, both for standard language constructs and for the services provided 
-by Bluemix. For example, this image shows code completion for the standard Node.js express module:
+by Bluemix. Click **Ctrl+Space** on a language construct to see code completion. For example, this image shows code completion for the standard Node.js express module:
 
 ![Orion showing express completions](/tutorials/jazzeditor/images/completion.png)
 

@@ -58,7 +58,7 @@ Working with a Git project
 --------------------------
 
 If your code is in Git, you can choose to interact with your code by installing Git and using the command line or 
-by installing the EGit tool in Eclipse. You can also connect to your DevOps Services project using Rational Team 
+by installing the EGit plug-in in Eclipse. You can also connect to your DevOps Services project using Rational Team 
 Concert to work on project plans and track work items. 
 See [Working with Rational Team Concert](#working_with_rational_team_concert) for more details. 
 If you are not sure if you have a Git project, see [Planning your client setup](#planning_your_client_setup).
@@ -88,7 +88,7 @@ Connecting to your Git project from the command line
 Working with EGit
 -----------------
 
-If you are using Eclipse and you have a Git project, you can use the EGit tool to interact with your code from within Eclipse.
+If you are using Eclipse and you have a Git project, you can use the EGit plug-in to interact with your code from within Eclipse.
 
 
 <a name='installing_the_egit_eclipse_plugin'></a>
@@ -102,11 +102,10 @@ If you are using Eclipse and you have a Git project, you can use the EGit tool t
   * Press **Enter** to load the contents of the update site.
   * Under Eclipse Git Team Provider, select only the **Eclipse Git Team Provider** check box.
   * Click **Next**.
-5. Enter your Jazz.net credentials.
-6. Click **Next**. Review the license terms and if you agree to the terms, accept them.
-7. Click **Finish** to install the plug-in.
-8. If you receive a security warning message, click **OK**.
-9. If you are required to restart Eclipse, click **Yes**.
+5. Click **Next**. Review the license terms and if you agree to the terms, accept them.
+6. Click **Finish** to install the plug-in.
+7. If you receive a security warning message, click **OK**.
+8. If you are required to restart Eclipse, click **Yes**.
 
 
 
@@ -153,7 +152,7 @@ Installing Eclipse and the Rational Team Concert plug-in
 --------------------------------------------------------
 
 1. Rational Team Concert requires Eclipse 4.3.2. If you don't have Eclipse 4.3.2, download 
-and install [Eclipse 4.2.2](http://www.eclipse.org/downloads/packages/release/juno/sr2) from Eclipse.org.
+and install [Eclipse 4.3.2](http://www.eclipse.org/downloads/packages/eclipse-standard-432/keplersr2) from Eclipse.org.
 2. In Eclipse, go to **Help > Install New Software**
 3. In the **Install** window, complete the following steps:
   * In the **Work with** field, enter `https://jazz.net/downloads/rational-team-concert/5.0/5.0/p2`
