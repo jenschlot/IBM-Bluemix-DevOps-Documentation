@@ -126,7 +126,8 @@ files that are created when you created your Git repository project.
 You'll check in those files later in this tutorial.
 
 To change the deployment settings, you click **CONFIGURE**. To manage your application in 
-Bluemix, you click **MANAGE**. You can request a build of your application by clicking **REQUEST BUILD**.
+Bluemix, you click the link next to the **Deploy to** field. You can request a deployment 
+of your application by clicking **REQUEST DEPLOY**.
 
 You use the Git URL in Git commands. You can copy this URL now or return to the page to copy it later.
 
