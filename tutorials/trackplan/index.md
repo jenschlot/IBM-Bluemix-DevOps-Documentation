@@ -272,7 +272,7 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 [3]: https://bluemix.net/ (Register for Bluemix)
 [4]: /tutorials/trackplan/images/newprojectselection.gif
 [5]: /tutorials/trackplan/images/wiicons.gif
-[6]: https://ace.stage1.ng.bluemix.net/#/pricing/cloudOEPaneId=pricing 
+[6]: https://bluemix.net/#/pricing/cloudOEPaneId=pricing 
 [7]: /tutorials/trackplan/images/appendeddefect.gif
 [8]: /tutorials/trackplan/images/workitemeditor.gif
 [9]: /tutorials/trackplan/images/attributechange.gif

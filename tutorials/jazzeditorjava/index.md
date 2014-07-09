@@ -10,8 +10,8 @@ If you haven't already done so, the first step to use these capabilities is to r
 
 Once you've registered, there is lots of helpful information available on the [Bluemix][1] site, such as ...
 
-* [Getting Started with IBM Bluemix](https://www.ng.bluemix.net/docs/QuickStart.jsp)
-* [IBM Bluemix Overview](https://www.ng.bluemix.net/docs/BlueMixIntro.jsp)
+* [Getting Started with IBM Bluemix](https://bluemix.net/docs/QuickStart.jsp)
+* [IBM Bluemix Overview](https://bluemix.net/docs/BlueMixIntro.jsp)
 
 ... but if you prefer to _try_ things rather than read about them, just follow along. You can have a sample application up and running in minutes.
 
@@ -263,9 +263,9 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 
 [1]: https://bluemix.net/ (Bluemix)
 [2]: /tutorials/jazzeditorjava/images/bm-join.gif 
-[3]: https://www.ng.bluemix.net/docs/QuickStart.jsp (Bluemix getting started)
-[4]: https://www.ng.bluemix.net/docs/BlueMixIntro.jsp (Bluemix overview)
-[5]: https://www.ng.bluemix.net/docs/Tutorials.jsp (Bluemix tutorials)
+[3]: https://bluemix.net/docs/QuickStart.jsp (Bluemix getting started)
+[4]: https://bluemix.net/docs/BlueMixIntro.jsp (Bluemix overview)
+[5]: https://bluemix.net/docs/Tutorials.jsp (Bluemix tutorials)
 [6]: /tutorials/jazzeditorjava/images/demo-dash.gif 
 [7]: /tutorials/jazzeditorjava/images/bm-java-starter.gif 
    [8]: /tutorials/jazzeditorjava/images/create-jws-app.gif 
