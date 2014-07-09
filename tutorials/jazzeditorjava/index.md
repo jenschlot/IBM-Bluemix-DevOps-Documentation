@@ -2,7 +2,7 @@
 
 ##Create an application with IBM Bluemix
 
-*[IBM Bluemix][1] is an open-standards, cloud-based platform for building, managing and running apps of all types (web, mobile, big data, new smart devices). Capabilities include Java, mobile backend development, application monitoring, as well as capabilities from ecosystem partners and open source, all through an as-a-service model in the cloud.*
+*[IBM® Bluemix™][1] is an open-standards, cloud-based platform for building, managing and running apps of all types (web, mobile, big data, new smart devices). Capabilities include Java™, mobile backend development, application monitoring, as well as capabilities from ecosystem partners and open source, all through an as-a-service model in the cloud.*
 
 If you haven't already done so, the first step to use these capabilities is to register. Bluemix is currently in beta, so you can register by going to the [Bluemix home page][1] and clicking **Sign up for a free trial**.
 
@@ -56,7 +56,7 @@ You may be asked to enter your password because DevOps Services must verify that
 
 ![DevOps Services sign in page][12]
 
-*Note: The first time you access DevOps Services, you might need to create a "Jazz ID" and link it to your IBM id. A Jazz ID is a kind of "short name" that is used in several places, including the URL for the repository that is about to be created for you. Just follow the instructions in the dialog. You'll only ever see it once.*
+*Note: The first time you access DevOps Services, you might need to create a "Jazz™ ID" and link it to your IBM id. A Jazz ID is a kind of "short name" that is used in several places, including the URL for the repository that is about to be created for you. Just follow the instructions in the dialog. You'll only ever see it once.*
 
 Make sure the box to populate the Git repo with the starter application package and automatically deploy the app is checked.
 
@@ -185,7 +185,7 @@ If you go back to the deployment page, you can see a button labeled **EDIT CODE*
 
 ![Orion at DevOps Services][29]
 
-From this environment, you can edit files with syntax coloring support for multiple languages including HTML, CSS, Java, JavaScript, Ruby, Python and more. For some languages, such as JavaScript and CSS, the IDE also supports syntax checking and content assist, both for standard language constructs and for the services provided by Bluemix. To use Content Assist, just press **Ctrl + Space**. For example, here's what it looks like providing code completion for the standard `node.js express` module:
+From this environment, you can edit files with syntax coloring support for multiple languages including HTML, CSS, Java, JavaScript®, Ruby, Python and more. For some languages, such as JavaScript and CSS, the IDE also supports syntax checking and content assist, both for standard language constructs and for the services provided by Bluemix. To use Content Assist, just press **Ctrl + Space**. For example, here's what it looks like providing code completion for the standard `node.js express` module:
 
 ![Orion showing express completions][30]
 
