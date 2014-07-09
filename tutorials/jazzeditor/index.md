@@ -2,17 +2,17 @@
 
 ##Create an application with IBM Bluemix
 
-[IBM Bluemix](https://ace.ng.bluemix.net/) is an open-standards, cloud-based platform for building, managing, and running all types
+[IBM Bluemix](https://bluemix.net/) is an open-standards, cloud-based platform for building, managing, and running all types
 of applications (mobile, smart devices, web, big data). Capabilities include Java, mobile back-end development, 
 application monitoring, as well as features from ecosystem partners and open source, 
 all through an as-a-service model in the cloud.
 
-Before you can use the Bluemix capabilities, you have to register. To register, go to the [IBM Bluemix home page](https://ace.ng.bluemix.net/) and 
+Before you can use the Bluemix capabilities, you have to register. To register, go to the [IBM Bluemix home page](https://bluemix.net/) and 
 click **Sign up for a free trial**.
 
 ![Sign up for a free trial](/tutorials/jazzeditor/images/bm-join.png)
 
-After you register, the [IBM Bluemix site](https://ace.ng.bluemix.net/) offers helpful information about Bluemix:
+After you register, the [IBM Bluemix site](https://bluemix.net/) offers helpful information about Bluemix:
 
 * [Getting Started with Bluemix](https://www.ng.bluemix.net/docs/QuickStart.jsp)
 * [Bluemix Overview](https://www.ng.bluemix.net/docs/BlueMixIntro.jsp)

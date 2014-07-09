@@ -269,7 +269,7 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
  	
 [1]: https://hub.jazz.net
 [2]: /tutorials/trackplan/images/mystufflanding.gif
-[3]: https://ace.ng.bluemix.net/ (Register for Bluemix)
+[3]: https://bluemix.net/ (Register for Bluemix)
 [4]: /tutorials/trackplan/images/newprojectselection.gif
 [5]: /tutorials/trackplan/images/wiicons.gif
 [6]: https://ace.stage1.ng.bluemix.net/#/pricing/cloudOEPaneId=pricing 
@@ -283,11 +283,11 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 [14]: /tutorials/trackplan/images/querybar.gif
 [15]: https://hub.jazz.net/tutorials/jazzeditor
 [16]: https://hub.jazz.net/tutorials/jazzeditorjava
-[17]: https://ace.ng.bluemix.net/
+[17]: https://bluemix.net/
 [18]: https://www.ibmdw.net/answers?community=jazzhub (DevOps Services forum)
 [19]: mailto:hub%40jazz.net
 [20]: /tutorials/trackplan/images/taptile.gif 
-[21]: https://ace.ng.bluemix.net/ (Log into Bluemix)
+[21]: https://bluemix.net/ (Log into Bluemix)
 [40]: /tutorials/jazzrtc (Developing Bluemix applications in Java with Eclipse and DevOps Services)
 [41]: /tutorials/jazzeditor (Getting Started with Bluemix and DevOps Services using Node.js)
 [42]: /tutorials/clients (Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services)

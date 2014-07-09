@@ -423,7 +423,7 @@ Add your link definitions to the bottom of your document to make it easier to ma
    [1]: https://releaseblueprints.ibm.com/display/CLOUDOE/Cloud+OE+Content+Design#CloudOEContentDesign-Screencaptures (BlueMix Screen Capture Guidelines)
    [2]: images/app-new-title-sml.png 
    [3]: images/app-new-title-lge.png
-   [4]: https://ace.ng.bluemix.net/ (BlueMix website)
+   [4]: https://bluemix.net/ (BlueMix website)
    [5]: ./../tutorial_clients/tutorial_clients#gitinstall
    [6]: https://github.com/colingourlay/simple-sidebars/blob/master/README.markdown
    [7]: https://releaseblueprints.ibm.com/display/CLOUDOE/Cloud+OE+Content+Design#CloudOEContentDesign-BlueMixtextstyleguidelines (BlueMix Style Text Guidelines)
