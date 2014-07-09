@@ -74,7 +74,7 @@ You can get the Jazz Repository information here.
 
 ![Team Invitation](/tutorials/jazzrtc/images/team_invite.jpg "Team Invitation")
 
-The [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services](/tutorials/clients#working_with_a_jazz_scm_project) tutorial shows you how to
+The [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services](/tutorials/clients#working_with_a_jazz_scm_project) tutorial shows you how to
 set up the Rational Team Concert client for Eclipse, connect to your project and load the code.						
 
 ---
