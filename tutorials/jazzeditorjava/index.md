@@ -110,7 +110,7 @@ Once everything is configured, click **REQUEST BUILD**. The page refreshes with 
 
 You can also click the app route in the panel to visit your app on the web.
 
-Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service or Add-on, visit the [Bluemix pricing page](https://ace.ng.bluemix.net/#/pricing).
+Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service or Add-on, visit the [Bluemix pricing page](https://bluemix.net/#/pricing).
 
 ---
 ##Push changes to the Git repository by using the command line
@@ -261,7 +261,7 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 * [Developing Bluemix applications in Java with Eclipse and DevOps Services][40]
 * [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)
 
-[1]: https://ace.ng.bluemix.net/ (Bluemix)
+[1]: https://bluemix.net/ (Bluemix)
 [2]: /tutorials/jazzeditorjava/images/bm-join.gif 
 [3]: https://www.ng.bluemix.net/docs/QuickStart.jsp (Bluemix getting started)
 [4]: https://www.ng.bluemix.net/docs/BlueMixIntro.jsp (Bluemix overview)

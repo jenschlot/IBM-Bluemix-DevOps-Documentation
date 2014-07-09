@@ -50,7 +50,7 @@ To open the app, click the URL below its name. Click the gear button indicated b
 
 ![Stopping a Bluemix app][12]
 
-Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service or Add-on, visit the [Bluemix pricing page](https://ace.ng.bluemix.net/#/pricing).
+Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service or Add-on, visit the [Bluemix pricing page](https://bluemix.net/#/pricing).
 
 ---
 ## Editing the Sample Application
@@ -122,7 +122,7 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 * [Developing Bluemix applications in Java with Eclipse and DevOps Services](/tutorials/jazzrtc)
 * [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)
 
-[1]: https://ace.ng.bluemix.net/ (Bluemix)
+[1]: https://bluemix.net/ (Bluemix)
 [2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview
 [3]: /tutorials/jazzweb/images/forkbutton.gif
 [4]: /tutorials/jazzweb/images/ForkNew.gif
@@ -132,7 +132,7 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 [8]: /tutorials/jazzweb/images/Builder1.gif
 [9]: /tutorials/jazzweb/images/DeployScriptEx.gif
 [10]: /tutorials/jazzweb/images/history.gif
-[11]: https://ace.ng.bluemix.net
+[11]: https://bluemix.net
 [12]: /tutorials/jazzweb/images/startappbluemix.gif
 [13]: /tutorials/jazzweb/images/AutocompleteSearch.gif
 [14]: /tutorials/jazzweb/images/staging.gif
