@@ -1,6 +1,6 @@
 # Developing IBM Bluemix applications in Node.js with the Web IDE
 
-This tutorial shows you how to use DevOps Services to develop an application in the cloud and deploy it to [IBM Bluemix][1].
+This tutorial shows you how to use DevOps Services to develop an application in the cloud and deploy it to [IBM® Bluemix™][1].
 
 ---
 ## Start with a sample project
@@ -57,7 +57,7 @@ Building and deploying apps with Bluemix can result in charges to your Bluemix b
 
 This is certainly exciting, but you probably haven't come here to just build and deploy someone else's project. Next, you'll personalize the sample app using just DevOps Services' web-based Code Editor, push your changes to the project's remote repository, and initiate a re-deployment of your project. Best of all, this will only take you a few minutes.
 
-Click **Edit Code** again, and then open the file `app.js` by clicking on it in the side panel. Notice that the editor has recognized and highlighted the code as JavaScript.
+Click **Edit Code** again, and then open the file `app.js` by clicking on it in the side panel. Notice that the editor has recognized and highlighted the code as JavaScript®.
 
 Let's change how the app greets its users with a little help from the editor. Click **Edit**, then **Find**. Search for the phrase "Welcome to the Twitter Sentiment Analysis app."
 
