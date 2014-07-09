@@ -1,14 +1,14 @@
 #Developing IBM Bluemix applications in Java with Eclipse and DevOps Services
 
-This tutorial shows you how to develop a Java application using IBM® Bluemix™, IBM DevOps Services and the RTC client for Eclipse. 
+This tutorial shows you how to develop a Java™ application using IBM® Bluemix™, IBM DevOps Services and the Rational® Team Concert client for Eclipse. 
 Make sure that your IBM id is registered with [Bluemix](//bluemix.net). Login to DevOps Services with your IBM id.
 
 
 ##Getting your app
 
 We'll start by forking the sample project, [WordCounter](https://hub.jazz.net/project/pskhadke/WordCounter/overview).
-This project uses Jazz Source Control Management (Jazz SCM for short). It contains a manifest for deploying to Bluemix
-and can be loaded directly in the RTC client for Eclipse. DevOps Services also supports Git projects. To find out more
+This project uses Jazz™ Source Control Management (Jazz SCM for short). It contains a manifest for deploying to Bluemix
+and can be loaded directly in the Rational Team Concert client for Eclipse. DevOps Services also supports Git projects. To find out more
 about support for Git, check out the
 [Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava) tutorial.
 
@@ -38,7 +38,7 @@ charges may apply for building and deployment. For more information, check out t
 On the Configure Builder page, specify
 	
 * The password associated with your IBM id as the "Your IBM DevOps Services password"
-* The folder containing your code, i.e. "WordCounter" as the "Build script path". Upon loading the project in the RTC client, this folder
+* The folder containing your code, i.e. "WordCounter" as the "Build script path". Upon loading the project in the Rational Team Concert client, this folder
 automatically maps to an Eclipse project.
 * A name for the "Build archive directory". This is where the build output files go and are archived as part of the build result.
 
@@ -63,9 +63,9 @@ Click the application link... It works! Awesome!
 ![Application](/tutorials/jazzrtc/images/app.jpg "Application")
 
 ---
-##Accessing your app from the RTC client for Eclipse
+##Accessing your app from the Rational Team Concert client for Eclipse
 
-Now that you have a running application, let's connect to it from the RTC client for Eclipse. Click on the project link to
+Now that you have a running application, let's connect to it from the Rational Team Concert client for Eclipse. Click on the project link to
 go to the Project Overview page. 
 
 ![Project Link](/tutorials/jazzrtc/images/project_link.jpg "Project Link")
@@ -75,12 +75,12 @@ You can get the Jazz Repository information here.
 ![Team Invitation](/tutorials/jazzrtc/images/team_invite.jpg "Team Invitation")
 
 The [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services](/tutorials/clients#working_with_a_jazz_scm_project) tutorial shows you how to
-set up the RTC client for Eclipse, connect to your project and load the code.						
+set up the Rational Team Concert client for Eclipse, connect to your project and load the code.						
 
 ---
 ##Delivering your first change
 
-You're in the RTC client for Eclipse. So, let's change something and see it go live. For example, change the app name on
+You're in the Rational Team Concert client for Eclipse. So, let's change something and see it go live. For example, change the app name on
 line 10 of index.html.
 
 ![Edit Code](/tutorials/jazzrtc/images/edit_code.jpg "Edit Code")
@@ -155,6 +155,6 @@ If you're interested in trying more Bluemix and DevOps capabilities, here is a l
 
 * [Getting Started with Bluemix and DevOps Services using Node.js](/tutorials/jazzeditor)
 * [Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava)
-* [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services](/tutorials/clients)
+* [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services](/tutorials/clients)
 * [Developing Bluemix applications in Node.js with the DevOps Services Web IDE](/tutorials/jazzweb)
 * [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)			
