@@ -4,9 +4,6 @@
 
 <<<<<<< HEAD
 [IBM&reg; Bluemix&trade;](https://bluemix.net/) is an open-standards, cloud-based platform for building, managing, and running all types
-=======
-[IBM Bluemix](https://bluemix.net/) is an open-standards, cloud-based platform for building, managing, and running all types
->>>>>>> 1357c0ad3291f4404f74909d86395086e13ea35e
 of applications (mobile, smart devices, web, big data). Capabilities include Java, mobile back-end development, 
 application monitoring, as well as features from ecosystem partners and open source, 
 all through an as-a-service model in the cloud.
