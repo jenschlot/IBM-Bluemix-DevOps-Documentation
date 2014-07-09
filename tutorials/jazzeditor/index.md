@@ -2,7 +2,6 @@
 
 ##Create an application with IBM Bluemix
 
-<<<<<<< HEAD
 [IBM&reg; Bluemix&trade;](https://bluemix.net/) is an open-standards, cloud-based platform for building, managing, and running all types
 of applications (mobile, smart devices, web, big data). Capabilities include Java, mobile back-end development, 
 application monitoring, as well as features from ecosystem partners and open source, 
