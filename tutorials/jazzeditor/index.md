@@ -2,20 +2,20 @@
 
 ##Create an application with IBM Bluemix
 
-[IBM Bluemix](https://ace.ng.bluemix.net/) is an open-standards, cloud-based platform for building, managing, and running all types
+[IBM&reg; Bluemix&trade;](https://bluemix.net/) is an open-standards, cloud-based platform for building, managing, and running all types
 of applications (mobile, smart devices, web, big data). Capabilities include Java, mobile back-end development, 
 application monitoring, as well as features from ecosystem partners and open source, 
 all through an as-a-service model in the cloud.
 
-Before you can use the Bluemix capabilities, you have to register. To register, go to the [IBM Bluemix home page](https://ace.ng.bluemix.net/) and 
+Before you can use the Bluemix capabilities, you have to register. To register, go to the [IBM Bluemix home page](https://bluemix.net/) and 
 click **Sign up for a free trial**.
 
 ![Sign up for a free trial](/tutorials/jazzeditor/images/bm-join.png)
 
-After you register, the [IBM Bluemix site](https://ace.ng.bluemix.net/) offers helpful information about Bluemix:
+After you register, the [IBM Bluemix site](https://bluemix.net/) offers helpful information about Bluemix:
 
-* [Getting Started with Bluemix](https://www.ng.bluemix.net/docs/QuickStart.jsp)
-* [Bluemix Overview](https://www.ng.bluemix.net/docs/BlueMixIntro.jsp)
+* [Getting Started with Bluemix](https://bluemix.net/docs/QuickStart.jsp)
+* [Bluemix Overview](https://bluemix.net/docs/BlueMixIntro.jsp)
 
 
 To get started now, 
@@ -90,7 +90,7 @@ You might need to enter your password to verify that DevOps Services can act on 
 
 ![DevOps Services sign in page](/tutorials/jazzeditor/images/jh-signin.png)
 
-**Note:** The first time that you access IBM DevOps Services, you might need to create a Jazz ID and link it to your IBM ID. A Jazz ID is a "short name" that is used in several places, 
+**Note:** The first time that you access IBM DevOps Services, you might need to create a Jazz&trade; ID and link it to your IBM ID. A Jazz ID is a "short name" that is used in several places, 
 including the URL for the repository that is created for you. For this one-time process, follow 
 the instructions in the dialog box.
  
@@ -142,9 +142,20 @@ see [Installing Git](/tutorials/clients#installing_git).
 
 Browse the [git documentation](http://git-scm.com/doc) to learn more about working with Git.
 
-Start by cloning the local repository using the Git URL from either the Bluemix application dashboard or the Build & Deploy page:
+Start by cloning the local repository using the Git URL from either the Bluemix application dashboard 
+or the Build & Deploy page:
 
-![Clone the local repository](/tutorials/jazzeditor/images/cli-git-clone.png)
+
+	$ git clone https://hub.jazz.net/git/jazzhubdemouser/mycoolwebappp0630
+    Cloning into 'mycoolwebapp0630'...
+    Username for 'https://hub.jazz.net': jazzhubdemouser
+    Password for 'https://jazzhubdemouser@hub.jazz.net':
+    remote: Counting objects: 23, done
+    remote: Finding sources: 100% (23/23)
+    remote: Total 23 (delta 0), reused 23 (delta 0)
+    Unpacking objects: 100% (23/23), done.
+    Checking connectivity... done. 
+
 
 Next, change the application source code to see what happens. Change to your Git clone directory. 
 The views folder contains a file named `index.ejs`. This file implements the main page for the example. 
@@ -154,7 +165,24 @@ Change this file, for example, modify the title that is displayed.
 
 Then, change to your Git clone directory and do a Git push as shown in this image:
 
-![Pushing the change](/tutorials/jazzeditor/images/cli-edit-push.png)
+	$ cd ..
+    $ git add *
+    $ git commit -m "Changing title of app"
+    [master bf26680] Changing title of app
+    1 file changed, 2 insertions(+), 2 deletions(-)
+
+	$ git push
+    Username for 'https://hub.jazz.net': jazzhubdemouser
+    Password for 'https://jazzhubdemouser@hub.jazz.net':
+    Counting objects: 8, done.
+    Delta compression using up to 2 threads.
+    Compressing objects: 100% (3/3), done.
+    Writing objects: 100% (4/4), 382 bytes | 0 bytes/s, done.
+    Total 4 (delta 2), reused 0 (delta 0)
+    remote: Resolving deltas: 100% (2/2)
+    remote: Processing changes: refs: 1, done
+    To https://hub.jazz.net/git/jazzhubdemouser/mycoolwebapp0630
+    	43c6bc7..bf26680 master -> master
 
 If you go back to the Web IDE and check the 
 Build & Deploy page, you should see something similar to this image:
@@ -302,4 +330,6 @@ To learn more about Bluemix and DevOps Services capabilities, see these tutorial
 * [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)    
 * [Getting Started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)  
     
+Java and all Java-based trademarks and logos are trademarks or registered trademarks of Oracle and/or its affiliates.    
+
 &copy; Copyright IBM Corporation 2013, 2014.
