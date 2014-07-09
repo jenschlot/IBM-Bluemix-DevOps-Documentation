@@ -214,13 +214,18 @@ If your project is in a Jazz SCM repository, follow these steps to create a new 
 
 Did you find the information you needed? Tell us what you think. What did we do well? What can we do better? Post your comments to our [forum](https://www.ibmdw.net/answers?community=jazzhub) or send us an [email](mailto:hub%40jazz.net).
 
-More Tutorials
+Tutorials
 --------------
 
-Interested in trying more Bluemix&trade; and DevOps capabilities, here is a list of tutorials:
+To learn more about Bluemix and DevOps Services capabilities, see these tutorials:
 
 * [Getting Started with IBM Bluemix and IBM DevOps Services using Node.js](/tutorials/jazzeditor)
 * [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)
 * [Developing IBM Bluemix applications in Node.js with the IBM DevOps Services Web IDE](/tutorials/jazzweb)
 * [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)
 * [Getting Started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)
+
+Java and all Java-based trademarks and logos are trademarks or registered trademarks of Oracle and/or its affiliates.    
+
+&copy; Copyright IBM Corporation 2013, 2014.
+
