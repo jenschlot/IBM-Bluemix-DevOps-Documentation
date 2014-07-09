@@ -5,13 +5,13 @@ DevOps Services lets you decide how you code.
 
 Want to get started right away? Try our Web IDE, based on Eclipse Orion technology. 
 You can edit any text file or script from within your browser. If your project contains
- JavaScript, HTML, CSS, Ruby or PHP code, the Web IDE is likely all you need to make 
- changes.
+JavaScript, HTML, CSS, Ruby or PHP code, the Web IDE is likely all you need to make 
+changes.
 
 If you want to work with a desktop client, this tutorial shows you how to configure 
 your clients based on what type of DevOps Services project you are working with.
 
-You have 2 ways to work with your JazzHub project sourced in GIT
+You have 2 ways to work with your JazzHub project sourced in Git
 
 1. Git from the command line
 2. EGit plug-in in Eclipse
@@ -80,7 +80,7 @@ Connecting to your Git project from the command line
 2. Copy the **Git URL** from the right side of your project page.
 3. Open a Terminal. If you are using Windows, open Git Bash.
 4. Change to the directory where you want to put the code from your Git project.
-5. Type `git clone`, paste in the Git URL, and press Enter.
+5. Type `git clone`, paste in the Git URL, and press **Enter**.
 6. Once it completes, you have a local repository of the code for your project. Browse the [git documentation](http://git-scm.com/doc) to learn more about working with Git.
 
 
@@ -117,7 +117,7 @@ If you are using Eclipse and you have a Git project, you can use the EGit plug-i
 3. In Eclipse, select **File > Import**.
 4. In the Import window, select **Git > Projects from Git** and click **Next**.
 5. Select **Clone URI** and click **Next**.
-6. Paste the copied Git URL in to the **URI** field. Enter your Jazz.net User ID and IBM ID password in the Authentication section. Click **Next**.
+6. Paste the copied Git URL in to the **URI** field. Enter your Jazz.net User ID and IBM&reg; ID password in the Authentication section. Click **Next**.
 7. Select the branches that you want to work on and click **Next**.
 8. Update the Local Destination of the cloned repository if needed and click **Next**.
 9. Click **Next** and then **Finish**.
@@ -217,7 +217,7 @@ Did you find the information you needed? Tell us what you think. What did we do 
 More Tutorials
 --------------
 
-Interested in trying more Bluemix and DevOps capabilities, here is a list of tutorials:
+Interested in trying more Bluemix&trade; and DevOps capabilities, here is a list of tutorials:
 
 * [Getting Started with IBM Bluemix and IBM DevOps Services using Node.js](/tutorials/jazzeditor)
 * [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)
