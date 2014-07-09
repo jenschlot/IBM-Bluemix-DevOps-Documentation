@@ -140,7 +140,7 @@ and the browser-based Web IDE, but you can also use the command line.
 **Note**: If you need to install Git, 
 see [Installing Git](/tutorials/clients#installing_git).
 
-Browse the [git documentation](http://git-scm.com/doc) to learn more about working with Git.
+Browse the [Git documentation](http://git-scm.com/doc) to learn more about working with Git.
 
 Start by cloning the local repository using the Git URL from either the Bluemix application dashboard 
 or the Build & Deploy page:
@@ -163,7 +163,7 @@ Change this file, for example, modify the title that is displayed.
 
 ![Changing the title](/tutorials/jazzeditor/images/cli-edit-file.png)
 
-Then, change to your Git clone directory and do a Git push as shown in this image:
+Then, change to your Git clone directory and do a Git add, commit and push as shown:
 
 	$ cd ..
     $ git add *
