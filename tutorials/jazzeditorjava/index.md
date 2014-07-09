@@ -117,7 +117,7 @@ Building and deploying apps with Bluemix can result in charges to your Bluemix b
 
 You now have a Git repo with example code. Lots of tools can be used to work with Git, including all of the major desktop IDEs and even directly from the web using the Web IDE, but for now, let's just use the command line Git support.
 
-**Note:** If you don't have Git, you can find information on installing it at [Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Service][20]. If you want to learn more about working with Git, you can browse the [Git documentation pages](http://git-scm.com/doc).
+**Note:** If you don't have Git, you can find information on installing it at [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][20]. If you want to learn more about working with Git, you can browse the [Git documentation pages](http://git-scm.com/doc).
 
 First, clone the repo using the URL, which you can find on the Bluemix application's dashboard _or_ the DevOps project's overview:
 
@@ -164,7 +164,7 @@ Notice that a new build has been queued; it was automatically triggered by the c
 
 There you go! Now you can continue to make modifications to the example and push them to the Git repository as often as needed. And as the scope of the work grows, and more people are added to the project to work on it, _everyone_ can push changes to the repository. Standard repository operations and build and deploy are all that is required to ensure that the right bits are always running.
 
-If you want to configure desktop clients to work with your git repository, check out [Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Service][26] later.
+If you want to configure desktop clients to work with your git repository, check out [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][26] later.
 
 ---
 ## Back to DevOps Services
@@ -246,7 +246,7 @@ Thanks for following along. And tell us what you think. What did we do well? Wha
 ---
 ## Next Steps
 
-If you want to learn more about configuring Eclipse or other desktop clients to work with your git repository, see [Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Service][26].
+If you want to learn more about configuring Eclipse or other desktop clients to work with your git repository, see [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][26].
 
 If you want to learn about how to integrate unit testing into your DevOps Services projects, see [Developing Bluemix applications in Java with Eclipse and DevOps Services][40].
 
@@ -256,7 +256,7 @@ If you want to learn about how to integrate unit testing into your DevOps Servic
 Interested in trying more Bluemix and DevOps capabilities? Here is a list of tutorials:
 
 * [Getting Started with Bluemix and DevOps Services using Node.js][41]
-* [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services][42]
+* [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services][42]
 * [Developing Bluemix applications in Node.js with the DevOps Services Web IDE][43]
 * [Developing Bluemix applications in Java with Eclipse and DevOps Services][40]
 * [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)
@@ -280,13 +280,13 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
    [17]: /tutorials/jazzeditorjava/images/simpledeploy.gif 
    [18]: /tutorials/jazzeditorjava/images/configbuilder.gif 
    [19]: /tutorials/jazzeditorjava/images/deployer.gif 
-   [20]: /tutorials/clients (Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Services)
+   [20]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Services)
    [21]: /tutorials/jazzeditorjava/images/cli-git-clone.gif 
    [22]: /tutorials/jazzeditorjava/images/cli-stage-commit.gif 
    [23]: /tutorials/jazzeditorjava/images/cli-push.gif 
    [24]: /tutorials/jazzeditorjava/images/autodeploy.gif 
    [25]: /tutorials/jazzeditorjava/images/app-new-title.gif 
-   [26]: /tutorials/clients (Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Services)
+   [26]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Services)
    [27]: https://hub.jazz.net/learn (DevOps Services introduction)
    [28]: http://orion.eclipse.org/ (The Eclipse Orion project)
    [29]: /tutorials/jazzeditorjava/images/orion.gif 
@@ -302,7 +302,7 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
    [39]: mailto:hub%40jazz.net
    [40]: /tutorials/jazzrtc (Developing Bluemix applications in Java with Eclipse and DevOps Services)
    [41]: /tutorials/jazzeditor (Getting Started with Bluemix and DevOps Services using Node.js)
-   [42]: /tutorials/clients (Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services)
+   [42]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services)
    [43]: /tutorials/jazzweb (Developing Bluemix applications in Node.js with the DevOps Services Web IDE)
    [44]: /tutorials/jazzeditorjava/images/panel_gear.gif
   

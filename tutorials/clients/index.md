@@ -1,5 +1,5 @@
-Setting up Eclipse, Git, and RTC Desktop Clients to access IBM DevOps Services
-==========================================================================
+Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access IBM DevOps Services
+================================================================================================
 
 DevOps Services lets you decide how you code.
 
@@ -16,7 +16,7 @@ You have 2 ways to work with your JazzHub project sourced in Git
 1. Git from the command line
 2. EGit plug-in in Eclipse
 
-If you have a JazzHub project sourced in Jazz SCM, you can use the RTC plug-in in Eclipse.
+If you have a JazzHub project sourced in Jazz™ SCM, you can use the Rational® Team Concert plug-in in Eclipse.
 
 *** 
 
@@ -217,10 +217,10 @@ Did you find the information you needed? Tell us what you think. What did we do 
 Tutorials
 --------------
 
-To learn more about Bluemix and DevOps Services capabilities, see these tutorials:
+To learn more about Bluemix™ and DevOps Services capabilities, see these tutorials:
 
 * [Getting Started with IBM Bluemix and IBM DevOps Services using Node.js](/tutorials/jazzeditor)
-* [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)
+* [Getting Started with IBM Bluemix and IBM DevOps Services using Java™](/tutorials/jazzeditorjava)
 * [Developing IBM Bluemix applications in Node.js with the IBM DevOps Services Web IDE](/tutorials/jazzweb)
 * [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)
 * [Getting Started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)

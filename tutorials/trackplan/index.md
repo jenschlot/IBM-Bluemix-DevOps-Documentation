@@ -262,7 +262,7 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 
 * [Getting Started with Bluemix and DevOps Services using Node.js][41]
 * [Getting Started with Bluemix and DevOps Services using Java][44]
-* [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services][42]
+* [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services][42]
 * [Developing Bluemix applications in Node.js with the DevOps Services Web IDE][43]
 * [Developing Bluemix applications in Java with Eclipse and DevOps Services][40]
 
@@ -290,6 +290,6 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 [21]: https://bluemix.net/ (Log into Bluemix)
 [40]: /tutorials/jazzrtc (Developing Bluemix applications in Java with Eclipse and DevOps Services)
 [41]: /tutorials/jazzeditor (Getting Started with Bluemix and DevOps Services using Node.js)
-[42]: /tutorials/clients (Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services)
+[42]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services)
 [43]: /tutorials/jazzweb (Developing Bluemix applications in Node.js with the DevOps Services Web IDE)
 [44]:/tutorials/jazzeditorjava (Getting Started with Bluemix and DevOps Services using Java)
