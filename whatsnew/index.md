@@ -2,11 +2,11 @@
 
 ## June 27, 2014
 
-# Build and Deploy to Bluemix
+# Build and Deploy to IBM Bluemix
 
-## Simple application deployment to Bluemix for Jazz SCM projects
+## Simple application deployment to IBM Bluemix for Jazz SCM projects
 
-You can now set up Simple auto-deployment of your Bluemix&trade; application for
+You can now set up Simple auto-deployment of your IBM&reg; Bluemix&trade; application for
 a Jazz&trade; SCM project. 
 If you selected the **Deploy to Bluemix** option when 
 you created your Jazz SCM project, or choose this option in Project Settings,
@@ -73,7 +73,7 @@ We've got a new name! [Read more][4] about the name change and what's to come.
 
 ## Support for IBM ids
 
-You can now sign in with your IBM&reg; id to get a more seamless experience across the IBM network.
+You can now sign in with your IBM id to get a more seamless experience across the IBM network.
 
 ![IBM ids][5]	
 
