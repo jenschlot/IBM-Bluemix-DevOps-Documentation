@@ -6,8 +6,8 @@
 
 ## Simple application deployment to Bluemix for Jazz SCM projects
 
-You can now set up Simple auto-deployment of your Bluemix application for
-a Jazz SCM project. 
+You can now set up Simple auto-deployment of your Bluemix&trade; application for
+a Jazz&trade; SCM project. 
 If you selected the **Deploy to Bluemix** option when 
 you created your Jazz SCM project, or choose this option in Project Settings,
 you can select the Simple option under Build & Deploy.
@@ -73,13 +73,13 @@ We've got a new name! [Read more][4] about the name change and what's to come.
 
 ## Support for IBM ids
 
-You can now sign in with your IBM id to get a more seamless experience across the IBM network.
+You can now sign in with your IBM&reg; id to get a more seamless experience across the IBM network.
 
 ![IBM ids][5]	
 
 ## Now running Rational Team Concert 4.0.6
 
-We are running [Rational Team Concert 4.0.6][6] for tracking and planning, and Jazz source control. If you'd like to learn more, check out [what's new][7] for Rational Team Concert.
+We are running [Rational&reg; Team Concert 4.0.6][6] for tracking and planning, and Jazz source control. If you'd like to learn more, check out [what's new][7] for Rational Team Concert.
 
 
 # Build and deploy to Bluemix
