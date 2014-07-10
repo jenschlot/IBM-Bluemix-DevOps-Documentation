@@ -135,3 +135,5 @@ DevOps Services supports the following browsers:
 
 
 If your browser is not listed above, you may have a compromised experience.
+
+&copy; Copyright IBM Corporation 2013, 2014.

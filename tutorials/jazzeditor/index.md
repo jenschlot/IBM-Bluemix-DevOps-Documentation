@@ -330,6 +330,4 @@ To learn more about Bluemix and DevOps Services capabilities, see these tutorial
 * [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)    
 * [Getting Started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)  
     
-Java and all Java-based trademarks and logos are trademarks or registered trademarks of Oracle and/or its affiliates.    
-
 &copy; Copyright IBM Corporation 2013, 2014.

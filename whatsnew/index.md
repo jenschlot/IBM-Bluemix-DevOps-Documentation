@@ -425,6 +425,8 @@ Don't forget to let us know how we're doing by [reporting a bug][53] or [sharing
 
 Cheers!
 
+&copy; Copyright IBM Corporation 2013, 2014.
+
 
 [1]: /whatsnew/images/quick-planner2.png
 [2]: /whatsnew/images/live-markdown-editing.png

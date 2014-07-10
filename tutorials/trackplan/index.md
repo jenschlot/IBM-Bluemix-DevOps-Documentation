@@ -266,7 +266,8 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 * [Developing Bluemix applications in Node.js with the DevOps Services Web IDE][43]
 * [Developing Bluemix applications in Java with Eclipse and DevOps Services][40]
 
- 	
+&copy; Copyright IBM Corporation 2013, 2014.
+
 [1]: https://hub.jazz.net
 [2]: /tutorials/trackplan/images/mystufflanding.gif
 [3]: https://bluemix.net/ (Register for Bluemix)

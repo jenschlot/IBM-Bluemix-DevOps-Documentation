@@ -158,3 +158,5 @@ If you're interested in trying more Bluemix and DevOps capabilities, here is a l
 * [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services](/tutorials/clients)
 * [Developing Bluemix applications in Node.js with the DevOps Services Web IDE](/tutorials/jazzweb)
 * [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)			
+
+&copy; Copyright IBM Corporation 2013, 2014.

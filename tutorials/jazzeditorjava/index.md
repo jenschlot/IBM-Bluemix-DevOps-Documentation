@@ -261,6 +261,8 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 * [Developing Bluemix applications in Java with Eclipse and DevOps Services][40]
 * [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)
 
+&copy; Copyright IBM Corporation 2013, 2014.
+
 [1]: https://bluemix.net/ (Bluemix)
 [2]: /tutorials/jazzeditorjava/images/bm-join.gif 
 [3]: https://bluemix.net/docs/QuickStart.jsp (Bluemix getting started)

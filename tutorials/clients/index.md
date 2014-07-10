@@ -220,12 +220,10 @@ Tutorials
 To learn more about Bluemix&trade; and DevOps Services capabilities, see these tutorials:
 
 * [Getting Started with IBM Bluemix and IBM DevOps Services using Node.js](/tutorials/jazzeditor)
-* [Getting Started with IBM Bluemix and IBM DevOps Services using Java&trade;](/tutorials/jazzeditorjava)
+* [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)
 * [Developing IBM Bluemix applications in Node.js with the IBM DevOps Services Web IDE](/tutorials/jazzweb)
 * [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)
 * [Getting Started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)
-
-Java and all Java-based trademarks and logos are trademarks or registered trademarks of Oracle and/or its affiliates.    
 
 &copy; Copyright IBM Corporation 2013, 2014.
 

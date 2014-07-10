@@ -122,6 +122,8 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 * [Developing Bluemix applications in Java with Eclipse and DevOps Services](/tutorials/jazzrtc)
 * [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)
 
+&copy; Copyright IBM Corporation 2013, 2014.
+
 [1]: https://bluemix.net/ (Bluemix)
 [2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview
 [3]: /tutorials/jazzweb/images/forkbutton.gif

@@ -9,14 +9,14 @@ Easily add the "who, what, and when" of your development project.
 It only takes a few minutes to set dates, document your first user
 story, assign a task or two, and dive in to the code.	
  
->	![Simple user interface to start a project](/features/images/jazzhub-project-new.png)																				
+	![Simple user interface to start a project](/features/images/jazzhub-project-new.png)																				
 
 ## No install, just code now
 
 Start coding immediately after you create a project. 
 Click **Edit Code** to get started!
 
->	![Editing a new file](/features/images/jazzhub-editor-new-file.png)															
+	![Editing a new file](/features/images/jazzhub-editor-new-file.png)															
 
 ## Integrated source code editor
 
@@ -28,7 +28,7 @@ The Web IDE provides smart features including content assist for CSS, HTML, and 
 * Editing features for coding quickly, including keyboard shortcuts, and bracket and block-comment auto-completion
 * Key-bindings for vi and emacs users
 
->	![Integrated source code editor](/features/images/jazzhub-editor.png)											
+	![Integrated source code editor](/features/images/jazzhub-editor.png)											
 
 ## Build and deploy your way
 
@@ -41,7 +41,7 @@ To learn more about configuring and using the various build and deploy capabilit
 see the tutorial [Getting Started with Bluemix and DevOps Services using Node.js](/tutorials/jazzeditor)
 or [Getting Started with Bluemix and DevOps Services using Java&trade;](/tutorials/jazzeditorjava).
 
->	![Automatic build of source code](/features/images/automatic-build-source-code.png)
+	![Automatic build of source code](/features/images/automatic-build-source-code.png)
 									
 							
 ## Git hosting
@@ -53,7 +53,7 @@ projects), or the world.  Edit your source, push commits, and
 automatically deploy changes to	the cloud, all without leaving your
 browser. And, don't worry, your favorite Git client is supported too.
  
->	![Integrated source code editor](/features/images/git-hosting.png)		
+	![Integrated source code editor](/features/images/git-hosting.png)		
  
 ## Connect with your GitHub repository
 			
@@ -62,7 +62,7 @@ tools to code, and manage your project with DevOps Services.  You
 can reference a work item in the GitHub comments before you push 
 code changes, and the work item is updated with the new commit.
 
->	![User interface](/features/images/GitIntegration.png)		
+	![User interface](/features/images/GitIntegration.png)		
 
 ## Your work in one place
 
@@ -70,7 +70,7 @@ It's My Stuff. Get a quick view of the projects you own, belong	to, and
  like. See project invitations and requests too. Just another way 
 to help you stay organized.
 
->	![My Stuff](/features/images/MyStuff.png)																		 
+	![My Stuff](/features/images/MyStuff.png)																		 
 
 ## Built-in source code management						
 
@@ -79,7 +79,7 @@ Each project gets a Git repository or a Jazz source code management
  repository and workspace where project members check in changes, 
 associate code changes with work items, and view a history of recent 
 updates.
->	![Build-in source code](/features/images/SCMUIs.png)																				
+	![Build-in source code](/features/images/SCMUIs.png)																				
 
 ## Work items to track and plan project activities						
 
@@ -88,7 +88,7 @@ Track who's doing what, and when it will get done. Need a design? Open a task
 not working? Then, open a defect.  Hidden benefit: expect a warm 
 fuzzy when you complete a work item, and the status changes to Done.
 
->	![Work items](/features/images/WorkItemsMain.png)		
+	![Work items](/features/images/WorkItemsMain.png)		
 																			
 ## Dashboard charts for project status										
 
@@ -96,4 +96,6 @@ Choose from over 50 widgets to customize your dashboard! Use a burndown chart
 for tracking team velocity and work-item and source-control widgets
  to track individual work.
  
->	![Dashboard](/features/images/Charts.png)
+	![Dashboard](/features/images/Charts.png)
+
+&copy; Copyright IBM Corporation 2013, 2014.
