@@ -32,14 +32,14 @@ The Web IDE provides smart features including content assist for CSS, HTML, and 
 
 ## Build and deploy your way
 
-Configure your project to automatically deploy to [IBM Bluemix&reg;](https://ace.ng.bluemix.net/IBM Bluemix) 
+Configure your project to automatically deploy to [IBM&reg; Bluemix&reg;](https://ace.ng.bluemix.net/IBM Bluemix) 
 whenever a project member pushes code to your Git repository or
 Jazz&trade; SCM. You can simply deploy files as they are pushed, or you
 can configure more advanced build options to be deployed automatically.
 
 To learn more about configuring and using the various build and deploy capabilities,
 see the tutorial [Getting Started with Bluemix and DevOps Services using Node.js](/tutorials/jazzeditor)
-or [Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava).
+or [Getting Started with Bluemix and DevOps Services using Java&trade;](/tutorials/jazzeditorjava).
 
 >	![Automatic build of source code](/features/images/automatic-build-source-code.png)
 									
