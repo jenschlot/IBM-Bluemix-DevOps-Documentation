@@ -1,7 +1,7 @@
 
 #Getting started with tracking and planning in IBM DevOps Services
 
-The Track & Plan Beta feature in IBM DevOps Services offers an easy way to manage any type of project by using an agile approach. After you enable the Track & Plan feature, you can start getting organized right away by creating and assigning work items for your project.
+The Track & Plan Beta feature in IBM&reg; DevOps Services offers an easy way to manage any type of project by using an agile approach. After you enable the Track & Plan feature, you can start getting organized right away by creating and assigning work items for your project.
 
 The tools in the Track & Plan feature can simplify your project planning and speed your workflow. For example, you can drag items from one project phase to another, like from your project backlog to a sprint. You can also use the keyboard shortcuts or easy access icons to quickly assign work item attributes.
 
@@ -43,7 +43,7 @@ To try the Track & Plan feature, follow these instructions to start a simple, pu
 **Note**: You need to enable Scrum development to use the full Track & Plan capabilities. However, if you plan traditional projects that use simple tasks and iterations without a backlog, you would clear this check box.
 
 7. Leave the **Deploy to Bluemix** check box cleared.  
-**Tip**: IBM Bluemix is a cloud-based software hosting and deployment service. To experience Bluemix, [register][3] for access.
+**Tip**: IBM&reg; Bluemix&trade; is a cloud-based software hosting and deployment service. To experience Bluemix, [register][3] for access.
 
 8. Click **CREATE** to set up your project and go to the Overview page for the ChatPage project.  
 **Tip**: To include other people in your project, you click **INVITE** and enter their email addresses.
@@ -56,7 +56,7 @@ To try the Track & Plan feature, follow these instructions to start a simple, pu
 1. Click **TRACK & PLAN**. Review and close the message that welcomes you to the Track & Plan Beta.  
 **Note**: If you do not see the welcome message, you need to manually activate the Track & Plan Beta feature. Click the down arrow by **TRACK & PLAN** icon (<img src="/tutorials/trackplan/images/downarrow.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and click **Try the new Track & Plan Beta** to access the Settings. Select the **Try the new Track & Plan Beta** check box and click **SAVE**. Now, click **TRACK & PLAN** again.   
 
-2. Review the My Work view. From this view, you can see all the project work items that are assigned to you. Because you're the only person working on this project, you want to assign ownership of all work items to your Jazz user ID. The fastest way to do this is to create your work items from this page.
+2. Review the My Work view. From this view, you can see all the project work items that are assigned to you. Because you're the only person working on this project, you want to assign ownership of all work items to your Jazz user ID. The fastest way to do this is to create your work items from this view.
 
 2. Click in the **Create a Work Item** field and type a summary for the first work item: `Create a simple chat page for our site.` Press **Enter** to create the new task.  
 **Note**: The default work item type is **Task** (<img src="/tutorials/trackplan/images/task.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">).
@@ -133,7 +133,7 @@ This number is unique to your project and helps you keep track of each work item
 **Note**: Notice how you can search by keyword or tag.
 
 13. You need a few more work items to complete this project. Add the following work items and attributes by using whichever method you like best. Remember that you can assign or modify attributes after you've created the work item, too.
- * As a user, I'd like to be able to log into your chat with my Facebook or Google+ account. *story #login $high 
+ * As a user, I'd like to be able to log into your chat with my Facebook or Google+ account. #login $high 
  * Integrate OAuth to the chat site. *task #login #website $high
      * Make this task a child of the new story, "As a user, I'd like to be able to log into your chat with my Facebook or Google+ account."
 
@@ -262,17 +262,17 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 
 * [Getting Started with Bluemix and DevOps Services using Node.js][41]
 * [Getting Started with Bluemix and DevOps Services using Java][44]
-* [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services][42]
+* [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services][42]
 * [Developing Bluemix applications in Node.js with the DevOps Services Web IDE][43]
 * [Developing Bluemix applications in Java with Eclipse and DevOps Services][40]
 
  	
 [1]: https://hub.jazz.net
 [2]: /tutorials/trackplan/images/mystufflanding.gif
-[3]: https://ace.ng.bluemix.net/ (Register for Bluemix)
+[3]: https://bluemix.net/ (Register for Bluemix)
 [4]: /tutorials/trackplan/images/newprojectselection.gif
 [5]: /tutorials/trackplan/images/wiicons.gif
-[6]: https://ace.stage1.ng.bluemix.net/#/pricing/cloudOEPaneId=pricing 
+[6]: https://bluemix.net/#/pricing/cloudOEPaneId=pricing 
 [7]: /tutorials/trackplan/images/appendeddefect.gif
 [8]: /tutorials/trackplan/images/workitemeditor.gif
 [9]: /tutorials/trackplan/images/attributechange.gif
@@ -283,13 +283,13 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 [14]: /tutorials/trackplan/images/querybar.gif
 [15]: https://hub.jazz.net/tutorials/jazzeditor
 [16]: https://hub.jazz.net/tutorials/jazzeditorjava
-[17]: https://ace.ng.bluemix.net/
+[17]: https://bluemix.net/
 [18]: https://www.ibmdw.net/answers?community=jazzhub (DevOps Services forum)
 [19]: mailto:hub%40jazz.net
 [20]: /tutorials/trackplan/images/taptile.gif 
-[21]: https://ace.ng.bluemix.net/ (Log into Bluemix)
+[21]: https://bluemix.net/ (Log into Bluemix)
 [40]: /tutorials/jazzrtc (Developing Bluemix applications in Java with Eclipse and DevOps Services)
 [41]: /tutorials/jazzeditor (Getting Started with Bluemix and DevOps Services using Node.js)
-[42]: /tutorials/clients (Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services)
+[42]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services)
 [43]: /tutorials/jazzweb (Developing Bluemix applications in Node.js with the DevOps Services Web IDE)
 [44]:/tutorials/jazzeditorjava (Getting Started with Bluemix and DevOps Services using Java)
