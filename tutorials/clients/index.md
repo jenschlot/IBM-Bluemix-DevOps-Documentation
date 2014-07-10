@@ -1,7 +1,7 @@
 Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access IBM DevOps Services
 ================================================================================================
 
-DevOps Services lets you decide how you code.
+IBM&reg; DevOps Services lets you decide how you code.
 
 Want to get started right away? Try our Web IDE, based on Eclipse Orion technology. 
 You can edit any text file or script from within your browser. If your project contains
@@ -117,7 +117,7 @@ If you are using Eclipse and you have a Git project, you can use the EGit plug-i
 3. In Eclipse, select **File > Import**.
 4. In the Import window, select **Git > Projects from Git** and click **Next**.
 5. Select **Clone URI** and click **Next**.
-6. Paste the copied Git URL in to the **URI** field. Enter your Jazz ID and IBM&reg; ID password in the Authentication section. Click **Next**.
+6. Paste the copied Git URL in to the **URI** field. Enter your Jazz ID and IBM ID password in the Authentication section. Click **Next**.
 7. Select the branches that you want to work on and click **Next**.
 8. Update the Local Destination of the cloned repository if needed and click **Next**.
 9. Click **Next** and then **Finish**.
