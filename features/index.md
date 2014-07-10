@@ -39,7 +39,7 @@ can configure more advanced build options to be deployed automatically.
 
 To learn more about configuring and using the various build and deploy capabilities,
 see the tutorial [Getting Started with Bluemix and DevOps Services using Node.js](/tutorials/jazzeditor)
-or [Getting Started with Bluemix and DevOps Services using Java&trade;](/tutorials/jazzeditorjava).
+or [Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava).
 
 	![Automatic build of source code](/features/images/automatic-build-source-code.png)
 									
