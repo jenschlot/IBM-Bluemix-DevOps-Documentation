@@ -7,7 +7,7 @@ Make sure that your IBM id is registered with [Bluemix](//bluemix.net). Login to
 ##Getting your app
 
 We'll start by forking the sample project, [WordCounter](https://hub.jazz.net/project/pskhadke/WordCounter/overview).
-This project uses Jazz™ Source Control Management (Jazz SCM for short). It contains a manifest for deploying to Bluemix
+This project uses Jazz&trade; Source Control Management (Jazz SCM for short). It contains a manifest for deploying to Bluemix
 and can be loaded directly in the Rational Team Concert client for Eclipse. DevOps Services also supports Git projects. To find out more
 about support for Git, check out the
 [Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava) tutorial.

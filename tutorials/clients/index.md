@@ -16,7 +16,7 @@ You have 2 ways to work with your JazzHub project sourced in Git
 1. Git from the command line
 2. EGit plug-in in Eclipse
 
-If you have a JazzHub project sourced in Jazz™ SCM, you can use the Rational® Team Concert plug-in in Eclipse.
+If you have a JazzHub project sourced in Jazz&trade; SCM, you can use the Rational&reg; Team Concert plug-in in Eclipse.
 
 *** 
 
@@ -217,7 +217,7 @@ Did you find the information you needed? Tell us what you think. What did we do 
 Tutorials
 --------------
 
-To learn more about Bluemix™ and DevOps Services capabilities, see these tutorials:
+To learn more about Bluemix&trade; and DevOps Services capabilities, see these tutorials:
 
 * [Getting Started with IBM Bluemix and IBM DevOps Services using Node.js](/tutorials/jazzeditor)
 * [Getting Started with IBM Bluemix and IBM DevOps Services using Java™](/tutorials/jazzeditorjava)
