@@ -25,8 +25,8 @@ Simple deployment works by directly deploying the contents of the Git repository
 
 ![Sentiment Analysis Sample App][7]
 
-Next, you'll add some JSHint validation to make sure that your code is prim, proper, and error free. The simple deployer doesn't support that sort of thing. You need to configure a builder, which is only available in **Advanced** mode.
-Click **CODE** at the top of the overview, then open **Build &amp; Deploy** again. Click **Advanced**.
+The sample project incorporates JSHint validation to make sure that your code is prim, proper, and error free. The simple deployer doesn't support that sort of thing, though. You need to configure a builder, which is only available in **Advanced** mode.
+At the top of the *Build & Deploy* page, click **Advanced**.
 
 You can do as much creation and customization as you like when you configure your own project. This one, however, has been configured to require minimal fuss to get things up and running: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it will automatically be found.
 
@@ -103,7 +103,11 @@ Whether you are using command line tools or the Web IDE, they can be an effectiv
 ---
 ## Auto-deployment
 
-Builds are triggered when changes are delivered to a project, and successful builds are automatically deployed. You can also manually deploy from the build history page by dragging a successful build into the **Environment** box, or clicking **Deploy to** on a successful build. When the app is deployed, click on its web URL to give it a whirl:
+Builds are triggered when changes are delivered to a project, and successful builds are automatically deployed. You can also manually deploy from the build history page by dragging a successful build into the *Deploy* box under *Space*, or by expanding a successful build and clicking **Deploy to**. 
+
+![Deploying an app after expanding a completed build][22]
+
+When the app is deployed, click on its web URL to give it a whirl:
 
 ![Our updated app on Bluemix][19]
 
@@ -145,4 +149,5 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 [19]: /tutorials/jazzweb/images/UpdatedApp.gif
 [20]: https://www.ibmdw.net/answers?community=jazzhub (forum)
 [21]: mailto:hub%40jazz.net
+[22]: /tutorials/jazzweb/images/deployto.gif
   
