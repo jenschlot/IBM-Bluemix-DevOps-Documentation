@@ -1,12 +1,10 @@
 ---
 applications:
-- services:
-  host: jazzhublearni
-  disk: 1024M
-  name: jazzhublearni
+- disk_quota: 100M
+  host: jazzhubdocs
+  name: jazzhubdocs
   command: node app.js
   path: .
-  domain: ng.bluemix.net
-  mem: 512M
+  domain: mybluemix.net
   instances: 1
-
+  memory: 128M
