@@ -1,3 +1,5 @@
+/* jshint node */
+
 /**
  * Module dependencies.
  */
@@ -10,7 +12,6 @@
  */
 var fs = require('fs');
 var express = require('express');
-var https = require('https');
 var path = require('path');
 var cons = require('consolidate');
 
@@ -133,10 +134,19 @@ app.use(function (req, res) {
 	res.redirect(config.jazzhub.url + req.url.replace(/^\/*/, ''));
 });
 
+var server;
+
+if (process.env.VCAP_APPLICATION) {
+	/* We're probably running on Bluemix */
+	server = require('http').createServer(app);
+} else {
+	server = require('https').createServer({
+		key: fs.readFileSync('keys/server.key'),
+		cert: fs.readFileSync('keys/server.crt')
+	},app);
+}
+
 /* Actually stand up an https server with behavior governed by the express app configured above. */
-https.createServer({
-	key: fs.readFileSync('keys/server.key'),
-	cert: fs.readFileSync('keys/server.crt')
-},app).listen(app.get('port'), function(){
+server.listen(app.get('port'), function(){
   console.log('Express server listening on port #' + app.get('port'));
 });

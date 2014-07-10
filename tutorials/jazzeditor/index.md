@@ -2,20 +2,20 @@
 
 ##Create an application with IBM Bluemix
 
-[IBM Bluemix](https://ace.ng.bluemix.net/) is an open-standards, cloud-based platform for building, managing, and running all types
-of applications (mobile, smart devices, web, big data). Capabilities include Java, mobile back-end development, 
+[IBM&reg; Bluemix&trade;](https://bluemix.net/) is an open-standards, cloud-based platform for building, managing, and running all types
+of applications (mobile, smart devices, web, big data). Capabilities include Java&trade;, mobile back-end development, 
 application monitoring, as well as features from ecosystem partners and open source, 
 all through an as-a-service model in the cloud.
 
-Before you can use the Bluemix capabilities, you have to register. To register, go to the [IBM Bluemix home page](https://ace.ng.bluemix.net/) and 
+Before you can use the Bluemix capabilities, you have to register. To register, go to the [IBM Bluemix home page](https://bluemix.net/) and 
 click **Sign up for a free trial**.
 
 ![Sign up for a free trial](/tutorials/jazzeditor/images/bm-join.png)
 
-After you register, the [IBM Bluemix site](https://ace.ng.bluemix.net/) offers helpful information about Bluemix:
+After you register, the [IBM Bluemix site](https://bluemix.net/) offers helpful information about Bluemix:
 
-* [Getting Started with Bluemix](https://www.ng.bluemix.net/docs/QuickStart.jsp)
-* [Bluemix Overview](https://www.ng.bluemix.net/docs/BlueMixIntro.jsp)
+* [Getting Started with Bluemix](https://bluemix.net/docs/QuickStart.jsp)
+* [Bluemix Overview](https://bluemix.net/docs/BlueMixIntro.jsp)
 
 
 To get started now, 
@@ -90,7 +90,7 @@ You might need to enter your password to verify that DevOps Services can act on 
 
 ![DevOps Services sign in page](/tutorials/jazzeditor/images/jh-signin.png)
 
-**Note:** The first time that you access IBM DevOps Services, you might need to create a Jazz ID and link it to your IBM ID. A Jazz ID is a "short name" that is used in several places, 
+**Note:** The first time that you access IBM DevOps Services, you might need to create a Jazz&trade; ID and link it to your IBM ID. A Jazz ID is a "short name" that is used in several places, 
 including the URL for the repository that is created for you. For this one-time process, follow 
 the instructions in the dialog box.
  
@@ -126,7 +126,8 @@ files that are created when you created your Git repository project.
 You'll check in those files later in this tutorial.
 
 To change the deployment settings, you click **CONFIGURE**. To manage your application in 
-Bluemix, you click **MANAGE**. You can request a build of your application by clicking **REQUEST BUILD**.
+Bluemix, you click the link next to the **Deploy to** field. You can request a deployment 
+of your application by clicking **REQUEST DEPLOY**.
 
 You use the Git URL in Git commands. You can copy this URL now or return to the page to copy it later.
 
@@ -139,11 +140,22 @@ and the browser-based Web IDE, but you can also use the command line.
 **Note**: If you need to install Git, 
 see [Installing Git](/tutorials/clients#installing_git).
 
-Browse [git documentation](http://git-scm.com/doc) to learn more about working with Git.
+Browse the [Git documentation](http://git-scm.com/doc) to learn more about working with Git.
 
-Start by cloning the local repository using the Git URL from either the Bluemix application dashboard or the Build & Deploy page:
+Start by cloning the local repository using the Git URL from either the Bluemix application dashboard 
+or the Build & Deploy page:
 
-![Clone the local repository](/tutorials/jazzeditor/images/cli-git-clone.png)
+
+	$ git clone https://hub.jazz.net/git/jazzhubdemouser/mycoolwebappp0630
+    Cloning into 'mycoolwebapp0630'...
+    Username for 'https://hub.jazz.net': jazzhubdemouser
+    Password for 'https://jazzhubdemouser@hub.jazz.net':
+    remote: Counting objects: 23, done
+    remote: Finding sources: 100% (23/23)
+    remote: Total 23 (delta 0), reused 23 (delta 0)
+    Unpacking objects: 100% (23/23), done.
+    Checking connectivity... done. 
+
 
 Next, change the application source code to see what happens. Change to your Git clone directory. 
 The views folder contains a file named `index.ejs`. This file implements the main page for the example. 
@@ -151,9 +163,26 @@ Change this file, for example, modify the title that is displayed.
 
 ![Changing the title](/tutorials/jazzeditor/images/cli-edit-file.png)
 
-Then, change to your Git clone directory and do a Git push as shown in this image:
+Then, change to your Git clone directory and do a Git add, commit and push as shown:
 
-![Pushing the change](/tutorials/jazzeditor/images/cli-edit-push.png)
+	$ cd ..
+    $ git add *
+    $ git commit -m "Changing title of app"
+    [master bf26680] Changing title of app
+    1 file changed, 2 insertions(+), 2 deletions(-)
+
+	$ git push
+    Username for 'https://hub.jazz.net': jazzhubdemouser
+    Password for 'https://jazzhubdemouser@hub.jazz.net':
+    Counting objects: 8, done.
+    Delta compression using up to 2 threads.
+    Compressing objects: 100% (3/3), done.
+    Writing objects: 100% (4/4), 382 bytes | 0 bytes/s, done.
+    Total 4 (delta 2), reused 0 (delta 0)
+    remote: Resolving deltas: 100% (2/2)
+    remote: Processing changes: refs: 1, done
+    To https://hub.jazz.net/git/jazzhubdemouser/mycoolwebapp0630
+    	43c6bc7..bf26680 master -> master
 
 If you go back to the Web IDE and check the 
 Build & Deploy page, you should see something similar to this image:
@@ -211,7 +240,7 @@ Here's what the Web IDE looks like with the example project open:
 From this environment, you can edit files with color syntax support for multiple languages, including HTML, 
 CSS, JavaScript, Ruby, Python, and more. For some languages, such as JavaScript, the Web IDE also supports 
 syntax checking and code completion, both for standard language constructs and for the services provided 
-by Bluemix. Click **Ctrl+Space** on a language construct to see code completion. For example, this image shows code completion for the standard Node.js express module:
+by Bluemix. To use Content Assist, just press **Ctrl + Space**. For example, this image shows code completion for the standard Node.js express module:
 
 ![Orion showing express completions](/tutorials/jazzeditor/images/completion.png)
 
@@ -265,7 +294,7 @@ For more control over deployment, you can use the advanced options.
 Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can also manually deploy 
 applications directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the Web IDE, you can click **Deploy** to manually deploy your code to Bluemix. 
 
-**Note**:The **Deploy** button in the Web IDE deploys the current state of the code in your Web IDE, whereas auto-deploy deploys the code that is
+**Note**: The **Deploy** button in the Web IDE deploys the current state of the code in your Web IDE, whereas auto-deploy deploys the code that is
 checked in to the repository.
 
 Both the command-line tools and the Web IDE are effective for rapid, 
@@ -301,4 +330,6 @@ To learn more about Bluemix and DevOps Services capabilities, see these tutorial
 * [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)    
 * [Getting Started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)  
     
+Java and all Java-based trademarks and logos are trademarks or registered trademarks of Oracle and/or its affiliates.    
+
 &copy; Copyright IBM Corporation 2013, 2014.

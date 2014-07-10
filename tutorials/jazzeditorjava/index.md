@@ -2,7 +2,7 @@
 
 ##Create an application with IBM Bluemix
 
-*[IBM Bluemix][1] is an open-standards, cloud-based platform for building, managing and running apps of all types (web, mobile, big data, new smart devices). Capabilities include Java, mobile backend development, application monitoring, as well as capabilities from ecosystem partners and open source, all through an as-a-service model in the cloud.*
+*[IBM® Bluemix™][1] is an open-standards, cloud-based platform for building, managing and running apps of all types (web, mobile, big data, new smart devices). Capabilities include Java™, mobile backend development, application monitoring, as well as capabilities from ecosystem partners and open source, all through an as-a-service model in the cloud.*
 
 If you haven't already done so, the first step to use these capabilities is to register. Bluemix is currently in beta, so you can register by going to the [Bluemix home page][1] and clicking **Sign up for a free trial**.
 
@@ -10,8 +10,8 @@ If you haven't already done so, the first step to use these capabilities is to r
 
 Once you've registered, there is lots of helpful information available on the [Bluemix][1] site, such as ...
 
-* [Getting Started with IBM Bluemix](https://www.ng.bluemix.net/docs/QuickStart.jsp)
-* [IBM Bluemix Overview](https://www.ng.bluemix.net/docs/BlueMixIntro.jsp)
+* [Getting Started with IBM Bluemix](https://bluemix.net/docs/QuickStart.jsp)
+* [IBM Bluemix Overview](https://bluemix.net/docs/BlueMixIntro.jsp)
 
 ... but if you prefer to _try_ things rather than read about them, just follow along. You can have a sample application up and running in minutes.
 
@@ -56,7 +56,7 @@ You may be asked to enter your password because DevOps Services must verify that
 
 ![DevOps Services sign in page][12]
 
-*Note: The first time you access DevOps Services, you might need to create a "Jazz ID" and link it to your IBM id. A Jazz ID is a kind of "short name" that is used in several places, including the URL for the repository that is about to be created for you. Just follow the instructions in the dialog. You'll only ever see it once.*
+*Note: The first time you access DevOps Services, you might need to create a "Jazz™ ID" and link it to your IBM id. A Jazz ID is a kind of "short name" that is used in several places, including the URL for the repository that is about to be created for you. Just follow the instructions in the dialog. You'll only ever see it once.*
 
 Make sure the box to populate the Git repo with the starter application package and automatically deploy the app is checked.
 
@@ -81,7 +81,7 @@ Clicking that button opens a page that lets you configure and see the project's 
 
 Select **Simple** deployment. With this deployment option, the contents of the Git repository are deployed directly to Bluemix. There is no intermediate build step.
 
-In a few seconds, the application will automatically deploy to Bluemix. Your sample app is available at the location linked after **Deploy to**, while you can click **Manage** to monitor the app on Bluemix.
+In a few seconds, the application will automatically deploy to Bluemix. Your sample app is available at the URL linked after **Deploy to**, while you can click the app name to view its overview on Bluemix.
 
 ![DevOps Services auto deploy page][17]
 
@@ -98,7 +98,7 @@ First, let's configure the builder. The default settings will work for this proj
 
 ![Configuring the Builder][18]
 
-Then, go to the Deployer. As you might guess, this is what you configure to _deploy_ to Bluemix. You can give the app a name; by default, this comes from the manifest, which is a file that tells Bluemix how to deploy your application. Let's leave it blank so that it will use the name in the manifest.
+Then, go to the Deployer. As you might guess, this is what you configure to _deploy_ to Bluemix. You can give the app a name; by default, this comes from the manifest file, `manifest.yml`, which tells Bluemix how to deploy your application. Let's leave it blank so that it will use the name in the manifest.
 
 Leave the organization as it is. You can choose which space you want, or create a new one. Leave it as dev. The script section shows the deployment script that will be executed to deploy the application. The `CF_APP` variable resolves to the app name. In this case, it will resolve to the name in the manifest as we did not specify a different app name.
 
@@ -110,14 +110,14 @@ Once everything is configured, click **REQUEST BUILD**. The page refreshes with 
 
 You can also click the app route in the panel to visit your app on the web.
 
-Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service or Add-on, visit the [Bluemix pricing page](https://ace.ng.bluemix.net/#/pricing).
+Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service or Add-on, visit the [Bluemix pricing page](https://bluemix.net/#/pricing).
 
 ---
 ##Push changes to the Git repository by using the command line
 
 You now have a Git repo with example code. Lots of tools can be used to work with Git, including all of the major desktop IDEs and even directly from the web using the Web IDE, but for now, let's just use the command line Git support.
 
-(If you don't have Git, you can find information on installing it at [Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Service][20].)
+**Note:** If you don't have Git, you can find information on installing it at [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][20]. If you want to learn more about working with Git, you can browse the [Git documentation pages](http://git-scm.com/doc).
 
 First, clone the repo using the URL, which you can find on the Bluemix application's dashboard _or_ the DevOps project's overview:
 
@@ -164,14 +164,14 @@ Notice that a new build has been queued; it was automatically triggered by the c
 
 There you go! Now you can continue to make modifications to the example and push them to the Git repository as often as needed. And as the scope of the work grows, and more people are added to the project to work on it, _everyone_ can push changes to the repository. Standard repository operations and build and deploy are all that is required to ensure that the right bits are always running.
 
-If you want to configure desktop clients to work with your git repository, check out [Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Service][26] later.
+If you want to configure desktop clients to work with your git repository, check out [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][26] later.
 
 ---
 ## Back to DevOps Services
 
 In addition to build and deploy, DevOps Services provides a lot of other capabilities that are useful for application development:
 
-  * Free public project hosting
+  * Hosting for public projects
   * Multiple source code repositories
   * Support for teams doing Agile development
   * Web based development tools with customizations specifically for working with Bluemix
@@ -185,11 +185,13 @@ If you go back to the deployment page, you can see a button labeled **EDIT CODE*
 
 ![Orion at DevOps Services][29]
 
-From this environment, you can edit files with syntax coloring support for multiple languages including HTML, CSS, Java, JavaScript, Ruby, Python and more. For some languages, such as JavaScript, the IDE also supports syntax checking and code completion, both for standard language constructs and for the services provided by Bluemix. For example, here's what it looks like providing completion for the standard `node.js express` module:
+From this environment, you can edit files with syntax coloring support for multiple languages including HTML, CSS, Java, JavaScript, Ruby, Python and more. For some languages, such as JavaScript and CSS, the IDE also supports syntax checking and content assist, both for standard language constructs and for the services provided by Bluemix. To use Content Assist, just press **Ctrl + Space**. For example, here's what it looks like providing code completion for the standard `node.js express` module:
 
 ![Orion showing express completions][30]
 
-So just to round out the process, let's make one more modification to your application using the Web IDE. Before you do that, though, you must fetch and merge the app title change that you just made with the command line so that it shows in the Web IDE. You do that with the Git Status page. We'll go over more about this page in a moment, but in the meantime, switch to the Git Repository page. 
+*Tip: While outside of the code editor, type Shift + ? to search through the various key bindings in the IDE. Type Shift + Alt + ? to do so while you're in the editor.* 
+
+Just to round out the process, let's make one more modification to your application using the Web IDE. Before you do that, though, you must fetch and merge the app title change that you just made with the command line so that it shows in the Web IDE. You do that with the Git Status page. We'll go over more about this page in a moment, but in the meantime, switch to the Git Repository page. 
 
 ![Orion git status menu](/tutorials/jazzeditorjava/images/orion-git-status.gif)
 
@@ -224,7 +226,7 @@ It's just like you did with the command line, only with a few more clicks and a 
 ---
 ## Manual Deployment
 
-In the Web IDE, you can use the **Deploy** button to manually deploy whatever you are working in the Web IDE to Bluemix. It is important to remember that the **Deploy** button in the Web IDE deploys the current state of your code in your Web IDE, while Auto-Deploy deploys from what is checked into the repository.
+In the Web IDE, while you're in the directory that contains your `manifest.yml` file, you can use the Deploy button to manually deploy whatever you are developing in the Web IDE to Bluemix. It is important to remember that the **Deploy** button in the Web IDE deploys the current state of your code in your Web IDE, while Auto-Deploy deploys from what is checked into the repository.
 
 ![About to click the Deploy button in the Web IDE][37]
 
@@ -244,7 +246,7 @@ Thanks for following along. And tell us what you think. What did we do well? Wha
 ---
 ## Next Steps
 
-If you want to learn more about configuring Eclipse or other desktop clients to work with your git repository, see [Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Service][26].
+If you want to learn more about configuring Eclipse or other desktop clients to work with your git repository, see [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][26].
 
 If you want to learn about how to integrate unit testing into your DevOps Services projects, see [Developing Bluemix applications in Java with Eclipse and DevOps Services][40].
 
@@ -254,16 +256,16 @@ If you want to learn about how to integrate unit testing into your DevOps Servic
 Interested in trying more Bluemix and DevOps capabilities? Here is a list of tutorials:
 
 * [Getting Started with Bluemix and DevOps Services using Node.js][41]
-* [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services][42]
+* [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services][42]
 * [Developing Bluemix applications in Node.js with the DevOps Services Web IDE][43]
 * [Developing Bluemix applications in Java with Eclipse and DevOps Services][40]
 * [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)
 
-[1]: https://ace.ng.bluemix.net/ (Bluemix)
+[1]: https://bluemix.net/ (Bluemix)
 [2]: /tutorials/jazzeditorjava/images/bm-join.gif 
-[3]: https://www.ng.bluemix.net/docs/QuickStart.jsp (Bluemix getting started)
-[4]: https://www.ng.bluemix.net/docs/BlueMixIntro.jsp (Bluemix overview)
-[5]: https://www.ng.bluemix.net/docs/Tutorials.jsp (Bluemix tutorials)
+[3]: https://bluemix.net/docs/QuickStart.jsp (Bluemix getting started)
+[4]: https://bluemix.net/docs/BlueMixIntro.jsp (Bluemix overview)
+[5]: https://bluemix.net/docs/Tutorials.jsp (Bluemix tutorials)
 [6]: /tutorials/jazzeditorjava/images/demo-dash.gif 
 [7]: /tutorials/jazzeditorjava/images/bm-java-starter.gif 
    [8]: /tutorials/jazzeditorjava/images/create-jws-app.gif 
@@ -278,13 +280,13 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
    [17]: /tutorials/jazzeditorjava/images/simpledeploy.gif 
    [18]: /tutorials/jazzeditorjava/images/configbuilder.gif 
    [19]: /tutorials/jazzeditorjava/images/deployer.gif 
-   [20]: /tutorials/clients (Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Services)
+   [20]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Services)
    [21]: /tutorials/jazzeditorjava/images/cli-git-clone.gif 
    [22]: /tutorials/jazzeditorjava/images/cli-stage-commit.gif 
    [23]: /tutorials/jazzeditorjava/images/cli-push.gif 
    [24]: /tutorials/jazzeditorjava/images/autodeploy.gif 
    [25]: /tutorials/jazzeditorjava/images/app-new-title.gif 
-   [26]: /tutorials/clients (Setting up Eclipse, Git, and RTC Desktop Clients for use with DevOps Services)
+   [26]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Services)
    [27]: https://hub.jazz.net/learn (DevOps Services introduction)
    [28]: http://orion.eclipse.org/ (The Eclipse Orion project)
    [29]: /tutorials/jazzeditorjava/images/orion.gif 
@@ -300,7 +302,7 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
    [39]: mailto:hub%40jazz.net
    [40]: /tutorials/jazzrtc (Developing Bluemix applications in Java with Eclipse and DevOps Services)
    [41]: /tutorials/jazzeditor (Getting Started with Bluemix and DevOps Services using Node.js)
-   [42]: /tutorials/clients (Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Services)
+   [42]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services)
    [43]: /tutorials/jazzweb (Developing Bluemix applications in Node.js with the DevOps Services Web IDE)
    [44]: /tutorials/jazzeditorjava/images/panel_gear.gif
   

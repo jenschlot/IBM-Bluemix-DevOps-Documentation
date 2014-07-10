@@ -1,6 +1,6 @@
 # Developing IBM Bluemix applications in Node.js with the Web IDE
 
-This tutorial shows you how to use DevOps Services to develop an application in the cloud and deploy it to [IBM Bluemix][1].
+This tutorial shows you how to use DevOps Services to develop an application in the cloud and deploy it to [IBM® Bluemix™][1].
 
 ---
 ## Start with a sample project
@@ -50,7 +50,7 @@ To open the app, click the URL below its name. Click the gear button indicated b
 
 ![Stopping a Bluemix app][12]
 
-Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service or Add-on, visit the [Bluemix pricing page](https://ace.ng.bluemix.net/#/pricing).
+Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service or Add-on, visit the [Bluemix pricing page](https://bluemix.net/#/pricing).
 
 ---
 ## Editing the Sample Application
@@ -92,7 +92,7 @@ Deploying a DevOps Services project from the Web IDE requires the project to hav
 ---
 ## Manual Deployment
 
-In the Web IDE, after opening the folder that contains your app' `manifest.yml` file, you can use the Deploy button to manually deploy whatever you are working in the Web IDE to Bluemix. It is important to remember that the Deploy button in the Web IDE deploys the current state of your code in your Web IDE, while Auto-Deploy deploys from what is checked into the repository.
+In the Web IDE, while you're in the directory that contains your `manifest.yml` file, you can use the Deploy button to manually deploy whatever you're developing in the Web IDE to Bluemix. It is important to remember that the Deploy button in the Web IDE deploys the current state of your code in your Web IDE, while Auto-Deploy deploys from what is checked into the repository.
 
 ![About to click the Deploy button in the Web IDE][18]
 
@@ -118,11 +118,11 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 
 * [Getting Started with Bluemix and DevOps Services using Node.js](/tutorials/jazzeditor)
 * [Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava)
-* [Setting up Eclipse, Git, and RTC Desktop Clients to access DevOps Service](/tutorials/clients)
+* [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Service](/tutorials/clients)
 * [Developing Bluemix applications in Java with Eclipse and DevOps Services](/tutorials/jazzrtc)
 * [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)
 
-[1]: https://ace.ng.bluemix.net/ (Bluemix)
+[1]: https://bluemix.net/ (Bluemix)
 [2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview
 [3]: /tutorials/jazzweb/images/forkbutton.gif
 [4]: /tutorials/jazzweb/images/ForkNew.gif
@@ -132,7 +132,7 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 [8]: /tutorials/jazzweb/images/Builder1.gif
 [9]: /tutorials/jazzweb/images/DeployScriptEx.gif
 [10]: /tutorials/jazzweb/images/history.gif
-[11]: https://ace.ng.bluemix.net
+[11]: https://bluemix.net
 [12]: /tutorials/jazzweb/images/startappbluemix.gif
 [13]: /tutorials/jazzweb/images/AutocompleteSearch.gif
 [14]: /tutorials/jazzweb/images/staging.gif

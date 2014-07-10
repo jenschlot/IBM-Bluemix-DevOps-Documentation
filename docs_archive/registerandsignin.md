@@ -27,7 +27,7 @@ IBM resources such as IBM applications, services, communities, support, and on-l
 If you want to use the deployment capability provided by BlueMix, you must register at BlueMix. 
 If you do not already have an IBM ID, you can register for one now.
 
-1. Go to https://ace.ng.bluemix.net/
+1. Go to https://bluemix.net/
 2. Click the button to register.
 3. Complete the form. Make note of your user ID and password. Agree to the terms of use, and click **Register**.
 4. When you access the Codename BlueMix site, you accept the terms and provide a reason why you want to join the beta. For the reason use IBM DevOps Services tutorial to help us track the use of the beta with our tutorials.
@@ -46,7 +46,7 @@ Use your Jazz ID to sign in to IBM DevOps Services.
 ## Sign in to BlueMix
 Use your IBM ID to sign in to BlueMix.
 
-1. Go to https://ace.ng.bluemix.net/
+1. Go to https://bluemix.net/
 2. Click **LOGIN** from the menu bar.
 3. Enter your IBM ID and password.
 3. Click **SIGN IN**
