@@ -144,7 +144,7 @@ This number is unique to your project and helps you keep track of each work item
 <a name='triage_the_backlog'></a>
  ##Triage the backlog
 
-Before you populate a sprint, you should triage the work items in your backlog. If you use agile management techniques with your projects, you probably use a similar process during your sprint planning meetings.
+Before you populate a sprint, you should rank the work items in your backlog. If you use agile management techniques with your projects, you probably use a similar process during your sprint planning meetings.
 
 1. Collapse the parent items and notice how each work item's rank is **Not Ranked**. You can easily change this status. Drag the "Create a simple chat page for our site" task to the top of the list and see how its rank changes to 1. 
 
@@ -206,7 +206,7 @@ Now that you set up your sprint you're ready to start work.
 The Track & Plan feature makes it easy for you to track your sprint's work as you complete planned tasks. It's also easy to create and address new work items.
 
 1. In the Open lane, click in the **Create a work item** field and make three more work items:
-  * As a user, I'd like your chat site to look good on my phone. *story #mobile $low 
+  * As a user, I'd like your chat site to look good on my phone. #mobile $low 
   * Test site on mobile devices and optimize Bootstrap and CSS files to improve performance. *task #mobile #website $low
   * The server handles the requests too slowly. *defect #server $high !major 
 
