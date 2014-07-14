@@ -110,20 +110,23 @@ if ('development' == app.get('env')) {
 
 /* Proper error handler. */
 app.use('/tutorials', function (req, res) { 
-	res.status(404);
-	res.end(req.path + ": File not found");
+	res.status(404).render('404_temp');
+//	res.end(req.path + ": File not found");
 });
-app.use('/whatsnew', function (req, res) { 
-	res.status(404);
-	res.end(req.path + ": File not found");
+app.use('/whatsnew', function (req, res) {
+	res.status(404).render('404_template') 
+//	res.status(404);
+//	res.end(req.path + ": File not found");
 });
 app.use('/help/faq', function (req, res) { 
-	res.status(404);
-	res.end(req.path + ": File not found");
+	res.status(404).render('404_template')
+//	res.status(404);
+//	res.end(req.path + ": File not found");
 });
 app.use('/features', function (req, res) { 
-	res.status(404);
-	res.end(req.path + ": File not found");
+	res.status(404).render('404_template')
+//	res.status(404);
+//	res.end(req.path + ": File not found");
 });
 
 

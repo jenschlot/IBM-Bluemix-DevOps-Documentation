@@ -468,6 +468,9 @@ a img {
 	text-align: center;
 }
 
+
+/** CSS for rendering code using the markedown syntax **/
+
 pre, code, tt {
 	font-size: 14px;
 	font-family: Consolas, "Liberation Mono", Courier, monospace;
@@ -505,6 +508,10 @@ pre code, pre tt {
 	border: none;
 }
 
+
+
+/** CSS for rendering tables using markedown syntax **/
+
 table
 {
   font-size: 14px;
@@ -536,3 +543,62 @@ table tr th, table tr td
 	padding:6px 13px;
 	word-wrap: break-word;
 }
+
+
+
+/** CSS for the 404 error page **/
+
+a:link, a:visited {
+	color: #00649D;
+	text-decoration: none;	
+}
+
+a:hover {
+	color: #05386b;
+	text-decoration: none;	
+}
+
+.page_wrapper {
+	width: 100%;
+	position: relative;
+	padding-top: 110px;
+}
+
+.unavailable .box_wrapper {
+	width: 625px;
+	padding: 50px;
+	background-color: #eeeeee;
+	margin: 0 auto;
+}
+
+	.unavailable .box_wrapper .title_wrapper {
+		overflow: hidden;
+		border-bottom: 1px dotted #333;
+		padding-bottom: 20px;
+		position: relative;
+	}
+
+		.unavailable .box_wrapper .title_wrapper .warning_title {
+			float: left;
+			font-size: 32px;
+			line-height: 35px;
+			padding-left: 55px;
+		}
+
+		.unavailable .box_wrapper .title_wrapper .warning_title .warning_image {
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+	.unavailable .box_wrapper .message {
+		margin-top: 20px;
+	}
+
+	.unavailable .box_wrapper .more_info {
+		margin-top: 35px;
+	}
+
+	.unavailable .box_wrapper .jazzhub_id {
+		margin-top: 35px;
+	}
