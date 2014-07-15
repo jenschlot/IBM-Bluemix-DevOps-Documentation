@@ -21,29 +21,33 @@
 <br />
 <h1> Topics </h1>
 <div class="jh-col-12-2 prm" >
-<a href="/docs/nodejs.md"><img src="images/nodejs.gif" />node.js</a>
+<a href="/docs/nodejs.md"><img src="/docs/images/nodejs.gif" />node.js</a>
 </div><div class="jh-col-12-2 prm" >
-<a href="/docs/java.md"><img src="images/java.gif" />Java</a>
+<a href="/docs/java.md"><img src="/docs/images/java.gif" />Java</a>
 </div><div class="jh-col-12-2 prm" >
-<a href="/docs/mobile.md"><img src="images/mobile.gif" />Mobile</a>
+<a href="/docs/mobile.md"><img src="/docs/images/mobile.gif" />Mobile</a>
 </div></div>
 <div class="jh-columns pal" style="background-color:white">
 <div class="jh-col-12-2 prm" >
-<a href="/docs/eclipse.md"><img src="images/nodejs.gif" />Eclipse</a>
+<a href="/docs/eclipse.md"><img src="/docs/images/nodejs.gif" />Eclipse</a>
 </div><div class="jh-col-12-2 prm" >
-<a href="/docs/project_man.md"><img src="images/nodejs.gif" />Program management</a>
+<a href="/docs/project_man.md"><img src="/docs/images/nodejs.gif" />Program management</a>
 </div><div class="jh-col-12-2 prm" >
-<a href="/docs/git.md"><img src="images/nodejs.gif" />Git</a>
+<a href="/docs/git.md"><img src="/docs/images/nodejs.gif" />Git</a>
 </div>
 <div class="jh-col-12-2 prm" >
-<a href="/docs/git.md"><img src="images/nodejs.gif" />Projects</a>
+<a href="/docs/git.md"><img src="/docs/images/nodejs.gif" />Projects</a>
 </div>
 <div class="jh-col-12-2 prm" >
-<a href="/docs/deploy.md"><img src="images/nodejs.gif" />Deploy</a>
+<a href="/docs/deploy.md"><img src="/docs/images/nodejs.gif" />Deploy</a>
 <br />
 </div>
 
 </div>
+<br />
+<hr />
+<h1> [Browse all docs}(/docs/all) </h1>
+
 <!--
 <div style="background-color:#F0FFFF">
 <br />
@@ -65,8 +69,7 @@ Tutorial | Views: 20000 | Tags: bluemix, node.js, devops
 
 <div>
 -->
-<br />
-<h1> [Browse all docs}(/docs/all) </h1>
+
 
 
 </div>
