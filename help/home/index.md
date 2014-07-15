@@ -6,10 +6,10 @@
 
 <h1 style="color:#FFFFFF">&nbsp;&nbsp;Featured content</h1>
 <div class="jh-col-12-4 paxl" >
-<a href="/tutorials/jazzeditor"><img src="images/featured1.gif" width="95%"/></a>
+<a href="/tutorials/jazzeditor"><img src="/docs/images/featured1.gif" width="95%"/></a>
 </div>
 <div class="jh-col-12-4 paxl" >
-<img src="images/featured2.gif" width="95%"/>
+<img src="/docs/images/featured2.gif" width="95%"/>
 </div>
 <div class="jh-col-12-4 prm" >
 <img src="images/featured1.gif" width="95%"/>
@@ -23,9 +23,9 @@
 <div class="jh-col-12-2 prm" >
 <a href="/docs/nodejs.md"><img src="images/nodejs.gif" />node.js</a>
 </div><div class="jh-col-12-2 prm" >
-<a href="/docs/java.md"><img src="images/nodejs.gif" />Java</a>
+<a href="/docs/java.md"><img src="images/java.gif" />Java</a>
 </div><div class="jh-col-12-2 prm" >
-<a href="/docs/nodejs.md"><img src="images/nodejs.gif" />Mobile</a>
+<a href="/docs/mobile.md"><img src="images/mobile.gif" />Mobile</a>
 </div></div>
 <div class="jh-columns pal" style="background-color:white">
 <div class="jh-col-12-2 prm" >
@@ -39,7 +39,7 @@
 <a href="/docs/git.md"><img src="images/nodejs.gif" />Projects</a>
 </div>
 <div class="jh-col-12-2 prm" >
-<a href="/docs/deploy.md><img src="images/nodejs.gif" />Deploy</a>
+<a href="/docs/deploy.md"><img src="images/nodejs.gif" />Deploy</a>
 <br />
 </div>
 
