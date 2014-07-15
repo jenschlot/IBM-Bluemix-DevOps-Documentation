@@ -50,18 +50,30 @@ Within minor sections you can use paragraphs of content, perhaps including illus
 
 The easiest way to create tutorial content with this template is to follow these steps.
 
-1. Copy this template folder.
-2. Paste this template into the docs folder. When you do so, give your template folder
-the name tutorial_xxx where xxx is the name of your tutorial. Then rename the tutorial_template.md to tutorial_xxx 
+The easiest way to create tutorial content with this template is to follow these steps.
+
+1. Copy this template file.
+2. Paste this template into the tutorials folder. Then rename the tutorial_template.md to xxxx.md 
 where xxx is the name of your tutorial.
 3. Add your own content to your tutorial so you can compare it to the content here, 
 refering to these instructions as needed.
-4. Validate the Markdown source of each tutorial for acceptable markup as defined in this template
+4. Images go in an images folder inside the tutorial folder. 
+5. Validate the Markdown source of each tutorial for acceptable markup as defined in this template
 by opening your Markdown file with the **Orion Markdown Viewer**. 
-5. Read your tutorial checking for typos and that you are following the guidelines mentioned in the template.
-6. When you are ready to deliver your work, remove the instructions, and stage, commit and push it to the master branch. 
+6. Read your tutorial checking for typos and that you are following the guidelines mentioned in the template.
+7. When you are ready to deliver your work, remove the instructions, and stage, commit and push it to the master branch. 
 
 That's it!
+
+**Note:** Images must include  /tutorials/tutorial_folder in the path name. 
+For example,
+
+>    ![app new title](tutorials/images/app-new-title-sml.png)
+
+Images might not show in the Markdown viewer. If you change the images the changed image will not show in the viewer.
+
+This is because of the difference in the way the tutorial app renders the images when the tutorial is deployed to beta3, QA, PROD versus when looking at the tutorial in the editor.
+
 
 ---
 
