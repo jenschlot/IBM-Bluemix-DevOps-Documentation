@@ -21,30 +21,30 @@
 <br />
 <h1> Topics </h1>
 <div class="jh-col-12-2 prm" >
-<a href="/tutorials/jazzeditor"><img src="/help/home/images/nodejs.gif" />node.js</a>
+<a href="/docs/nodejs.md"><img src="images/nodejs.gif" />node.js</a>
 </div><div class="jh-col-12-2 prm" >
-<a href="/tutorials/jazzeditor"><img src="/help/home/images/nodejs.gif" />Java</a>
+<a href="/docs/java.md"><img src="images/nodejs.gif" />Java</a>
 </div><div class="jh-col-12-2 prm" >
-<a href="/tutorials/jazzeditor"><img src="/help/home/images/nodejs.gif" />Mobile</a>
+<a href="/docs/nodejs.md"><img src="images/nodejs.gif" />Mobile</a>
 </div></div>
 <div class="jh-columns pal" style="background-color:white">
 <div class="jh-col-12-2 prm" >
-<a href="/tutorials/jazzeditor"><img src="/help/home/images/nodejs.gif" />Eclipse</a>
+<a href="/docs/eclipse.md"><img src="images/nodejs.gif" />Eclipse</a>
 </div><div class="jh-col-12-2 prm" >
-<a href="/tutorials/jazzeditor"><img src="/help/home/images/nodejs.gif" />Program management</a>
+<a href="/docs/project_man.md"><img src="images/nodejs.gif" />Program management</a>
 </div><div class="jh-col-12-2 prm" >
-<a href="/tutorials/jazzeditor"><img src="/help/home/images/nodejs.gif" />Git</a>
+<a href="/docs/git.md"><img src="images/nodejs.gif" />Git</a>
 </div>
 <div class="jh-col-12-2 prm" >
-<a href="/tutorials/jazzeditor"><img src="/help/home/images/nodejs.gif" />Projects</a>
+<a href="/docs/git.md"><img src="images/nodejs.gif" />Projects</a>
 </div>
 <div class="jh-col-12-2 prm" >
-<a href="/tutorials/jazzeditor"><img src="/help/home/images/nodejs.gif" />Deploy</a>
+<a href="/docs/deploy.md><img src="images/nodejs.gif" />Deploy</a>
 <br />
 </div>
 
 </div>
-
+<!--
 <div style="background-color:#F0FFFF">
 <br />
 <h1 style="color:#F47D64">Most popular </h1>
@@ -64,8 +64,9 @@ Tutorial | Views: 20000 | Tags: bluemix, node.js, devops
 </div>
 
 <div>
+-->
 <br />
-<h1> Browse all docs </h1>
+<h1> [Browse all docs}(/docs/all) </h1>
 
 
 </div>
