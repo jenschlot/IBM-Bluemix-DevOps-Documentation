@@ -110,7 +110,7 @@ if ('development' == app.get('env')) {
 
 /* Proper error handler. */
 app.use('/tutorials', function (req, res) { 
-	res.status(404).render('404_temp');
+	res.status(404).render('404_template');
 //	res.end(req.path + ": File not found");
 });
 app.use('/whatsnew', function (req, res) {
