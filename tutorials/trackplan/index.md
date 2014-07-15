@@ -37,7 +37,6 @@ To try the Track & Plan feature, follow these instructions to start a simple, pu
 
 5. Leave the **Private** check box cleared.  
 **Note**: IBM DevOps Services supports both public and private projects. Anyone can access your public projects, but only the DevOps Services users you invite can access your private projects.  
-**Note**: You can use the Track & Plan feature with all your public IBM DevOps Services projects at no cost. If you use the feature with private projects, a fee might apply. See the [subscription] details.
 
 6. Leave the **Add features for Scrum development** check box selected. By enabling Scrum, you can create sprints from your project's backlog of work items.  
 **Note**: You need to enable Scrum development to use the full Track & Plan capabilities. However, if you plan traditional projects that use simple tasks and iterations without a backlog, you would clear this check box.
@@ -61,7 +60,7 @@ To try the Track & Plan feature, follow these instructions to start a simple, pu
 2. Click in the **Create a Work Item** field and type a summary for the first work item: `Create a simple chat page for our site.` Press **Enter** to create the new task.  
 **Note**: The default work item type is **Task** (<img src="/tutorials/trackplan/images/task.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">).
 
-3. Now, add more parameters to your task. Use the **Priority** icon (<img src="/tutorials/trackplan/images/nopriority.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) in the title bar to set the priority to **High**. 
+3. Now, add more parameters to your task. Use the **Priority** icon (<img src="/tutorials/trackplan/images/priority.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) in the title bar to set the priority to **High**. 
 
 4. Click the tag icon (<img src="/tutorials/trackplan/images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and type `website` in the displayed field. Press **Enter** to assign the tag.  
 **Tip**: A tag can help you group related work items. For example, you can use filtering options to view only the items that have a certain tag.
@@ -293,4 +292,5 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 [41]: /tutorials/jazzeditor (Getting Started with Bluemix and DevOps Services using Node.js)
 [42]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services)
 [43]: /tutorials/jazzweb (Developing Bluemix applications in Node.js with the DevOps Services Web IDE)
-[44]:/tutorials/jazzeditorjava (Getting Started with Bluemix and DevOps Services using Java)
+[44]: /tutorials/jazzeditorjava (Getting Started with Bluemix and DevOps Services using Java)
+
