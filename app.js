@@ -58,6 +58,7 @@ var tutorials_markdown_middleware = require('jazzhub-markdown-middleware')(path.
 var whatsnew_markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dirname, 'whatsnew'));
 var faq_markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dirname, 'help', 'faq'));
 var features_markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dirname, 'features'));
+var maintenance_markdown_middleware = require('jazzhub-markdown-middleware')(path.join(__dirname, 'maintenance'));
 
 app
  .use(config_middleware) // loads global app configuration.
@@ -74,6 +75,8 @@ app
  .use('/tutorials', tutorials_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
  .use('/features', features_markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
  .use('/features', features_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
+ .use('/maintenance', maintenance_markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
+ .use('/maintenance', maintenance_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
  .use('/help/faq', faq_markdown_middleware.file) // compiles the requested path as markdown if a ... .md file exists.
  .use('/help/faq', faq_markdown_middleware.directory) // compiles the requested path as markdown if .../index.md exists.
  .use('/help/faq', function (req, res, next) {
@@ -92,12 +95,17 @@ app
 	req.sectionname="Features";
 	next();
  })
+ .use('/maintenance', function (req, res, next) {
+	req.sectionname="Maintenance Schedule";
+	next();
+ })
  .use(routes.render_markdown) // renders markdown if any was compiled.
  .use('/tutorials', require('less-middleware')(path.join(__dirname, 'public'))) // compiles less stylesheets into css.
  .use('/tutorials', express.static(path.join(__dirname, 'public'))) // serves up static content if it exists in public/
  .use('/tutorials', express.static(path.join(__dirname, 'tutorials'))) // serves up static content if it exists in tutorials/
  .use('/whatsnew', express.static(path.join(__dirname, 'whatsnew'))) // serves up static content if it exists in whatsnew/
  .use('/features', express.static(path.join(__dirname, 'features'))) // serves up static content if it exists in features/
+ .use('/maintenance', express.static(path.join(__dirname, 'maintenance'))) // serves up static content if it exists in features/
  .use('/help/faq', express.static(path.join(__dirname, 'help', 'faq'))) // serves up static content if it exists in help/faq/
 // DO NOT leave the directory middleware in in production.
 
@@ -121,8 +129,9 @@ app.use('/help/faq', function (req, res) {
 app.use('/features', function (req, res) { 
 	res.status(404).sendfile('views/404_template.html');
 });
-
-
+app.use('/maintenance', function (req, res) { 
+	res.status(404).sendfile('views/404_template.html');
+});
 /* While doing internal testing, direct all un-handled requests to JazzHub. 
  * Where this app is behind the proxy, this handler will never be called.
  */
