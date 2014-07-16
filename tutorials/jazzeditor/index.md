@@ -292,9 +292,9 @@ When you click the URL you see your updated running application.
 In this workflow, you only used the simple deploy features with Bluemix. 
 For more control over deployment, you can use the advanced options. 
 Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can also manually deploy 
-applications directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the Web IDE, you can click **Deploy** to manually deploy your code to Bluemix. 
+applications directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the Web IDE, you can click **DEPLOY** to manually deploy your code to Bluemix. 
 
-**Note**: The **Deploy** button in the Web IDE deploys the current state of the code in your Web IDE, whereas auto-deploy deploys the code that is
+**Note**: The **DEPLOY** button in the Web IDE deploys the current state of the code in your Web IDE, whereas auto-deploy deploys the code that is
 checked in to the repository.
 
 Both the command-line tools and the Web IDE are effective for rapid, 
