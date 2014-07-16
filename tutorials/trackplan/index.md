@@ -123,7 +123,7 @@ This number is unique to your project and helps you keep track of each work item
  * \#server 
  * $high 
 
-11. Click the **Add a child** icon (<img src="/tutorials/trackplan/images/addachild.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) in your story's attributes. Now, type `node` into the search field and select the **Configure a chat server using node.js.** task.
+11. Click the **Add a child** icon (<img src="/tutorials/trackplan/images/addachild.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) in your story's attributes. Now, type `node` into the search field and select the "Configure a chat server using node.js" task.
 
 12. Notice that a plus sign appears beside the story. Click the plus sign to confirm that your new task is nested under your story.  
 **Note**: Notice that the task remains on your ranked list. This behavior lets you see the tasks that are associated with a story, but you can still rank the tasks individually.
@@ -159,7 +159,7 @@ Before you populate a sprint, you should rank the work items in your backlog. If
 5. Click the **Owner** icon for each filtered work item and select your name from the drop-down list. After you assign your items, delete `@:unassigned` from the text filter field.  
 **Tip**: If you are working with other team members, you can use this method to assign related work items to them.
 
-6. You should create time estimates to ensure you place an appropriate number of stories on a sprint. Click to expand the "Integrate OAuth to the chat site" item's drop-down menu and select **Estimate: Unassigned** from the drop-down menu.
+6. You should create time estimates to ensure you place an appropriate number of stories on a sprint. Click to expand the "Integrate OAuth to the chat site" item's drop-down menu and select **Estimate: Unassigned** from the drop-down menu.  
 **Tip**: Remember to review your story points and work item owners when creating time estimates.
 
 7. Set the duration to 3 days and click OK.  
@@ -199,7 +199,7 @@ Now that you set up your sprint you're ready to start work.
 
 5. As you work on your tasks that are in progress, update the number of hours spent on the task. Find the "Configure a chat server using node.js" task and click in its title bar to expand the drop-down menu. Use the **Time Spent** option to show that you've spent 16 hours on the task.
 
-6. Find the the "Configure a chat server using node.js" task. Click its **Status** icon (<img src="/tutorials/trackplan/images/statusopen.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and select **Complete** from the pop-up menu to close the task.  
+6. Find the the "Configure a chat server using node.js" task. Click its **Status** icon (<img src="/tutorials/trackplan/images/statusopen.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and select **Resolve** and then **Fixed** from the pop-up menu to close the task.  
 **Tip**: You can complete this process from the Team's Work view, too. You might find the ability to assign hours and complete tasks useful during your daily scrum meeting.  
 
 The Track & Plan feature makes it easy for you to track your sprint's work as you complete planned tasks. It's also easy to create and address new work items.
