@@ -146,7 +146,7 @@ Start by cloning the local repository using the Git URL from either the Bluemix 
 or the Build & Deploy page:
 
 
-	$ git clone https://hub.jazz.net/git/jazzhubdemouser/mycoolwebappp0630
+	$ git clone https://hub.jazz.net/git/jazzhubdemouser/mycoolwebapp0630
     Cloning into 'mycoolwebapp0630'...
     Username for 'https://hub.jazz.net': jazzhubdemouser
     Password for 'https://jazzhubdemouser@hub.jazz.net':
@@ -177,7 +177,7 @@ Then, change to your Git clone directory and do a Git add, commit and push as sh
     Counting objects: 8, done.
     Delta compression using up to 2 threads.
     Compressing objects: 100% (3/3), done.
-    Writing objects: 100% (4/4), 382 bytes | 0 bytes/s, done.
+    Writing objects: 100% (4/4), 383 bytes | 0 bytes/s, done.
     Total 4 (delta 2), reused 0 (delta 0)
     remote: Resolving deltas: 100% (2/2)
     remote: Processing changes: refs: 1, done
