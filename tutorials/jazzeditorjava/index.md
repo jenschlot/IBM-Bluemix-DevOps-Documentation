@@ -92,23 +92,47 @@ Once you change things, you'll need to build the app again, and the Simple deplo
 ---
 ## Configuring Advanced Build &amp; Deploy
 
-With the Advanced option, you can configure a builder to compile and package your application using a build script, and you can configure a deployer to deploy the application to Bluemix with any additional options needed.
+With the Advanced option, also known as Pipeline, you can configure a builder to compile and package your application using a build script, and you can configure a deployer to deploy the application to Bluemix with any additional options needed.
 
-First, let's configure the builder. The default settings will work for this project: build using Ant and pull from the master branch. The builder will find `build.xml` in the root directory and run it during the build. The files that are needed for deployment are output into the build artifacts directory. It defaults to the same directory as the build script path, so there's no need to change that, either.
+![Unconfigured Advanced Build & Deploy page][45]
+
+First, let's configure the builder. Click **add a builder**. The *Add Builder* configuration page will open. 
 
 ![Configuring the Builder][18]
 
-Then, go to the Deployer. As you might guess, this is what you configure to _deploy_ to Bluemix. You can give the app a name; by default, this comes from the manifest file, `manifest.yml`, which tells Bluemix how to deploy your application. Let's leave it blank so that it will use the name in the manifest.
+The default settings will work for this project: build using Ant and pull from the master branch of your git repo. The builder will find `build.xml` in the root directory and run it during the build. The files that are needed for deployment are output into the build artifacts directory. It defaults to the same directory as the build script path, so there's no need to change that, either.
 
-Leave the organization as it is. You can choose which space you want, or create a new one. Leave it as dev. The script section shows the deployment script that will be executed to deploy the application. The `CF_APP` variable resolves to the app name. In this case, it will resolve to the name in the manifest as we did not specify a different app name.
+Click **Save**. In a moment, the Pipeline page will refresh with information on your newly configured builder. 
+
+![A configured Builder panel][46]
+
+Give it a try: click **REQUEST BUILD**. In a moment, you should have a successful build on your hands. 
+
+![A configured Builder panel with a successful build][47]
+
+But what to do with it? Get it on the web with Bluemix, of course! Click **add a new stage**.  
 
 ![Configuring the Deployer][19]
 
-Once everything is configured, click **REQUEST BUILD**. The page refreshes with the **HISTORY** tab selected. You can see the build is running; click on it if you want to see a build log. When the build finishes successfully, it will deploy automatically to Bluemix, just as you've configured it. Click on the gear icon to view your app on Bluemix:
+This screen is where you configure deployment to Bluemix. You can give the app a name; by default, this comes from the manifest file, `manifest.yml`, which tells Bluemix how to deploy your application. Let's leave it blank so that it will use the name in the manifest.
 
-![Deployed app panel with highlighted gear icon][44]
+Leave the organization as it is. You can choose an existing space to use, or create a new one. Here, leave it as dev. 
 
-You can also click the app route in the panel to visit your app on the web.
+The script section shows the deployment script that will be executed to deploy the application. The `CF_APP` variable resolves to the app name. In this case, it will resolve to the name in the manifest, as we did not enter anything into the *Application name* field. Click **SAVE**. 
+
+![Fully configured Pipeline][48]
+
+And that's as much configuration as you need to do. Next, your app is ready to be pushed out onto Bluemix. 
+
+Remember the build you requested a few moments ago? Click on it, and drag it onto the *dev* space you just configured.
+
+![Dragging to deploy][49]
+
+This kicks off deployment. In seconds, your app will be on Bluemix. Fast, right? And with the Pipeline configured, future successful builds of your app will be automatically deployed. 
+
+![A deployed app using fully configured Pipeline][50]
+
+You can click on your app's name to visit it on the web; click elsewhere in the deployment box within *dev* to look at your app's Bluemix dashboard. 
 
 Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service or Add-on, visit the [Bluemix pricing page](https://bluemix.net/#/pricing).
 
@@ -160,7 +184,7 @@ Now, this is where it starts to get interesting! If you go back to the Build &am
 
 Notice that a new build has been queued; it was automatically triggered by the changes you delivered to the project repository. When it's finished, it will be deployed to Bluemix. Once it's there, you can view your updated app on the web. Refresh your browser to ensure the updated page is displayed.
 
-![Application page showing new title][25]
+![Application page showing new title][25]i
 
 There you go! Now you can continue to make modifications to the example and push them to the Git repository as often as needed. And as the scope of the work grows, and more people are added to the project to work on it, _everyone_ can push changes to the repository. Standard repository operations and build and deploy are all that is required to ensure that the right bits are always running.
 
@@ -307,4 +331,9 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
    [42]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services)
    [43]: /tutorials/jazzweb (Developing Bluemix applications in Node.js with the DevOps Services Web IDE)
    [44]: /tutorials/jazzeditorjava/images/panel_gear.gif
-  
+   [45]: /tutorials/jazzeditorjava/images/un-pipeline.gif
+   [46]: /tutorials/jazzeditorjava/images/configured-builder.gif
+   [47]: /tutorials/jazzeditorjava/images/configured-and-built.gif
+   [48]: /tutorials/jazzeditorjava/images/configured-pipeline.gif
+   [49]: /tutorials/jazzeditorjava/images/drag-to-deploy.gif
+   [50]: /tutorials/jazzeditorjava/images/deployed-with-pipeline.gif
