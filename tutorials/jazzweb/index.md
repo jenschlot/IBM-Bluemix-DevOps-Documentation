@@ -25,26 +25,28 @@ Simple deployment works by directly deploying the contents of the Git repository
 
 ![Sentiment Analysis Sample App][7]
 
-The sample project incorporates JSHint validation to make sure that your code is prim, proper, and error free. The simple deployer doesn't support that sort of thing, though. You need to configure a builder, which is only available in **Advanced** mode.
+The sample project incorporates JSHint validation to make sure that your code is prim, proper, and error free. The simple deployer doesn't support that sort of thing, though. You need to configure a builder, which is only available in Advanced mode, also known as Pipeline.
 At the top of the *Build & Deploy* page, click **Advanced**.
 
 You can do as much creation and customization as you like when you configure your own project. This one, however, has been configured to require minimal fuss to get things up and running: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it will automatically be found.
 
-On the **Configure Builder** page, select "Grunt" as the **Builder**. Leave everything else as default and click **SAVE**.
+Click **add a builder**. On the *Add Builder* page the appears, select "Grunt" as the **Builder**. Leave everything else as default and click **SAVE**.
 
 ![Configure Builder][8]
 
-Next, click the **Deployer** box on the left side of the screen. DevOps Services integrates with Bluemix, and this is a simple project, so the default information here is sufficient to deploy your project. To make sure that the project has a unique path, though, add the flag `-n` followed by a unique host name to the first line of the Bluemix script. As an example:
+Next, click **add a stage** on the right side of the screen. DevOps Services integrates with Bluemix, and this is a simple project, so the default information here is sufficient to deploy your project. To make sure that the project has a unique path, though, add the flag `-n` followed by a unique host name to the first line of the Bluemix script. As an example:
 
 ![Configure Deployer][9]
 
-If the project manifest file (`manifest.yml`) didn't specify a host name, or if the project required a particular service, you could define them here by adding `cf` command lines to the Bluemix script. The manifest included in this sample application specifies a host name and does not require any services, so we do not need to add anything to the script. Click **SAVE**, then click **Request Build**.
+If the project manifest file (`manifest.yml`) didn't specify a host name, or if the project required a particular service, you could define them here by adding `cf` command lines to the Bluemix script. The manifest included in this sample application specifies a host name and does not require any services, so we do not need to add anything to the script. Click **SAVE**. On the Pipeline page, click **Request Build**.
 
-From the **History** page, you can see that your project has been queued to build. When the build completes successfully, your app will automatically deploy to Bluemix. You can observe its status from this page, as well as open the app once it's deployed.
+![Clicking Request Build on configured Pipeline][23]
 
-To open the app, click the URL below its name. Click the gear button indicated below if you want to see your app's Bluemix dashboard:
+You can see that your project has been queued to build. When the build completes successfully, your app will automatically be deployed to Bluemix. You can observe its status from this page, as well as open the app once it's deployed.
 
-![History page][10]
+To open the app, click its name. Click on the deployment box in your space if you want to see your app's Bluemix dashboard:
+
+![Ready to click to Bluemix from Pipeline][10]
 
 [Bluemix][11] allows you to manage the live application instance. The **Applications** tab on the **Bluemix Dashboard** has options to start, stop, and delete the application. The **Services** tab has options to add various services such as MongoDB, SSO, MapReduce, and more.
 
@@ -103,7 +105,7 @@ Whether you are using command line tools or the Web IDE, they can be an effectiv
 ---
 ## Auto-deployment
 
-Builds are triggered when changes are delivered to a project, and successful builds are automatically deployed. You can also manually deploy from the build history page by dragging a successful build into the *Deploy* box under *Space*, or by expanding a successful build and clicking **Deploy to**. 
+Builds are triggered when changes are delivered to a project, and successful builds are automatically deployed. You can also manually deploy from the build history page by dragging a successful build into the box under a configured space, or by clicking the cloud icon beside a build and then selecting a space under **Deploy to**. 
 
 ![Deploying an app after expanding a completed build][22]
 
@@ -131,23 +133,23 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 [1]: https://bluemix.net/ (Bluemix)
 [2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview
 [3]: /tutorials/jazzweb/images/forkbutton.gif
-[4]: /tutorials/jazzweb/images/ForkNew.gif
+[4]: /tutorials/jazzweb/images/forknew.gif
 [5]: /tutorials/jazzweb/images/simpledeployment.gif
 [6]: /tutorials/jazzweb/images/closesimple.gif
-[7]: /tutorials/jazzweb/images/StockApp.gif
-[8]: /tutorials/jazzweb/images/Builder1.gif
-[9]: /tutorials/jazzweb/images/DeployScriptEx.gif
-[10]: /tutorials/jazzweb/images/history.gif
+[7]: /tutorials/jazzweb/images/stockapp.gif
+[8]: /tutorials/jazzweb/images/builder1.gif
+[9]: /tutorials/jazzweb/images/deployscriptex.gif
+[10]: /tutorials/jazzweb/images/click2blue.gif
 [11]: https://bluemix.net
 [12]: /tutorials/jazzweb/images/startappbluemix.gif
-[13]: /tutorials/jazzweb/images/AutocompleteSearch.gif
+[13]: /tutorials/jazzweb/images/autocompletesearch.gif
 [14]: /tutorials/jazzweb/images/staging.gif
 [15]: /tutorials/jazzweb/images/commit.gif
 [16]: /tutorials/jazzweb/images/pushing.gif
-[17]: /tutorials/jazzweb/images/manifest.gif
+[17]: /tutorials/jazzweb/images/manifest.gifb
 [18]: /tutorials/jazzweb/images/manualdeploy.gif
-[19]: /tutorials/jazzweb/images/UpdatedApp.gif
+[19]: /tutorials/jazzweb/images/updatedapp.gif
 [20]: https://www.ibmdw.net/answers?community=jazzhub (forum)
 [21]: mailto:hub%40jazz.net
 [22]: /tutorials/jazzweb/images/deployto.gif
-  
+[23]: /tutorials/jazzweb/images/request-build.gif  
