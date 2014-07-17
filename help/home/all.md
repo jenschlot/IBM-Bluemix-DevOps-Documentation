@@ -21,7 +21,8 @@
 ## Tutorials
 
 ### [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/jazzeditor)
-#### bluemix, devops,node.js
+Tags: bluemix, devops,node.js
+
 See how to create a node.js web app at BlueMix and run that app. 
 With one click you'll create a Git repo, 
 load it with the example code and automatically deploy 
@@ -32,7 +33,8 @@ to run the app to show your changes.
 
 
 ### [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)
-#### bluemix, devops, java
+Tags: bluemix, devops, java
+
 See how to create a Java web app at BlueMix and run that app. With a 
 few clicks, you'll create a Git repo, load it with the example code, and automatically deploy
  the app. In minutes, you will make code changes and push them using the Git command line and 
@@ -40,21 +42,22 @@ few clicks, you'll create a Git repo, load it with the example code, and automat
  and run the app to show your changes.
 
 ### [Developing BlueMix applications in Node.js with the Web IDE](/tutorials/jazzweb)
-#### bluemix, node.js, webide, devops
+Tags:  bluemix, node.js, webide, devops
 See how to use DevOps Services to develop a Node.js application 
 in the cloud and deploy it to IBM BlueMix.
 
 ### NEW [Getting started with tracking and planning in IBM DevOps Services](/tutorials/trackplan)
-#### devops, plan, track
+Tags: devops, plan, track
 See how to  use the Track & Plan Beta feature in an agile IBM DevOps Services project.
 
 ### [Setting up Eclipse, Git, and Rational Team Concert desktop clients to access IBM DevOps Services](/tutorials/clients)
-#### devops eclipse, git, rtc
+ Tags: devops, eclipse, git, rtc
+ 
 See how to work with a desktop client, this tutorial shows you how to configure your clients based on what type of DevOps Services project you are working with. 
 
 
 ### [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)
-#### devops, bluemix, java, eclipse
+Tags:  devops, bluemix, java, eclipse
 See how to develop a Java application using BlueMix, DevOps Services and the RTC client for Eclipse.
 
 <a id="articles">
@@ -63,6 +66,7 @@ ________________________________________
 ## Articles
 
 ### [Build a sentiment analysis application with Node.js, Express, sentiment, and ntwitter](http://www.ibm.com/developerworks/library/wa-nodejs-app/)
+Tags: devops, node.js, express,sentiment, ntwitter
 
 See how to create an application to get immediate feedback from users, specifically online
  users. Getting an instant read on the Twitterverse's reactions to an app, product 
