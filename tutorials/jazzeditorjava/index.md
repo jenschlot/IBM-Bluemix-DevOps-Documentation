@@ -132,7 +132,7 @@ This kicks off deployment. In seconds, your app will be on Bluemix. Fast, right?
 
 ![A deployed app using fully configured Pipeline][50]
 
-You can click on your app's name to visit it on the web; click elsewhere in the deployment box within *dev* to look at your app's Bluemix dashboard. 
+You can click on your app's name to visit it on the web; click next to it in the  *dev* deployment box to look at your app's Bluemix dashboard. 
 
 Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service or Add-on, visit the [Bluemix pricing page](https://bluemix.net/#/pricing).
 
