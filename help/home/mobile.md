@@ -1,6 +1,6 @@
 ![mobile icon](images/mobile.md)
 
-# mobile resources
+# mobile
 
 ##  Article: [Build a mobile app that isn't perfect](http://www.ibm.com/developerworks/library/mo-build-imperfect-mobile-app/)
 Tags: mobile, devops

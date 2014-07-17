@@ -1,6 +1,7 @@
 # Build and deploy
 
 ## Tutorial: [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/jazzeditor)
+Tags: bluemix, devops, node.js, git, edit, deploy, web_ide
 
 See how to create a node.js web app at BlueMix and run that app. 
 With one click you'll create a Git repo, 
@@ -12,6 +13,7 @@ to run the app to show your changes.
 
 
 ##  Tutorial: [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)
+Tags: devops, node.js, git, edit, deploy, java
 
 See how to create a Java web app at BlueMix and run that app. With a 
 few clicks, you'll create a Git repo, load it with the example code, and automatically deploy
@@ -20,9 +22,12 @@ few clicks, you'll create a Git repo, load it with the example code, and automat
  and run the app to show your changes.
 
 ##  Tutorial: [Developing BlueMix applications in Node.js with the Web IDE](/tutorials/jazzweb)
+Tags: bluemix, devops, node.js, deploy
 
 See how to use DevOps Services to develop a Node.js application 
 in the cloud and deploy it to IBM BlueMix.
 
 ##  Tutorial: [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)
+Tags: bluemix, devops, eclipse, java, rtc
+
 See how to develop a Java application using BlueMix, DevOps Services and the RTC client for Eclipse.
