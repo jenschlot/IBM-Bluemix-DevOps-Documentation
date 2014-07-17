@@ -18,9 +18,9 @@
 
 * [Node.js](nodejs.md)
 
-* [Project Management](project_man.md)
+* [Track & Plan](trackplan.md)
 
-* [Python](phython.md)
+* [Python](python.md)
 -----------------------
 
 * [All](all.md)
