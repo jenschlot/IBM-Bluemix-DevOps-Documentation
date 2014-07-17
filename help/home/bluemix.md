@@ -50,5 +50,5 @@ and track defect resolution with the integrated experience in IBM DevOps Service
  This lab demonstrates how easy it is to develop a Node.js application using IBM DevOps Services and deploy that application to IBM Bluemix.
  
 ## <Video> [Introducing IBM DevOps Services and how it integrated with BlueMix](https://www.youtube.com/watch?v=b2mM_Wwp_4c)
-athan Vega talks to Dan Berg about IBM DevOps Services and how it integrates with IBM Bluemix.
+Nathan Vega talks to Dan Berg about IBM DevOps Services and how it integrates with IBM Bluemix.
 
