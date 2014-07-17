@@ -2,7 +2,11 @@
 
 * [Bluemix](bluemix.md)
 
+* [Build and deploy](build_deploy.md)
+
 * [Eclipse](eclipse.md)
+
+* [Editing](edit.md)
 
 * [Git](git.md)
 
@@ -17,5 +21,14 @@
 * [Project Management](project_man.md)
 
 * [Python](phython.md)
+-----------------------
 
 * [All](all.md)
+
+-------------
+
+# Related
+
+## [IBM DevOps Services YouTube channel](http://www.youtube.com/user/JazzHub)
+
+ ##   [Troubleshooting]
