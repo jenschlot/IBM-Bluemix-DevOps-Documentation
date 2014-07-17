@@ -19,7 +19,7 @@ few clicks, you'll create a Git repo, load it with the example code, and automat
  
  ## <Video tutorials> coming soon! currently unlisted 
  
-##  <Video> IBM Codename: BlueMix DevOps Services for Rapid Software Delivery (Cloud Foundry Summit 2014) (5:14 min)](https://www.youtube.com/watch?v=fkHSYJJ6KVs)
+##  <Video> [IBM Codename: BlueMix DevOps Services for Rapid Software Delivery (Cloud Foundry Summit 2014) (5:14 min)](https://www.youtube.com/watch?v=fkHSYJJ6KVs)
 Daniel Berg is an IBM Distinguished Engineer and the CTO for DevOps Tools and Strategy. Dan has been 
 developing enterprise tools for more than fifteen years and he understands the pressures and challenges 
 of enterprise software delivery. Dan works with customers and leaders across IBM to define the IBM 
