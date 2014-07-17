@@ -1,6 +1,6 @@
 # tags
 
-* [BLuemix](bluemix.md)
+* [Bluemix](bluemix.md)
 
 * [Eclipse](eclipse.md)
 
@@ -10,7 +10,7 @@
 
 * [Jazz SCM](jazz_scm.md)
 
-* [Mobile](mobile.md]
+* [Mobile](mobile.md)
 
 * [Node.js](nodejs.md)
 
@@ -18,4 +18,4 @@
 
 * [Python](phython.md)
 
-* [All](all.md)ibm
+* [All](all.md)
