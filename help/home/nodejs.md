@@ -1,7 +1,7 @@
 ![node.js image](images/nodejs.gif)
 
 
-# Node.js resources 
+# Node.js  
   
 ## tut: [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/jazzeditor)
 Tags: bluemix, devops, nodejs, git, deploy
