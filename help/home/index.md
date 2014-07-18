@@ -6,8 +6,6 @@
 
 * [Eclipse](eclipse.md)
 
-* [Editing](edit.md)
-
 * [Git](git.md)
 
 * [Java](java.md)

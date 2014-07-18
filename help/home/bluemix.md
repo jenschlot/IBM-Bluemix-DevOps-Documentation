@@ -26,7 +26,7 @@ of enterprise software delivery. Dan works with customers and leaders across IBM
 DevOps strategy and vision and he's specifically responsible for IBM's tooling efforts that embrace 
 DevOps principles including the IBM SaaS delivery services.
 
- ## <Video>   [Dan Berg demonstrates the IBM DevOps Services and Bluemix integration](https://www.youtube.com/watch?v=EHng3L2JScU
+ ## <Video>   [Dan Berg demonstrates the IBM DevOps Services and Bluemix integration](https://www.youtube.com/watch?v=EHng3L2JScU)
 
 Dan Berg shows developers how easy it is to manage code changes, deploy code to IBM Bluemix, 
 and track defect resolution with the integrated experience in IBM DevOps Services. 
