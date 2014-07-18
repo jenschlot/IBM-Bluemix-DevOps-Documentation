@@ -51,10 +51,10 @@ Tags: devops, plan, track
 See how to  use the Track & Plan Beta feature in an agile IBM DevOps Services project.
 
 ### [Setting up Eclipse, Git, and Rational Team Concert desktop clients to access IBM DevOps Services](/tutorials/clients)
- Tags: devops, eclipse, git, rtc
- 
-See how to work with a desktop client, this tutorial shows you how to configure your clients based on what type of DevOps Services project you are working with. 
 
+#### devops eclipse, git, rtc
+See how to work with a desktop client, this tutorial shows you how to configure your 
+clients based on what type of DevOps Services project you are working with. 
 
 ### [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)
 Tags:  devops, bluemix, java, eclipse
@@ -81,6 +81,7 @@ to develop the code.
 
 
 ### [Develop apps in the cloud with DevOps Services](http://www.ibm.com/developerworks/library/d-bluemix-devops-services-project/)
+Read a hypothetical example of how a small team discovers, implements, and uses IBM DevOps Services to execute their project.
 
 ### [Build a real-time polls application with Node.js, Express, AngularJS, and MongoDB]()
  
@@ -89,6 +90,7 @@ ________________________________________
 ## Blogs
 
 ### [Creating a Node.js application with JazzHub](https://www.ibm.com/developerworks/community/blogs/jlmarechaux/entry/creating_a_node_js_application_with_jazzhub?lang=en)
+Jean-Louis Marechaux describes how to build a simple Node.js app in an IBM DevOps Services project and deploy it to Bluemix. 
 
 <a id="features">
 _____________________________
