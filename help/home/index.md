@@ -1,6 +1,6 @@
 # tags
 
-* [Bluemix](bluemix.md)
+1. [Bluemix](bluemix.md)
 
 * [Build and deploy](build_deploy.md)
 
@@ -21,7 +21,7 @@
 * [Python](python.md)
 -----------------------
 
-* [All](all.md)
+* [All docs](all.md)
 
 -------------
 
@@ -29,4 +29,4 @@
 
 ## [IBM DevOps Services YouTube channel](http://www.youtube.com/user/JazzHub)
 
- ##   [Troubleshooting]
+##   [Troubleshooting]
