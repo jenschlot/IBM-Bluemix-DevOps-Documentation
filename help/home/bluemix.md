@@ -10,14 +10,13 @@ See how to create a node.js web app at BlueMix and run that app. With one click 
 Tags: bluemix, devops, nodejs, web_ide
 
 See how to create a Java web app at BlueMix and run that app. With a few clicks, you'll create a Git repo, load it with the example code, and automatically deploy the app. In minutes, you will make code changes and push them using the Git command line and the Web IDE, automatically run a build and deploy, check the status of the app deployment, and run the app to show your changes.
-
-## Video tutorials: coming soon! currently unlisted 
-
+ 
+## Video tutorials: coming soon! currently unlisted
 Tags: 
  
 NEED info
  
-##  Video: [IBM Codename: BlueMix DevOps Services for Rapid Software Delivery (Cloud Foundry Summit 2014) (5:14 min)](https://www.youtube.com/watch?v=fkHSYJJ6KVs)
+## Video: [IBM Codename: BlueMix DevOps Services for Rapid Software Delivery (Cloud Foundry Summit 2014) (5:14 min)](https://www.youtube.com/watch?v=fkHSYJJ6KVs)
 Tags: devops, bluemix, cloud_foundry
 
 Daniel Berg is an IBM Distinguished Engineer and the CTO for DevOps Tools and Strategy. Dan has been developing enterprise tools for more than fifteen years and he understands the pressures and challenges of enterprise software delivery. Dan works with customers and leaders across IBM to define the IBM DevOps strategy and vision and he's specifically responsible for IBM's tooling efforts that embrace DevOps principles including the IBM SaaS delivery services.
@@ -37,7 +36,8 @@ In part 1, you’ll learn how to deploy and make changes to a simple application
 ## Workshop: [Using IBM DevOps Services & Bluemix Services: Part 2, Deploying an App that Uses a Bluemix Service](https://developer.ibm.com/bluemix/docs/workshops/using-ibm-devops-services-bluemix-services-part-2-deploying-app-uses-bluemix-service/)
 Tags: bluemix, devops, deploy
  
-This series of workshops demonstrates how easy it is to use IBM DevOps Services and IBM Bluemix together to plan, code, and deploy applications. In part 2, you’ll learn how to deploy an application that uses a Bluemix service. 
+This series of workshops demonstrates how easy it is to use IBM DevOps Services and IBM Bluemix together to plan, code, and deploy applications.   
+In part 2, you’ll learn how to deploy an application that uses a Bluemix service. 
  
  
 ## Workshop: [Using IBM DevOps Services & Bluemix Services: Part 3, Planning, Tracking, & Leveraging New BlueMix Services](https://developer.ibm.com/bluemix/docs/workshops/using-ibm-devops-services-bluemix-services-part-3-planning-tracking-leveraging-new-bluemix-services/)
