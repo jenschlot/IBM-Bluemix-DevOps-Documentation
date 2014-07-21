@@ -12,7 +12,7 @@ The duration of these outage windows is variable depending upon what needs to be
 | 07/10/2014 | Thursday | 9:00 - 10:00PM EDT | 1 hour   |
 | 07/12/2014 | Saturday | 7:00 - 08:00AM EDT | 1 hour   |
 | 07/15/2014 | Tuesday  | 9:00 - 10:00PM EDT | 1 hour   |
-| 07/17/2014 | Thursday | 9:00 - 10:00PM EDT | 1 hour   |
+| 07/17/2014 | Thursday | CANCELLED          |CANCELLED |
 | 07/19/2014 | Saturday | CANCELLED          |CANCELLED |
 | 07/22/2014 | Tuesday  | 9:00 - 10:00PM EDT | 1 hour   |
 | 07/24/2014 | Thursday | 9:00 - 10:00PM EDT | 1 hour   |
