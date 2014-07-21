@@ -5,7 +5,6 @@ Tags: devops, eclipse, git
 
 See how to work with a desktop client, this tutorial shows you how to configure your clients based on what type of DevOps Services project you are working with. 
 
-
 ## Tutorial: [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)
 Tags: bluemix, devops, eclipse, java, rtc
 
