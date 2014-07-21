@@ -77,7 +77,7 @@ You can work with your application code in many ways,
 but one of the most impressive features is *auto-deploy*. 
 With the auto-deploy feature, you can modify the code that is running in your app by pushing the changes to a 
 Git repository. The mechanism that implements auto-deployment is powered by 
-the Build &amp; Deploy capabilities of DevOps Services.
+the Build & Deploy capabilities of DevOps Services.
 
 To enable auto-deployment, go to the Bluemix dashboard for your application and 
 click **ADD GIT**. This single click in Bluemix gives you a Git repository that's 
