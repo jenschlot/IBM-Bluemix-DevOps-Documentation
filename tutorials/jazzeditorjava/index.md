@@ -112,9 +112,9 @@ Give it a try: click **REQUEST BUILD**. In a moment, you should have a successfu
 
 But what to do with it? Get it on the web with Bluemix, of course! Click **add a new stage**.  
 
-![Configuring the Deployer][19]
+![Configuring the Deployer with the Add Deployer Stage screen][19]
 
-This screen is where you configure deployment to Bluemix. You can give the app a name; by default, this comes from the manifest file, `manifest.yml`, which tells Bluemix how to deploy your application. Let's leave it blank so that it will use the name in the manifest.
+Here, you can configure deployment to Bluemix. You can give the app a name; by default, this comes from the manifest file, `manifest.yml`, which tells Bluemix how to deploy your application. Let's leave it blank so that it will use the name in the manifest.
 
 Leave the organization as it is. You can choose an existing space to use, or create a new one. Here, leave it as dev. 
 
@@ -124,7 +124,7 @@ The script section shows the deployment script that will be executed to deploy t
 
 And that's as much configuration as you need to do. Next, your app is ready to be pushed out onto Bluemix. 
 
-Remember the build you requested a few moments ago? Click on it, and drag it onto the *dev* space you just configured.
+Remember the build you requested a few moments ago? Click on it, and drag it onto the stage you just configured.
 
 ![Dragging to deploy][49]
 

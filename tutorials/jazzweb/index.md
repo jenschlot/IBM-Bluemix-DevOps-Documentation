@@ -32,11 +32,11 @@ You can do as much creation and customization as you like when you configure you
 
 Click **add a builder**. On the *Add Builder* page the appears, select "Grunt" as the **Builder**. Leave everything else as default and click **SAVE**.
 
-![Configure Builder][8]
+![Configuring the Builder][8]
 
-Next, click **add a stage** on the right side of the screen. DevOps Services integrates with Bluemix, and this is a simple project, so the default information here is sufficient to deploy your project. To make sure that the project has a unique path, though, add the flag `-n` followed by a unique host name to the first line of the Bluemix script. As an example:
+Next, click **add a new stage** on the right side of the screen. DevOps Services integrates with Bluemix, and this is a simple project, so the default information here is sufficient to deploy your project. To make sure that the project has a unique path, though, add the flag `-n` followed by a unique host name to the first line of the Bluemix script. As an example:
 
-![Configure Deployer][9]
+![Configuring the Deployer][9]
 
 If the project manifest file (`manifest.yml`) didn't specify a host name, or if the project required a particular service, you could define them here by adding `cf` command lines to the Bluemix script. The manifest included in this sample application specifies a host name and does not require any services, so we do not need to add anything to the script. Click **SAVE**. On the Pipeline page, click **Request Build**.
 
@@ -146,7 +146,7 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 [14]: /tutorials/jazzweb/images/staging.gif
 [15]: /tutorials/jazzweb/images/commit.gif
 [16]: /tutorials/jazzweb/images/pushing.gif
-[17]: /tutorials/jazzweb/images/manifest.gifb
+[17]: /tutorials/jazzweb/images/manifest.gif
 [18]: /tutorials/jazzweb/images/manualdeploy.gif
 [19]: /tutorials/jazzweb/images/updatedapp.gif
 [20]: https://www.ibmdw.net/answers?community=jazzhub (forum)
