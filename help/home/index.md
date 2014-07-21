@@ -29,4 +29,4 @@
 
 ## [IBM DevOps Services YouTube channel](http://www.youtube.com/user/JazzHub)
 
-##   [Troubleshooting]
+## [Troubleshooting]

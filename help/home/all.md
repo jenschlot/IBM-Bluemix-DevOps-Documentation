@@ -81,15 +81,22 @@ to develop the code.
 
 
 ### [Develop apps in the cloud with DevOps Services](http://www.ibm.com/developerworks/library/d-bluemix-devops-services-project/)
+Tags: devops, track, plan, bluemix, webide
+
 Read a hypothetical example of how a small team discovers, implements, and uses IBM DevOps Services to execute their project.
 
 ### [Build a real-time polls application with Node.js, Express, AngularJS, and MongoDB]()
+Tags: ?
+
+No line 
  
  <a id="blogs">
 ________________________________________
 ## Blogs
 
 ### [Creating a Node.js application with JazzHub](https://www.ibm.com/developerworks/community/blogs/jlmarechaux/entry/creating_a_node_js_application_with_jazzhub?lang=en)
+Tags: devops, nodejs
+
 Jean-Louis Marechaux describes how to build a simple Node.js app in an IBM DevOps Services project and deploy it to Bluemix. 
 
 <a id="features">
