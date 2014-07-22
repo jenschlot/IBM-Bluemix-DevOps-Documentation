@@ -184,7 +184,7 @@ Now, this is where it starts to get interesting! If you go back to the Build &am
 
 Notice that a new build has been queued; it was automatically triggered by the changes you delivered to the project repository. When it's finished, it will be deployed to Bluemix. Once it's there, you can view your updated app on the web. Refresh your browser to ensure the updated page is displayed.
 
-![Application page showing new title][25]i
+![Application page showing new title][25]
 
 There you go! Now you can continue to make modifications to the example and push them to the Git repository as often as needed. And as the scope of the work grows, and more people are added to the project to work on it, _everyone_ can push changes to the repository. Standard repository operations and build and deploy are all that is required to ensure that the right bits are always running.
 
