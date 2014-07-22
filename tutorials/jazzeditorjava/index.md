@@ -178,11 +178,7 @@ Next, let's change your app source code and see what happens. In the `WebContent
     To https://hub.jazz.net/git/jazzhubdemouser/YourApp-2014
     	ab4aaad..2336018 master -> master
 
-Now, this is where it starts to get interesting! If you go back to the Build &amp; Deploy page, you'll see something like this image:
-
-![Auto-deploy in action][24]
-
-Notice that a new build has been queued; it was automatically triggered by the changes you delivered to the project repository. When it's finished, it will be deployed to Bluemix. Once it's there, you can view your updated app on the web. Refresh your browser to ensure the updated page is displayed.
+Now, this is where it starts to get interesting! If you go back to the Build &amp; Deploy page, you might notice that a new build has been requested. It was automatically triggered by the changes you delivered to the project repository. When it's finished, it will be deployed to Bluemix. Once it's there, you can view your updated app on the web. Refresh your browser to ensure the updated page is displayed.
 
 ![Application page showing new title][25]
 
