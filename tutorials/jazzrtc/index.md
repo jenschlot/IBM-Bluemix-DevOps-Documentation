@@ -35,7 +35,11 @@ Go to the deployment page by clicking the **BUILD & DEPLOY** button. Turn on dep
 **ADVANCED** button. You need builds to compile your Java code and this is supported by the advanced mode. Also note that
 charges may apply for building and deployment. For more information, check out the [Bluemix pricing page](https://bluemix.net/#/pricing).
 
-On the Configure Builder page, specify
+On the Pipeline page, click 'add a builder'. This opens the Add Builder page.
+
+![Click Add A Builder](/tutorials/jazzrtc/images/add_builder.jpg "Click add a builder")
+
+On the Add Builder page, specify
 	
 * The password associated with your IBM id as the "Your IBM DevOps Services password"
 * The folder containing your code, i.e. "WordCounter" as the "Build script path". Upon loading the project in the Rational Team Concert client, this folder
@@ -44,14 +48,18 @@ automatically maps to an Eclipse project.
 
 Check the "Enable unit tests" checkbox to run test cases during a build. Finally, click **Save**.
 
-![Configure Builder](/tutorials/jazzrtc/images/configure_builder.jpg "Configure Builder")
+![Add Builder](/tutorials/jazzrtc/images/configure_builder.jpg "Add Builder")
 
-Click on **Deployer** to open the Configure Deployer page. This page will use the settings provided by the `manifest.yml`
-file, included as part of the project. All of the values, except for the hostname, can be used directly as provided. The
-hostname is used to define your application's url and needs to be unqiue for each application deployed. Let's override the
-host with the `-n` option in the `cf push` command as below. Click **Save** and you're all set!
+Click 'add a new stage' to open the 'Add Deployer Stage' page.
 
-![Configure Deployer](/tutorials/jazzrtc/images/configure_deployer.jpg "Configure Deployer")
+![Click Add A New Stage](/tutorials/jazzrtc/images/add_deployer.jpg "Click add a new stage")
+
+This page will use the settings provided by the `manifest.yml` file, included as part of the project. All of the values,
+except for the hostname, can be used directly as provided. The hostname is used to define your application's url and needs
+to be unqiue for each application deployed. Let's override the host with the `-n` option in the `cf push` command as below.
+Click **Save** and you're all set!
+
+![Add Deployer](/tutorials/jazzrtc/images/configure_deployer.jpg "Add Deployer")
 
 Click the **REQUEST BUILD** button to see your project get built and deployed for the first time. This takes a couple of
 minutes. And then... the circle goes green! The app's live!
@@ -124,7 +132,7 @@ builds are automatically deployed. Also note that when you click the app link, t
 
 ![Failed Build](/tutorials/jazzrtc/images/build3_failure.jpg "Failed Build")
 
-In the history section of the deployment page, click the build to access the build logs and test results.
+Click the build to access the build logs and test results.
 
 ![Click Build](/tutorials/jazzrtc/images/build_log.jpg "Click Build")
 

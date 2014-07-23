@@ -63,7 +63,9 @@ To try the Track & Plan feature, follow these instructions to start a simple, pu
 3. Now, add more parameters to your task. Use the **Priority** icon (<img src="/tutorials/trackplan/images/priority.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) in the title bar to set the priority to **High**. 
 
 4. Click the tag icon (<img src="/tutorials/trackplan/images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and type `website` in the displayed field. Press **Enter** to assign the tag.  
-**Tip**: A tag can help you group related work items. For example, you can use filtering options to view only the items that have a certain tag.
+**Tip**: A tag can help you group related work items. For example, you can use filtering options to view only the items that have a certain tag.    
+<iframe width="640" height="360" src="//www.youtube.com/embed/EvVPxazK5jU" frameborder="0" allowfullscreen></iframe>
+<div align = center>Video: Adding attributes to an existing work item</div> 
 
 5. Type a summary for the next work item: `Incoming messages are not reaching other chat participants.`
 
@@ -80,7 +82,9 @@ To try the Track & Plan feature, follow these instructions to start a simple, pu
 **Tip**: Notice the new text after your summary. When you set an attribute, the text code for that attribute is added after the summary.  
 ![Defect summary appended with attribute codes][7]
 
-5. When you're finished, click **SAVE**.
+5. When you're finished, click **SAVE**.  
+<iframe width="640" height="360" src="//www.youtube.com/embed/t5xJnL_jinc" frameborder="0" allowfullscreen></iframe>
+<div align = center>Video: Adding attributes while you create a work item</div>
 
 6. Click **Incoming Work** and evaluate your new work items. They are ranked by severity so that you know which tasks are most important. You can either send incoming work items to your backlog to be included on a sprint (<img src="/tutorials/trackplan/images/triagetobacklog.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) or you can trash (<img src="/tutorials/trackplan/images/trash.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) them, which marks the work item as Invalid and moves it to the TRASHED tab.
 
@@ -145,7 +149,9 @@ This number is unique to your project and helps you keep track of each work item
 
 Before you populate a sprint, you should rank the work items in your backlog. If you use agile management techniques with your projects, you probably use a similar process during your sprint planning meetings.
 
-1. Collapse the parent items and notice how each work item's rank is **Not Ranked**. You can easily change this status. Drag the "Create a simple chat page for our site" task to the top of the list and see how its rank changes to 1. 
+1. Collapse the parent items and notice how each work item's rank is **Not Ranked**. You can easily change this status. Drag the "Create a simple chat page for our site" task to the top of the list and see how its rank changes to 1.  
+<iframe width="640" height="360" src="//www.youtube.com/embed/twr30-5wcfc" frameborder="0" allowfullscreen></iframe>
+<div align = center>Video: Ranking work items in the backlog </div>
 
 2. Rank the rest of the work items in this order:  
      ![Ranked work items in the backlog][11]
@@ -177,7 +183,9 @@ Before you populate a sprint, you should rank the work items in your backlog. If
 
 2. Click **OK** and you  can see lanes for your backlog and for Sprint 1. Scroll to the right to see Sprint 2.
 
-3. Click the title bar of the "Create a simple chat page for our site" task from the backlog lane and drag it to the Sprint 1 lane. Drag the rest of the work items to Sprint 1 in ascending order by ranking.
+3. Click the title bar of the "Create a simple chat page for our site" task from the backlog lane and drag it to the Sprint 1 lane. Drag the rest of the work items to Sprint 1 in ascending order by ranking.  
+<iframe width="640" height="360" src="//www.youtube.com/embed/SLQVK6V3qME" frameborder="0" allowfullscreen></iframe>
+<div align = center>Video: Populating a sprint</div>
 
 ---
  <a name='work_through_the_sprint'></a>
