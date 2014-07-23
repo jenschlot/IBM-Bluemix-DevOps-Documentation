@@ -4,7 +4,7 @@
 
 *[IBM® Bluemix™][1] is an open-standards, cloud-based platform for building, managing and running apps of all types (web, mobile, big data, new smart devices). Capabilities include Java™, mobile backend development, application monitoring, as well as capabilities from ecosystem partners and open source, all through an as-a-service model in the cloud.*
 
-If you haven't already done so, the first step to use these capabilities is to register. Bluemix is currently in beta, so you can register by going to the [Bluemix home page][1] and clicking **Sign up for a free trial**.
+If you haven't already done so, the first step to use these capabilities is to register. To do so, go to the [Bluemix home page][1] and click **Sign up for a free trial**.
 
 ![Sign up for a free trial][2]
 
@@ -36,17 +36,17 @@ In the *Create an app* panel, enter a **Name** for your app. Enter a different h
 
 The **Name** is a simple name you can use to find this application the next time you come back to the Bluemix dashboard. **Host** partially defines the URL (the rest comes from Bluemix itself) that lets you access your new app from the Internet. As you probably guessed, this URL must be unique, since the URL space is shared among all users. Your default space should be okay. In *Selected Plans*, leave **Liberty for Java™** as *Default* and **Datacache** as *Free.*
 
-That's all there is to it! It takes a short while for the application to start up, but once it does a tile on the dashboard shows it running.
+That's all there is to it! It takes a short while for the application to start up, but once it does, a tile on the dashboard shows it running.
 
-![An example app panel][9]
+![An example app panel][51]
 
-When you click the URL on the dashboard, it takes you to your already Internet-visible, running application.
+Click on the app launch icon to open your already Internet-visible, running application.
 
 ![A running web application][10]
 
-It's great that the application is running, but it's not very useful if you can't see the code (and modify it), so let's do that.
+It's great that the application is running, but it's not very interesting if you don't have a way to publish updates to it. 
 
-There are a lot of ways you can work with your application code, but one of the slickest is to use something called _auto-deploy_. With auto-deploy you can modify the code that is running in your app by simply pushing the changes to a Git repository. The mechanism that implements auto-deploy is provided by the IBM DevOps Services powered by JazzHub Build &amp; Deploy support, but more about that later.
+There are lots of ways you can work with your application code, but one of the slickest is to use something called _auto-deploy_. With auto-deploy, you can modify the code that is running in your app by simply pushing the changes to a Git repository. The mechanism that implements auto-deploy is provided by the IBM DevOps Services powered by JazzHub Build &amp; Deploy support, but more about that later.
 
 To enable automatic deployment, click on your Bluemix application and then **ADD GIT**. With this, you get a Git repo that's populated with the code from the sample Java app.
 
@@ -79,7 +79,7 @@ Your new project opens in the DevOps Services Web IDE. When you clicked "Add Git
 
 Clicking that button opens a page that lets you configure and see the project's deployment status.
 
-Select **Simple** deployment. With this deployment option, the contents of the Git repository are deployed directly to Bluemix. There is no intermediate build step.
+You'll arrive at the **Simple** page. With this deployment option, the contents of the Git repository are deployed directly to Bluemix. There is no intermediate build step.
 
 In a few seconds, the application will automatically deploy to Bluemix. Your sample app is available at the URL linked after **Deploy to**, while you can click the app name to view its overview on Bluemix.
 
@@ -333,3 +333,4 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
    [48]: /tutorials/jazzeditorjava/images/configured-pipeline.gif
    [49]: /tutorials/jazzeditorjava/images/drag-to-deploy.gif
    [50]: /tutorials/jazzeditorjava/images/deployed-with-pipeline.gif
+   [51]: /tutorials/jazzeditorjava/images/click-to-open.gif
