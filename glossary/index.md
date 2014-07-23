@@ -1,48 +1,49 @@
 # Glossary
 
-<p></p><dl><dt><b><a name="SPTX7494374">adoption item</a></b></dt><a name="SPTX7494374">
+
+<p></p><dl><dt><b>adoption item</a></b></dt>
 <dd>A development work item that tracks when changes by one team must be adopted by another team.</dd>
-</a></dl><a name="SPTX7494374">
-<p></p></a><dl><a name="SPTX7494374"></a><dt><a name="SPTX7494374"><b></b></a><b><a name="SPTX3956523">agile</a></b></dt><a name="SPTX3956523">
-</a><dd><a name="SPTX3956523">See </a><a href="#SPTX2907651">agile software development</a>.</dd>
+</a></dl>
+<p></p></a><dl></a><dt><b></b></a><b>agile</a></b></dt>
+</a><dd>See </a>agile software development</a>.</dd>
 </dl>
-<p></p><dl><dt><b><a name="SPTX2907651">agile software development (agile)</a></b></dt><a name="SPTX2907651">
+<p></p><dl><dt><b>agile software development (agile)</a></b></dt>
 <dd>A software development methodology that focuses on collaboration and
  quality to produce complete product increments at regular intervals, 
 called iterations or sprints.</dd>
-</a></dl><a name="SPTX2907651">
-<p></p></a><dl><a name="SPTX2907651"></a><dt><a name="SPTX2907651"><b></b></a><b><a name="SPTX4281528">app</a></b></dt><a name="SPTX4281528">
+</a></dl>
+<p></p></a><dl></a><dt><b></b></a><b>app</a></b></dt>
 <dd>A web or mobile device application.</dd>
-</a></dl><a name="SPTX4281528">
-<p></p></a><dl><a name="SPTX4281528"></a><dt><a name="SPTX4281528"><b></b></a><b><a name="SPTX2262995">artifact</a></b></dt><a name="SPTX2262995">
-</a><dd><a name="SPTX2262995">An entity that is used or produced by a 
+</a></dl>
+<p></p></a><dl></a><dt><b></b></a><b>artifact</a></b></dt>
+</a><dd>An entity that is used or produced by a 
 software development process. Examples of artifacts are models, source 
-files, scripts, and binary executable files. See also </a><a href="#SPTX2017871">component</a>.</dd>
+files, scripts, and binary executable files. See also </a>component</a>.</dd>
 </dl>
-<p></p><dl><dt><b><a name="SPTX7344035">auto-complete</a></b></dt><a name="SPTX7344035">
-</a><dd><a name="SPTX7344035">See </a><a href="#SPTX7344030">code completion</a>.</dd>
+<p></p><dl><dt><b>auto-complete</a></b></dt>
+</a><dd>See </a>code completion</a>.</dd>
 </dl>
-<p></p><dl><dt><b><a name="SPTX7494379">auto-deploy</a></b></dt><a name="SPTX7494379">
+<p></p><dl><dt><b>auto-deploy</a></b></dt>
 <dd>(1) An automated process that retrieves and packages build output, 
 and then moves that output to another location so that users can run or 
 test it.</dd>
 <dd>(2) To automatically retrieve and package build output, then move that output to another location for users to run or test it.</dd>
-</a></dl><a name="SPTX7494379">
-<p></p></a><dl><a name="SPTX7494379"></a><dt><a name="SPTX7494379"><b></b></a><b><a name="SPTX2315215">backlog</a></b></dt><a name="SPTX2315215">
+</a></dl>
+<p></p></a><dl></a><dt><b></b></a><b>backlog</a></b></dt>
 <dd>In agile development, a list of features or technical tasks that are
  necessary for a project or release that the development team assesses 
 and prioritizes to assign work.</dd>
-</a></dl><a name="SPTX2315215">
-<p></p></a><dl><a name="SPTX2315215"></a><dt><a name="SPTX2315215"><b></b></a><b><a name="SPTX7233930">boilerplate</a></b></dt><a name="SPTX7233930">
+</a></dl>
+<p></p></a><dl></a><dt><b></b></a><b>boilerplate</a></b></dt>
 <dd>A container for one application and its associated runtime environment and predefined services for a particular domain.</dd>
-</a></dl><a name="SPTX7233930">
-<p></p></a><dl><a name="SPTX7233930"></a><dt><a name="SPTX7233930"><b></b></a><b><a name="SPTX2050278">branch</a></b></dt><a name="SPTX2050278">
+</a></dl>
+<p></p></a><dl></a><dt><b></b></a><b>branch</a></b></dt>
 <dd>(1) To create a stream for parallel or insulated development.</dd>
 <dd>(2) A stream for insulated or parallel development.</dd>
-</a></dl><a name="SPTX2050278">
-<p></p></a><dl><a name="SPTX2050278"></a><dt><a name="SPTX2050278"><b></b></a><b><a name="SPTX2197543">builder</a></b></dt><a name="SPTX2197543">
+</a></dl>
+<p></p></a><dl></a><dt><b></b></a><b>builder</a></b></dt>
 <dd>A tool that builds and compiles code.</dd>
-</a></dl><a name="SPTX2197543">
+</a></dl>
 <p></p></a><dl><a name="SPTX2197543"></a><dt><a name="SPTX2197543"><b></b></a><b><a name="SPTX2050789">CD</a></b></dt><a name="SPTX2050789">
 </a><dd><a name="SPTX2050789">See </a><a href="#SPTX7233913">continuous delivery</a>.</dd>
 </dl>
