@@ -34,7 +34,7 @@ At this point, you're just a few clicks away from having a running application.
 In the *Create an app* panel, enter a **Name** for your app. Enter a different host if Bluemix indicates that a host route is taken (or if you just want a host that's different from the app name).
 ![Bluemix Create App dialog][8]
 
-The **Name** is a simple name you can use to find this application the next time you come back to the Bluemix dashboard. **Host** partially defines the URL (the rest comes from Bluemix itself) that lets you access your new app from the Internet. As you probably guessed, this URL must be unique, since the URL space is shared among all users. Your default space should be okay. In *Selected Plans*, leave **Liberty for Java™** as *Default* and **Datacache** as *Free.*
+The **Name** is a simple name you can use to find this application the next time you come back to the Bluemix dashboard. **Host** partially defines the URL (the rest comes from Bluemix itself) that lets you access your new app from the Internet. As you probably guessed, this URL must be unique, since the URL space is shared among all users. In *Selected Plans*, leave **Liberty for Java™** as *Default* and **Datacache** as *Free.*
 
 That's all there is to it! It takes a short while for the application to start up, but once it does, a tile on the dashboard shows it running.
 
