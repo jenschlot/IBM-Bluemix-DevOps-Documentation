@@ -81,7 +81,7 @@ Clicking that button opens a page that lets you configure and see the project's 
 
 You'll arrive at the **Simple** page. With this deployment option, the contents of the Git repository are deployed directly to Bluemix. There is no intermediate build step.
 
-In a few seconds, the application will automatically deploy to Bluemix. Your sample app is available at the URL linked after **Deploy to**, while you can click the app name to view its overview on Bluemix.
+Your sample app is already up and running. It's available at the URL linked after **Deploy to**, while you can click the app name to view its overview on Bluemix.
 
 ![DevOps Services auto deploy page][17]
 
