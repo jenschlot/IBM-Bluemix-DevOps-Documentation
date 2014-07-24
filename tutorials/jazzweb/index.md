@@ -19,7 +19,7 @@ Click **Build &amp; Deploy** at the top of the Code Editor. Click **Simple**.
 
 ![Simple deployment interface][5]
 
-Simple deployment works by directly deploying the contents of the Git repository, using the `manifest.yml` file to tell it how to deploy to Bluemix. Your app will build and deploy in a few seconds. Click on the link to the deployed app to give it a look:
+Simple deployment works by directly deploying the contents of the Git repository, using the `manifest.yml` file to tell it how to deploy to Bluemix. Your app will deploy in a few seconds. Click on the link to the deployed app to give it a look:
 
 ![Simple view up close][6]
 
@@ -30,19 +30,21 @@ At the top of the *Build & Deploy* page, click **Advanced**.
 
 You can do as much creation and customization as you like when you configure your own project. This one, however, has been configured to require minimal fuss to get things up and running: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it will automatically be found.
 
-Click **add a builder**. On the *Add Builder* page the appears, select "Grunt" as the **Builder**. Leave everything else as default and click **SAVE**.
+Click **add a builder**. On the *Add Builder* page that appears, select "Grunt" as the **Builder**. Leave everything else as default and click **SAVE**.
 
 ![Configuring the Builder][8]
 
-Next, click **add a new stage** on the right side of the screen. DevOps Services integrates with Bluemix, and this is a simple project, so the default information here is sufficient to deploy your project. To make sure that the project has a unique path, though, add the flag `-n` followed by a unique host name to the first line of the Bluemix script. As an example:
+Next, click **add a stage** on the right side of the screen. DevOps Services integrates with Bluemix, and this is a simple project, so the default information here is sufficient to deploy your project. To make sure that the project has a unique path, though, add the flag `-n` followed by a unique host name to the first line of the Bluemix script. As an example:
 
 ![Configuring the Deployer][9]
 
-If the project manifest file (`manifest.yml`) didn't specify a host name, or if the project required a particular service, you could define them here by adding `cf` command lines to the Bluemix script. The manifest included in this sample application specifies a host name and does not require any services, so we do not need to add anything to the script. Click **SAVE**. On the Pipeline page, click **Request Build**.
+If the project manifest file (`manifest.yml`) didn't specify a host name, or if the project required a particular service, you could define them here by adding `cf` command lines to the Bluemix script. `cf` is the command used to deploy applications to Cloud Foundry-based platforms like Bluemix. For more information, see [Getting Started with cf v6][24].
+
+The manifest included in this sample application specifies a host name and does not require any services, so we do not need to add anything to the script. Click **SAVE**. On the Pipeline page, click **Request Build**.
 
 ![Clicking Request Build on configured Pipeline][23]
 
-You can see that your project has been queued to build. When the build completes successfully, your app will automatically be deployed to Bluemix. You can observe its status from this page, as well as open the app once it's deployed.
+You can see that your project has been queued to build. When the build completes successfully, your app will automatically be queued for deployment to Bluemix. You can observe its status from this page, as well as open the app once it's deployed.
 
 To open the app, click its name. Click on the deployment box in your space if you want to see your app's Bluemix dashboard:
 
@@ -52,7 +54,7 @@ To open the app, click its name. Click on the deployment box in your space if yo
 
 ![Stopping a Bluemix app][12]
 
-Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service or Add-on, visit the [Bluemix pricing page](https://bluemix.net/#/pricing).
+Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 60 minutes of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service or Add-on, visit the [Bluemix pricing page](https://bluemix.net/#/pricing).
 
 ---
 ## Editing the Sample Application
@@ -153,3 +155,4 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 [21]: mailto:hub%40jazz.net
 [22]: /tutorials/jazzweb/images/deployto.gif
 [23]: /tutorials/jazzweb/images/request-build.gif  
+[24]: http://docs.cloudfoundry.org/devguide/installcf/whats-new-v6.html

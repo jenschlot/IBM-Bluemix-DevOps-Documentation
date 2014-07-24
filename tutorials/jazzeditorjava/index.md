@@ -100,7 +100,7 @@ First, let's configure the builder. Click **add a builder**. The *Add Builder* c
 
 ![Configuring the Builder][18]
 
-The default settings will work for this project: build using Ant and pull from the master branch of your git repo. The builder will find `build.xml` in the root directory and run it during the build. The files that are needed for deployment are output into the build artifacts directory. It defaults to the same directory as the build script path, so there's no need to change that, either.
+The default settings will work for this project: build using Ant and pull from the master branch of your git repo. The builder will find `build.xml` in the root directory and run it during the build. The files that are needed for deployment are output into the build archive directory. It defaults to the same directory as the build script path, so there's no need to change that, either.
 
 Click **Save**. In a moment, the Pipeline page will refresh with information on your newly configured builder. 
 
@@ -110,11 +110,11 @@ Give it a try: click **REQUEST BUILD**. In a moment, you should have a successfu
 
 ![A configured Builder panel with a successful build][47]
 
-But what to do with it? Get it on the web with Bluemix, of course! Click **add a new stage**.  
+But what to do with it? Get it on the web with Bluemix, of course! Click **add a stage**.  
 
 ![Configuring the Deployer with the Add Deployer Stage screen][19]
 
-Here, you can configure deployment to Bluemix. You can give the app a name; by default, this comes from the manifest file, `manifest.yml`, which tells Bluemix how to deploy your application. Let's leave it blank so that it will use the name in the manifest.
+Here, you can configure deployments to Bluemix. You can give the app a name; by default, this comes from the manifest file, `manifest.yml`, which tells Bluemix how to deploy your application. Let's leave it blank so that it will use the name in the manifest.
 
 Leave the organization as it is. You can choose an existing space to use, or create a new one. Here, leave it as dev. 
 
@@ -124,9 +124,9 @@ The script section shows the deployment script that will be executed to deploy t
 
 And that's as much configuration as you need to do. Next, your app is ready to be pushed out onto Bluemix. 
 
-Remember the build you requested a few moments ago? Click on it, and drag it onto the stage you just configured.
+Remember the build you requested a few moments ago? Drop it onto the stage you just configured.
 
-![Dragging to deploy][49]
+![Dropping to deploy][49]
 
 This kicks off deployment. In seconds, your app will be on Bluemix. Fast, right? And with the Pipeline configured, future successful builds of your app will be automatically deployed. 
 
@@ -134,7 +134,7 @@ This kicks off deployment. In seconds, your app will be on Bluemix. Fast, right?
 
 You can click on your app's name to visit it on the web; click next to it in the  *dev* deployment box to look at your app's Bluemix dashboard. 
 
-Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 1 hour of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service or Add-on, visit the [Bluemix pricing page](https://bluemix.net/#/pricing).
+Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 60 minutes of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service or Add-on, visit the [Bluemix pricing page](https://bluemix.net/#/pricing).
 
 ---
 ##Push changes to the Git repository by using the command line
@@ -331,6 +331,6 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
    [46]: /tutorials/jazzeditorjava/images/configured-builder.gif
    [47]: /tutorials/jazzeditorjava/images/configured-and-built.gif
    [48]: /tutorials/jazzeditorjava/images/configured-pipeline.gif
-   [49]: /tutorials/jazzeditorjava/images/drag-to-deploy.gif
+   [49]: /tutorials/jazzeditorjava/images/drop-to-deploy.gif
    [50]: /tutorials/jazzeditorjava/images/deployed-with-pipeline.gif
    [51]: /tutorials/jazzeditorjava/images/click-to-open.gif
