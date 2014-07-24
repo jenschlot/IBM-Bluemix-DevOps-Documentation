@@ -62,7 +62,7 @@ To do a personal deployment from the Web IDE:
 BUGS
 ----
 
-None known
+None known yet.
 
 
 AUTHOR
