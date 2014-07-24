@@ -1,5 +1,33 @@
 {
-	"jazzhub" : {
+	"jazzhub": {
 		"url" : "https://qa.hub.jazz.net/"
-	}
+	},
+	"content": [
+		{
+			"uri_prefix": "/tutorials",
+			"section_name": "Tutorials",
+			"directory": "tutorials"
+		},
+		{
+			"uri_prefix": "/help/faq",
+			"section_name": "Help",
+			"directory": "help/faq"
+			
+		},
+		{
+			"uri_prefix": "/whatsnew",
+			"section_name": "What's New",
+			"directory": "whatsnew"
+		},
+		{
+			"uri_prefix": "/features",
+			"section_name": "Features",
+			"directory": "features"
+		},
+		{
+			"uri_prefix": "/maintenance",
+			"section_name": "Maintenance Schedule",
+			"directory": "maintenance"
+		}
+	]
 }
