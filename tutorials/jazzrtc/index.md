@@ -50,7 +50,7 @@ Check the "Enable unit tests" checkbox to run test cases during a build. Finally
 
 ![Add Builder](/tutorials/jazzrtc/images/configure_builder.png "Add Builder")
 
-Click 'add a new stage' to open the 'Add Deployer Stage' page.
+Click 'add a stage' to open the 'Add Deployer Stage' page.
 
 ![Click Add A New Stage](/tutorials/jazzrtc/images/add_deployer.png "Click add a new stage")
 
