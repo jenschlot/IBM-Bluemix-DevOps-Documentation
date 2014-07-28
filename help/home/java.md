@@ -1,13 +1,24 @@
 ![Java icon](images/java.gif)
 # Java 
 
-<<<<<<< HEAD
-## Tutorial: [Getting Started with IBM Bluemix and IBM DevOps Services using Java](tutorials/jazzeditorjava)
-Tags: bluemix, devops, java
+## Article: [Build a mobile app that isn't perfect](http://www.ibm.com/developerworks/library/mo-build-imperfect-mobile-app/)  
+Topics: mobile, devops_services, mqa, eclipse, java, 
 
-See how to create a Java web app at BlueMix and run that app. With a few clicks, you'll create a Git repo, load it with the example code, and automatically deploy the app. In minutes, you will make code changes and push them using the Git command line and  the Web IDE, automatically run a build and deploy, check the status of the app deployment, and run the app to show your changes.
- 
-## Sample: [Twitter influence analyzer (Java and MongoDB)](https://hub.jazz.net/project/jstart/Twitter%20Influencer%20Analyzer%20%28Java%29/overview)
-Tags: bluemix, twitter, java, mongodb
+See how to build a mobile application for the [Sentiment Analysis App](http://www.ibm.com/developerworks/library/wa-nodejs-app/) 
+and use [IBM Mobile Quality Assurance](https://www.ibm.com/developerworks/community/blogs/mobilequalitybeta/entry/what_is_mobile_quality_assurance?lang=en) 
+to report flaws.
 
-Bluemix sample app written in Java that uses the Klout and Twitter API's to analyze the influence of individual twitter usernames.
+## Sample: [Twitter influence analyzer (Java and MongoBD)](https://hub.jazz.net/project/jstart/Twitter%20Influencer%20Analyzer%20%28Java%29/overview)  
+Topics: devops_services, java, klout, mongodb, bluemix, eclipse
+
+See a web app that examines the influence of a twitter user. It's a java app stored in a DevOps Service project and deployed through Bluemix.
+
+## Tutorial: [Getting Started with IBM Bluemix and IBM DevOps Services using Java](hub.jazz.net/tutorials/jazzeditorjava)  
+Topics: bluemix, devops_services, java, git, webide, pipeline
+
+See how to create a Java web app at Bluemix, manage the code's git repo, and automatically build and deploy that app.
+
+## Tutorial: [Getting Started with IBM Bluemix and IBM DevOps Services using Java](hub.jazz.net/tutorials/jazzeditorjava)  
+Topics: bluemix, devops_services, java, git, webide, pipeline
+
+See how to create a Java web app at Bluemix, manage the code's git repo, and automatically build and deploy that app.
