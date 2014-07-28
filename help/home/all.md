@@ -13,8 +13,7 @@
 ### [Features](/features])
 
 ### [FAQ](/help/faq)
-
-<!-- future - Glossary -->
+### [Glossary](/glossary)>
 
 <a id="tut">
 --------------------
@@ -61,7 +60,6 @@ ________________________________________
 
 ## Articles
 
-
 ## Article: [Develop apps in the cloud with DevOps Services](http://www.ibm.com/developerworks/library/d-bluemix-devops-services-project/)  
 Topics: devops_services, track, plan, bluemix, webide
 
@@ -89,11 +87,9 @@ to report flaws.
 Topics: devops_services, bluemix, mongodb, nodejs, pipeline, jade, git, old_ui, webide
 
 Millard Ellingsworth describes how to get a head start on your hackathon using IBM DevOps Services and Bluemix.
-
- <a id="blogs">
+ <a id="blogs">
 ________________________________________
 ## Blogs
-
 
 ## Blog: [Creating a Node.js application with JazzHub](https://www.ibm.com/developerworks/community/blogs/jlmarechaux/entry/creating_a_node_js_application_with_jazzhub?lang=en)  
 Topics: devops_services, nodejs, manifest, bluemix
@@ -178,7 +174,6 @@ Try a word-guessing browser game. It's a node.js app stored in a DevOps Service 
 Topics: devops_services, python, bottle, klout, cloudant, bluemix, git, twitter
 
 See a web app that examines the influence of a twitter user. It's a python app stored in a DevOps Service project and deployed through Bluemix.
-
 
 <a id="videos">
 ___________
