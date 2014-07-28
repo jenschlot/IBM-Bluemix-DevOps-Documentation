@@ -1,6 +1,8 @@
 # tags
 
-1. [Bluemix](bluemix.md)
+1. [Academics](academics.md)
+
+* [Bluemix](bluemix.md)
 
 * [Build and deploy](build_deploy.md)
 
