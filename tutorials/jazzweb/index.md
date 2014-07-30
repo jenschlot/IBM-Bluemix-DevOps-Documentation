@@ -26,9 +26,17 @@ Simple deployment works by directly deploying the contents of the Git repository
 ![Sentiment Analysis Sample App][7]
 
 The sample project incorporates JSHint validation to make sure that your code is prim, proper, and error free. The simple deployer doesn't support that sort of thing, though. You need to configure a builder, which is only available in Advanced mode, also known as Pipeline.
-At the top of the *Build & Deploy* page, click **Advanced**.
 
-You can do as much creation and customization as you like when you configure your own project. This one, however, has been configured to require minimal fuss to get things up and running: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it will automatically be found.
+At the top of the *Build & Deploy* page, click **Advanced**. Because you've switched from Simple to Advanced mode, Pipeline will have automatically generated a configuration for your project. You're going to set this up from scratch, though, so before going further:
+
+![A preconfigured Pipeline][25]
+
+1. Click the gear icon on the rightmost panel, which represents a stage named `dev` by default. 
+2. On the *Deployer Stage Configuration* page, click **DELETE**. Click **OK** when the confirmation message appears.
+3. Click the gear icon on the Builder panel.
+4. On the *Builder Configuration* page, click **RESET**. Click **OK** when the confirmation message appears.
+ 
+And that's that. You can do as much creation and customization as you like when you configure your own project. This one, however, is designed to require minimal fuss to get things up and running: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it will automatically be found.
 
 Click **add a builder**. On the *Add Builder* page that appears, select "Grunt" as the **Builder**. Leave everything else as default and click **SAVE**.
 
@@ -156,3 +164,4 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 [22]: /tutorials/jazzweb/images/deployto.gif
 [23]: /tutorials/jazzweb/images/request-build.gif  
 [24]: http://docs.cloudfoundry.org/devguide/installcf/whats-new-v6.html
+[25]: /tutorials/jazzweb/images/config-to-delete.gif

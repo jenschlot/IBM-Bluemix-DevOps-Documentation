@@ -87,10 +87,19 @@ A deployment of your sample app has already started. Once it's up, it's availabl
 
 You might be wondering how we're deploying a Java application directly from source, and well, we're not: this project is designed to help you get a sample application running on Bluemix as quickly as possible, after all. The app has already been compiled, and the sample .war file is in the root directory.
 
-Once you change things, you'll need to build the app again, and the Simple deployer doesn't do that. It's time to change the switch to **Advanced**.
+Once you change things, you'll need to build the app again, and the Simple deployer doesn't do that. It's time to change the switch to **Advanced**. Click it!
 
 ---
 ## Configuring Advanced Build &amp; Deploy
+
+When you switch from Simple to Advanced mode, Pipeline automatically generates a configuration for your project. You're going to set this up from scratch, though, so before going further:
+
+![A preconfigured Pipeline][52]
+
+1. Click the gear icon on the rightmost panel, which represents a stage named `dev` by default. 
+2. On the *Deployer Stage Configuration* page, click **DELETE**. Click **OK** when the confirmation message appears.
+3. Click the gear icon on the Builder panel.
+4. On the *Builder Configuration* page, click **RESET**. Click **OK** when the confirmation message appears.
 
 With the Advanced option, also known as Pipeline, you can configure a builder to compile and package your application using a build script, and you can configure a deployer to deploy the application to Bluemix with any additional options needed.
 
@@ -334,3 +343,4 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
    [49]: /tutorials/jazzeditorjava/images/drop-to-deploy.gif
    [50]: /tutorials/jazzeditorjava/images/deployed-with-pipeline.gif
    [51]: /tutorials/jazzeditorjava/images/click-to-open.gif
+   [52]: /tutorials/jazzeditorjava/images/config-to-delete.gif
