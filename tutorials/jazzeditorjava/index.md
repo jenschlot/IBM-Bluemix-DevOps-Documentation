@@ -70,7 +70,7 @@ There's just one more thing to do before moving on to DevOps Services: you need 
 
 1. Click **CONNECT AN ADD-ON** from your new app's overview.
 2. Choose **Delivery Pipeline** in the *DevOps* category. 
-3. Don't worry about *Space* or *App*. Just click **Create**.
+3. Don't worry about *Space* or *App*. Just click **CREATE**.
 
 The Delivery Pipeline Add-on will be added to your Bluemix space, ready to spring into action as you need it later.  
 
