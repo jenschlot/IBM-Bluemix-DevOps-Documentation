@@ -37,6 +37,7 @@ To try the Track & Plan feature, follow these instructions to start a simple, pu
 
 5. Leave the **Private** check box cleared.  
 **Note**: IBM DevOps Services supports both public and private projects. Anyone can access your public projects, but only the DevOps Services users you invite can access your private projects.  
+**Note**: You can use the Track & Plan feature with all your public IBM DevOps Services projects at no cost. If you use the feature with private projects, a fee might apply. See the [subscription][22] details.
 
 6. Leave the **Add features for Scrum development** check box selected. By enabling Scrum, you can create sprints from your project's backlog of work items.  
 **Note**: You need to enable Scrum development to use the full Track & Plan capabilities. However, if you plan traditional projects that use simple tasks and iterations without a backlog, you would clear this check box.
@@ -296,6 +297,7 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 [19]: mailto:hub%40jazz.net
 [20]: /tutorials/trackplan/images/taptile.gif 
 [21]: https://bluemix.net/ (Log into Bluemix)
+[22]: https://ace.ng.bluemix.net/#/pricing
 [40]: /tutorials/jazzrtc (Developing Bluemix applications in Java with Eclipse and DevOps Services)
 [41]: /tutorials/jazzeditor (Getting Started with Bluemix and DevOps Services using Node.js)
 [42]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services)
