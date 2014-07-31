@@ -13,7 +13,7 @@ Enter whatever name you like for your fork of the Sentiment Analysis app. Also, 
 
 ![Fork new project][4]
 
-After your fork of the project is created, you'll see your project files in the Code Editor. You'll make your mark on the app in a moment, but for now, let's get this project live on the web using Bluemix.
+After your fork of the project is created, you'll see your project files in the Code Editor. You'll make your mark on the app in a moment, but for now, let's get this project live on the web using Bluemix. To make the most of DevOps Services and Bluemix, make sure that your Bluemix space has the *Delivery Pipeline* Add-on. If it doesn't yet have it, follow [these steps][26] to get it. 
 
 Click **Build &amp; Deploy** at the top of the Code Editor. Click **Simple**.
 
@@ -25,7 +25,7 @@ Simple deployment works by directly deploying the contents of the Git repository
 
 ![Sentiment Analysis Sample App][7]
 
-The sample project incorporates JSHint validation to make sure that your code is prim, proper, and error free. The simple deployer doesn't support that sort of thing, though. You need to configure a builder, which is only available in Advanced mode, also known as Pipeline.
+The sample project incorporates JSHint validation to make sure that your code is prim, proper, and error free. The simple deployer doesn't support that sort of thing, though. You need to configure a builder, which is only available in Advanced mode, also known as Pipeline. To use it, your Bluemix project will need to have the Delivery Pipeline Add-on. If it doesn't already, follow the steps 
 
 At the top of the *Build & Deploy* page, click **Advanced**. Because you've switched from Simple to Advanced mode, Pipeline will have automatically generated a configuration for your project. You're going to set this up from scratch, though, so before going further:
 
@@ -165,3 +165,4 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 [23]: /tutorials/jazzweb/images/request-build.gif  
 [24]: http://docs.cloudfoundry.org/devguide/installcf/whats-new-v6.html
 [25]: /tutorials/jazzweb/images/config-to-delete.gif
+[26]: https://www.ng.bluemix.net/docs/#services/DeliveryPipeline/index.html#getstartwithCD

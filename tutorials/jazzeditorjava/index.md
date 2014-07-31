@@ -66,7 +66,15 @@ Success! You've created a Git repo, loaded it with the example code, and deploye
 
 ![Git repo success message dialog][14]
 
-What if you want to see the app's code, though, or how it's being deployed? You'll need IBM DevOps Services for that. Go to the Bluemix Dashboard and click **CODE**.
+There's just one more thing to do before moving on to DevOps Services: you need to enable the Delivery Pipeline Add-on in Bluemix. This will allow you to experience some of the fancier automated build and deployment capabilities later on. To do so:
+
+1. Click **CONNECT AN ADD-ON** from your new app's overview.
+2. Choose **Delivery Pipeline** in the *DevOps* category. 
+3. Don't worry about *Space* or *App*. Just click **Create**.
+
+The Delivery Pipeline Add-on will be added to your Bluemix space, ready to spring into action as you need it later.  
+
+What if you want to see the app's code, now, or configure how it deploys? You'll need IBM DevOps Services for that. Click on your app's panel to open its overview, and then click **CODE**.
 
 ![CODE button][15]
 
