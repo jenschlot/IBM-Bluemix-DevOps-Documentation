@@ -24,7 +24,7 @@ The duration of these outage windows is variable depending upon what needs to be
 
 | Date       | Day      | Time                | Duration |
 |------------|----------|---------------------|----------|
-| 08/02/2014 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
+| 08/02/2014 | Saturday | **4:00 - 05:00PM** EDT | 1 hour   |
 | 08/05/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
 | 08/07/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
 | 08/09/2014 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
