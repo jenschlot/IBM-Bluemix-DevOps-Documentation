@@ -12,30 +12,50 @@
 						<div class="row">
 							<div class="col-md-12 plxl">
 								<div class="row" id="left-column">
-									<div class="col-md-7 col-sm-7 callout"></div>
-									<div class="hexagon f_right">
-										<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
+									<a class="section" href="#">
+									<div class="col-md-7 col-sm-7 callout">
+										<p class="title">Tutorial</p>
+										<p class="description">
+											Getting started with IBM Bluemix and IBM Devops Services using Node.js
+										</p>
 									</div>
+									<div class="col-md-2 stem"><hr /></div>
+									<div class="col-md-3 pln prn">
+										<div class="hexagon">
+											<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
+										</div>
+									</div>
+									</a>
 								</div>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12 plxl">
 								<div class="row" id="left-column">
+									<a class="section" href="#">
 									<div class="col-md-7 col-sm-7 callout"></div>
-									<div class="hexagon f_right">
-										<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
+									<div class="col-md-2 stem"><hr /></div>
+									<div class="col-md-3 pln prn">
+										<div class="hexagon">
+											<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
+										</div>
 									</div>
+									</a>
 								</div>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12 plxl">
 								<div class="row" id="left-column">
+									<a class="section" href="#">
 									<div class="col-md-7 col-sm-7 callout"></div>
-									<div class="hexagon f_right">
-										<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
+									<div class="col-md-2 stem"><hr /></div>
+									<div class="col-md-3 pln prn">
+										<div class="hexagon">
+											<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
+										</div>
 									</div>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -45,30 +65,46 @@
 						<div class="row">
 							<div class="col-md-12 prxl">
 								<div class="row" id="right-column">
-									<div class="col-md-7 col-sm-7 callout f_right"></div>
-									<div class="hexagon-alt">
-										<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
+									<a class="section" href="#">
+									<div class="col-md-3 pln prn">
+										<div class="hexagon-alt">
+											<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
+										</div>
 									</div>
+									<div class="col-md-2 stem"><hr /></div>
+									<div class="col-md-7 col-sm-7 callout">
+									</div>
+									</a>
 								</div>
 							</div>
 						</div>						
 						<div class="row">
 							<div class="col-md-12 prxl">
 								<div class="row" id="right-column">
-									<div class="col-md-7 col-sm-7 callout f_right"></div>
-									<div class="hexagon-alt">
-										<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
+									<a class="section" href="#">
+									<div class="col-md-3 pln prn">
+										<div class="hexagon-alt">
+											<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
+										</div>
 									</div>
+									<div class="col-md-2 stem"><hr /></div>
+									<div class="col-md-7 col-sm-7 callout"></div>
+									</a>
 								</div>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12 prxl">
 								<div class="row" id="right-column">
-									<div class="col-md-7 col-sm-7 callout f_right"></div>
-									<div class="hexagon-alt">
-										<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
+									<a class="section" href="#">
+									<div class="col-md-3 pln prn">
+										<div class="hexagon-alt">
+											<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
+										</div>
 									</div>
+									<div class="col-md-2 stem"><hr /></div>
+									<div class="col-md-7 col-sm-7 callout"></div>
+									</a>
 								</div>
 							</div>
 						</div>
