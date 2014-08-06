@@ -602,6 +602,11 @@ a:hover {
 	.unavailable .box_wrapper .jazzhub_id {
 		margin-top: 35px;
 	}
+
+/*******************************************************************
+	DOCS LANDING PAGE
+*******************************************************************/
+
 #featured-docs {
 	background-color: #3b4b54;
 	color: #ffffff;
@@ -627,13 +632,26 @@ a:hover {
 		border: 0px solid transparent;
 		border-radius: 10px;
 		background-color: #1b252d;
+		margin-top: 20px;
 	}
 
-	.callout > .title {
-			color: #33bdd9;
-			font-size: 18px;
+	.stem {
+		padding: 35px 0px 0px 0px;
 	}
 
+	.stem hr:only-of-type {
+		border: 4px solid #1b252d;
+		margin-left: -4px ;
+		margin-right: -4px;
+	}
+
+	.hex-tile {
+		position: absolute;
+		z-index: 1;
+		padding: 0px;
+		margin-left: -25px;
+		margin-top: 7px;
+	}
 
 #key-resources {
 	background-color: #ffffff;
@@ -643,7 +661,7 @@ a:hover {
 	background-color: #dee6eb;
 }
 
-
+/** Hexagon left **/
 
 .hexagon::before {
 	content: " ";
@@ -671,6 +689,7 @@ a:hover {
 	right: -35px;
 }
 
+/** Hexagon right **/
 .hexagon-alt::before {
 	content: " ";
 	height: 0;
@@ -696,21 +715,39 @@ a:hover {
 	position: absolute;
 	right: -35px;
 }
-.hexagon-alt:hover,.hexagon:hover {
+
+.title {
+	text-align: center;
+	color: #00aed1;
+	text-decoration: none;
+}
+
+.description {
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/** featured doc hit box **/
+a.section:hover .title {
+		color: #00b299;
+		text-decoration: none;
+}
+a.section:hover .description {
+		color: #2a3a12;
+		text-decoration: none;
+}
+.section:hover .hexagon, .section:hover .hexagon-alt, .section:hover .callout {
 	background-color: #dee6eb;
 }
-.hexagon-alt:hover::before,.hexagon:hover::before{
+.section:hover .hexagon::before, .section:hover .hexagon-alt::before {
 	border-right: 35px solid #dee6eb;
 }
-.hexagon-alt:hover::after,.hexagon:hover::after{
+.section:hover .hexagon::after, .section:hover .hexagon-alt::after{
 	border-left: 35px solid #dee6eb;
 }
-.hex-tile {
-	position: absolute;
-	z-index: 1;
-	padding: 0px;
-	margin-left: -25px;
-	margin-top: 7px;
+.section:hover .stem hr:only-of-type {
+	border: 4px solid #dee6eb;
 }
 
 a.btn-dark {
@@ -724,3 +761,4 @@ a.btn-dark:hover {
 	color: #ffffff;
 	text-decoration: none;
 }
+
