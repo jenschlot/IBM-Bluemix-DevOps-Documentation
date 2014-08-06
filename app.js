@@ -35,6 +35,11 @@ _.each(['/tutorials', '/tutorials/landing'],
        }
 );
 
+_.each(['/docs', '/docs/landing'],
+       function(i) {
+		app.get(i, routes.docs)
+       }
+);
 /*
  * Depending on the request path, try to load and render the corresponding markdown source.
  * See config.json for a rundown of which prefixes load what.

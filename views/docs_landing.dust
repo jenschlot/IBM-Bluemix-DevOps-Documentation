@@ -1,0 +1,101 @@
+{>boostrap_header/}
+<div class="com-ibm-team-jazzhub-Docs fluid-content">
+	<div class="container-fluid">
+
+
+		<div class="row pbl" id="featured-docs">
+			<div class="col-md-12">
+				<h3 class="pts pbs">Featured Docs</h3>
+				<div class="row">
+
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-12 plxl">
+								<div class="row" id="left-column">
+									<div class="col-md-7 col-sm-7 callout"></div>
+									<div class="hexagon f_right">
+										<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 plxl">
+								<div class="row" id="left-column">
+									<div class="col-md-7 col-sm-7 callout"></div>
+									<div class="hexagon f_right">
+										<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 plxl">
+								<div class="row" id="left-column">
+									<div class="col-md-7 col-sm-7 callout"></div>
+									<div class="hexagon f_right">
+										<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6" style="margin-top: 70px">
+						<div class="row">
+							<div class="col-md-12 prxl">
+								<div class="row" id="right-column">
+									<div class="col-md-7 col-sm-7 callout f_right"></div>
+									<div class="hexagon-alt">
+										<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
+									</div>
+								</div>
+							</div>
+						</div>						
+						<div class="row">
+							<div class="col-md-12 prxl">
+								<div class="row" id="right-column">
+									<div class="col-md-7 col-sm-7 callout f_right"></div>
+									<div class="hexagon-alt">
+										<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 prxl">
+								<div class="row" id="right-column">
+									<div class="col-md-7 col-sm-7 callout f_right"></div>
+									<div class="hexagon-alt">
+										<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row ptxl pbm">
+					<div class="col-md-12 text-center">
+						<a role="button" href="#" class="btn btn-dark btn-sm">All Docs</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="row pbl" id="key-resources">
+			<div class="col-md-12">
+				<h3 class="pts pbs">Key Resources</h3>
+			</div>
+		</div>
+
+
+		<div class="row pbl" id="topics">
+			<div class="col-md-12">
+				<h3 class="pts pbs">Topics</h3>
+			</div>
+		</div>		
+	</div>
+</div>
+{>footer/}
