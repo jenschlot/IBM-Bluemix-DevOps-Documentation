@@ -25,7 +25,7 @@ Simple deployment works by directly deploying the contents of the Git repository
 
 ![Sentiment Analysis Sample App][7]
 
-The sample project incorporates JSHint validation to make sure that your code is prim, proper, and error free. The simple deployer doesn't support that sort of thing, though. You need to configure a builder, which is only available in Advanced mode, also known as Pipeline. To use it, your Bluemix project will need to have the Delivery Pipeline Add-on. If it doesn't already, follow the steps 
+The sample project incorporates JSHint validation to make sure that your code is prim, proper, and error free. The simple deployer doesn't support that sort of thing, though. You need to configure a builder, which is only available in Advanced mode, also known as Pipeline. 
 
 At the top of the *Build & Deploy* page, click **Advanced**. Because you've switched from Simple to Advanced mode, Pipeline will have automatically generated a configuration for your project. You're going to set this up from scratch, though, so before going further:
 
