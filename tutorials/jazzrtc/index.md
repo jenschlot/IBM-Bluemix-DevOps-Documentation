@@ -25,7 +25,7 @@ You get a new project, a new project name and a copy of the code from the sample
 
 ![Create Project Dialog](/tutorials/jazzrtc/images/create_project.png "Create Project Dialog")
 
-If you're getting an error, then you probably didn't register with Bluemix yet. Otherwise... you're all set to build and deploy!
+If you're getting an error, then you probably didn't [register with Bluemix](//bluemix.net) yet. Otherwise... you're all set to build and deploy!
 Great!
 
 ---
