@@ -151,8 +151,8 @@ DevOps Services is built on Rational Team Concert, so this is a great place to s
 Installing Eclipse and the Rational Team Concert plug-in
 --------------------------------------------------------
 
-1. Rational Team Concert requires Eclipse 4.3.2. If you don't have Eclipse 4.3.2, download 
-and install [Eclipse 4.3.2](http://www.eclipse.org/downloads/packages/eclipse-standard-432/keplersr2) from Eclipse.org.
+1. Rational Team Concert 5.0 requires Eclipse 4.3.2. For more advanced Developer Tools, we recommend Java EE IDE for Eclipse. Download 
+and install [Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2) from Eclipse.org.
 2. In Eclipse, go to **Help > Install New Software**
 3. In the **Install** window, complete the following steps:
   * In the **Work with** field, enter `https://jazz.net/downloads/rational-team-concert/5.0/5.0/p2`
