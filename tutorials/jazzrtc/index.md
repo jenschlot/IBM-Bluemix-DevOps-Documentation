@@ -34,7 +34,7 @@ Great!
 Go to the deployment page by clicking the **BUILD & DEPLOY** button. Turn on deployment in the advanced mode by clicking the
 **ADVANCED** button. You need builds to compile your Java code and this is supported by the advanced mode. Also note that
 charges may apply for building and deployment. For more information, check out the [Bluemix pricing page](https://bluemix.net/#/pricing).
-To track charging, you'll need to add the Delivery Pipeline Add-on to your space after you've deployed your first build.
+To track charging, you'll need to add the Delivery Pipeline Add-On to your space after you've deployed your first build.
 
 On the Pipeline page, click 'add a builder'. This opens the Add Builder page.
 
@@ -74,7 +74,7 @@ Click the application link... It works! Awesome!
 ---
 ##Installing the Delivery Pipeline Add-On
 
-Let's add the Delivery Pipeline Add-on to our app. Click on the running instance of your app to view it from Bluemix. If prompted, enter your IBM id and password. 
+Let's add the Delivery Pipeline Add-On to our app. Click on the running instance of your app to view it from Bluemix. If prompted, enter your IBM id and password. 
 
 ![Bluemix Instance](/tutorials/jazzrtc/images/running_instance.png "Bluemix Instance")
 
@@ -82,7 +82,7 @@ Let's add the Delivery Pipeline Add-on to our app. Click on the running instance
 2. Choose **Delivery Pipeline** in the DevOps category.
 3. Don't worry about Space or App. Just click **CREATE**.
 
-The Delivery Pipeline Add-on will be added to your Bluemix space. 
+The Delivery Pipeline Add-On will be added to your Bluemix space. 
 
 ---
 ##Accessing your app from the Rational Team Concert client for Eclipse
