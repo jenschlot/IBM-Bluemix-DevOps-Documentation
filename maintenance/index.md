@@ -12,7 +12,7 @@ The duration of these outage windows is variable depending upon what needs to be
 | 08/05/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
 | 08/07/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
 | 08/09/2014 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
-| 08/13/2014 | **Monday** | 9:00 - 10:00PM EDT  | 1 hour   |
+| 08/11/2014 | **Monday** | 9:00 - 10:00PM EDT  | 1 hour   |
 | 08/14/2014 | Thursday | 9:00 - 11:00PM EDT  | 2 hours  |
 | 08/16/2014 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
 | 08/19/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
