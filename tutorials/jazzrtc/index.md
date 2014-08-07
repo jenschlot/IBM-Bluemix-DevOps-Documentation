@@ -34,7 +34,7 @@ Great!
 Go to the deployment page by clicking the **BUILD & DEPLOY** button. Turn on deployment in the advanced mode by clicking the
 **ADVANCED** button. You need builds to compile your Java code and this is supported by the advanced mode. Also note that
 charges may apply for building and deployment. For more information, check out the [Bluemix pricing page](https://bluemix.net/#/pricing).
-To track charging, you'll need to install the Delivery Pipeline Add-on after you've deployed your first build.
+To track charging, you'll need to add the Delivery Pipeline Add-on to your space after you've deployed your first build.
 
 On the Pipeline page, click 'add a builder'. This opens the Add Builder page.
 
