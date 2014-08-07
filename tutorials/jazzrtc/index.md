@@ -72,7 +72,7 @@ Click the application link... It works! Awesome!
 ![Application](/tutorials/jazzrtc/images/app.png "Application")
 
 ---
-##Installing the Delivery Pipeline Add-On
+##Adding the Delivery Pipeline Add-On
 
 Let's add the Delivery Pipeline Add-On to our app. Click on the running instance of your app to view it from Bluemix. If prompted, enter your IBM id and password. 
 
