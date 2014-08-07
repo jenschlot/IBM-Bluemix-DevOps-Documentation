@@ -7,12 +7,12 @@ of applications (mobile, smart devices, web, big data). Capabilities include Jav
 application monitoring, as well as features from ecosystem partners and open source, 
 all through an as-a-service model in the cloud.
 
-Before you can use the Bluemix capabilities, you have to register. To register, go to the [IBM Bluemix home page](https://bluemix.net/) and 
-click **Sign up for a free trial**.
+Before you can use the Bluemix capabilities, you have to sign up. To sign up, go to the [IBM Bluemix home page](https://bluemix.net/) and 
+click **Sign up for a free Bluemix trial**.
 
-![Sign up for a free trial](/tutorials/jazzeditor/images/bm-join.png)
+![Sign up for a free Bluemix trial](/tutorials/jazzeditor/images/bm-join.png)
 
-After you register, the [IBM Bluemix site](https://bluemix.net/) offers helpful information about Bluemix:
+After you sign up, the [IBM Bluemix site](https://bluemix.net/) offers helpful information about Bluemix:
 
 * [Getting Started with Bluemix](https://bluemix.net/docs/QuickStart.jsp)
 * [Bluemix Overview](https://bluemix.net/docs/BlueMixIntro.jsp)
