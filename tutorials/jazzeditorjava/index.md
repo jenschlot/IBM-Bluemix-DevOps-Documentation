@@ -36,11 +36,7 @@ In the *Create an app* panel, enter a **Name** for your app. Enter a different h
 
 The **Name** is a simple name you can use to find this application the next time you come back to the Bluemix dashboard. **Host** partially defines the URL (the rest comes from Bluemix itself) that lets you access your new app from the Internet. As you probably guessed, this URL must be unique, since the URL space is shared among all users. In *Selected Plans*, leave **Liberty for Java™** as *Default* and **Datacache** as *Free.*
 
-That's all there is to it! It takes a short while for the application to start up, but once it does, a tile on the dashboard shows it running.
-
-![An example app panel][51]
-
-Click on the app launch icon to open your already Internet-visible, running application.
+That's all there is to it! You'll be taken to your app's overview page. It takes a short while for the application to start up, but once it does, click on your app's route to see it running:
 
 ![A running web application][10]
 
@@ -48,7 +44,7 @@ It's great that the application is running, but it's not very interesting if you
 
 There are lots of ways you can work with your application code, but one of the slickest is to use something called _auto-deploy_. With auto-deploy, you can modify the code that is running in your app by simply pushing the changes to a Git repository. The mechanism that implements auto-deploy is provided by the IBM DevOps Services powered by JazzHub Build &amp; Deploy support, but more about that later.
 
-To enable automatic deployment, click on your Bluemix application and then **ADD GIT**. With this, you get a Git repo that's populated with the code from the sample Java app.
+To enable automatic deployment, click **ADD GIT** on your app's overview page. With this, you get a Git repo that's populated with the code from the sample Java app.
 
 ![Add Git][11]
 
