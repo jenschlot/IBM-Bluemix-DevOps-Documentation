@@ -750,24 +750,89 @@ a:hover {
 #key-resources {
 	background-color: #ffffff;
 }	
-
+	@media (min-width: 992px) {
+		div#key-resources .col-center {
+		margin: 0 auto;
+		}
+		div#key-resources .col-md-2 {
+			width: 20%;
+		}
+	}
+	
 	.resource-img {
 		height: 132px;
 		width: 132px;
+		overflow: hidden;
 		border: 8px solid #26343f;
 		border-radius: 8px;
+		background-color: #33bdd9;
+	}
+	.resource-name {
+		width: 132px;
+		min-height: 65px;
+		text-align: center;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		color: #26343f;
+		font-size: 14px;
 	}
 
-	.resource:hover .resource-name:hover{
-		text-decoration: none;
+	a.resource ,a.resource:hover {
+	text-decoration: none;
 	}
-	.resource-img:hover {
-		border: 8px solid #94a3ab;
+	
+	a.resource:hover .resource-img {
+		border: 8px solid #8cc63f;
+		opacity: 0.8;
+	}
+	a.resource:hover .resource-name {
+		text-decoration: none;
+		color: #03829e;
 	}
 
 #topics {
-	background-color: #dee6eb;
+	background-color: #94a3ab;
 }
+
+	@media (min-width: 992px) {
+		div#topics .col-center {
+		margin: 0 auto;
+		}
+		div#topics .col-md-2 {
+			width: 20%;
+		}
+	}
+	
+	.topic-img {
+		height: 120px;
+		width: 120px;
+		overflow: hidden;
+		border: 8px solid #dee6eb;
+		border-radius: 50%;
+		background-color: #33bdd9;
+	}
+
+	.topic-name {
+		width: 120px;
+		min-height: 65px;
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: #1b252d;
+		font-size: 14px;
+	}
+
+	a.topic ,a.topic:hover {
+	text-decoration: none;
+	}
+	a.topic:hover .topic-img {
+		border: 8px solid #8cc63f;
+		opacity: 0.8;
+	}
+	a.topic:hover .topic-name {
+		text-decoration: none;
+		color: #03829e;
+	}
 
 
 /** featured doc hit box **/
