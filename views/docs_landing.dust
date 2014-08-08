@@ -1,115 +1,125 @@
 {>boostrap_header/}
-<div class="com-ibm-team-jazzhub-Docs fluid-content">
-	<div class="container-fluid">
-
-
+<div class="com-ibm-team-jazzhub-Docs fluid-content container-fluid">
 		<div class="row pbl" id="featured-docs">
 			<div class="col-md-12">
-				<h3 class="pts pbs">Featured Docs</h3>
+				<h3 class="pls">Featured Docs</h3>
 				<div class="row">
 
-					<div class="col-md-6">
-						<div class="row">
-							<div class="col-md-12 plxl">
-								<div class="row" id="left-column">
-									<a class="section" href="#">
-									<div class="col-md-7 col-sm-7 callout">
-										<p class="title">Tutorial</p>
-										<p class="description">
-											Getting started with IBM Bluemix and IBM Devops Services using Node.js
-										</p>
-									</div>
-									<div class="col-md-2 stem"><hr /></div>
-									<div class="col-md-3 pln prn">
-										<div class="hexagon">
-											<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
-										</div>
-									</div>
-									</a>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<div class="row" id="doc-container-l">
+							<a class="section" href="#">
+							<div class="col-md-7 col-sm-7 col-xs-12 callout">
+								<p class="title-name">Tutorial</p>
+								<p class="description">
+									Getting started with IBM Bluemix and IBM Devops Services using node.js
+								</p>
+							</div>
+							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
+							<div class="col-md-3 hidden-xs col-sm-1 pln prn">
+								<div class="hex">
+									<span class="hex-tile pos-5"></span>
+									<span class="hex-tile pos-4"></span>
+									<span class="hex-tile pos-6"></span>
 								</div>
 							</div>
+							</a>
 						</div>
-						<div class="row">
-							<div class="col-md-12 plxl">
-								<div class="row" id="left-column">
-									<a class="section" href="#">
-									<div class="col-md-7 col-sm-7 callout"></div>
-									<div class="col-md-2 stem"><hr /></div>
-									<div class="col-md-3 pln prn">
-										<div class="hexagon">
-											<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
-										</div>
-									</div>
-									</a>
+						<div class="row" id="doc-container-l">
+							<a class="section" href="#">
+							<div class="col-md-7 col-sm-7 col-xs-12 callout">
+								<p class="title-name">Tutorial</p>
+								<p class="description">
+									Developing IBM Bluemix application in node.js with the Web IDE
+								</p>
+							</div>
+							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
+							<div class="col-md-3 hidden-xs col-sm-1 pln prn">
+								<div class="hex">
+									<span class="hex-tile pos-0"></span>
+									<span class="hex-tile pos-8"></span>
+									<span class="hex-tile pos-10"></span>
 								</div>
 							</div>
+							</a>
 						</div>
-						<div class="row">
-							<div class="col-md-12 plxl">
-								<div class="row" id="left-column">
-									<a class="section" href="#">
-									<div class="col-md-7 col-sm-7 callout"></div>
-									<div class="col-md-2 stem"><hr /></div>
-									<div class="col-md-3 pln prn">
-										<div class="hexagon">
-											<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
-										</div>
-									</div>
-									</a>
+						<div class="row" id="doc-container-l">
+							<a class="section" href="#">
+							<div class="col-md-7 col-sm-7 col-xs-12 callout">
+								<p class="title-name">Tutorial</p>
+								<p class="description">
+									Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access IBM DevOps Services
+								</p>
+							</div>
+							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
+							<div class="col-md-3 hidden-xs col-sm-1 pln prn">
+								<div class="hex">
+									<span class="hex-tile pos-2"></span>
+									<span class="hex-tile pos-4"></span>
 								</div>
 							</div>
+							</a>
 						</div>
 					</div>
 
-					<div class="col-md-6" style="margin-top: 70px">
-						<div class="row">
-							<div class="col-md-12 prxl">
-								<div class="row" id="right-column">
-									<a class="section" href="#">
-									<div class="col-md-3 pln prn">
-										<div class="hexagon-alt">
-											<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
-										</div>
-									</div>
-									<div class="col-md-2 stem"><hr /></div>
-									<div class="col-md-7 col-sm-7 callout">
-									</div>
-									</a>
+					<div class="col-md-6 col-sm-12 col-xs-12" style="margin-top: 59px">
+						<div class="row" id="doc-container-r">
+							<a class="section" href="#">
+							<div class="col-md-3 hidden-xs col-sm-1 pln prn">
+								<div class="hex">
+									<span class="hex-tile pos-3"></span>
+									<span class="hex-tile pos-9"></span>
 								</div>
 							</div>
+							<div class="col-md-2 hidden-xs col-sm-2 stem"><hr /></div>
+							<div class="col-md-7 col-sm-7 col-xs-12 callout">
+								<p class="title-name">Tutorial</p>
+								<p class="description">
+									Getting started with IBM Bluemix and IBM Devops Services using Java
+								</p>
+							</div>
+							</a>
 						</div>						
-						<div class="row">
-							<div class="col-md-12 prxl">
-								<div class="row" id="right-column">
-									<a class="section" href="#">
-									<div class="col-md-3 pln prn">
-										<div class="hexagon-alt">
-											<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
-										</div>
-									</div>
-									<div class="col-md-2 stem"><hr /></div>
-									<div class="col-md-7 col-sm-7 callout"></div>
-									</a>
+						<div class="row" id="doc-container-r">
+							<a class="section" href="#">
+							<div class="col-md-3 hidden-xs col-sm-1 pln prn">
+								<div class="hex">
+									<span class="hex-tile pos-1"></span>
+									<span class="hex-tile pos-7"></span>
 								</div>
 							</div>
+							<div class="col-md-2 hidden-xs col-sm-2 stem"><hr /></div>
+							<div class="col-md-7 col-sm-7 col-xs-12 callout">
+								<p class="title-name">Tutorial</p>
+								<p class="description">
+									Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services
+								</p>
+							</div>
+							</a>
 						</div>
-						<div class="row">
-							<div class="col-md-12 prxl">
-								<div class="row" id="right-column">
-									<a class="section" href="#">
-									<div class="col-md-3 pln prn">
-										<div class="hexagon-alt">
-											<img class="hex-tile" src="/tutorials/images/docs/tile.png" />
-										</div>
-									</div>
-									<div class="col-md-2 stem"><hr /></div>
-									<div class="col-md-7 col-sm-7 callout"></div>
-									</a>
+						<div class="row" id="doc-container-r">
+							<a class="section" href="#">
+							<div class="col-md-3 hidden-xs col-sm-1 pln prn">
+								<div class="hex">
+									<span class="hex-tile pos-5"></span>
+									<span class="hex-tile pos-6"></span>
+									<span class="hex-tile pos-7"></span>
+									<span class="hex-tile pos-8"></span>
+									<span class="hex-tile pos-9"></span>
+									<span class="hex-tile pos-10"></span>
 								</div>
 							</div>
+							<div class="col-md-2 hidden-xs col-sm-2 stem"><hr /></div>
+							<div class="col-md-7 col-sm-7 col-xs-12 callout">
+								<p class="title-name">Tutorial</p>
+								<p class="description">
+									Getting started with tracking and planning in IBM DevOps Services
+								</p>
+							</div>
+							</a>
 						</div>
 					</div>
 				</div>
+				<div class="clearfix"></div>
 				<div class="row ptxl pbm">
 					<div class="col-md-12 text-center">
 						<a role="button" href="#" class="btn btn-dark btn-sm">All Docs</a>
@@ -117,21 +127,37 @@
 				</div>
 			</div>
 		</div>
+		
+		<div class="clearfix"></div>
 
-
-
-		<div class="row pbl" id="key-resources">
+		<div class="row pbl pts" id="key-resources">
 			<div class="col-md-12">
-				<h3 class="pts pbs">Key Resources</h3>
+				<h3 class="pbs pls" >Key Resources</h3>
+				<div class="row">
+							<div class="col-md-3" style="padding-left: 3.0em">
+								<div class="resource-img"></div>
+							</div>
+							<div class="col-md-2 pln">
+								<div class="resource-img"></div>
+							</div>
+							<div class="col-md-2 plxl">
+								<div class="resource-img"></div>
+							</div>
+							<div class="col-md-2 plxl">
+								<div class="resource-img"></div>
+							</div>
+							<div class="col-md-3 plxl">
+								<div class="resource-img"></div>
+							</div>
+				</div>
 			</div>
 		</div>
 
 
 		<div class="row pbl" id="topics">
-			<div class="col-md-12">
+			<div class="col-md-12" styl>
 				<h3 class="pts pbs">Topics</h3>
 			</div>
 		</div>		
-	</div>
 </div>
 {>footer/}
