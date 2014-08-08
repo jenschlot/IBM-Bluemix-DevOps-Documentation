@@ -648,154 +648,163 @@ a:hover {
 	background-color: #3b4b54;
 	color: #ffffff;
 }
-
-	#left-column {
-		padding-left: 20px;
-		padding-right: 10px;
-		padding-top:20px;
-		padding-bottom: 20px;
+	#col-offset {
+		padding-top: 59px;
+	}
+	#doc-container-l {
+		padding-left: 3.0em;
+		padding-bottom: 18px;
+		padding-top: 18px;
+		padding-right: 9px;
 	}
 
-	#right-column {
-		padding-left: 10px;
-		padding-right: 20px;
-		padding-top: 20px;
-		padding-bottom: 20px;
+	#doc-container-r {
+		padding-right: 3.0em;
+		padding-bottom: 18px;
+		padding-top: 18px;
+		padding-left: 9px;
 	}
 
 	.callout {
 		height: 80px;
 		padding: 10px 10px 10px 10px;
 		border: 0px solid transparent;
-		border-radius: 10px;
-		background-color: #1b252d;
-		margin-top: 20px;
+		border-radius: 15px;
+		background-color: #26343f;
+		margin-top: 18px;
 	}
 
 	.stem {
-		padding: 35px 0px 0px 0px;
+		padding:0px;
+		margin-top:55px;
 	}
 
 	.stem hr:only-of-type {
-		border: 4px solid #1b252d;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		border: 4px solid #26343f;
 		margin-left: -4px ;
 		margin-right: -4px;
 	}
 
-	.hex-tile {
-		position: absolute;
-		z-index: 1;
-		padding: 0px;
-		margin-left: -25px;
-		margin-top: 7px;
+	.hex {
+		padding: 7px 8px 7px 8px;
+		height: 118px;
+		width: 136px;
+		background-image: url(../images/docs/hexagons.png);
+		background-repeat: none;
 	}
+
+	.title-name {
+		text-align: center;
+		color: #00aed1;
+		font-weight: bold;
+		font-size: 13px;
+	}
+	.description {
+		text-align: center;
+		color: #ffffff;
+		font-size: 11px;
+	}
+
+	span.hex-tile {
+		position: absolute;
+		width: 120px;
+		height: 104px;
+		background-image: url(../images/docs/hexagons-jazzhub.png);
+		background-repeat: no-repeat;
+		z-index: 1;
+	}
+		.pos-0 {
+			background-position: 0px 0px;
+		}
+		.pos-1{
+			background-position: -120px 0px
+		}
+		.pos-2{
+			background-position: -240px 0px;
+		}
+		.pos-3{
+			background-position: -360px 0px;
+		}
+		.pos-4{
+			background-position: 0px -104px;
+		}
+		.pos-5{
+			background-position: -120px -104px;
+		}
+		.pos-6{
+			background-position: -240px -104px;
+		}
+		.pos-7{
+			background-position: -360px -104px;
+		}
+		.pos-8{
+			background-position: 0px -208px;
+		}
+		.pos-9{
+			background-position: -120px -208px;
+		}
+		.pos-10{
+			background-position: -240px -208px;
+		}
+
+	a.section ,a.section:hover {
+	text-decoration: none;
+	}
+	a.section:hover .title-name {
+			color: #F26C4F;
+	}
+	a.section:hover .description {
+			color: #2a3a12;
+	}
+	a.section:hover .hex {
+		height: 118px;
+		width: 136px;
+		background-image: url(../images/docs/hexagons.png);
+		background-position: -136px 0px;
+	}
+	a.section:hover .callout {
+		background-color: #dee6eb;
+	}
+	a.section:hover .stem hr:only-of-type{
+		border: 4px solid #dee6eb;
+	}
+
+	a.btn-dark {
+	background-color: #26343f;
+	color: #ffffff;
+	text-decoration: none;
+	}
+
+	a.btn-dark:hover {
+		background-color: #dee6eb;
+		color: #2a3a12;
+		text-decoration: none;
+	}
+
 
 #key-resources {
 	background-color: #ffffff;
+}	
 
-}
+	.resource-img {
+		height: 132px;
+		width: 132px;
+		border: 8px solid #26343f;
+		border-radius: 8px;
+	}
+
+	.resource:hover .resource-name:hover{
+		text-decoration: none;
+	}
+	.resource-img:hover {
+		border: 8px solid #94a3ab;
+	}
+
 #topics {
 	background-color: #dee6eb;
 }
 
-/** Hexagon left **/
-
-.hexagon::before {
-	content: " ";
-	height: 0;
-	border-right: 35px solid #1b252d;
-	border-top: 60px solid transparent;
-	border-bottom: 60px solid transparent;
-	position: absolute;
-	left: -35px;
-}
-.hexagon {
-	width: 70px;
-	height: 120px;
-	background-color: #1b252d;
-	position: relative;
-	margin-right: 30px;
-	margin-left: 35px;
-}
-.hexagon::after {   
-	content:"";
-	border-left: 35px solid #1b252d;
-	border-top: 60px solid transparent;
-	border-bottom: 60px solid transparent;
-	position: absolute;
-	right: -35px;
-}
-
-/** Hexagon right **/
-.hexagon-alt::before {
-	content: " ";
-	height: 0;
-	border-right: 35px solid #1b252d;
-	border-top: 60px solid transparent;
-	border-bottom: 60px solid transparent;
-	position: absolute;
-	left: -35px;
-}
-.hexagon-alt {
-	width: 70px;
-	height: 120px;
-	background-color: #1b252d;
-	position: relative;
-	margin-right: 35px;
-	margin-left: 30px;
-}
-.hexagon-alt::after {   
-	content:"";
-	border-left: 35px solid #1b252d;
-	border-top: 60px solid transparent;
-	border-bottom: 60px solid transparent;
-	position: absolute;
-	right: -35px;
-}
-
-.title {
-	text-align: center;
-	color: #00aed1;
-	text-decoration: none;
-}
-
-.description {
-	text-align: center;
-	color: #ffffff;
-	text-decoration: none;
-}
 
 /** featured doc hit box **/
-a.section:hover .title {
-		color: #00b299;
-		text-decoration: none;
-}
-a.section:hover .description {
-		color: #2a3a12;
-		text-decoration: none;
-}
-.section:hover .hexagon, .section:hover .hexagon-alt, .section:hover .callout {
-	background-color: #dee6eb;
-}
-.section:hover .hexagon::before, .section:hover .hexagon-alt::before {
-	border-right: 35px solid #dee6eb;
-}
-.section:hover .hexagon::after, .section:hover .hexagon-alt::after{
-	border-left: 35px solid #dee6eb;
-}
-.section:hover .stem hr:only-of-type {
-	border: 4px solid #dee6eb;
-}
-
-a.btn-dark {
-	background-color: #1b252d;
-	color: #ffffff;
-	text-decoration: none;
-}
-
-a.btn-dark:hover {
-	background-color: #94a3ab;
-	color: #ffffff;
-	text-decoration: none;
-}
-
