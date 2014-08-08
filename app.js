@@ -37,7 +37,7 @@ _.each(['/tutorials', '/tutorials/landing'],
        }
 );
 
-_.each(['/docs', '/docs/landing'],
+_.each(['/docs'],
        function(i) {
 		app.get(i, routes.docs)
        }

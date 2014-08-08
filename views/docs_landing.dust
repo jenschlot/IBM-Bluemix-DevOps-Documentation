@@ -8,7 +8,7 @@
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<div class="row" id="doc-container-l">
 							<a class="section" href="#">
-							<div class="col-md-7 col-sm-7 col-xs-12 callout">
+							<div class="col-md-7 col-sm-7 col-xs-8 callout">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
 									Getting started with IBM Bluemix and IBM Devops Services using node.js
@@ -26,7 +26,7 @@
 						</div>
 						<div class="row" id="doc-container-l">
 							<a class="section" href="#">
-							<div class="col-md-7 col-sm-7 col-xs-12 callout">
+							<div class="col-md-7 col-sm-7 col-xs-8 callout">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
 									Developing IBM Bluemix application in node.js with the Web IDE
@@ -44,7 +44,7 @@
 						</div>
 						<div class="row" id="doc-container-l">
 							<a class="section" href="#">
-							<div class="col-md-7 col-sm-7 col-xs-12 callout">
+							<div class="col-md-7 col-sm-7 col-xs-8 callout">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
 									Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access IBM DevOps Services
@@ -71,7 +71,7 @@
 								</div>
 							</div>
 							<div class="col-md-2 hidden-xs col-sm-2 stem"><hr /></div>
-							<div class="col-md-7 col-sm-7 col-xs-12 callout">
+							<div class="col-md-7 col-sm-7 col-xs-8 callout">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
 									Getting started with IBM Bluemix and IBM Devops Services using Java
@@ -88,7 +88,7 @@
 								</div>
 							</div>
 							<div class="col-md-2 hidden-xs col-sm-2 stem"><hr /></div>
-							<div class="col-md-7 col-sm-7 col-xs-12 callout">
+							<div class="col-md-7 col-sm-7 col-xs-8 callout">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
 									Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services
@@ -109,7 +109,7 @@
 								</div>
 							</div>
 							<div class="col-md-2 hidden-xs col-sm-2 stem"><hr /></div>
-							<div class="col-md-7 col-sm-7 col-xs-12 callout">
+							<div class="col-md-7 col-sm-7 col-xs-8 callout">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
 									Getting started with tracking and planning in IBM DevOps Services
@@ -127,36 +127,128 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="clearfix"></div>
 
 		<div class="row pbl pts" id="key-resources">
 			<div class="col-md-12">
 				<h3 class="pbs pls" >Key Resources</h3>
-				<div class="row">
-							<div class="col-md-3" style="padding-left: 3.0em">
-								<div class="resource-img"></div>
-							</div>
-							<div class="col-md-2 pln">
-								<div class="resource-img"></div>
-							</div>
-							<div class="col-md-2 plxl">
-								<div class="resource-img"></div>
-							</div>
-							<div class="col-md-2 plxl">
-								<div class="resource-img"></div>
-							</div>
-							<div class="col-md-3 plxl">
-								<div class="resource-img"></div>
-							</div>
+				<div class="row pts">
+						<div class="col-md-2 col-sm-4 col-xs-5">
+							<a class="resource" href="#">
+								<div class="resource-img col-center"></div>
+								<div class="resource-name col-center">Learn about IBM DevOps ServiceS</div>
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-5">
+							<a class="resource" href="#">
+								<div class="resource-img col-center"><img src="/tutorials/images/docs/temp.png"></div>
+								<div class="resource-name col-center">What's New</div>
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-5">
+							<a class="resource" href="#">
+								<div class="resource-img col-center"></div>
+								<div class="resource-name col-center">Features</div>
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-5">
+							<a class="resource" href="#">
+								<div class="resource-img col-center"></div>
+								<div class="resource-name col-center">Frequently asked questions</div>
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-5">
+							<a class="resource" href="#">
+								<div class="resource-img col-center"></div>
+								<div class="resource-name col-center">Glossary</div>
+							</a>
+						</div>
 				</div>
+
 			</div>
 		</div>
 
+		<div class="clearfix"></div>
 
-		<div class="row pbl" id="topics">
-			<div class="col-md-12" styl>
-				<h3 class="pts pbs">Topics</h3>
+		<div class="row pts pbxl" id="topics">
+			<div class="col-md-12">
+				<h3 class="pbs pls" >Topics</h3>
+				<div class="row pts">
+						<div class="col-md-2 col-sm-4 col-xs-6">
+							<a class="topic" href="#">
+								<div class="topic-img col-center"></div>
+								<div class="topic-name col-center">Node.js</div>
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-6">
+							<a class="topic" href="#">
+								<div class="topic-img col-center"></div>
+								<div class="topic-name col-center">Java</div>
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-6">
+							<a class="topic" href="#">
+								<div class="topic-img col-center"></div>
+								<div class="topic-name col-center">Mobile</div>
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-6">
+							<a class="topic" href="#">
+								<div class="topic-img col-center"><img src="/tutorials/images/docs/temp.png" /></div>
+								<div class="topic-name col-center">Program Management</div>
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-6">
+							<a class="topic" href="#">
+								<div class="topic-img col-center"></div>
+								<div class="topic-name col-center">Editing</div>
+							</a>
+						</div>
+<!--			</div>
+
+				<div class="row pts">-->
+						<div class="col-md-2 col-sm-4 col-xs-6">
+							<a class="topic" href="#">
+								<div class="topic-img col-center"></div>
+								<div class="topic-name col-center">Eclipse</div>
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-6">
+							<a class="topic" href="#">
+								<div class="topic-img col-center"></div>
+								<div class="topic-name col-center">Git</div>
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-6">
+							<a class="topic" href="#">
+								<div class="topic-img col-center"></div>
+								<div class="topic-name col-center">JazzSCM</div>
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-6">
+							<a class="topic" href="#">
+								<div class="topic-img col-center"></div>
+								<div class="topic-name col-center">Projects</div>
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-6">
+							<a class="topic" href="#">
+								<div class="topic-img col-center"></div>
+								<div class="topic-name col-center">Build and Deploy</div>
+							</a>
+						</div>
+<!--			</div>
+
+				<div class="row pts">-->
+						<div class="col-md-12 col-sm-12 col-xs-12">
+							<a class="topic" href="#">
+								<div class="topic-img col-center"></div>
+								<div class="topic-name col-center">Academia</div>
+							</a>
+						</div>
+				</div>
+
 			</div>
 		</div>		
 </div>
