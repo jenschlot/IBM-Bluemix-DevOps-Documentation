@@ -123,7 +123,7 @@ This number is unique to your project and helps you keep track of each work item
 **Tip**: If you prefer to keep your hands on the keyboard, you can enter most of the attributes by typing their text code instead of using the mouse. 
 
 10. Enter these attributes and then click **SAVE**:
- * @:*yourJazzID* 
+ * @:*<yourJazzID>* 
  * \#server 
  * $high 
 
@@ -193,8 +193,8 @@ Before you populate a sprint, you should rank the work items in your backlog. If
  
 Now that you set up your sprint you're ready to start work.
 
-1. Click **Team's Work**. At first, you'll see all the team's work for the whole project. In this view, work items are grouped by owner, so you always know which tasks your team members own. Click **All Sprints** and select **Sprint 1** from the drop-down menu to hide items from other sprints so that you can focus on this sprint's work.  
-**Tip**: This view is useful when you share work with others.
+1. To see the entire team's work for the current sprint, click **Team's Work**. This view is useful when you share work with others, because work items are grouped by owner and you can see who owns which tasks.  
+**Tip**: To view another sprint, click **Sprint 1 (Current Sprint)** and select the sprint from the list.   
 
 2. Click **My Work**. Because you own all the tasks and haven't started working on them, you can see them all in your Open lane.  
 **Note**: If you do not see both the Open and In Progress lanes, click **Display as Lanes** (<img src="/tutorials/trackplan/images/displaylanes.gif"  align="bottom"  style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) to switch from the list view.
