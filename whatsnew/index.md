@@ -1,5 +1,21 @@
 # What's New
 
+## August 12, 2014
+
+# Build and Deploy to IBM Bluemix
+
+## Improved Advanced Build & Deploy Interface
+
+An updated Advanced Build & Deploy UI makes it easier than ever to build your application and get it running on Bluemix.
+
+![a configured pipeline set-up][55]
+
+Build and deployment logs have also received a facelift; you'll always know just what's going on with your project.
+
+## Ability to disable source control-triggered automatic builds added
+
+You can now disable automatic builds as triggered by changes pushed to your project. Just clear the check box marked "Automatically build when a change is delivered/pushed" when configuring a builder.  
+
 ## June 27, 2014
 
 # Build and Deploy to IBM Bluemix
@@ -482,3 +498,4 @@ Cheers!
 [52]: /whatsnew/images/richworkitemeditor.png
 [53]: https://hub.jazz.net/project/srich/JazzHub
 [54]: https://hub.jazz.net/project/srich/JazzHub
+[55]: /whatsnew/images/deployed-with-pipeline.gif
