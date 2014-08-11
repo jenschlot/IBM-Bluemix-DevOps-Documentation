@@ -32,7 +32,7 @@ The Web IDE provides smart features including content assist for CSS, HTML, and 
 
 ## Build and deploy your way
 
-Configure your project to automatically deploy to [IBM&reg; Bluemix&trade;](https://ace.ng.bluemix.net/IBM Bluemix) 
+Configure your project to automatically deploy to [IBM&reg; Bluemix&trade;](https://ace.ng.bluemix.net/) 
 whenever a project member pushes code to your Git repository or
 Jazz&trade; SCM. You can simply deploy files as they are pushed, or you
 can configure more advanced build options to be deployed automatically.
