@@ -57,12 +57,12 @@ Bluemix dashboard. The host is a unique URL where you access your app.
 
 
 That's all there is to creating an application. It takes a moment for the application to start, 
-but when it does, a tile on the dashboard shows that it's running.
+but when it does, the app dashboard opens and shows that it's running.
 
 ![Bluemix Application tile](/tutorials/jazzeditor/images/bm-app-panel.png)
 
-Click the URL on the tile to open the application dashboard. 
-When you click the URL on the application dashboard, it takes you to your already Internet-visible, running application.
+Click the URL on the the application dashboard, which
+takes you to your already Internet-visible, running application.
 
  
 ![A running web application](/tutorials/jazzeditor/images/bm-example.png)
@@ -77,7 +77,7 @@ You can work with your application code in many ways,
 but one of the most impressive features is *auto-deploy*. 
 With the auto-deploy feature, you can modify the code that is running in your app by pushing the changes to a 
 Git repository. The mechanism that implements auto-deployment is powered by 
-the Build & Deploy capabilities of DevOps Services.
+the BUILD & DEPLOY capabilities of DevOps Services.
 
 To enable auto-deployment, go to the Bluemix dashboard for your application and 
 click **ADD GIT**. This single click in Bluemix gives you a Git repository that's 
@@ -143,7 +143,7 @@ see [Installing Git](/tutorials/clients#installing_git).
 Browse the [Git documentation](http://git-scm.com/doc) to learn more about working with Git.
 
 Start by cloning the local repository using the Git URL from either the Bluemix application dashboard 
-or the Build & Deploy page:
+or the BUILD & DEPLOY page:
 
 
 	$ git clone https://hub.jazz.net/git/jazzhubdemouser/mycoolwebapp0630
@@ -185,7 +185,7 @@ Then, change to your Git clone directory and do a Git add, commit and push as sh
     	43c6bc7..bf26680 master -> master
 
 If you go back to the Web IDE and check the 
-Build & Deploy page, you should see something similar to this image:
+BUILD & DEPLOY page, you should see something similar to this image:
 
 ![Auto-deploy in action](/tutorials/jazzeditor/images/jh-auto-deployed.png)
 
