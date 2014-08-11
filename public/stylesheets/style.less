@@ -648,9 +648,7 @@ a:hover {
 	background-color: #3b4b54;
 	color: #ffffff;
 }
-	#col-offset {
-		padding-top: 59px;
-	}
+
 	#doc-container-l {
 		padding-left: 3.0em;
 		padding-bottom: 18px;
@@ -663,6 +661,28 @@ a:hover {
 		padding-bottom: 18px;
 		padding-top: 18px;
 		padding-left: 9px;
+	}
+
+	@media (min-width: 992px) {
+		#col-offset {
+		padding-top: 59px;
+		}
+	}
+
+	@media (max-width: 992px){
+		#doc-container-r, #doc-container-l {
+			padding-left: 3.0em;
+			padding-bottom: 18px;
+			padding-top: 18px;
+			padding-right: 3.0em;
+		}
+	/*	div#doc-container-r .stem, div#doc-container-r .hex-container {
+			float: right;
+		}*/
+	}
+
+	.hex-container {
+		padding: 0px;
 	}
 
 	.callout {
@@ -704,7 +724,7 @@ a:hover {
 	.description {
 		text-align: center;
 		color: #ffffff;
-		font-size: 11px;
+		font-size: 12px;
 	}
 
 	span.hex-tile {
