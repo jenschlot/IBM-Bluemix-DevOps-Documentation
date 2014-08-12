@@ -16,6 +16,18 @@ Build and deployment logs have also received a facelift; you'll always know just
 
 You can now disable automatic builds as triggered by changes pushed to your project. Just clear the check box marked "Automatically build when a change is delivered/pushed" when configuring a builder.  
 
+# Updates to Track & Plan Beta
+
+You can now use the All Work view to see all the work items associated with your IBM&reg; 
+DevOps Services Track & Plan Beta project.
+
+>	![all work view][56]
+
+You will also find several UI changes:
+ * You will see only your current sprint when you change views.
+ * The team views are listed in a different order.
+ * The options to create or edit sprints are only accessible in the Sprint Planning view.
+
 ## June 27, 2014
 
 # Build and Deploy to IBM Bluemix
@@ -499,3 +511,4 @@ Cheers!
 [53]: https://hub.jazz.net/project/srich/JazzHub
 [54]: https://hub.jazz.net/project/srich/JazzHub
 [55]: /whatsnew/images/deployed-with-pipeline.gif
+[56]: /whatsnew/images/all-work-view.gif 
