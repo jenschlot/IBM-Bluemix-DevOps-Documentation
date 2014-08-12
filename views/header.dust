@@ -2,6 +2,8 @@
 	<head>		
 		<title>IBM DevOps Services</title>
 		<script src="//cdn.optimizely.com/js/1141215513.js"></script>
+		<script src="/tutorials/lib/jquery/jquery-2.1.1.min.js"></script>
+		<script src='/tutorials/javascript/pageResize.js'></script>
 		<link rel='icon' type='image/x-icon' href='/tutorials/favicon.ico'></link>
 		<link rel='stylesheet' href='/embed/css/navbar'></link>
 		<link rel='stylesheet' href='/tutorials/stylesheets/style.css'></link>	
@@ -9,8 +11,7 @@
 	<body>
 		<div class="com-ibm-team-jazzhub">
 			<div id='navbar'></div>
-			<script src='/embed/js/navbar?e=navbar&navSelection=help&navigationPageTitle={sectionname}'></script>
+			<script src='/embed/js/navbar?e=navbar&navSelection=help&navigationPageTitle={sectionname}'></script>			
 			
-
 			<div class='content fluid-content'>
 
