@@ -29,5 +29,13 @@
 			"section_name": "Maintenance Schedule",
 			"directory": "maintenance"
 		}
+	],
+	"topic": [
+		{
+			"uri_prefix": "/help/nodejs",
+			"section_name": "Docs",
+			"topic_name": "node.js",
+			"directory": "help/nodejs"
+		}
 	]
 }
