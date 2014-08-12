@@ -18,11 +18,11 @@ To activate Track & Plan for an IBM Bluemix project, follow these instructions.
 **Note**: If you see Track & Plan, skip the next two steps.
 
 7. Click **Connect an Add-On** (<img src="/tutorials/trackplan/images/connectaddon.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">). Locate the DevOps section on the new page and click **Track & Plan**.  
-     ![IBM DevOps Services Track & Plan add-on tile][20]
+     ![IBM DevOps Services Track & Plan Add-On tile][20]
 
 8. After you review the contents of the pop-up, click **CREATE**.
 
-9. Notice that the Track & Plan add-on is listed. Click **Track & Plan** and confirm that your project's add-on state is ON.
+9. Notice that the Track & Plan Add-On is listed. Click **Track & Plan** and confirm that your project's Add-On state is ON.
 
 10. Return to your DevOps services browser tab and click **TRACK & PLAN**. You're ready to begin planning.
 
