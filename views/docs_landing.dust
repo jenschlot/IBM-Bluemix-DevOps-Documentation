@@ -1,4 +1,4 @@
-{>boostrap_header/}
+{>bootstrap_header/}
 <div class="container-fluid">
 		<div class="row pbl" id="featured-docs">
 			<div class="col-md-12">
@@ -7,7 +7,7 @@
 
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<div class="row" id="doc-container-l">
-							<a class="section" href="#">
+							<a class="section" href="/tutorials/jazzeditor">
 							<div class="col-md-7 col-sm-7 col-xs-7 callout">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
@@ -160,7 +160,7 @@
 				<h3 class="pbs pls" >Topics</h3>
 				<div class="row pts">
 						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="topic" href="#">
+							<a class="topic" href="/help/nodejs">
 								<div class="topic-img col-center"></div>
 								<div class="topic-name col-center">Node.js</div>
 							</a>

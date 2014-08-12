@@ -6,8 +6,8 @@
 		<script src='/tutorials/lib/jquery/jquery-2.1.1.min.js'></script>
 		<link rel='stylesheet' href='/tutorials/lib/bootstrap/bootstrap-3.2.0-dist/css/bootstrap.min.css'></link>
 		<script src='/tutorials/lib/bootstrap/bootstrap-3.2.0-dist/js/bootstrap.min.js'></script>
-		<link rel='stylesheet' href='/embed/css/navbar'></link>
 		<link rel='stylesheet' href='/tutorials/stylesheets/style.css'></link>
+		<link rel='stylesheet' href='/embed/css/navbar'></link>
 	</head>
 	<body>
 		<div class="com-ibm-team-jazzhub">

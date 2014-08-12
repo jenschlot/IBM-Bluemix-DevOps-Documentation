@@ -47,6 +47,20 @@ _.each(['/docs'],
  * See config.json for a rundown of which prefixes load what.
  */
 _.each(
+	config.topic,
+	function (topic) {
+		app.use(
+			topic.uri_prefix, 
+			routes.topic_router(app.get('env'), 
+					      topic.section_name,
+					      topic.topic_name, 
+					      path.join(__dirname, topic.directory)
+			)
+		);
+	}
+);
+
+_.each(
 	config.content,
 	function (content) {
 		app.use(
