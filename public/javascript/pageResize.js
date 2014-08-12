@@ -7,8 +7,6 @@ $(document).ready(function(){
 	var navbarHeight = $("#navbar").height();
 	var footerHeight = $("#footer").height();
 	var contentHeight = $("#content").height();
-	if(contentHeight < (docHeight - navbarHeight - footerHeight)) {
-		contentHeight = docHeight - navbarHeight - footerHeight;
-		$("#content").height(contentHeight);		
-	}
+	var minContentHeight = Math.max(docHeight - navbarHeight - footerHeight, contentHeight);
+	$("#content").css('min-height', minContentHeight);
 });
