@@ -113,7 +113,7 @@ First, let's configure the builder. Click **add a builder**. The *Add Builder* c
 
 ![Configuring the Builder][18]
 
-The default settings will work for this project: build using Ant and pull from the master branch of your git repo. The builder will find `build.xml` in the root directory and run it during the build. The files that are needed for deployment are output into the build archive directory. It defaults to the same directory as the build script path, so there's no need to change that, either.
+The default settings will work for this project: build using Ant and pull from the master branch of your git repo. The builder will find `build.xml` in the root directory and run it during the build. The files that are needed for deployment are output into the build archive directory. It defaults to the same directory as the build script path, so there's no need to change that, either. Additionally, with automatic building enabled, changes delivered to the selected Git branch will trigger new builds. 
 
 Click **Save**. In a moment, the Pipeline page will refresh with information on your newly configured builder. 
 
