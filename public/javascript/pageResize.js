@@ -4,14 +4,16 @@
 
 $(document).ready(function(){
 	resizePg();
-	$(window).on('resize', resizePg());
+	$(window).resize(resizePg);
 });
 
 var resizePg = function() {
-	var docHeight = $(window).height();
+	console.log("Resizing page");
+	var windowHeight = $(window).height();
+	console.log("Window height is " + windowHeight);
 	var navbarHeight = $("#navbar").height();
 	var footerHeight = $("#footer").height();
 	var contentHeight = $("#content").height();
-	var minContentHeight = Math.max(docHeight - navbarHeight - footerHeight, contentHeight);
+	var minContentHeight = windowHeight - navbarHeight - footerHeight;
 	$("#content").css('min-height', minContentHeight);	
 };

@@ -1,5 +1,5 @@
 {>header/}
-<div class="com-ibm-team-jazzhub-Docs fluid-content">
+<div id="content" class="com-ibm-team-jazzhub-Docs fluid-content">
 	<div class="content tutorial-landing">
 		<div class="landing-header" id="landing-top">
 			<div class="landing-header-body jh-columns pll prl">
