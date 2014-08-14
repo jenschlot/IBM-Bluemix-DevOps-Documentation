@@ -8,9 +8,7 @@ $(document).ready(function(){
 });
 
 var resizePg = function() {
-	console.log("Resizing page");
 	var windowHeight = $(window).height();
-	console.log("Window height is " + windowHeight);
 	var navbarHeight = $("#navbar").height();
 	var footerHeight = $("#footer").height();
 	var contentHeight = $("#content").height();
