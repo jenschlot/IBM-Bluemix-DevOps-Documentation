@@ -1,5 +1,5 @@
 # FAQs
-##### Updated on June 24, 2014
+##### Updated on August 14, 2014
 
 Can't find the answer to your question here? [Check out our forum](https://www.ibmdw.net/answers?community=jazzhub).
 ____
@@ -8,9 +8,9 @@ ____
     more?](#q1)
 -   [How much does it cost?](#q2)
 -   [What additional help resources are available?](#q17)
--   [Why does my sign in to DevOps Services fail from my Rational Team
+-   [Why does my attempt to sign in to DevOps Services fail from my Rational Team
     Concert desktop client or Git client?](#rtcgit)
--   [Can I connect my project to a GitHub repository?](#git)
+-   [Can I connect my project to a Github repository?](#git)
 -   [Is DevOps Services right for me if our team is not developing
     code?](#q5)
 -   [How do I report a bug?](#q7)
@@ -27,10 +27,10 @@ ____
 
 ### I see JazzHub is now called IBM DevOps Services. Can you tell me more? 
 
-JazzHub has a new name! The JazzHub of today began its life as an experimental development collaboration hub for academia and researchers, based on IBM&reg; Jazz&trade; technology. We learned a lot from that experience and since then we have re-implemented JazzHub in the cloud and opened it up to everyone.
+JazzHub has a new name. The JazzHub of today began life as an experimental development collaboration hub for academia and researchers, which was based on IBM&reg; Jazz&trade; technology. IBM learned a lot from that experience, and since then, IBM implemented JazzHub again in the cloud and opened it up to everyone.
 
-We integrated the [Eclipse](http://eclipse.org/ "Eclipse") Orion Web IDE, introduced the ability to deploy applications directly to the [IBM BlueMix&trade; cloud platform](https://bluemix.net/ "BlueMix"), and we
-plan to expand that capability to include continuous integration, unit test, and deployment based on Jenkins and IBM UrbanCode&trade;. With these new capabilities and more to come, JazzHub builds on the core Jazz services to provide a pretty nice environment for cloud application development. To reflect the expanded role of JazzHub in the IBM family, we are renaming it "IBM DevOps Services", or "IDS" for short. JazzHub will continue to refer to the underlying technology stack, as in "Powered by JazzHub".
+IBM integrated the [Eclipse](http://eclipse.org/ "Eclipse") Orion Web IDE and introduced the ability to deploy applications directly to the [IBM Bluemix&trade; cloud platform](https://bluemix.net/ "Bluemix"). IBM also 
+plans to expand that capability to include continuous integration, unit testing, and deployment that is based on Jenkins and IBM UrbanCode. With these new capabilities and more to come, JazzHub builds on the core Jazz services to provide a good environment for cloud application development. To reflect the expanded role of JazzHub in the IBM family, IBM is renaming it "IBM DevOps Services." JazzHub continues to refer to the underlying technology stack as "Powered by JazzHub."
 
 <a name="q2"></a>
 
@@ -42,32 +42,35 @@ Read the [latest information about cost](/learn/cost).
 
 ### What additional help resources are available? 
 
-We developed the following tutorials to help you get started.
+IBM developed the following tutorials to help you get started.
 
-- [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/jazzeditor)
-- [Getting Started with BlueMix and DevOps Services using Java](/tutorials/jazzeditorjava)
+- [Getting Started with Bluemix and DevOps Services by using Node.js](/tutorials/jazzeditor)
+- [Getting Started with Bluemix and DevOps Services by using Java](/tutorials/jazzeditorjava)
 - [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services](/tutorials/clients)
-- [Developing BlueMix applications in Node.js with the DevOps Services Web IDE](/tutorials/jazzweb)
-- [Developing BlueMix applications in Java with Eclipse and DevOps Services](/tutorials/jazzrtc)
+- [Developing Bluemix applications in Node.js with the DevOps Services Web IDE](/tutorials/jazzweb)
+- [Developing Bluemix applications in Java with Eclipse and DevOps Services](/tutorials/jazzrtc)
 - [Getting started with tracking and planning in IBM DevOps Services](/tutorials/trackplan)
 
 <a name="rtcgit"></a>
 
 ### Why does my sign in to DevOps Services fail from my Rational Team Concert desktop client or Git client? 
 
-You can now sign in to DevOps Services with your Jazz ID or your IBM id. More than likely, you are reading this FAQ because you use an IBM id to access DevOps Services, and you cannot sign in to DevOps Services from your Rational&reg; Team Concert desktop client, or you see an authentication failure when you try to access your Git repository from your local Git client. This failure is probably because your IBM id and Jazz ID are linked, and you did not use your IBM id password with your Jazz ID. To fix this problem, you must sign in with your Jazz ID and IBM id password.
+You can now sign in to DevOps Services with your Jazz ID or your IBM ID. You are likely reading this FAQ because of one of these reasons:
+* You use an IBM ID to access DevOps Services, and you cannot sign in to DevOps Services from your Rational Team Concert desktop client
+* You see an authentication failure when you try to access your Git repository from your local Git client.
+This failure is probably because your IBM ID and Jazz ID are linked, and you did not use your IBM ID password with your Jazz ID. To fix this problem, you must sign in with your Jazz ID and IBM ID password.
 
-This odd combination of Jazz ID and IBM id password is required to support the desktop-client users who created data with Jazz IDs. Desktop-client users include those who use Rational Team Concert clients for Eclipse and Visual Studio, as well as any local Git client. So, for now, new or existing desktop-client users must sign in with their Jazz ID and IBM id password when they connect to DevOps Services.
+This odd combination of Jazz ID and IBM ID password is required to support the desktop-client users who created data with Jazz IDs. Desktop-client users include those who use Rational Team Concert clients for Eclipse and Visual Studio, as well as any local Git client. So, for now, new or existing desktop-client users must sign in with their Jazz ID and IBM ID password when they connect to DevOps Services.
 
 <a name="git"></a>
 
-### Can I connect my project to a GitHub repository? 
+### Can I connect my project to a Github repository? 
 
-Yes. When you create a project, select the option for GitHub and input your GitHub repository.
+Yes. When you create a project, select the option for Github and input your Github repository.
 
-You can track and plan the work you'll store in your GitHub repository from within DevOps Services. To configure GitHub to update your work items when you push your changes, navigate to your project and click the **configure GitHub** link on the left side of the page.
+You can track and plan the work you'll store in your Github repository from within DevOps Services. To configure Github to update your work items when you push your changes, navigate to your project and click the **configure Github** link on the left side of the page.
 
-You can also edit the code stored in your GitHub repository using the Web IDE. When you want to begin coding, navigate to your project and click **Edit Code** at the top of the page. Your GitHub repository will automatically be cloned for you, and your existing files will display in the navigation pane. You can create new files or edit existing ones. When you have saved changes to your files, select **Activities \> Git Status**. On this page, you can stage, commit, and push your changes.
+You can also edit the code that is stored in your Github repository by using the web IDE. When you want to begin coding, navigate to your project and click **Edit Code** at the top of the page. Your Github repository will automatically be cloned for you, and your existing files will display in the navigation pane. You can create new files or edit existing ones. After you save changes to your files, select **Activities \> Git Status**. On this page, you can stage, commit, and push your changes.
 
 <a name="q5"></a>
 
@@ -79,25 +82,25 @@ Yes it is. You can plan, define requirements, track tasks, and collaborate on an
 
 ### How do I report a bug? 
 
-If something's not working, we'd like to hear about it. [Report a bug here](https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
+If something's not working, provide feedback and details. [Report a bug here](https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
 
 <a name="q8"></a>
 
-### How can I provide additional feedback?
+### How can I provide more feedback?
 
-We love feedback. If you have a suggestion about how to make something better, [share your idea here](https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
-To ask a question, check out [our forum](https://www.ibmdw.net/answers?community=jazzhub).
+Feedback is welcome. If you have a suggestion about how to make something better, [share your idea here](https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
+To ask a question, check out [the dW Answers forum](https://www.ibmdw.net/answers?community=jazzhub).
 
 <a name="ibmer"></a>
 
-### I'm an IBMer. What do I need to know about starting a DevOps Services project? 
+### I'm work at IBM. What do I need to know about starting a DevOps Services project? 
 
-In the spirit of open development, we encourage both public and private
-projects, and we ask that you remember the following:
+In the spirit of open development, IBM encourages both public and private
+projects and asks that you remember these guidelines:
 
 - Never add IBM Confidential information to a DevOps Services project. 
-- Before getting involved in projects that have open source code, consult the [Open Source Participation Guidelines](https://w3-connections.ibm.com/wikis/home?lang=en-us#!/wiki/W783ba5fa6c1a_40b3_945a_07d0eb0115bd).
-- When participating in projects on your own time, follow the [Business Conduct Guidelines](http://w3-03.ibm.com/ibm/documents/corpdocweb.nsf/ContentDocsByTitle/Business+Conduct+Guidelines), especially section 5.0 On Your Own Time. -- Talk it over with your manager, and involve your IBM legal contact
+- Before you get involved in projects that have open source code, consult the [Open Source Participation Guidelines](https://w3-connections.ibm.com/wikis/home?lang=en-us#!/wiki/W783ba5fa6c1a_40b3_945a_07d0eb0115bd).
+- When you participate in projects on your own time, follow the [Business Conduct Guidelines](http://w3-03.ibm.com/ibm/documents/corpdocweb.nsf/ContentDocsByTitle/Business+Conduct+Guidelines), especially section 5.0 On Your Own Time. Talk it over with your manager, and involve your IBM legal contact
   as needed.
 
 <a name="q18"></a>
@@ -105,7 +108,7 @@ projects, and we ask that you remember the following:
 ### How can I report abuse? 
 
 To report an instance of abuse of DevOps Services or a violation of the
-[Terms of Use](/terms), send an email to [hub@jazz.net](mailto:hub@jazz.net?Subject=Reporting%20abuse%20of%20JazzHub&Body=Please%20include%20the%20following%20information%3A%0A%0A%20-%20Your%20email%20address%3A%0A%20-%20The%20URL%28s%29%20where%20you%20observed%20abuse%20on%20Jazzhub%3A%0A%20-%20Any%20other%20details%20you%20feel%20could%20help%20in%20our%20investigation%20of%20this%20issue%3A%0A%0AThank%20you%20for%20your%20report%2C%0A%0AThe%20JazzHub%20Team). Please include as much information as possible including the URL where you see the abuse and a description of the nature of the problem.
+[Terms of Use](/terms), send an email to [hub@jazz.net](mailto:hub@jazz.net?Subject=Reporting%20abuse%20of%20JazzHub&Body=Please%20include%20the%20following%20information%3A%0A%0A%20-%20Your%20email%20address%3A%0A%20-%20The%20URL%28s%29%20where%20you%20observed%20abuse%20on%20Jazzhub%3A%0A%20-%20Any%20other%20details%20you%20feel%20could%20help%20in%20our%20investigation%20of%20this%20issue%3A%0A%0AThank%20you%20for%20your%20report%2C%0A%0AThe%20JazzHub%20Team). Include as much information as possible including the URL where you see the abuse and a description of the nature of the problem.
 
 <a name="q19"></a>
 
@@ -114,7 +117,7 @@ To report an instance of abuse of DevOps Services or a violation of the
 See our [What's New](/whatsnew) page.
 
 <a name="q20"></a>
-### Which browser should I be using? 
+### Which browser do I use? 
 
 DevOps Services supports the following browsers:
 
@@ -134,6 +137,6 @@ DevOps Services supports the following browsers:
 </div>
 
 
-If your browser is not listed above, you may have a compromised experience.
+If your browser is not in the preceding list, your experience might not be optimal.
 
 &copy; Copyright IBM Corporation 2013, 2014.
