@@ -47,9 +47,10 @@
 
 body {
   margin: 0;
-  font: 100% Arial, sans-serif;
+  font: 100% "Helvetica Neue",Helvetica, Arial, sans-serif;
+/*  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;*/
 }
-
 
 /******************************************************************************
 	Common Styles
@@ -438,6 +439,10 @@ body {
 	}
 }
 
+img {
+	margin: 0 auto;
+}
+
 /* For internet explorer. */
 a img {
 	border: 0px;
@@ -522,15 +527,18 @@ table
 
 table tr
 {
-	border-top:1px solid #ccc;
+	border-top:1px solid #94a3ab;
 	background-color:#fff;
 	margin:0;
 	padding:0;
 }
-
+table th {
+	background-color: #3b4b53;
+	color: #dee6eb;
+}
 table tr:nth-child(2n)
 {
-	background-color:#f8f8f8;
+	background-color:#dee6eb;
 }
 table tr th[align="center"], table tr td[align="center"] {
 	text-align:center;
@@ -544,6 +552,9 @@ table tr th, table tr td
 	word-wrap: break-word;
 }
 
+table tr:hover {
+	background-color: #94a3ab;
+}
 
 
 /** CSS for the 404 error page **/
@@ -719,7 +730,7 @@ a:hover {
 		text-align: center;
 		color: #00aed1;
 		font-weight: bold;
-		font-size: 13px;
+		font-size: 12px;
 	}
 	.description {
 		text-align: center;
@@ -769,7 +780,7 @@ a:hover {
 			background-position: -240px -208px;
 		}
 
-	a.section ,a.section:hover {
+	a.section, a.section:hover {
 	text-decoration: none;
 	}
 	a.section:hover .title-name {
@@ -793,7 +804,7 @@ a:hover {
 
 	a.btn-dark {
 	background-color: #26343f;
-	color: #ffffff;
+	color: #dee6eb;
 	text-decoration: none;
 	}
 
@@ -891,6 +902,19 @@ a:hover {
 		color: #03829e;
 	}
 
+
+div.topic {
+		font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+
+	.topic > h3 a {
+		color: #00aed1;
+	}
+
+	.topic > h3+p {
+		color: #94a3ab;
+	}
+
 #topic-header {
 	background-color: #3b4b54;
 	color: #ffffff;
@@ -919,7 +943,6 @@ a:hover {
 	.breadcrumb li {
 		display: inline;
 		color: #26343F;
-		font-size: 12px;
 	}
 	.breadcrumb li a {
 		text-decoration: none;
@@ -938,4 +961,5 @@ a:hover {
 	.breadcrumb .current {
 		color: #94a3ab;
 	}
+
 /** featured doc hit box **/

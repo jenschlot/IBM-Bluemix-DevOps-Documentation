@@ -53,7 +53,8 @@ _.each(
 			topic.uri_prefix, 
 			routes.topic_router(app.get('env'), 
 					      topic.section_name,
-					      topic.topic_name, 
+					      topic.topic_name,
+					      topic.img_icon, 
 					      path.join(__dirname, topic.directory)
 			)
 		);
