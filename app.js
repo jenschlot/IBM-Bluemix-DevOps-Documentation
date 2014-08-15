@@ -1,6 +1,8 @@
 /* jshint node */
 
 var routes = require('./routes'); 		// Load non-trivial route handlers.
+var proxy = require('proxy-middleware');
+var url = require('url');
 
 var _ = require('underscore'); 			// Utility functions
 var config = require('./config.json');  	// Configuration file.
@@ -58,13 +60,7 @@ _.each(
  * be called while the app is on beta3, qa, or prod.  It's only used for local testing while the app
  * is not behind a proxy.
  */
-app.use(
-	// Any requests outside of the ones above will be deferred to JazzHub
-	function (req, res, next) {
-		res.redirect(config.jazzhub.url + req.url.replace(/^\/*/, ''));
-
-	}
-);
+app.use('/', proxy(url.parse(config.jazzhub.url)));
 
 /*
  * Configure and start the server.
