@@ -123,7 +123,7 @@ This number is unique to your project and helps you keep track of each work item
 **Tip**: If you prefer to keep your hands on the keyboard, you can enter most of the attributes by typing their text code instead of using the mouse. 
 
 10. Enter these attributes and then click **SAVE**:
- * @:*<yourJazzID>* 
+ * @:*< yourJazzID >* 
  * \#server 
  * $high 
 
