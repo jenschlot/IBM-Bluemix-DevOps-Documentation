@@ -134,6 +134,11 @@ A software methodology that integrates application development and IT operations
 <a name="E"></a>
 ##E
 
+<a name="eclipse"></a>
+**Eclipse**
+An open-source initiative that provides independent software vendors (ISVs) and other tool 
+developers with a standard platform for developing plug-compatible application development tools.
+
 <a name="epic"></a>
 **epic**  
 In agile development, a work item that defines a big use case with a large or unknown amount 
