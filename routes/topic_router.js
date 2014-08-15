@@ -2,7 +2,7 @@ var express = require('express');
 var _ = require('underscore');
 var path = require('path');
 
-module.exports =  function (env, section_name, topic_name, directory) {
+module.exports =  function (env, section_name, topic_name, img_icon, directory) {
 	var router = express.Router();
 	var markdown_middleware = require('jazzhub-markdown-middleware')(directory);
 	var static_in_dir_middleware = express.static(directory);
@@ -15,6 +15,7 @@ module.exports =  function (env, section_name, topic_name, directory) {
 		function (req, res, next) {
 			req.sectionname = section_name;
 			req.topicname = topic_name;
+			req.imgicon = img_icon;
 			next();
 		},
 		less_in_public_middleware,
@@ -29,7 +30,8 @@ module.exports =  function (env, section_name, topic_name, directory) {
 				{ 
 					markdown: req.rendered_markdown,
 					sectionname: req.sectionname,
-					topicname: req.topicname
+					topicname: req.topicname,
+					imgicon: req.imgicon
 				}
 			);
 		},

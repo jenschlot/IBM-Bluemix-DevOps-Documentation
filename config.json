@@ -35,6 +35,7 @@
 			"uri_prefix": "/help/nodejs",
 			"section_name": "Docs",
 			"topic_name": "node.js",
+			"img_icon": "nodejs",
 			"directory": "help/nodejs"
 		}
 	]
