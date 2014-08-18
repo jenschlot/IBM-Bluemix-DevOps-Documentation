@@ -47,7 +47,4 @@ See how to organize work items into a sprint plan for a node.js app using the De
 ### Workshop: [Using IBM DevOps Services & Bluemix Services: Part 3, Planning, Tracking, & Leveraging New BlueMix Services](https://developer.ibm.com/bluemix/docs/workshops/using-ibm-devops-services-bluemix-services-part-3-planning-tracking-leveraging-new-bluemix-services/)  
 Topics: bluemix, devops_services, plan, track, twilio, webide
 
-### Video: [new video](https://www.youtube.com/watch?feature=player_embedded&v=sKI8T6sE5b8)
-Part 1 of a quick overview of the new Track and Plan Beta at IBM DevOps Services.
-Provides a simpler user interface for managing you and your team's development work using an agile/lean approach.
 See how to use capabilities in DevOps Services to track and plan your app and how to update the app's code to utilize a new Bluemix service. (Workshop part 3 of 3)
