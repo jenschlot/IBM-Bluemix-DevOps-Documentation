@@ -7,7 +7,7 @@
 
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<div class="row" id="doc-container-l">
-							<a class="section" href="#">
+							<a class="section" href="/tutorials/jazzeditor">
 							<div class="col-md-7 col-sm-7 col-xs-7 callout">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
@@ -18,13 +18,14 @@
 							<div class="col-md-3 hidden-xs col-sm-1 hex-container">
 								<div class="hex">
 									<span class="hex-tile pos-5"></span>
+									<span class="hex-tile pos-5"></span>
 									<span class="hex-tile pos-6"></span>
 								</div>
 							</div>
 							</a>
 						</div>
 						<div class="row" id="doc-container-l">
-							<a class="section" href="#">
+							<a class="section" href="/tutorials/jazzweb">
 							<div class="col-md-7 col-sm-7 col-xs-7 callout">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
@@ -39,7 +40,7 @@
 							</a>
 						</div>
 						<div class="row" id="doc-container-l">
-							<a class="section" href="#">
+							<a class="section" href="/tutorials/clients">
 							<div class="col-md-7 col-sm-7 col-xs-7 callout">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
@@ -57,7 +58,7 @@
 
 					<div class="col-md-6 col-sm-12 col-xs-12" id="col-offset">
 						<div class="row" id="doc-container-r">
-							<a class="section" href="#">
+							<a class="section" href="/tutorials/jazzeditorjava">
 							<div class="col-md-7 col-sm-7 col-xs-7 col-md-push-5 callout">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
@@ -72,7 +73,7 @@
 							</a>
 						</div>						
 						<div class="row" id="doc-container-r">				
-							<a class="section" href="#">
+							<a class="section" href="/tutorials/jazzrtc">
 							<div class="col-md-7 col-sm-7 col-xs-7 col-md-push-5 callout">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
@@ -87,7 +88,7 @@
 							</a>
 						</div>
 						<div class="row" id="doc-container-r">
-							<a class="section" href="#">
+							<a class="section" href="/tutorials/trackplan">
 							<div class="col-md-7 col-sm-7 col-xs-7 col-md-push-5 callout">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
@@ -119,7 +120,7 @@
 				<h3 class="pbs pls" >Key Resources</h3>
 				<div class="row pts">
 						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="resource" href="#">
+							<a class="resource" href="/learn">
 								<div class="resource-img col-center"></div>
 								<div class="resource-name col-center">Learn about IBM DevOps ServiceS</div>
 							</a>
