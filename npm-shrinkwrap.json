@@ -7,6 +7,11 @@
       "from": "consolidate@0.10.0",
       "resolved": "http://registry.npmjs.org/consolidate/-/consolidate-0.10.0.tgz"
     },
+    "dustjs-helpers": {
+      "version": "1.2.0",
+      "from": "dustjs-helpers@",
+      "resolved": "https://registry.npmjs.org/dustjs-helpers/-/dustjs-helpers-1.2.0.tgz"
+    },
     "dustjs-linkedin": {
       "version": "2.3.5",
       "from": "dustjs-linkedin@2.3.5",
