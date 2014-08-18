@@ -15,6 +15,7 @@
     "dustjs-linkedin": "*",
     "morgan": "*",
     "errorhandler": "*",
-    "underscore": "*"
+    "underscore": "*",
+    "dustjs-helpers": "*"
   }
 }

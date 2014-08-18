@@ -868,13 +868,16 @@ a:hover {
 
 div.topic {
 		font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+		padding: 30px;
 	}
-
-	.topic > h3 a {
+	.topic > a {
 		color: #00aed1;
 	}
-
+	.topic > h3 {
+		margin-bottom: 5px;
+	}
 	.topic > h3+p {
+		margin-top: 5px;
 		color: #94a3ab;
 	}
 
@@ -898,10 +901,12 @@ div.topic {
 	    display: inline-block;
 	    vertical-align: middle;
 	    float: none;
+	    padding-left: 25px;
 	}
 
 	.breadcrumb {
 		background-color:#ffffff;
+		font-size: 16px;
 	}
 	.breadcrumb li {
 		display: inline;
@@ -916,7 +921,7 @@ div.topic {
 		color: #00aed1;
 	}
 	.breadcrumb li+li:before {
-		content: ' | ';
+		content: ' > ';
 		color: #94a3ab;
 		padding-left: 6px;
 		padding-right: 6px;
