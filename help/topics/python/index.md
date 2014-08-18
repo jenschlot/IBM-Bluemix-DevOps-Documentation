@@ -1,4 +1,4 @@
-﻿### Sample: [Lauren's Lovely Landscapes](https://hub.jazz.net/project/lhayward/Laurens%20Lovely%20Landscapes/overview)  
+### Sample: [Lauren's Lovely Landscapes](https://hub.jazz.net/project/lhayward/Laurens%20Lovely%20Landscapes/overview)  
 Topics: devops_services, python, bottle, bluemix
 
 See a web app that mimics an online store. It's a python app stored in a DevOps Service project and deployed through Bluemix.
