@@ -1,13 +1,14 @@
 {>bootstrap_header/}
 <div class="com-ibm-team-jazzhub-Docs content fluid-content">
 	<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none"></div>
-		<div class="container-fluid topic">
+		<div class="container-fluid">
 			<div class="row" id="topic-header">
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-2 col-sm-4 col-xs-5 vcenter">
 							<div class="topic-img">
-								<img src="images/{imgicon}.png" />
+								<img src="/tutorials/images/docs/temp.png" />
+								<!--<img src="/tutorials/images/docs/{imgicon}.png" />-->
 							</div>
 						</div>
 						<div class="col-md-6 vcenter topic-header-name">
@@ -19,11 +20,13 @@
 			</div>
 			<ol class="breadcrumb">
 				<li><a href="/docs">{sectionname}</a></li>
-				<li><a href="/docs#topics">All Topics</a></li>
+				{@ne key=topicname value="All Docs"}
+					<li><a href="/help/all">All Docs</a></li>
+				{/ne}
 				<li class="current">{topicname}</li>
 			</ol>
 			<div class="row">
-				<div class="col-md-12 topic pbl">
+				<div class="col-md-12 topic">
 						{markdown|s}
 				</div>
 			</div>

@@ -28,15 +28,97 @@
 			"uri_prefix": "/maintenance",
 			"section_name": "Maintenance Schedule",
 			"directory": "maintenance"
+		},
+		{
+			"uri_prefix": "/glossary",
+			"section_name": "Glossary",
+			"directory": "glossary"
 		}
 	],
 	"topic": [
 		{
+			"uri_prefix": "/help/all",
+			"section_name": "Docs",
+			"topic_name": "All Docs",
+			"img_icon": "all",
+			"directory": "help/all"
+		},
+		{
+			"uri_prefix": "/help/academics",
+			"section_name": "Docs",
+			"topic_name": "Academics",
+			"img_icon": "academics",
+			"directory": "help/topics/academics"
+		},
+		{
+			"uri_prefix": "/help/bluemix",
+			"section_name": "Docs",
+			"topic_name": "Bluemix",
+			"img_icon": "bluemix",
+			"directory": "help/topics/bluemix"
+		},
+		{
+			"uri_prefix": "/help/build_deploy",
+			"section_name": "Docs",
+			"topic_name": "Build and Deploy",
+			"img_icon": "build_deploy",
+			"directory": "help/topics/build_deploy"
+		},
+		{
+			"uri_prefix": "/help/eclipse",
+			"section_name": "Docs",
+			"topic_name": "Eclipse",
+			"img_icon": "eclipse",
+			"directory": "help/topics/eclipse"
+		},
+		{
+			"uri_prefix": "/help/git",
+			"section_name": "Docs",
+			"topic_name": "Git",
+			"img_icon": "git",
+			"directory": "help/topics/git"
+		},
+		{
+			"uri_prefix": "/help/java",
+			"section_name": "Docs",
+			"topic_name": "Java",
+			"img_icon": "java",
+			"directory": "help/topics/java"
+		},
+		{
+			"uri_prefix": "/help/jazz_scm",
+			"section_name": "Docs",
+			"topic_name": "Jazz SCM",
+			"img_icon": "jazz_scm",
+			"directory": "help/topics/jazz_scm"
+		},
+		{
+			"uri_prefix": "/help/mobile",
+			"section_name": "Docs",
+			"topic_name": "Mobile",
+			"img_icon": "mobile",
+			"directory": "help/topics/mobile"
+		},
+		{
 			"uri_prefix": "/help/nodejs",
 			"section_name": "Docs",
-			"topic_name": "node.js",
+			"topic_name": "Node.js",
 			"img_icon": "nodejs",
-			"directory": "help/nodejs"
+			"directory": "help/topics/nodejs"
+		},
+		{
+			"uri_prefix": "/help/python",
+			"section_name": "Docs",
+			"topic_name": "Python",
+			"img_icon": "python",
+			"directory": "help/topics/python"
+		},
+		{
+			"uri_prefix": "/help/trackplan",
+			"section_name": "Docs",
+			"topic_name": "Track and Plan",
+			"img_icon": "trackplan",
+			"directory": "help/topics/trackplan"
 		}
 	]
 }

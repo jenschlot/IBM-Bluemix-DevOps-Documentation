@@ -7,7 +7,7 @@
 
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<div class="row" id="doc-container-l">
-							<a class="section" href="/tutorials/jazzeditor">
+							<a class="section" href="#">
 							<div class="col-md-7 col-sm-7 col-xs-7 callout">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
@@ -106,7 +106,7 @@
 				<div class="clearfix"></div>
 				<div class="row ptxl pbm">
 					<div class="col-md-12 col-sm-12 col-xs-7 text-center">
-						<a role="button" href="#" class="btn btn-dark btn-sm">All Docs</a>
+						<a role="button" href="/help/all" class="btn btn-dark btn-sm">All Docs</a>
 					</div>
 				</div>
 			</div>
@@ -125,25 +125,25 @@
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="resource" href="#">
+							<a class="resource" href="/whatsnew">
 								<div class="resource-img col-center"><img src="/tutorials/images/docs/temp.png"></div>
 								<div class="resource-name col-center">What's New</div>
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="resource" href="#">
+							<a class="resource" href="/features">
 								<div class="resource-img col-center"></div>
 								<div class="resource-name col-center">Features</div>
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="resource" href="#">
+							<a class="resource" href="/help/faq">
 								<div class="resource-img col-center"></div>
 								<div class="resource-name col-center">Frequently asked questions</div>
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="resource" href="#">
+							<a class="resource" href="/glossary">
 								<div class="resource-img col-center"></div>
 								<div class="resource-name col-center">Glossary</div>
 							</a>
@@ -166,59 +166,65 @@
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="topic" href="#">
+							<a class="topic" href="/help/java">
 								<div class="topic-img col-center"></div>
 								<div class="topic-name col-center">Java</div>
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="topic" href="#">
+							<a class="topic" href="/help/mobile">
 								<div class="topic-img col-center"></div>
 								<div class="topic-name col-center">Mobile</div>
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="topic" href="#">
+							<a class="topic" href="/help/trackplan">
 								<div class="topic-img col-center"><img src="/tutorials/images/docs/temp.png" /></div>
 								<div class="topic-name col-center">Track and Plan</div>
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="topic" href="#">
+							<a class="topic" href="/help/python">
 								<div class="topic-img col-center"></div>
 								<div class="topic-name col-center">Python</div>
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="topic" href="#">
+							<a class="topic" href="/help/eclipse">
 								<div class="topic-img col-center"></div>
 								<div class="topic-name col-center">Eclipse</div>
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="topic" href="#">
+							<a class="topic" href="/help/git">
 								<div class="topic-img col-center"></div>
 								<div class="topic-name col-center">Git</div>
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="topic" href="#">
+							<a class="topic" href="/help/jazzz_scm">
 								<div class="topic-img col-center"></div>
 								<div class="topic-name col-center">JazzSCM</div>
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="topic" href="#">
+							<a class="topic" href="/help/academics">
 								<div class="topic-img col-center"></div>
 								<div class="topic-name col-center">Academics</div>
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="topic" href="#">
+							<a class="topic" href="/help/build_deploy">
 								<div class="topic-img col-center"></div>
 								<div class="topic-name col-center">Build and Deploy</div>
 							</a>
 						</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="row ptxl pbm">
+					<div class="col-md-12 col-sm-12 col-xs-7 text-center">
+						<a role="button" href="/help/all" class="btn btn-dark btn-sm">All Topics</a>
+					</div>
 				</div>
 
 			</div>
