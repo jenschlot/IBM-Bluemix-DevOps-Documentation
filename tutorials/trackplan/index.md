@@ -99,7 +99,7 @@ You need to make a few more work items for your project.
 1. Click **Backlog**, and then click in the **Create a Work Item** field.
 
 2. Type a summary for the next work item: `As a user, I'd like your site to have a chat page.`  
-**Tip**: Notice that the **Type** icon has changed from **Task** (<img src="/tutorials/trackplan/images/task.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">). By typing `As a user`, you automatically assigned the **Story** (<img src="/tutorials/trackplan/images/story.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) attribute to this work item.
+**Tip**: Notice that the **Type** icon has changed from **Task** (<img src="/tutorials/trackplan/images/task.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">). By typing `As a user,` you automatically assigned the **Story** (<img src="/tutorials/trackplan/images/story.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) attribute to this work item.
 
 3. Use the icons to finish setting the attributes. Make yourself the work item's owner (<img src="/tutorials/trackplan/images/owner.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">), add a `website` tag (<img src="/tutorials/trackplan/images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">), and set the priority (<img src="/tutorials/trackplan/images/priority.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) to **Medium**. 
 
@@ -123,7 +123,7 @@ This number is unique to your project and helps you keep track of each work item
 **Tip**: If you prefer to keep your hands on the keyboard, you can enter most of the attributes by typing their text code instead of using the mouse. 
 
 10. Enter these attributes and then click **SAVE**:
- * @:*<yourJazzID>* 
+ * @:*< yourJazzID >* 
  * \#server 
  * $high 
 

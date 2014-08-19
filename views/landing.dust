@@ -1,5 +1,5 @@
 {>header/}
-<div class="com-ibm-team-jazzhub-Docs fluid-content">
+<div id="content" class="com-ibm-team-jazzhub-Docs fluid-content">
 	<div class="content tutorial-landing">
 		<div class="landing-header" id="landing-top">
 			<div class="landing-header-body jh-columns pll prl">
@@ -27,7 +27,7 @@
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
 								<a href="/tutorials/jazzeditor">
-									<h2 id="section-title-one">Getting Started with BlueMix and DevOps Services using Node.js</h2>
+									<h2 id="section-title-one">Getting Started with Bluemix and DevOps Services using Node.js</h2>
 								</a>
 							</div>
 							<div class="back-to-top f_right">
@@ -36,7 +36,7 @@
 						</div>
 						<div class="tutorial-section-body">
 							<div class="tutorial-section-description">
-								You'll see how easy it is to create a node.js web app at BlueMix and run that app. With one click you'll create a Git repo, load it with the example code and automatically deploy the app. You'll see how easy it will be to change the code and push it using the Git command line and the Web IDE, to check the status of the app deployment, and to run the app to show your changes. 
+								You'll see how easy it is to create a node.js web app at Bluemix and run that app. With one click you'll create a Git repo, load it with the example code and automatically deploy the app. You'll see how easy it will be to change the code and push it using the Git command line and the Web IDE, to check the status of the app deployment, and to run the app to show your changes. 
 							</div>
 							<div class="tutorial-section-list">
 								<ul>
@@ -76,7 +76,7 @@
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
 								<a href="/tutorials/jazzrtc">
-									<h2 id="section-title-five">Developing BlueMix applications in Java with Eclipse and DevOps Services</h2>
+									<h2 id="section-title-five">Developing Bluemix applications in Java with Eclipse and DevOps Services</h2>
 								</a>
 							</div>
 							<div class="back-to-top f_right">
@@ -85,7 +85,7 @@
 						</div>
 						<div class="tutorial-section-body">
 							<div class="tutorial-section-description">
-								This tutorial shows you how to develop a Java application using BlueMix, DevOps Services and the RTC client for Eclipse.
+								This tutorial shows you how to develop a Java application using Bluemix, DevOps Services and the RTC client for Eclipse.
 							</div>
 							<div class="tutorial-section-list">
 								<ul>
@@ -104,7 +104,7 @@
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
 								<a href="/tutorials/jazzeditorjava">
-									<h2 id="section-title-two">Getting Started with BlueMix and DevOps Services using Java</h2>
+									<h2 id="section-title-two">Getting Started with Bluemix and DevOps Services using Java</h2>
 								</a>
 							</div>
 							<div class="back-to-top f_right">
@@ -113,7 +113,7 @@
 						</div>
 						<div class="tutorial-section-body">
 							<div class="tutorial-section-description">
-								You will see how easy it is to create a Java web app at BlueMix and run that app. With a few clicks, you'll create a Git repo, load it with the example code, and automatically deploy the app. In minutes, you will make code changes and push them using the Git command line and the Web IDE, automatically run a build and deploy, check the status of the app deployment, and run the app to show your changes.
+								You will see how easy it is to create a Java web app at Bluemix and run that app. With a few clicks, you'll create a Git repo, load it with the example code, and automatically deploy the app. In minutes, you will make code changes and push them using the Git command line and the Web IDE, automatically run a build and deploy, check the status of the app deployment, and run the app to show your changes.
 							</div>
 							<div class="tutorial-section-list">
 								<ul>
@@ -128,7 +128,7 @@
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
 								<a href="/tutorials/jazzweb">
-									<h2 id="section-title-four">Developing BlueMix applications in Node.js with the Web IDE</h2>
+									<h2 id="section-title-four">Developing Bluemix applications in Node.js with the Web IDE</h2>
 								</a>
 							</div>
 							<div class="back-to-top f_right">
@@ -137,7 +137,7 @@
 						</div>
 						<div class="tutorial-section-body">
 							<div class="tutorial-section-description">
-								This tutorial shows you how to use DevOps Services to develop an application in the cloud and deploy it to BlueMix.
+								This tutorial shows you how to use DevOps Services to develop an application in the cloud and deploy it to Bluemix.
 							</div>
 							<div class="tutorial-section-list">
 								<ul>
