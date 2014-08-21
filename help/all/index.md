@@ -20,6 +20,7 @@
 ## Tutorials
 
 ### Tutorial: [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/jazzeditor)  
+Topics: bluemix, devops_services, nodejs, git, webide, pipeline, cloud_foundry
 
 ### Tutorial: [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)  
 Topics: bluemix, devops_services, java, git, webide, pipeline
@@ -36,8 +37,8 @@ Topics: bluemix, nodejs, webide, devops_services, git, pipeline, manifest
 ### Tutorial: [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)  
 Topics: bluemix, devops_services, java, git, webide, pipeline
 
-### Tutorial:[Setting up Eclipse, Git, and Rational Team Concert desktop clients to access IBM DevOps Services](/tutorials/clients)
-####devops eclipse, git, rtc
+### Tutorial: [Setting up Eclipse, Git, and Rational Team Concert desktop clients to access IBM DevOps Services](/tutorials/clients)
+Topics: devops_services, eclipse, git, rtc
 
 ### Tutorial: [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)  
 Topics: devops_services, bluemix, java, eclipse, jazz_scm, pipeline, rtc
@@ -50,7 +51,6 @@ Topics: devops_services, bluemix, java, eclipse, jazz_scm, pipeline, rtc
 ### Article: [Develop apps in the cloud with DevOps Services](http://www.ibm.com/developerworks/library/d-bluemix-devops-services-project/)  
 Topics: devops_services, track, plan, bluemix, webide
 
-
 ### Article: [Build a sentiment analysis application with Node.js, Express, sentiment, and ntwitter](http://www.ibm.com/developerworks/library/wa-nodejs-app/)  
 Topics: devops_services, nodejs, Express, sentiment, ntwitter, PaaS, bluemix
 
@@ -58,10 +58,10 @@ Topics: devops_services, nodejs, Express, sentiment, ntwitter, PaaS, bluemix
 Topics: devops_services, eclipse, nodejs, mongodb, angularjs, Express, bluemix
 
 ### Article: [Build a mobile app that isn't perfect](http://www.ibm.com/developerworks/library/mo-build-imperfect-mobile-app/)  
-Topics: mobile, devops_services, mqa, eclipse, java, 
+Topics: mobile, devops_services, mqa, eclipse, java 
 
 ### Article: [Jump-start your hackathon efforts with DevOps Services and Bluemix](http://www.ibm.com/developerworks/cloud/library/cl-hackathon-app/index.html)  
-Topics: devops_services, bluemix, mongodb, nodejs, pipeline, jade, git, old_ui, webide
+Topics: devops_services, bluemix, mongodb, nodejs, pipeline, jade, git, webide
 
 <a id="blogs"></a>
 ________________________________________
@@ -101,7 +101,7 @@ _____________________________
 ___________
 ## Samples
 
-### Sample: [Twitter influence analyzer (Java and MongoBD)](https://hub.jazz.net/project/jstart/Twitter%20Influencer%20Analyzer%20%28Java%29/overview)  
+### Sample: [Twitter influence analyzer (Java)](https://hub.jazz.net/project/jstart/Twitter%20Influencer%20Analyzer%20%28Java%29/overview)  
 Topics: devops_services, java, klout, mongodb, bluemix, eclipse
 
 ### Sample: [Sentiment analysis](http://hub.jazz.net/project/Scott/Sentiment%20Analysis/overview)  
@@ -117,9 +117,9 @@ Topics: devops_services, python, bottle, bluemix
 Topics: devops_services, python, mongodb, bottle, bluemix
 
 ### Sample: [Building a real-time polls application with Node.js, AngularJS and MongoDB](https://hub.jazz.net/project/joelennon/polls/overview)  
-Topics: devops_services, bluemix nodejs, express, jade, mongoose, angularjs, bootstrap, socketio
+Topics: devops_services, bluemix nodejs, express, jade, mongodb, angularjs, bootstrap, socketio
 
-### Sample: [Guess-the-Word Game](https://hub.jazz.net/project/mattias/WordBuilder/overview)  
+### Sample: [WordBuilder Game](https://hub.jazz.net/project/mattias/WordBuilder/overview)  
 Topics: devops_services, bluemix, nodejs, express, jade, mongodb
 
 ### Sample: [Twitter Influence Analyzer (Python)](https://hub.jazz.net/project/jstart/Twitter%20Influence%20Analyzer%20%28Python%29/overview)  
@@ -148,7 +148,7 @@ Topics: track, plan, devops_services,
 Topics: devops_services, bluemix, IaaS, PaaS
 
 ### Video: [Using JazzHub to Deploy Applications to the Cloud (6:32 min)](http://www.youtube.com/watch?v=mo5u42rE1_0)  
-Topics: devops_services, bluemix, 
+Topics: devops_services, bluemix
 
 ### Video: [Develop and Deploy Software in the Cloud with JazzHub (37:27 min)](http://www.youtube.com/watch?v=tLbv7iLAPQI)  
 Topics: devops_services, PaaS, git, webide, pipeline, git
@@ -172,7 +172,7 @@ Topics: devops_services, bluemix, nodejs, plan
 ___________
 ## Workshops
 
-### Workshop: [See how to deploy and make changes to a simple application using DevOps Services and Bluemix.  (Workshop part 1 of 3)](https://developer.ibm.com/bluemix/docs/workshops/adding-using-bluemix-services-leveraging-ibm-devops-services/)  
+### Workshop: [Using IBM DevOps Services & Bluemix Services: Part 1, Deploying & Updating a Simple App (Workshop part 1 of 3)](https://developer.ibm.com/bluemix/docs/workshops/adding-using-bluemix-services-leveraging-ibm-devops-services/)  
 Topics: bluemix, devops_services, pipeline, webide
 
 ### Workshop: [Using IBM DevOps Services & Bluemix Services: Part 2, Deploying an App that Uses a Bluemix Service](https://developer.ibm.com/bluemix/docs/workshops/using-ibm-devops-services-bluemix-services-part-2-deploying-app-uses-bluemix-service/)  

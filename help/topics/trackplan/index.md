@@ -14,7 +14,7 @@ Topics: devops_services, bluemix, cloud_foundry, pipeline, track
 Topics: devops_services, bluemix, track, MQA, webide, pipeline, nodejs
 
 ### Video: [IBM DevOps Services (jazzhub.com) Track and Plan Beta overview ](https://www.youtube.com/watch?v=sKI8T6sE5b8)  
-Topics: track, plan, devops_services,
+Topics: track, plan, devops_services
 
 ### Video: [PointSource uses JazzHub for mobile development ](https://www.youtube.com/watch?v=dHP7e8bTDww)  
 Topics: devops_services, track, plan
