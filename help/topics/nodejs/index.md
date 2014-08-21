@@ -3,6 +3,8 @@ Topics: devops_services, nodejs, Express, sentiment, ntwitter, PaaS, bluemix
 
 See how to create an application to get immediate sentiment feedback on a topic from Twitter users.
 
+--------
+
 ### Article: [Build a real-time polls application with Node.js, Express, AngularJS, and MongoDB](http://www.ibm.com/developerworks/library/wa-nodejs-polling-app/)  
 Topics: devops_services, eclipse, nodejs, mongodb, angularjs, Express, bluemix
 

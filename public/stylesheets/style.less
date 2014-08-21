@@ -45,6 +45,10 @@
 	box-sizing: border-box;	
 }
 
+html {
+	font-size: 16px;
+}
+
 body {
   margin: 0;
   font: 100% "Helvetica Neue",Helvetica, Arial, sans-serif;
@@ -639,7 +643,7 @@ a:hover {
 
 	@media (min-width: 992px) {
 		#col-offset {
-		padding-top: 59px;
+		padding-top: 77px;
 		}
 	}
 
@@ -660,8 +664,8 @@ a:hover {
 	}
 
 	.callout {
-		height: 80px;
-		padding: 10px 10px 10px 10px;
+		vertical-align: middle;
+		padding: 8px;
 		border: 0px solid transparent;
 		border-radius: 15px;
 		background-color: #26343f;
@@ -693,15 +697,47 @@ a:hover {
 		text-align: center;
 		color: #00aed1;
 		font-weight: bold;
-		font-size: 12px;
+		font-size: 0.76rem;
 	}
 	.description {
 		text-align: center;
 		color: #ffffff;
-		font-size: 12px;
+		font-size: 0.75rem;
 	}
 
-	span.hex-tile {
+	span.hex-builddeploy {
+		position: absolute;
+		width: 120px;
+		height: 104px;
+		background-image: url(../images/docs/hexagons-builddeploy.png);
+		background-repeat: no-repeat;
+		z-index: 1;
+	}
+	span.hex-bluemix {
+		position: absolute;
+		width: 120px;
+		height: 104px;
+		background-image: url(../images/docs/hexagons-bm.png);
+		background-repeat: no-repeat;
+		z-index: 1;
+	}
+	span.hex-eclipse {
+		position: absolute;
+		width: 120px;
+		height: 104px;
+		background-image: url(../images/docs/hexagons-eclipse.png);
+		background-repeat: no-repeat;
+		z-index: 1;
+	}
+	span.hex-java {
+		position: absolute;
+		width: 120px;
+		height: 104px;
+		background-image: url(../images/docs/hexagons-java.png);
+		background-repeat: no-repeat;
+		z-index: 1;
+	}
+	span.hex-jazzhub {
 		position: absolute;
 		width: 120px;
 		height: 104px;
@@ -709,39 +745,66 @@ a:hover {
 		background-repeat: no-repeat;
 		z-index: 1;
 	}
-		.pos-0 {
-			background-position: 0px 0px;
-		}
-		.pos-1{
-			background-position: -120px 0px
-		}
-		.pos-2{
-			background-position: -240px 0px;
-		}
-		.pos-3{
-			background-position: -360px 0px;
-		}
-		.pos-4{
-			background-position: 0px -104px;
-		}
-		.pos-5{
-			background-position: -120px -104px;
-		}
-		.pos-6{
-			background-position: -240px -104px;
-		}
-		.pos-7{
-			background-position: -360px -104px;
-		}
-		.pos-8{
-			background-position: 0px -208px;
-		}
-		.pos-9{
-			background-position: -120px -208px;
-		}
-		.pos-10{
-			background-position: -240px -208px;
-		}
+	span.hex-mobile {
+		position: absolute;
+		width: 120px;
+		height: 104px;
+		background-image: url(../images/docs/hexagons-mobile.png);
+		background-repeat: no-repeat;
+		z-index: 1;
+	}
+	span.hex-node {
+		position: absolute;
+		width: 120px;
+		height: 104px;
+		background-image: url(../images/docs/hexagons-node.png);
+		background-repeat: no-repeat;
+		z-index: 1;
+	}
+	span.hex-trackplan {
+		position: absolute;
+		width: 120px;
+		height: 104px;
+		background-image: url(../images/docs/hexagons-trackplan.png);
+		background-repeat: no-repeat;
+		z-index: 1;
+	}
+	.pos-0 {
+		background-position: 0px 0px;
+	}
+	.pos-1{
+		background-position: -120px 0px
+	}
+	.pos-2{
+		background-position: -240px 0px;
+	}
+	.pos-3{
+		background-position: -360px 0px;
+	}
+	.pos-4{
+		background-position: 0px -104px;
+	}
+	.pos-5{
+		background-position: -120px -104px;
+	}
+	.pos-6{
+		background-position: -240px -104px;
+	}
+	.pos-7{
+		background-position: -360px -104px;
+	}
+	.pos-8{
+		background-position: 0px -208px;
+	}
+	.pos-9{
+		background-position: -120px -208px;
+	}
+	.pos-10{
+		background-position: -240px -208px;
+	}
+	.pos-11 {
+		background-position: -420px 0px;
+	}
 
 	a.section, a.section:hover {
 	text-decoration: none;
@@ -791,13 +854,46 @@ a:hover {
 	}
 	
 	.resource-img {
-		height: 132px;
-		width: 132px;
+		height: 136px;
+		width: 136px;
 		overflow: hidden;
 		border: 8px solid #26343f;
 		border-radius: 8px;
-		background-color: #33bdd9;
 	}
+
+	.resource-sprite {
+			float: none;
+			position: absolute;
+			height: 120px;
+			width: 120px;
+			background-image: url(../images/docs/resources-sprite.png);
+			background-repeat: no-repeat;
+		}
+	.resource-img > .faq {
+			.resource-sprite;
+			background-position: 0px 0px;
+		}
+	.resource-img > .features {
+			.resource-sprite;
+			background-position: -120px 0px;
+		}
+	.resource-img > .whatsnew {
+			.resource-sprite;
+			background-position: -240px 0px;
+		}
+	.resource-img > .glossary {
+			.resource-sprite;
+			background-position: -360px 0px;
+		}
+	.resource-img > .learn {
+			.resource-sprite;
+			background-position: -480px 0px;
+		}
+	.resource-img > .support {
+			.resource-sprite;
+			background-position: -600px 0px;
+		}
+
 	.resource-name {
 		width: 132px;
 		min-height: 65px;
@@ -805,7 +901,6 @@ a:hover {
 		padding-top: 15px;
 		padding-bottom: 15px;
 		color: #26343f;
-		font-size: 14px;
 	}
 
 	a.resource ,a.resource:hover {
@@ -829,28 +924,93 @@ a:hover {
 		div#topics .col-center {
 		margin: 0 auto;
 		}
-		div#topics .col-md-2 {
-			width: 20%;
-		}
 	}
-	
+
+	.topic-container {
+		width: 20%;
+		display: inline-block;
+		min-height: 215px;
+		padding: 10px;
+		vertical-align: top;
+	}
+
 	.topic-img {
-		height: 120px;
-		width: 120px;
+		height: 136px;
+		width: 136px;
 		overflow: hidden;
 		border: 8px solid #dee6eb;
 		border-radius: 50%;
-		background-color: #33bdd9;
 	}
 
+	.topic-sprite {
+			float: none;
+			position: absolute;
+			height: 120px;
+			width: 120px;
+			background-image: url(../images/docs/circle-sprites-alt.png);
+			background-repeat: no-repeat;
+		}
+
+	.topic-img > .nodejs {
+			.topic-sprite;
+			background-position: 0px 0px;
+		}
+	.topic-img > .java {
+			.topic-sprite;
+			background-position: 0px -120px;
+		}
+	.topic-img > .mobile {
+			.topic-sprite;
+			background-position: 0px -240px;
+		}
+	.topic-img > .trackplan {
+			.topic-sprite;
+			background-position: 0px -360px;
+		}
+	.topic-img > .bluemix {
+			.topic-sprite;
+			background-position: 0px -480px;
+		}
+	.topic-img > .eclipse {
+			.topic-sprite;
+			background-position: 0px -600px;
+		}
+	.topic-img > .git {
+			.topic-sprite;
+			background-position: 0px -720px;
+		}
+	.topic-img > .jazz_scm {
+			.topic-sprite;
+			background-position: 0px -840px;
+		}
+	.topic-img > .academics {
+			.topic-sprite;
+			background-position: 0px -960px;
+		}
+	.topic-img > .build_deploy {
+			.topic-sprite;
+			background-position: 0px -1080px;
+		}
+	.topic-img > .python {
+			.topic-sprite;
+			background-position: 0px -1200px;
+		}
+	.topic-img > .hackathons {
+			.topic-sprite;
+			background-position: 0px -1320px;
+		}
+	.topic-img > .mongodb {
+			.topic-sprite;
+			background-position: 0px -1440px;
+		}
+
+
 	.topic-name {
-		width: 120px;
-		min-height: 65px;
+		width: 100%;
 		text-align: center;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding: 10px;
 		color: #1b252d;
-		font-size: 14px;
+		word-wrap: break-word;
 	}
 
 	a.topic ,a.topic:hover {
@@ -866,68 +1026,67 @@ a:hover {
 	}
 
 
-div.topic {
-		font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
-		padding: 30px;
-	}
-	.topic > a {
-		color: #00aed1;
-	}
-	.topic > h3 {
-		margin-bottom: 5px;
-	}
-	.topic > h3+p {
-		margin-top: 5px;
-		color: #94a3ab;
-	}
+	div.topic {
+			padding: 0px 30px 30px 30px;
+		}
+		.topic > a {
+			color: #00aed1;
+		}
+		.topic > h3 {
+			margin-bottom: 5px;
+		}
+		.topic > h3+p {
+			margin-top: 5px;
+			color: #94a3ab;
+		}
 
-#topic-header {
-	background-color: #3b4b54;
-	color: #ffffff;
-	padding: 15px 0px 15px 0px;
-}
-	.topic-header-name {
-		font-size: 18px;
-		font-weight: bold;
-		margin-left: -60px;
+	#topic-header {
+		background-color: #3b4b54;
+		color: #ffffff;
+		padding: 15px 0px 15px 0px;
 	}
-	@media (min-width: 992px) {
-			.col-center {
-			margin: 0 auto;
-			}
-	}
+		.topic-header-name {
+			font-size: 1.2rem;
+			font-weight: bold;
+			margin-left: -35px;
+		}
+		@media (min-width: 992px) {
+				.col-center {
+				margin: 0 auto;
+				}
+		}
 
-	.vcenter {
-	    display: inline-block;
-	    vertical-align: middle;
-	    float: none;
-	    padding-left: 25px;
-	}
+		.vcenter {
+		    display: inline-block;
+		    vertical-align: middle;
+		    float: none;
+		    padding: 10px 0px 10px 25px;
+		}
 
-	.breadcrumb {
-		background-color:#ffffff;
-		font-size: 16px;
-	}
-	.breadcrumb li {
-		display: inline;
-		color: #26343F;
-	}
-	.breadcrumb li a {
-		text-decoration: none;
-		color: #26343F;
-	}
-	.breadcrumb li a:hover{
-		text-decoration: none;
-		color: #00aed1;
-	}
-	.breadcrumb li+li:before {
-		content: ' > ';
-		color: #94a3ab;
-		padding-left: 6px;
-		padding-right: 6px;
-	}
-	.breadcrumb .current {
-		color: #94a3ab;
-	}
+		.breadcrumb {
+			background-color:#ffffff;
+			font-size: 16px;
+		}
+		.breadcrumb li {
+			display: inline;
+			color: #26343F;
+		}
+		.breadcrumb li a {
+			text-decoration: none;
+			color: #26343F;
+		}
+		.breadcrumb li a:hover{
+			text-decoration: none;
+			color: #00aed1;
+		}
+		.breadcrumb li+li:before {
+			content: ' > ';
+			color: #94a3ab;
+			padding-left: 6px;
+			padding-right: 6px;
+		}
+		.breadcrumb .current {
+			color: #94a3ab;
+		}
 
 /** featured doc hit box **/
