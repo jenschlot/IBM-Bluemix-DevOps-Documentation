@@ -17,9 +17,9 @@
 							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
 							<div class="col-md-3 hidden-xs col-sm-1 hex-container">
 								<div class="hex">
-									<span class="hex-tile pos-5"></span>
-									<span class="hex-tile pos-5"></span>
-									<span class="hex-tile pos-6"></span>
+									<span class="hex-jazzhub pos-2"></span>
+									<span class="hex-bluemix pos-3"></span>
+									<span class="hex-node pos-4"></span>
 								</div>
 							</div>
 							</a>
@@ -35,6 +35,9 @@
 							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
 							<div class="col-md-3 hidden-xs col-sm-1 hex-container">
 								<div class="hex">
+									<span class="hex-jazzhub pos-2"></span>
+									<span class="hex-bluemix pos-3"></span>
+									<span class="hex-node pos-4"></span>
 								</div>
 							</div>
 							</a>
@@ -50,6 +53,8 @@
 							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
 							<div class="col-md-3 hidden-xs col-sm-1 hex-container">
 								<div class="hex">
+									<span class="hex-jazzhub pos-0"></span>
+									<span class="hex-mobile pos-1"></span>
 								</div>
 							</div>
 							</a>
@@ -68,6 +73,9 @@
 							<div class="col-md-2 hidden-xs col-sm-1 col-md-pull-4 stem"><hr /></div>
 							<div class="col-md-3 hidden-xs col-sm-1 col-md-pull-9 hex-container">
 								<div class="hex">
+									<span class="hex-jazzhub pos-2"></span>
+									<span class="hex-bluemix pos-3"></span>
+									<span class="hex-java pos-4"></span>
 								</div>
 							</div>
 							</a>
@@ -83,6 +91,10 @@
 							<div class="col-md-2 hidden-xs col-sm-1 col-md-pull-4 stem"><hr /></div>
 							<div class="col-md-3 hidden-xs col-sm-1 col-md-pull-9 hex-container">
 								<div class="hex">
+									<span class="hex-bluemix pos-0"></span>
+									<span class="hex-eclipse pos-8"></span>
+									<span class="hex-jazzhub pos-9"></span>
+									<span class="hex-java pos-10"></span>
 								</div>
 							</div>
 							</a>
@@ -98,6 +110,8 @@
 							<div class="col-md-2 hidden-xs col-sm-1 col-md-pull-4 stem"><hr /></div>
 							<div class="col-md-3 hidden-xs col-sm-1 col-md-pull-9 hex-container">
 								<div class="hex">
+									<span class="hex-jazzhub pos-0"></span>
+									<span class="hex-trackplan pos-1"></span>
 								</div>
 							</div>
 							</a>
@@ -116,36 +130,42 @@
 		<div class="clearfix"></div>
 
 		<div class="row pbl pts" id="key-resources">
-			<div class="col-md-12">
+			<div class="col-md-12 col-sm-12 col-xs-8">
 				<h3 class="pbs pls" >Key Resources</h3>
 				<div class="row pts">
 						<div class="col-md-2 col-sm-4 col-xs-5">
 							<a class="resource" href="/learn">
-								<div class="resource-img col-center"></div>
+								<div class="resource-img col-center"><span class="learn"></span></div>
 								<div class="resource-name col-center">Learn about IBM DevOps ServiceS</div>
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-5">
 							<a class="resource" href="/whatsnew">
-								<div class="resource-img col-center"><img src="/tutorials/images/docs/temp.png"></div>
+								<div class="resource-img col-center"><span class="whatsnew"></span></div>
 								<div class="resource-name col-center">What's New</div>
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-5">
 							<a class="resource" href="/features">
-								<div class="resource-img col-center"></div>
+								<div class="resource-img col-center"><span class="features"></span></div>
 								<div class="resource-name col-center">Features</div>
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-5">
 							<a class="resource" href="/help/faq">
-								<div class="resource-img col-center"></div>
+								<div class="resource-img col-center"><span class="faq"></span></div>
 								<div class="resource-name col-center">Frequently asked questions</div>
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-5 hidden">
+							<a class="resource" href="#">
+								<div class="resource-img col-center"><span class="support"></span></div>
+								<div class="resource-name col-center">Support</div>
 							</a>
 						</div>
 						<div class="col-md-2 col-sm-4 col-xs-5">
 							<a class="resource" href="/glossary">
-								<div class="resource-img col-center"></div>
+								<div class="resource-img col-center"><span class="glossary"></span></div>
 								<div class="resource-name col-center">Glossary</div>
 							</a>
 						</div>
@@ -157,71 +177,89 @@
 		<div class="clearfix"></div>
 
 		<div class="row pts pbxl" id="topics">
-			<div class="col-md-12">
-				<h3 class="pbs pls" >Topics</h3>
-				<div class="row pts">
-						<div class="col-md-2 col-sm-4 col-xs-5">
+			<h3 class="pbs pls text-left" >Topics</h3>
+				<div class="row">
+					<div id="topics-grid" class="col-md-12 col-sm-12 col-xs-8 text-center">
+						<div class="topic-container">
 							<a class="topic" href="/help/nodejs">
-								<div class="topic-img col-center"></div>
+								<div class="topic-img col-center"><div class="nodejs"></div></div>
 								<div class="topic-name col-center">Node.js</div>
 							</a>
 						</div>
-						<div class="col-md-2 col-sm-4 col-xs-5">
+						<div class="topic-container">
 							<a class="topic" href="/help/java">
-								<div class="topic-img col-center"></div>
+								<div class="topic-img col-center"><div class="java"></div></div>
 								<div class="topic-name col-center">Java</div>
 							</a>
 						</div>
-						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="topic" href="/help/mobile">
-								<div class="topic-img col-center"></div>
-								<div class="topic-name col-center">Mobile</div>
-							</a>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="topic" href="/help/trackplan">
-								<div class="topic-img col-center"><img src="/tutorials/images/docs/temp.png" /></div>
-								<div class="topic-name col-center">Track and Plan</div>
-							</a>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-5">
+						<div class="topic-container">
 							<a class="topic" href="/help/python">
-								<div class="topic-img col-center"></div>
+								<div class="topic-img col-center"><div class="python"></div></div>
 								<div class="topic-name col-center">Python</div>
 							</a>
 						</div>
-						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="topic" href="/help/eclipse">
-								<div class="topic-img col-center"></div>
-								<div class="topic-name col-center">Eclipse</div>
+						<div class="topic-container hidden">
+							<a class="topic" href="#">
+								<div class="topic-img col-center"><div class="mongodb"></div></div>
+								<div class="topic-name col-center">MongoDB</div>
 							</a>
 						</div>
-						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="topic" href="/help/git">
-								<div class="topic-img col-center"></div>
-								<div class="topic-name col-center">Git</div>
+						<div class="topic-container">
+							<a class="topic" href="/help/mobile">
+								<div class="topic-img col-center"><div class="mobile"></div></div>
+								<div class="topic-name col-center">Mobile</div>
 							</a>
 						</div>
-						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="topic" href="/help/jazz_scm">
-								<div class="topic-img col-center"></div>
-								<div class="topic-name col-center">JazzSCM</div>
-							</a>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-5">
-							<a class="topic" href="/help/academics">
-								<div class="topic-img col-center"></div>
-								<div class="topic-name col-center">Academics</div>
-							</a>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-5">
+						<div class="topic-container">
 							<a class="topic" href="/help/build_deploy">
-								<div class="topic-img col-center"></div>
+								<div class="topic-img col-center"><div class="build_deploy"></div></div>
 								<div class="topic-name col-center">Build and Deploy</div>
 							</a>
 						</div>
+						<div class="topic-container">
+							<a class="topic" href="/help/trackplan">
+								<div class="topic-img col-center"><div class="trackplan"></div></div>
+								<div class="topic-name col-center">Track and Plan</div>
+							</a>
+						</div>
+						<div class="topic-container">
+							<a class="topic" href="/help/bluemix">
+								<div class="topic-img col-center"><div class="bluemix"></div></div>
+								<div class="topic-name col-center">Bluemix</div>
+							</a>
+						</div>
+						<div class="topic-container">
+							<a class="topic" href="/help/jazz_scm">
+								<div class="topic-img col-center"><div class="jazz_scm"></div></div>
+								<div class="topic-name col-center">Jazz Source Control Management</div>
+							</a>
+						</div>
+						<div class="topic-container">
+							<a class="topic" href="/help/git">
+								<div class="topic-img col-center"><div class="git"></div></div>
+								<div class="topic-name col-center">Git</div>
+							</a>
+						</div>
+						<div class="topic-container">
+							<a class="topic" href="/help/eclipse">
+								<div class="topic-img col-center"><div class="eclipse"></div></div>
+								<div class="topic-name col-center">Eclipse</div>
+							</a>
+						</div>
+						<div class="topic-container">
+							<a class="topic" href="/help/academics">
+								<div class="topic-img col-center"><div class="academics"></div></div>
+								<div class="topic-name col-center">Academics</div>
+							</a>
+						</div>
+						<div class="topic-container hidden">
+							<a class="topic" href="#">
+								<div class="topic-img col-center"><div class="hackathons"></div></div>
+								<div class="topic-name col-center">Hackathons</div>
+							</a>
+						</div>
+					</div>
 				</div>
-				<div class="clearfix"></div>
 				<div class="row ptxl pbm">
 					<div class="col-md-12 col-sm-12 col-xs-7 text-center">
 						<a role="button" href="/help/all" class="btn btn-dark btn-sm">All Topics</a>
