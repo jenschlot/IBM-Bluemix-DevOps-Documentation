@@ -1,4 +1,4 @@
-## [General](#gen) | [Tutorials](#tut) | [Articles](#articles) | [Blogs](#blogs) | [Samples](#samples) | [Features](#features)
+## [General](#gen) | [Tutorials](#tut) | [Articles](#articles) | [Blogs](#blogs) | [Samples](#samples) | [Features](#features) | [Videos](#videos) | [Workshops](#workshops)
 
 <a id="gen"></a>
 -------------------------------------
@@ -20,9 +20,6 @@
 ## Tutorials
 
 ### Tutorial: [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/jazzeditor)  
-Topics: bluemix, devops_services, nodejs, git, webide, pipeline, cloud_foundry
-
-See how to create a node.js web app at Bluemix, manage the code's git repo, and automatically build and deploy that app.
 
 ### Tutorial: [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)  
 Topics: bluemix, devops_services, java, git, webide, pipeline
