@@ -7,21 +7,19 @@
 					<div class="row">
 						<div class="col-md-2 col-sm-4 col-xs-5 vcenter">
 							<div class="topic-img">
-								<img src="/tutorials/images/docs/temp.png" />
-								<!--<img src="/tutorials/images/docs/{imgicon}.png" />-->
+								<div class="{imgicon}"></div>
 							</div>
 						</div>
 						<div class="col-md-6 vcenter topic-header-name">
 							<span>{topicname}</span>
 						</div>
 					</div>
-					<div class="clearfix"></div>
 				</div>
 			</div>
 			<ol class="breadcrumb">
 				<li><a href="/docs">{sectionname}</a></li>
 				{@ne key=topicname value="All Docs"}
-					<li><a href="/help/all">All Docs</a></li>
+					<li><a href="/docs#topics">All Topics</a></li>
 				{/ne}
 				<li class="current">{topicname}</li>
 			</ol>
