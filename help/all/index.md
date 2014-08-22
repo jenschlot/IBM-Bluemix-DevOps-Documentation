@@ -34,12 +34,6 @@ Topics: devops_services, eclipse, git, rtc, jazz_scm
 ### Tutorial: [Developing BlueMix applications in Node.js with the Web IDE](/tutorials/jazzweb)  
 Topics: bluemix, nodejs, webide, devops_services, git, pipeline, manifest
 
-### Tutorial: [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)  
-Topics: bluemix, devops_services, java, git, webide, pipeline
-
-### Tutorial: [Setting up Eclipse, Git, and Rational Team Concert desktop clients to access IBM DevOps Services](/tutorials/clients)
-Topics: devops_services, eclipse, git, rtc
-
 ### Tutorial: [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)  
 Topics: devops_services, bluemix, java, eclipse, jazz_scm, pipeline, rtc
 

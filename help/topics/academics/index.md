@@ -1,32 +1,21 @@
-###What is DevOps Services? Why do I care?
+## [FAQ](/faq)
+ 
+---
+
+### Tutorial: [Getting started with tracking and planning in IBM DevOps Services](/tutorials/trackplan)  
+Topics: devops_services, plan, track
+
+### Tutorial: [Setting up Eclipse, Git, and Rational Team Concert desktop clients to access IBM DevOps Services](/tutorials/clients) 
+Topics: devops_services, eclipse, git, rtc
+
+###Video Tutorial: [Easily Collaborate on a Node.js App! (1:42 min)](https://www.youtube.com/watch?v=R8LUmIcpT5c&list=UUfSJ0b6aUQ_Uvgdlpu9amRw)
+Topics: devops_services
 
 ---
-###Get started in minutes!
 
-Watch this 2 minute video to see how you can set up a project for your classroom...
-
----
-###Check out these other helpful starting guides:
- * [Tutorial 1](#link)
- * [Tutorial 2](#link)
- * [Workshop](#link) 
- * [More helpful content](#bottom)
-
----
 ###Professor Testimonial:
 ![Alan Kan](images/alankan.png)
 
-Alan Kan
-
----
-###Free for you and your students
-
-Take advantage of many free features on IDS. Public projects include free Track & Plan, Web IDE and Git or Jazz SCM source control. Private projects for up to 3 users. 
-
-To request free access to more advanced paid features like build and deploy to Bluemix, please request academic pricing.
-
----
-###Links to other helpful content for professors
-
-
-###FAQs for professors
+“I am using DevOps Services and BlueMix in my new Agile Development class to help students collaborate on group assignments and 
+get familiar with online collaboration practices using the latest tools used in the industry, without the hassle and cost of 
+setting up servers."  - Alan Kan, Lecturer, Unitec Institute of Technology, New Zealand.  
