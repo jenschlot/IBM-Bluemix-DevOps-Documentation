@@ -11,7 +11,7 @@ Topics: bluemix, nodejs, webide, devops_services, git, pipeline, manifest
 Topics: devops_services, bluemix, java, eclipse, jazz_scm, pipeline, rtc
 
 ### Article: [Jump-start your hackathon efforts with DevOps Services and Bluemix](http://www.ibm.com/developerworks/cloud/library/cl-hackathon-app/index.html)  
-Topics: devops_services, bluemix, mongodb, nodejs, pipeline, jade, git, webide
+Topics: devops_services, bluemix, mongodb, nodejs, pipeline, jade, git, old_ui, webide
 
 ### Video: [IBM Codename: BlueMix DevOps Services for Rapid Software Delivery (Cloud Foundry Summit 2014) (5:14 min)](https://www.youtube.com/watch?v=fkHSYJJ6KVs)  
 Topics: devops_services, bluemix, cloud_foundry, pipeline, track 

@@ -1,13 +1,13 @@
-### Tutorial: [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/jazzeditor)  
+### Tutorial: [Getting Started with BlueMix and DevOps Services using Node.js](hub.jazz.net/tutorials/jazzeditor)  
 Topics: bluemix, devops_services, nodejs, git, webide, pipeline, cloud_foundry
 
-### Tutorial: [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)  
+### Tutorial: [Getting Started with IBM Bluemix and IBM DevOps Services using Java](hub.jazz.net/tutorials/jazzeditorjava)  
 Topics: bluemix, devops_services, java, git, webide, pipeline
 
-### Tutorial: [Developing BlueMix applications in Node.js with the Web IDE](/tutorials/jazzweb)  
+### Tutorial: [Developing BlueMix applications in Node.js with the Web IDE](hub.jazz.net/tutorials/jazzweb)  
 Topics: bluemix, nodejs, webide, devops_services, git, pipeline, manifest
 
-### Tutorial: [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)  
+### Tutorial: [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](hub.jazz.net/tutorials/jazzrtc)  
 Topics: devops_services, bluemix, java, eclipse, jazz_scm, pipeline, rtc
 
 ### Article: [Develop apps in the cloud with DevOps Services](http://www.ibm.com/developerworks/library/d-bluemix-devops-services-project/)  
@@ -20,12 +20,20 @@ Topics: devops_services, nodejs, Express, sentiment, ntwitter, PaaS, bluemix
 Topics: devops_services, eclipse, nodejs, mongodb, angularjs, Express, bluemix
 
 ### Article: [Jump-start your hackathon efforts with DevOps Services and Bluemix](http://www.ibm.com/developerworks/cloud/library/cl-hackathon-app/index.html)  
+<<<<<<< HEAD
 Topics: devops_services, bluemix, mongodb, nodejs, pipeline, jade, git, webide
+=======
+Topics: devops_services, bluemix, mongodb, nodejs, pipeline, jade, git, old_ui, webide
+>>>>>>> removed descriptions from internal pages
 
 ### Blog: [Creating a Node.js application with JazzHub](https://www.ibm.com/developerworks/community/blogs/jlmarechaux/entry/creating_a_node_js_application_with_jazzhub?lang=en)  
 Topics: devops_services, nodejs, manifest, bluemix
 
+<<<<<<< HEAD
 ### Sample: [Twitter influence analyzer (Java)](https://hub.jazz.net/project/jstart/Twitter%20Influencer%20Analyzer%20%28Java%29/overview)  
+=======
+### Sample: [Twitter influence analyzer (Java and MongoBD)](https://hub.jazz.net/project/jstart/Twitter%20Influencer%20Analyzer%20%28Java%29/overview)  
+>>>>>>> removed descriptions from internal pages
 Topics: devops_services, java, klout, mongodb, bluemix, eclipse
 
 ### Sample: [Starfighter](http://hub.jazz.net/project/bryancboyd/Starfighter/overview)  
@@ -38,9 +46,15 @@ Topics: devops_services, python, bottle, bluemix
 Topics: devops_services, python, mongodb, bottle, bluemix
 
 ### Sample: [Building a real-time polls application with Node.js, AngularJS and MongoDB](https://hub.jazz.net/project/joelennon/polls/overview)  
+<<<<<<< HEAD
 Topics: devops_services, bluemix nodejs, express, jade, mongodb, angularjs, bootstrap, socketio
 
 ### Sample: [WordBuilder Game](https://hub.jazz.net/project/mattias/WordBuilder/overview)  
+=======
+Topics: devops_services, bluemix nodejs, express, jade, mongoose, angularjs, bootstrap, socketio
+
+### Sample: [Guess-the-Word Game](https://hub.jazz.net/project/mattias/WordBuilder/overview)  
+>>>>>>> removed descriptions from internal pages
 Topics: devops_services, bluemix, nodejs, express, jade, mongodb
 
 ### Sample: [Twitter Influence Analyzer (Python)](https://hub.jazz.net/project/jstart/Twitter%20Influence%20Analyzer%20%28Python%29/overview)  
@@ -59,7 +73,11 @@ Topics: devops_services, bluemix
 Topics: devops_services, bluemix, IaaS, PaaS
 
 ### Video: [Using JazzHub to Deploy Applications to the Cloud (6:32 min)](http://www.youtube.com/watch?v=mo5u42rE1_0)  
+<<<<<<< HEAD
 Topics: devops_services, bluemix
+=======
+Topics: devops_services, bluemix, 
+>>>>>>> removed descriptions from internal pages
 
 ### Video: [Adopting a DevOps Approach with Cloud ](https://www.youtube.com/watch?v=fVaJigwfNY4)  
 Topics: devops_services, IaaS, PaaS, bluemix
