@@ -11,7 +11,7 @@ Topics: bluemix, nodejs, webide, devops_services, git, pipeline, manifest
 Topics: devops_services, eclipse, git, rtc, jazz_scm
 
 ### Article: [Jump-start your hackathon efforts with DevOps Services and Bluemix](http://www.ibm.com/developerworks/cloud/library/cl-hackathon-app/index.html)  
-Topics: devops_services, bluemix, mongodb, nodejs, pipeline, jade, git, old_ui, webide
+Topics: devops_services, bluemix, mongodb, nodejs, pipeline, jade, git, webide
 
 ### Sample: [Twitter Influence Analyzer (Python)](https://hub.jazz.net/project/jstart/Twitter%20Influence%20Analyzer%20%28Python%29/overview)  
 Topics: devops_services, python, bottle, klout, cloudant, bluemix, git, twitter
