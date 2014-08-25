@@ -33,6 +33,11 @@
 			"uri_prefix": "/glossary",
 			"section_name": "Glossary",
 			"directory": "glossary"
+		},
+		{
+			"uri_prefix": "/support",
+			"section_name": "Support",
+			"directory": "support"
 		}
 	],
 	"topic": [
@@ -119,6 +124,20 @@
 			"topic_name": "Track and Plan",
 			"img_icon": "trackplan",
 			"directory": "help/topics/trackplan"
+		},
+		{
+			"uri_prefix": "/help/mongodb",
+			"section_name": "Docs",
+			"topic_name": "MongoDB",
+			"img_icon": "mongodb",
+			"directory": "help/topics/mongodb"
+		},
+		{
+			"uri_prefix": "/help/hackathons",
+			"section_name": "Docs",
+			"topic_name": "Hackathons",
+			"img_icon": "hackathons",
+			"directory": "help/topics/hackathons"
 		}
 	]
 }

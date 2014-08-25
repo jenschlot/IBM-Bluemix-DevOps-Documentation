@@ -13,7 +13,7 @@ Topics: devops_services, bluemix, java, eclipse, jazz_scm, pipeline, rtc
 ### Article: [Develop apps in the cloud with DevOps Services](http://www.ibm.com/developerworks/library/d-bluemix-devops-services-project/)  
 Topics: devops_services, track, plan, bluemix, webide
 
-﻿### Article: [Build a sentiment analysis application with Node.js, Express, sentiment, and ntwitter](http://www.ibm.com/developerworks/library/wa-nodejs-app/)  
+### Article:[Build a sentiment analysis application with Node.js, Express, sentiment, and ntwitter](http://www.ibm.com/developerworks/library/wa-nodejs-app/)  
 Topics: devops_services, nodejs, Express, sentiment, ntwitter, PaaS, bluemix
 
 ### Article: [Build a real-time polls application with Node.js, Express, AngularJS, and MongoDB](http://www.ibm.com/developerworks/library/wa-nodejs-polling-app/)  

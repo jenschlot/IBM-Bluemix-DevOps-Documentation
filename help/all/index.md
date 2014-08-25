@@ -1,6 +1,7 @@
-## [General](#gen) | [Tutorials](#tut) | [Articles](#articles) | [Blogs](#blogs) | [Samples](#samples) | [Features](#features) | [Videos](#videos) | [Workshops](#workshops)
+### [General](#gen) | [Tutorials](#tut) | [Articles](#articles) | [Blogs](#blogs) | [Samples](#samples) | [Features](#features) | [Videos](#videos) | [Workshops](#workshops)
 
 <a id="gen"></a>
+
 -------------------------------------
 
 ## General
@@ -16,7 +17,9 @@
 ### [Glossary](/glossary)
 
 <a id="tut"></a>
+
 --------------------
+
 ## Tutorials
 
 ### Tutorial: [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/jazzeditor)  

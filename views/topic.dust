@@ -23,7 +23,7 @@
 				{/ne}
 				<li class="current">{topicname}</li>
 			</ol>
-			<div class="row">
+			<div class="row ptm">
 				<div class="col-md-12 topic">
 						{markdown|s}
 				</div>
