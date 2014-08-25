@@ -9,3 +9,5 @@ Topics: mobile, devops_services, mqa, eclipse, java
 
 ### Sample: [Twitter influence analyzer (Java)](https://hub.jazz.net/project/jstart/Twitter%20Influencer%20Analyzer%20%28Java%29/overview)  
 Topics: devops_services, java, klout, mongodb, bluemix, eclipse
+
+&copy; Copyright IBM Corporation 2013, 2014.

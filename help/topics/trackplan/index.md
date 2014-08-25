@@ -1,6 +1,9 @@
 ### Tutorial: [Getting started with tracking and planning in IBM DevOps Services](/tutorials/trackplan)  
 Topics: devops_services, plan, track
 
+### Feature at a Glance:  [Explore the Track & Plan Beta feature](/features/trackplanfg)
+Topics: devops_services, track, plan
+
 ### Article: [Develop apps in the cloud with DevOps Services](http://www.ibm.com/developerworks/library/d-bluemix-devops-services-project/)  
 Topics: devops_services, track, plan, bluemix, webide
 
@@ -27,3 +30,5 @@ Topics: devops_services, bluemix, nodejs, plan
 
 ### Workshop: [Using IBM DevOps Services & Bluemix Services: Part 3, Planning, Tracking, & Leveraging New BlueMix Services](https://developer.ibm.com/bluemix/docs/workshops/using-ibm-devops-services-bluemix-services-part-3-planning-tracking-leveraging-new-bluemix-services/)  
 Topics: bluemix, devops_services, plan, track, twilio, webide
+
+&copy; Copyright IBM Corporation 2013, 2014.

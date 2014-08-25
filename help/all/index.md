@@ -1,4 +1,4 @@
-### [General](#gen) | [Tutorials](#tut) | [Articles](#articles) | [Blogs](#blogs) | [Samples](#samples) | [Features](#features) | [Videos](#videos) | [Workshops](#workshops)
+### [General](#gen) | [Tutorials](#tut) | [Articles](#articles) | [Blogs](#blogs) | [Samples](#samples) | [Features at a Glance](#features) | [Videos](#videos) | [Workshops](#workshops)
 
 <a id="gen"></a>
 
@@ -86,13 +86,9 @@ Topics: devops_services
 _____________________________
 ## Features at a glance
 
-[Projects](#link)
 
-[Web IDE](#link)
-
-[Continuous Delivery pipeline](#link)
-
-[Track and plan](#link)
+### [Explore the Track & Plan Beta feature](/features/trackplanfg)
+Topics: devops_services, plan, track
 
 <a id="samples"></a>
 ___________
@@ -180,3 +176,5 @@ Topics: bluemix, devops_services, plan, track, twilio, webide
 
 ### Workshop:  [Node.js Apps with IBM DevOps Services and Bluemix](https://developer.ibm.com/bluemix/docs/workshops/node-js-apps-ibm-devops-services-powered-jazzhub-ibm-codename-bluemix/)  
 Topics: bluemix, devops_services, pipeline, edit, nodejs
+
+&copy; Copyright IBM Corporation 2013, 2014.
