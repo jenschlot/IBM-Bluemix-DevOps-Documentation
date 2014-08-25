@@ -8,10 +8,10 @@
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<div class="row" id="doc-container-l">
 							<a class="section" href="/tutorials/jazzeditor">
-							<div class="col-md-7 col-sm-7 col-xs-8 callout callout-one-line">
+							<div class="col-md-7 col-sm-7 col-xs-8 callout callout-two-line">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
-									Getting started with IBM Bluemix
+									Getting started with IBM Bluemix and IBM DevOps Services using node.js
 								</p>
 							</div>
 							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
