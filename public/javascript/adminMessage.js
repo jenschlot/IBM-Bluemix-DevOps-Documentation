@@ -8,6 +8,8 @@ $(document).ready(function() {
 			$("#messageSummary").html(response.message);
 			$("#announcement").removeClass("hidden");
 		}
+		$("#messageSummary").html("Test maintenance bar");
+		$("#announcement").removeClass("hidden");
 	});
 });
 
