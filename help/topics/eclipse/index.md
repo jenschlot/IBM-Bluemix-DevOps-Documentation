@@ -12,3 +12,5 @@ Topics: mobile, devops_services, mqa, eclipse, java
 
 ### Tutorial: [Setting up Eclipse, Git, and Rational Team Concert desktop clients to access IBM DevOps Services](/tutorials/clients)  
 Topics: devops_services, eclipse, git, rtc, jazz_scm
+
+&copy; Copyright IBM Corporation 2013, 2014.

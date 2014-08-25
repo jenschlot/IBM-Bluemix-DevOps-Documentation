@@ -1,4 +1,4 @@
-### [General](#gen) | [Tutorials](#tut) | [Articles](#articles) | [Blogs](#blogs) | [Samples](#samples) | [Features](#features) | [Videos](#videos) | [Workshops](#workshops)
+### [General](#gen) | [Tutorials](#tut) | [Articles](#articles) | [Blogs](#blogs) | [Samples](#samples) | [Features at a Glance](#features) | [Videos](#videos) | [Workshops](#workshops)
 
 <a id="gen"></a>
 
@@ -36,12 +36,6 @@ Topics: devops_services, eclipse, git, rtc, jazz_scm
 
 ### Tutorial: [Developing BlueMix applications in Node.js with the Web IDE](/tutorials/jazzweb)  
 Topics: bluemix, nodejs, webide, devops_services, git, pipeline, manifest
-
-### Tutorial: [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)  
-Topics: bluemix, devops_services, java, git, webide, pipeline
-
-### Tutorial: [Setting up Eclipse, Git, and Rational Team Concert desktop clients to access IBM DevOps Services](/tutorials/clients)
-Topics: devops_services, eclipse, git, rtc
 
 ### Tutorial: [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)  
 Topics: devops_services, bluemix, java, eclipse, jazz_scm, pipeline, rtc
@@ -92,13 +86,9 @@ Topics: devops_services
 _____________________________
 ## Features at a glance
 
-[Projects](#link)
 
-[Web IDE](#link)
-
-[Continuous Delivery pipeline](#link)
-
-[Track and plan](#link)
+### [Explore the Track & Plan Beta feature](/features/trackplanfg)
+Topics: devops_services, plan, track
 
 <a id="samples"></a>
 ___________
@@ -186,3 +176,5 @@ Topics: bluemix, devops_services, plan, track, twilio, webide
 
 ### Workshop:  [Node.js Apps with IBM DevOps Services and Bluemix](https://developer.ibm.com/bluemix/docs/workshops/node-js-apps-ibm-devops-services-powered-jazzhub-ibm-codename-bluemix/)  
 Topics: bluemix, devops_services, pipeline, edit, nodejs
+
+&copy; Copyright IBM Corporation 2013, 2014.

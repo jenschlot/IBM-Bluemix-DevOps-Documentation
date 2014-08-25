@@ -1,9 +1,11 @@
-[IBM DevOps Services forum](https://developer.ibm.com/answers?community=jazzhub)
+#Support
 
-[Bluemix forum](https://developer.ibm.com/answers?community=bluemix)
+##[IBM DevOps Services forum](https://developer.ibm.com/answers?community=jazzhub)
 
-[Report a bug](https://hub.jazz.net/ccm01/web/projects/srich%20|%20JazzHub#action=com.ibm.team.dashboard.viewDashboard)
+##[Bluemix forum](https://developer.ibm.com/answers?community=bluemix)
 
-[Maintenance schedule](https://hub.jazz.net/maintenance/)
+##[Report a bug](https://hub.jazz.net/ccm01/web/projects/srich%20|%20JazzHub#action=com.ibm.team.dashboard.viewDashboard)
 
-[Contact us](https://hub.jazz.net/help)
+##[Maintenance schedule](https://hub.jazz.net/maintenance/)
+
+##[Contact us](https://hub.jazz.net/help)

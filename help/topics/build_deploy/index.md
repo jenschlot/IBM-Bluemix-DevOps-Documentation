@@ -30,3 +30,5 @@ Topics: bluemix, devops_services, pipeline, edit, nodejs
 
 ### Video: [Develop and Deploy Software in the Cloud with JazzHub (37:27 min)](http://www.youtube.com/watch?v=tLbv7iLAPQI)  
 Topics: devops_services, PaaS, git, webide, pipeline, git
+
+&copy; Copyright IBM Corporation 2013, 2014.
