@@ -42,7 +42,7 @@ RUNNING
 DEPLOYING
 ---------
 
-Commit.  Deploys will go to [jazzhubdocs On Bluemix](http://jazzhubdocs.mybluemix.net/tutorials).
+Commit.  Deploys will go to [jazzhubdocs On Bluemix](https://jazzhubdocs.mybluemix.net/tutorials).
 
 
 PERSONAL DEPLOY FROM ORION
