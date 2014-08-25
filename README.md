@@ -62,7 +62,7 @@ To do a personal deployment from the Web IDE:
 BUGS
 ----
 
-None known
+- Navbar will appear unauthenticated unless the domain name of the server host ends in hub.jazz.net.  This is a side effect of how our LTPA authentication scheme works.  To work around this, add an entry to your hosts file (**/etc/hosts** on Linux; **C:\windows\system32\drivers\etc\host** on Windows to make the server appear to have a domain name of, e.g., local.hub.jazz.net.  The important part is the .hub.jazz.net suffix.
 
 
 AUTHOR
