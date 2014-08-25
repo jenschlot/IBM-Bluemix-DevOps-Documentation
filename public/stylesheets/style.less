@@ -52,8 +52,6 @@ html {
 body {
   margin: 0;
   font: 100% "Helvetica Neue",Helvetica, Arial, sans-serif;
-/*  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;*/
 }
 
 /******************************************************************************
@@ -702,11 +700,22 @@ a:hover {
 
 	.callout {
 		vertical-align: middle;
-		padding: 8px;
+		padding: 12px;
 		border: 0px solid transparent;
 		border-radius: 15px;
 		background-color: #26343f;
-		margin-top: 18px;
+	}
+
+	.callout-one-line {
+		margin-top: 17px;
+	}
+
+	.callout-two-line {
+		margin-top: 8px;
+
+	}
+	.callout-three-line {
+		/*blank*/
 	}
 
 	.stem {
@@ -734,12 +743,12 @@ a:hover {
 		text-align: center;
 		color: #00aed1;
 		font-weight: bold;
-		font-size: 0.76rem;
+		font-size: 0.9rem;
 	}
 	.description {
 		text-align: center;
 		color: #ffffff;
-		font-size: 0.75rem;
+		font-size: 0.9rem;
 	}
 
 	span.hex-builddeploy {
@@ -880,14 +889,15 @@ a:hover {
 
 #key-resources {
 	background-color: #ffffff;
-}	
-	@media (min-width: 992px) {
-		div#key-resources .col-center {
+}
+	@media(max-width: 767px) {
+		div#key-resources .xs-offset {
+		padding-left: 30px;
+		}
+	}
+
+	div#key-resources .col-center {
 		margin: 0 auto;
-		}
-		div#key-resources .col-md-2 {
-			width: 20%;
-		}
 	}
 	
 	.resource-img {
@@ -933,7 +943,7 @@ a:hover {
 
 	.resource-name {
 		width: 132px;
-		min-height: 65px;
+		min-height: 75px;
 		text-align: center;
 		padding-top: 15px;
 		padding-bottom: 15px;
@@ -945,8 +955,8 @@ a:hover {
 	}
 	
 	a.resource:hover .resource-img {
-		border: 8px solid #8cc63f;
-		opacity: 0.8;
+		border: 8px solid #94A3AB;
+		opacity: 1;
 	}
 	a.resource:hover .resource-name {
 		text-decoration: none;
@@ -957,14 +967,12 @@ a:hover {
 	background-color: #94a3ab;
 }
 
-	@media (min-width: 992px) {
-		div#topics .col-center {
+	div#topics .col-center {
 		margin: 0 auto;
-		}
 	}
 
 	.topic-container {
-		width: 20%;
+		width: 230px;
 		display: inline-block;
 		min-height: 215px;
 		padding: 10px;
@@ -977,6 +985,14 @@ a:hover {
 		overflow: hidden;
 		border: 8px solid #dee6eb;
 		border-radius: 50%;
+	}
+
+	.topic-name {
+		width: 100%;
+		text-align: center;
+		padding: 10px;
+		color: #1b252d;
+		word-wrap: break-word;
 	}
 
 	.topic-sprite {
@@ -1032,44 +1048,44 @@ a:hover {
 			.topic-sprite;
 			background-position: 0px -1200px;
 		}
-	.topic-img > .hackathons {
+	.topic-img > .all {
 			.topic-sprite;
 			background-position: 0px -1320px;
 		}
-	.topic-img > .mongodb {
+	.topic-img > .hackathon {
 			.topic-sprite;
 			background-position: 0px -1440px;
 		}
+	.topic-img > .mongodb {
+			.topic-sprite;
+			background-position: 0px -1560px;
+		}
 
-
-	.topic-name {
-		width: 100%;
-		text-align: center;
-		padding: 10px;
-		color: #1b252d;
-		word-wrap: break-word;
-	}
-
-	a.topic ,a.topic:hover {
+	a.topic-section , a.topic-section:hover {
 	text-decoration: none;
 	}
-	a.topic:hover .topic-img {
-		border: 8px solid #8cc63f;
-		opacity: 0.8;
+	a.topic-section:hover .topic-img {
+		border: 8px solid #26343f;
+		opacity: 0.9;
 	}
-	a.topic:hover .topic-name {
+	a.topic-section:hover .topic-name {
 		text-decoration: none;
-		color: #03829e;
+		color: #dee6eb;
 	}
 
 
 	div.topic {
-			padding: 0px 30px 30px 30px;
+			padding: 0px 90px 30px 90px;
 		}
 		.topic > a {
 			color: #00aed1;
 		}
+
+		.topic > h2 {
+			font-size: 1.6rem;
+		}
 		.topic > h3 {
+			font-size: 1.3rem;
 			margin-bottom: 5px;
 		}
 		.topic > h3+p {
@@ -1101,7 +1117,8 @@ a:hover {
 		}
 
 		.breadcrumb {
-			background-color:#ffffff;
+			margin: 0px -15px 0 -15px;
+			padding-left: 25px;
 			font-size: 16px;
 		}
 		.breadcrumb li {

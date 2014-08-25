@@ -1,17 +1,17 @@
 {>bootstrap_header/}
 <div class="container-fluid">
 		<div class="row pbl" id="featured-docs">
+			<h2 class="plm pts">Featured Docs</h2>
 			<div class="col-md-12">
-				<h3 class="pls">Featured Docs</h3>
 				<div class="row">
 
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<div class="row" id="doc-container-l">
 							<a class="section" href="/tutorials/jazzeditor">
-							<div class="col-md-7 col-sm-7 col-xs-7 callout">
+							<div class="col-md-7 col-sm-7 col-xs-8 callout callout-one-line">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
-									Getting started with IBM Bluemix and IBM Devops Services using node.js
+									Getting started with IBM Bluemix
 								</p>
 							</div>
 							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
@@ -26,7 +26,7 @@
 						</div>
 						<div class="row" id="doc-container-l">
 							<a class="section" href="/tutorials/jazzweb">
-							<div class="col-md-7 col-sm-7 col-xs-7 callout">
+							<div class="col-md-7 col-sm-7 col-xs-8 callout callout-two-line">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
 									Developing IBM Bluemix application in node.js with the Web IDE
@@ -44,7 +44,7 @@
 						</div>
 						<div class="row" id="doc-container-l">
 							<a class="section" href="/tutorials/clients">
-							<div class="col-md-7 col-sm-7 col-xs-7 callout">
+							<div class="col-md-7 col-sm-7 col-xs-8 callout callout-three-line">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
 									Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access IBM DevOps Services
@@ -64,7 +64,7 @@
 					<div class="col-md-6 col-sm-12 col-xs-12" id="col-offset">
 						<div class="row" id="doc-container-r">
 							<a class="section" href="/tutorials/jazzeditorjava">
-							<div class="col-md-7 col-sm-7 col-xs-7 col-md-push-5 callout">
+							<div class="col-md-7 col-sm-7 col-xs-8 col-md-push-5 callout callout-two-line">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
 									Getting Started with IBM Bluemix and IBM DevOps Services using Java.
@@ -82,7 +82,7 @@
 						</div>						
 						<div class="row" id="doc-container-r">				
 							<a class="section" href="/tutorials/jazzrtc">
-							<div class="col-md-7 col-sm-7 col-xs-7 col-md-push-5 callout">
+							<div class="col-md-7 col-sm-7 col-xs-8 col-md-push-5 callout callout-two-line">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
 									Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services
@@ -101,7 +101,7 @@
 						</div>
 						<div class="row" id="doc-container-r">
 							<a class="section" href="/tutorials/trackplan">
-							<div class="col-md-7 col-sm-7 col-xs-7 col-md-push-5 callout">
+							<div class="col-md-7 col-sm-7 col-xs-8 col-md-push-5 callout callout-two-line">
 								<p class="title-name">Tutorial</p>
 								<p class="description">
 									Getting started with tracking and planning in IBM DevOps Services
@@ -119,9 +119,9 @@
 					</div>
 				</div>
 				<div class="clearfix"></div>
-				<div class="row ptxl pbm">
-					<div class="col-md-12 col-sm-12 col-xs-7 text-center">
-						<a role="button" href="/help/all" class="btn btn-dark btn-sm">All Docs</a>
+				<div class="row ptm">
+					<div class="col-md-12 col-sm-10 col-xs-8 text-center">
+						<a role="button" href="/help/all" class="btn btn-dark btn-md">All Docs</a>
 					</div>
 				</div>
 			</div>
@@ -130,40 +130,41 @@
 		<div class="clearfix"></div>
 
 		<div class="row pbl pts" id="key-resources">
-			<div class="col-md-12 col-sm-12 col-xs-8">
-				<h3 class="pbs pls" >Key Resources</h3>
+			<h2 class="pbs plm" >Key Resources</h2>
+			<div class="clearfix"></div>
+			<div class="col-md-12 col-sm-12 col-xs-8 xs-offset">
 				<div class="row pts">
-						<div class="col-md-2 col-sm-4 col-xs-5">
+						<div class="col-md-2 col-sm-4 col-xs-6">
 							<a class="resource" href="/learn">
 								<div class="resource-img col-center"><span class="learn"></span></div>
 								<div class="resource-name col-center">Learn about IBM DevOps ServiceS</div>
 							</a>
 						</div>
-						<div class="col-md-2 col-sm-4 col-xs-5">
+						<div class="col-md-2 col-sm-4 col-xs-6">
 							<a class="resource" href="/whatsnew">
 								<div class="resource-img col-center"><span class="whatsnew"></span></div>
 								<div class="resource-name col-center">What's New</div>
 							</a>
 						</div>
-						<div class="col-md-2 col-sm-4 col-xs-5">
+						<div class="col-md-2 col-sm-4 col-xs-6">
 							<a class="resource" href="/features">
 								<div class="resource-img col-center"><span class="features"></span></div>
 								<div class="resource-name col-center">Features</div>
 							</a>
 						</div>
-						<div class="col-md-2 col-sm-4 col-xs-5">
+						<div class="col-md-2 col-sm-4 col-xs-6">
 							<a class="resource" href="/help/faq">
 								<div class="resource-img col-center"><span class="faq"></span></div>
 								<div class="resource-name col-center">Frequently asked questions</div>
 							</a>
 						</div>
-						<div class="col-md-2 col-sm-4 col-xs-5 hidden">
-							<a class="resource" href="#">
+						<div class="col-md-2 col-sm-4 col-xs-6">
+							<a class="resource" href="/support">
 								<div class="resource-img col-center"><span class="support"></span></div>
 								<div class="resource-name col-center">Support</div>
 							</a>
 						</div>
-						<div class="col-md-2 col-sm-4 col-xs-5">
+						<div class="col-md-2 col-sm-4 col-xs-6">
 							<a class="resource" href="/glossary">
 								<div class="resource-img col-center"><span class="glossary"></span></div>
 								<div class="resource-name col-center">Glossary</div>
@@ -177,92 +178,92 @@
 		<div class="clearfix"></div>
 
 		<div class="row pts pbxl" id="topics">
-			<h3 class="pbs pls text-left" >Topics</h3>
+			<h2 class="pbs plm text-left" >Topics</h2>
 				<div class="row">
-					<div id="topics-grid" class="col-md-12 col-sm-12 col-xs-8 text-center">
-						<div class="topic-container">
-							<a class="topic" href="/help/nodejs">
+					<div id="topics-grid" class="col-md-12 col-sm-12 col-xs-9 text-center">
+						<div class="topic-container text-center">
+							<a class="topic-section" href="/help/nodejs">
 								<div class="topic-img col-center"><div class="nodejs"></div></div>
 								<div class="topic-name col-center">Node.js</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic" href="/help/java">
+							<a class="topic-section" href="/help/java">
 								<div class="topic-img col-center"><div class="java"></div></div>
 								<div class="topic-name col-center">Java</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic" href="/help/python">
+							<a class="topic-section" href="/help/python">
 								<div class="topic-img col-center"><div class="python"></div></div>
 								<div class="topic-name col-center">Python</div>
 							</a>
 						</div>
 						<div class="topic-container hidden">
-							<a class="topic" href="#">
+							<a class="topic-section" href="/mongodb">
 								<div class="topic-img col-center"><div class="mongodb"></div></div>
 								<div class="topic-name col-center">MongoDB</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic" href="/help/mobile">
+							<a class="topic-section" href="/help/mobile">
 								<div class="topic-img col-center"><div class="mobile"></div></div>
 								<div class="topic-name col-center">Mobile</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic" href="/help/build_deploy">
+							<a class="topic-section" href="/help/build_deploy">
 								<div class="topic-img col-center"><div class="build_deploy"></div></div>
 								<div class="topic-name col-center">Build and Deploy</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic" href="/help/trackplan">
+							<a class="topic-section" href="/help/trackplan">
 								<div class="topic-img col-center"><div class="trackplan"></div></div>
 								<div class="topic-name col-center">Track and Plan</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic" href="/help/bluemix">
+							<a class="topic-section" href="/help/bluemix">
 								<div class="topic-img col-center"><div class="bluemix"></div></div>
 								<div class="topic-name col-center">Bluemix</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic" href="/help/jazz_scm">
+							<a class="topic-section" href="/help/jazz_scm">
 								<div class="topic-img col-center"><div class="jazz_scm"></div></div>
 								<div class="topic-name col-center">Jazz Source Control Management</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic" href="/help/git">
+							<a class="topic-section" href="/help/git">
 								<div class="topic-img col-center"><div class="git"></div></div>
 								<div class="topic-name col-center">Git</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic" href="/help/eclipse">
+							<a class="topic-section" href="/help/eclipse">
 								<div class="topic-img col-center"><div class="eclipse"></div></div>
 								<div class="topic-name col-center">Eclipse</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic" href="/help/academics">
+							<a class="topic-section" href="/help/academics">
 								<div class="topic-img col-center"><div class="academics"></div></div>
 								<div class="topic-name col-center">Academics</div>
 							</a>
 						</div>
 						<div class="topic-container hidden">
-							<a class="topic" href="#">
+							<a class="topic-section" href="/help/hackathons">
 								<div class="topic-img col-center"><div class="hackathons"></div></div>
 								<div class="topic-name col-center">Hackathons</div>
 							</a>
 						</div>
 					</div>
 				</div>
-				<div class="row ptxl pbm">
+				<div class="row ptm">
 					<div class="col-md-12 col-sm-12 col-xs-7 text-center">
-						<a role="button" href="/help/all" class="btn btn-dark btn-sm">All Topics</a>
+						<a role="button" href="/help/all" class="btn btn-dark btn-md">All Topics</a>
 					</div>
 				</div>
 
