@@ -77,7 +77,6 @@ body {
 .f_right {
 	float: right;
 }
-
 .stretch {
 	min-height: 600px;
 }
@@ -538,6 +537,10 @@ table th {
 	background-color: #3b4b53;
 	color: #dee6eb;
 }
+table th:empty {
+	background-color: #ffffff;
+	color: #26343F;
+}
 table tr:nth-child(2n)
 {
 	background-color:#dee6eb;
@@ -611,6 +614,19 @@ a:hover {
 		margin-top: 35px;
 	}
 
+/************* TEXT ALIGN **********************
+
+.t_left {
+	text-align: left;
+}
+.t_center {
+	text-align: center;
+}
+.t_right {
+	text-align: right;
+}
+
+**/
 /*******************************************************************
 	DOCS LANDING PAGE
 *******************************************************************/
@@ -874,27 +890,27 @@ a:hover {
 			background-image: url(../images/docs/resources-sprite.png);
 			background-repeat: no-repeat;
 		}
-	.resource-img > .faq {
+	.resource-img > .learn {
 			.resource-sprite;
 			background-position: 0px 0px;
 		}
-	.resource-img > .features {
+	.resource-img > .whatsnew {
 			.resource-sprite;
 			background-position: -120px 0px;
 		}
-	.resource-img > .whatsnew {
+	.resource-img > .features {
 			.resource-sprite;
 			background-position: -240px 0px;
 		}
-	.resource-img > .glossary {
+	.resource-img > .faq {
 			.resource-sprite;
 			background-position: -360px 0px;
 		}
-	.resource-img > .learn {
+	.resource-img > .support {
 			.resource-sprite;
 			background-position: -480px 0px;
 		}
-	.resource-img > .support {
+	.resource-img > .glossary {
 			.resource-sprite;
 			background-position: -600px 0px;
 		}
