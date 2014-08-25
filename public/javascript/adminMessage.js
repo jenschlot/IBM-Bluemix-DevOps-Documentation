@@ -3,9 +3,9 @@
  */
 
 $(document).ready(function() {
-	$.get("/manage/service/com.ibm.team.jazzhub.common.service.IServerService/message", function(response) {
-		$("#messageSummary").html(response.message);
+	$.get("/manage/service/com.ibm.team.jazzhub.common.service.IServerService/message", function(response) {		
 		if(response.message.length > 0) {
+			$("#messageSummary").html(response.message);
 			$("#announcement").removeClass("hidden");
 		}
 	});
