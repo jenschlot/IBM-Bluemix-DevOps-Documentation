@@ -133,7 +133,7 @@ If you expand the local item, you can see all of the local branches that you hav
 
 If you expand the branch, you can see the log for that branch along with all the allowable actions next to each commit.
 
->	![Git repo expand branch](whatsnew/images/orion-git-repo-expand-branch.png)
+>	![Git repo expand branch](/whatsnew/images/orion-git-repo-expand-branch.png)
 
 Each remote can be expanded to show all of its remote branches along with applicable actions for each entry.
 
