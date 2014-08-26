@@ -602,3 +602,39 @@ a:hover {
 	.unavailable .box_wrapper .jazzhub_id {
 		margin-top: 35px;
 	}
+
+/********************************************************************
+ * Maintenance announcement outage message
+ *******************************************************************/
+ 
+ .hidden {
+ 	display: none;
+ }
+ 
+.announcement {
+	height: 31px;
+	background-color: #5bc0de;
+	color: white;
+	font-size: 0.813em;
+	text-align: center;
+	min-width: 980px;
+	overflow: hidden;
+	width: 100%;
+}
+.announcement > .messageIcon,
+.announcement > .messageSummary {		
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 5px;
+}
+
+.announcement > .messageIcon {
+	background-image: url("../images/info-white_20.png");
+	height: 20px;
+	width: 20px;
+}
+
+.announcement > .messageSummary {
+	word-wrap: break-word;
+	word-break: break-all;
+}
