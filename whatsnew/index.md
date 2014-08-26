@@ -1,6 +1,6 @@
 # What's New
 
-## September 2, 2014
+### September 2, 2014
  
 # Track & Plan Beta 
  
@@ -178,12 +178,11 @@ The configuration section is now shown as a table.
 
 >	![Git repo configuration section](/whatsnew/images/orion-git-repo-config-section.png)
 
+### June 27, 2014
 
-## June 27, 2014
+## Build and Deploy to IBM Bluemix
 
-# Build and Deploy to IBM Bluemix
-
-## Simple application deployment to IBM Bluemix for Jazz SCM projects
+### Simple application deployment to IBM Bluemix for Jazz SCM projects
 
 You can now set up Simple auto-deployment of your IBM&reg; Bluemix&trade; application for
 a Jazz&trade; SCM project. 
@@ -194,9 +193,9 @@ When Simple is turned on, any changes delivered to the configured
 Jazz SCM stream triggers a push 
 of the application to Bluemix.
 
-# General enhancements
+## General enhancements
 
-## More options when forking a project
+### More options when forking a project
 
 When you fork a project from the Web IDE, you can now select if your project is public or private, if
 you would like to add features for Scrum
@@ -205,11 +204,11 @@ and deploy to Bluemix can be changed in Project Settings after your project is c
 
 >	![fork project settings](/whatsnew/images/jh-forkproj-settings.png)
 
-## May 23rd, 2014
+### May 23rd, 2014
 
-# Improved Track & Plan
+## Improved Track & Plan
 
-## Agile tracking and planning
+### Agile tracking and planning
 
 The new Track & Plan Beta makes viewing, editing, and planning tasks fast and easy. 
 Track work for you and your team, quickly create new defects and check what's incoming. 
@@ -218,9 +217,9 @@ Also, groom your backlog and plan work for future sprints.
 ![quick planner][1]
 
 
-# Web IDE enhancements
+## Web IDE enhancements
 
-## Live preview of Markdown edits
+### Live preview of Markdown edits
 
 When you select a Markdown file for editing, 
 you will now see a side-by-side live preview of the rendered HTML. 
@@ -232,9 +231,9 @@ Check out this video about using live Markdown editing.
 
 <iframe width="640" height="390" src="//www.youtube.com/v/6FbZdz8561Y" frameborder="0" allowfullscreen></iframe>
 
-## Better file sharing
+### Better file sharing
 
-### Convenient access to binary downloads
+#### Convenient access to binary downloads
 
 If your project contains binary data such as ZIP, JAR, or PDF files, you can now easily download those files from the project overview page.
 
@@ -242,86 +241,86 @@ If your project contains binary data such as ZIP, JAR, or PDF files, you can now
 ![downloadable binaries][3]
 
 ---
-## April 24, 2014
+### April 24, 2014
 
-# General enhancements
+## General enhancements
 
-## We are now IBM DevOps Services
+### We are now IBM DevOps Services
 
 We've got a new name! [Read more][4] about the name change and what's to come.
 
-## Support for IBM ids
+### Support for IBM ids
 
 You can now sign in with your IBM id to get a more seamless experience across the IBM network.
 
 ![IBM ids][5]	
 
-## Now running Rational Team Concert 4.0.6
+### Now running Rational Team Concert 4.0.6
 
 We are running [Rational&reg; Team Concert 4.0.6][6] for tracking and planning, and Jazz source control. If you'd like to learn more, check out [what's new][7] for Rational Team Concert.
 
 
-# Build and deploy to Bluemix
+## Build and deploy to Bluemix
 
-## Simple application deployment configuration
+### Simple application deployment configuration
 
 We've created a dialog that provides more control over **Simple** application deployment.
 
 > ![Application Deployment Configuration][8]
 
 	
-## Automatic build of source code
+### Automatic build of source code
 
 You can now configure a build engine to compile your source within Git and Jazz source code repositories. If you select the Advanced option under Build & Deploy, you will be able to configure Ant builds, Grunt builds and automated unit tests. Once configured, builds will be automatically triggered when source code changes are contributed. 
 
 ![Automatic Build of Source Code][9]
 
 
-## Automatic deployment of built applications
+### Automatic deployment of built applications
 
 You now have the option to configure a Deployer to deploy built packages to Bluemix. Once you have a successfully configured Builder, select Deployer to configure your deployment options for your application. Once configured, any successful build will trigger a push of the Application to Bluemix. 
 
 ![Automatic deployments of built applications][10]
 
 
-## Track changes, build artifacts, and test completion
+### Track changes, build artifacts, and test completion
 
 Leveraging the Advanced Build & Deploy you can now drill in to your build to view build logs, view work items included in a build, download the artifacts that were produced from the build, and view the test execution. 
 
 ![Track changes, build artifacts, and test completion][11]
 
 
-## Select builds for deployment
+### Select builds for deployment
 
 You can select any build to deploy to your Bluemix space with the click of a button. To deploy a previous build, expand the desired build and select your space to deploy to. 
 
 ![Select builds for deployment][12]
 
 
-## View your deployment history
+### View your deployment history
 
 You can now view the history of Application deployments to your Bluemix space. Just click the History button from the advanced Build & Deploy page, and then click the Space link. 
 
 ![View your deployment history][13]
 	
 
-## Direct access to your Bluemix application
+### Direct access to your Bluemix application
 
 View your active deployment, with information directly from your Bluemix application. Access the application URL, and drill directly into your Bluemix application dashboard. 
 
 ![Direct access to your Bluemix application][14]
 	
 
-# Web IDE enhancements
+## Web IDE enhancements
 
-## Easier searching within folders
+### Easier searching within folders
 
 A new Scope menu at the top of the page lets you select folders to search. The scope can be cleared by deleting the scope tag that is created when you select a folder.
 
 ![Scope Search][15]
  	
 
-## Cloud Foundry deployment improvements
+### Cloud Foundry deployment improvements
 
 The Web IDE now supports deploying Cloud Foundry applications to multiple organizations and spaces. When deploy is triggered the first time, you will see a dialog to choose your target organization and space.
 
@@ -333,7 +332,7 @@ To deploy the app to a different target, choose **Deploy As > Deploy application
 ![Deploy As Dialog][17]
  
 
-## Cloud Foundry v6 manifest support
+### Cloud Foundry v6 manifest support
 
 The Web IDE now also supports deploying Cloud Foundry v6 service definitions. For example:
 
@@ -353,21 +352,21 @@ Use the timeout attribute to give your application
 more time to start, up to 180 seconds. 
 Use `no-route: true`, if your application should not be assigned routes.
 
-## Additional syntax highlighting
+### Additional syntax highlighting
 
 The Web IDE now provides syntax highlighting for C program (.c), C header (.h), C++ (.cpp) and Arduino (.pde/.ino) files.
 
 ![Additional Syntax Highlighting][18]
  	
 
-## JavaScript tooling inside HTML script blocks
+### JavaScript tooling inside HTML script blocks
 
 Much of the JavaScript tooling support is now available while working in the HTML editor. Linting support will now run on JavaScript code inside of &lt;script&gt; tags. "Show occurrences" will function when variables and functions are selected inside your scripts.
 
 ![HTML JavaScript Linting][19]
 
 
-## JavaScript validation overhaul
+### JavaScript validation overhaul
 
 The validation/linting support for JavaScript, built on ESLint, has been given an overhaul with new rules, an updated engine and more user flexibility. The validator will scan your JavaScript files (as well as HTML &lt;script&gt; tags) and add errors or warnings to the margin of the editor. Hovering provides a more detailed explanation of the issue.
 
@@ -376,20 +375,20 @@ You can now customize the warnings you see on the validation settings page. Each
 ![Validation Settings Page][20]
  	
 
-## Scoped code templates
+### Scoped code templates
 
 When activating content assist (Ctrl+Space) the JavaScript tooling support provides many code templates for common code patterns and common library usage. Previously the entire template list would be made available to the content assist proposal list, only being filtered by the characters typed. Now, the location you are in is used to scope the proposals so that only applicable code patterns are provided.
 
 ![Unscoped and Scoped Templates][21]
  	
 
-## Esprima updated
+### Esprima updated
 
 The Esprima parsing library that underpins much of the JavaScript tooling support has been updated to 1.1.0-dev.
 
-# Manage code changes better
+## Manage code changes better
 
-##Link work items to your Git commits
+###Link work items to your Git commits
 
 Add a work-item keyword and number to your Git commit 
 message to link to a work item in a Git project hosted 
@@ -402,23 +401,23 @@ project. The format for the comment is work item
 
 ![Git Comment with Link to Task Work Item][22]
 
-# Improved project management
+## Improved project management
 
-## Project members page
+### Project members page
 
 We added a page to each project where project owners can manage project membership all in one place. Go to a project that you own, and click the Members tab to try it out.
 
 ![Project Member Page][23]
  
 	
-## Toggle project visibility between public and private
+### Toggle project visibility between public and private
 
 Project owners can now change the visibility of their projects from public to private and back. To access this feature, click the Settings button within your project, and then click Options.
 
 ![Toggle Project Visibility between Public and Private][24]
 	
 
-## Project ownership transfer
+### Project ownership transfer
 
 Project owners can transfer ownership of the project to any existing project member. The project owner retains membership of the project after the transfer completes. To access this feature, click the Settings button within your project, and then click **Change Owner**.
 
@@ -426,44 +425,44 @@ Project owners can transfer ownership of the project to any existing project mem
 
 
 ---
-## February 20, 2014
+### February 20, 2014
 
-# Quicker project creation
+## Quicker project creation
 
 We know you've been wanting this one! We've shaved down the time it takes to create a project so that each new project should now display within a few seconds after you click the **Create** button on the project creation page.
 
 ![Successful Project Creation][26]
  
 
-# Convenient views into the project code
+## Convenient views into the project code
 
 The redesigned project home page allows you to see the code, even when you're not logged in. Use the built-in navigator and file viewer to browse files; whether they're stored in Jazz SCM, a Git repository, or a repository at GitHub. Also, the README.md file displays prominently so that you can easily read what developers have to say about using the code.
 
 ![New design for project home][27]
  
  
-# Git hosting
+## Git hosting
 
 Prefer Git for source control? Create a Git-hosted project from our improved project creation page.
 
 ![Git hosting][28]
  
 
-# For cloning: an easy way to copy the Git URL
+## For cloning: an easy way to copy the Git URL
 
 If you want to clone your Git repo using a client other than the Web IDE, you'll need the Git URL. We give you a convenient way to copy the URL from the project home page.
 
 ![Git URL copy][29]
   
 
-# Project settings page
+## Project settings page
 
 You can update your project's information or change options - all from the new project settings page. Try it out by clicking the Settings button within your project.
 
 ![Settings page][30]
  	
 
-# A new welcome page for My Stuff
+## A new welcome page for My Stuff
 
 The welcome page for My Stuff has been redesigned to better help you get started. Click to start a new project, or to explore existing projects that you can fork. Also, learn more about deploying your app to Bluemix.
 
@@ -471,7 +470,7 @@ The welcome page for My Stuff has been redesigned to better help you get started
  
 
 
-# New navigation features in the Web IDE
+## New navigation features in the Web IDE
 
 Menu items and a navigation bar have been added, and you can hide the navigation bar if you want to focus on coding. Context menus provide a familiar experience for accessing common commands, and keyboard shortcuts now display along side the menu items.
 
@@ -479,7 +478,7 @@ Menu items and a navigation bar have been added, and you can hide the navigation
  
  
 
-# Deployment options from the Web IDE
+## Deployment options from the Web IDE
 
 Click **Deploy** to manually push a new application to Bluemix. This type of deployment uses the contents of the manifest.yml file, and your sign in credentials. If you're editing a file you can click **Deploy As** to re-deploy to an existing application name.
 
@@ -487,7 +486,7 @@ Click **Deploy** to manually push a new application to Bluemix. This type of dep
  
 	
 
-# Auto-Deploying applications to Bluemix
+## Auto-Deploying applications to Bluemix
 
 In addition to manually deploying your applications from within the Web IDE you can also setup Auto-Deploy of your Bluemix application. If you selected the **Deploy to Bluemix** option when creating your Git-hosted project you'll find an Auto-Deployment section in the Project overview page. When this is enabled, any push to the git repository for this project will trigger a push of the Application to Bluemix using the contents of the selected branch.
 
@@ -495,13 +494,13 @@ In addition to manually deploying your applications from within the Web IDE you 
  
 
 
-# JavaScript development and code assist
+## JavaScript development and code assist
 
 The Web IDE has new capabilities for JavaScript development and code assist. Just add a small line in your JavaScript file /* jshint node:true */ to have access to content assist for common node modules plus some of the node services at Bluemix including MongoDB and Redis. Also, there is a growing list of Templates to help you get started with services such as MongoDB.
 
 ![Orion capabilities][35]
 	
-# Easier handling of multiple invitations
+## Easier handling of multiple invitations
 
 You can now accept multiple project invitations without having to leave My Stuff. To see if you have pending invitations, go to My Stuff and click View Invitations.
 
@@ -511,62 +510,62 @@ You can now accept multiple project invitations without having to leave My Stuff
 ---
 ### January 5, 2014
 
-# Rational Team Concert 4.0.5
+## Rational Team Concert 4.0.5
 
 We are now running [Rational Team Concert 4.0.5][37], which comes with [lots of new features][38]\!
 
-# Connect to projects from the Eclipse Client
+## Connect to projects from the Eclipse Client
 
 In the [Rational Team Concert 4.0.5][39] client, there is a new ***Connect to JazzHub*** feature in the Team Artifacts view.
 
 ![Connect from eclipse][40]
 
-# Mark Occurrences for JavaScript Files
+## Mark Occurrences for JavaScript Files
 
 The Web IDE now supports Mark Occurrences for JavaScript files. You can enable this feature through the Tools Menu > Settings and then within the Editor settings for Language Tools.
 
 ![Mark occurrences][41]
  
-# Outline view for JavaScript Files
+## Outline view for JavaScript Files
 
 There's also a new outliner for JavaScript files that you can change to using the View Changer.
 
 ![JavaScript Outline view][42]
 
-# Preview for Markdown Files
+## Preview for Markdown Files
 
 If you're editing a Markdown file, you can display the rendered version by toggling the visible editor on the right hand side.
 
 ![Markdown viewer][43]
 
-# Decline to Join a Project
+## Decline to Join a Project
 
 Received an invitation to join a project but don't have the time to contribute? You can now politely decline.
 
 ![Invite decline][44]
 
-# Cancel a Project Invitation
+## Cancel a Project Invitation
 
 Invited someone to join your project by mistake? You can now rescind that invitation and the user will not be able to join.
 
 ![Invite cancel][45]
 
 ---
-## November 3, 2013
+### November 3, 2013
 
-# GitHub Integration
+## GitHub Integration
 
 Already have a GitHub repository? Now you can link to your existing branch when creating a new project. We also support linking commits to work items.
 
 ![Github integration][46]
 
-# My Stuff
+## My Stuff
 
 We redesigned our home page to include the stuff that's important to you. This new My Stuff view gives you quick access to all of your projects' tasks and code, as well as feeds for invitations and requests. To try it out, visit our home page and sign in.
 
 ![My stuff page][47]
 
-# Project Delete and Rename
+## Project Delete and Rename
 
 You can now delete or rename projects, right from your project page.
 
@@ -574,29 +573,29 @@ You can now delete or rename projects, right from your project page.
 
 ![Project rename after][49]
 
-# README.md
+## README.md
 
 Want to describe and document your code? Create a README.md file in any source folder. These Markdown pages now display in the file browser.
 
 ![Readme][50]
 
-# Code Editor Settings
+## Code Editor Settings
 
 The code editor now includes a new settings window with options for fine-tuning JSLint, turning on faster auto-saving and more.
 
 ![Auto save options][51]
 
-# Easier Coding
+## Easier Coding
 
 New to the editor, block comment creation and auto-indent are recent enhancements.
 
-# Improved Work Item Editor
+## Improved Work Item Editor
 
 Can't remember a work item? Our work item editor now includes Eclipse-style content-assist and linking as-you-type.
 
 ![Rich work item editor][52]
 
-# Behind the Scenes
+## Behind the Scenes
 
 We've also been working behind the scenes to improve performance and streamline your user experience.
 
