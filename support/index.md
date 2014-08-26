@@ -1,5 +1,3 @@
-#Support
-
 ##[IBM DevOps Services forum](https://developer.ibm.com/answers?community=jazzhub)
 
 ##[Bluemix forum](https://developer.ibm.com/answers?community=bluemix)
