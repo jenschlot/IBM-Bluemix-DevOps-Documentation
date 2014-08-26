@@ -25,12 +25,18 @@ ____
 
 <a name="q1"></a>
 
-### I see JazzHub is now called IBM DevOps Services. Can you tell me more? 
+### I see JazzHub is now called IBM&reg; DevOps Services. Can you tell me more? 
 
-JazzHub has a new name. The JazzHub of today began life as an experimental development collaboration hub for academia and researchers, which was based on IBM&reg; Jazz&trade; technology. IBM learned a lot from that experience, and since then, IBM implemented JazzHub again in the cloud and opened it up to everyone.
+JazzHub has a new name. The JazzHub of today began life as an experimental development collaboration hub for 
+academia and researchers, which was based on IBM&reg; Jazz&trade; technology. IBM learned a lot from that 
+experience, and since then, IBM implemented JazzHub again in the cloud and opened it up to everyone.
 
 IBM integrated the [Eclipse](http://eclipse.org/ "Eclipse") Orion Web IDE and introduced the ability to deploy applications directly to the [IBM Bluemix&trade; cloud platform](https://bluemix.net/ "Bluemix"). IBM also 
-plans to expand that capability to include continuous integration, unit testing, and deployment that is based on Jenkins and IBM UrbanCode. With these new capabilities and more to come, JazzHub builds on the core Jazz services to provide a good environment for cloud application development. To reflect the expanded role of JazzHub in the IBM family, IBM is renaming it "IBM DevOps Services." JazzHub continues to refer to the underlying technology stack as "Powered by JazzHub."
+plans to expand that capability to include continuous integration, unit testing, and deployment that is based 
+on Jenkins and IBM UrbanCode. With these new capabilities and more to come, JazzHub builds on the core 
+Jazz services to provide a good environment for cloud application development. 
+To reflect the expanded role of JazzHub in the IBM family, IBM is renaming it "IBM DevOps Services." 
+JazzHub continues to refer to the underlying technology stack as "Powered by JazzHub."
 
 <a name="q2"></a>
 
@@ -53,14 +59,17 @@ IBM developed the following tutorials to help you get started.
 
 <a name="rtcgit"></a>
 
-### Why does my sign in to DevOps Services fail from my Rational Team Concert desktop client or Git client? 
+### Why does my sign in to DevOps Services fail from my Rational Team Concert&trade; desktop client or Git client? 
 
-You can now sign in to DevOps Services with your Jazz ID or your IBM ID. You are likely reading this FAQ because of one of these reasons:
-* You use an IBM ID to access DevOps Services, and you cannot sign in to DevOps Services from your Rational Team Concert desktop client
-* You see an authentication failure when you try to access your Git repository from your local Git client.
-This failure is probably because your IBM ID and Jazz ID are linked, and you did not use your IBM ID password with your Jazz ID. To fix this problem, you must sign in with your Jazz ID and IBM ID password.
+Sign-in to DevOps Services from a web browser requires an IBM id linked with your Jazz ID. 
+Once your IDs are linked, you must use your Jazz ID and IBM id password to sign in to DevOps Services 
+from your Rational® Team Concert desktop client or access your Git repository from your local Git client. 
+Attempts to use your Jazz ID and password will fail.
 
-This odd combination of Jazz ID and IBM ID password is required to support the desktop-client users who created data with Jazz IDs. Desktop-client users include those who use Rational Team Concert clients for Eclipse and Visual Studio, as well as any local Git client. So, for now, new or existing desktop-client users must sign in with their Jazz ID and IBM ID password when they connect to DevOps Services.
+This odd combination of Jazz ID and IBM id password is required to support the desktop-client users who created 
+data with Jazz IDs. Desktop-client users include those who use Rational Team Concert clients for Eclipse and 
+Visual Studio, as well as any local Git client. So, for now, new or existing desktop-client users 
+must sign in with their Jazz ID and IBM id password when they connect to DevOps Services.
 
 <a name="git"></a>
 
