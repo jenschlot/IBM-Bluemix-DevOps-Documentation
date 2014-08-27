@@ -61,6 +61,21 @@ _.each(
 );
 
 _.each(
+	config.resource,
+	function (resource) {
+		app.use(
+			resource.uri_prefix, 
+			routes.resource_router(app.get('env'), 
+					      resource.section_name,
+					      resource.resource_name, 
+					      resource.img_icon,
+					      path.join(__dirname, resource.directory)
+			)
+		);
+	}
+);
+
+_.each(
 	config.content,
 	function (content) {
 		app.use(

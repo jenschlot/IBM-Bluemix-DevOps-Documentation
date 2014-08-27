@@ -449,7 +449,45 @@ a img {
 	border: 0px;
 }
 
-/* For help/faq page. */
+/*********************************************************************
+
+						TABLE OF CONTENTS
+
+**********************************************************************
+
+1.0 CSS for markdown pages
+
+	1.1 Help FAQ Page Markdown pages
+
+	1.2 CSS for codeblocks on Markdown pages
+
+	1.3 CSS for tables on Markdown pages
+
+2.0 404 Error Page
+
+3.0 Docs Landing Page
+
+	3.1 Featured Docs Section
+		3.1.1
+	3.2 Key Resources Section
+
+	3.3 Topics Section
+**********************************************************************
+
+						End of TOC
+
+*********************************************************************/
+
+
+
+
+
+
+/*******************************************************************
+1.0 CSS for markdown pages
+*******************************************************************/
+
+/*******************1.1 For help/faq page ************************/
 .google-chrome {
 	background-color: #fde907;
 	width: 24%;
@@ -475,8 +513,7 @@ a img {
 }
 
 
-/** CSS for rendering code using the markdown syntax **/
-
+/******************* 1.2 CSS for Codeblocks *********************/
 pre, code, tt {
 	font-size: 14px;
 	font-family: Consolas, "Liberation Mono", Courier, monospace;
@@ -515,8 +552,7 @@ pre code, pre tt {
 }
 
 
-
-/** CSS for rendering tables using markedown syntax **/
+/***************** 1.3 CSS for rendering tables **************/
 
 table
 {
@@ -540,6 +576,7 @@ table th {
 table th:empty {
 	background-color: #ffffff;
 	color: #26343F;
+	display: none;
 }
 table tr:nth-child(2n)
 {
@@ -557,7 +594,9 @@ table tr th, table tr td
 	word-wrap: break-word;
 }
 
-/** CSS for the 404 error page **/
+/******************************************************************
+ 2.0 404 Error Page 
+ ******************************************************************/
 
 a:link, a:visited {
 	color: #00649D;
@@ -614,22 +653,11 @@ a:hover {
 		margin-top: 35px;
 	}
 
-/************* TEXT ALIGN **********************
-
-.t_left {
-	text-align: left;
-}
-.t_center {
-	text-align: center;
-}
-.t_right {
-	text-align: right;
-}
-
-**/
 /*******************************************************************
-	DOCS LANDING PAGE
+3.0 Docs Landing Page
 *******************************************************************/
+
+/** CSS for the Featured Docs section of the Docs Landing page **/
 
 #featured-docs {
 	background-color: #3b4b54;
@@ -663,9 +691,6 @@ a:hover {
 			padding-top: 18px;
 			padding-right: 3.0em;
 		}
-	/*	div#doc-container-r .stem, div#doc-container-r .hex-container {
-			float: right;
-		}*/
 	}
 
 	.hex-container {
@@ -860,6 +885,7 @@ a:hover {
 		text-decoration: none;
 	}
 
+/** CSS for TOPICS section of the Docs Landing page **/
 
 #key-resources {
 	background-color: #ffffff;
@@ -924,6 +950,55 @@ a:hover {
 		color: #26343f;
 	}
 
+/** Key Resource Sub pages header CSS **/
+
+	#resource-header {
+		background-color: #03829e;
+		color: #ffffff;
+		padding: 15px 0px 15px 0px;
+	}
+		.resource-header-name {
+			font-size: 2.0rem;
+			font-weight: bold;
+			margin-left: -35px;
+		}
+		@media (min-width: 992px) {
+				.col-center {
+				margin: 0 auto;
+				}
+		}
+
+		.vcenter {
+		    display: inline-block;
+		    vertical-align: middle;
+		    float: none;
+		    padding: 10px 0px 10px 25px;
+		}
+
+		div.resource {
+			padding: 0px 90px 30px 90px;
+		}
+		.resource > a {
+			color: #00aed1;
+		}
+
+		.resource > h2 {
+			font-size: 1.6rem;
+		}
+		.resource > h3 {
+			font-size: 1.3rem;
+		}
+
+		.resource img {
+			background-repeat: no-repeat;
+			background-position: center center;
+			display: block;
+			max-width: 950px;
+			border: 1px solid #E0E0E0;
+			padding: 0.3125em;
+			margin: 2.5em auto;
+		}
+
 	a.resource ,a.resource:hover {
 	text-decoration: none;
 	}
@@ -936,6 +1011,8 @@ a:hover {
 		text-decoration: none;
 		color: #03829e;
 	}
+
+/** CSS for TOPICS section of the Docs Landing page **/
 
 #topics {
 	background-color: #94a3ab;
@@ -958,6 +1035,7 @@ a:hover {
 		width: 136px;
 		overflow: hidden;
 		border: 8px solid #dee6eb;
+		background-color: #dee6eb;
 		border-radius: 50%;
 	}
 
@@ -971,11 +1049,12 @@ a:hover {
 
 	.topic-sprite {
 			float: none;
-			position: absolute;
+			position: relative;
 			height: 120px;
 			width: 120px;
 			background-image: url(../images/docs/circle-sprites-alt.png);
 			background-repeat: no-repeat;
+			display: inline-block;
 		}
 
 	.topic-img > .nodejs {
@@ -1026,7 +1105,7 @@ a:hover {
 			.topic-sprite;
 			background-position: 0px -1320px;
 		}
-	.topic-img > .hackathon {
+	.topic-img > .hackathons {
 			.topic-sprite;
 			background-position: 0px -1440px;
 		}
@@ -1040,11 +1119,26 @@ a:hover {
 	}
 	a.topic-section:hover .topic-img {
 		border: 8px solid #26343f;
+		background-color: #26343f;
 		opacity: 0.9;
 	}
 	a.topic-section:hover .topic-name {
 		text-decoration: none;
 		color: #dee6eb;
+	}
+
+
+/** Topics subpages header css **/
+
+#topic-header {
+		background-color: #3b4b54;
+		color: #ffffff;
+		padding: 15px 0px 15px 0px;
+}
+	.topic-header-name {
+		font-size: 2.0rem;
+		font-weight: bold;
+		margin-left: -35px;
 	}
 
 
@@ -1067,54 +1161,44 @@ a:hover {
 			color: #94a3ab;
 		}
 
-	#topic-header {
-		background-color: #3b4b54;
-		color: #ffffff;
-		padding: 15px 0px 15px 0px;
+		.topic img {
+			background-repeat: no-repeat;
+			background-position: center center;
+			display: block;
+			max-width: 950px;
+			border: 1px solid #E0E0E0;
+			padding: 0.3125em;
+			margin: 2.5em auto;
+		}
+
+
+/*****************************************************************************
+		Breadcrumb CSS for Topics and Key Resource sub pages 
+*****************************************************************************/
+
+	.breadcrumb {
+		margin: 0px -15px 0 -15px;
+		padding-left: 25px;
+		font-size: 16px;
 	}
-		.topic-header-name {
-			font-size: 1.2rem;
-			font-weight: bold;
-			margin-left: -35px;
-		}
-		@media (min-width: 992px) {
-				.col-center {
-				margin: 0 auto;
-				}
-		}
-
-		.vcenter {
-		    display: inline-block;
-		    vertical-align: middle;
-		    float: none;
-		    padding: 10px 0px 10px 25px;
-		}
-
-		.breadcrumb {
-			margin: 0px -15px 0 -15px;
-			padding-left: 25px;
-			font-size: 16px;
-		}
-		.breadcrumb li {
-			display: inline;
-			color: #26343F;
-		}
-		.breadcrumb li a {
-			text-decoration: none;
-			color: #26343F;
-		}
-		.breadcrumb li a:hover{
-			text-decoration: none;
-			color: #00aed1;
-		}
-		.breadcrumb li+li:before {
-			content: ' > ';
-			color: #94a3ab;
-			padding-left: 6px;
-			padding-right: 6px;
-		}
-		.breadcrumb .current {
-			color: #94a3ab;
-		}
-
-/** featured doc hit box **/
+	.breadcrumb li {
+		display: inline;
+		color: #26343F;
+	}
+	.breadcrumb li a {
+		text-decoration: none;
+		color: #26343F;
+	}
+	.breadcrumb li a:hover{
+		text-decoration: none;
+		color: #00aed1;
+	}
+	.breadcrumb li+li:before {
+		content: ' > ';
+		color: #94a3ab;
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+	.breadcrumb .current {
+		color: #94a3ab;
+	}
