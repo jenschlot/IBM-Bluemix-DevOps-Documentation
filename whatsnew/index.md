@@ -1,5 +1,20 @@
 # What's New
 
+## August 7, 2014
+
+# Track & Plan Beta updates
+
+You can now use the All Work view to see all the work items that are associated with your IBM&reg; 
+DevOps Services Track & Plan Beta project. Use this view to see both incoming items and items that are assigned to sprints. 
+
+>	![all work view](/whatsnew/images/all-work-view.gif)
+
+Notable UI design changes:
+ * When you change views, you will see only the items in your current sprint. To view another sprint, click **Sprint 1 (Current Sprint)**
+and select the sprint from the list.
+ * The options to create or edit sprints are available only in the Sprint Planning view.
+
+
 ## June 27, 2014
 
 # Build and Deploy to IBM Bluemix
