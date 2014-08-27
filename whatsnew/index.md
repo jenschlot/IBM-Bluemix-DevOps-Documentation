@@ -4,8 +4,7 @@
 
 # General enhancements
 
-## Our BUILD & DEPLOY and TRACK & PLAN features are now Bluemix Add-Ons to provide 
-for a better integrated Bluemix experience.
+## Our BUILD & DEPLOY and TRACK & PLAN features are now Bluemix Add-Ons to provide a better integrated Bluemix experience
 
 The Track & Plan Add-On provides a listing of your IDS projects and their member count, 
 visibility, and whether or not the TRACK & PLAN capability is enabled. 
