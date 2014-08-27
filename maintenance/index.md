@@ -19,7 +19,7 @@ The duration of these outage windows is variable depending upon what needs to be
 | 08/21/2014 | Thursday | CANCELLED  | CANCELLED   |
 | 08/23/2014 | Saturday | CANCELLED  | CANCELLED   |
 | 08/26/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
-| 08/28/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 08/28/2014 | Thursday | CANCELLED  | CANCELLED  	|
 | 08/30/2014 | Saturday | CANCELLED  | CANCELLED  |
 
 
