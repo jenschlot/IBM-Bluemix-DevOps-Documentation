@@ -21,3 +21,22 @@ The duration of these outage windows is variable depending upon what needs to be
 | 08/26/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
 | 08/28/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
 | 08/30/2014 | Saturday | 7:00 - 09:00AM EDT  | 2 hours  |
+
+
+## September 2014
+
+| Date       | Day      | Time                | Duration |
+|------------|----------|---------------------|----------|
+| 09/02/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
+| 09/04/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 09/06/2014 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
+| 09/09/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
+| 09/11/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 09/13/2014 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
+| 09/16/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
+| 09/18/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 09/20/2014 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
+| 09/23/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
+| 09/25/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 09/27/2014 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
+| 09/30/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
