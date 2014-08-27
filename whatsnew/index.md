@@ -4,9 +4,7 @@
 
 # General enhancements
 
-## Enhance your development experience in Bluemix with our Track & Plan and Delivery Pipeline Add-Ons
-
-Our BUILD & DEPLOY and TRACK & PLAN features are now Bluemix Add-Ons to provide 
+## Our BUILD & DEPLOY and TRACK & PLAN features are now Bluemix Add-Ons to provide 
 for a better integrated Bluemix experience.
 
 The Track & Plan Add-On provides a listing of your IDS projects and their member count, 
@@ -25,8 +23,9 @@ most recent deployments, or easily navigate to your most recent build logs or de
 >	![Delivery Pipeline](/whatsnew/images/deliverypipeline.png)
 
 
-You will be required to configure these Add-Ons if your project exceeds free TRACK & PLAN or BUILD & DEPLOY usage. 
-Learn more about Bluemix pricing [here](https://hub.jazz.net/learn/cost). 
+If your project exceeds free TRACK & PLAN or BUILD & DEPLOY usage, 
+you will need to configure these Add-Ons in Bluemix. 
+Learn more about [Bluemix pricing](https://hub.jazz.net/learn/cost). 
 
 # Web IDE enhancements
 
