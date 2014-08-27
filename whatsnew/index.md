@@ -6,7 +6,7 @@
 
 ## Enhance your development experience in Bluemix with our Track & Plan and Delivery Pipeline Add-Ons
 
-Our BUILD & DEPLOY and our TRACK & PLAN features are now Bluemix Add-Ons to provide 
+Our BUILD & DEPLOY and TRACK & PLAN features are now Bluemix Add-Ons to provide 
 for a better integrated Bluemix experience.
 
 The Track & Plan Add-On provides a listing of your IDS projects and their member count, 
