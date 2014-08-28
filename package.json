@@ -16,6 +16,6 @@
     "morgan": "*",
     "errorhandler": "*",
     "underscore": "*",
-    "proxy-middleware": "*"
+    "dustjs-helpers": "*"
   }
 }

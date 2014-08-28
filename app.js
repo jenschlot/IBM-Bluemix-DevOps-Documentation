@@ -37,10 +37,46 @@ _.each(['/tutorials', '/tutorials/landing'],
        }
 );
 
+_.each(['/docs'],
+       function(i) {
+		app.get(i, routes.docs)
+       }
+);
 /*
  * Depending on the request path, try to load and render the corresponding markdown source.
  * See config.json for a rundown of which prefixes load what.
  */
+ 
+_.each(
+	config.topic,
+	function (topic) {
+		app.use(
+			topic.uri_prefix, 
+			routes.topic_router(app.get('env'), 
+					      topic.section_name,
+					      topic.topic_name,
+					      topic.img_icon, 
+					      path.join(__dirname, topic.directory)
+			)
+		);
+	}
+);
+
+_.each(
+	config.resource,
+	function (resource) {
+		app.use(
+			resource.uri_prefix, 
+			routes.resource_router(app.get('env'), 
+					      resource.section_name,
+					      resource.resource_name, 
+					      resource.img_icon,
+					      path.join(__dirname, resource.directory)
+			)
+		);
+	}
+);
+
 _.each(
 	config.content,
 	function (content) {
@@ -60,7 +96,12 @@ _.each(
  * be called while the app is on beta3, qa, or prod.  It's only used for local testing while the app
  * is not behind a proxy.
  */
-app.use('/', proxy(url.parse(config.jazzhub.url)));
+app.use(
+	// Any requests outside of the ones above will be deferred to JazzHub
+	function (req, res, next) {
+		res.redirect(config.jazzhub.url + req.url.replace(/^\/*/, ''));
+	}
+);
 
 /*
  * Configure and start the server.
