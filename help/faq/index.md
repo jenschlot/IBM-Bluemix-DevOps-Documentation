@@ -61,10 +61,11 @@ IBM developed the following tutorials to help you get started.
 
 ### Why does my sign in to DevOps Services fail from my Rational Team Concert&trade; desktop client or Git client? 
 
-Sign-in to DevOps Services from a web browser requires an IBM id linked with your Jazz ID. 
-Once your IDs are linked, you must use your Jazz ID and IBM id password to sign in to DevOps Services 
-from your Rational® Team Concert desktop client or access your Git repository from your local Git client. 
-Attempts to use your Jazz ID and password will fail.
+To sign in to DevOps Services from a web browser, you must first link an IBM id with a Jazz ID. 
+After you link your IDs, you must use the combination of your Jazz ID and your IBM password to 
+sign in to DevOps Services from your Rational Team Concert&trade; desktop client or to access a Git 
+repository from your local Git client. This combination of Jazz ID and IBM password is required 
+to support desktop-client users who created data with Jazz IDs.
 
 This odd combination of Jazz ID and IBM id password is required to support the desktop-client users who created 
 data with Jazz IDs. Desktop-client users include those who use Rational Team Concert clients for Eclipse and 
