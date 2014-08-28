@@ -1,5 +1,5 @@
 # FAQs
-##### Updated on August 14, 2014
+##### Updated on August 28, 2014
 
 Can't find the answer to your question here? [Check out our forum](https://www.ibmdw.net/answers?community=jazzhub).
 ____
