@@ -10,7 +10,7 @@ ____
 -   [What additional help resources are available?](#q17)
 -   [Why does my attempt to sign in to DevOps Services fail from my Rational Team
     Concert desktop client or Git client?](#rtcgit)
-    [Why can I no longer sign in to DevOps Services by using my Jazz ID?](login)
+-   [Why can I no longer sign in to DevOps Services by using my Jazz ID?](#login)
 -   [Can I connect my project to a Github repository?](#git)
 -   [Is DevOps Services right for me if our team is not developing
     code?](#q5)
@@ -69,10 +69,12 @@ sign in to DevOps Services from a web browser. However, you use the combination 
  solution: the goal is to move toward a single sign-on experience with an IBM id.
 
 <a name="login"></a>
+
 ### Why can I no longer sign in to DevOps Services by using my Jazz ID?
 
 The goal for all IBM services is to provide access through a single IBM id. IBM DevOps Services, formerly known as JazzHub, initially required a Jazz ID to sign in. To move toward a single sign-on experience, DevOps Services now offers the following sign-in methods: 
 IBM users can sign in with their IBM id, Jazz users must link their Jazz ID with an IBM id to sign in.
+
 <a name="git"></a>
 
 ### Can I connect my project to a Github repository? 
