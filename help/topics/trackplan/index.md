@@ -28,7 +28,6 @@ Topics: devops_services, bluemix, nodejs, track
 ### Video tutorial: [Simple Sprint Planning for a Node.js App! (2:01 min)](http://www.youtube.com/watch?v=0TmY9tHIPfM)   <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
 Topics: devops_services, bluemix, nodejs, plan
 
-<<<<<<< HEAD
 ### Workshop: [Using IBM DevOps Services & Bluemix Services: Part 3, Planning, Tracking, & Leveraging New BlueMix Services](https://developer.ibm.com/bluemix/docs/workshops/using-ibm-devops-services-bluemix-services-part-3-planning-tracking-leveraging-new-bluemix-services/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
 Topics: bluemix, devops_services, plan, track, twilio, webide
 
