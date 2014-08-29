@@ -10,25 +10,25 @@ Topics: bluemix, nodejs, webide, devops_services, git, pipeline, manifest
 ### Tutorial: [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)  
 Topics: devops_services, bluemix, java, eclipse, jazz_scm, pipeline, rtc
 
-### Article: [Jump-start your hackathon efforts with DevOps Services and Bluemix](http://www.ibm.com/developerworks/cloud/library/cl-hackathon-app/index.html)  
+### Article: [Jump-start your hackathon efforts with DevOps Services and Bluemix](http://www.ibm.com/developerworks/cloud/library/cl-hackathon-app/index.html)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
 Topics: devops_services, bluemix, mongodb, nodejs, pipeline, jade, git, webide
 
-### Video: [IBM Codename: BlueMix DevOps Services for Rapid Software Delivery (Cloud Foundry Summit 2014) (5:14 min)](https://www.youtube.com/watch?v=fkHSYJJ6KVs)  
+### Video: [IBM Codename: BlueMix DevOps Services for Rapid Software Delivery (Cloud Foundry Summit 2014) (5:14 min)](https://www.youtube.com/watch?v=fkHSYJJ6KVs)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
 Topics: devops_services, bluemix, cloud_foundry, pipeline, track 
 
-### Video: [Dan Berg demonstrates the IBM DevOps Services and Bluemix integration (7:25 min)](https://www.youtube.com/watch?v=EHng3L2JScU)  
+### Video: [Dan Berg demonstrates the IBM DevOps Services and Bluemix integration (7:25 min)](https://www.youtube.com/watch?v=EHng3L2JScU)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
 Topics: devops_services, bluemix, track, MQA, webide, pipeline, nodejs
 
-### Workshop: [See how to deploy and make changes to a simple application using DevOps Services and Bluemix.  (Workshop part 1 of 3)](https://developer.ibm.com/bluemix/docs/workshops/adding-using-bluemix-services-leveraging-ibm-devops-services/)  
+### Workshop: [See how to deploy and make changes to a simple application using DevOps Services and Bluemix.  (Workshop part 1 of 3)](https://developer.ibm.com/bluemix/docs/workshops/adding-using-bluemix-services-leveraging-ibm-devops-services/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
 Topics: bluemix, devops_services, pipeline, webide
 
-### Workshop: [Using IBM DevOps Services & Bluemix Services: Part 2, Deploying an App that Uses a Bluemix Service](https://developer.ibm.com/bluemix/docs/workshops/using-ibm-devops-services-bluemix-services-part-2-deploying-app-uses-bluemix-service/)  
+### Workshop: [Using IBM DevOps Services & Bluemix Services: Part 2, Deploying an App that Uses a Bluemix Service](https://developer.ibm.com/bluemix/docs/workshops/using-ibm-devops-services-bluemix-services-part-2-deploying-app-uses-bluemix-service/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
 Topics: bluemix, devops_services, pipeline, mongodb
 
-### Workshop: [Node.js Apps with IBM DevOps Services and Bluemix](https://developer.ibm.com/bluemix/docs/workshops/node-js-apps-ibm-devops-services-powered-jazzhub-ibm-codename-bluemix/)  
+### Workshop: [Node.js Apps with IBM DevOps Services and Bluemix](https://developer.ibm.com/bluemix/docs/workshops/node-js-apps-ibm-devops-services-powered-jazzhub-ibm-codename-bluemix/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
 Topics: bluemix, devops_services, pipeline, edit, nodejs
 
-### Video: [Develop and Deploy Software in the Cloud with JazzHub (37:27 min)](http://www.youtube.com/watch?v=tLbv7iLAPQI)  
+### Video: [Develop and Deploy Software in the Cloud with JazzHub (37:27 min)](http://www.youtube.com/watch?v=tLbv7iLAPQI)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
 Topics: devops_services, PaaS, git, webide, pipeline, git
 
 &copy; Copyright IBM Corporation 2013, 2014.
