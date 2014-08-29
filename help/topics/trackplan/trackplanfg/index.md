@@ -1,4 +1,4 @@
-[Back to Docs](../../docs)
+[Back to Track and Plan](../)
 
 #Explore the Track & Plan Beta feature
 
