@@ -468,19 +468,28 @@ a img {
 3.0 Docs Landing Page
 
 	3.1 Featured Docs Section
-		3.1.1
+		3.1.1 Hex tile icons
+		3.1.2 Hex icons positions
+		3.1.3 Hexagons hover behaviour
+
 	3.2 Key Resources Section
+		3.2.1 Key Resources Icons
+		3.2.2 Key Resources Subpages
+		3.2.3 Key Resources Hover
 
 	3.3 Topics Section
+		3.3.1 All Docs Button
+		3.3.2 Topics Icons
+		3.3.3 Topics Subpages
+		3.3.4 Topics Hover behaviou
+
+	3.4 Breadcrumb CSS
+
 **********************************************************************
 
-						End of TOC
+						End Table of Contents
 
 *********************************************************************/
-
-
-
-
 
 
 /*******************************************************************
@@ -580,7 +589,7 @@ table th:empty {
 }
 table tr:nth-child(2n)
 {
-	background-color:#dee6eb;
+	background-color:#eeeeee;
 }
 table tr th[align="center"], table tr td[align="center"] {
 	text-align:center;
@@ -657,7 +666,7 @@ a:hover {
 3.0 Docs Landing Page
 *******************************************************************/
 
-/** CSS for the Featured Docs section of the Docs Landing page **/
+/***************** 3.1 Featured Docs Section **********************/
 
 #featured-docs {
 	background-color: #3b4b54;
@@ -665,14 +674,14 @@ a:hover {
 }
 
 	#doc-container-l {
-		padding-left: 3.0em;
+		padding-left: 2.5em;
 		padding-bottom: 18px;
 		padding-top: 18px;
 		padding-right: 9px;
 	}
 
 	#doc-container-r {
-		padding-right: 3.0em;
+		padding-right: 2.5em;
 		padding-bottom: 18px;
 		padding-top: 18px;
 		padding-left: 9px;
@@ -694,27 +703,21 @@ a:hover {
 	}
 
 	.hex-container {
+		display: inline-block;
 		padding: 0px;
 	}
 
 	.callout {
-		vertical-align: middle;
-		padding: 12px;
+		padding: 15px;
 		border: 0px solid transparent;
 		border-radius: 15px;
 		background-color: #26343f;
 	}
-
-	.callout-one-line {
-		margin-top: 17px;
+	.callout > p {
+		margin-bottom: 0px;
 	}
-
-	.callout-two-line {
-		margin-top: 8px;
-
-	}
-	.callout-three-line {
-		/*blank*/
+	.description > strong {
+		color: #fff;
 	}
 
 	.stem {
@@ -726,8 +729,8 @@ a:hover {
 		margin-top: 0px;
 		margin-bottom: 0px;
 		border: 4px solid #26343f;
-		margin-left: -4px ;
-		margin-right: -4px;
+		margin-left: -5px ;
+		margin-right: -5px;
 	}
 
 	.hex {
@@ -746,74 +749,65 @@ a:hover {
 	}
 	.description {
 		text-align: center;
-		color: #ffffff;
-		font-size: 0.9rem;
+		color: #ddd;
+		font-size: 1rem;
+	}
+
+	/******************* 3.1.1 Hex tile icons *************************/
+
+	.hex-tile-position {
+		position: absolute;
+		width: 120px;
+		height: 104px;
+		background-repeat: no-repeat;
+		z-index: 1;
 	}
 
 	span.hex-builddeploy {
-		position: absolute;
-		width: 120px;
-		height: 104px;
+		.hex-tile-position;
 		background-image: url(../images/docs/hexagons-builddeploy.png);
-		background-repeat: no-repeat;
-		z-index: 1;
+		
 	}
 	span.hex-bluemix {
-		position: absolute;
-		width: 120px;
-		height: 104px;
+		.hex-tile-position;
 		background-image: url(../images/docs/hexagons-bm.png);
-		background-repeat: no-repeat;
-		z-index: 1;
+		
 	}
 	span.hex-eclipse {
-		position: absolute;
-		width: 120px;
-		height: 104px;
+		.hex-tile-position;
 		background-image: url(../images/docs/hexagons-eclipse.png);
-		background-repeat: no-repeat;
-		z-index: 1;
+		
 	}
 	span.hex-java {
-		position: absolute;
-		width: 120px;
-		height: 104px;
+		.hex-tile-position;
 		background-image: url(../images/docs/hexagons-java.png);
-		background-repeat: no-repeat;
-		z-index: 1;
+		
 	}
 	span.hex-jazzhub {
-		position: absolute;
-		width: 120px;
-		height: 104px;
+		.hex-tile-position;
 		background-image: url(../images/docs/hexagons-jazzhub.png);
-		background-repeat: no-repeat;
-		z-index: 1;
+		
 	}
 	span.hex-mobile {
-		position: absolute;
-		width: 120px;
-		height: 104px;
+		.hex-tile-position;
 		background-image: url(../images/docs/hexagons-mobile.png);
-		background-repeat: no-repeat;
-		z-index: 1;
+		
 	}
 	span.hex-node {
-		position: absolute;
-		width: 120px;
-		height: 104px;
+		.hex-tile-position;
 		background-image: url(../images/docs/hexagons-node.png);
-		background-repeat: no-repeat;
-		z-index: 1;
+		
 	}
 	span.hex-trackplan {
-		position: absolute;
-		width: 120px;
-		height: 104px;
+		.hex-tile-position;
 		background-image: url(../images/docs/hexagons-trackplan.png);
-		background-repeat: no-repeat;
-		z-index: 1;
+		
 	}
+
+	/******************* 3.1.2 Hex icons positions *************************/
+
+	/***Note: The first image in sprite on the top left corner is pos-0.
+	          pos-# increases as you move in the right direction.         */
 	.pos-0 {
 		background-position: 0px 0px;
 	}
@@ -851,13 +845,15 @@ a:hover {
 		background-position: -420px 0px;
 	}
 
+	/******************* 3.1.3 Hexagons hover behaviour *************************/
+
 	a.section, a.section:hover {
 	text-decoration: none;
 	}
 	a.section:hover .title-name {
 			color: #F26C4F;
 	}
-	a.section:hover .description {
+	a.section:hover .description, a.section:hover .description > strong {
 			color: #2a3a12;
 	}
 	a.section:hover .hex {
@@ -873,19 +869,7 @@ a:hover {
 		border: 4px solid #dee6eb;
 	}
 
-	a.btn-dark {
-	background-color: #26343f;
-	color: #dee6eb;
-	text-decoration: none;
-	}
-
-	a.btn-dark:hover {
-		background-color: #dee6eb;
-		color: #2a3a12;
-		text-decoration: none;
-	}
-
-/** CSS for TOPICS section of the Docs Landing page **/
+/***************** 3.2 Key Resources Section **********************/
 
 #key-resources {
 	background-color: #ffffff;
@@ -899,7 +883,33 @@ a:hover {
 	div#key-resources .col-center {
 		margin: 0 auto;
 	}
-	
+
+	/************ 3.2.1 Key Resources Icons ********************/
+
+	div#key-resources .col-center {
+		margin: 0 auto;
+	}
+	@media(min-width: 992px) {
+		.resource-container {
+			width: 20%;
+		}
+	}
+	@media(max-width: 991px) {
+		.resource-container{
+			width: 25%;
+		}
+	}
+	@media(max-width: 768px) {
+		.resource-container {
+			width: 33%;
+		}
+	}
+	.resource-container {
+		display: inline-block;
+		padding: 10px;
+		vertical-align: top;
+	}
+
 	.resource-img {
 		height: 136px;
 		width: 136px;
@@ -910,12 +920,18 @@ a:hover {
 
 	.resource-sprite {
 			float: none;
-			position: absolute;
+			position: relative;
+			display: inline-block;
 			height: 120px;
 			width: 120px;
 			background-image: url(../images/docs/resources-sprite.png);
 			background-repeat: no-repeat;
+			z-index: 1;
 		}
+
+	/***Note: Ensure that the class name for a key resource icon is same 
+	          as the 'resource_name' entry in the config.json file.      */
+
 	.resource-img > .learn {
 			.resource-sprite;
 			background-position: 0px 0px;
@@ -950,7 +966,7 @@ a:hover {
 		color: #26343f;
 	}
 
-/** Key Resource Sub pages header CSS **/
+	/************ 3.2.2 Key Resources Subpages ********************/
 
 	#resource-header {
 		background-color: #03829e;
@@ -962,19 +978,7 @@ a:hover {
 			font-weight: bold;
 			margin-left: -35px;
 		}
-		@media (min-width: 992px) {
-				.col-center {
-				margin: 0 auto;
-				}
-		}
-
-		.vcenter {
-		    display: inline-block;
-		    vertical-align: middle;
-		    float: none;
-		    padding: 10px 0px 10px 25px;
-		}
-
+		
 		div.resource {
 			padding: 0px 90px 30px 90px;
 		}
@@ -989,6 +993,18 @@ a:hover {
 			font-size: 1.3rem;
 		}
 
+		.resource > p {
+			line-height: 1.4rem;
+		}
+
+		.resource > ul {
+			.mtm;
+			.mbm;
+			li {
+				margin: (@jh-base-em*2em) 0;
+			}
+		}
+
 		.resource img {
 			background-repeat: no-repeat;
 			background-position: center center;
@@ -999,31 +1015,62 @@ a:hover {
 			margin: 2.5em auto;
 		}
 
-	a.resource ,a.resource:hover {
+	/************ 3.2.3 Key Resources Hover ********************/
+
+	a.resource-section ,a.resource-section:hover {
 	text-decoration: none;
 	}
 	
-	a.resource:hover .resource-img {
+	a.resource-section:hover .resource-img {
 		border: 8px solid #94A3AB;
 		opacity: 1;
 	}
-	a.resource:hover .resource-name {
+	a.resource-section:hover .resource-name {
 		text-decoration: none;
 		color: #03829e;
 	}
 
-/** CSS for TOPICS section of the Docs Landing page **/
+/***************** 3.3 Topics Section **********************/
 
 #topics {
 	background-color: #94a3ab;
 }
+	/************* 3.3.1 All Docs Button **********************/
+	a.btn-dark {
+	background-color: #26343f;
+	color: #dee6eb;
+	text-decoration: none;
+	}
+
+	a.btn-dark:hover {
+		background-color: #dee6eb;
+		color: #2a3a12;
+		text-decoration: none;
+	}
+
+	/************* 3.3.2 Topics Icons ************************/
 
 	div#topics .col-center {
 		margin: 0 auto;
 	}
 
+	@media(min-width: 992px) {
+		.topic-container {
+			width: 20%;
+		}
+	}
+	@media(max-width: 991px) {
+		.topic-container{
+			width: 25%;
+		}
+	}
+	@media(max-width: 768px) {
+		.topic-container {
+			width: 33%;
+		}
+	}
+
 	.topic-container {
-		width: 230px;
 		display: inline-block;
 		min-height: 215px;
 		padding: 10px;
@@ -1056,6 +1103,9 @@ a:hover {
 			background-repeat: no-repeat;
 			display: inline-block;
 		}
+
+	/***Note: Ensure that the class name for a key resource icon is same 
+	          as the 'topic_name' entry in the config.json file.      */
 
 	.topic-img > .nodejs {
 			.topic-sprite;
@@ -1114,31 +1164,23 @@ a:hover {
 			background-position: 0px -1560px;
 		}
 
-	a.topic-section , a.topic-section:hover {
-	text-decoration: none;
-	}
-	a.topic-section:hover .topic-img {
-		border: 8px solid #26343f;
-		background-color: #26343f;
-		opacity: 0.9;
-	}
-	a.topic-section:hover .topic-name {
-		text-decoration: none;
-		color: #dee6eb;
-	}
+	/************* 3.3.3 Topics Subpages *********************/
 
-
-/** Topics subpages header css **/
-
-#topic-header {
+	#topic-header {
 		background-color: #3b4b54;
 		color: #ffffff;
 		padding: 15px 0px 15px 0px;
-}
+	}
 	.topic-header-name {
 		font-size: 2.0rem;
 		font-weight: bold;
 		margin-left: -35px;
+	}
+
+	.vcenter {
+		display: inline-block;
+		vertical-align: middle;
+		float: none;
 	}
 
 
@@ -1161,6 +1203,18 @@ a:hover {
 			color: #94a3ab;
 		}
 
+		.topic > p {
+			line-height: 1.4rem;
+		}
+
+		.resource > ul {
+			.mtm;
+			.mbm;
+			li {
+				margin: (@jh-base-em*2em) 0;
+			}
+		}
+
 		.topic img {
 			background-repeat: no-repeat;
 			background-position: center center;
@@ -1171,10 +1225,22 @@ a:hover {
 			margin: 2.5em auto;
 		}
 
+	/************* 3.3.4 Topics Hover behaviour ************/
 
-/*****************************************************************************
-		Breadcrumb CSS for Topics and Key Resource sub pages 
-*****************************************************************************/
+	a.topic-section , a.topic-section:hover {
+	text-decoration: none;
+	}
+	a.topic-section:hover .topic-img {
+		border: 8px solid #26343f;
+		background-color: #26343f;
+		opacity: 0.9;
+	}
+	a.topic-section:hover .topic-name {
+		text-decoration: none;
+		color: #dee6eb;
+	}
+
+/************** 3.4 Breadcrumb CSS **************************/
 
 	.breadcrumb {
 		margin: 0px -15px 0 -15px;
@@ -1183,22 +1249,22 @@ a:hover {
 	}
 	.breadcrumb li {
 		display: inline;
-		color: #26343F;
+		color: #1b252d;
 	}
 	.breadcrumb li a {
 		text-decoration: none;
-		color: #26343F;
+		color: #1b252d;
 	}
 	.breadcrumb li a:hover{
 		text-decoration: none;
-		color: #00aed1;
+		color: #F47D64;
 	}
 	.breadcrumb li+li:before {
 		content: ' > ';
 		color: #94a3ab;
-		padding-left: 6px;
-		padding-right: 6px;
+		padding-left: 12px;
+		padding-right: 12px;
 	}
 	.breadcrumb .current {
-		color: #94a3ab;
+		color: #94A3AB;
 	}

@@ -44,17 +44,14 @@ _.each(['/docs'],
  * Depending on the request path, try to load and render the corresponding markdown source.
  * See config.json for a rundown of which prefixes load what.
  */
- 
 _.each(
-	config.topic,
-	function (topic) {
+	config.content,
+	function (content) {
 		app.use(
-			topic.uri_prefix, 
-			routes.topic_router(app.get('env'), 
-					      topic.section_name,
-					      topic.topic_name,
-					      topic.img_icon, 
-					      path.join(__dirname, topic.directory)
+			content.uri_prefix, 
+			routes.section_router(app.get('env'), 
+					      content.section_name, 
+					      path.join(__dirname, content.directory)
 			)
 		);
 	}
@@ -76,13 +73,15 @@ _.each(
 );
 
 _.each(
-	config.content,
-	function (content) {
+	config.topic,
+	function (topic) {
 		app.use(
-			content.uri_prefix, 
-			routes.section_router(app.get('env'), 
-					      content.section_name, 
-					      path.join(__dirname, content.directory)
+			topic.uri_prefix, 
+			routes.topic_router(app.get('env'), 
+					      topic.section_name,
+					      topic.topic_name,
+					      topic.img_icon, 
+					      path.join(__dirname, topic.directory)
 			)
 		);
 	}

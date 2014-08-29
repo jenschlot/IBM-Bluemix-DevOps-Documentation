@@ -16,9 +16,13 @@
 					</div>
 				</div>
 			</div>
+			{@eq key=resourcename value="Support"}
+			<ol class="hidden">
+			{:else}
 			<ol class="breadcrumb">
+			{/eq}
 				<li><a href="/docs">Docs</a></li>
-				<li><a href="/docs#key-resources">{sectionname}</a></li>
+				<li><a href="/docs#key-resources">Key Resources</a></li>
 				<li class="current">{resourcename}</li>
 			</ol>
 			<div class="row ptm">
