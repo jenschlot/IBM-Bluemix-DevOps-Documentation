@@ -72,8 +72,11 @@ sign in to DevOps Services from a web browser. However, you use the combination 
 
 ### Why can I no longer sign in to DevOps Services by using my Jazz ID?
 
-The goal for all IBM services is to provide access through a single IBM id. IBM DevOps Services, formerly known as JazzHub, initially required a Jazz ID to sign in. To move toward a single sign-on experience, DevOps Services now offers the following sign-in methods: 
-IBM users can sign in with their IBM id, Jazz users must link their Jazz ID with an IBM id to sign in.
+IBM DevOps Services, formerly known as JazzHub, initially required a Jazz ID 
+to sign in. To move toward the goal of a single sign-on experience for all IBM services 
+through a single IBM id, DevOps Services now requires that Jazz users link 
+their Jazz ID with an IBM id, and all web users must user their IBM id to 
+sign in.  
 
 <a name="git"></a>
 
