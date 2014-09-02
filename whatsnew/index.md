@@ -1,5 +1,36 @@
 # What's New
 
+## September 2, 2014
+ 
+# Track & Plan Beta 
+ 
+## Task board view added 
+  
+Now you can view all of the children of a parent work item at the same time. 
+ 
+Click on the blue arrow on a parent item to open the parent's task board.   
+ 
+>	![Location of child task breakdown icon](/whatsnew/images/childbreakdownicon.gif) 
+ 
+From here, you can view all the child items in lanes by status.  
+You can see which tasks you need to start to complete the story. 
+ 
+>	![Sample task breakdown view](/whatsnew/images/childtask.gif) 
+ 
+You can drag a work item into another lane to change its status or click **Back to My Work** to return to your original view. 
+ 
+##Track & Plan interface updates 
+ 
+You can now use the All Work view to see all the work items that are associated with your IBM&reg;  
+DevOps Services Track & Plan Beta project. Use this view to see both incoming items and items that are assigned to sprints.  
+ 
+>	![all work view](/whatsnew/images/all-work-view.gif) 
+ 
+Notable UI design changes: 
+ * When you change views, you will see only the items in your current sprint. To view another sprint, click **Sprint 1 (Current Sprint)** 
+and select the sprint from the list. 
+ * The options to create or edit sprints are available only in the Sprint Planning view.
+
 ## Aug 28, 2014
 
 # General enhancements
