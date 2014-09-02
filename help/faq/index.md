@@ -111,7 +111,7 @@ To ask a question, check out our [DevOps Services Forum](https://developer.ibm.c
 
 ### I'm an IBMer. What do I need to know about starting a DevOps Services project? 
 
-In the spirit of open development, we encourages both public and private
+In the spirit of open development, we encourage both public and private
 projects and ask that you remember these guidelines:
 
 - Never add IBM Confidential information to a DevOps Services project. 
