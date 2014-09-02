@@ -11,7 +11,7 @@ ____
 -   [Why does my attempt to sign in to DevOps Services fail from my Rational Team
     Concert desktop client or Git client?](#rtcgit)
 -   [Why can I no longer sign in to DevOps Services by using my Jazz ID?](#login)
--   [Can I connect my project to a Github repository?](#git)
+-   [Can I connect my project to a GitHub repository?](#git)
 -   [Is DevOps Services right for me if our team is not developing
     code?](#q5)
 -   [How do I report a bug?](#q7)
@@ -35,9 +35,9 @@ experience, and since then, we implemented JazzHub again in the cloud and opened
 We integrated the [Eclipse](http://eclipse.org/ "Eclipse") Orion Web IDE and introduced the ability to deploy applications directly to the [IBM Bluemix&trade; cloud platform](https://bluemix.net/ "Bluemix"). IBM also 
 plans to expand that capability to include continuous integration, unit testing, and deployment that is based 
 on Jenkins and IBM UrbanCode. With these new capabilities and more to come, JazzHub builds on the core 
-Jazz services to provide a good environment for cloud application development. 
-To reflect the expanded role of JazzHub in the IBM family, We are renaming it "IBM DevOps Services." 
-JazzHub continues to refer to the underlying technology stack as "Powered by JazzHub."
+Jazz services to provide a pretty nice environment for cloud application development. 
+To reflect the expanded role of JazzHub in the IBM family, we are renaming it "IBM DevOps Services." 
+"JazzHub" will continue to refer to the underlying technology stack, as in "Powered by JazzHub."
 
 <a name="q2"></a>
 
@@ -84,7 +84,7 @@ sign in.
 
 Yes. When you create a project, select the option for GitHub and input your GitHub repository.
 
-You can track and plan the work you'll store in your GitHub repository from within DevOps Services. To configure Github to update your work items when you push your changes, navigate to your project and click the **configure Github** link on the left side of the page.
+You can track and plan the work you'll store in your GitHub repository from within DevOps Services. To configure GitHub to update your work items when you push your changes, navigate to your project and click the **configure GitHub** link on the left side of the page.
 
 You can also edit the code that is stored in your GitHub repository by using the Web IDE. When you want to begin coding, navigate to your project and click **Edit Code** at the top of the page. Your GitHub repository will automatically be cloned for you, and your existing files will display in the navigation pane. You can create new files or edit existing ones. After you save changes to your files, select **Activities \> Git Status**. On this page, you can stage, commit, and push your changes.
 
@@ -105,14 +105,14 @@ If something's not working, we'd like to hear about it. [Report a bug here](http
 ### How can I provide more feedback?
 
 We love feedback. If you have a suggestion about how to make something better, [share your idea here](https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
-To ask a question, check out [Our dWAnswers forum](https://www.ibmdw.net/answers?community=jazzhub).
+To ask a question, check out [our dWAnswers forum](https://developer.ibm.com/answers/questions/?community=devops-services).
 
 <a name="ibmer"></a>
 
 ### I'm an IBMer. What do I need to know about starting a DevOps Services project? 
 
 In the spirit of open development, we encourages both public and private
-projects and asks that you remember these guidelines:
+projects and ask that you remember these guidelines:
 
 - Never add IBM Confidential information to a DevOps Services project. 
 - Before you get involved in projects that have open source code, consult the [Open Source Participation Guidelines](https://w3-connections.ibm.com/wikis/home?lang=en-us#!/wiki/W783ba5fa6c1a_40b3_945a_07d0eb0115bd).
