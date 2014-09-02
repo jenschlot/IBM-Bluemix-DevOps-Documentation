@@ -53,7 +53,7 @@ To try the Track & Plan feature, follow these instructions to start a simple, pu
  ##Create your first work items
 
 1. Click **TRACK & PLAN**. Review and close the message that welcomes you to the Track & Plan Beta.  
-**Note**: If you do not see the welcome message, you need to manually activate the Track & Plan Beta feature. Click the down arrow by **TRACK & PLAN** icon (<img src="/tutorials/trackplan/images/downarrow.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and click **Try the new Track & Plan Beta** to access the Settings. Select the **Try the new Track & Plan Beta** check box and click **SAVE**. Now, click **TRACK & PLAN** again.   
+**Note**: If you do not see the welcome message, you need to manually activate the Track & Plan Beta feature. Click the down arrow by **TRACK & PLAN** icon (<img src="/tutorials/trackplan/images/downarrow.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and click **Try the new Track & Plan Beta** to access the Beta Feature Settings. Select the **Try the new Track & Plan Beta** check box and click **SAVE**. Now, click **TRACK & PLAN** again.   
 
 2. Review the My Work view. From this view, you can see all the project work items that are assigned to you. Because you're the only person working on this project, you want to assign ownership of all work items to your Jazz user ID. The fastest way to do this is to create your work items from this view.
 
@@ -111,10 +111,9 @@ You can change or set any work item attribute from within this editor. You can c
 
 5. In the **Priority** field, change the priority to **High**. Now, click **Save** to capture your changes and click **Back to Backlog** (<img src="/tutorials/trackplan/images/backtobacklog.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) to return to the backlog.
 
-6. Click in the story's title field. You can modify more attributes from this drop-down menu. Click the **Priority: High** icon and set the priority to **Medium**.  
-     ![Attribute modification icons and dropdown][9]
+6. Click the **Priority: High** icon and set the priority to **Medium**.  
 
-7. Note the ID number of your story. For example, the story ID in the image is 1080.  
+7. Note the ID number of your story. For example, the story ID in the image is 18072.  
 This number is unique to your project and helps you keep track of each work item. If you know the ID for a particular work item, you can easily find it by using the search function above the view list or you can add relationships to it.
 
 8. Now, click in the **Type a work item summary** field and type `Configure a chat server using node.js.` 
@@ -149,23 +148,23 @@ This number is unique to your project and helps you keep track of each work item
 
 Before you populate a sprint, you should rank the work items in your backlog. If you use agile management techniques with your projects, you probably use a similar process during your sprint planning meetings.
 
-1. Collapse the parent items and notice how each work item's rank is **Not Ranked**. You can easily change this status. Drag the "Create a simple chat page for our site" task to the top of the list and see how its rank changes to 1.  
+1. Collapse the parent items and notice how each work item's rank is **Not Ranked**. You can easily change this status. Drag the "Incoming messages are not reaching other chat participants" task to the top of the list and see how its rank changes to 1.  
 <iframe width="640" height="360" src="//www.youtube.com/embed/twr30-5wcfc" frameborder="0" allowfullscreen></iframe>
 <div align = center>Video: Ranking work items in the backlog </div>
 
 2. Rank the rest of the work items in this order:  
      ![Ranked work items in the backlog][11]
 
-3. Now that you've ranked the work items, assign story points to the stories.  Then, click **0 pts** beside each story and select **20 pts** from the drop-down list.  
+3. Now that you've ranked the work items, assign story points to the stories. Click **0 pts** beside each story and select **20 pts** from the drop-down list.  
 **Note**: In agile projects, story points are a team-determined scale reflecting the effort required to implement a story. Remember that you can expand each story by clicking the plus sign to review its child items.
 
 4. Before you finish triaging your tasks, finish assigning work items owners. In the text filter field, type `@:unassigned` and press **Enter**.  
 ![Empty text filter field][14]
 
-5. Click the **Owner** icon for each filtered work item and select your name from the drop-down list. After you assign your items, delete `@:unassigned` from the text filter field.  
+5. Click the **Owner** icon for each filtered work item and select your name from the drop-down list. After you assign your items, click **X** in the filter field to clear the `@:unassigned` filter.  
 **Tip**: If you are working with other team members, you can use this method to assign related work items to them.
 
-6. You should create time estimates to ensure you place an appropriate number of stories on a sprint. Click to expand the "Integrate OAuth to the chat site" item's drop-down menu and select **Estimate: Unassigned** from the drop-down menu.  
+6. You should create time estimates to ensure you place an appropriate number of stories on a sprint. Click in its title field to expand the "Integrate OAuth to the chat site" item's drop-down menu and select **Estimate: Unassigned** from the drop-down menu.  
 **Tip**: Remember to review your story points and work item owners when creating time estimates.
 
 7. Set the duration to 3 days and click OK.  
@@ -177,13 +176,13 @@ Before you populate a sprint, you should rank the work items in your backlog. If
  <a name='plan_sprint_1'></a>	
 ##Plan Sprint 1
 
-1. To start creating sprints for your project, click **Sprint Planning** and then click **Create Sprints**. Use the calendars by the start and end dates to create two 2-week sprints that start on Mondays.  
+1. To start creating sprints for your project, click **Sprint Planning** and then click **Add Sprints**. Use the drop-down menu to select two 2-week sprints.  
 **Note**: Only the project owner can create and edit sprints.  
-     ![Sprint creation dialog showing two two-week sprints][13]
+     ![Sprint creation menu showing two two-week sprints][13]
 
-2. Click **OK** and you  can see lanes for your backlog and for Sprint 1. Scroll to the right to see Sprint 2.
+2. Click **Save** and you  can see lanes for your backlog and for Sprint 1. Scroll to the right to see Sprint 2.
 
-3. Click the title bar of the "Create a simple chat page for our site" task from the backlog lane and drag it to the Sprint 1 lane. Drag the rest of the work items to Sprint 1 in ascending order by ranking.  
+3. Click the title bar of the "Incoming messages are not reaching other chat participants" defect from the backlog lane and drag it to the Sprint 1 lane. Drag the rest of the work items to Sprint 1 in ascending order by ranking.  
 <iframe width="640" height="360" src="//www.youtube.com/embed/SLQVK6V3qME" frameborder="0" allowfullscreen></iframe>
 <div align = center>Video: Populating a sprint</div>
 
@@ -207,10 +206,21 @@ Now that you set up your sprint you're ready to start work.
 
 5. As you work on your tasks that are in progress, update the number of hours spent on the task. Find the "Integrate OAuth to the chat site" task and click in its title bar to expand the drop-down menu. Use the **Time Spent** option to show that you've spent 16 hours on the task.
 
-6. Find the the "Integrate OAuth to the chat site" task. Click its **Status** icon (<img src="/tutorials/trackplan/images/statusopen.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and select **Complete** from the pop-up menu to close the task.  
+6. Find the "Integrate OAuth to the chat site" task. Click its **Status** icon (<img src="/tutorials/trackplan/images/statusopen.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and select **Complete** from the pop-up menu to close the task.  
 **Tip**: You can complete this process from the Team's Work view, too. You might find the ability to assign hours and complete tasks useful during your daily scrum meeting.  
 
+7. Find the "As a user, I'd like to be able to log into your chat with my Facebook or Google+ account" story. Click its **Open child task breakdown** icon.
+     ![Location of open child task breakdown icon][23]
+
+8. Review the contents of the task view.  You completed the only task associated with this story, so you should resolve the story.
+
+9. Click **Back to My Work**.
+
+10. Click the **Status** icon for the "As a user, I'd like to be able to log into your chat with my Facebook or Google+ account" story and select **Set Done** from the pop-up menu to resolve the story. 
+
 The Track & Plan feature makes it easy for you to track your sprint's work as you complete planned tasks. It's also easy to create and address new work items.
+
+1. Click **Sprint 1 (Current Sprint)** and click **All sprints**.
 
 1. In the Open lane, click in the **Create a work item** field and make three more work items:
   * As a user, I'd like your chat site to look good on my phone. #mobile $low 
@@ -248,7 +258,7 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 [6]: https://bluemix.net/#/pricing/cloudOEPaneId=pricing 
 [7]: /tutorials/trackplan/images/appendeddefect.gif
 [8]: /tutorials/trackplan/images/workitemeditor.gif
-[9]: /tutorials/trackplan/images/attributechange.gif
+
 [10]: /tutorials/trackplan/images/unrankedbacklog.gif
 [11]: /tutorials/trackplan/images/rankedlist.gif
 [12]: /tutorials/trackplan/images/estimateunassigned.gif
@@ -260,6 +270,8 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 [18]: https://www.ibmdw.net/answers?community=jazzhub (DevOps Services forum)
 [19]: mailto:hub%40jazz.net
 [22]: https://ace.ng.bluemix.net/#/pricing
+[23]: /tutorials/trackplan/images/childbreakdownicon.gif
+
 [40]: /tutorials/jazzrtc (Developing Bluemix applications in Java with Eclipse and DevOps Services)
 [41]: /tutorials/jazzeditor (Getting Started with Bluemix and DevOps Services using Node.js)
 [42]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services)
