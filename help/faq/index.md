@@ -1,7 +1,7 @@
 # FAQs
 ##### Updated on August 28, 2014
 
-Can't find the answer to your question here? [Check out our forum](https://www.ibmdw.net/answers?community=jazzhub).
+Can't find the answer to your question here? [Check out our forum](https://developer.ibm.com/answers/questions/?community=devops-services).
 ____
 
 -   [I see JazzHub is now called IBM DevOps Services. Can you tell me
