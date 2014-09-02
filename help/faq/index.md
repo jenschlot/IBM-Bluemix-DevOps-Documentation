@@ -105,7 +105,7 @@ If something's not working, we'd like to hear about it. [Report a bug here](http
 ### How can I provide more feedback?
 
 We love feedback. If you have a suggestion about how to make something better, [share your idea here](https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
-To ask a question, check out [our DevOps Services Forum](https://developer.ibm.com/answers/questions/?community=devops-services).
+To ask a question, check out our [DevOps Services Forum](https://developer.ibm.com/answers/questions/?community=devops-services).
 
 <a name="ibmer"></a>
 
