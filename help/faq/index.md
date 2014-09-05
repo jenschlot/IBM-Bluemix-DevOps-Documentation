@@ -1,4 +1,3 @@
-# FAQs
 ##### Updated on June 24, 2014
 
 Can't find the answer to your question here? [Check out our forum](https://www.ibmdw.net/answers?community=jazzhub).

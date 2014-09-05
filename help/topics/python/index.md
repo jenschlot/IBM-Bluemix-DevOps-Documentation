@@ -6,3 +6,5 @@ Topics: devops_services, python, mongodb, bottle, bluemix
 
 ### Sample: [Twitter Influence Analyzer (Python)](https://hub.jazz.net/project/jstart/Twitter%20Influence%20Analyzer%20%28Python%29/overview)  
 Topics: devops_services, python, bottle, klout, cloudant, bluemix, git, twitter
+
+&copy; Copyright IBM Corporation 2013, 2014.

@@ -9,29 +9,46 @@
 			"directory": "tutorials"
 		},
 		{
-			"uri_prefix": "/help/faq",
-			"section_name": "Help",
-			"directory": "help/faq"
-			
-		},
+			"uri_prefix": "/maintenance",
+			"section_name": "Maintenance Schedule",
+			"directory": "maintenance"
+		}
+	],
+	"resource": [
 		{
 			"uri_prefix": "/whatsnew",
-			"section_name": "What's New",
+			"section_name": "Docs",
+			"resource_name": "What's New",
+			"img_icon": "whatsnew",
 			"directory": "whatsnew"
 		},
 		{
 			"uri_prefix": "/features",
-			"section_name": "Features",
+			"section_name": "Docs",
+			"resource_name": "Features",
+			"img_icon": "features",
 			"directory": "features"
 		},
 		{
-			"uri_prefix": "/maintenance",
-			"section_name": "Maintenance Schedule",
-			"directory": "maintenance"
+			"uri_prefix": "/help/faq",
+			"section_name": "Docs",
+			"resource_name": "FAQ",
+			"img_icon": "faq",
+			"directory": "help/faq"
+			
+		},
+		{
+			"uri_prefix": "/support",
+			"section_name": "Support",
+			"resource_name": "Support",
+			"img_icon": "support",
+			"directory": "support"
 		},
 		{
 			"uri_prefix": "/glossary",
-			"section_name": "Glossary",
+			"section_name": "Docs",
+			"resource_name": "Glossary",
+			"img_icon": "glossary",
 			"directory": "glossary"
 		}
 	],
@@ -39,7 +56,7 @@
 		{
 			"uri_prefix": "/help/all",
 			"section_name": "Docs",
-			"topic_name": "All Docs",
+			"topic_name": "All",
 			"img_icon": "all",
 			"directory": "help/all"
 		},
@@ -114,11 +131,32 @@
 			"directory": "help/topics/python"
 		},
 		{
+			"uri_prefix": "/help/trackplanfg",
+			"section_name": "Track and Plan",
+			"topic_name": "Track and Plan Features",
+			"img_icon": "trackplan",
+			"directory": "help/topics/trackplan/trackplanfg"
+		},
+		{
 			"uri_prefix": "/help/trackplan",
 			"section_name": "Docs",
 			"topic_name": "Track and Plan",
 			"img_icon": "trackplan",
 			"directory": "help/topics/trackplan"
+		},
+		{
+			"uri_prefix": "/help/mongodb",
+			"section_name": "Docs",
+			"topic_name": "MongoDB",
+			"img_icon": "mongodb",
+			"directory": "help/topics/mongodb"
+		},
+		{
+			"uri_prefix": "/help/hackathons",
+			"section_name": "Docs",
+			"topic_name": "Hackathons",
+			"img_icon": "hackathons",
+			"directory": "help/topics/hackathons"
 		}
 	]
 }
