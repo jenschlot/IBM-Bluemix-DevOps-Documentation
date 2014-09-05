@@ -10,6 +10,7 @@ The duration of these outage windows is variable depending upon what needs to be
 |------------|----------|---------------------|----------|
 | 09/02/2014 | Tuesday  | CANCELLED  | CANCELLED   |
 | 09/04/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 09/05/2014 | **Friday** | **8:00 - 9:00PM EDT**  | 1 hour   |
 | 09/06/2014 | Saturday | CANCELLED  | CANCELLED   |
 | 09/09/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
 | 09/11/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
