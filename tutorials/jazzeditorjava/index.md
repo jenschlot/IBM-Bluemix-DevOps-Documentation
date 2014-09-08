@@ -226,7 +226,7 @@ From this environment, you can edit files with syntax coloring support for multi
 
 Just to round out the process, let's make one more modification to your application using the Web IDE. Before you do that, though, you must fetch and merge the app title change that you just made with the command line so that it shows in the Web IDE. You do that with the Git Repository page. Open it. 
 
-![Orion git status menu](/tutorials/jazzeditorjava/images/orion-git-status.gif)
+![Orion git status menu](/tutorials/jazzeditorjava/images/orion-git-status.png)
 
 From the Git Status page, fetch and then merge the change to your app.
 
@@ -236,9 +236,9 @@ Next, navigate through the directory tree until you get to the same file you wor
 
 ![Orion editing index](/tutorials/jazzeditorjava/images/heyworld.gif)
 
-You can then use the integrated Git support to push the change. Head back to the Git page.
+You can then use the integrated Git support to push the change. Head back to the Git Repository page.
 
-![Orion git status menu](/tutorials/jazzeditorjava/images/orion-git-status.gif)
+![Orion git status menu](/tutorials/jazzeditorjava/images/orion-git-status.png)
 
 Then, stage the change by checking the box next to it:
 
