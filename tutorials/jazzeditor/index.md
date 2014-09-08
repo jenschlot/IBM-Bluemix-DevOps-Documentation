@@ -8,9 +8,9 @@ application monitoring, as well as features from ecosystem partners and open sou
 all through an as-a-service model in the cloud.
 
 Before you can use the Bluemix capabilities, you have to sign up. To sign up, go to the [IBM Bluemix home page](https://bluemix.net/) and 
-click **Sign up for a free Bluemix trial**.
+click **Sign up for a free trial**.
 
-![Sign up for a free Bluemix trial](/tutorials/jazzeditor/images/bm-join.png)
+![Sign up for a free trial](/tutorials/jazzeditor/images/bm-join.png)
 
 After you sign up, the [IBM Bluemix site](https://bluemix.net/) offers helpful information about Bluemix:
 
@@ -104,7 +104,7 @@ With these few clicks, you created a Git repository, loaded it with the example 
 ![Git repo success message dialog](/tutorials/jazzeditor/images/bm-git-repo-success-msg.png)
 
 
-To see the status of the deployed app, go to the Bluemix application dashboard and click **CODE**.
+To see the status of the deployed app, go to the Bluemix application dashboard and click **EDIT CODE**.
 
 ![CODE button](/tutorials/jazzeditor/images/bm-code-button.png)
 
@@ -146,8 +146,8 @@ Start by cloning the local repository using the Git URL from either the Bluemix 
 or the BUILD & DEPLOY page:
 
 
-	$ git clone https://hub.jazz.net/git/jazzhubdemouser/mycoolwebapp0630
-    Cloning into 'mycoolwebapp0630'...
+	$ git clone https://hub.jazz.net/git/jazzhubdemouser/mycoolwebappdemo
+    Cloning into 'mycoolwebappdemo'...
     Username for 'https://hub.jazz.net': jazzhubdemouser
     Password for 'https://jazzhubdemouser@hub.jazz.net':
     remote: Counting objects: 23, done
@@ -181,7 +181,7 @@ Then, change to your Git clone directory and do a Git add, commit and push as sh
     Total 4 (delta 2), reused 0 (delta 0)
     remote: Resolving deltas: 100% (2/2)
     remote: Processing changes: refs: 1, done
-    To https://hub.jazz.net/git/jazzhubdemouser/mycoolwebapp0630
+    To https://hub.jazz.net/git/jazzhubdemouser/mycoolwebappdemo
     	43c6bc7..bf26680 master -> master
 
 If you go back to the Web IDE and check the 
@@ -278,7 +278,7 @@ Push the changes:
 
 These are the same steps that you performed with the command line. 
 To see that your app was updated again, 
-go to the Build & Deploy page, wait until it shows that the 
+go to the BUILD & DEPLOY page, wait until it shows that the 
 application was deployed again, and then click the URL link next to the value in the **Deploy to** field.
 
 When you click the URL you see your updated running application.
