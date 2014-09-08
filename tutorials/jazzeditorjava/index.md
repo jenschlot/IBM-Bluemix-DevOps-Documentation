@@ -4,7 +4,7 @@
 
 *[IBM® Bluemix™][1] is an open-standards, cloud-based platform for building, managing and running apps of all types (web, mobile, big data, new smart devices). Capabilities include Java™, mobile backend development, application monitoring, as well as capabilities from ecosystem partners and open source, all through an as-a-service model in the cloud.*
 
-If you haven't registered already, you'll need to do so at the [Bluemix home page][1]. Just click **Sign up for a free Bluemix trial** to get set up. 
+If you haven't registered already, you'll need to do so at the [Bluemix home page][1]. Just click **Sign up for a free trial** to get set up. 
 
 ![Sign up for a free Bluemix trial][2]
 
@@ -70,7 +70,7 @@ There's just one more thing to do before moving on to DevOps Services: you need 
 
 The Delivery Pipeline Add-On will be added to your Bluemix space, ready to spring into action as you need it later.  
 
-What if you want to see the app's code, now, or configure how it deploys? You'll need IBM DevOps Services for that. Click on your app's panel to open its overview, and then click **CODE**.
+What if you want to see the app's code, now, or configure how it deploys? You'll need IBM DevOps Services for that. Click on your app's panel to open its overview, and then click **EDIT CODE**.
 
 ![CODE button][15]
 
@@ -236,7 +236,7 @@ Next, navigate through the directory tree until you get to the same file you wor
 
 ![Orion editing index](/tutorials/jazzeditorjava/images/heyworld.gif)
 
-You can then use the integrated Git support to push the change. Head back to the Git Repository page.
+You can then use the integrated Git support to push the change. Head back to the Git page.
 
 ![Orion git status menu](/tutorials/jazzeditorjava/images/orion-git-status.gif)
 
@@ -297,7 +297,7 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 &copy; Copyright IBM Corporation 2013, 2014.
 
 [1]: https://bluemix.net/ (Bluemix)
-[2]: /tutorials/jazzeditorjava/images/bm-join.gif 
+[2]: /tutorials/jazzeditorjava/images/bm-join.png
 [3]: https://bluemix.net/docs/QuickStart.jsp (Bluemix getting started)
 [4]: https://bluemix.net/docs/BlueMixIntro.jsp (Bluemix overview)
 [5]: https://bluemix.net/docs/Tutorials.jsp (Bluemix tutorials)
@@ -306,13 +306,13 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
    [8]: /tutorials/jazzeditorjava/images/create-jws-app.gif 
    [9]: /tutorials/jazzeditorjava/images/examplepanel.gif 
    [10]: /tutorials/jazzeditorjava/images/bm-example.gif 
-   [11]: /tutorials/jazzeditorjava/images/addgitintegration.gif 
+   [11]: /tutorials/jazzeditorjava/images/addgitintegration.png
    [12]: /tutorials/jazzeditorjava/images/jh-signin.gif 
    [13]: /tutorials/jazzeditorjava/images/bm-create-git-repo.gif 
    [14]: /tutorials/jazzeditorjava/images/bm-git-repo-success-msg.gif 
-   [15]: /tutorials/jazzeditorjava/images/bm-code-button.gif 
+   [15]: /tutorials/jazzeditorjava/images/bm-code-button.png 
    [16]: /tutorials/jazzeditorjava/images/webide.gif 
-   [17]: /tutorials/jazzeditorjava/images/simpledeploy.gif 
+   [17]: /tutorials/jazzeditorjava/images/simpledeploy.png 
    [18]: /tutorials/jazzeditorjava/images/configbuilder.gif 
    [19]: /tutorials/jazzeditorjava/images/deployer.gif 
    [20]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Services)
@@ -324,15 +324,15 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
    [26]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Services)
    [27]: https://hub.jazz.net/learn (DevOps Services introduction)
    [28]: http://orion.eclipse.org/ (The Eclipse Orion project)
-   [29]: /tutorials/jazzeditorjava/images/orion.gif 
+   [29]: /tutorials/jazzeditorjava/images/orion.png
    [30]: /tutorials/jazzeditorjava/images/completion.png 
    [31]: /tutorials/jazzeditorjava/images/heyworld.gif 
    [32]: /tutorials/jazzeditorjava/images/orion-git-status.png 
-   [33]: /tutorials/jazzeditorjava/images/unstaged.gif 
-   [34]: /tutorials/jazzeditorjava/images/commit.gif 
-   [35]: /tutorials/jazzeditorjava/images/push.gif 
+   [33]: /tutorials/jazzeditorjava/images/unstaged.png 
+   [34]: /tutorials/jazzeditorjava/images/commit.png
+   [35]: /tutorials/jazzeditorjava/images/push.png 
    [36]: /tutorials/jazzeditorjava/images/endexampleapp.gif 
-   [37]: /tutorials/jazzeditorjava/images/manualdeploy.gif
+   [37]: /tutorials/jazzeditorjava/images/manualdeploy.png
    [38]: https://www.ibmdw.net/answers?community=jazzhub (forum)
    [39]: mailto:hub%40jazz.net
    [40]: /tutorials/jazzrtc (Developing Bluemix applications in Java with Eclipse and DevOps Services)

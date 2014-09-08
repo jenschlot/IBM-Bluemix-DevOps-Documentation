@@ -4,32 +4,14 @@ As we continue to improve IBM DevOps Services, we will occasionally be required 
 
 The duration of these outage windows is variable depending upon what needs to be done,  however for planning purposes the schedule below represents the maximum outage time expected during a given window.
 
-## August 2014
-
-| Date       | Day      | Time                | Duration |
-|------------|----------|---------------------|----------|
-| 08/02/2014 | Saturday | **4:00 - 05:00PM** EDT | 1 hour   |
-| 08/05/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
-| 08/07/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
-| 08/09/2014 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
-| 08/11/2014 | **Monday**  | 9:00 - 10:00PM EDT  | 1 hour   |
-| 08/14/2014 | Thursday | 9:00 - 11:00PM EDT  | 2 hours  |
-| 08/16/2014 | Saturday | CANCELLED | CANCELLED   |
-| 08/19/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
-| 08/21/2014 | Thursday | CANCELLED  | CANCELLED   |
-| 08/23/2014 | Saturday | CANCELLED  | CANCELLED   |
-| 08/26/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
-| 08/28/2014 | Thursday | CANCELLED  | CANCELLED  	|
-| 08/30/2014 | Saturday | CANCELLED  | CANCELLED  |
-
-
 ## September 2014
 
 | Date       | Day      | Time                | Duration |
 |------------|----------|---------------------|----------|
 | 09/02/2014 | Tuesday  | CANCELLED  | CANCELLED   |
 | 09/04/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
-| 09/06/2014 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
+| 09/05/2014 | **Friday** | **8:00 - 9:00PM EDT**  | 1 hour   |
+| 09/06/2014 | Saturday | CANCELLED  | CANCELLED   |
 | 09/09/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
 | 09/11/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
 | 09/13/2014 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
