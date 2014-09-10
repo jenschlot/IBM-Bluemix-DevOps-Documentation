@@ -31,7 +31,8 @@ module.exports =  function (env, section_name, topic_name, img_icon, directory) 
 					markdown: req.rendered_markdown,
 					sectionname: req.sectionname,
 					topicname: req.topicname,
-					imgicon: req.imgicon
+					imgicon: req.imgicon,
+					navbarSelection: 'docs'
 				}
 			);
 		},

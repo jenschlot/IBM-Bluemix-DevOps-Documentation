@@ -13,7 +13,7 @@
 	<body>
 		<div class="com-ibm-team-jazzhub">
 			<div id='navbar'></div>
-			<script src='/embed/js/navbar?e=navbar&navSelection=help&navigationPageTitle={sectionname}'></script>
+			<script src='/embed/js/navbar?e=navbar&navSelection={navbarSelection}&navigationPageTitle={sectionname}'></script>
 			
 
 			<div class='content fluid-content'>
