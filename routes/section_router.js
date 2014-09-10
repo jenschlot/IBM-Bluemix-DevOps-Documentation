@@ -27,7 +27,8 @@ module.exports =  function (env, section_name, directory) {
 				'document',
 				{ 
 					markdown: req.rendered_markdown,
-					sectionname: req.sectionname
+					sectionname: 'Docs',
+					navbarSelection: 'docs'
 				}
 			);
 		},

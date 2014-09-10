@@ -24,14 +24,17 @@ module.exports =  function (env, section_name, resource_name, img_icon, director
 		function(req, res, next) {
 			if (!req.rendered_markdown)
 				return next();
-
+			var section_name = ((req.resourcename === 'Support') ? 'Support' : 'Docs');
+			var navbarSelection = ((req.resourcename === 'Support') ? 'support' : 'docs');
+			console.log(section_name);
 			res.render(
 				'key_resource',
 				{ 
 					markdown: req.rendered_markdown,
-					sectionname: req.sectionname,
+					sectionname: section_name,
 					resourcename: req.resourcename,
-					imgicon: req.imgicon
+					imgicon: req.imgicon,
+					navbarSelection: navbarSelection
 				}
 			);
 		},

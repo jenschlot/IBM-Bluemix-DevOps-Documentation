@@ -143,7 +143,7 @@
 							</a>
 						</div>
 						<div class="resource-container">
-							<a class="resource-section" href="/help/faq">
+							<a class="resource-section" href="/docs/faq">
 								<div class="resource-img col-center"><span class="faq"></span></div>
 								<div class="resource-name col-center">Frequently Asked Questions</div>
 							</a>
@@ -162,83 +162,83 @@
 		<div class="clearfix"></div>
 
 		<div class="row pts pbl" id="topics">
-			<h2 class="pbs plm text-left" >Topics <a role="button" href="/help/all" class="mll btn btn-dark btn-sm">All Docs</a></h2>
+			<h2 class="pbs plm text-left" >Topics <a role="button" href="/docs/all" class="mll btn btn-dark btn-sm">All Docs</a></h2>
 				<div class="row">
 					<div id="topics-grid" class="col-md-12 col-sm-12 col-xs-9 text-center">
 						<div class="topic-container">
-							<a class="topic-section" href="/help/nodejs">
+							<a class="topic-section" href="/docs/nodejs">
 								<div class="topic-img col-center"><span class="nodejs"></span></div>
 								<div class="topic-name col-center">Node.js</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic-section" href="/help/java">
+							<a class="topic-section" href="/docs/java">
 								<div class="topic-img col-center"><span class="java"></span></div>
 								<div class="topic-name col-center">Java</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic-section" href="/help/python">
+							<a class="topic-section" href="/docs/python">
 								<div class="topic-img col-center"><span class="python"></span></div>
 								<div class="topic-name col-center">Python</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic-section" href="/help/mongodb">
+							<a class="topic-section" href="/docs/mongodb">
 								<div class="topic-img col-center"><span class="mongodb"></span></div>
 								<div class="topic-name col-center">MongoDB</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic-section" href="/help/mobile">
+							<a class="topic-section" href="/docs/mobile">
 								<div class="topic-img col-center"><span class="mobile"></span></div>
 								<div class="topic-name col-center">Mobile</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic-section" href="/help/build_deploy">
+							<a class="topic-section" href="/docs/build_deploy">
 								<div class="topic-img col-center"><span class="build_deploy"></span></div>
 								<div class="topic-name col-center">Build and Deploy</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic-section" href="/help/trackplan">
+							<a class="topic-section" href="/docs/trackplan">
 								<div class="topic-img col-center"><span class="trackplan"></span></div>
 								<div class="topic-name col-center">Track and Plan</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic-section" href="/help/bluemix">
+							<a class="topic-section" href="/docs/bluemix">
 								<div class="topic-img col-center"><span class="bluemix"></span></div>
 								<div class="topic-name col-center">Bluemix</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic-section" href="/help/jazz_scm">
+							<a class="topic-section" href="/docs/jazz_scm">
 								<div class="topic-img col-center"><span class="jazz_scm"></span></div>
 								<div class="topic-name col-center">Jazz Source Control Management</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic-section" href="/help/git">
+							<a class="topic-section" href="/docs/git">
 								<div class="topic-img col-center"><span class="git"></span></div>
 								<div class="topic-name col-center">Git</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic-section" href="/help/eclipse">
+							<a class="topic-section" href="/docs/eclipse">
 								<div class="topic-img col-center"><span class="eclipse"></span></div>
 								<div class="topic-name col-center">Eclipse</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic-section" href="/help/academics">
+							<a class="topic-section" href="/docs/academics">
 								<div class="topic-img col-center"><span class="academics"></span></div>
 								<div class="topic-name col-center">Academics</div>
 							</a>
 						</div>
 						<div class="topic-container">
-							<a class="topic-section" href="/help/hackathons">
+							<a class="topic-section" href="/docs/hackathons">
 								<div class="topic-img col-center"><span class="hackathons"></span></div>
 								<div class="topic-name col-center">Hackathons</div>
 							</a>
