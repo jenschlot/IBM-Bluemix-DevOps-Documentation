@@ -26,7 +26,6 @@ module.exports =  function (env, section_name, resource_name, img_icon, director
 				return next();
 			var section_name = ((req.resourcename === 'Support') ? 'Support' : 'Docs');
 			var navbarSelection = ((req.resourcename === 'Support') ? 'support' : 'docs');
-			console.log(section_name);
 			res.render(
 				'key_resource',
 				{ 
