@@ -7,7 +7,7 @@
 
 ##Multistage deployment
 
-You can now configure IBM DevOps Services projects to deploy to multiple Bluemix spaces. To use multistage deployment, create more than one deployer stage. For example, you might configure a stage that deploys to a "Test" space, and another that deploys to a "Production" space. 
+You can now configure IBM DevOps Services projects to deploy to multiple Bluemix spaces. To use multistage deployment, create more than one deployer stage. For example, you might configure a stage that deploys to a "dev" space for development, and another that deploys to a "production" space. 
 
 ![a configured pipeline set-up][55]
 
