@@ -1,24 +1,17 @@
 # What's New
 
 
-## September 5, 2014
+## September 12, 2014
 
 # Build and Deploy to IBM Bluemix
-
 
 ##Multistage deployment
 
 You can now configure IBM DevOps Services projects to deploy to multiple Bluemix spaces. To use multistage deployment, create more than one deployer stage. For example, you might configure a stage that deploys to a "Test" space, and another that deploys to a "Production" space. 
 
-
-
 ![a configured pipeline set-up][55]
 
-
-
 ## Automatic builds can now be disabled
-
-
 
 When you use the Advanced Build & Deploy option, you can disable automatic builds that run when changes are pushed to your project. To disable the automatic builds, clear the **Automatically build when a change is delivered/pushed** check box when you configure a builder.
 
