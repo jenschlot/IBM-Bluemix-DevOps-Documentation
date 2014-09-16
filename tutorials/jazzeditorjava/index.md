@@ -147,6 +147,10 @@ This kicks off deployment. In seconds, your app will be on Bluemix. Fast, right?
 
 You can click on your app's name to visit it on the web; click next to it in the  *dev* deployment box to look at your app's Bluemix dashboard. 
 
+For this tutorial, you only configure a single deployment stage, but if you want more stages (maybe you want separate instances for testing and production, for example) you'll enjoy DevOps Services' multistage deployment capability. To learn more, watch this short video:
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/5jdKL8VZgP0?rel=0" frameborder="0" allowfullscreen></iframe> 
+
 Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 60 minutes of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service or Add-On, visit the [Bluemix pricing page](https://bluemix.net/#/pricing).
 
 ---
@@ -236,7 +240,7 @@ Next, navigate through the directory tree until you get to the same file you wor
 
 ![Orion editing index](/tutorials/jazzeditorjava/images/heyworld.gif)
 
-You can then use the integrated Git support to push the change. Head back to the Git Repository page.
+You can then use the integrated Git support to push the change. Head back to the Git page.
 
 ![Orion git status menu](/tutorials/jazzeditorjava/images/orion-git-status.png)
 

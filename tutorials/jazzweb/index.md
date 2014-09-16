@@ -58,9 +58,9 @@ To open the app, click its name. Click on the deployment box in your space if yo
 
 ![Ready to click to Bluemix from Pipeline][10]
 
-[Bluemix][11] allows you to manage the live application instance. The **Applications** tab on the **Bluemix Dashboard** has options to start, stop, and delete the application. The **Services** tab has options to add various services such as MongoDB, SSO, MapReduce, and more.
+[Bluemix][11] allows you to manage the live application instance. Click an app's gear icon   to start, stop, edit, or delete it. The **Services** tab has options to add various services such as MongoDB, SSO, MapReduce, and more.
 
-![Stopping a Bluemix app][12]
+![Starting a Bluemix app][12]
 
 Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 60 minutes of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service or Add-On, visit the [Bluemix pricing page](https://bluemix.net/#/pricing).
 
@@ -84,7 +84,7 @@ After making that change, you'll want to share it with other members of your pro
 
 ![Stage Changes][14]
 
-Commit your change to the git repository for your project by entering a commit message, and finally hitting **Commit 1 file(s)**.
+Commit your change to the git repository for your project by entering a commit message, and finally hitting **COMMIT**.
 
 ![Committing changes][15]
 
@@ -142,27 +142,27 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 
 [1]: https://bluemix.net/ (Bluemix)
 [2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview
-[3]: /tutorials/jazzweb/images/forkbutton.gif
-[4]: /tutorials/jazzweb/images/forknew.gif
+[3]: /tutorials/jazzweb/images/forkbutton.png
+[4]: /tutorials/jazzweb/images/forknew.png
 [5]: /tutorials/jazzweb/images/simpledeployment.gif
 [6]: /tutorials/jazzweb/images/closesimple.gif
 [7]: /tutorials/jazzweb/images/stockapp.gif
-[8]: /tutorials/jazzweb/images/builder1.gif
-[9]: /tutorials/jazzweb/images/deployscriptex.gif
-[10]: /tutorials/jazzweb/images/click2blue.gif
+[8]: /tutorials/jazzweb/images/builder1.png
+[9]: /tutorials/jazzweb/images/deployscriptex.png
+[10]: /tutorials/jazzweb/images/click2blue.png
 [11]: https://bluemix.net
-[12]: /tutorials/jazzweb/images/startappbluemix.gif
+[12]: /tutorials/jazzweb/images/startappbluemix.png
 [13]: /tutorials/jazzweb/images/autocompletesearch.gif
 [14]: /tutorials/jazzweb/images/staging.gif
-[15]: /tutorials/jazzweb/images/commit.gif
-[16]: /tutorials/jazzweb/images/pushing.gif
+[15]: /tutorials/jazzweb/images/commit.png
+[16]: /tutorials/jazzweb/images/pushing.png
 [17]: /tutorials/jazzweb/images/manifest.gif
-[18]: /tutorials/jazzweb/images/manualdeploy.gif
+[18]: /tutorials/jazzweb/images/manualdeploy.png
 [19]: /tutorials/jazzweb/images/updatedapp.gif
 [20]: https://www.ibmdw.net/answers?community=jazzhub (forum)
 [21]: mailto:hub%40jazz.net
-[22]: /tutorials/jazzweb/images/deployto.gif
-[23]: /tutorials/jazzweb/images/request-build.gif  
+[22]: /tutorials/jazzweb/images/deployto.png
+[23]: /tutorials/jazzweb/images/request-build.png  
 [24]: http://docs.cloudfoundry.org/devguide/installcf/whats-new-v6.html
-[25]: /tutorials/jazzweb/images/config-to-delete.gif
+[25]: /tutorials/jazzweb/images/config-to-delete.png
 [26]: https://www.ng.bluemix.net/docs/#services/DeliveryPipeline/index.html#getstartwithCD
