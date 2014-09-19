@@ -12,6 +12,7 @@ var fs = require('fs');
 var path = require('path');
 
 var port = process.env.PORT;
+var sslport = process.env.SSL_PORT;
 var host = '0.0.0.0';				// Listen on all interfaces.
 
 if (!port) {
@@ -21,6 +22,7 @@ if (!port) {
 var app = express();				// Create an app.
 
 app.set('port', port)				// Store configuration in the app for later retrieval.
+   .set('sslport', sslport)
    .set('host', host)
    .set('views', path.join(__dirname, 'views'))	// Templates are stored in the /views directory.
    .set('view engine', 'dust')			// Templates will be named *.dust.
@@ -65,19 +67,19 @@ app.use('/', proxy(url.parse(config.jazzhub.url)));
 /*
  * Configure and start the server.
  */
-var server;
-
-if (process.env.VCAP_APPLICATION) {
-	/* We're probably running on Bluemix */
-	server = require('http').createServer(app);
-} else {
+if (app.get('port')) {
+	server = require('http').createServer(app).listen(app.get('port'), function(){
+		console.log('Express server listening for http connections on port #' + app.get('port'));
+	});
+}
+if (app.get('sslport')) {
 	server = require('https').createServer({
 		key: fs.readFileSync('keys/server.key'),
 		cert: fs.readFileSync('keys/server.crt')
-	},app);
+	},app).listen(app.get('sslport'), function(){
+		console.log('Express server listening for https connections on port #' + app.get('sslport'));
+	});
 }
 
 /* Actually stand up a server with behavior governed by the express app configured above. */
-server.listen(app.get('port'), function(){
-  console.log('Express server listening on port #' + app.get('port'));
-});
+server
