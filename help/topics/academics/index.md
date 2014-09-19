@@ -1,14 +1,12 @@
 ###What is DevOps Services?
-<div style="color:black">IBM&reg; DevOps Services offers features you can use to collaborate with others to develop, track, plan, and deploy software in the cloud.
+IBM&reg; DevOps Services offers features you can use to collaborate with others to develop, track, plan, and deploy software in the cloud.
 From your projects, you can access everything you need to build all types of applications right from your web browser. Use our built-in collaboration tools to make team projects simple!
 Easily build and deploy your application with integrated deployment to the IBM&reg; Bluemix&trade; cloud platform. Go from source code
-to a running application with the push of a button.</div>
+to a running application with the push of a button.
 
 
 ### How can I use DevOps Services in the classes I teach?
-<div style="color:black">You can use IBM DevOps Services and Bluemix in many ways.</div>
-
-&nbsp;
+You can use IBM DevOps Services and Bluemix in many ways.
 
 For example, you can use it to:  
 * teach [DevOps](http://www-03.ibm.com/software/products/en/category/SW888) principles to your students.
@@ -18,17 +16,13 @@ For example, you can use it to:
 * complete a class hackathon.
 
 ### How much does it cost to use DevOps Services and Bluemix? 
-<div style="color:black">DevOps Services offers many capabilities at no cost.
- [Visit our pricing page](https://hub.jazz.net/learn/cost) to learn more about what you can do on DevOps Services for free.</div>
-
-&nbsp;
+DevOps Services offers many capabilities at no cost.
+ [Visit our pricing page](https://hub.jazz.net/learn/cost) to learn more about what you can do on DevOps Services for free.
 
 To inquire about academic pricing for Bluemix features, [send us an email](mailto:hub%40jazz.net).
 
 ### How do I set up my first DevOps Services project?
-<div style="color:black">To create a DevOps Services account and your first project:</div>
-
-&nbsp;
+To create a DevOps Services account and your first project:
 
 1. Go to [IBM DevOps Services](https://hub.jazz.net/).
 
@@ -46,9 +40,7 @@ for information about configuring your project and using the Track & Plan featur
 
 
 ### Where can I find help with DevOps Service?
-<div style="color:black">If you need help, click **SUPPORT** in the navigation bar.</div>
-
-&nbsp;
+If you need help, click **SUPPORT** in the navigation bar.
 
 If you are looking for tutorials, click **DOCS** in the navigation bar.
 
@@ -82,13 +74,12 @@ Topics: devops_services, eclipse, git, rtc
 
 ### IBM Academic Initiative Program
 <div style="color:black">Visit the [IBM Academic Initiative website](http://www-304.ibm.com/ibm/university/academic/pub/page/academic_initiative) or 
-download a [brochure](public.dhe.ibm.com/common/ssi/ecm/en/ibf03007usen/IBF03007USEN.PDF).</div>
+download a [brochure](public.dhe.ibm.com/common/ssi/ecm/en/ibf03007usen/IBF03007USEN.PDF). </div>
 
 ### DevOps for Dummies
 <div style="color:black">[DevOps for Dummies](https://www14.software.ibm.com/webapp/iwm/web/signup.do?source=swg-rtl-sd-wp&S_PKG=ov18162), a free ebook,
  defines DevOps and explains both how it encompasses the software delivery lifecycle - 
 from ideation and the conception of new business capabilities to implementation in production - and how it can bring
-competitive advantage through continuous delivery.  </div>
-
+competitive advantage through continuous delivery. </div>
 
 &copy; Copyright IBM Corporation 2013, 2014.
