@@ -1,0 +1,36 @@
+{>bootstrap_header/}
+<div class="com-ibm-team-jazzhub-Docs content fluid-content">
+	<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none"></div>
+		<div class="container-fluid">
+			<div class="row" id="resource-header">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-2 col-sm-4 col-xs-5 vcenter">
+							<div class="resource-img">
+								<span class="{imgicon}"></span>
+							</div>
+						</div>
+						<div class="col-md-6 vcenter resource-header-name">
+							<span>{resourcename}</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			{@eq key=resourcename value="Support"}
+			<ol class="hidden">
+			{:else}
+			<ol class="breadcrumb">
+			{/eq}
+				<li><a href="/docs">Docs</a></li>
+				<li><a href="/docs#key-resources">Key Resources</a></li>
+				<li class="current">{resourcename}</li>
+			</ol>
+			<div class="row ptm">
+				<div class="col-md-12 resource">
+						{markdown|s}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{>footer/}

@@ -1,5 +1,3 @@
-# Features - IBM DevOps Services
-
 ## What's New
 Check out the latest enhancements, features and capabilities at our [What's New](/whatsnew) page.							
 

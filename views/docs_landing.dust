@@ -1,0 +1,251 @@
+{>bootstrap_header/}
+<script type="text/javascript" src="/tutorials/javascript/hexAlign.js"></script>
+<div class="container-fluid">
+		<div class="row pbl" id="featured-docs">
+			<h2 class="plm pts pts">Tutorials</h2>
+			<div class="col-md-12">
+				<div class="row">
+
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<div class="row" id="doc-container-l">
+							<a class="section" href="/tutorials/jazzeditor">
+							<div class="col-md-7 col-sm-9 col-xs-9 callout" id="1">
+								<p class="description">
+									<strong>Getting started</strong> with IBM Bluemix and IBM DevOps Services <strong>using node.js</strong>
+								</p>
+							</div>
+							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
+							<div class="col-md-3 hidden-xs col-sm-2 hex-container">
+								<div class="hex">
+									<span class="hex-jazzhub pos-2"></span>
+									<span class="hex-bluemix pos-3"></span>
+									<span class="hex-node pos-4"></span>
+								</div>
+							</div>
+							</a>
+						</div>
+						<div class="row" id="doc-container-l">
+							<a class="section" href="/tutorials/jazzeditor">
+							<div class="col-md-7 col-sm-9 col-xs-9 callout" id="2">
+								<p class="description">
+									<strong>Developing</strong> IBM Bluemix application in node.js <strong>with the Web IDE</strong>
+								</p>
+							</div>
+							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
+							<div class="col-md-3 hidden-xs col-sm-2 hex-container">
+								<div class="hex">
+									<span class="hex-jazzhub pos-2"></span>
+									<span class="hex-bluemix pos-3"></span>
+									<span class="hex-node pos-4"></span>
+								</div>
+							</div>
+							</a>
+						</div>
+						<div class="row" id="doc-container-l">
+							<a class="section" href="/tutorials/clients">
+							<div class="col-md-7 col-sm-9 col-xs-9 callout" id="3">
+								<p class="description">
+									<strong>Setting up</strong> Eclipse, Git, and Rational Team Concert <strong>Desktop Clients</strong> to access IBM DevOps Services
+								</p>
+							</div>
+							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
+							<div class="col-md-3 hidden-xs col-sm-2 hex-container">
+								<div class="hex">
+									<span class="hex-jazzhub pos-0"></span>
+									<span class="hex-mobile pos-1"></span>
+								</div>
+							</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-12 col-xs-12" id="col-offset">
+						<div class="row" id="doc-container-r">
+							<a class="section" href="/tutorials/jazzeditorjava">
+							<div class="col-md-7 col-sm-9 col-xs-9 col-md-push-5 callout" id="4">
+								<p class="description">
+									<strong>Getting Started</strong> with IBM Bluemix and IBM DevOps Services <strong>using Java</strong>.
+								</p>
+							</div>
+							<div class="col-md-2 hidden-xs col-sm-1 col-md-pull-4 stem"><hr /></div>
+							<div class="col-md-3 hidden-xs col-sm-2 col-md-pull-9 hex-container">
+								<div class="hex">
+									<span class="hex-jazzhub pos-2"></span>
+									<span class="hex-bluemix pos-3"></span>
+									<span class="hex-java pos-4"></span>
+								</div>
+							</div>
+							</a>
+						</div>						
+						<div class="row" id="doc-container-r">				
+							<a class="section" href="/tutorials/jazzrtc">
+							<div class="col-md-7 col-sm-9 col-xs-9 col-md-push-5 callout" id="5">
+								<p class="description">
+									<strong>Developing</strong> IBM Bluemix applications in Java <strong>with Eclipse</strong> and IBM DevOps Services
+								</p>
+							</div>
+							<div class="col-md-2 hidden-xs col-sm-1 col-md-pull-4 stem"><hr /></div>
+							<div class="col-md-3 hidden-xs col-sm-2 col-md-pull-9 hex-container">
+								<div class="hex">
+									<span class="hex-bluemix pos-0"></span>
+									<span class="hex-eclipse pos-8"></span>
+									<span class="hex-jazzhub pos-9"></span>
+									<span class="hex-java pos-10"></span>
+								</div>
+							</div>
+							</a>
+						</div>
+						<div class="row" id="doc-container-r">
+							<a class="section" href="/tutorials/trackplan">
+							<div class="col-md-7 col-sm-9 col-xs-9 col-md-push-5 callout" id="6">
+								<p class="description">
+									<strong>Getting started with tracking and planning</strong> in IBM DevOps Services
+								</p>
+							</div>
+							<div class="col-md-2 hidden-xs col-sm-1 col-md-pull-4 stem"><hr /></div>
+							<div class="col-md-3 hidden-xs col-sm-2 col-md-pull-9 hex-container">
+								<div class="hex">
+									<span class="hex-jazzhub pos-0"></span>
+									<span class="hex-trackplan pos-1"></span>
+								</div>
+							</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+		<div class="clearfix"></div>
+
+		<div class="row pts pbl" id="key-resources">
+			<h2 class="pbs plm" >Key Resources</h2>
+			<div class="clearfix"></div>
+			<div class="col-md-12 col-sm-12 col-xs-9">
+				<div id="topics-grid" class="col-md-12 col-sm-12 col-xs-12 text-center">
+						<div class="resource-container">
+							<a class="resource-section" href="learn">
+								<div class="resource-img col-center"><span class="learn"></span></div>
+								<div class="resource-name col-center">Learn about IBM DevOps Services</div>
+							</a>
+						</div>
+						<div class="resource-container">
+							<a class="resource-section" href="/whatsnew">
+								<div class="resource-img col-center"><span class="whatsnew"></span></div>
+								<div class="resource-name col-center">What's New</div>
+							</a>
+						</div>
+						<div class="resource-container">
+							<a class="resource-section" href="/features">
+								<div class="resource-img col-center"><span class="features"></span></div>
+								<div class="resource-name col-center">Features</div>
+							</a>
+						</div>
+						<div class="resource-container">
+							<a class="resource-section" href="/docs/faq">
+								<div class="resource-img col-center"><span class="faq"></span></div>
+								<div class="resource-name col-center">Frequently Asked Questions</div>
+							</a>
+						</div>
+						<div class="resource-container">
+							<a class="resource-section" href="/glossary">
+								<div class="resource-img col-center"><span class="glossary"></span></div>
+								<div class="resource-name col-center">Glossary</div>
+							</a>
+						</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="clearfix"></div>
+
+		<div class="row pts pbl" id="topics">
+			<h2 class="pbs plm text-left" >Topics <a role="button" href="/docs/all" class="mll btn btn-dark btn-sm">All Docs</a></h2>
+				<div class="row">
+					<div id="topics-grid" class="col-md-12 col-sm-12 col-xs-9 text-center">
+						<div class="topic-container">
+							<a class="topic-section" href="/docs/nodejs">
+								<div class="topic-img col-center"><span class="nodejs"></span></div>
+								<div class="topic-name col-center">Node.js</div>
+							</a>
+						</div>
+						<div class="topic-container">
+							<a class="topic-section" href="/docs/java">
+								<div class="topic-img col-center"><span class="java"></span></div>
+								<div class="topic-name col-center">Java</div>
+							</a>
+						</div>
+						<div class="topic-container">
+							<a class="topic-section" href="/docs/python">
+								<div class="topic-img col-center"><span class="python"></span></div>
+								<div class="topic-name col-center">Python</div>
+							</a>
+						</div>
+						<div class="topic-container">
+							<a class="topic-section" href="/docs/mongodb">
+								<div class="topic-img col-center"><span class="mongodb"></span></div>
+								<div class="topic-name col-center">MongoDB</div>
+							</a>
+						</div>
+						<div class="topic-container">
+							<a class="topic-section" href="/docs/mobile">
+								<div class="topic-img col-center"><span class="mobile"></span></div>
+								<div class="topic-name col-center">Mobile</div>
+							</a>
+						</div>
+						<div class="topic-container">
+							<a class="topic-section" href="/docs/build_deploy">
+								<div class="topic-img col-center"><span class="build_deploy"></span></div>
+								<div class="topic-name col-center">Build and Deploy</div>
+							</a>
+						</div>
+						<div class="topic-container">
+							<a class="topic-section" href="/docs/trackplan">
+								<div class="topic-img col-center"><span class="trackplan"></span></div>
+								<div class="topic-name col-center">Track and Plan</div>
+							</a>
+						</div>
+						<div class="topic-container">
+							<a class="topic-section" href="/docs/bluemix">
+								<div class="topic-img col-center"><span class="bluemix"></span></div>
+								<div class="topic-name col-center">Bluemix</div>
+							</a>
+						</div>
+						<div class="topic-container">
+							<a class="topic-section" href="/docs/jazz_scm">
+								<div class="topic-img col-center"><span class="jazz_scm"></span></div>
+								<div class="topic-name col-center">Jazz Source Control Management</div>
+							</a>
+						</div>
+						<div class="topic-container">
+							<a class="topic-section" href="/docs/git">
+								<div class="topic-img col-center"><span class="git"></span></div>
+								<div class="topic-name col-center">Git</div>
+							</a>
+						</div>
+						<div class="topic-container">
+							<a class="topic-section" href="/docs/eclipse">
+								<div class="topic-img col-center"><span class="eclipse"></span></div>
+								<div class="topic-name col-center">Eclipse</div>
+							</a>
+						</div>
+						<div class="topic-container">
+							<a class="topic-section" href="/docs/academics">
+								<div class="topic-img col-center"><span class="academics"></span></div>
+								<div class="topic-name col-center">Academics</div>
+							</a>
+						</div>
+						<div class="topic-container">
+							<a class="topic-section" href="/docs/hackathons">
+								<div class="topic-img col-center"><span class="hackathons"></span></div>
+								<div class="topic-name col-center">Hackathons</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+</div>
+{>footer/}

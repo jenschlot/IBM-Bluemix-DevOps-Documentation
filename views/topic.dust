@@ -1,0 +1,35 @@
+{>bootstrap_header/}
+<div class="com-ibm-team-jazzhub-Docs content fluid-content">
+	<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none"></div>
+		<div class="container-fluid">
+			<div class="row" id="topic-header">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-2 col-sm-4 col-xs-5 vcenter">
+							<div class="topic-img">
+								<span class="{imgicon}"></span>
+							</div>
+						</div>
+						<div class="col-md-6 vcenter topic-header-name">
+							<span>{topicname}</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<ol class="breadcrumb">
+				<li><a href="/{sectionname}">{sectionname}</a></li>
+				{@ne key=topicname value="All"}
+				<li><a href="/docs#topics">Topics</a></li>				
+				{/ne}
+				<li class="current">{topicname}</li>
+			</ol>
+			<div class="row ptm">
+				<div class="col-md-12 topic">
+						{markdown|s}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{>footer/}
+

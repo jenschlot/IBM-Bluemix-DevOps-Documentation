@@ -1,6 +1,6 @@
 {
 	"jazzhub": {
-		"url" : "https://qa.hub.jazz.net/"
+		"url" : "https://beta3.hub.jazz.net/"
 	},
 	"content": [
 		{
@@ -9,25 +9,154 @@
 			"directory": "tutorials"
 		},
 		{
-			"uri_prefix": "/help/faq",
-			"section_name": "Help",
-			"directory": "help/faq"
-			
-		},
+			"uri_prefix": "/maintenance",
+			"section_name": "Maintenance Schedule",
+			"directory": "maintenance"
+		}
+	],
+	"resource": [
 		{
 			"uri_prefix": "/whatsnew",
-			"section_name": "What's New",
+			"section_name": "Docs",
+			"resource_name": "What's New",
+			"img_icon": "whatsnew",
 			"directory": "whatsnew"
 		},
 		{
 			"uri_prefix": "/features",
-			"section_name": "Features",
+			"section_name": "Docs",
+			"resource_name": "Features",
+			"img_icon": "features",
 			"directory": "features"
 		},
 		{
-			"uri_prefix": "/maintenance",
-			"section_name": "Maintenance Schedule",
-			"directory": "maintenance"
+			"uri_prefix": "/docs/faq",
+			"section_name": "Docs",
+			"resource_name": "FAQ",
+			"img_icon": "faq",
+			"directory": "help/faq"
+			
+		},
+		{
+			"uri_prefix": "/support",
+			"section_name": "Support",
+			"resource_name": "Support",
+			"img_icon": "support",
+			"directory": "support"
+		},
+		{
+			"uri_prefix": "/glossary",
+			"section_name": "Docs",
+			"resource_name": "Glossary",
+			"img_icon": "glossary",
+			"directory": "glossary"
+		}
+	],
+	"topic": [
+		{
+			"uri_prefix": "/docs/all",
+			"section_name": "Docs",
+			"topic_name": "All",
+			"img_icon": "all",
+			"directory": "help/all"
+		},
+		{
+			"uri_prefix": "/docs/academics",
+			"section_name": "Docs",
+			"topic_name": "Academics",
+			"img_icon": "academics",
+			"directory": "help/topics/academics"
+		},
+		{
+			"uri_prefix": "/docs/bluemix",
+			"section_name": "Docs",
+			"topic_name": "Bluemix",
+			"img_icon": "bluemix",
+			"directory": "help/topics/bluemix"
+		},
+		{
+			"uri_prefix": "/docs/build_deploy",
+			"section_name": "Docs",
+			"topic_name": "Build and Deploy",
+			"img_icon": "build_deploy",
+			"directory": "help/topics/build_deploy"
+		},
+		{
+			"uri_prefix": "/docs/eclipse",
+			"section_name": "Docs",
+			"topic_name": "Eclipse",
+			"img_icon": "eclipse",
+			"directory": "help/topics/eclipse"
+		},
+		{
+			"uri_prefix": "/docs/git",
+			"section_name": "Docs",
+			"topic_name": "Git",
+			"img_icon": "git",
+			"directory": "help/topics/git"
+		},
+		{
+			"uri_prefix": "/docs/java",
+			"section_name": "Docs",
+			"topic_name": "Java",
+			"img_icon": "java",
+			"directory": "help/topics/java"
+		},
+		{
+			"uri_prefix": "/docs/jazz_scm",
+			"section_name": "Docs",
+			"topic_name": "Jazz SCM",
+			"img_icon": "jazz_scm",
+			"directory": "help/topics/jazz_scm"
+		},
+		{
+			"uri_prefix": "/docs/mobile",
+			"section_name": "Docs",
+			"topic_name": "Mobile",
+			"img_icon": "mobile",
+			"directory": "help/topics/mobile"
+		},
+		{
+			"uri_prefix": "/docs/nodejs",
+			"section_name": "Docs",
+			"topic_name": "Node.js",
+			"img_icon": "nodejs",
+			"directory": "help/topics/nodejs"
+		},
+		{
+			"uri_prefix": "/docs/python",
+			"section_name": "Docs",
+			"topic_name": "Python",
+			"img_icon": "python",
+			"directory": "help/topics/python"
+		},
+		{
+			"uri_prefix": "/docs/trackplanfg",
+			"section_name": "Track and Plan",
+			"topic_name": "Track and Plan Features",
+			"img_icon": "trackplan",
+			"directory": "help/topics/trackplan/trackplanfg"
+		},
+		{
+			"uri_prefix": "/docs/trackplan",
+			"section_name": "Docs",
+			"topic_name": "Track and Plan",
+			"img_icon": "trackplan",
+			"directory": "help/topics/trackplan"
+		},
+		{
+			"uri_prefix": "/docs/mongodb",
+			"section_name": "Docs",
+			"topic_name": "MongoDB",
+			"img_icon": "mongodb",
+			"directory": "help/topics/mongodb"
+		},
+		{
+			"uri_prefix": "/docs/hackathons",
+			"section_name": "Docs",
+			"topic_name": "Hackathons",
+			"img_icon": "hackathons",
+			"directory": "help/topics/hackathons"
 		}
 	]
 }

@@ -45,11 +45,14 @@
 	box-sizing: border-box;	
 }
 
-body {
-  margin: 0;
-  font: 100% Arial, sans-serif;
+html {
+	font-size: 16px;
 }
 
+body {
+  margin: 0;
+  font: 100% "Helvetica Neue",Helvetica, Arial, sans-serif;
+}
 
 /******************************************************************************
 	Common Styles
@@ -74,7 +77,6 @@ body {
 .f_right {
 	float: right;
 }
-
 .stretch {
 	min-height: 600px;
 }
@@ -185,7 +187,7 @@ body {
 @jh-number-of-columns: 12;
 
 .@{jh-namespace} .jh-columns {
-	width: 100%;
+	width: inherit;
 	overflow: hidden;
 	.rela;
 }
@@ -195,7 +197,7 @@ body {
 .generate-jh-cols(@n, @i: 1) when (@i =< @n) {
 	.@{jh-namespace} .jh-columns > .jh-col-12-@{i} {
 		.f_left;
-		width: round((@i * (100% / @jh-number-of-columns)), 2);
+		width: round((@i * (100vh / @jh-number-of-columns)), 2);
 	}
 
 	.generate-jh-cols(@n, (@i + 1));
@@ -438,12 +440,63 @@ body {
 	}
 }
 
+img {
+	margin: 0 auto;
+}
+
 /* For internet explorer. */
 a img {
 	border: 0px;
 }
 
-/* For help/faq page. */
+/*********************************************************************
+
+						TABLE OF CONTENTS
+
+**********************************************************************
+
+1.0 CSS for markdown pages
+
+	1.1 Help FAQ Page Markdown pages
+
+	1.2 CSS for codeblocks on Markdown pages
+
+	1.3 CSS for tables on Markdown pages
+
+2.0 404 Error Page
+
+3.0 Docs Landing Page
+
+	3.1 Featured Docs Section
+		3.1.1 Hex tile icons
+		3.1.2 Hex icons positions
+		3.1.3 Hexagons hover behaviour
+
+	3.2 Key Resources Section
+		3.2.1 Key Resources Icons
+		3.2.2 Key Resources Subpages
+		3.2.3 Key Resources Hover
+
+	3.3 Topics Section
+		3.3.1 All Docs Button
+		3.3.2 Topics Icons
+		3.3.3 Topics Subpages
+		3.3.4 Topics Hover behaviou
+
+	3.4 Breadcrumb CSS
+
+**********************************************************************
+
+						End Table of Contents
+
+*********************************************************************/
+
+
+/*******************************************************************
+1.0 CSS for markdown pages
+*******************************************************************/
+
+/*******************1.1 For help/faq page ************************/
 .google-chrome {
 	background-color: #fde907;
 	width: 24%;
@@ -469,8 +522,7 @@ a img {
 }
 
 
-/** CSS for rendering code using the markdown syntax **/
-
+/******************* 1.2 CSS for Codeblocks *********************/
 pre, code, tt {
 	font-size: 14px;
 	font-family: Consolas, "Liberation Mono", Courier, monospace;
@@ -509,8 +561,7 @@ pre code, pre tt {
 }
 
 
-
-/** CSS for rendering tables using markedown syntax **/
+/***************** 1.3 CSS for rendering tables **************/
 
 table
 {
@@ -522,15 +573,23 @@ table
 
 table tr
 {
-	border-top:1px solid #ccc;
+	border-top:1px solid #94a3ab;
 	background-color:#fff;
 	margin:0;
 	padding:0;
 }
-
+table th {
+	background-color: #3b4b53;
+	color: #dee6eb;
+}
+table th:empty {
+	background-color: #ffffff;
+	color: #26343F;
+	display: none;
+}
 table tr:nth-child(2n)
 {
-	background-color:#f8f8f8;
+	background-color:#eeeeee;
 }
 table tr th[align="center"], table tr td[align="center"] {
 	text-align:center;
@@ -544,9 +603,9 @@ table tr th, table tr td
 	word-wrap: break-word;
 }
 
-
-
-/** CSS for the 404 error page **/
+/******************************************************************
+ 2.0 404 Error Page 
+ ******************************************************************/
 
 a:link, a:visited {
 	color: #00649D;
@@ -638,3 +697,623 @@ a:hover {
 	word-wrap: break-word;
 	word-break: break-all;
 }
+
+/************* TEXT ALIGN **********************
+
+.t_left {
+	text-align: left;
+}
+.t_center {
+	text-align: center;
+}
+.t_right {
+	text-align: right;
+}
+
+/*******************************************************************
+3.0 Docs Landing Page
+*******************************************************************/
+
+/***************** 3.1 Featured Docs Section **********************/
+
+#featured-docs {
+	background-color: #3b4b54;
+	color: #ffffff;
+}
+
+	#doc-container-l {
+		padding-left: 2.5em;
+		padding-bottom: 18px;
+		padding-top: 18px;
+		padding-right: 9px;
+	}
+
+	#doc-container-r {
+		padding-right: 2.5em;
+		padding-bottom: 18px;
+		padding-top: 18px;
+		padding-left: 9px;
+	}
+
+	@media (min-width: 992px) {
+		#col-offset {
+		padding-top: 77px;
+		}
+	}
+
+	@media (max-width: 992px){
+		#doc-container-r, #doc-container-l {
+			padding-left: 3.0em;
+			padding-bottom: 18px;
+			padding-top: 18px;
+			padding-right: 3.0em;
+		}
+	}
+
+	.hex-container {
+		display: inline-block;
+		padding: 0px;
+	}
+
+	.callout {
+		padding: 15px;
+		border: 0px solid transparent;
+		border-radius: 15px;
+		background-color: #26343f;
+	}
+	.callout > p {
+		margin-bottom: 0px;
+	}
+	.description > strong {
+		color: #fff;
+		line-height: 1.4em;
+	}
+
+	.stem {
+		padding:0px;
+		margin-top:55px;
+	}
+
+	.stem hr:only-of-type {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		border: 4px solid #26343f;
+		margin-left: -5px ;
+		margin-right: -5px;
+	}
+
+	.hex {
+		padding: 7px 8px 7px 8px;
+		height: 118px;
+		width: 136px;
+		background-image: url(../images/docs/hexagons.png);
+		background-repeat: none;
+	}
+
+	.title-name {
+		text-align: center;
+		color: #00aed1;
+		font-weight: bold;
+		font-size: 0.9rem;
+	}
+	.description {
+		text-align: center;
+		color: #ddd;
+		font-size: 1rem;
+	}
+
+	/******************* 3.1.1 Hex tile icons *************************/
+
+	.hex-tile-position {
+		position: absolute;
+		width: 120px;
+		height: 104px;
+		background-repeat: no-repeat;
+		z-index: 1;
+	}
+
+	span.hex-builddeploy {
+		.hex-tile-position;
+		background-image: url(../images/docs/hexagons-builddeploy.png);
+		
+	}
+	span.hex-bluemix {
+		.hex-tile-position;
+		background-image: url(../images/docs/hexagons-bm.png);
+		
+	}
+	span.hex-eclipse {
+		.hex-tile-position;
+		background-image: url(../images/docs/hexagons-eclipse.png);
+		
+	}
+	span.hex-java {
+		.hex-tile-position;
+		background-image: url(../images/docs/hexagons-java.png);
+		
+	}
+	span.hex-jazzhub {
+		.hex-tile-position;
+		background-image: url(../images/docs/hexagons-jazzhub.png);
+		
+	}
+	span.hex-mobile {
+		.hex-tile-position;
+		background-image: url(../images/docs/hexagons-mobile.png);
+		
+	}
+	span.hex-node {
+		.hex-tile-position;
+		background-image: url(../images/docs/hexagons-node.png);
+		
+	}
+	span.hex-trackplan {
+		.hex-tile-position;
+		background-image: url(../images/docs/hexagons-trackplan.png);
+		
+	}
+
+	/******************* 3.1.2 Hex icons positions *************************/
+
+	/***Note: The first image in sprite on the top left corner is pos-0.
+	          pos-# increases as you move in the right direction.         */
+	.pos-0 {
+		background-position: 0px 0px;
+	}
+	.pos-1{
+		background-position: -120px 0px
+	}
+	.pos-2{
+		background-position: -240px 0px;
+	}
+	.pos-3{
+		background-position: -360px 0px;
+	}
+	.pos-4{
+		background-position: 0px -104px;
+	}
+	.pos-5{
+		background-position: -120px -104px;
+	}
+	.pos-6{
+		background-position: -240px -104px;
+	}
+	.pos-7{
+		background-position: -360px -104px;
+	}
+	.pos-8{
+		background-position: 0px -208px;
+	}
+	.pos-9{
+		background-position: -120px -208px;
+	}
+	.pos-10{
+		background-position: -240px -208px;
+	}
+	.pos-11 {
+		background-position: -420px 0px;
+	}
+
+	/******************* 3.1.3 Hexagons hover behaviour *************************/
+
+	a.section, a.section:hover {
+	text-decoration: none;
+	}
+	a.section:hover .title-name {
+			color: #F26C4F;
+	}
+	a.section:hover .description, a.section:hover .description > strong {
+			color: #2a3a12;
+	}
+	a.section:hover .hex {
+		height: 118px;
+		width: 136px;
+		background-image: url(../images/docs/hexagons.png);
+		background-position: -136px 0px;
+	}
+	a.section:hover .callout {
+		background-color: #dee6eb;
+	}
+	a.section:hover .stem hr:only-of-type{
+		border: 4px solid #dee6eb;
+	}
+
+/***************** 3.2 Key Resources Section **********************/
+
+#key-resources {
+	background-color: #ffffff;
+}
+	@media(max-width: 767px) {
+		div#key-resources .xs-offset {
+		padding-left: 30px;
+		}
+	}
+
+	div#key-resources .col-center {
+		margin: 0 auto;
+	}
+
+	/************ 3.2.1 Key Resources Icons ********************/
+
+	div#key-resources .col-center {
+		margin: 0 auto;
+	}
+	@media(min-width: 992px) {
+		.resource-container {
+			width: 20%;
+		}
+	}
+	@media(max-width: 991px) {
+		.resource-container{
+			width: 25%;
+		}
+	}
+	@media(max-width: 768px) {
+		.resource-container {
+			width: 33%;
+		}
+	}
+	.resource-container {
+		display: inline-block;
+		padding: 10px;
+		vertical-align: top;
+	}
+
+	.resource-img {
+		height: 136px;
+		width: 136px;
+		overflow: hidden;
+		border: 8px solid #26343f;
+		border-radius: 8px;
+	}
+
+	.resource-sprite {
+			float: none;
+			position: relative;
+			display: inline-block;
+			height: 120px;
+			width: 120px;
+			background-image: url(../images/docs/resources-sprite.png);
+			background-repeat: no-repeat;
+			z-index: 1;
+		}
+
+	/***Note: Ensure that the class name for a key resource icon is same 
+	          as the 'resource_name' entry in the config.json file.      */
+
+	.resource-img > .learn {
+			.resource-sprite;
+			background-position: 0px 0px;
+		}
+	.resource-img > .whatsnew {
+			.resource-sprite;
+			background-position: -120px 0px;
+		}
+	.resource-img > .features {
+			.resource-sprite;
+			background-position: -240px 0px;
+		}
+	.resource-img > .faq {
+			.resource-sprite;
+			background-position: -360px 0px;
+		}
+	.resource-img > .support {
+			.resource-sprite;
+			background-position: -480px 0px;
+		}
+	.resource-img > .glossary {
+			.resource-sprite;
+			background-position: -600px 0px;
+		}
+
+	.resource-name {
+		width: 132px;
+		min-height: 75px;
+		text-align: center;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		color: #26343f;
+	}
+
+	/************ 3.2.2 Key Resources Subpages ********************/
+
+	#resource-header {
+		background-color: #03829e;
+		color: #ffffff;
+		padding: 15px 0px 15px 0px;
+	}
+		.resource-header-name {
+			font-size: 2.0rem;
+			font-weight: bold;
+			margin-left: -35px;
+		}
+		
+		div.resource {
+			padding: 0px 90px 30px 90px;
+		}
+		.resource > a {
+			color: #00aed1;
+		}
+
+		.resource > h2 {
+			font-size: 1.6rem;
+		}
+		.resource > h3 {
+			font-size: 1.3rem;
+		}
+
+		.resource > p {
+			line-height: 1.4rem;
+		}
+
+		.resource > ul {
+			.mtm;
+			.mbm;
+			li {
+				margin: (@jh-base-em*2em) 0;
+			}
+		}
+
+		.resource img {
+			background-repeat: no-repeat;
+			background-position: center center;
+			display: block;
+			max-width: 950px;
+			border: 1px solid #E0E0E0;
+			padding: 0.3125em;
+			margin: 2.5em auto;
+		}
+
+	/************ 3.2.3 Key Resources Hover ********************/
+
+	a.resource-section ,a.resource-section:hover {
+	text-decoration: none;
+	}
+	
+	a.resource-section:hover .resource-img {
+		border: 8px solid #94A3AB;
+		opacity: 1;
+	}
+	a.resource-section:hover .resource-name {
+		text-decoration: none;
+		color: #03829e;
+	}
+
+/***************** 3.3 Topics Section **********************/
+
+#topics {
+	background-color: #94a3ab;
+}
+	/************* 3.3.1 All Docs Button **********************/
+	a.btn-dark {
+	background-color: #26343f;
+	color: #dee6eb;
+	text-decoration: none;
+	}
+
+	a.btn-dark:hover {
+		background-color: #dee6eb;
+		color: #2a3a12;
+		text-decoration: none;
+	}
+
+	/************* 3.3.2 Topics Icons ************************/
+
+	div#topics .col-center {
+		margin: 0 auto;
+	}
+
+	@media(min-width: 992px) {
+		.topic-container {
+			width: 20%;
+		}
+	}
+	@media(max-width: 991px) {
+		.topic-container{
+			width: 25%;
+		}
+	}
+	@media(max-width: 768px) {
+		.topic-container {
+			width: 33%;
+		}
+	}
+
+	.topic-container {
+		display: inline-block;
+		min-height: 215px;
+		padding: 10px;
+		vertical-align: top;
+	}
+
+	.topic-img {
+		height: 136px;
+		width: 136px;
+		overflow: hidden;
+		border: 8px solid #dee6eb;
+		background-color: #dee6eb;
+		border-radius: 50%;
+	}
+
+	.topic-name {
+		width: 100%;
+		text-align: center;
+		padding: 10px;
+		color: #1b252d;
+		word-wrap: break-word;
+	}
+
+	.topic-sprite {
+			float: none;
+			position: relative;
+			height: 120px;
+			width: 120px;
+			background-image: url(../images/docs/circle-sprites-alt.png);
+			background-repeat: no-repeat;
+			display: inline-block;
+		}
+
+	/***Note: Ensure that the class name for a key resource icon is same 
+	          as the 'topic_name' entry in the config.json file.      */
+
+	.topic-img > .nodejs {
+			.topic-sprite;
+			background-position: 0px 0px;
+		}
+	.topic-img > .java {
+			.topic-sprite;
+			background-position: 0px -120px;
+		}
+	.topic-img > .mobile {
+			.topic-sprite;
+			background-position: 0px -240px;
+		}
+	.topic-img > .trackplan {
+			.topic-sprite;
+			background-position: 0px -360px;
+		}
+	.topic-img > .bluemix {
+			.topic-sprite;
+			background-position: 0px -480px;
+		}
+	.topic-img > .eclipse {
+			.topic-sprite;
+			background-position: 0px -600px;
+		}
+	.topic-img > .git {
+			.topic-sprite;
+			background-position: 0px -720px;
+		}
+	.topic-img > .jazz_scm {
+			.topic-sprite;
+			background-position: 0px -840px;
+		}
+	.topic-img > .academics {
+			.topic-sprite;
+			background-position: 0px -960px;
+		}
+	.topic-img > .build_deploy {
+			.topic-sprite;
+			background-position: 0px -1080px;
+		}
+	.topic-img > .python {
+			.topic-sprite;
+			background-position: 0px -1200px;
+		}
+	.topic-img > .all {
+			.topic-sprite;
+			background-position: 0px -1320px;
+		}
+	.topic-img > .hackathons {
+			.topic-sprite;
+			background-position: 0px -1440px;
+		}
+	.topic-img > .mongodb {
+			.topic-sprite;
+			background-position: 0px -1560px;
+		}
+
+	/************* 3.3.3 Topics Subpages *********************/
+
+	#topic-header {
+		background-color: #3b4b54;
+		color: #ffffff;
+		padding: 15px 0px 15px 0px;
+	}
+	.topic-header-name {
+		font-size: 2.0rem;
+		font-weight: bold;
+		margin-left: -35px;
+	}
+
+	.vcenter {
+		display: inline-block;
+		vertical-align: middle;
+		float: none;
+	}
+
+
+	div.topic {
+			padding: 0px 90px 30px 90px;
+		}
+		.topic > a {
+			color: #00aed1;
+		}
+
+		.topic > h2 {
+			font-size: 1.6rem;
+		}
+		.topic > h3 {
+			font-size: 1.3rem;
+			margin-bottom: 5px;
+		}
+		.topic > h3+p {
+			margin-top: 5px;
+			color: #94a3ab;
+		}
+
+		.topic > p {
+			line-height: 1.4rem;
+		}
+
+		.resource > ul {
+			.mtm;
+			.mbm;
+			li {
+				margin: (@jh-base-em*2em) 0;
+			}
+		}
+
+		.topic img {
+			background-repeat: no-repeat;
+			background-position: center center;
+			display: block;
+			max-width: 950px;
+			border: 1px solid #E0E0E0;
+			padding: 0.3125em;
+			margin: 2.5em auto;
+		}
+
+	/************* 3.3.4 Topics Hover behaviour ************/
+
+	a.topic-section , a.topic-section:hover {
+	text-decoration: none;
+	}
+	a.topic-section:hover .topic-img {
+		border: 8px solid #26343f;
+		background-color: #26343f;
+		opacity: 0.9;
+	}
+	a.topic-section:hover .topic-name {
+		text-decoration: none;
+		color: #dee6eb;
+	}
+
+/************** 3.4 Breadcrumb CSS **************************/
+
+	.breadcrumb {
+		margin: 0px -15px 0 -15px;
+		padding-left: 25px;
+		font-size: 16px;
+	}
+	.breadcrumb li {
+		display: inline;
+		color: #1b252d;
+	}
+	.breadcrumb li a {
+		text-decoration: none;
+		color: #1b252d;
+	}
+	.breadcrumb li a:hover{
+		text-decoration: none;
+		color: #F47D64;
+	}
+	.breadcrumb li+li:before {
+		content: ' > ';
+		color: #94a3ab;
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.breadcrumb .current {
+		color: #94A3AB;
+	}
