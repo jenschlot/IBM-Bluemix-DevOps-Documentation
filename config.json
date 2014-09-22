@@ -45,7 +45,7 @@
 			"directory": "support"
 		},
 		{
-			"uri_prefix": "/glossary",
+			"uri_prefix": "/docs/glossary",
 			"section_name": "Docs",
 			"resource_name": "Glossary",
 			"img_icon": "glossary",
