@@ -1,5 +1,5 @@
 {>bootstrap_header/}
-<div class="com-ibm-team-jazzhub-Docs content fluid-content">
+<div id="content" class="com-ibm-team-jazzhub-Docs content fluid-content">
 	<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none"></div>
 		<div class="container-fluid">
 			<div class="row" id="topic-header">
