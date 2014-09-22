@@ -5,6 +5,7 @@
 		<script src="//cdn.optimizely.com/js/1141215513.js"></script>
 		<link rel='icon' type='image/x-icon' href='/tutorials/favicon.ico'></link>
 		<script src='/tutorials/lib/jquery/jquery-2.1.1.min.js'></script>
+		<script src='/tutorials/javascript/pageResize.js'></script>	
 		<link rel='stylesheet' href='/tutorials/lib/bootstrap/bootstrap-3.2.0-dist/css/bootstrap.min.css'></link>
 		<script src='/tutorials/lib/bootstrap/bootstrap-3.2.0-dist/js/bootstrap.min.js'></script>
 		<link rel='stylesheet' href='/tutorials/stylesheets/style.css'></link>
