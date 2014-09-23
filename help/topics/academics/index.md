@@ -82,4 +82,7 @@ download a [brochure](http://public.dhe.ibm.com/common/ssi/ecm/en/ibf03007usen/I
 from ideation and the conception of new business capabilities to implementation in production - and how it can bring
 competitive advantage through continuous delivery. </div>
 
+### Blue Labs
+<div style="color:black">Visit the [Blue Labs website](http://bluelabs.mybluemix.net/) for materials to conduct an introductory workshop. </div>
+
 &copy; Copyright IBM Corporation 2013, 2014.
