@@ -25,10 +25,10 @@
 							</a>
 						</div>
 						<div class="row" id="doc-container-l">
-							<a class="section" href="/tutorials/jazzeditor">
+							<a class="section" href="/tutorials/jazzweb">
 							<div class="col-md-7 col-sm-9 col-xs-9 callout" id="2">
 								<p class="description">
-									<strong>Developing</strong> IBM Bluemix application in node.js <strong>with the Web IDE</strong>
+									<strong>Developing</strong> an IBM Bluemix application in node.js <strong>with the Web IDE</strong>
 								</p>
 							</div>
 							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
