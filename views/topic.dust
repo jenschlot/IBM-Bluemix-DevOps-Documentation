@@ -17,7 +17,7 @@
 				</div>
 			</div>
 			<ol class="breadcrumb">
-				<li><a href="/{sectionname}">{sectionname}</a></li>
+				<li><a href="/{lowercaseSectionName}">{sectionname}</a></li>
 				{@ne key=topicname value="All"}
 				<li><a href="/docs#topics">Topics</a></li>				
 				{/ne}

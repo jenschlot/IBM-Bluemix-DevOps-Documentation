@@ -30,6 +30,7 @@ module.exports =  function (env, section_name, topic_name, img_icon, directory) 
 				{ 
 					markdown: req.rendered_markdown,
 					sectionname: req.sectionname,
+					lowercaseSectionName: req.sectionname.toLowerCase(),
 					topicname: req.topicname,
 					imgicon: req.imgicon,
 					navbarSelection: 'docs'
