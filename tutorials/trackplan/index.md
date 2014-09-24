@@ -9,6 +9,8 @@ With support for many project roles, you can use the Track & Plan feature for la
 
 To try the Track & Plan feature, follow these instructions to start a simple, public, agile project. You'll use basic story, task, and defect work items to plan a chat page for a website.
 
+For a quick overview of features and functions, [explore the Track & Plan feature][9].
+
 ---
 ## Contents
 
@@ -245,7 +247,7 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 * [Getting Started with Bluemix and DevOps Services using Node.js][41]
 * [Getting Started with Bluemix and DevOps Services using Java][44]
 * [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services][42]
-* [Developing Bluemix applications in Node.js with the DevOps Services Web IDE][43]
+* [Developing Bluemix applications in Node.js with the Web IDE][43]
 * [Developing Bluemix applications in Java with Eclipse and DevOps Services][40]
 
 &copy; Copyright IBM Corporation 2013, 2014.
@@ -258,7 +260,7 @@ To learn more about IBM Bluemix and IBM DevOps Services capabilities, see these 
 [6]: https://bluemix.net/#/pricing/cloudOEPaneId=pricing 
 [7]: /tutorials/trackplan/images/appendeddefect.gif
 [8]: /tutorials/trackplan/images/workitemeditor.gif
-
+[9]: /docs/trackplan/trackplanfg/
 [10]: /tutorials/trackplan/images/unrankedbacklog.gif
 [11]: /tutorials/trackplan/images/rankedlist.gif
 [12]: /tutorials/trackplan/images/estimateunassigned.gif
