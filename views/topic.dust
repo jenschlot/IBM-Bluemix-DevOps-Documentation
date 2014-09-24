@@ -5,7 +5,7 @@
 			<div class="row" id="topic-header">
 				<div class="col-md-12">
 					<div class="row">
-						<div class="col-md-2 col-sm-4 col-xs-5 vcenter">
+						<div class="col-md-2 col-sm-2 col-xs-2 vcenter">
 							<div class="topic-img">
 								<span class="{imgicon}"></span>
 							</div>
@@ -17,7 +17,7 @@
 				</div>
 			</div>
 			<ol class="breadcrumb">
-				<li><a href="/{sectionname}">{sectionname}</a></li>
+				<li><a href="/{lowercaseSectionName}">{sectionname}</a></li>
 				{@ne key=topicname value="All"}
 				<li><a href="/docs#topics">Topics</a></li>				
 				{/ne}

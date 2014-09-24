@@ -9,6 +9,9 @@
 		<link rel='stylesheet' href='/tutorials/lib/bootstrap/bootstrap-3.2.0-dist/css/bootstrap.min.css'></link>
 		<script src='/tutorials/lib/bootstrap/bootstrap-3.2.0-dist/js/bootstrap.min.js'></script>
 		<link rel='stylesheet' href='/tutorials/stylesheets/style.css'></link>
+		{@if cond="'{topicname}' == 'Academics'"}
+			<link rel='stylesheet' href='/tutorials/stylesheets/topic_academics.css'></link>
+		{/if}
 		<link rel='stylesheet' href='/embed/css/navbar'></link>
 	</head>
 	<body>

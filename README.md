@@ -37,7 +37,7 @@ RUNNING
 	npm install
 	node app
 
-	# Browse to https://localhost:3000 by default.
+	# Browse to http://localhost:3000 by default.
 
 DEPLOYING
 ---------

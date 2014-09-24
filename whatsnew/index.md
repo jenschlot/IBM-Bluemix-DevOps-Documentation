@@ -1,24 +1,26 @@
-# What's New
+## What's New
 
-## September 12, 2014
+---
+### September 12, 2014
 
-# Build and Deploy to IBM Bluemix
+## Build and Deploy to IBM Bluemix
 
-##Multistage deployment
+###Multistage deployment
 
 You can now configure IBM DevOps Services projects to deploy to multiple Bluemix spaces. To use multistage deployment, create more than one deployer stage. For example, you might configure a stage that deploys to a "dev" space for development, and another that deploys to a "production" space. 
 
 ![a configured pipeline set-up][55]
 
-## Automatic builds can now be disabled
+### Automatic builds can now be disabled
 
 When you use the Advanced Build & Deploy option, you can disable automatic builds that run when changes are pushed to your project. To disable the automatic builds, clear the **Automatically build when a change is delivered/pushed** check box when you configure a builder.
 
-## September 2, 2014
+---
+### September 2, 2014
  
-# Track & Plan Beta 
+## Track & Plan Beta 
  
-## Task board view added 
+### Task board view added 
   
 Now you can view all of the children of a parent work item at the same time. 
  
@@ -33,7 +35,7 @@ You can see which tasks you need to start to complete the story.
  
 You can drag a work item into another lane to change its status or click **Back to My Work** to return to your original view. 
  
-##Track & Plan interface updates 
+###Track & Plan interface updates 
  
 You can now use the All Work view to see all the work items that are associated with your IBM&reg;  
 DevOps Services Track & Plan Beta project. Use this view to see both incoming items and items that are assigned to sprints.  
@@ -45,11 +47,12 @@ Notable UI design changes:
 and select the sprint from the list. 
  * The options to create or edit sprints are available only in the Sprint Planning view.
 
-## Aug 28, 2014
+---
+### Aug 28, 2014
 
-# General enhancements
+## General enhancements
 
-## Our BUILD & DEPLOY and TRACK & PLAN features are now Bluemix Add-Ons to provide a better integrated Bluemix experience
+### Our BUILD & DEPLOY and TRACK & PLAN features are now Bluemix Add-Ons to provide a better integrated Bluemix experience
 
 The Track & Plan Add-On provides a listing of your IDS projects and their member count, 
 visibility, and whether or not the TRACK & PLAN capability is enabled. 
@@ -71,9 +74,9 @@ If your project exceeds free TRACK & PLAN or BUILD & DEPLOY usage,
 you will need to configure these Add-Ons in Bluemix. 
 Learn more about [Bluemix pricing](https://hub.jazz.net/learn/cost). 
 
-# Web IDE enhancements
+## Web IDE enhancements
 
-## From Many to One
+### From Many to One
 
 You can now work with Git from a single page. The current Git page looks like this (with sections collapsed):
 
@@ -192,6 +195,7 @@ The configuration section is now shown as a table.
 
 >	![Git repo configuration section](/whatsnew/images/orion-git-repo-config-section.png)
 
+---
 ### June 27, 2014
 
 ## Build and Deploy to IBM Bluemix
@@ -218,6 +222,7 @@ and deploy to Bluemix can be changed in Project Settings after your project is c
 
 >	![fork project settings](/whatsnew/images/jh-forkproj-settings.png)
 
+---
 ### May 23rd, 2014
 
 ## Improved Track & Plan
