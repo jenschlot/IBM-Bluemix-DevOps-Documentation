@@ -87,7 +87,7 @@ _____________________________
 ## Features at a glance
 
 
-### [Explore the Track & Plan Beta feature](/features/trackplanfg)
+### [Explore the Track & Plan Beta feature](../../docs/trackplan/trackplanfg)
 Topics: devops_services, plan, track
 
 <a id="samples"></a>
