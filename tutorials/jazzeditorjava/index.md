@@ -318,7 +318,7 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
    [16]: /tutorials/jazzeditorjava/images/webide.gif 
    [17]: /tutorials/jazzeditorjava/images/simpledeploy.png 
    [18]: /tutorials/jazzeditorjava/images/configbuilder.gif 
-   [19]: /tutorials/jazzeditorjava/images/deployer.gif 
+   [19]: /tutorials/jazzeditorjava/images/deployer.png 
    [20]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Services)
    [21]: /tutorials/jazzeditorjava/images/cli-git-clone.gif 
    [22]: /tutorials/jazzeditorjava/images/cli-stage-commit.gif 
