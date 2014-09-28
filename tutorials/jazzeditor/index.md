@@ -315,8 +315,8 @@ deployed the application. In minutes, you changed the code, pushed the changes t
 Web IDE, automatically built and deployed the application, checked the deployment status, 
 and ran the app to show your changes. 
 
-Tell us what you think. What did we do well? 
-What can we do better? Post your comments to the [IBM DevOps Services forum](https://www.ibmdw.net/answers?community=jazzhub) 
+Your feedback is important. What worked well? 
+What could be better? Post your comments to the [IBM DevOps Services forum](https://www.ibmdw.net/answers?community=jazzhub) 
 or send an [email](mailto:hub%40jazz.net).
 
 ---
