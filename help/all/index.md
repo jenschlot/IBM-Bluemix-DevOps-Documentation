@@ -60,6 +60,9 @@ Topics: mobile, devops_services, mqa, eclipse, java
 ### Article: [Jump-start your hackathon efforts with DevOps Services and Bluemix](http://www.ibm.com/developerworks/cloud/library/cl-hackathon-app/index.html)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> 
 Topics: devops_services, bluemix, mongodb, nodejs, pipeline, jade, git, webide
 
+### Article: [Automate rolling deployments with IBM DevOps Services for Bluemix](http://www.ibm.com/developerworks/cloud/library/cl-bluemix-rollingpipeline/) <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
+Topics: devops_services, bluemix, pipeline
+
 <a id="blogs"></a>
 ________________________________________
 ## Blogs
