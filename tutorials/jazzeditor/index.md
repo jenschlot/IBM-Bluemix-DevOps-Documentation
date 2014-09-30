@@ -250,7 +250,7 @@ so that it shows in the Web IDE. You merge from the Git Repository page.
 
 ![Orion Git repository icon](/tutorials/jazzeditor/images/orion-git-status.png)
 
-On the Git Repository page, merge the change that you made to the title.
+On the Git Repository page, **SYNC** the change that you made to the title.
 
 ![Orion Git merge](/tutorials/jazzeditor/images/orion-git-merge.png)
 
