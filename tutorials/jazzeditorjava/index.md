@@ -228,13 +228,13 @@ From this environment, you can edit files with syntax coloring support for multi
 
 *Tip: While outside of the code editor, type Shift + ? to search through the various key bindings in the IDE. Type Shift + Alt + ? to do so while you're in the editor.* 
 
-Just to round out the process, let's make one more modification to your application using the Web IDE. Before you do that, though, you must fetch and merge the app title change that you just made with the command line so that it shows in the Web IDE. You do that with the Git page. Open it. 
+Just to round out the process, let's make one more modification to your application using the Web IDE. Before you do that, though, you must fetch and merge the app title change that you just made with the command line so that it shows in the Web IDE. You do that with the Git Repository page. Open it. 
 
 ![Orion git status menu](/tutorials/jazzeditorjava/images/orion-git-status.png)
 
-From the Git page, fetch and then merge the change to your app.
+From the Git Status page, fetch and then merge the change to your app.
 
-![Fetching and merging the change](/tutorials/jazzeditorjava/images/merge.png)
+![Fetching and merging the change](/tutorials/jazzeditorjava/images/merge.gif)
 
 Next, navigate through the directory tree until you get to the same file you worked on before (for example, <tt>WebContent/index.html</tt>), then simply edit in place.
 
