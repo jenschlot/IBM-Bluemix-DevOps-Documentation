@@ -19,5 +19,10 @@
 			<div id='navbar'></div>
 			<script src='/embed/js/navbar?e=navbar&navSelection={navbarSelection}&navigationPageTitle={sectionname}'></script>
 			
+			<div id="announcement" class="announcement hidden">
+				<div class="messageIcon"></div>&nbsp;
+				<div class="messageSummary" id="messageSummary"></div>
+			</div>
+			<script src='/tutorials/javascript/adminMessage.js'></script>
 
 			<div class='content fluid-content'>
