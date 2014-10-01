@@ -153,7 +153,7 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 [11]: https://bluemix.net
 [12]: /tutorials/jazzweb/images/startappbluemix.png
 [13]: /tutorials/jazzweb/images/autocompletesearch.gif
-[14]: /tutorials/jazzweb/images/staging.png
+[14]: /tutorials/jazzweb/images/staging.gif
 [15]: /tutorials/jazzweb/images/commit.png
 [16]: /tutorials/jazzweb/images/pushing.png
 [17]: /tutorials/jazzweb/images/manifest.gif
