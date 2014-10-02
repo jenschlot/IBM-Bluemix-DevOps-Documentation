@@ -917,7 +917,168 @@ a:hover {
 	a.section:hover .stem hr:only-of-type{
 		border: 4px solid #dee6eb;
 	}
+/***************** 3.x Quick Reference Section **********************/
 
+#reference {
+	background-color: #dfdfdf;
+}
+	@media(max-width: 767px) {
+		div#reference  .xs-offset {
+		padding-left: 30px;
+		}
+	}
+
+	div#reference  .col-center {
+		margin: 0 auto;
+	}
+	/************ 3.x.1 Quick Reference Icons ********************/
+
+	div#reference .col-center {
+		margin: 0 auto;
+	}
+	@media(min-width: 992px) {
+		.reference-container {
+			width: 20%;
+		}
+	}
+	@media(max-width: 991px) {
+		.reference-container{
+			width: 25%;
+		}
+	}
+	@media(max-width: 768px) {
+		.reference-container {
+			width: 33%;
+		}
+	}
+	.reference-container {
+		display: inline-block;
+		padding: 10px;
+		vertical-align: top;
+	}
+
+	.reference-img {
+		height: 71px;
+		width: 136px;
+		overflow: hidden;
+		border: 6px solid #9b9b9b;
+		border-radius: 8px;
+	}
+
+	.reference-sprite {
+			float: none;
+			position: relative;
+			display: inline-block;
+			height: 80px;
+			width: 120px;
+			background-image: url(../images/docs/git-qr.gif);
+			background-repeat: no-repeat;
+			z-index: 1;
+		}
+
+	/***Note: Ensure that the class name for a key resource icon is same 
+	          as the 'resource_name' entry in the config.json file.      */
+
+	.reference-img > .git-qr {
+			.reference-sprite;
+			background-position: 0px 0px;
+		}
+	.reference-img > .manifest-qr {
+			.resource-sprite;
+			background-position: -120px 0px;
+		}
+	.reference-img > .build-qr {
+			.resource-sprite;
+			background-position: -240px 0px;
+		}
+	.reference-img > .deploy-qr {
+			.resource-sprite;
+			background-position: -360px 0px;
+		}
+	.reference-img > .support {
+			.resource-sprite;
+			background-position: -480px 0px;
+		}
+	.reference-img > .glossary {
+			.resource-sprite;
+			background-position: -600px 0px;
+		}
+
+	.reference-name {
+		width: 132px;
+		min-height: 75px;
+		text-align: center;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		color: #26343f;
+	}
+	
+	
+	/************ 3.x.2 Quick Reference Subpages ********************/
+
+	#reference-header {
+		background-color: yellow;
+		color: #ffffff;
+		padding: 15px 0px 15px 0px;
+	}
+		.reference-header-name {
+			font-size: 2.0rem;
+			font-weight: bold;
+			margin-left: -1%;
+		}
+		
+		div.reference {
+			padding: 0px 90px 30px 90px;
+		}
+		.reference > a {
+			color: #00aed1;
+		}
+
+		.reference > h2 {
+			font-size: 1.6rem;
+		}
+		.reference > h3 {
+			font-size: 1.3rem;
+		}
+
+		.reference > p {
+			line-height: 1.4rem;
+		}
+
+		.reference > ul {
+			.mtm;
+			.mbm;
+			li {
+				margin: (@jh-base-em*2em) 0;
+			}
+		}
+
+		.reference:warning_image img {
+			background-repeat: no-repeat;
+			background-position: center center;
+			display: block;
+			max-width: 950px;
+			border: 1px solid #E0E0E0;
+			padding: 0.3125em;
+			margin: 2.5em auto;
+		}
+	/************ 3.x.3 Quick Reference Hover ********************/
+
+	a.reference-section ,a.reference-section:hover {
+	text-decoration: none;
+	}
+	
+	a.reference-section:hover .reference-img {
+		border: 8px solid #94A3AB;
+		opacity: 1;
+	}
+	a.reference-section:hover .reference-name {
+		text-decoration: none;
+		color: #03829e;
+	}
+	
+	
+	
 /***************** 3.2 Key Resources Section **********************/
 
 #key-resources {

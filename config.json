@@ -52,6 +52,37 @@
 			"directory": "glossary"
 		}
 	],
+	"reference": [
+		{
+			"uri_prefix": "/reference/git",
+			"section_name": "Quick Reference",
+			"resource_name": "Git Quick Reference",
+			"img_icon": "git-qr",
+			"directory": "reference/git"
+		},
+		{
+			"uri_prefix": "/reference/build",
+			"section_name": "Quick Reference",
+			"resource_name": "Build Quick Reference",
+			"img_icon": "build-qr",
+			"directory": "reference/build"
+		},
+			{
+			"uri_prefix": "/reference/deploy",
+			"section_name": "Quick Reference",
+			"resource_name": "Deploy Quick Reference",
+			"img_icon": "deploy-qr",
+			"directory": "reference/deploy"
+		},{
+			"uri_prefix": "/reference/manifest",
+			"section_name": "Quick Reference",
+			"resource_name": "Manifest Quick Reference",
+			"img_icon": "manifest-qr",
+			"directory": "reference/manifest"
+	
+		}
+	],
+
 	"topic": [
 		{
 			"uri_prefix": "/docs/all",

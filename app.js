@@ -68,6 +68,22 @@ _.each(
 );
 
 _.each(
+	config.reference,
+	function (reference) {
+		app.use(
+			reference.uri_prefix, 
+			routes.resource_router(app.get('env'), 
+					      reference.section_name,
+					      reference.resource_name, 
+					      reference.img_icon,
+					      path.join(__dirname, reference.directory)
+			)
+		);
+	}
+);
+
+
+_.each(
 	config.resource,
 	function (resource) {
 		app.use(
@@ -81,6 +97,7 @@ _.each(
 		);
 	}
 );
+
 
 _.each(
 	config.topic,

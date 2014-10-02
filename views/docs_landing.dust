@@ -1,6 +1,7 @@
 {>bootstrap_header/}
 <script type="text/javascript" src="/tutorials/javascript/hexAlign.js"></script>
 <div class="container-fluid">
+	
 		<div class="row pbl" id="featured-docs">
 			<h2 class="plm pts pts">Tutorials</h2>
 			<div class="col-md-12">
@@ -11,7 +12,7 @@
 							<a class="section" href="/tutorials/jazzeditor">
 							<div class="col-md-7 col-sm-9 col-xs-9 callout" id="1">
 								<p class="description">
-									<strong>Getting started</strong> with IBM Bluemix and IBM DevOps Services <strong>using Node.js</strong>
+									<strong>Getting started</strong> with IBM Bluemix and IBM DevOps Services <strong>using node.js</strong>
 								</p>
 							</div>
 							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
@@ -25,10 +26,10 @@
 							</a>
 						</div>
 						<div class="row" id="doc-container-l">
-							<a class="section" href="/tutorials/jazzweb">
+							<a class="section" href="/tutorials/jazzeditor">
 							<div class="col-md-7 col-sm-9 col-xs-9 callout" id="2">
 								<p class="description">
-									<strong>Developing</strong> IBM Bluemix applications in Node.js <strong>with the Web IDE</strong>
+									<strong>Developing</strong> IBM Bluemix application in node.js <strong>with the Web IDE</strong>
 								</p>
 							</div>
 							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
@@ -64,7 +65,7 @@
 							<a class="section" href="/tutorials/jazzeditorjava">
 							<div class="col-md-7 col-sm-9 col-xs-9 col-md-push-5 callout" id="4">
 								<p class="description">
-									<strong>Getting Started</strong> with IBM Bluemix and IBM DevOps Services <strong>using Java</strong>
+									<strong>Getting Started</strong> with IBM Bluemix and IBM DevOps Services <strong>using Java</strong>.
 								</p>
 							</div>
 							<div class="col-md-2 hidden-xs col-sm-1 col-md-pull-4 stem"><hr /></div>
@@ -113,12 +114,52 @@
 						</div>
 					</div>
 				</div>
-				<div class="clearfix"></div>
+		
+		<div class="clearfix"></div>	
 			</div>
 		</div>
 
 		<div class="clearfix"></div>
 
+
+<div class="row pts pbl" id="reference">
+			<h2 class="pbs plm" >Quick References</h2>
+			<div class="clearfix"></div>
+			<div class="col-md-12 col-sm-12 col-xs-9">
+				<div id="topics-grid" class="col-md-12 col-sm-12 col-xs-12 text-center">
+						<div class="reference-container">
+							<a class="reference-section" href="reference/git">
+								<div class="reference-img col-center"><span class="git-qr"></span></div>
+								<div class="reference-name col-center"></br> GIT Quick Reference</div>
+
+							</a>
+						</div>
+						<div class="reference-container">
+							<a class="reference-section" href="reference/manifest">
+								<div class="reference-img col-center"><span class="manifest-qr"></span></div>
+								<div class="reference-name col-center"></br> Manifest Quick Reference</div>
+
+							</a>
+						</div>	
+						<div class="reference-container">
+							<a class="reference-section" href="reference/build">
+								<div class="reference-img col-center"><span class="build-qr"></span></div>
+								<div class="reference-name col-center"></br> Build Quick Reference</div>
+
+							</a>
+						</div>	]	<div class="reference-container">
+							<a class="reference-section" href="reference/deploy">
+								<div class="reference-img col-center"><span class="deploy-qr"></span></div>
+								<div class="reference-name col-center"></br> Deploy Quick Reference</div>
+
+							</a>
+						</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="clearfix"></div>
 		<div class="row pts pbl" id="key-resources">
 			<h2 class="pbs plm" >Key Resources</h2>
 			<div class="clearfix"></div>
@@ -149,7 +190,7 @@
 							</a>
 						</div>
 						<div class="resource-container">
-							<a class="resource-section" href="/docs/glossary">
+							<a class="resource-section" href="/glossary">
 								<div class="resource-img col-center"><span class="glossary"></span></div>
 								<div class="resource-name col-center">Glossary</div>
 							</a>
@@ -158,8 +199,7 @@
 
 			</div>
 		</div>
-
-		<div class="clearfix"></div>
+	<div class="clearfix"></div>
 
 		<div class="row pts pbl" id="topics">
 			<h2 class="pbs plm text-left" >Topics <a role="button" href="/docs/all" class="mll btn btn-dark btn-sm">All Docs</a></h2>
