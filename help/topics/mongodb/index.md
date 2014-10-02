@@ -16,7 +16,7 @@ Topics: devops_services, bluemix nodejs, express, jade, mongodb, angularjs, boot
 ### Sample: [WordBuilder Game](https://hub.jazz.net/project/mattias/WordBuilder/overview)  
 Topics: devops_services, bluemix, nodejs, express, jade, mongodb
 
-### Workshop: [Using IBM DevOps Services & Bluemix Services: Part 2, Deploying an App that Uses a Bluemix Service](https://developer.ibm.com/bluemix/docs/workshops/using-ibm-devops-services-bluemix-services-part-2-deploying-app-uses-bluemix-service/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
+### Workshop: [Intro to Bluemix and DevOps Services, Part 2: Deploy an app that uses a Bluemix service](http://www.ibm.com/developerworks/cloud/library/cl-intro2-app/index.html)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> 
 Topics: bluemix, devops_services, pipeline, mongodb
 
 &copy; Copyright IBM Corporation 2013, 2014.
