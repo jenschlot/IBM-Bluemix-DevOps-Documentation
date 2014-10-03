@@ -30,14 +30,9 @@ app.set('port', port)				// Store configuration in the app for later retrieval.
    .use(require('morgan')('dev')); 		// Log requests.
 
 
-/*
- * Various ways to bring up the tutorials landing page.
- */
-_.each(['/tutorials', '/tutorials/landing'],
-       function(i) {
-		app.get(i, routes.landing)
-       }
-);
+app.get(['/tutorials', '/tutorials/landing'], function(req, res){
+  res.redirect('/docs');
+});
 
 _.each(['/docs'],
        function(i) {
