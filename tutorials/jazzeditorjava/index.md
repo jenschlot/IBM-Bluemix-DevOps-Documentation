@@ -23,18 +23,18 @@ The dashboard gives you an overview of the active Bluemix space for your organiz
 
 If you create additional organizations or spaces in Bluemix, remember to use the same ones as you follow our tutorials. If you stick to the default selections, you should be just fine.
 
-Clicking **CREATE AN APP** lets you choose different kinds of Runtimes (like Java or Ruby), Services (such as DataCache or Mongo) and Boilerplates, which are essentially pre-configured application templates that are great ways to get started. Select the **Java Web Starter** Boilerplate, which opens a panel that displays more information about what it does:
+Clicking **CREATE AN APP** lets you choose different kinds of Runtimes (like Java or Ruby), Services (such as DataCache or Mongo) and Boilerplates, which are essentially pre-configured application templates that are great ways to get started. Select the **Java Web Cache Starter** Boilerplate, which opens a panel that displays more information about what it does:
 
 ![Bluemix Java Web Starter][7]
 
-As you can see, the application is a simple Java Web server that includes some example code that demonstrates the IBM DataCache Service. Let's try it!
+As you can see, the application is a simple Java Web server that includes some example code that demonstrates the IBM DataCache and Monitoring and Analytics services. Let's try it!
 
 At this point, you're just a few clicks away from having a running application.
 
-In the *Create an app* panel, enter a **Name** for your app. Enter a different host if Bluemix indicates that a host route is taken (or if you just want a host that's different from the app name).
+In the *Create an app* panel, enter a **Name** for your app. Enter a different host if Bluemix indicates that a host route is taken (or if you just want a host that's different from the app name). Leave the **Space** field as it is. 
 ![Bluemix Create App dialog][8]
 
-The **Name** is a simple name you can use to find this application the next time you come back to the Bluemix dashboard. **Host** partially defines the URL (the rest comes from Bluemix itself) that lets you access your new app from the Internet. As you probably guessed, this URL must be unique, since the URL space is shared among all users. In *Selected Plans*, leave **Liberty for Java™** as *Default* and **Datacache** as *Free.*
+The **Name** is a simple name you can use to find this application the next time you come back to the Bluemix dashboard. **Host** partially defines the URL (the rest comes from Bluemix itself) that lets you access your new app from the Internet. As you probably guessed, this URL must be unique, since the URL space is shared among all users. In *Selected Plans*, leave **Liberty for Java™** as *Default*, and **Datacache** and **Monitoring and Analytics** as *Free.*
 
 That's all there is to it! You'll be taken to your app's overview page. It takes a short while for the application to start up, but once it does, click on your app's route to see it running:
 
@@ -173,7 +173,7 @@ First, clone the repo using the URL, which you can find on the Bluemix applicati
     Unpacking objects: 100% (49/49), done.
     Checking connectivity... done. 
 
-Next, let's change your app source code and see what happens. In the `WebContent` folder there's a file called `index.html`. This contains some of what you see when you view your app on the web. Change some text in the body of the HTML there with whatever tool you like. If you just want to see a quick change, search for the title, "Application Example: run ECAAS operations using Java Native APIs," and change a word or two. When you're done, change to your project directory and `git stage`, `git commit`, and `git push`, like so:
+Next, let's change your app source code and see what happens. In the `WebContent` folder there's a file called `index.html`. This contains some of what you see when you view your app on the web. Change some text in the body of the HTML there with whatever tool you like. If you just want to see a quick change, search for the title text, `Welcome to my very own <span class="blue">Java Web Starter</span> on Bluemix!`, and change a word or two. When you're done, change to your project directory and `git stage`, `git commit`, and `git push`, like so:
 
     $ cd /project_directory
     $ git stage Webcontent/index.html
@@ -305,11 +305,11 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 [3]: https://bluemix.net/docs/QuickStart.jsp (Bluemix getting started)
 [4]: https://bluemix.net/docs/BlueMixIntro.jsp (Bluemix overview)
 [5]: https://bluemix.net/docs/Tutorials.jsp (Bluemix tutorials)
-[6]: /tutorials/jazzeditorjava/images/demo-dash.gif 
-[7]: /tutorials/jazzeditorjava/images/bm-java-starter.gif 
-   [8]: /tutorials/jazzeditorjava/images/create-jws-app.gif 
+[6]: /tutorials/jazzeditorjava/images/demo-dash.png 
+[7]: /tutorials/jazzeditorjava/images/bm-java-starter.png 
+   [8]: /tutorials/jazzeditorjava/images/create-jws-app.png 
    [9]: /tutorials/jazzeditorjava/images/examplepanel.gif 
-   [10]: /tutorials/jazzeditorjava/images/bm-example.gif 
+   [10]: /tutorials/jazzeditorjava/images/bm-example.png 
    [11]: /tutorials/jazzeditorjava/images/addgitintegration.png
    [12]: /tutorials/jazzeditorjava/images/jh-signin.gif 
    [13]: /tutorials/jazzeditorjava/images/bm-create-git-repo.gif 
@@ -324,18 +324,18 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
    [22]: /tutorials/jazzeditorjava/images/cli-stage-commit.gif 
    [23]: /tutorials/jazzeditorjava/images/cli-push.gif 
    [24]: /tutorials/jazzeditorjava/images/autodeploy.gif 
-   [25]: /tutorials/jazzeditorjava/images/app-new-title.gif 
+   [25]: /tutorials/jazzeditorjava/images/app-new-title.png 
    [26]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Services)
    [27]: https://hub.jazz.net/learn (DevOps Services introduction)
    [28]: http://orion.eclipse.org/ (The Eclipse Orion project)
    [29]: /tutorials/jazzeditorjava/images/orion.png
    [30]: /tutorials/jazzeditorjava/images/completion.png 
-   [31]: /tutorials/jazzeditorjava/images/heyworld.gif 
+   [31]: /tutorials/jazzeditorjava/images/heyworld.png 
    [32]: /tutorials/jazzeditorjava/images/orion-git-status.png 
    [33]: /tutorials/jazzeditorjava/images/unstaged.png 
    [34]: /tutorials/jazzeditorjava/images/commit.png
    [35]: /tutorials/jazzeditorjava/images/push.png 
-   [36]: /tutorials/jazzeditorjava/images/endexampleapp.gif 
+   [36]: /tutorials/jazzeditorjava/images/endexampleapp.png 
    [37]: /tutorials/jazzeditorjava/images/manualdeploy.png
    [38]: https://www.ibmdw.net/answers?community=jazzhub (forum)
    [39]: mailto:hub%40jazz.net
