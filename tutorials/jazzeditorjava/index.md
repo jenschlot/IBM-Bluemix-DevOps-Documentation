@@ -238,7 +238,7 @@ From the Git page, fetch and then merge the change to your app.
 
 Next, navigate through the directory tree until you get to the same file you worked on before (for example, <tt>WebContent/index.html</tt>), then simply edit in place.
 
-![Orion editing index](/tutorials/jazzeditorjava/images/heyworld.gif)
+![Orion editing index](/tutorials/jazzeditorjava/images/heyworld.png)
 
 You can then use the integrated Git support to push the change. Head back to the Git page.
 
