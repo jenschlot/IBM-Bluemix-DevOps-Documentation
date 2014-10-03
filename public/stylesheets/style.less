@@ -671,31 +671,41 @@ a:hover {
  }
  
 .announcement {
-	height: 31px;
+	min-height: 30px;
 	background-color: #5bc0de;
 	color: white;
 	font-size: 0.813em;
+	font-family: Arial, sans-serif;
+	line-height: 1.15rem;
 	text-align: center;
 	min-width: 980px;
 	overflow: hidden;
-	width: 100%;
-}
-.announcement > .messageIcon,
-.announcement > .messageSummary {		
-	display: inline-block;
-	vertical-align: middle;
-	margin-top: 5px;
+	width: 100%;	
 }
 
-.announcement > .messageIcon {
+.announcement > .message-container {
+	padding: 0 50px 5px 6px;
+}
+
+.announcement > .message-container > .messageIcon {
+	display: inline-block;	
 	background-image: url("../images/info-white_20.png");
+	background-repeat: no-repeat;
+	background-position: 0 center;
 	height: 20px;
 	width: 20px;
+	left: 0;
+	top: 5px;
+	margin-right: 5px;
+	position: relative;
+	padding: 0;
 }
 
-.announcement > .messageSummary {
+.announcement > .message-container > .messageSummary {
+	display: inline;
 	word-wrap: break-word;
-	word-break: break-all;
+	margin: 0;
+	padding: 0;
 }
 
 /************* TEXT ALIGN **********************

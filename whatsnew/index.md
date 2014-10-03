@@ -1,5 +1,59 @@
 ## What's New
 
+### October 2, 2014
+
+## Track & Plan Beta
+
+###Save and share custom views
+You can now save customized views and share them with teammates.
+
+After you apply a filter to a view, you can save it.
+![filter text and save button][63]
+
+Your custom views appear in the navigation area near the standard views. To share a view with your teammates, click the **Share** icon.
+![share custom view with team][61]
+
+You can display only your custom views or both your custom views and your shared custom views.  Click the icon to show and hide the views.
+![toggle shared views display][62]
+
+###Quickly see team progress on a sprint
+You can now see how much work your team has completed for a sprint.  In the Team's Work and Sprint Planning views, click **Team Progress** to see the time remaining, hours worked, items resolved, and story points achieved on a sprint.
+![team progress view showing in-process sprint][56]
+
+###Drag work items to assign child relationships
+You can now assign child work items to work items in the backlog. Click a work item and drag it onto the intended parent work item.  Look for the **Add as child** hover text if you're concerned about changing the item's rank.
+![drag work items to assign child relationship][59]
+
+###My Activities view
+
+You can use the My Activities view to see important project activity.
+ * View work items in which your teammates have mentioned you in My Events.
+ * View updates to your subscribed work items in My Subscriptions.
+
+![My Activities showing mentions and updates to subscribed work items][64]
+
+###Create child tasks 
+
+You can now create an item and assign it to a parent from the taskboard.
+
+Click the **Child task breakdown** icon to open the taskboard.
+
+![My Activities showing mentions and updates to subscribed work items][66]
+
+From this view, you can see the parent item and any children. Click in the **Create a child work item** field to create a new item and assign it to the parent work item listed.
+
+![My Activities showing mentions and updates to subscribed work items][65]
+
+###Other improvements
+
+You can now add and remove work item subscribers from the drop-down work item editor.  Click in a work item's title field to view the drop-down menu and either add or remove subscribers.
+![add work item subscriber][57]
+![remove work item subscriber][58]
+
+Use the new color-coded icons to quickly differentiate between work item priority, severity, and status.
+![Sprint Planning view displaying colored icons][60]
+
+
 ---
 ### September 12, 2014
 
@@ -679,4 +733,15 @@ Cheers!
 [52]: /whatsnew/images/richworkitemeditor.png
 [53]: https://hub.jazz.net/project/srich/JazzHub
 [54]: https://hub.jazz.net/project/srich/JazzHub
-[55]:/whatsnew/images/configured-pipeline.png
+[55]: /whatsnew/images/configured-pipeline.png
+[56]: /whatsnew/images/teamprogressview.gif
+[57]: /whatsnew/images/addsubscriber.gif
+[58]: /whatsnew/images/removesubscriber.gif
+[59]: /whatsnew/images/dragdropchild.png
+[60]: /whatsnew/images/iconcolors.gif
+[61]: /whatsnew/images/shareviewwithteam.gif
+[62]: /whatsnew/images/showsharedviews.gif
+[63]: /whatsnew/images/savecustomview.gif
+[64]: /whatsnew/images/myactivities.png
+[65]: /whatsnew/images/childtaskboard.png
+[66]: /whatsnew/images/childtaskbreakdown.png

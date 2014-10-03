@@ -1,5 +1,6 @@
 ### [General](#gen) | [Tutorials](#tut) | [Articles](#articles) | [Blogs](#blogs) | [Samples](#samples) | [Features at a Glance](#features) | [Videos](#videos) | [Workshops](#workshops)
 
+
 <a id="gen"></a>
 
 -------------------------------------
@@ -44,6 +45,10 @@ Topics: devops_services, bluemix, java, eclipse, jazz_scm, pipeline, rtc
 ----------------------------------------
 
 ## Articles
+
+
+### Article: [Automate rolling deployments with IBM DevOps Services for Bluemix](http://www.ibm.com/developerworks/cloud/library/cl-bluemix-rollingpipeline/) <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
+Topics: devops_services, bluemix, pipeline
 
 ### Article: [Develop apps in the cloud with DevOps Services](http://www.ibm.com/developerworks/library/d-bluemix-devops-services-project/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> 
 Topics: devops_services, track, plan, bluemix, webide
@@ -165,13 +170,13 @@ Topics: devops_services, bluemix, nodejs, plan
 ___________
 ## Workshops
 
-### Workshop: [Using IBM DevOps Services & Bluemix Services: Part 1, Deploying & Updating a Simple App (Workshop part 1 of 3)](https://developer.ibm.com/bluemix/docs/workshops/adding-using-bluemix-services-leveraging-ibm-devops-services/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> 
+### Workshop: [Intro to Bluemix and DevOps Services, Part 1: Deploy and update a simple app](http://www.ibm.com/developerworks/cloud/library/cl-intro1-app/index.html)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> 
 Topics: bluemix, devops_services, pipeline, webide
 
-### Workshop: [Using IBM DevOps Services & Bluemix Services: Part 2, Deploying an App that Uses a Bluemix Service](https://developer.ibm.com/bluemix/docs/workshops/using-ibm-devops-services-bluemix-services-part-2-deploying-app-uses-bluemix-service/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> 
+### Workshop: [Intro to Bluemix and DevOps Services, Part 2: Deploy an app that uses a Bluemix service](http://www.ibm.com/developerworks/cloud/library/cl-intro2-app/index.html)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> 
 Topics: bluemix, devops_services, pipeline, mongodb
  
-### Workshop: [Using IBM DevOps Services & Bluemix Services: Part 3, Planning, Tracking, & Leveraging New BlueMix Services](https://developer.ibm.com/bluemix/docs/workshops/using-ibm-devops-services-bluemix-services-part-3-planning-tracking-leveraging-new-bluemix-services/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> 
+### Workshop: [Intro to Bluemix and DevOps Services, Part 3: Plan, track, and take advantage of new Bluemix services](http://www.ibm.com/developerworks/cloud/library/cl-intro3-app/index.html)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> 
 Topics: bluemix, devops_services, plan, track, twilio, webide
 
 ### Workshop:  [Node.js Apps with IBM DevOps Services and Bluemix](https://developer.ibm.com/bluemix/docs/workshops/node-js-apps-ibm-devops-services-powered-jazzhub-ibm-codename-bluemix/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> 
