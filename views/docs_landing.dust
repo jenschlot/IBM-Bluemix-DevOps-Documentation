@@ -119,10 +119,8 @@
 			</div>
 		</div>
 
-		<div class="clearfix"></div>
-
-
-<div class="row pts pbl" id="reference">
+	<div class="clearfix"></div>
+	<div class="row pts pbl" id="quick-reference">
 			<h2 class="pbs plm" >Quick References</h2>
 			<div class="clearfix"></div>
 			<div class="col-md-12 col-sm-12 col-xs-9">
@@ -142,15 +140,24 @@
 							</a>
 						</div>	
 						<div class="reference-container">
-							<a class="reference-section" href="reference/build">
-								<div class="reference-img col-center"><span class="build-qr"></span></div>
-								<div class="reference-name col-center"></br> Build Quick Reference</div>
+							<a class="reference-section" href="reference/build-and-deploy">
+								<div class="reference-img col-center"><span class="build-deploy-qr"></span></div>
+								<div class="reference-name col-center"></br> Build and Deploy Quick Reference</div>
 
 							</a>
-						</div>	]	<div class="reference-container">
-							<a class="reference-section" href="reference/deploy">
-								<div class="reference-img col-center"><span class="deploy-qr"></span></div>
-								<div class="reference-name col-center"></br> Deploy Quick Reference</div>
+						</div>	
+						<div class="reference-container">
+							<a class="reference-section" href="reference/accounts">
+								<div class="reference-img col-center"><span class="accounts-qr"></span></div>
+								<div class="reference-name col-center"></br> Accounts Quick Reference</div>
+
+							</a>
+						</div>
+
+						<div class="reference-container">
+							<a class="reference-section" href="reference/tbd">
+								<div class="reference-img col-center"><span class="tbd-qr"></span></div>
+								<div class="reference-name col-center"></br> TBD Quick Reference</div>
 
 							</a>
 						</div>
