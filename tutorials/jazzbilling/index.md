@@ -15,24 +15,22 @@ Either way, managing your account is the same. When your trial period ends or if
 ---
 
 ### Billing thresholds
-<add table>
 
-|   **Add-on**      |  **Charging metric**               | **Free allotment**             | ** Cost ** |
-|:----------------  |:----------------                   |:-------------------            | [See Bluemix |
-| Delivery Pipeline | Build minutes                      |   60 minutes of free build time per Application (Project), per month    |  Pricing           |
-|                   | Application instances (deployers)  | First 2 Application Instances (Deployers) free per Application (Project), per month   | Sheet ] (https://ace.ng.bluemix.net/#/pricing/)|
+Your team's work is free until you reach a billing threshold by using up your free allotments. 
+
+|   **Add-on**      |  **Charging metric**               | **Free allotment**                            | ** Cost **                                  |
+|:----------------  |:----------------                   |:-------------------                           |:-------------------                   | 
+| Delivery Pipeline | Build minutes                      | 60 minutes per Application (Project), per month      |              |
+|                   | Application instances (deployers)  | First 2 Application Instances (Deployers) per Application (Project), per month | See Bluemix [Pricing Sheet ] (https://ace.ng.bluemix.net/#/pricing/)|
 |                   |                                    |                                | |
 |Track & Plan       | Users per application              |Public projects: unlimited users| |
 |                   |                                    |Private projects: 3 users       | |
 
 
 
-Your team's work is free until you reach the following thresholds:
-* More than three users on a private project (you can have more than three users on public projects)
-* More than two stages in a multi-stage deployment to Bluemix
-* More than 60 minutes of build time per month
 
-After you exceed those thresholds, your service will be interrupted unless you set up your billing account.
+
+After you exceed those thresholds, your service will be interrupted unless you set up your Bluemix billing account.
 
 ---
 ##Enabling your Bluemix account
@@ -90,7 +88,7 @@ that billing period. Each Application-User is billed on a monthly basis. Partial
 
 Link to these terms docs? 
 * [IBM Continuous Delivery Pipeline for Bluemix](http://www.ibm.com/software/sla/sladb.nsf/pdf/6616-01/$file/i126-6616-01_06-2014_en_US.pdf)
-* [IBM Track and Plan for Bluemix] (http://www.ibm.com/software/sla/sladb.nsf/pdf/6615-01/$file/i126-6615-01_06-2014_en_US.pdf)
+* [IBM Track and Plan for Bluemix](http://www.ibm.com/software/sla/sladb.nsf/pdf/6615-01/$file/i126-6615-01_06-2014_en_US.pdf)
 * [IBM DevOps Services Terms of Use](https://hub.jazz.net/terms)
 
 
