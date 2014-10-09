@@ -1,6 +1,6 @@
-#Configuring IBM DevOps Services for Bluemix billing
+#Configuring Bluemix billing for IBM DevOps Services
 
-All IBM DevOps Services projects include an allowance of free services. To avoid service interruptions when you exceed those allowances, you must set up a billing account. 
+All IBM DevOps Services projects include an allowance of free services. To avoid service interruptions when you exceed those allowances, you must set up a Bluemix billing account and configure the DevOps Services Add-ons. 
 
 You can set up your account as soon as you set up your project or any time before your free services run out. You won't lose your free allowance, even when you set up billing. The free allowance varies, depending on whether your project is public or private, but to set up your billing account, you must set up Delivery Pipeline or Track & Plan Add-ons for your Bluemix organization.
 
@@ -17,6 +17,16 @@ Either way, managing your account is the same. When your trial period ends or if
 ### Billing thresholds
 <add table>
 
+|   **Add-on**      |  **Charging metric**               | **Free allotment**             | ** Cost ** |
+|:----------------  |:----------------                   |:-------------------            | [See Bluemix |
+| Delivery Pipeline | Build minutes                      |   60 minutes of free build time per Application (Project), per month    |  Pricing           |
+|                   | Application instances (deployers)  | First 2 Application Instances (Deployers) free per Application (Project), per month   | Sheet ] (https://ace.ng.bluemix.net/#/pricing/)|
+|                   |                                    |                                | |
+|Track & Plan       | Users per application              |Public projects: unlimited users| |
+|                   |                                    |Private projects: 3 users       | |
+
+
+
 Your team's work is free until you reach the following thresholds:
 * More than three users on a private project (you can have more than three users on public projects)
 * More than two stages in a multi-stage deployment to Bluemix
@@ -26,7 +36,7 @@ After you exceed those thresholds, your service will be interrupted unless you s
 
 ---
 ##Enabling your Bluemix account
-To manage your billing, you must have a Bluemix account. Go to the [IBM Bluemix home page](https://bluemix.net/) and log in or sign up for a new account. The Bluemix dashboard gives you an overview of the active Bluemix space for your organization. (The organization is the account owner's user name.)
+To manage your billing, you must have a Bluemix account. Go to the [IBM Bluemix home page](https://bluemix.net/) and log in or sign up for a new account. The Bluemix dashboard gives you an overview of the active Bluemix space for the Bluemix space that is associated with your project. (The organization is the account owner's user name.)
 
 
 The Delivery Pipeline and Track & Plan Add-ons are the services that link your Bluemix and IBM DevOps Services projects together.
@@ -80,7 +90,7 @@ that billing period. Each Application-User is billed on a monthly basis. Partial
 
 Link to these terms docs? 
 * [IBM Continuous Delivery Pipeline for Bluemix](http://www.ibm.com/software/sla/sladb.nsf/pdf/6616-01/$file/i126-6616-01_06-2014_en_US.pdf)
-* [IBM Track and Plan for Bluemix] (http://www.ibm.com/software/sla/sladb.nsf/pdf/6615-01/$file/i126-6615-01_06-2014_en_US.pdf0
+* [IBM Track and Plan for Bluemix] (http://www.ibm.com/software/sla/sladb.nsf/pdf/6615-01/$file/i126-6615-01_06-2014_en_US.pdf)
 * [IBM DevOps Services Terms of Use](https://hub.jazz.net/terms)
 
 
