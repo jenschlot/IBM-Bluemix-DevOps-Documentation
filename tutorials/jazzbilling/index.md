@@ -21,8 +21,8 @@ Your team's work is free until you reach a billing threshold by using up your fr
 |   **Add-on**      |  **Charging metric**               | **Free allotment**                            | ** Cost **                                  |
 |:----------------  |:----------------                   |:-------------------                           |:-------------------                   | 
 | Delivery Pipeline | Build minutes                      | 60 minutes per Application (Project), per month      |              |
-|                   | Application instances (deployers)  | First 2 Application Instances (Deployers) per Application (Project), per month | See Bluemix [Pricing Sheet ] (https://ace.ng.bluemix.net/#/pricing/)|
-|                   |                                    |                                | |
+|                   | Application instances (deployers)  | First 2 Application Instances (Deployers) per Application (Project), per month | See Bluemix [Pricing Sheet](https://ace.ng.bluemix.net/#/pricing/)|
+
 |Track & Plan       | Users per application              |Public projects: unlimited users| |
 |                   |                                    |Private projects: 3 users       | |
 
