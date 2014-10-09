@@ -72,7 +72,7 @@ _.each(
 	function (reference) {
 		app.use(
 			reference.uri_prefix, 
-			routes.resource_router(app.get('env'), 
+			routes.reference_router(app.get('env'), 
 					      reference.section_name,
 					      reference.resource_name, 
 					      reference.img_icon,

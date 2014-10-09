@@ -119,53 +119,6 @@
 			</div>
 		</div>
 
-	<div class="clearfix"></div>
-	<div class="row pts pbl" id="quick-reference">
-			<h2 class="pbs plm" >Quick References</h2>
-			<div class="clearfix"></div>
-			<div class="col-md-12 col-sm-12 col-xs-9">
-				<div id="topics-grid" class="col-md-12 col-sm-12 col-xs-12 text-center">
-						<div class="reference-container">
-							<a class="reference-section" href="reference/git">
-								<div class="reference-img col-center"><span class="git-qr"></span></div>
-								<div class="reference-name col-center"></br> GIT Quick Reference</div>
-
-							</a>
-						</div>
-						<div class="reference-container">
-							<a class="reference-section" href="reference/manifest">
-								<div class="reference-img col-center"><span class="manifest-qr"></span></div>
-								<div class="reference-name col-center"></br> Manifest Quick Reference</div>
-
-							</a>
-						</div>	
-						<div class="reference-container">
-							<a class="reference-section" href="reference/build-and-deploy">
-								<div class="reference-img col-center"><span class="build-deploy-qr"></span></div>
-								<div class="reference-name col-center"></br> Build and Deploy Quick Reference</div>
-
-							</a>
-						</div>	
-						<div class="reference-container">
-							<a class="reference-section" href="reference/accounts">
-								<div class="reference-img col-center"><span class="accounts-qr"></span></div>
-								<div class="reference-name col-center"></br> Accounts Quick Reference</div>
-
-							</a>
-						</div>
-
-						<div class="reference-container">
-							<a class="reference-section" href="reference/tbd">
-								<div class="reference-img col-center"><span class="tbd-qr"></span></div>
-								<div class="reference-name col-center"></br> TBD Quick Reference</div>
-
-							</a>
-						</div>
-				</div>
-
-			</div>
-		</div>
-
 		<div class="clearfix"></div>
 		<div class="row pts pbl" id="key-resources">
 			<h2 class="pbs plm" >Key Resources</h2>
@@ -206,6 +159,41 @@
 
 			</div>
 		</div>
+
+
+	<div class="clearfix"></div>
+	<div class="row pts pbl" id="quick-reference">
+			<h2 class="pbs plm" >Quick References</h2>
+			<div class="clearfix"></div>
+			<div class="col-md-12 col-sm-12 col-xs-9">
+				<div id="topics-grid" class="col-md-12 col-sm-12 col-xs-12 text-center">
+						<div class="reference-container">
+							<a class="reference-section" href="reference/accounts">
+								<div class="reference-img col-center"><span class="accounts-qr"></span></div>
+								<div class="reference-name col-center"></br>Accounts</div>
+
+							</a>
+						</div>	
+						<div class="reference-container">
+							<a class="reference-section" href="reference/git">
+								<div class="reference-img col-center"><span class="git-qr"></span></div>
+								<div class="reference-name col-center"></br>GIT</div>
+
+							</a>
+						</div>
+						<div class="reference-container">
+							<a class="reference-section" href="reference/build-and-deploy">
+								<div class="reference-img col-center"><span class="build-deploy-qr"></span></div>
+								<div class="reference-name col-center"></br>Build and Deploy</div>
+
+							</a>
+						</div>	
+					
+				</div>
+
+			</div>
+		</div>
+
 	<div class="clearfix"></div>
 
 		<div class="row pts pbl" id="topics">

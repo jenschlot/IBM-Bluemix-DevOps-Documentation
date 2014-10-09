@@ -1,13 +1,13 @@
 <script type="text/javascript">
 
-<!-- start of the source code of the customized embedded Transwidget 
+<!-- start of the source code of the customized embedded Transwidget -->
 <div style="position: relative; float: left; width: 75%; height: 34px;"></div>
 <div style="position: relative; float: right; width: 25%; height: 34px;">
 
 <label for="ietran_ui_langselect" class="translate_label">Translate this page:</label>
 <script src="https://rtts.ihe.ibm.com/transwidget/tw.jsp?app=nfluent&amp;from=en_us&amp;sl=1&amp;style=minimal"></script>
 </div>
-<p>&nbsp;</p>
 <!-- end of the source code of the customized embedded Transwidget -->
+<p>&nbsp;</p>
 
 </script>

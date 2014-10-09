@@ -1,25 +1,28 @@
 ### Tutorial: [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/jazzeditor)  
-**2014-Sept-24**
 Topics: bluemix, devops_services, nodejs, git, webide, pipeline, cloud_foundry
 
 
 ### Tutorial: [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)  
-##### Last updated: 2014-Sept-24
 Topics: bluemix, devops_services, java, git, webide, pipeline
 
-### Tutorial: [Developing BlueMix applications in Node.js with the Web IDE](/tutorials/jazzweb)   2014-Sept-24 
+### Tutorial: [Developing BlueMix applications in Node.js with the Web IDE](/tutorials/jazzweb)  
 Topics: bluemix, nodejs, webide, devops_services, git, pipeline, manifest
 
 ### Tutorial: [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)  
 Topics: devops_services, bluemix, java, eclipse, jazz_scm, pipeline, rtc
 
 ### Article: [Develop apps in the cloud with DevOps Services](http://www.ibm.com/developerworks/library/d-bluemix-devops-services-project/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
-Topics: devops_services, track, plan, bluemix, webide
+
+##### Last updated: 27 June 2014 [icon] devops_services, track, plan, bluemix, webide
 
 ### Article:[Build a sentiment analysis application with Node.js, Express, sentiment, and ntwitter](http://www.ibm.com/developerworks/library/wa-nodejs-app/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
-Topics: devops_services, nodejs, Express, sentiment, ntwitter, PaaS, bluemix
+
+##### Last updated: 27 June 2014 <img src="../all/images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">   devops_services, nodejs, Express, sentiment, ntwitter, PaaS, bluemix
 
 ### Article: [Build a real-time polls application with Node.js, Express, AngularJS, and MongoDB](http://www.ibm.com/developerworks/library/wa-nodejs-polling-app/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
+
+##### Last updated: 27 June 2014
+
 Topics: devops_services, eclipse, nodejs, mongodb, angularjs, Express, bluemix
 
 ### Article: [Jump-start your hackathon efforts with DevOps Services and Bluemix](http://www.ibm.com/developerworks/cloud/library/cl-hackathon-app/index.html) <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">   
