@@ -1,4 +1,4 @@
-#Setting up an IBM DevOps Services account
+#Configuring IBM DevOps Services for Bluemix billing
 
 All IBM DevOps Services projects include an allowance of free services. To avoid service interruptions when you exceed those allowances, you must set up a billing account. 
 
@@ -7,14 +7,15 @@ You can set up your account as soon as you set up your project or any time befor
 ##Starting a project
 
 As a project owner you can set up a project in two ways:
-* Set up a project using DevOps Services and deploy it to Bluemix
 * Create an app on Bluemix and add DevOps Services Add-ons
+* Set up a project using DevOps Services and deploy it to Bluemix
 
 Either way, managing your account is the same. When your trial period ends or if your project requires advanced features immediately, we give you the tools to manage your account and predict your expenses.
 
 ---
 
 ### Billing thresholds
+<add table>
 
 Your team's work is free until you reach the following thresholds:
 * More than three users on a private project (you can have more than three users on public projects)
@@ -24,56 +25,35 @@ Your team's work is free until you reach the following thresholds:
 After you exceed those thresholds, your service will be interrupted unless you set up your billing account.
 
 ---
-##Setting up your billing account
+##Enabling your Bluemix account
 To manage your billing, you must have a Bluemix account. Go to the [IBM Bluemix home page](https://bluemix.net/) and log in or sign up for a new account. The Bluemix dashboard gives you an overview of the active Bluemix space for your organization. (The organization is the account owner's user name.)
 
 
 The Delivery Pipeline and Track & Plan Add-ons are the services that link your Bluemix and IBM DevOps Services projects together.
-To set up an account, you must add Delivery Pipeline, Track & Plan, or both to your Bluemix organization. 
-
-1. To open the Manage Organizations page, on the menu go to **Change to a different org > MANAGE ORGANIZATIONS**.
-![Bluemix manage organizations](images/bm-manageorg.png)
-
-2. Select **Manager,** **Account Manager,** and **Auditor.** As the account owner, you should have all three roles.
-![Bluemix owner roles](images/bm-owneroles.png)
-
-3. Click **ADD-ONS** > **Connect An Add-On** and 
-select **Delivery Pipeline** or **Track & Plan** from the catalog.
-![Bluemix connect add-on](images/bm-connectaddon.png)
-
 
 ---
-##Managing your billing account
+##Manage your billing account
 
-You can manage your Bluemix account by viewing usage information and by using the Bluemix cost estimator.
-
-### Estimate costs
-
-When you signed up for a 30-day free Bluemix trial, your account 
-came with some resources free of charge. 
-To see what resources are free, see [Free trial](https://www.ng.bluemix.net/docs/#acctmgmt/billing.html#bil_freetrial).
+You can manage your Bluemix account by viewing [billing and usage](https://www.ng.bluemix.net/docs/#acctmgmt/index-gentopic1.html#bil_usage) information and determine costs by visiting the [Bluemix Pricing page](https://bluemix.net/#/pricing).
 
 The Delivery Pipeline Add-on and the Track & Plan Add-on
 use metered pricing, where you pay based on consumption but they also include free
 monthly allowances. You can find more information about pricing from the DevOps section of the 
 [Bluemix Pricing page](https://bluemix.net/#/pricing).
 
-To help you estimate the monthly usage costs, you can easily price your costs
-by using the cost estimator on the [Bluemix Pricing page](https://bluemix.net/#/pricing).
+To help you track monthly usage, see the cost estimator on the [Bluemix Pricing page](https://bluemix.net/#/pricing).
 
+###Monitor usage 
+
+You can monitor usage from **Profile Settings > Account > Usage Details**.
+
+![Bluemix profile settings](images/bm-profilesettings.png)
 
 ### Choose a billing plan
 
 Before your free trial period expires, decide which billing plan 
 is best for your project. Read [Bluemix plans](https://www.ng.bluemix.net/docs/#acctmgmt/billing.html#bil_plan)
 to see billing plan details.
-
-###Monitor usage 
-
-You can monitor usage details from **Profile Settings > Account > Usage Details**.
-
-![Bluemix profile settings](images/bm-profilesettings.png)
-
 
 
 ---
@@ -99,9 +79,10 @@ that billing period. Each Application-User is billed on a monthly basis. Partial
 6. **Space** - A sub-group within a Bluemix organization. Users who are members of an org are given access to one or more of its spaces, with permissions associated with a particular role (such as developer, manager, or auditor). Any member of the space can view apps, but only members with the developer role can create apps and add service instances to the space. Apps and service instances are associated with spaces. 
 
 Link to these terms docs? 
-http://www.ibm.com/software/sla/sladb.nsf/pdf/6616-01/$file/i126-6616-01_06-2014_en_US.pdf
-http://www.ibm.com/software/sla/sladb.nsf/pdf/6615-01/$file/i126-6615-01_06-2014_en_US.pdf
-https://hub.jazz.net/terms
+* [IBM Continuous Delivery Pipeline for Bluemix](http://www.ibm.com/software/sla/sladb.nsf/pdf/6616-01/$file/i126-6616-01_06-2014_en_US.pdf)
+* [IBM Track and Plan for Bluemix] (http://www.ibm.com/software/sla/sladb.nsf/pdf/6615-01/$file/i126-6615-01_06-2014_en_US.pdf0
+* [IBM DevOps Services Terms of Use](https://hub.jazz.net/terms)
+
 
 
 &copy; Copyright IBM Corporation 2013, 2014.
