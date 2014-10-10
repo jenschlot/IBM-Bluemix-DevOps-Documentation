@@ -57,7 +57,7 @@ Click 'add a stage' to open the 'Add Deployer Stage' page.
 
 This page will use the settings provided by the `manifest.yml` file, included as part of the project. All of the values,
 except for the hostname, can be used directly as provided. The hostname is used to define your application's url and needs
-to be unqiue for each application deployed. Let's override the host with the `-n` option in the `cf push` command as below.
+to be unique for each application deployed. Let's override the host with the `-n` option in the `cf push` command as below.
 Click **Save** and you're all set!
 
 ![Add Deployer](/tutorials/jazzrtc/images/configure_deployer.png "Add Deployer")
