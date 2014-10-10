@@ -1,10 +1,8 @@
 #Configuring Bluemix billing for IBM DevOps Services
 
-All IBM DevOps Services projects include an allowance of free services. To avoid service interruptions when you exceed those allowances, you must set up a Bluemix billing account and configure the DevOps Services Add-ons. 
+All IBM DevOps Services projects include an allotment of free services. To avoid service interruptions when you exceed those allowances, you must set up a Bluemix billing account and configure the DevOps Services Add-ons. 
 
 You can set up your account as soon as you set up your project or any time before your free services run out. You won't lose your free allowance, even when you set up billing. The free allowance varies, depending on whether your project is public or private, but to set up your billing account, you must set up Delivery Pipeline or Track & Plan Add-ons for your Bluemix organization.
-
-##Starting a project
 
 As a project owner you can set up a project in two ways:
 * Create an app on Bluemix and add DevOps Services Add-ons
@@ -22,7 +20,6 @@ Your team's work is free until you reach a billing threshold by using up your fr
 |:----------------  |:----------------                   |:-------------------                           |:-------------------                   | 
 | Delivery Pipeline | Build minutes                      | 60 minutes per Application (Project), per month      |              |
 |                   | Application instances (deployers)  | First 2 Application Instances (Deployers) per Application (Project), per month | See Bluemix [Pricing Sheet](https://ace.ng.bluemix.net/#/pricing/)|
-
 |Track & Plan       | Users per application              |Public projects: unlimited users| |
 |                   |                                    |Private projects: 3 users       | |
 
@@ -53,6 +50,37 @@ Your team's work is free until you reach a billing threshold by using up your fr
 </table>
 
 
+<table border="1" summary="" width="100%">
+	<tbody>
+		<tr>
+			<th>Add-on</th>
+			<th>Charging metric</th>
+			<th>Free alloment</th>
+			<th>Cost</th>
+		</tr>
+		<tr>
+			<td rowspan="2">Delivery Pipeline</td>
+			<td>Build minutes</td>
+			<td>60 minutes per Application (Project), per month</td>
+			<td rowspan="2">See Bluemix Pricing Sheet</td>
+		</tr>
+		<tr>
+			<td style="background-color: #cccccc">Application instances (deployers)</td>
+			<td style="background-color: #cccccc">First 2 Application Instances (Deployers) per Application (Project), per month</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Track &amp; Plan</td>
+			<td rowspan="2">Users per application</td>
+			<td>Private project: 3 users</td>
+			<td rowspan="2">See Bluemix Pricing Sheet</td>
+		</tr>
+		<tr>
+			<td style="background-color: #cccccc">Public project: Unlimited users</td>
+		</tr>
+	</tbody>
+</table> 
+
+
 
 After you exceed those thresholds, your service will be interrupted unless you set up your Bluemix billing account.
 
@@ -60,11 +88,14 @@ After you exceed those thresholds, your service will be interrupted unless you s
 ##Enabling your Bluemix account
 To manage your billing, you must have a Bluemix account. Go to the [IBM Bluemix home page](https://bluemix.net/) and log in or sign up for a new account. The Bluemix dashboard gives you an overview of the active Bluemix space for the Bluemix space that is associated with your project. (The organization is the account owner's user name.)
 
-
 The Delivery Pipeline and Track & Plan Add-ons are the services that link your Bluemix and IBM DevOps Services projects together.
 
+1. Go to Bluemix space
+2. Go to Add-ons
+3. Add the appropriate add-on to the space that corresponds to your IDS project
+
 ---
-##Manage your billing account
+##Monitoring your usage
 
 You can manage your Bluemix account by viewing [billing and usage](https://www.ng.bluemix.net/docs/#acctmgmt/index-gentopic1.html#bil_usage) information and determine costs by visiting the [Bluemix Pricing page](https://bluemix.net/#/pricing).
 
@@ -79,7 +110,6 @@ To help you track monthly usage, see the cost estimator on the [Bluemix Pricing 
 
 You can monitor usage from **Profile Settings > Account > Usage Details**.
 
-![Bluemix profile settings](images/bm-profilesettings.png)
 
 ### Choose a billing plan
 
