@@ -26,7 +26,31 @@ Your team's work is free until you reach a billing threshold by using up your fr
 |Track & Plan       | Users per application              |Public projects: unlimited users| |
 |                   |                                    |Private projects: 3 users       | |
 
+<table border="1" width="100%" summary="">
+<TH>Add-on</TH>  <TH>Charging metric</TH>  <TH>Free alloment</TH> <TH>Cost</TH>
+<tr>
+<td rowspan="2">Delivery Pipeline </td>
+<td>Build minutes</td>
+<td>60 minutes per Application (Project), per month</td>
+<td rowspan="2">See Bluemix Pricing Sheet</td>
+</tr>
 
+<td>Application instances (deployers)</td>
+<td>First 2 Application Instances (Deployers) per Application (Project), per month </td>
+</tr>
+
+<td rowspan="2">Track & Plan</td>
+<td rowspan="2">Users per application</td>
+<td>Private project: 3 users</td>
+<td rowspan="2">See Bluemix Pricing Sheet</td>
+</tr>
+
+<tr>
+<td>Public project: Unlimited users</td>
+<td>&nbsp;</td>
+
+</tr>
+</table>
 
 
 
