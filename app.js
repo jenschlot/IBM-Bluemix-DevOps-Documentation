@@ -78,6 +78,21 @@ _.each(
 );
 
 _.each(
+	config.reference,
+	function (reference) {
+		app.use(
+			reference.uri_prefix, 
+			routes.reference_router(app.get('env'), 
+					      reference.section_name,
+					      reference.resource_name, 
+					      reference.img_icon,
+					      path.join(__dirname, reference.directory)
+			)
+		);
+	}
+);
+
+_.each(
 	config.topic,
 	function (topic) {
 		app.use(
