@@ -58,15 +58,15 @@ Your team's work is free until you reach a billing threshold by using up your fr
 			<th>Free alloment</th>
 			<th>Cost</th>
 		</tr>
-		<tr>
+		<tr style="background-color: #FFFFFF">
 			<td rowspan="2">Delivery Pipeline</td>
-			<td>Build minutes</td>
+			<td >Build minutes</td>
 			<td>60 minutes per Application (Project), per month</td>
 			<td rowspan="2">See Bluemix Pricing Sheet</td>
 		</tr>
-		<tr>
-			<td style="background-color: #cccccc">Application instances (deployers)</td>
-			<td style="background-color: #cccccc">First 2 Application Instances (Deployers) per Application (Project), per month</td>
+		<tr style="background-color: #FFFFFF">
+			<td>Application instances (deployers)</td>
+			<td>First 2 Application Instances (Deployers) per Application (Project), per month</td>
 		</tr>
 		<tr>
 			<td rowspan="2">Track &amp; Plan</td>
