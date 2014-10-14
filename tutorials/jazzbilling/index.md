@@ -68,13 +68,13 @@ Your team's work is free until you reach a billing threshold by using up your fr
 			<td>Application instances (deployers)</td>
 			<td>First 2 Application Instances (Deployers) per Application (Project), per month</td>
 		</tr>
-		<tr style="background-color: #ccc">
+		<tr style="background-color: #EBEBFF">
 			<td rowspan="2">Track &amp; Plan</td>
 			<td rowspan="2">Users per application</td>
 			<td>Private project: 3 users</td>
 			<td rowspan="2">See Bluemix Pricing Sheet</td>
 		</tr>
-		<tr style="background-color: #ccc">
+		<tr style="background-color: #EBEBFF">
 			<td>Public project: Unlimited users</td>
 		</tr>
 	</tbody>
