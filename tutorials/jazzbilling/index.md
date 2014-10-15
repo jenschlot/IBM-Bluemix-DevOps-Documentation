@@ -53,7 +53,7 @@ If a billing account hasn't been established for your project and you get close 
 
 ---
 ##Enabling your Bluemix account
-To avoid service interruptions you must enable a Bluemix billing account and add DevOps Services Add-ons. Before you can do that, you need a Bluemix account and a DevOps Services project. If you need details on how to do that, we have a couple tutorials to get you started:
+To protect your project from service interruptions it's a good idea to enable your Bluemix billing account by configuring the DevOps Services Add-ons that your project needs right away. Before you can do that, you need a Bluemix account and a DevOps Services project. If you need details on how to do that, we have a couple tutorials to get you started:
 * [Getting started with Bluemix and DevOps Services using Node.js](https://hub.jazz.net/tutorials/jazzeditor/)
 * [Getting started with Bluemix and DevOps Services using Java&trade;](https://hub.jazz.net/tutorials/jazzeditorjava/)
 
