@@ -1,34 +1,35 @@
-### Tutorial: [Getting started with tracking and planning in IBM DevOps Services](/tutorials/trackplan)  
-Topics: devops_services, plan, track
+### Tutorial: [Getting started with tracking and planning in IBM DevOps Services](/tutorials/trackplan)
+<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> devops_services, plan, track
 
 ### Feature at a Glance:  [Explore the Track & Plan Beta feature](../trackplan/trackplanfg)
-Topics: devops_services, track, plan
+<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> devops_services, track, plan
 
-### Article: [Develop apps in the cloud with DevOps Services](http://www.ibm.com/developerworks/library/d-bluemix-devops-services-project/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
-Topics: devops_services, track, plan, bluemix, webide
+### Article: [Develop apps in the cloud with DevOps Services](http://www.ibm.com/developerworks/library/d-bluemix-devops-services-project/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
+Last updated: 27 June 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> devops_services, track, plan, bluemix, webide
 
-### Blog: [New Track and Plan Beta now available at IBM DevOps Services](https://jazz.net/blog/index.php/2014/05/15/track-and-plan-beta-devops-services/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
-Topics: track, plan, devops_services
+### Blog: [New Track and Plan Beta now available at IBM DevOps Services](https://jazz.net/blog/index.php/2014/05/15/track-and-plan-beta-devops-services/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
+Last updated: 15 May 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> track, plan, devops_services
 
-### Video: [IBM Codename: BlueMix DevOps Services for Rapid Software Delivery (Cloud Foundry Summit 2014) (5:14 min)](https://www.youtube.com/watch?v=fkHSYJJ6KVs)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
-Topics: devops_services, bluemix, cloud_foundry, pipeline, track 
+### Video: [IBM Codename: BlueMix DevOps Services for Rapid Software Delivery (Cloud Foundry Summit 2014) (5:14 min)](https://www.youtube.com/watch?v=fkHSYJJ6KVs)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
+Last updated: 3 July 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> devops_services, bluemix, cloud_foundry, pipeline, track
 
-### Video: [Dan Berg demonstrates the IBM DevOps Services and Bluemix integration (7:25 min)](https://www.youtube.com/watch?v=EHng3L2JScU)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
-Topics: devops_services, bluemix, track, MQA, webide, pipeline, nodejs
+### Video: [Dan Berg demonstrates the IBM DevOps Services and Bluemix integration (7:25 min)](https://www.youtube.com/watch?v=EHng3L2JScU)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
+Last updated: 30 June 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> devops_services, bluemix, track, MQA, webide, pipeline, nodejs
 
-### Video: [IBM DevOps Services (jazzhub.com) Track and Plan Beta overview ](https://www.youtube.com/watch?v=sKI8T6sE5b8)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
-Topics: track, plan, devops_services
+### Video: [IBM DevOps Services (jazzhub.com) Track and Plan Beta overview ](https://www.youtube.com/watch?v=sKI8T6sE5b8)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
+Last updated: 30 May 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> track, plan, devops_services
 
-### Video: [PointSource uses JazzHub for mobile development ](https://www.youtube.com/watch?v=dHP7e8bTDww)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
-Topics: devops_services, track, plan
+### Video: [PointSource uses JazzHub for mobile development ](https://www.youtube.com/watch?v=dHP7e8bTDww)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
+Last updated: 6 May 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> devops_services, track, plan
 
-### Video tutorial: [Easily Track Your Work for a Node.js App! (2:57 min)](http://youtu.be/BTNNPJ84JNw )  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
-Topics: devops_services, bluemix, nodejs, track
+### Video tutorial: [Easily Track Your Work for a Node.js App! (2:57 min)](http://youtu.be/BTNNPJ84JNw )  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
+Last updated: 23 July 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> devops_services, bluemix, nodejs, track
 
-### Video tutorial: [Simple Sprint Planning for a Node.js App! (2:01 min)](http://www.youtube.com/watch?v=0TmY9tHIPfM)   <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
-Topics: devops_services, bluemix, nodejs, plan
+### Video tutorial: [Simple Sprint Planning for a Node.js App! (2:01 min)](http://www.youtube.com/watch?v=0TmY9tHIPfM)   <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
+Last updated: 23 July 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> devops_services, bluemix, nodejs, plan
 
-### Workshop: [Intro to Bluemix and DevOps Services, Part 3: Plan, track, and take advantage of new Bluemix services](http://www.ibm.com/developerworks/cloud/library/cl-intro3-app/index.html)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> 
-Topics: bluemix, devops_services, plan, track, twilio, webide
+### Workshop: [Intro to Bluemix and DevOps Services, Part 3: Plan, track, and take advantage of new Bluemix services](http://www.ibm.com/developerworks/cloud/library/cl-intro3-app/index.html)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
+Last updated: 23 September 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, devops_services, plan, track, twilio, webide
 
 &copy; Copyright IBM Corporation 2013, 2014.
+
