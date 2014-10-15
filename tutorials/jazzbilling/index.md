@@ -1,8 +1,8 @@
 #Configuring Bluemix billing for DevOps Services
 
-All IBM DevOps Services projects include an allotment of free services. To avoid service interruptions when you exceed those allotments, you must set up a Bluemix billing account and configure DevOps Services Add-ons. 
+All IBM DevOps Services projects include an allotment of free services. To avoid service interruptions when you exceed those allotments, you must set up an IBM&reg; Bluemix&trade; billing account and configure DevOps Services Add-ons. 
 
-You can set up your account as soon as you set up your project or any time before your free services run out. You won't forfeit your free allotment, even when you set up billing. The free allotment varies, depending on whether your project is public or private, but to set up your billing account, you must set up Delivery Pipeline or Track & Plan Add-ons for your corresponding Bluemix space.
+You can set up your account as soon as you set up your DevOps Services project or any time before your free services run out. You won't forfeit your free allotment, even when you set up billing. The free allotment varies, depending on whether your project is public or private, but to set up your billing account, you must set up Delivery Pipeline or Track & Plan Add-ons for your corresponding Bluemix space.
 
 As a project owner you can set up a project in two ways:
 * Create an app on Bluemix and add DevOps Services Add-ons
@@ -12,7 +12,7 @@ Either way, managing your account is the same. When your trial period ends or if
 
 ---
 
-### Billing thresholds
+### Understanding billing thresholds
 
 Your team's work is free until you reach a billing threshold by using up your free allotments. After you exceed those allotment thresholds, your service will be interrupted unless you set up your Bluemix billing account.
 
@@ -21,7 +21,7 @@ Your team's work is free until you reach a billing threshold by using up your fr
 		<tr>
 			<th>Add-on</th>
 			<th>Charging metric</th>
-			<th>Free alloment</th>
+			<th>Free allotment</th>
 			<th>Cost</th>
 		</tr>
 		<tr style="background-color: #FFFFFF">
@@ -46,23 +46,23 @@ Your team's work is free until you reach a billing threshold by using up your fr
 	</tbody>
 </table> 
 
-If a billing account hasn't been established for your project and you get close to exceeding your billing threshold, you will receive a warning.
+If a billing account hasn't been established for your project and you get close to exceeding your billing threshold, you will receive a warning similar to this:
 ![Billing warning](/tutorials/jazzbilling/images/warn_track_plan.png)
 
-Note: The user responsible for setting up billing might not be the same user who triggers a warning. Enabling your Bluemix billing account right away will protect your project from build and deployment failures and blocked access to Track & Plan pages.
+**Note:** The user responsible for setting up billing might not be the same user who triggers a warning. Enabling your Bluemix billing account right away will protect your project from build and deployment failures and blocked access to Track & Plan pages.
 
 ---
 ##Enabling your Bluemix account
 To avoid service interruptions you must enable a Bluemix billing account and add DevOps Services Add-ons. Before you can do that, you need a Bluemix account and a DevOps Services project. If you need details on how to do that, we have a couple tutorials to get you started:
-* [Getting started with Bluemix and DevOps Services using *Node.js*] (https://hub.jazz.net/tutorials/jazzeditor/)
-* [Getting started with Bluemix and DevOps Services using *Java*] (https://hub.jazz.net/tutorials/jazzeditorjava/)
+* [Getting started with Bluemix and DevOps Services using Node.js](https://hub.jazz.net/tutorials/jazzeditor/)
+* [Getting started with Bluemix and DevOps Services using Java&trade;](https://hub.jazz.net/tutorials/jazzeditorjava/)
 
 The Delivery Pipeline and Track & Plan Add-ons are the services that link your Bluemix space and DevOps Services projects together.
 
 To enable your account for billing, complete these steps:
 1. Go to the your Bluemix dashboard and select your space. 
-2. Click *Add-ons* and select either *Delivery Pipeline* or *Track & Plan* from the DevOps catalog.
-3. Make sure the space that corresponds to your DevOps Services project is selected and click *Create.*
+2. Click *Add-ons* and select either **Delivery Pipeline** or **Track & Plan** from the DevOps catalog.
+3. Make sure the space that corresponds to your DevOps Services project is selected and click **Create.**
 
 
 
@@ -81,7 +81,7 @@ To help you monitor monthly usage, see the cost estimator on the [Bluemix Pricin
 To see your usage details from **Profile Settings > Account > Usage Details**.
 
 
-### Choose a billing plan
+### Choosing a billing plan
 
 Before your free trial period expires, decide which billing plan 
 is best for your project. Read [Bluemix plans](https://www.ng.bluemix.net/docs/#acctmgmt/billing.html#bil_plan)
@@ -93,12 +93,11 @@ to see billing plan details.
 
 For account management, you need to know how we define a few key terms for billing. 
 1. **Application** - An application is a uniquely named software program that is separately installable on 
-a computing device. For billing purposes, application is defined to be an IBM DevOps Services 
-Project.
+a computing device. For billing purposes, an IBM DevOps Services 
+project is considered to be an application.
 2. **Application Instance** - An application instance is an instance of an application connected to or managed 
 by the cloud service (Bluemix and IBM DevOps Services). An application in multiple environments, such as test, development, staging, and 
-production, is counted as separate instances. Multiple copies of an application running in the same 
-environment are also counted as separate instances. Your billing charges are calculated for each application instance beyond the free threshold. Also called "application instance (deployer)." 
+production, is counted as separate instances. Multiple copies of an application running in the same environment are also counted as separate instances. Your billing charges are calculated for each application instance beyond the free threshold. Also called "application instance (deployer)." 
 3. **Application User** -  An authenticated user who accesses an application. For each application managed by Bluemix and IBM DevOps Services, you will be charged for each 
 authenticated user who accesses that application during the billing period. Multiple authentications by a 
 single user to a single application count as a single application user. A single user authenticating to 
@@ -108,9 +107,9 @@ Project, and membership in a Project during a billing period is deemed to be acc
 that billing period. Each Application-User is billed on a monthly basis. Partial month usage is not available at this time. 
 4. **Deployment Stages** - Deployment stages are the steps in application development used for testing and running software. (Typical stages are "staging," "test," "QA," and "production.") For billing purposes, deployment stages are application instances.
 5. **Organization (Orgs)** - The grouping methodology for users in Bluemix. Organizations are used to manage quotas. Users in an org share memory and service instance quotas. 
-6. **Space** - A sub-group within a Bluemix organization. Users who are members of an org are given access to one or more of its spaces, with permissions associated with a particular role (such as developer, manager, or auditor). Any member of the space can view apps, but only members with the developer role can create apps and add service instances to the space. Apps and service instances are associated with spaces. 
+6. **Space** - A sub-group within a Bluemix organization. Users who are members of an organization are given access to one or more of its spaces, with permissions associated with a particular role (such as developer, manager, or auditor). Any member of the space can view apps, but only members with the developer role can create apps and add service instances to the space. Apps and service instances are associated with spaces. 
 
-Link to these terms docs? 
+Additional resources: 
 * [IBM Continuous Delivery Pipeline for Bluemix](http://www.ibm.com/software/sla/sladb.nsf/pdf/6616-01/$file/i126-6616-01_06-2014_en_US.pdf)
 * [IBM Track and Plan for Bluemix](http://www.ibm.com/software/sla/sladb.nsf/pdf/6615-01/$file/i126-6615-01_06-2014_en_US.pdf)
 * [IBM DevOps Services Terms of Use](https://hub.jazz.net/terms)
