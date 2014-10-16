@@ -73,15 +73,8 @@
 			"resource_name": "Accounts",
 			"img_icon": "accounts-qr",
 			"directory": "reference/accounts"
-		},
-			{
-			"uri_prefix": "/docs/reference/manifest",
-			"section_name": "Quick Reference",
-			"resource_name": "Manifest Quick Reference",
-			"img_icon": "manifest-qr",
-			"directory": "reference/manifest"
-	
 		}
+		
 	],
 	"topic": [
 		{

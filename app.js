@@ -30,7 +30,7 @@ app.set('port', port)				// Store configuration in the app for later retrieval.
    .use(require('morgan')('dev')); 		// Log requests.
 
 
-app.get(['/tutorials', '/tutorials/landing'], function(req, res){
+app.get(['/tutorials', '/tutorials/landing', '/docs/reference'], function(req, res){
   res.redirect('/docs');
 });
 
