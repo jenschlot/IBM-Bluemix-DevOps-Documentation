@@ -42,7 +42,13 @@ Click **add a builder**. On the *Add Builder* page that appears, select "Grunt" 
 
 ![Configuring the Builder][8]
 
-Next, click **add a stage** on the right side of the screen. DevOps Services integrates with Bluemix, and this is a simple project, so the default information here is sufficient to deploy your project. To make sure that the project has a unique path, though, add the flag `-n` followed by a unique host name to the first line of the Bluemix script. As an example:
+Next, click **add a stage** on the right side of the screen. DevOps Services integrates with Bluemix, and this is a simple project, so the default information here is sufficient to deploy your project. 
+
+To make sure that the project has a unique path, add the flag `-n` followed by a unique host name to the first line of the Bluemix script. A complete version of the command might look like this:
+
+    cf push "${CF_APP}" -n Your-SA-App201410
+
+As an example:
 
 ![Configuring the Deployer][9]
 
@@ -75,7 +81,11 @@ Let's change how the app greets its users with a little help from the editor. Cl
 
 ![Configure Builder][13]
 
-Replace occurrences of that message with whatever you like. When you're finished, hit Control + S (or Command + S on a Mac) to make sure that everything is saved.
+Replace occurrences of that message with whatever you like. 
+
+If you want a fully functional version of the app, you'll also need to supply your own Twitter API keys. You can sign up for them at [Twitter Application Management][28]. Once you have them, you can replace the keys already present in the `tweeter` variable starting at line 22. 
+
+When you're finished, hit Control + S (or Command + S on a Mac) to make sure that everything is saved.
 
 ---
 ## Pushing changes to the repository
@@ -166,3 +176,4 @@ Interested in trying more Bluemix and DevOps capabilities? Here is a list of tut
 [24]: http://docs.cloudfoundry.org/devguide/installcf/whats-new-v6.html
 [25]: /tutorials/jazzweb/images/config-to-delete.png
 [26]: https://www.ng.bluemix.net/docs/#services/DeliveryPipeline/index.html#getstartwithCD
+[27]: https://dev.twitter.com/apps
