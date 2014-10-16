@@ -83,7 +83,7 @@ Let's change how the app greets its users with a little help from the editor. Cl
 
 Replace occurrences of that message with whatever you like. 
 
-If you want a fully functional version of the app, you'll also need to supply your own Twitter API keys. You can sign up for them at [Twitter Application Management][28]. Once you have them, you can replace the keys already present in the `tweeter` variable starting at line 22. 
+If you want a fully functional version of the app, you'll also need to supply your own Twitter API keys. You can sign up for them at [Twitter Application Management][27]. Once you have them, you can replace the keys already present in the `tweeter` variable starting at line 22. 
 
 When you're finished, hit Control + S (or Command + S on a Mac) to make sure that everything is saved.
 
