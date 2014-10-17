@@ -1,32 +1,33 @@
-#Configuring Bluemix billing for DevOps Services
+#Configuring IBM Bluemix billing for IBM DevOps Services
 
-All IBM DevOps Services projects include an allotment of free services. To avoid service interruptions when you exceed those allotments, you must set up an IBM&reg; Bluemix&trade; billing account and configure DevOps Services Add-ons. 
 
-You can set up your account as soon as you set up your DevOps Services project or any time before your free services run out. You won't forfeit your free allotment, even when you set up billing. The free allotment varies, depending on whether your project is public or private, but to set up your billing account, you must set up Delivery Pipeline or Track & Plan Add-ons for your corresponding Bluemix space.
+IBM&reg; DevOps Services provides the Track & Plan and Delivery Pipeline services for IBM Bluemix&trade;.
+All DevOps Services projects include an allowance of free services. To avoid service interruptions when you exceed your allowances, you must set up a Bluemix billing account and configure these services. 
 
-As a project owner you can set up a project in two ways:
-* Create an app on Bluemix and add DevOps Services Add-ons
-* Set up a project using DevOps Services and deploy it to Bluemix
+You can set up your Bluemix billing account independantly from setting up your DevOps Services project at any time before your free services run out. You won't forfeit your free allowance, even when you set up billing. 
+As a project owner you can set up a DevOps Services project in two ways:
+* Create an app on Bluemix, add a Git repository, and connect the Bluemix space to one of the services in the DevOps Services catalog. 
+* Create a project using DevOps Services and configure it to deploy to Bluemix.
 
-Either way, managing your account is the same. When your trial period ends or if your project requires advanced features immediately, we give you the tools to manage your account and monitor your usage.
+Either way, managing your billing account is the same. When your trial period ends or if your project requires advanced features immediately, we give you the tools to manage your account and monitor your usage.
 
 ---
 
 ### Understanding billing thresholds
 
-Your team's work is free until you reach a billing threshold by using up your free allotments. After you exceed those allotment thresholds, your service will be interrupted unless you set up your Bluemix billing account.
+Your team's work is free until you reach a billing threshold by using up your free allowance. After you exceed those allowance thresholds, your service will be interrupted unless you set up your Bluemix billing account.
 
 <table border="1" summary="" width="100%">
 	<tbody>
 		<tr>
-			<th>Add-on</th>
+			<th>Service</th>
 			<th>Charging metric</th>
-			<th>Free allotment</th>
+			<th>Free allowance</th>
 			<th>Cost</th>
 		</tr>
 		<tr style="background-color: #FFFFFF">
 			<td rowspan="2">Delivery Pipeline</td>
-			<td >Build minutes</td>
+			<td>Build minutes</td>
 			<td>60 minutes per application (project), per month</td>
 			<td rowspan="2">See Bluemix [Pricing Sheet](https://ace.ng.bluemix.net/#/pricing/)</td>
 		</tr>
@@ -47,21 +48,21 @@ Your team's work is free until you reach a billing threshold by using up your fr
 </table> 
 
 If a billing account hasn't been established for your project and you get close to exceeding your billing threshold, you will receive a warning similar to this:
-![Billing warning](/tutorials/jazzbilling/images/warn_track_plan.png)
+![Billing warning](images/warn_track_plan.png)
 
 **Note:** The user responsible for setting up billing might not be the same user who triggers a warning. Enabling your Bluemix billing account right away will protect your project from build and deployment failures and blocked access to Track & Plan pages.
 
 ---
 ##Enabling your Bluemix account
-To protect your project from service interruptions it's a good idea to enable your Bluemix billing account by configuring the DevOps Services Add-ons that your project needs right away. Before you can do that, you need a Bluemix account and a DevOps Services project. If you need details on how to do that, we have a couple tutorials to get you started:
+To protect your project from service interruptions it's a good idea to enable your Bluemix billing account by configuring the services that your project needs right away. Before you can do that, you need a Bluemix account and a DevOps Services project. If you need details on how to do that, we have a couple tutorials to get you started:
 * [Getting started with Bluemix and DevOps Services using Node.js](https://hub.jazz.net/tutorials/jazzeditor/)
 * [Getting started with Bluemix and DevOps Services using Java&trade;](https://hub.jazz.net/tutorials/jazzeditorjava/)
 
-The Delivery Pipeline and Track & Plan Add-ons are the services that link your Bluemix space and DevOps Services projects together.
+The Delivery Pipeline and Track & Plan Track & Plan and Delivery Pipeline are the services that link your Bluemix space and DevOps Services projects together.
 
 To enable your account for billing, complete these steps:
 1. Go to the your Bluemix dashboard and select your space. 
-2. Click *Add-ons* and select either **Delivery Pipeline** or **Track & Plan** from the DevOps catalog.
+2. Click *Services* and select either **Delivery Pipeline** or **Track & Plan** from the DevOps catalog.
 3. Make sure the space that corresponds to your DevOps Services project is selected and click **Create.**
 
 
@@ -71,9 +72,9 @@ To enable your account for billing, complete these steps:
 
 You can manage your Bluemix account by viewing [billing and usage](https://www.ng.bluemix.net/docs/#acctmgmt/index-gentopic1.html#bil_usage) information and determine costs by visiting the [Bluemix Pricing page](https://bluemix.net/#/pricing).
 
-The Delivery Pipeline Add-on and the Track & Plan Add-on
+The Delivery Pipeline service and the Track & Plan service
 use metered pricing, where you pay based on consumption but they also include free
-monthly allotments. You can find more information about pricing from the DevOps section of the 
+monthly allowance. You can find more information about pricing from the DevOps section of the 
 [Bluemix Pricing page](https://bluemix.net/#/pricing).
 
 To help you monitor monthly usage, see the cost estimator on the [Bluemix Pricing page](https://bluemix.net/#/pricing).
