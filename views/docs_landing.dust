@@ -120,7 +120,7 @@
 		<div class="clearfix"></div>
 
 		<div class="row pts pbl" id="key-resources">
-			<h2 class="pbs plm" >Key Resources</h2>
+			<h2 class="pbs plm" >Key Resources  &nbsp;&nbsp;&nbsp; <span style="font-size:small">Get to know the latest IBM DevOps Services</span></h2>
 			<div class="clearfix"></div>
 			<div class="col-md-12 col-sm-12 col-xs-9">
 				<div id="topics-grid" class="col-md-12 col-sm-12 col-xs-12 text-center">
@@ -161,7 +161,7 @@
 
 	<div class="clearfix"></div>
 	<div class="row pts pbl" id="quick-reference">
-			<h2 class="pbs plm" >Quick References</h2>
+			<h2 class="pbs plm" >Quick References   &nbsp;&nbsp;&nbsp; <span style="font-size:small">Important information to get you started</span></h2>
 			<div class="clearfix"></div>
 			<div class="col-md-12 col-sm-12 col-xs-9">
 				<div id="topics-grid" class="col-md-12 col-sm-12 col-xs-12 text-center">
@@ -195,7 +195,7 @@
 	<div class="clearfix"></div>
 
 		<div class="row pts pbl" id="topics">
-			<h2 class="pbs plm text-left" >Topics <a role="button" href="/docs/all" class="mll btn btn-dark btn-sm">All Docs</a></h2>
+			<h2 class="pbs plm text-left" >Topics   &nbsp;&nbsp;&nbsp; <span style="font-size:small">Information available about a topic</span> <a role="button" href="/docs/all" class="mll btn btn-dark btn-sm">All Docs</a></h2>
 				<div class="row">
 					<div id="topics-grid" class="col-md-12 col-sm-12 col-xs-9 text-center">
 						<div class="topic-container">

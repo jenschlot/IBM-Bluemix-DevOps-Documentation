@@ -41,7 +41,7 @@ No matter where you like to code, use this quick reference to find steps for com
 #### DevOps Services Web IDE
 When you use a hosted Git repository with your DevOps Services project, you work with both your local and remote repositories through the Web IDE.
 
-1. Click **EDIT CODE** (<img src="/help/reference/git/images/editcode.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and start work.
+1. Click **EDIT CODE** (<img src="images/editcode.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and start work.
 
 #### Git terminal
 If you want to code and test on a local machine, you need to set up a local repository. If you have not installed Git, find instructions [here][1].
@@ -93,7 +93,7 @@ and repeat the steps using a modified repository address: https://*<your_jazz_id
 
 1. Click __>__ by local.
 
-2. Click __Checkout__ (<img src="/help/reference/git/images/checkout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) by the branch you want to modify.
+2. Click __Checkout__ (<img src="images/checkout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) by the branch you want to modify.
 
 1. Note that the contents of the REFERENCE field contains your selected branch.
 
@@ -113,7 +113,7 @@ and repeat the steps using a modified repository address: https://*<your_jazz_id
 
 1. Click __>__ by local.
 
-2. Click __Delete__ (<img src="/help/reference/git/images/delete.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) by the local branch you want to remove.
+2. Click __Delete__ (<img src="images/delete.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) by the local branch you want to remove.
 
 ####Git terminal
 1. Type `git branch -d <branchname>` and press __Enter__.
@@ -228,7 +228,7 @@ __Note__: To save your commit mesasge and close Vim, which may be your default t
 
 2. Click the commit to view its details in the Commit pane.
 
-2. In the commit pane, click __Create a tag for the commit__ (<img src="/help/reference/git/images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) .
+2. In the commit pane, click __Create a tag for the commit__ (<img src="images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) .
 
 3. In the name field, type your tag text and click __Submit__.
 
@@ -335,7 +335,7 @@ Text in merged branch.
 
 1. Click the name of the source branch.
 
-1. In the Incoming pane of the Active Branch panel, click **Rebase** (<img src="/help/reference/git/images/rebase.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) .
+1. In the Incoming pane of the Active Branch panel, click **Rebase** (<img src="images/rebase.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) .
 
 5. If you encounter conflicts, [resolve](#resolve_a_rebase_conflict) them.
 
