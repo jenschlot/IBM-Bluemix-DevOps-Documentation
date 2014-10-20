@@ -185,7 +185,7 @@ Last updated: 3 July 2014 <img src="../all/images/tag.png"  align="bottom" style
 ### Video: [Dan Berg demonstrates the IBM DevOps Services and Bluemix integration (7:25 min)](https://www.youtube.com/watch?v=EHng3L2JScU)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
 Last updated: 30 June 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, track, MQA, webide, pipeline, nodejs
 
-### Video: [Introducing IBM DevOps Services and how it integrated with BlueMix (3:14 min)](https://www.youtube.com/watch?v=b2mM_Wwp_4c) <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
+### Video: [Introducing IBM DevOps Services and how it integrates with BlueMix (3:14 min)](https://www.youtube.com/watch?v=b2mM_Wwp_4c) <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
 Last updated: 30 June 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix
 
 ### Video: [The ShelterBox App (2:05 min)](http://www.youtube.com/watch?v=E1qXvrEh0nU)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
