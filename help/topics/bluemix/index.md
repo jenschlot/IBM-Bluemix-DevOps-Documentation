@@ -61,9 +61,6 @@ Last updated: 27 June 2014 <img src="../all/images/tag.png"  align="bottom" styl
 ### Article:[Build a sentiment analysis application with Node.js, Express, sentiment, and ntwitter](http://www.ibm.com/developerworks/library/wa-nodejs-app/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
 Last updated: 27 June 2013 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> nodejs, Express, sentiment, ntwitter, PaaS, bluemix
 
-### Blog: [Feets on the Ground..... with Bluemix](https://www.ibm.com/developerworks/community/blogs/jlmarechaux/entry/feets_on_the_ground_with_bluemix?lang=en)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
-Last updated: 9 September 2014<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> devops_services,bluemix, PaaS, IaaS, cloud_foundry
-
 ### Blog: [Creating a Node.js application with JazzHub](https://www.ibm.com/developerworks/community/blogs/jlmarechaux/entry/creating_a_node_js_application_with_jazzhub?lang=en)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
 Last updated: 26 January 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> nodejs, manifest, bluemix
 

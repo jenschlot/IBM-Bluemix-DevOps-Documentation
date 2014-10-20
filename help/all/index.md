@@ -103,9 +103,6 @@ Last updated: 27 June 2013 <img src="../all/images/tag.png"  align="bottom" styl
 ________________________________________
 ## Blogs
 
-### Blog: [Feets on the Ground..... with Bluemix](https://www.ibm.com/developerworks/community/blogs/jlmarechaux/entry/feets_on_the_ground_with_bluemix?lang=en)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
-Last updated: 9 September 2014<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> devops_services,bluemix, PaaS, IaaS, cloud_foundry
-
 ### Blog: [The Head in the Clouds](https://www.ibm.com/developerworks/community/blogs/jlmarechaux/entry/the_head_in_the_clouds?lang=en)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
 Last updated: 12 August 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> track, plan, pipeline, web_ide
 
