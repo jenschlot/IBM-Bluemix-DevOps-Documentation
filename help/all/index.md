@@ -14,7 +14,7 @@
 
 ### [FAQ](/help/faq)
 
-### [Glossary](/glossary)
+### [Glossary](/docs/glossary)
 
 <a id="tut"></a>
 
