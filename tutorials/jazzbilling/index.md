@@ -2,12 +2,12 @@
 
 
 IBM&reg; DevOps Services provides the Track & Plan and Delivery Pipeline services for IBM Bluemix&trade;.
-All DevOps Services projects include an allowance of free services. To avoid service interruptions when you exceed your allowances, you must set up a Bluemix billing account and configure these services. 
+All DevOps Services projects include an allowance of free services. To avoid interruptions when you exceed your allowances, you must set up a Bluemix billing account and configure your services. 
 
-You can set up your Bluemix billing account independantly from setting up your DevOps Services project at any time before your free services run out. You won't forfeit your free allowance, even when you set up billing. 
+You can set up your Bluemix billing account independantly from setting up your DevOps Services project at any time before your free services run out. Don't worry, you won't forfeit your free allowance when you set up billing. 
 As a project owner you can set up a DevOps Services project in two ways:
-* Create an app on Bluemix, add a Git repository, and connect the Bluemix space to one of the services in the DevOps Services catalog. 
-* Create a project using DevOps Services and configure it to deploy to Bluemix.
+* Create an app on Bluemix -> add a Git repository -> connect the Bluemix space to one of the services in the DevOps Services catalog 
+* Create a project using DevOps Services -> configure it to deploy to Bluemix -> add either the Track & Plan or Delivery Pipeline services to your Bluemix space
 
 Either way, managing your billing account is the same. When your trial period ends or if your project requires advanced features immediately, we give you the tools to manage your account and monitor your usage.
 
@@ -54,15 +54,15 @@ If a billing account hasn't been established for your project and you get close 
 
 ---
 ##Enabling your Bluemix account
-To protect your project from service interruptions it's a good idea to enable your Bluemix billing account by configuring the services that your project needs right away. Before you can do that, you need a Bluemix account and a DevOps Services project. If you need details on how to do that, we have a couple tutorials to get you started:
+To protect your project from service interruptions it's a good idea to enable your Bluemix billing account by configuring the services that your project needs right away. Before you can do that, you need a Bluemix account and a DevOps Services project. If you need details, here are two tutorials to get you started:
 * [Getting started with Bluemix and DevOps Services using Node.js](https://hub.jazz.net/tutorials/jazzeditor/)
 * [Getting started with Bluemix and DevOps Services using Java&trade;](https://hub.jazz.net/tutorials/jazzeditorjava/)
 
-The Delivery Pipeline and Track & Plan Track & Plan and Delivery Pipeline are the services that link your Bluemix space and DevOps Services projects together.
+Delivery Pipeline and Track & Plan are the services that link your Bluemix space and DevOps Services projects together.
 
 To enable your account for billing, complete these steps:
 1. Go to the your Bluemix dashboard and select your space. 
-2. Click *Services* and select either **Delivery Pipeline** or **Track & Plan** from the DevOps catalog.
+2. Click **Services** and select either **Delivery Pipeline** or **Track & Plan** from the DevOps catalog.
 3. Make sure the space that corresponds to your DevOps Services project is selected and click **Create.**
 
 
@@ -72,8 +72,8 @@ To enable your account for billing, complete these steps:
 
 You can manage your Bluemix account by viewing [billing and usage](https://www.ng.bluemix.net/docs/#acctmgmt/index-gentopic1.html#bil_usage) information and determine costs by visiting the [Bluemix Pricing page](https://bluemix.net/#/pricing).
 
-The Delivery Pipeline service and the Track & Plan service
-use metered pricing, where you pay based on consumption but they also include free
+The Delivery Pipeline and Track & Plan services
+use metered pricing, where you pay based on consumption, but they also include a free
 monthly allowance. You can find more information about pricing from the DevOps section of the 
 [Bluemix Pricing page](https://bluemix.net/#/pricing).
 
@@ -93,12 +93,12 @@ to see billing plan details.
 ##Account terminology
 
 For account management, you need to know how we define a few key terms for billing. 
-1. **Application** - An application is a uniquely named software program that is separately installable on 
+1. **Application** - A uniquely named software program that is separately installable on 
 a computing device. For billing purposes, an IBM DevOps Services 
-project is considered to be an application.
-2. **Application Instance** - An application instance is an instance of an application connected to or managed 
+project is an application.
+2. **Application Instance** - An instance of an application connected to or managed 
 by the cloud service (Bluemix and IBM DevOps Services). An application in multiple environments, such as test, development, staging, and 
-production, is counted as separate instances. Multiple copies of an application running in the same environment are also counted as separate instances. Your billing charges are calculated for each application instance beyond the free threshold. Also called "application instance (deployer)." 
+production, is counted as separate instances. Multiple copies of an application running in the same environment are counted as separate instances. Your billing charges are calculated for each application instance beyond the free threshold. Also called "application instance (deployer)." 
 3. **Application User** -  An authenticated user who accesses an application. For each application managed by Bluemix and IBM DevOps Services, you will be charged for each 
 authenticated user who accesses that application during the billing period. Multiple authentications by a 
 single user to a single application count as a single application user. A single user authenticating to 
