@@ -10,7 +10,7 @@
 
 &copy; Copyright IBM Corporation 2013, 2014.
 
-[1]: /help/trackplanfg
+[1]: ./
 [2]: #
 [3]: ./page2
 [4]: ./images/page1.png
