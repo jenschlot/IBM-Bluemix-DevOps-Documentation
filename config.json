@@ -57,12 +57,16 @@
 			"uri_prefix": "/docs/reference/git",
 			"section_name": "Quick Reference",
 			"resource_name": "Git",
+			"parent_name": "Git topic",
+			"parent_uri": "/docs/git",
 			"img_icon": "git-qr",
 			"directory": "reference/git"
 		},
 		{
 			"uri_prefix": "/docs/reference/deploy",
 			"section_name": "Quick Reference",
+			"parent_name": "Build & Deploy topic",
+			"parent_uri": "/docs/build_deploy",
 			"resource_name": "Build and Deploy ",
 			"img_icon": "build-deploy-qr",
 			"directory": "reference/deploy"
@@ -70,16 +74,20 @@
 		{
 			"uri_prefix": "/docs/reference/accounts",
 			"section_name": "Quick Reference",
+			"parent_name": "Billing",
+			"parent_uri": "/docs#topics",
 			"resource_name": "Accounts",
 			"img_icon": "accounts-qr",
 			"directory": "reference/accounts"
 		},
 		{
 			"uri_prefix": "/docs/howto/jazz_scm",
-			"section_name": "Quick Reference",
+			"section_name": "How to",
+			"parent_name": "Eclipse",
+			"parent_uri": "/docs/eclipse",
 			"resource_name": "Jazz SCM",
 			"img_icon": "jazz_scm",
-			"directory": "docs/howto/jazz_scm"
+			"directory": "/help/howto/jazz_scm"
 		}
 	],
 	"topic": [

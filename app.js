@@ -85,6 +85,8 @@ _.each(
 			routes.reference_router(app.get('env'), 
 					      reference.section_name,
 					      reference.resource_name,
+					      reference.parent_name, 
+					      reference.parent_uri, 
 					      reference.img_icon,
 					      path.join(__dirname, reference.directory)
 			)

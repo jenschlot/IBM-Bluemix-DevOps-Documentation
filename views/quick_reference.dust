@@ -23,7 +23,7 @@
 			{/eq}
 				<li><a href="/docs">Docs</a></li>
 				<li><a href="/docs#topics">Topics</a></li>
-				<li><a href="/">Specific topic</a></li>
+				<li><a href="{parenturi}">{parentname}</a></li>
 				<li class="current">{resourcename}</li>
 			</ol>
 			<div class="row ptm">

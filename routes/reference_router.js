@@ -15,6 +15,8 @@ module.exports =  function (env, section_name, resource_name, img_icon, director
 		function (req, res, next) {
 			req.sectionname = section_name;
 			req.resourcename = resource_name;
+			req.parentname = parent_name;
+			req.parenturi = parent_uri;
 			req.imgicon = img_icon;
 			next();
 		},
@@ -31,6 +33,8 @@ module.exports =  function (env, section_name, resource_name, img_icon, director
 				{ 
 					markdown: req.rendered_markdown,
 					sectionname: section_name,
+					parentname:  req.parentname,
+					parenturi:  req.parenturi,
 					resourcename: req.resourcename,
 					imgicon: req.imgicon,
 					navbarSelection: navbarSelection
