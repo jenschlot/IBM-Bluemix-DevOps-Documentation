@@ -56,14 +56,14 @@
 		{
 			"uri_prefix": "/docs/reference/git",
 			"section_name": "Quick Reference",
-			"resource_name": "Git Quick Reference",
+			"resource_name": "Git",
 			"img_icon": "git-qr",
 			"directory": "reference/git"
 		},
 		{
 			"uri_prefix": "/docs/reference/deploy",
 			"section_name": "Quick Reference",
-			"resource_name": "Build and Deploy Quick Reference",
+			"resource_name": "Build and Deploy ",
 			"img_icon": "build-deploy-qr",
 			"directory": "reference/deploy"
 		},
@@ -73,8 +73,14 @@
 			"resource_name": "Accounts",
 			"img_icon": "accounts-qr",
 			"directory": "reference/accounts"
+		},
+		{
+			"uri_prefix": "/docs/howto/jazz_scm",
+			"section_name": "Quick Reference",
+			"resource_name": "Jazz SCM",
+			"img_icon": "jazz_scm",
+			"directory": "docs/howto/jazz_scm"
 		}
-		
 	],
 	"topic": [
 		{

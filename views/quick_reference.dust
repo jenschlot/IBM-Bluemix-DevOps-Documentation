@@ -22,7 +22,8 @@
 			<ol class="breadcrumb">
 			{/eq}
 				<li><a href="/docs">Docs</a></li>
-				<li><a href="/docs#quick-reference">Quick Reference</a></li>
+				<li><a href="/docs#topics">Topics</a></li>
+				<li><a href="/">Specific topic</a></li>
 				<li class="current">{resourcename}</li>
 			</ol>
 			<div class="row ptm">
