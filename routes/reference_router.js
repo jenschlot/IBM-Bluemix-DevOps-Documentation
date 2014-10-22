@@ -2,7 +2,7 @@ var express = require('express');
 var _ = require('underscore');
 var path = require('path');
 
-module.exports =  function (env, section_name, resource_name, img_icon, directory) {
+module.exports =  function (env, section_name, resource_name, parent_name, parent_uri, img_icon, directory) { 
 	var router = express.Router();
 	var markdown_middleware = require('jazzhub-markdown-middleware')(directory);
 	var static_in_dir_middleware = express.static(directory);

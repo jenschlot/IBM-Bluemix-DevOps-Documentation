@@ -195,7 +195,7 @@
 	<div class="clearfix"></div>
 
 		<div class="row pts pbl" id="topics">
-			<h2 class="pbs plm text-left" >Topics <a role="button" href="/docs/all" class="mll btn btn-dark btn-sm">All Docs</a></h2>
+			<h2 class="pbs plm text-left" >Resources by topic <a role="button" href="/docs/all" class="mll btn btn-dark btn-sm">All Resources</a></h2>
 				<div class="row">
 					<div id="topics-grid" class="col-md-12 col-sm-12 col-xs-9 text-center">
 						<div class="topic-container">
