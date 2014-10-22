@@ -1,3 +1,6 @@
+###Reference: [Git](/docs/reference/git)
+<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  git
+
 ### Tutorial: [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/jazzeditor)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, devops_services, nodejs, git, webide, pipeline, cloud_foundry
 
@@ -23,4 +26,3 @@ Last updated: 10 June 2014 <img src="../all/images/tag.png"  align="bottom" styl
 Last updated: 11 March 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> devops_services, PaaS, git, webide, pipeline, git
 
 &copy; Copyright IBM Corporation 2013, 2014.
-
