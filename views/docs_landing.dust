@@ -45,7 +45,7 @@
 							<a class="section" href="/tutorials/clients">
 							<div class="col-md-7 col-sm-9 col-xs-9 callout" id="3">
 								<p class="description">
-									<strong>Setting up</strong> Eclipse, Git, and Rational Team Concert <strong>Desktop Clients</strong> to access IBM DevOps Services
+									<strong>Working locally</strong> with IBM DevOps Services projects
 								</p>
 							</div>
 							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>

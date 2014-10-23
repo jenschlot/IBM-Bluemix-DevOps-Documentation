@@ -1,9 +1,8 @@
 #Working locally with IBM DevOps Services projects
 ---
-IBM&reg; DevOps Services, you decide how you code.  You can work in the cloud by using the web IDE or you can work in a desktop client.
+In IBM&reg; DevOps Services, you decide how you code.  You can work in the cloud by using the web IDE or you can work in a desktop client.
 
-To work in a desktop client, you must configure the client for your repository. From [DevOps Services](https://hub.jazz.net), navigate to your project's overview page.  If you see a **Configure eclipse client** link on the right side of the page, you use [Jazz source control management](#jazzscm).  If you see a **Git URL** link on the right side of the page, you use a [Git Repository](#git)
-
+To work in a desktop client, you must configure the client for your repository. From [DevOps Services](https://hub.jazz.net), go to the project overview page. On the right side of the page, if you see the **Configure eclipse client** link, you are using [Jazz source control management](#jazzscm). If you see the **Git URL** link, you are using a [Git repository](#git).
 <a name='git'></a>
 ## Git repositories
 If you use a Git repository for your DevOps Services project, see [Working locally with IBM DevOps Services projects and Git source control][1].

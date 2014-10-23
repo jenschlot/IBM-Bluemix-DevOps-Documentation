@@ -107,7 +107,7 @@ and repeat the steps by using a modified repository address: https://your_jazz_i
 ### Delete a local branch
 
 ####DevOps Services web IDE
-1. Confirm that you do not have the branch to delete checked out. If you do, [checkout](#start_working_on_a_local_branch) another branch.
+1. Confirm that you do not have the branch to delete checked out. If you do, [check out](#start_working_on_a_local_branch) another branch.
 
 1. Click the **REFERENCE** field
 
@@ -402,7 +402,7 @@ Text in merged branch.
 
 Upgrade your version of Git. If you cannot upgrade Git, try these steps.
 
-1. Add your repository again but place your Jazz ID in the repository URL. https://your_Jazz_ID@hub.jazz.net/Jazz_ID/project_name
+1. Add your repository again but place your Jazz ID in the repository URL.  For example: https://your_Jazz_ID@hub.jazz.net/Jazz_ID/project_name
 
 
 [1]: https://hub.jazz.net/tutorials/clients#installing_git

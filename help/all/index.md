@@ -1,4 +1,4 @@
-### [General](#gen) | [Tutorials](#tut) | [Reference](#ref) |[Articles](#articles) | [Blogs](#blogs) | [Samples](#samples) | [Features at a Glance](#features) | [Videos](#videos) | [Workshops](#workshops)
+### [General](#gen) | [Tutorials](#tut) | [Reference](#ref) | [Articles](#articles) | [Blogs](#blogs) | [Samples](#samples) | [Features at a Glance](#features) | [Videos](#videos) | [Workshops](#workshops)
 
 <a id="gen"></a>
 
@@ -41,6 +41,7 @@
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> devops_services, bluemix, java, eclipse, jazz_scm, pipeline, rtc
 
 <a id="ref"></a>
+
 ----------------------------------------
 
 ## Reference
@@ -55,6 +56,7 @@
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  jazz_scm
 
 <a id="articles"></a>
+
 ----------------------------------------
 
 ## Articles
