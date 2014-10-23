@@ -56,25 +56,48 @@
 		{
 			"uri_prefix": "/docs/reference/git",
 			"section_name": "Quick Reference",
-			"resource_name": "Git Quick Reference",
+			"resource_name": "Git",
+			"parent_name": "Git",
+			"parent_uri": "/docs/git",
 			"img_icon": "git-qr",
 			"directory": "reference/git"
 		},
 		{
 			"uri_prefix": "/docs/reference/deploy",
 			"section_name": "Quick Reference",
-			"resource_name": "Build and Deploy Quick Reference",
+			"parent_name": "Build and Deploy",
+			"parent_uri": "/docs/build_deploy",
+			"resource_name": "Build and Deploy ",
 			"img_icon": "build-deploy-qr",
 			"directory": "reference/deploy"
 		},
 		{
 			"uri_prefix": "/docs/reference/accounts",
 			"section_name": "Quick Reference",
+			"parent_name": "Billing",
+			"parent_uri": "/docs#topics",
 			"resource_name": "Accounts",
 			"img_icon": "accounts-qr",
 			"directory": "reference/accounts"
+		},
+		{
+			"uri_prefix": "/docs/reference/jazz_scm_client",
+			"section_name": "How to",
+			"parent_name": "Jazz source control management",
+			"parent_uri": "/docs/jazz_scm",
+			"resource_name": "Jazz source control management",
+			"img_icon": "jazz_scm_client",
+			"directory": "/help/howto/jazz_scm_client"
+		},
+		{
+			"uri_prefix": "/docs/reference/gitclient",
+			"section_name": "How to",
+			"parent_name": "Git",
+			"parent_uri": "/docs/jazz_scm",
+			"resource_name": "Git client",
+			"img_icon": "git-qr",
+			"directory": "/help/howto/gitclient"
 		}
-		
 	],
 	"topic": [
 		{

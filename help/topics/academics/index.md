@@ -67,10 +67,10 @@ setting up servers."  - Alan Kan, Lecturer, Unitec Institute of Technology, New 
 ##Resources
 
 ### Tutorial: [Getting started with tracking and planning in IBM DevOps Services](/tutorials/trackplan)  
-Topics: devops_services, plan, track
+<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> devops_services, plan, track
 
 ### Tutorial: [Setting up Eclipse, Git, and Rational Team Concert desktop clients to access IBM DevOps Services](/tutorials/clients) 
-Topics: devops_services, eclipse, git, rtc
+<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> devops_services, eclipse, git, rtc
 
 ### IBM Academic Initiative Program
 <div style="color:black">Visit the [IBM Academic Initiative website](http://www-304.ibm.com/ibm/university/academic/pub/page/academic_initiative) or 
