@@ -83,7 +83,7 @@
 		{
 			"uri_prefix": "/docs/reference/jazz_scm_client",
 			"section_name": "How to",
-			"parent_name": "Jazz source control management resources",
+			"parent_name": "Jazz source control management",
 			"parent_uri": "/docs/jazz_scm",
 			"resource_name": "Client reference",
 			"img_icon": "jazz_scm_client",
