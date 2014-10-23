@@ -56,8 +56,8 @@
 		{
 			"uri_prefix": "/docs/reference/git",
 			"section_name": "Quick Reference",
-			"resource_name": "Git",
-			"parent_name": "Git",
+			"resource_name": "Git reference",
+			"parent_name": "Git resources",
 			"parent_uri": "/docs/git",
 			"img_icon": "git-qr",
 			"directory": "reference/git"
@@ -65,9 +65,9 @@
 		{
 			"uri_prefix": "/docs/reference/deploy",
 			"section_name": "Quick Reference",
-			"parent_name": "Build and Deploy",
+			"parent_name": "Build and Deploy resources",
 			"parent_uri": "/docs/build_deploy",
-			"resource_name": "Build and Deploy ",
+			"resource_name": "Build and Deploy reference ",
 			"img_icon": "build-deploy-qr",
 			"directory": "reference/deploy"
 		},
@@ -83,7 +83,7 @@
 		{
 			"uri_prefix": "/docs/reference/jazz_scm_client",
 			"section_name": "How to",
-			"parent_name": "Jazz source control management",
+			"parent_name": "Jazz source control management resources",
 			"parent_uri": "/docs/jazz_scm",
 			"resource_name": "Jazz source control management",
 			"img_icon": "jazz_scm_client",
@@ -92,7 +92,7 @@
 		{
 			"uri_prefix": "/docs/reference/gitclient",
 			"section_name": "How to",
-			"parent_name": "Git",
+			"parent_name": "Git resources",
 			"parent_uri": "/docs/jazz_scm",
 			"resource_name": "Git client",
 			"img_icon": "git-qr",
