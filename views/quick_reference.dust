@@ -24,7 +24,7 @@
 				<li><a href="/docs">Docs</a></li>
 				<li><a href="/docs#topics">Resources</a></li>
 				<li><a href="{parenturi}">{parentname}</a></li>
-				<li class="current">&nbsp;</li>
+				<li class="current">{resourcename}</li>
 			</ol>
 			<div class="row ptm">
 				<div class="col-md-12 resource">
