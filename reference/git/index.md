@@ -1,8 +1,8 @@
-# Git quick reference
+#Git quick reference
 
-If you store your code in a Git repository hosted by IBM&reg; DevOps Services, you have options for working with your code. If you prefer to work on a local machine, you can use Git terminal commands to manipulate the contents of your hosted repository. If you prefer to work with the web IDE, you never have to use the Git terminal: you can perform many common Git commands using the web IDE.  
+If you store your code in a Git repository that is hosted by IBM&reg; DevOps Services, you have options for working with code. If you want to work on a local machine, you can use Git terminal commands to manipulate the contents of your hosted repository. If you want to use the web IDE, you never have to use the Git terminal: you can perform many common Git commands in the web IDE.  
 
-No matter where you like to code, use this quick reference to find steps for common tasks.
+No matter where you like to code, use this quick reference to do common tasks.
 
 ---
 ##[Repositories](#repositories)
@@ -10,17 +10,17 @@ No matter where you like to code, use this quick reference to find steps for com
 
 ##[Branches](#branches)
 * [Create a local branch](#create_a_local_branch)
-* [Start work on a local branch](#start_work_on_a_local_branch)
+* [Start working on a local branch](#start_working_on_a_local_branch)
 * [Delete a local branch](#delete_a_local_branch)
 * [Update a local branch with changes from the remote branch](#update_a_local_branch_with_changes_from_the_remote_branch)
 
 ##[Commits](#commits)
 * [Commit files to the active branch](#commit_files_to_the_active_branch)
 * [View the commit history](#view_the_commit_history)
-* [Compare changes introduced by a commit](#compare_changes_introduced_by_a_commit)
+* [Compare changes that a commit introduced](#compare_changes_that_a_commit_introduced)
 * [Modify the last commit](#modify_the_last_commit)
 * [Tag a commit](#tag_a_commit)
-* [Change committer name and email address](#change_committer_name_and_email_address)
+* [Change the committer name and email address](#change_the_committer_name_and_email_address)
 
 ##[Change integration](#change_integration)
 * [Merge changes](#merge_changes)
@@ -29,7 +29,7 @@ No matter where you like to code, use this quick reference to find steps for com
 * [Resolve a rebase conflict](#resolve_a_rebase_conflict)
 
 ##[Git terminal only](#git_terminal)
-* [Troubleshoot authentication issues with push command](#troubleshoot_authentication_issues_with_push_command)
+* [Troubleshoot authentication issues by using the push command](#troubleshoot_authentication_issues_by_using_the_push_command)
 
 ---
 <a name="repositories"></a>
@@ -38,33 +38,33 @@ No matter where you like to code, use this quick reference to find steps for com
 <a name="set_up_a_local_git_repository"></a>
 ### Set up a local Git repository
 
-#### DevOps Services Web IDE
-When you use a hosted Git repository with your DevOps Services project, you work with both your local and remote repositories through the Web IDE.
+#### DevOps Services web IDE
+When you use a hosted Git repository with your DevOps Services project, you work with both your local and remote repositories through the web IDE.
 
-1. Click **EDIT CODE** (<img src="images/editcode.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and start work.
+1. Click **EDIT CODE** (<img src="./images/editcode.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and start working.
 
 #### Git terminal
-If you want to code and test on a local machine, you need to set up a local repository. If you have not installed Git, find instructions [here][1].
+If you want to code and test on a local machine, set up a local repository.
 
-1. Create or determine a directory to store your local repository.
+**Before you begin**: If you have not installed Git, follow [these instructions][1].
 
-1. Using your terminal, move to your new directory.  
-**Tip**: If you're using Windows and the Git Bash, type `cd /<path>`  and press __Enter__.
+1. Determine which directory to store your local repository in. If necessary, you can create a directory.
 
-1. From the My Stuff page on [DevOps Services][2], click your project's name.
+1. By using your terminal, move to the directory.  
+
+1. Go to the My Stuff page on [DevOps Services][2], and click your project's name.
 
 1. From your project's Overview page, click **Git URL** and copy the URL.
 
-1. In your terminal, type `git clone `, paste your Git URL, and press **Enter**.
+1. In your terminal, type `git clone `, paste your Git URL, and press Enter.
 
-1. When prompted, enter your IBM id and password.  
+1. When you are prompted, enter your IBM id and password.  
 **Note**: If you are not prompted for your password, do not continue.  Delete your cloned repository
-and repeat the steps using a modified repository address: https://*<your_jazz_id:your_IBM_ID_password@>*hub.jazz.net/*<jazz_id>*/*<project_name>* 
+and repeat the steps by using a modified repository address: https://your_jazz_id:your_IBM_ID_password@hub.jazz.net/jazz_id/project_name> 
 
 1. After your repository replicates, move into your new local repository.  
-**Tip**: If you're using Windows and Git Bash, type `cd ./<project_name>` and press __Enter__.
  
-1. Start work.
+1. Start working.
 
 ---
 <a name="branches"></a>
@@ -74,61 +74,61 @@ and repeat the steps using a modified repository address: https://*<your_jazz_id
 <a name="create_a_local_branch"></a>
 ### Create a local branch
 
-#### DevOps Services Web IDE
+#### DevOps Services web IDE
 1. Click the **REFERENCE** field.
 
-1. Click __NEW BRANCH__.
+1. Click **NEW BRANCH**.
 
-2. Type your branch name in the **Name** field and click __Submit__.
+2. Type your branch name in the **Name** field and click **Submit**.
 
 #### Git terminal
-1. Type `git branch <branchname>` and press __Enter__.
+1. Type `git branch <branchname>` and press Enter.
 
 ---
-<a name="start_work_on_a_local_branch"></a>
-### Start work on a local branch
+<a name="start_working_on_a_local_branch"></a>
+### Start working on a local branch
 
-#### DevOps Services Web IDE
+#### DevOps Services web IDE
 1. Click the **REFERENCE** field
 
-1. Click __>__ by local.
+1. Next to local, click **>**.
 
-2. Click __Checkout__ (<img src="images/checkout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) by the branch you want to modify.
+2. Next to the branch to modify, click **Checkout** (<img src="./images/checkout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">).
 
-1. Note that the contents of the REFERENCE field contains your selected branch.
+1. Confirm that the contents of the REFERENCE field contain your selected branch.
 
 #### Git terminal
-1. Type `git branch -l` and press __Enter__ to view your local branches.
+1. To view your local branches, type `git branch -l` and press Enter.
 
-2. Type `git checkout <branchname>` and press __Enter__.
+2. Type `git checkout <branchname>` and press Enter.
 
 ---
 <a name="delete_a_local_branch"></a>
 ### Delete a local branch
 
-####DevOps Services Web IDE
-1. Confirm that you do not have the branch you want to delete checked out. If you do, [checkout](#start_work_on_a_local_branch) a different branch.
+####DevOps Services web IDE
+1. Confirm that you do not have the branch to delete checked out. If you do, [checkout](#start_working_on_a_local_branch) another branch.
 
 1. Click the **REFERENCE** field
 
-1. Click __>__ by local.
+1. Next to local, click **>**.
 
-2. Click __Delete__ (<img src="images/delete.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) by the local branch you want to remove.
+2. Next to the local branch to remove, click **Delete** (<img src="./images/delete.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">).
 
 ####Git terminal
-1. Type `git branch -d <branchname>` and press __Enter__.
+1. Type `git branch -d <branchname>` and press Enter.
 
 ---
 <a name="update_a_local_branch_with_changes_from_the_remote_branch"></a>
 ### Update a local branch with changes from the remote branch
 
-####DevOps Services Web IDE
-1. Click __SYNC__.
+####DevOps Services web IDE
+1. Click **SYNC**.
 
 1. If you encounter conflicts, [resolve](#resolve_a_rebase_conflict) them.
 
 ####Git terminal
-1. Type `git pull` and press __Enter__.
+1. Type `git pull` and press Enter.
 
 1. Enter your IBM id and password.
 
@@ -140,124 +140,124 @@ and repeat the steps using a modified repository address: https://*<your_jazz_id
 <a name="commit_files_to_the_active_branch"></a>
 ### Commit files to the active branch
 
-#### DevOps Services Web IDE
-2. In the Working Directory Changes pane, select the check box for each file you want to commit.
+#### DevOps Services web IDE
+2. In the Working Directory Changes pane, select the check box for each file to commit.
 
-3. Type a message describing your change in the __Enter the commit message__ field.  
-__Tip__: Ensure your commit messages describe your changes well.
+3. In the **Enter the commit message** field, type a message that describes your changes.  
+**Tip**: Describe your changes well in the commit message.
 
-4. Click __COMMIT__.
+4. Click **COMMIT**.
 
 #### Git terminal
-1. Type `git status` and press __Enter__.
+1. Type `git status` and press Enter.
 
-2. Review the changes to be committed. If all your files are listed to be committed, proceed. If you want to commit unstaged files, [stage](#how_do_I_stage_a_file) them first.
+2. Review the changes to be committed. If all of your files are listed to be committed, proceed. To commit unstaged files, stage them first.
 
-3. Type `git commit -m "<commit_message>"` and press __Enter__.  
-__Tip__: Ensure your commit messages describe your changes well.
+3. Type `git commit -m "<commit_message>"` and press Enter.  
+**Tip**: Describe your changes well in the commit message.
 
 ---
 <a name="view_the_commit_history"></a>
 ### View the commit history
 
-####DevOps Services Web IDE
-1. In the Active Branch pane, click the __>__ by HISTORY.
+####DevOps Services web IDE
+1. In the Active Branch pane, next to HISTORY, click the **>**.
 
 ####Git terminal
-1. Type `git log` and press __Enter__. 
+1. Type `git log` and press Enter. 
 
 2. Navigate through the committer commits.  
- * Press __Page Down__ to view more entries.  
- * Press __Page Up__ to view previous entries.
+ * To view more entries, press Page Down.  
+ * To view previous entries, press Page Up.
 
-3. Press  __q__ to stop viewing entries.
+3. To stop viewing entries, press  Q.
 
 ---
-<a name="compare_changes_introduced_by_a_commit"></a>
-### Compare changes introduced by a commit
+<a name="compare_changes_that_a_commit_introduced"></a>
+### Compare changes that a commit introduced
 
-####DevOps Services Web IDE
+####DevOps Services web IDE
 1. [View](#view_the_commit_history) your commit history and locate the commit.
 
-2. Click the commit to view its details in the Commit pane.
+2. View the details of the commit by clicking it.
 
-3. Click the __>__ by a file and review its changes.  
-__Note__: If a commit introduced a change to a line, you will see the original shaded pink and the new line shaded green.  Similarly, you will see that lines added with a commit shaded green and lines removed with a commit shaded pink.
+3. Next to a file, click the **>** and review the file's changes.  
+**Note**: If a commit introduced a change to a line, the original line is shaded pink and the new line is shaded green.  Similarly, lines that were added by a commit are shaded green and lines that were removed by a commit are shaded pink.
 
 ####Git terminal
-1. Type `git log -p` and press __Enter__.  
-__Note__: If you want to view only a certain number of commits, type `git log -p -<number_of_commits_to_view>` instead.
+1. Type `git log -p` and press Enter.  
+**Note**: If you want to view only a certain number of commits, type `git log -p -<number_of_commits_to_view>` instead.
 
 2. Navigate through the committer commits.
- * Press __Page Down__ to view more entries.  
- * Press __Page Up__ to view previous entries.
+ * To view more entries, press Page Down.  
+ * To view previous entries, press Page Up.
 
 3. Review the changes.  
-__Note__: If a commit introduced a change to a line, the original line is shown in red text and starts with a "-". The new line is shown in green text and starts with a "+".  Similarly, lines added with a commit are shown in green text and start with a "+." Lines removed with a commit are shown in red text and start with a "-".
+**Note**: If a commit introduced a change to a line, the original line is in red text and starts with a minus sign (-). The new line is in green text and starts with a plus sign (+).  Similarly, lines that were added by a commit are in green text and start with a +. Lines that were removed by a commit are in red text and start with a -.
 
-1. Press  __q__ to stop viewing entries.
+1. To stop viewing entries, press  Q.
 
 ---
 <a name="modify_the_last_commit"></a>
 ### Modify the last commit
-__Note__: Do not modify your last commit after you push it to a remote repository.
+**Note**: Do not modify your last commit after you push it to a remote repository.
 
-####DevOps Services Web IDE
-1. Select the check boxes for the items you want to add to the commit.
+####DevOps Services web IDE
+1. Select the check boxes for the items to add to the commit.
 
-1. Select the __Amend Previous Commit__ check box.
+1. Select the **Amend Previous Commit** check box.
 
-2. If desired, enter a new commit message.
+2. If necessary, enter a new commit message.
 
-3. Click __COMMIT__.
+3. Click **COMMIT**.
 
 ####Git terminal
-1. Check your status and stage or unstage files as necessary.
+1. Check your status. As necessary, stage or unstage files.
 
-2. Type `git commit --amend` and press __Enter__.
+2. Type `git commit --amend` and press Enter.
 
-3. Accept or modify the commit message in your text editor.  
-__Note__: To save your commit mesasge and close Vim, which may be your default text editor, press __Esc__, type `:wq`, and press __Enter__.
+3. In your text editor, accept or modify the commit message.  
+**Note**: To save your commit message and close Vim, which may be your default text editor, press Esc, type `:wq`, and press Enter.
 
 ---
 <a name="tag_a_commit"></a>
 ### Tag a commit
 
-####DevOps Services Web IDE
+####DevOps Services web IDE
 1. [View](#view_the_commit_history) your commit history and locate the commit.
 
-2. Click the commit to view its details in the Commit pane.
+2. View the details of the commit by clicking it.
 
-2. In the commit pane, click __Create a tag for the commit__ (<img src="images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) .
+2. In the commit pane, click **Create a tag for the commit** (<img src="./images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) .
 
-3. In the name field, type your tag text and click __Submit__.
+3. In the name field, type your tag text; then, click **Submit**.
 
 ####Git terminal
-1. [View](#view_the_commit_history) the commit history and obtain the id of the commit you want to tag.
+1. [View](#view_the_commit_history) the commit history and obtain the ID of the commit to tag.
 
-2. Type `git tag -a <tag_text> <commit_id>` and press __Enter__. 
+2. Type `git tag -a <tag_text> <commit_id>` and press Enter. 
 
 ---
-<a name="change_committer_name_and_email_address"></a>
-### Change committer name and email address
+<a name="change_the_committer_name_and_email_address"></a>
+### Change the committer name and email address
 
-#### DevOps Services Web IDE
-2. Click __Settings__.
+#### DevOps Services web IDE
+2. Click **Settings**.
 
-3. Update the committer Git Email Address and Git Username as necessary and press __Enter__.
+3. Update the committer Git Email Address and Git Username; then, press Enter.
 
 #### Git terminal
 To update your name and email address for a single repository
 
-1. Type `git config user.email "<your@email.com>"` and press __Enter__.
+1. Type `git config user.email "<your@email.com>"` and press Enter.
 
-2. Type `git config user.name "<Your Name>"` and press __Enter__.
+2. Type `git config user.name "<Your Name>"` and press Enter.
 
 To update your name and email address for all repositories
 
-1. Type `git config --global user.email "<your@email.com>"` and press __Enter__.
+1. Type `git config --global user.email "<your@email.com>"` and press Enter.
 
-2. Type `git config --global user.name "<Your Name>"` and press __Enter__.
+2. Type `git config --global user.name "<Your Name>"` and press Enter.
 
 ---
 <a name="change_integration"></a>
@@ -266,130 +266,130 @@ To update your name and email address for all repositories
 <a name="merge_changes"></a>
 ### Merge changes
 
-####DevOps Services Web IDE
-1. Decide which branches you want to merge. You will merge the contents of the source branch into the destination branch.
+####DevOps Services web IDE
+1. Decide which branches to merge. You will merge the contents of the source branch into the destination branch.
 
-2. [Checkout](#how_do_I_start_working_on_a_local_branch) the destination branch.
+2. [Checkout](#start_working_on_a_local_branch) the destination branch.
 
 1. Click the **REFERENCE** field.
 
 1. Click the name of the source branch.
 
-1. In the Incoming pane of the Active Branch panel, click **Merge**.
+1. On the Active Branch panel, in the Incoming pane, click **Merge**.
 
-2. [Checkout](#how_do_I_start_working_on_a_local_branch) the destination branch again.
+2. [Checkout](#start_working_on_a_local_branch) the destination branch again.
 
 1. Click **PUSH**.
 
 ####Git terminal
-1. Decide which branches you want to merge. You will merge the contents of the source branch into the destination branch.
+1. Decide which branches to merge. You will merge the contents of the source branch into the destination branch.
 
-2. [Checkout](#how_do_I_start_working_on_a_local_branch) the destination branch.
+2. [Checkout](#start_working_on_a_local_branch) the destination branch.
 
-3. Type `git merge <source_name>` and press __Enter__.
+3. Type `git merge <source_name>` and press Enter.
 
 ---
 <a name="resolve_a_merge_conflict"></a>
 ### Resolve a merge conflict
 
-####DevOps Services Web IDE
-1. Review the list of conflicting files in the Changed Files pane.
+####DevOps Services web IDE
+1. In the Changed Files pane, review the list of files that contain conflicts.
 
-2. Open each file in the web IDE.
+2. In the web IDE, open each file that contains conflicts.
 
 3. Resolve each conflicting change.  
-__Note__: Delete all text that you do not want to retain. Each conflict takes this form:  
+**Note**: Delete all of the text that you do not want to retain. Each conflict is in this format:  
 <<<<<<< HEAD  
 Text in checked out branch.  
 =======&nbsp;  
 Text in merged branch.  
 \>>>>>>> commit_ID_from_merged_branch
 
-4. Select the check box for each conflicting file, enter the merge commit message, and click __COMMIT__.
+4. For each conflicting file, select the check box. Type a merge commit message, and click **COMMIT**.
 
 ####Git terminal
-1. Review the Git message for the names of files that contain conflicts.
+1. For the files that contain conflicts, review the Git message for the names.
 
-2. Open a file that contains conflicts in a text editor.
+2. In a text editor, open a file that contains conflicts.
 
-3. Resolve each conflicting change and save the file.  
-__Note__: Delete all text that you do not want to retain. Each conflict takes this form:  
+3. Resolve each conflicting change, and then save the file.  
+**Note**: Delete all of the text that you do not want to retain. Each conflict is in this format:   
 <<<<<<< HEAD  
 Text in checked out branch.  
 =======&nbsp;   
 Text in merged branch.  
 \>>>>>>> merged_branch
 
-4. Stage each file you modified and commit the merge.
+4. Stage each file that you modified, and then commit the merge.
 
 ---
 <a name="rebase_branches"></a>
 ### Rebase branches
 
-#### DevOps Services Web IDE
-1. Decide which branches you want to rebase. You will rebase the contents of the source branch into the destination branch.
+#### DevOps Services web IDE
+1. Decide which branches to rebase. You will rebase the contents of the source branch into the destination branch.
 
-2. [Checkout](#how_do_I_start_working_on_a_local_branch) the destination branch.
+2. [Checkout](#start_working_on_a_local_branch) the destination branch.
 
 1. Click the **REFERENCE** field.
 
 1. Click the name of the source branch.
 
-1. In the Incoming pane of the Active Branch panel, click **Rebase** (<img src="images/rebase.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) .
+1. In the Active Branch panel, in the Incoming pane, click **Rebase** (<img src="./images/rebase.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) .
 
 5. If you encounter conflicts, [resolve](#resolve_a_rebase_conflict) them.
 
 6. Repeat the previous step as many times as necessary to complete the rebase operation.
 
-2. [Checkout](#how_do_I_start_working_on_a_local_branch) the destination branch again.
+2. [Checkout](#start_working_on_a_local_branch) the destination branch again.
 
 1. Click **PUSH**.
 
 #### Git terminal
-1. Type `git checkout <destination_branchname>` and press __Enter__ to checkout the branch you want to update.
+1. Check out the branch to update by typing `git checkout <destination_branchname>` and pressing Enter.
 
-2. Type `git rebase <source_branchname>` and press __Enter__.
+2. Type `git rebase <source_branchname>` and press Enter.
 
 3. If you encounter conflicts, [resolve](#resolve_a_rebase_conflict) them.
 
 5. Repeat the previous step as many times as necessary to complete the rebase operation.  
-__Note__: If you want to stop the rebase operation, type `git rebase --abort` and press __Enter__.
+**Note**: To stop the rebase operation, type `git rebase --abort` and press Enter.
 
 ---
 <a name="resolve_a_rebase_conflict"></a>
 ### Resolve a rebase conflict
 
-#### DevOps Services Web IDE
-1. Review the list of conflicting files in the Working Directory Changes pane.
+#### DevOps Services web IDE
+1. In the Working Directory Changes pane, review the list of conflicting files.
 
-2. Open each file in the web IDE.
+2. In the web IDE, open each file that contains conflicts.
 
 3. Resolve each conflicting change.  
-__Note__: Delete all text that you do not want to retain. Each conflict takes this form:  
+**Note**: Delete all of the text that you do not want to retain. Each conflict is in this format:   
 <<<<<<< HEAD  
 Text in checked out branch.  
 =======&nbsp;  
 Text in merged branch.  
 \>>>>>>> commit_ID_from_merged_branch
 
-4. Select the check box for each corrected file and click __CONTINUE__ in the rebase pane.
+4. In the rebase pane, select the check box for each corrected file and click **CONTINUE**.
 
 ####Git terminal
-1. Review the Git messages for the names of files that contain conflicts.
+1. For the files that contain conflicts, review the Git message for the names.
 
-2. Open a file that contains conflicts in a text editor.
+2. In a text editor, open a file that contains conflicts.
 
-3. Resolve each conflicting change and save the file.   
-__Note__: Delete all text that you do not want to retain. Each conflict takes this form:  
+3. Resolve each conflicting change, and then save the file.   
+**Note**: Delete all of the text that you do not want to retain. Each conflict is in this format:     
 <<<<<<< HEAD  
 Text in checked out branch.  
 =======&nbsp;  
 Text in merged branch.  
 \>>>>>>> merged_branch
 
-4. Stage each file you modified.
+4. Stage each file that you modified.
 
-5. Type `git rebase --continue` and press __Enter__ to resume the rebase operation
+5. Resume the rebase operation by typing `git rebase --continue` and pressing Enter.
 
 
 ---
@@ -397,12 +397,13 @@ Text in merged branch.
 ##Git terminal only
 
 ---
-<a name="troubleshoot_authentication_issues_with_push_command"></a>
-### Troubleshoot authentication issues with push command
+<a name="troubleshoot_authentication_issues_by_using_the_push_command"></a>
+### Troubleshoot authentication issues by using the push command
 
-Upgrade your version of git. If you cannot upgrade Git, try these steps.
+Upgrade your version of Git. If you cannot upgrade Git, try these steps.
 
-1. Add your repository again but place your Jazz ID in the repository URL. https://*<your_Jazz_ID@>*hub.jazz.net/*<Jazz_ID>*/*<project_name>*
+1. Add your repository again but place your Jazz ID in the repository URL. https://your_Jazz_ID@hub.jazz.net/Jazz_ID/project_name
+
 
 [1]: https://hub.jazz.net/tutorials/clients#installing_git
 [2]: https://hub.jazz.net
