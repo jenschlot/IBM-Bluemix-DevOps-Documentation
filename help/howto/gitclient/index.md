@@ -55,8 +55,7 @@ If you use Eclipse and you have a project that uses Git for source control, you 
 ### Install the EGit Eclipse plug-in
 ---
 
-If you use Eclipse 4.2.2 or later, complete these steps. If you use an earlier version of Eclipse, [see the EGit/FAQs](http://wiki.eclipse.org/EGit/FAQ#Where_can_I_find_older_releases_of_EGit.3F) for instructions. If you do not have Eclipse installed, download 
-and install the [IBM Development Package for Eclipse](http://www.ibm.com/developerworks/java/jdk/) from ibm.com.
+If you use Eclipse 4.2.2 or later, complete these steps. If you use an earlier version of Eclipse, [see the EGit/FAQs](http://wiki.eclipse.org/EGit/FAQ#Where_can_I_find_older_releases_of_EGit.3F) for instructions. If you do not have Eclipse installed and want tools for Java development, download and install the [Java EE IDE for Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2) from eclipse.org.
 
 **Before you begin**: Check whether the EGit plug-in is already installed. In Eclipse, click **Window > Show View > Other** and type `git` as the filter text. If you see a list of Git views, skip ahead to [Connect to your DevOps Services Project with EGit](#connect_to_your_devops_services_project_with_egit)
 
@@ -114,8 +113,8 @@ If you use Eclipse, you can use the Rational Team Concert plug-in to access your
 ### Install the Rational Team Concert plug-in
 ---
 
-**Before you begin**: Rational Team Concert 5.0 and later require Eclipse 4.3.2. If you do not have Eclipse installed, download 
-and install the [IBM Development Package for Eclipse](http://www.ibm.com/developerworks/java/jdk/) from ibm.com.
+**Before you begin**: Rational Team Concert 5.0 and later require Eclipse 4.3.2, and Eclipse requires Java 1.7.  
+**Note**: If you do not have Eclipse installed and want tools for Java development, download and install the [Java EE IDE for Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2) from eclipse.org.
 
 1. In Eclipse, click **Help > Install New Software**
 
@@ -139,7 +138,7 @@ and install the [IBM Development Package for Eclipse](http://www.ibm.com/develop
 1. In Eclipse, click **Window > Show View > Other > Team Artifacts**.
 
 2. Click the **Manage JazzHub Projects** icon.
-![Manage JazzHub Projects button within the Team Artifacts View](/tutorials/clients/images/jazzhubfeature.png)
+![Manage JazzHub Projects button within the Team Artifacts View](./images/jazzhubfeature.png)
 
 3. In the **Manage JazzHub Projects** window, enter your Jazz ID and IBM id password to sign in to DevOps Services, and click **Next**
 
@@ -152,7 +151,7 @@ or send an [email][19].
 
 For more information or to try a tutorial, [see the IBM DevOps Services Docs page][20].
 
-� Copyright IBM Corporation 2013, 2014.
+© Copyright IBM Corporation 2013, 2014.
 
 [18]: https://www.ibmdw.net/answers?community=Devops_services (DevOps Services forum)
 [19]: mailto:hub%40jazz.net

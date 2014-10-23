@@ -1,6 +1,6 @@
 # Working locally with IBM DevOps Services projects and Jazz source control
 
-If you selected Jazz Source Control Management for your IBM&reg; DevOps Services project you can complete work locally or by using the integrated Web IDE. If you work in Eclipse, you can install the Rational Team Concert plug-in for version control.
+If you use Jazz Source Control Management for your IBM&reg; DevOps Services project you can complete work locally or by using the integrated Web IDE. If you work in Eclipse, you can install the Rational Team Concert plug-in for version control.
 
 If you use the Track & Plan feature to manage your project plans and work items, you can also access your work items from Eclipse if you install the the Rational Team Concert plug-in.
 
@@ -9,15 +9,15 @@ If you use the Track & Plan feature to manage your project plans and work items,
 
  * [Install Eclipse and the Rational Team Concert plug-in](#install_eclipse_and_the_rational_team_concert_plugin)
  * [Connect to your DevOps Services projects from Eclipse](#connect_to_your_devops_services_projects_from_eclipse)
- * [Load code into Eclipse from Jazz SCM](#import_code_into_eclipse_from_jazz_source_control)
+ * [Import code into Eclipse from Jazz source control](#import_code_into_eclipse_from_jazz_source_control)
 
 
 <a name='install_eclipse_and_the_rational_team_concert_plugin'></a>
 ## Install Eclipse and the Rational Team Concert plug-in
 ---
 
-**Before you begin**: Rational Team Concert 5.0 and later require Eclipse 4.3.2. If you do not have Eclipse installed, download 
-and install the [IBM Development Package for Eclipse](http://www.ibm.com/developerworks/java/jdk/) from ibm.com.
+**Before you begin**: Rational Team Concert 5.0 and later require Eclipse 4.3.2, and Eclipse requires Java 1.7.  
+**Note**: If you do not have Eclipse installed and want tools for Java development, download and install the [Java EE IDE for Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2) from eclipse.org.
 
 1. In Eclipse, click **Help > Install New Software**
 
@@ -51,7 +51,7 @@ Option 1: Use the Manage JazzHub Projects tool
 1. In Eclipse, click **Window > Show View > Other > Team Artifacts**.
 
 2. Click the **Manage JazzHub Projects** icon.
-![Manage JazzHub Projects button within the Team Artifacts View](/tutorials/clients/images/jazzhubfeature.png)
+![Manage JazzHub Projects button within the Team Artifacts View](./images/jazzhubfeature.png)
 
 3. In the **Manage JazzHub Projects** window, enter your Jazz ID and IBM id password to sign in to DevOps Services, and click **Next**
 
@@ -103,7 +103,7 @@ or send an [email][19].
 
 For more information or to try a tutorial, [see the IBM DevOps Services Docs page][20].
 
-� Copyright IBM Corporation 2013, 2014.
+© Copyright IBM Corporation 2013, 2014.
 
 [18]: https://www.ibmdw.net/answers?community=Devops_services (DevOps Services forum)
 [19]: mailto:hub%40jazz.net

@@ -1,4 +1,4 @@
-#Git quick reference
+#Git reference
 
 If you store your code in a Git repository that is hosted by IBM&reg; DevOps Services, you have options for working with code. If you want to work on a local machine, you can use Git terminal commands to manipulate the contents of your hosted repository. If you want to use the web IDE, you never have to use the Git terminal: you can perform many common Git commands in the web IDE.  
 

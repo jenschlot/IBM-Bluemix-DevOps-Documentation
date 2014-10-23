@@ -1,4 +1,7 @@
-###Reference: [Git](/docs/reference/git)
+###Reference: [Git reference](/docs/reference/git)
+<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  git
+
+###Reference: [Working locally with IBM DevOps Services projects and Git source control](/docs/reference/gitclient)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  git
 
 ### Tutorial: [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/jazzeditor)  
@@ -9,9 +12,6 @@
 
 ### Tutorial: [Developing BlueMix applications in Node.js with the Web IDE](/tutorials/jazzweb)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, nodejs, webide, devops_services, git, pipeline, manifest
-
-### Tutorial: [Setting up Eclipse, Git, and Rational Team Concert desktop clients to access IBM DevOps Services](/tutorials/clients)  
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> devops_services, eclipse, git, rtc, jazz_scm
 
 ### Article: [Jump-start your hackathon efforts with DevOps Services and Bluemix](http://www.ibm.com/developerworks/cloud/library/cl-hackathon-app/index.html)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
 Last updated: 29 June 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> devops_services, bluemix, mongodb, nodejs, pipeline, jade, git, webide
