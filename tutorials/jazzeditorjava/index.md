@@ -64,7 +64,7 @@ Success! You've created a Git repo, loaded it with the example code, and deploye
 
 There's just one more thing to do before moving on to DevOps Services: you need to enable the Delivery Pipeline Service in Bluemix. This will allow you to experience some of the fancier automated build and deployment capabilities later on. To do so:
 
-1. Click **CONNECT A SERVICE** from your new app's overview.
+1. Click **ADD A SERVICE** from your new app's overview.
 2. Choose **Delivery Pipeline** in the *DevOps* category. 
 3. Don't worry about *Space* or *App*. Just click **CREATE**.
 
