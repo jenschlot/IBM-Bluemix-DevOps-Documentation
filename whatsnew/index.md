@@ -1,5 +1,19 @@
 ## What's New
 
+### October 24, 2014
+
+## Docs page 
+
+The **Docs** page makes all documentation about IBM DevOps Services available in one central location. 
+
+At a glance you can learn all about DevOps Services and how to integrate with IBM Bluemix. We have tutorials, references, resources listed by topic, and even this "What's New" page conveniently organized on one page. The resources by topic include all kinds of valuable information written and recorded by members of our DevOps Services community.
+
+You can reach the home page from the **Help** menu on all DevOps Services pages.
+![Help menu with link to Doc page][67]
+
+We add new information to the topics pages regularly, so check back often.
+
+
 ### October 2, 2014
 
 ## Track & Plan Beta
@@ -745,3 +759,4 @@ Cheers!
 [64]: /whatsnew/images/myactivities.png
 [65]: /whatsnew/images/childtaskboard.png
 [66]: /whatsnew/images/childtaskbreakdown.png
+[67]: /whatsnew/images/doc_landing_menu.png
