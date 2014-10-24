@@ -62,13 +62,13 @@ Success! You've created a Git repo, loaded it with the example code, and deploye
 
 ![Git repo success message dialog][14]
 
-There's just one more thing to do before moving on to DevOps Services: you need to enable the Delivery Pipeline Add-On in Bluemix. This will allow you to experience some of the fancier automated build and deployment capabilities later on. To do so:
+There's just one more thing to do before moving on to DevOps Services: you need to enable the Delivery Pipeline Service in Bluemix. This will allow you to experience some of the fancier automated build and deployment capabilities later on. To do so:
 
-1. Click **CONNECT AN ADD-ON** from your new app's overview.
+1. Click **CONNECT A SERVICE** from your new app's overview.
 2. Choose **Delivery Pipeline** in the *DevOps* category. 
 3. Don't worry about *Space* or *App*. Just click **CREATE**.
 
-The Delivery Pipeline Add-On will be added to your Bluemix space, ready to spring into action as you need it later.  
+The Delivery Pipeline Service will be added to your Bluemix space, ready to spring into action as you need it later.  
 
 What if you want to see the app's code, now, or configure how it deploys? You'll need IBM DevOps Services for that. Return to the dashboard, click on your app's panel to open its overview, and then click **EDIT CODE**.
 
@@ -151,7 +151,7 @@ For this tutorial, you only configure a single deployment stage, but if you want
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/5jdKL8VZgP0?rel=0" frameborder="0" allowfullscreen></iframe> 
 
-Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 60 minutes of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service or Add-On, visit the [Bluemix pricing page](https://bluemix.net/#/pricing).
+Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 60 minutes of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service, visit the [Bluemix pricing page](https://bluemix.net/#/pricing).
 
 ---
 ##Push changes to the Git repository by using the command line
