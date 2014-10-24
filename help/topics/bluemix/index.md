@@ -138,7 +138,7 @@ Last updated: 23 September 2014 <img src="../all/images/tag.png"  align="bottom"
 
 ### Workshop: [Intro to Bluemix and DevOps Services, Part 2: Deploy an app that uses a Bluemix service](http://www.ibm.com/developerworks/cloud/library/cl-intro2-app/index.html)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> 
 Last updated: 23 September 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, pipeline, mongodb
- 
+
 ### Workshop: [Intro to Bluemix and DevOps Services, Part 3: Plan, track, and take advantage of new Bluemix services](http://www.ibm.com/developerworks/cloud/library/cl-intro3-app/index.html)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> 
 Last updated: 23 September 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, plan, track, twilio, webide
 
