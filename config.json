@@ -93,7 +93,7 @@
 			"uri_prefix": "/docs/reference/gitclient",
 			"section_name": "How to",
 			"parent_name": "Git",
-			"parent_uri": "/docs/jazz_scm",
+			"parent_uri": "/docs/git",
 			"resource_name": "Client reference",
 			"img_icon": "git-qr",
 			"directory": "/help/howto/gitclient"
