@@ -30,7 +30,7 @@ app.set('port', port)				// Store configuration in the app for later retrieval.
    .use(require('morgan')('dev')); 		// Log requests.
 
 
-app.get(['/tutorials', '/tutorials/landing'], function(req, res){
+app.get(['/tutorials', '/tutorials/landing', '/docs/reference'], function(req, res){
   res.redirect('/docs');
 });
 
@@ -72,6 +72,23 @@ _.each(
 					      resource.resource_name, 
 					      resource.img_icon,
 					      path.join(__dirname, resource.directory)
+			)
+		);
+	}
+);
+
+_.each(
+	config.reference,
+	function (reference) {
+		app.use(
+			reference.uri_prefix, 
+			routes.reference_router(app.get('env'), 
+					      reference.section_name,
+					      reference.resource_name,
+					      reference.parent_name, 
+					      reference.parent_uri, 
+					      reference.img_icon,
+					      path.join(__dirname, reference.directory)
 			)
 		);
 	}

@@ -45,7 +45,7 @@
 							<a class="section" href="/tutorials/clients">
 							<div class="col-md-7 col-sm-9 col-xs-9 callout" id="3">
 								<p class="description">
-									<strong>Setting up</strong> Eclipse, Git, and Rational Team Concert <strong>Desktop Clients</strong> to access IBM DevOps Services
+									<strong>Working locally</strong> with IBM DevOps Services projects
 								</p>
 							</div>
 							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
@@ -158,11 +158,44 @@
 
 			</div>
 		</div>
+<!-- not going to have a visible qr section, but do have quick reference pages 
+	<div class="clearfix"></div>
+	<div class="row pts pbl" id="quick-reference">
+			<h2 class="pbs plm" >Quick References</h2>
+			<div class="clearfix"></div>
+			<div class="col-md-12 col-sm-12 col-xs-9">
+				<div id="topics-grid" class="col-md-12 col-sm-12 col-xs-12 text-center">
+						<div class="reference-container">
+							<a class="reference-section" href="/docs/reference/accounts">
+								<div class="reference-img col-center"><span class="accounts-qr"></span></div>
+								<div class="reference-name col-center"></br>Accounts</div>
 
-		<div class="clearfix"></div>
+							</a>
+						</div>	
+						<div class="reference-container">
+							<a class="reference-section" href="/docs/reference/git">
+								<div class="reference-img col-center"><span class="git-qr"></span></div>
+								<div class="reference-name col-center"></br>Git</div>
+
+							</a>
+						</div>
+						<div class="reference-container">
+							<a class="reference-section" href="/docs/reference/deploy">
+								<div class="reference-img col-center"><span class="build-deploy-qr"></span></div>
+								<div class="reference-name col-center"></br>Build and Deploy</div>
+
+							</a>
+						</div>	
+					
+				</div>
+
+			</div>
+		</div>
+-->
+	<div class="clearfix"></div>
 
 		<div class="row pts pbl" id="topics">
-			<h2 class="pbs plm text-left" >Topics <a role="button" href="/docs/all" class="mll btn btn-dark btn-sm">All Docs</a></h2>
+			<h2 class="pbs plm text-left" >Resources by topic <a role="button" href="/docs/all" class="mll btn btn-dark btn-sm">All Resources</a></h2>
 				<div class="row">
 					<div id="topics-grid" class="col-md-12 col-sm-12 col-xs-9 text-center">
 						<div class="topic-container">
