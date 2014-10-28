@@ -15,7 +15,7 @@ The topics pages are regularly updated, so check them often.
 
 ### New tutorial
 
- * Try the new tutorial, [Developing by using Git in the IBM DevOps Services web IDE.](https://hub.jazz.net/tutorials/gitweb)
+ * Try the new tutorial, [Developing with Git in the IBM DevOps Services web IDE.](https://hub.jazz.net/tutorials/gitweb)
 
 ### New reference pages 
 
