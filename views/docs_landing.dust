@@ -28,7 +28,7 @@
 							<a class="section" href="/tutorials/jazzweb">
 							<div class="col-md-7 col-sm-9 col-xs-9 callout" id="2">
 								<p class="description">
-									<strong>Developing</strong> IBM Bluemix applications in Node.js <strong>with the Web IDE</strong>
+									<strong>Developing</strong> IBM Bluemix applications in Node.js <strong>with the web IDE</strong>
 								</p>
 							</div>
 							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
@@ -42,17 +42,17 @@
 							</a>
 						</div>
 						<div class="row" id="doc-container-l">
-							<a class="section" href="/tutorials/clients">
+							<a class="section" href="/tutorials/gitweb">
 							<div class="col-md-7 col-sm-9 col-xs-9 callout" id="3">
 								<p class="description">
-									<strong>Working locally</strong> with IBM DevOps Services projects
+									<strong>Developing with Git</strong> in the IBM DevOps Services web IDE
 								</p>
 							</div>
 							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
 							<div class="col-md-3 hidden-xs col-sm-2 hex-container">
 								<div class="hex">
 									<span class="hex-jazzhub pos-0"></span>
-									<span class="hex-mobile pos-1"></span>
+									<span class="hex-git pos-1"></span>
 								</div>
 							</div>
 							</a>

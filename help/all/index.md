@@ -31,8 +31,8 @@
 ### Tutorial: [Getting started with tracking and planning in IBM DevOps Services](/tutorials/trackplan)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> plan, track
 
-### Tutorial: [Setting up Eclipse, Git, and Rational Team Concert desktop clients to access IBM DevOps Services](/tutorials/clients)
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> eclipse, git, rtc, jazz_scm
+### Tutorial: [Developing with Git in the IBM DevOps Services web IDE](/tutorials/gitweb)
+<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> git, webide
 
 ### Tutorial: [Developing BlueMix applications in Node.js with the Web IDE](/tutorials/jazzweb)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, nodejs, webide, git, pipeline, manifest
