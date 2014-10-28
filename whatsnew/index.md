@@ -4,24 +4,24 @@
 
 ## Docs page 
 
-The **Docs** page makes all documentation about IBM&reg; DevOps Services available in one central location. 
+The Docs page contains all of the documentation about IBM&reg; DevOps Services. Think of it as the starting point for learning about DevOps Services and how to integrate with IBM Bluemix&trade;. 
 
-At a glance you can learn all about DevOps Services and how to integrate with IBM Bluemix. We have tutorials, references, resources listed by topic, and even this "What's New" page conveniently organized on one page. The resources by topic include all kinds of valuable information created by members of our DevOps Services community.
+On one page, you can find the tutorials, references, resources listed by topic, and even this "What's New" information. The resources by topic include valuable content from the members of the DevOps Services community.
 
-You can reach the home page from the **Help** menu on all DevOps Services pages.
+You can reach the home page from any DevOps Services page by clicking the  **Help** menu.
 ![Help menu with link to Doc page][67]
 
-We add new information to the topics pages regularly, so check back often.
+The topics pages are regularly updated, so check them often.
 
-### New tutorial available
+### New tutorial
 
- * [Developing by using Git in the IBM DevOps Services web IDE](https://hub.jazz.net/tutorials/gitweb)
+ * Try the new tutorial, [Developing by using Git in the IBM DevOps Services web IDE.](https://hub.jazz.net/tutorials/gitweb)
 
-### New reference pages available
+### New reference pages 
 
- * [Learn how to configure a local client](https://hub.jazz.net/docs/reference/gitclient/) if you use a Git repository for your DevOps Services project.
- * [Learn how to configure a local client](https://hub.jazz.net/docs/reference/jazz_scm_client/) if you use Jazz Source Control Management for your DevOps Services project.
- * [Learn how to do common tasks in the web IDE](https://hub.jazz.net/docs/reference/git/) if you use a Git repository for your DevOps Services project. 
+ * If you use a Git repository for your DevOps Services project, [learn how to configure a local client.](https://hub.jazz.net/docs/reference/gitclient/)
+ * If you use Jazz source control management for your DevOps Services project, [learn how to configure a local client.](https://hub.jazz.net/docs/reference/jazz_scm_client/) 
+ * If you use a Git repository for your DevOps Services project, [learn how to do common tasks in the web IDE.](https://hub.jazz.net/docs/reference/git/)
 
 ### October 2, 2014
 
