@@ -13,6 +13,10 @@ You can reach the home page from the **Help** menu on all DevOps Services pages.
 
 We add new information to the topics pages regularly, so check back often.
 
+### New tutorial available
+
+ * [Developing by using Git in the IBM DevOps Services web IDE](https://hub.jazz.net/tutorials/gitweb)
+
 ### New reference pages available
 
  * [Learn how to configure a local client](https://hub.jazz.net/docs/reference/gitclient/) if you use a Git repository for your DevOps Services project.
