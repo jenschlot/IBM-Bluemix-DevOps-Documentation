@@ -1,8 +1,10 @@
 #Git reference
 
-Last modified: 23 October 2014
+Last modified: 28 October 2014
 
-If you store your code in a Git repository that is hosted by IBM&reg; DevOps Services, you have options for working with code. If you want to work on a local machine, you can use Git terminal commands to manipulate the contents of your hosted repository. If you want to use the web IDE, you never have to use the Git terminal: you can perform many common Git commands in the web IDE.  
+If you store your code in a Git repository that is hosted by IBM&reg; DevOps Services, you have options for working with code. If you want to work on a local machine, you can use Git terminal commands to manipulate the contents of your hosted repository. If you want to use the web integrated development environment (IDE), you never have to use the Git terminal: you can perform many common Git commands in the web IDE.  
+
+To access Git commands from within the web IDE, click the Git Repository icon (<img src="./images/gitrepository.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">).
 
 No matter where you like to code, use this quick reference to do common tasks.
 
@@ -17,7 +19,7 @@ No matter where you like to code, use this quick reference to do common tasks.
 * [Update a local branch with changes from the remote branch](#update_a_local_branch_with_changes_from_the_remote_branch)
 
 ##[Commits](#commits)
-* [Commit files to the active branch](#commit_files_to_the_active_branch)
+* [Commit files and push to the remote branch](#commit_files_to_the_remote_branch)
 * [View the commit history](#view_the_commit_history)
 * [Compare changes that a commit introduced](#compare_changes_that_a_commit_introduced)
 * [Modify the last commit](#modify_the_last_commit)
@@ -139,8 +141,8 @@ and repeat the steps by using a modified repository address: https://your_jazz_i
 ##Commits
 
 ---
-<a name="commit_files_to_the_active_branch"></a>
-### Commit files to the active branch
+<a name="commit_files_to_the_remote_branch"></a>
+### Commit files and push to the remote branch
 
 #### DevOps Services web IDE
 2. In the Working Directory Changes pane, select the check box for each file to commit.
@@ -149,6 +151,8 @@ and repeat the steps by using a modified repository address: https://your_jazz_i
 **Tip**: Describe your changes well in the commit message.
 
 4. Click **COMMIT**.
+
+5. Click **PUSH**.
 
 #### Git terminal
 1. Type `git status` and press Enter.
@@ -279,7 +283,9 @@ To update your name and email address for all repositories
 
 1. On the Active Branch panel, in the Incoming pane, click **Merge**.
 
-2. [Checkout](#start_working_on_a_local_branch) the destination branch again.
+1. Click the **REFERENCE** field.
+
+1. Expand the **>** by origin and click the name of the source branch.
 
 1. Click **PUSH**.
 
@@ -343,7 +349,9 @@ Text in merged branch.
 
 6. Repeat the previous step as many times as necessary to complete the rebase operation.
 
-2. [Checkout](#start_working_on_a_local_branch) the destination branch again.
+1. Click the **REFERENCE** field.
+
+1. Expand the **>** by origin and click the name of the source branch.
 
 1. Click **PUSH**.
 
