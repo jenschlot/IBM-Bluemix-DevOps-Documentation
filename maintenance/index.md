@@ -9,18 +9,18 @@ The duration of these outage windows is variable depending upon what needs to be
 
 | Date       | Day      | Time                | Duration |
 |------------|----------|---------------------|----------|
-| 10/01/2014 | Wednesday | 7:00 - 11:00PM EDT  | Possible intermittent disruptions   |
-| 10/02/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
-| 10/04/2014 | Saturday | CANCELLED  | CANCELLED   |
-| 10/07/2014 | Tuesday  | **10:00 - 11:00PM EDT**  | 1 hour   |
-| 10/09/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
-| 10/11/2014 | Saturday | CANCELLED  | CANCELLED   |
-| 10/14/2014 | Tuesday  | CANCELLED  | CANCELLED   |
-| 10/16/2014 | Thursday | CANCELLED  | CANCELLED   |
-| 10/18/2014 | Saturday | CANCELLED  | CANCELLED    |
-| 10/21/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
-| 10/23/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
-| 10/26/2014 | Sunday   | 7:00 - 08:00AM EDT  | 1 hour   |
-| 10/28/2014 | Tuesday  |CANCELLED   | CANCELLED  |
-| 10/30/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 11/01/2014 | Saturday | CANCELLED           |CANCELLED |
+| 11/04/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
+| 11/06/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 11/08/2014 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
+| 11/11/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
+| 11/13/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 11/16/2014 | Sunday   | 9:00 - 10:00AM EDT  | 1 hour   |
+| 11/18/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
+| 11/20/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 11/23/2014 | Sunday   | 9:00 - 10:00AM EDT  | 1 hour   |
+| 11/25/2104 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
+| 11/27/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 11/29/2014 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
+ 
 
