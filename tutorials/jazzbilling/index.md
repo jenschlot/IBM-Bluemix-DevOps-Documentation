@@ -69,10 +69,9 @@ To enable your account for billing, complete these steps:
 
 You can monitor your Bluemix account by viewing your usage details. For information, see [billing and usage](https://www.ng.bluemix.net/docs/#acctmgmt/index-gentopic1.html#bil_usage) documentation and determine costs by visiting the [Bluemix pricing page](https://bluemix.net/#/pricing).
 
-The Delivery Pipeline and Track & Plan services use metered pricing, where you pay based on consumption, but they also include a free monthly allowance. You can find more information about pricing from the DevOps section of the 
-[Bluemix Pricing page](https://bluemix.net/#/pricing).
+The Delivery Pipeline and Track & Plan services use metered pricing, where you pay based on consumption, but they also include a free monthly allowance.
 
-To help you monitor monthly usage, see the cost estimator on the [Bluemix Pricing page](https://bluemix.net/#/pricing).
+To help you monitor monthly usage, see the [cost estimator](https://ace.ng.bluemix.net/#/pricing/paneId=pricingSheet) on the Bluemix Pricing page.
 
 To see your usage details go to **Profile Settings > Account > Usage Details**.
 
