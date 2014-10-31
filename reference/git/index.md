@@ -4,7 +4,7 @@ Last modified: 28 October 2014
 
 If you store your code in a Git repository that is hosted by IBM&reg; DevOps Services, you have options for working with code. If you want to work on a local machine, you can use Git terminal commands to manipulate the contents of your hosted repository. If you want to use the web integrated development environment (IDE), you never have to use the Git terminal: you can perform many common Git commands in the web IDE.  
 
-To access Git commands from within the web IDE, click the Git Repository icon (<img src="./images/gitrepository.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">).
+To access Git commands from within the web IDE, click the Git Repository icon (<img src="./images/gitrepository.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">).
 
 No matter where you like to code, use this quick reference to do common tasks.
 
@@ -45,7 +45,7 @@ No matter where you like to code, use this quick reference to do common tasks.
 #### DevOps Services web IDE
 When you use a hosted Git repository with your DevOps Services project, you work with both your local and remote repositories through the web IDE.
 
-1. Click **EDIT CODE** (<img src="./images/editcode.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and start working.
+1. Click **EDIT CODE** (<img src="./images/editcode.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">) and start working.
 
 #### Git terminal
 If you want to code and test on a local machine, set up a local repository.
@@ -97,7 +97,7 @@ and repeat the steps by using a modified repository address: https://your_jazz_i
 
 1. Next to local, click **>**.
 
-2. Next to the branch to modify, click **Checkout** (<img src="./images/checkout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">).
+2. Next to the branch to modify, click **Checkout** (<img src="./images/checkout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">).
 
 1. Confirm that the contents of the REFERENCE field contain your selected branch.
 
@@ -117,7 +117,7 @@ and repeat the steps by using a modified repository address: https://your_jazz_i
 
 1. Next to local, click **>**.
 
-2. Next to the local branch to remove, click **Delete** (<img src="./images/delete.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">).
+2. Next to the local branch to remove, click **Delete** (<img src="./images/delete.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">).
 
 ####Git terminal
 1. Type `git branch -d <branchname>` and press Enter.
@@ -234,7 +234,7 @@ and repeat the steps by using a modified repository address: https://your_jazz_i
 
 2. View the details of the commit by clicking it.
 
-2. In the commit pane, click **Create a tag for the commit** (<img src="./images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) .
+2. In the commit pane, click **Create a tag for the commit** (<img src="./images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">) .
 
 3. In the name field, type your tag text; then, click **Submit**.
 
@@ -343,7 +343,7 @@ Text in merged branch.
 
 1. Click the name of the source branch.
 
-1. In the Active Branch panel, in the Incoming pane, click **Rebase** (<img src="./images/rebase.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) .
+1. In the Active Branch panel, in the Incoming pane, click **Rebase** (<img src="./images/rebase.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">) .
 
 5. If you encounter conflicts, [resolve](#resolve_a_rebase_conflict) them.
 
