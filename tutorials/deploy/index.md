@@ -10,7 +10,7 @@ Through integration with IBM® Bluemix™, IBM DevOps Services provides multiple
 * [Manifests](#manifests)
 
 ##[Pipeline](#pipeline)
-* [The Delivery Pipeline Add-On](#addon)
+* [Bluemix and the Delivery Pipeline Service](#service)
 * [Multistage deployment](#multi)
 
 <!--
@@ -34,7 +34,7 @@ Whether you're using command line tools or the Web IDE, they can be an effective
 ##Auto-deployment
 
 ###How it works
-Whether you're using Simple or Advanced deployment modes, deployments are triggered when changes are delivered to a project. The difference between the two modes is that Simple doesn't have a build stage, which means that compiled languages like Java won't work with it. If you need automatic building *and* deployment, use Advanced, instead: changes trigger builds automatically, and successful builds are automatically deployed. 
+Whether you're using Simple or Advanced deployment modes, builds and deployments are triggered when changes are pushed or delivered to a project's source control repository. Simple is different from Advanced in that it doesn't have a build stage, which means that compiled languages like Java won't work with it, and that it can only have one deployment target, whereas Advanced can have many. If you need automatic building *and* deployment, or want to deploy to multiple spaces, use Advanced rather than Simple. 
 
 In Advanced mode, you can disable automatic builds that run when changes are pushed to your project. To disable automatic builds, clear the **Automatically build when a change is delivered/pushed** check box when you configure a build stage. You could then manually request builds and then deploy from the build history page by dragging a successful build into the box under a configured space, or by clicking the cloud icon beside a build and then selecting a space under **Deploy to**.
 
@@ -43,7 +43,7 @@ In Advanced mode, you can disable automatic builds that run when changes are pus
 
 Manifest files (named `manifest.yml` in a project's root directory) control how your project is deployed to Bluemix. As Bluemix is based on Cloud Foundry, see the [Cloud Foundry manifest documentation][2] for detailed information on creating manifest files for your projects.  
 
-The presence of a manifest file in a project's root directory is required for integration with Bluemix, but actually deploying based on the information in the file is optional. Everything in a manifest can also be specified `cf push` command arguments. To learn about these arguments, see the [Cloud Foundry Push documentation][3]. To use them, modify the *Script* field in a deployer stage's configuration menu while in Advanced deployment mode.
+The presence of a manifest file in a project's root directory is required for integration with Bluemix, but actually deploying based on the information in the file is optional. Everything in a manifest can also be specified by `cf push` command arguments. To learn about these arguments, see the [Cloud Foundry Push documentation][3]. To use them, modify the *Script* field in a deployer stage's configuration menu while in Advanced deployment mode.
 
 As an example, the hostname argument, `-n`, allows you to specify a route with `cf push`. This is especially useful in projects that use multiple deployment stages: if the stages all attempt to use the same route (as specified in the project manifest), there will be a conflict. Modifying the deployment script for individual stages allows you to avoid this without needing to worry about the manifest.   
 
@@ -53,12 +53,10 @@ As an example, the hostname argument, `-n`, allows you to specify a route with `
 
 Advanced deployment mode uses Pipeline to build and deploy your project.
 
-<a name="addon"></a>
-###The Delivery Pipeline Add-On
+<a name="service"></a>
+###Bluemix and the Delivery Pipeline Service
 
-Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. A project is granted 60 minutes of free build time per month, as well as the first 2 application instances (deployers) free per month. 
-
-To use DevOps Services' Build and Deploy capabilities beyond these limits, add the Delivery Pipeline Add-on to your Bluemix spaces. For more information, see [Getting started with IBM Continuous Delivery Pipeline for Bluemix][3].
+Making the most of Pipeline's integration with Bluemix requires that you add the Delivery Pipeline service to your targeted Bluemix spaces. For more information on the service, see [Getting started with IBM Continuous Delivery Pipeline for Bluemix][3]. For more information on charging and Pipeline, see the [DevOps Services Accounts document][4].
 
 <a name="multi"></a>
 ###Multistage deployment
@@ -80,3 +78,4 @@ By default, a deployment will automatically be initiated every time a build comp
 [1]: http://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html
 [2]: https://www.ng.bluemix.net/docs/#services/DeliveryPipeline/index.html#getstartwithCD
 [3]: http://docs.cloudfoundry.org/devguide/installcf/whats-new-v6.html#push
+[4]: #
