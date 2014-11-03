@@ -5,7 +5,7 @@ As we continue to improve IBM DevOps Services, we will occasionally be required 
 The duration of these outage windows is variable depending upon what needs to be done,  however for planning purposes the schedule below represents the maximum outage time expected during a given window.
 
 
-## October 2014
+## November 2014
 
 | Date       | Day      | Time                | Duration |
 |------------|----------|---------------------|----------|

@@ -1,6 +1,8 @@
 
 #Getting started with tracking and planning in IBM DevOps Services
 
+Last modified: 20 October 2014
+
 The Track & Plan Beta feature in IBM&reg; DevOps Services offers an easy way to manage any type of project by using an agile approach. After you enable the Track & Plan feature, you can start getting organized right away by creating and assigning work items for your project.
 
 The tools in the Track & Plan feature can simplify your project planning and speed your workflow. For example, you can drag items from one project phase to another, like from your project backlog to a sprint. You can also use the keyboard shortcuts or easy access icons to quickly assign work item attributes.
