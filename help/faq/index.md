@@ -1,5 +1,5 @@
 # FAQs
-##### Updated on August 28, 2014
+##### Last modified: 28 August 2014
 
 Can't find the answer to your question here? [Check out our DevOps Services Forum](https://developer.ibm.com/answers/questions/?community=devops-services).
 ____
