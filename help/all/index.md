@@ -1,4 +1,4 @@
-### [General](#gen) | [Tutorials](#tut) | [Reference](#ref) | [Articles](#articles) | [Blogs](#blogs) | [Samples](#samples) | [Features at a Glance](#features) | [Videos](#videos) | [Workshops](#workshops)
+### [General](#gen) | [Tutorials](#tut) | [Reference](#ref) | [Articles](#articles) | [Blogs](#blogs) | [Samples](#samples) | [Videos](#videos) | [Workshops](#workshops)
 
 <a id="gen"></a>
 
@@ -54,6 +54,10 @@
 
 ###Reference: [Working locally with IBM DevOps Services projects and Jazz source control](/docs/reference/jazz_scm_client)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  jazz_scm
+
+###Reference: [Explore the Track & Plan Beta feature](../../docs/trackplan/trackplanfg)
+<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> plan, track
+
 
 <a id="articles"></a>
 
@@ -139,14 +143,6 @@ Last updated: 26 January 2014 <img src="../all/images/tag.png"  align="bottom" s
 
 ### Blogger: [Takehiko Amano's Blog on Emerging Technologies.](http://amanoblog.wordpress.com/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> devops_services
-
-<a id="features"></a>
-_____________________________
-## Features at a glance
-
-
-### [Explore the Track & Plan Beta feature](../../docs/trackplan/trackplanfg)
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> plan, track
 
 <a id="samples"></a>
 ___________

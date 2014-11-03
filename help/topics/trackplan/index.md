@@ -1,7 +1,7 @@
 ### Tutorial: [Getting started with tracking and planning in IBM DevOps Services](/tutorials/trackplan)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> plan, track
 
-### Feature at a Glance:  [Explore the Track & Plan Beta feature](../trackplan/trackplanfg)
+### Reference:  [Explore the Track & Plan Beta feature](../trackplan/trackplanfg)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> track, plan
 
 ### Article: [Develop apps in the cloud with DevOps Services](http://www.ibm.com/developerworks/library/d-bluemix-devops-services-project/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
