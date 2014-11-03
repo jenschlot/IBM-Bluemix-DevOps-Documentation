@@ -1,10 +1,3 @@
-Obvious questions:
-
-* Swap Pipeline and code editor sections?
-* Alt: just extend verification section
-* I really don't want this to ever become bloated, so I'm shy of including anything more than a little on concepts in any one section. I'd prefer to link out to reference topics when appropriate.
-
-
 # The Son of "Developing an IBM Bluemix application in Node.js with the Web IDE"
 
 
@@ -20,7 +13,7 @@ In this tutorial, you'll learn how to:
 
 To follow this tutorial, you'll need to have signed up for an [IBM id][30]. You'll also need a [Jazz ID][31], which you'll be prompted to create after you register for your IBM id. You should also be sure to [register for Bluemix][32].
 
-If it's not already present in your Bluemix space, you'll also need to add the *Delivery Pipeline* Add-on to it. To learn how, [click here][33]. 
+If it's not already present in your Bluemix space, you'll also need to add the *Delivery Pipeline* Service to it. To learn how, [click here][33]. 
 
 ---
 ## Start with a sample project
@@ -34,6 +27,8 @@ Before beginning, take a look at a live version of it [here][27]. You're going t
 3. Click **Fork**. A dialogue for saving your copy of the sample will appear.
 4. Enter whatever **Name** you like. Leave the project public, but make sure that the boxes for **Add features for Scrum development** and **Deploy to Bluemix** are checked. 
 5. Click **Save**. 
+
+[Create a copy of an existing project dialogue][3]
 
 In a moment, your copy of the sample Sentiment Analysis App project will open. If you ever need to find it again, look under **My Stuff**, which is on the navigation bar at the top of the page.
 
@@ -56,8 +51,14 @@ Next, you'll describe a task for yourself to personalize the Sentiment Analysis 
 3. Assign the task to yourself by adding `@:<Your Username>` after that.
 4. Finally, assign the task a high priority by typing `$high`. 
 5. Click **SAVE**. Your new task will appear in the *Open* panel under *Recently Created*.
+
+[Creating a new task item][4]
     
-Your project now has a single work item: it's a task for you to update the app's default search topic, and it needs to be done soon. To get going:
+Your project now has a single work item: it's a task for you to update the app's default search topic, and it needs to be done soon. 
+
+[A recently created work item][5]
+
+To get going:
 
 1. Click the **Status** icon on your task.
 2. Click **Start Working**. Your task will move from the *Open* panel to *In Progress*.
@@ -161,29 +162,11 @@ Interested in learning more about Bluemix and DevOps Services? Visit our [Docs p
 
 [1]: https://bluemix.net/ (Bluemix)
 [2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview
-[3]: /tutorials/jazzweb/images/forkbutton.png
-[4]: /tutorials/jazzweb/images/forknew.png
-[5]: /tutorials/jazzweb/images/simpledeployment.gif
-[6]: /tutorials/jazzweb/images/closesimple.gif
-[7]: /tutorials/jazzweb/images/stockapp.gif
-[8]: /tutorials/jazzweb/images/builder1.png
-[9]: /tutorials/jazzweb/images/deployscriptex.png
-[10]: /tutorials/jazzweb/images/click2blue.png
-[11]: https://bluemix.net
-[12]: /tutorials/jazzweb/images/startappbluemix.png
-[13]: /tutorials/jazzweb/images/autocompletesearch.gif
-[14]: /tutorials/jazzweb/images/staging.png
-[15]: /tutorials/jazzweb/images/commit.png
-[16]: /tutorials/jazzweb/images/pushing.png
-[17]: /tutorials/jazzweb/images/manifest.gif
-[18]: /tutorials/jazzweb/images/manualdeploy.png
-[19]: /tutorials/jazzweb/images/updatedapp.gif
-[20]: https://www.ibmdw.net/answers?community=jazzhub (forum)
+[3]: /tutorials/devopsweb/images/forking.png
+[4]: /tutorials/devopsweb/images/create_task.png
+[5]: /tutorials/devopsweb/images/recent_task.png
 [21]: mailto:hub%40jazz.net
-[22]: /tutorials/jazzweb/images/deployto.png
-[23]: /tutorials/jazzweb/images/request-build.png  
 [24]: http://docs.cloudfoundry.org/devguide/installcf/whats-new-v6.html
-[25]: /tutorials/jazzweb/images/config-to-delete.png
 [26]: https://www.ng.bluemix.net/docs/#services/DeliveryPipeline/index.html#getstartwithCD
 [27]: http://simplesentimentanalysis.mybluemix.net/
 [28]: https://www.ng.bluemix.net/docs/#manageapps/index.html#manageapps
