@@ -25,7 +25,7 @@ You can get your code on the web in multiple ways by using IBM DevOps Services, 
 
 In the web IDE, if you're in the directory that contains the `manifest.yml` file, you can manually deploy whatever you're developing in the web IDE to Bluemix. Remember: Only the current state of the code in the web IDE is deployed. If you use Auto-Deploy, it deploys what is checked into the project repository.
 
-You can configure the web IDE deploy and the Auto-Deploy to use different app names so that you can use the web ID deploy as a personal test environment and the Auto-Deploy as a team integration environment.
+You can configure the web IDE deploy and the Auto-Deploy to use different app names so that you can use the web IDE deploy tool as a personal test environment and the Auto-Deploy as a team integration environment.
 
 Both command-line tools and the web IDE are effective way to work when you are doing rapid, solo development, but many developers want the added security of auto-deploy control. By using auto-deploy, you know that the code that is running in the application matches a known state in the repository, instead of whatever was in your working directory when you you pushed.
 
