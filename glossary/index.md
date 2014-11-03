@@ -1,11 +1,23 @@
-Last modified: 15 September 2014
+Last modified: 31 October 2014
 
-[A](#A) | [B](#B) | [C](#C) | [D](#D) | [E](#E) | [F](#F) | [G](#G) | [I](#I) |
-[M](#M) | [N](#N) | [O](#O) | [P](#P) | [R](#R) | [S](#S) | [T](#T) | [U](#U) | [W](#W) | 
+This glossary provides terms and definitions for the IBM&reg; DevOps Services features.
 
+The following cross-references are used in this glossary: 
+* *See* refers you from a nonpreferred term to the preferred term or from an abbreviation to the spelled-out form. 
+* *See also* refers you to a related or contrasting term. 
+
+For other terms and definitions, see the [IBM Terminology website](http://www-01.ibm.com/software/globalization/terminology/d.html).
+
+For definitions of Git terms, see the [official Git Manual Page](https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html).
+
+---
+
+#[A](#A) | [B](#B) | [C](#C) | [D](#D) | [E](#E) | [F](#F) | [G](#G) | [I](#I) | [M](#M) | [N](#N) | [O](#O) | [P](#P) | [R](#R) | [S](#S) | [T](#T) | [U](#U) | [W](#W) | 
+
+---
 <a name="A"></a>
 ##A
-
+---
 <a name="adoption_item"></a>
 **adoption item**  
 A development work item that tracks when changes by one team must be adopted by another team.
@@ -40,8 +52,10 @@ to another location so that users can run or test it.
 2. To automatically retrieve and package build output, then move that output to another 
 location for users to run or test it.
 
+---
 <a name="B"></a>
 ##B
+---
 
 <a name="backlog"></a>
 **backlog**  
@@ -62,8 +76,10 @@ services for a particular domain.
 **builder**  
 A tool that builds and compiles code.
 
+---
 <a name="C"></a>
 ##C
+---
 
 <a name="CD"></a>
 **CD**  
@@ -76,13 +92,6 @@ A group of related changes to files, folders, or symbolic links in a workspace o
 <a name="CLI"></a>
 **CLI**  
 See [command-line interface](#command-line_interface).
-
-<a name="clone"></a>
-**clone**  
-1. In Git, a local copy of a repository, which can be edited offline, that is connected 
-to and can be synchronized with the original remote version.
-2. In Git, to create a local copy of a repository, which can be edited offline, that is 
-connected to and can be synchronized with the original remote version.
 
 <a name="code_completion"></a>
 **code completion**  
@@ -110,8 +119,10 @@ A software development practice that employs techniques such as continuous testi
 continuous integration, and continuous deployment so that new features and fixes are 
 packaged and deployed rapidly and at low risk to test environments and then to customers.
 
+---
 <a name="D"></a>
 ##D
+---
 
 <a name="dashboard"></a>
 **dashboard**  
@@ -131,8 +142,10 @@ the package to another location so it can be tested or run.
 **DevOps**  
 A software methodology that integrates application development and IT operations.
 
+---
 <a name="E"></a>
 ##E
+---
 
 <a name="eclipse"></a>
 **Eclipse**
@@ -144,29 +157,29 @@ developers with a standard platform for developing plug-compatible application d
 In agile development, a work item that defines a big use case with a large or unknown amount 
 of work, which is often completed over several sprints. Epics can be divided into stories.
 
+---
 <a name="F"></a>
 ##F
-
-<a name="fetch"></a>
-**fetch**  
-In Git, to retrieve changes from a repository without merging them.
+---
 
 <a name="fork"></a>
 **fork**  
-1. In Git, to create a divergent copy of a repository that can be modified without affecting 
-or having to synchronize with the original.
-2. In Git, a divergent copy of a repository that can be modified without affecting or having 
-to synchronize with the original.
+To create a project that contains a divergent copy of a repository that can be modified without
+affecting or having to synchronize with the original.
 
+---
 <a name="G"></a>
 ##G
+---
 
 <a name="git"></a>
 **Git**  
 An open source program for source control management.
 
+---
 <a name="I"></a>
 ##I
+---
 
 <a name="Iaas"></a>
 **IaaS**  
@@ -201,8 +214,10 @@ that are accessible from a single user interface.
 **iteration**  
 See [sprint](#sprint).
 
+---
 <a name="M"></a>
 ##M
+---
 
 <a name="mainfest_file"></a>
 **manifest file**  
@@ -219,8 +234,10 @@ branch.
 **milestone**  
 A significant event in a project or process that is used to determine progress toward goals.
 
+---
 <a name="O"></a>
 ##O
+---
 
 <a name="open_source"></a>
 **open source**  
@@ -229,8 +246,10 @@ source software is typically developed as a public collaboration and made freely
 although its use and redistribution might be subject to licensing restrictions. Linux is a 
 well known example of open source software.
 
+---
 <a name="P"></a>
 ##P
+---
 
 <a name="Paas"></a>
 **PaaS**  
@@ -251,16 +270,10 @@ order in which they are worked on.
 An organized collection used to group folders or packages. Projects are used for building, 
 version management, sharing, and organizing resources related to a single work effort.
 
-<a name="pull"></a>
-**pull**  
-In Git, to fetch and merge changes at the same time.
-
-<a name="push"></a>
-**push**  
-In Git, to send local, committed changes to a remote repository so that others can access them.
-
+---
 <a name="R"></a>
 ##R
+---
 
 <a name="repo"></a>
 **repo**  
@@ -288,8 +301,10 @@ improvements after a sprint.
 **runtime environment**  
 A set of resources that are used to run a program or process.
 
+---
 <a name="S"></a>
 ##S
+---
 
 <a name="Saas"></a>
 **SaaS**  
@@ -356,8 +371,10 @@ value of the overall product.
 A feature that parses code and attempts to interpret it before compilation in order to 
 discover syntax errors that might cause apps to not compile properly, then notifies the user.
 
+---
 <a name="T"></a>
 ##T
+---
 
 <a name="task"></a>
 **task**  
@@ -376,8 +393,10 @@ and process.
 **track build item**  
 A development work item that tracks required fixes after a failed build.
 
+---
 <a name="U"></a>
 ##U
+---
 
 <a name="user_sentiment"></a>
 **user sentiment**  
@@ -386,8 +405,10 @@ major application stores. The function crawls all ratings and reviews to generat
 cumulative mobile app score  that combines app quality, user satisfaction, and the overall 
 amount of positive and negative feedback that users provide.
 
+---
 <a name="W"></a>
 ##W
+---
 
 <a name="WAR"></a>
 **WAR**  
