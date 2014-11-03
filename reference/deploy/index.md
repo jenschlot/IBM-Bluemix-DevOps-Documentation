@@ -1,16 +1,16 @@
 #Build and Deploy quick reference
 
-Through integration with IBM® Bluemix™, IBM DevOps Services provides multiple ways for you to get your code onto the web.
+You can get your code on the web in multiple ways by using IBM DevOps Services, which integrates with IBM® Bluemix™.
 
 ---
 ##[Manual deployment](#manual)
 
 ##[Auto-deployment](#auto)
-* [How it works](#autohow)
+* [Overview](#autohow)
 * [Manifests](#manifests)
 
 ##[Pipeline](#pipeline)
-* [Bluemix and the Delivery Pipeline Service](#service)
+* [Bluemix and the Delivery Pipeline service](#service)
 * [Multistage deployment](#multi)
 
 <!--
@@ -23,48 +23,52 @@ Through integration with IBM® Bluemix™, IBM DevOps Services provides multiple
 <a name="manual"></a>
 ##Manual deployment 
 
-In the Web IDE, while you're in the directory that contains your `manifest.yml` file, you can use the **Deploy** button to manually deploy whatever you're developing in the Web IDE to Bluemix. It is important to remember that this only deploys the current state of your code *in the Web IDE*, while Auto-Deploy deploys from what is checked into the project repository.
+In the web IDE, if you're in the directory that contains the `manifest.yml` file, you can manually deploy whatever you're developing in the web IDE to Bluemix. Remember: Only the current state of the code in the web IDE is deployed. If you use Auto-Deploy, it deploys what is checked into the project repository.
 
-Optionally, you could configure the Web IDE deploy and the Auto-Deploy to use different app names so that you can use the Web ID deploy as a personal test environment and the Auto-Deploy as a team integration environment.
+You can configure the web IDE deploy and the Auto-Deploy to use different app names so that you can use the web ID deploy as a personal test environment and the Auto-Deploy as a team integration environment.
 
-Whether you're using command line tools or the Web IDE, they can be an effective way to work when you are doing rapid, solo development, but for many developers, the added security of having auto-deploy control what is being pushed is a better way to go. By using auto-deploy, you always know that the code running in the application matches some known state in the repository, instead of whatever happened to be in your working directory at the time you pushed.
+Both command-line tools and the web IDE are effective way to work when you are doing rapid, solo development, but many developers want the added security of auto-deploy control. By using auto-deploy, you know that the code that is running in the application matches a known state in the repository, instead of whatever was in your working directory when you you pushed.
 
 ---
 <a name="auto"></a>
 ##Auto-deployment
 
-###How it works
-Whether you're using Simple or Advanced deployment modes, builds and deployments are triggered when changes are pushed or delivered to a project's source control repository. Simple is different from Advanced in that it doesn't have a build stage, which means that compiled languages like Java won't work with it, and that it can only have one deployment target, whereas Advanced can have many. If you need automatic building *and* deployment, or want to deploy to multiple spaces, use Advanced rather than Simple. 
+###Overview
+Whether you use Simple or Advanced deployment modes, when changes are pushed to a project's source control repository, builds and deployments are triggered. Simple mode differs from Advanced in that Simple doesn't have a build stage. As a result, compiled languages like Java won't work with Simple mode, and it can have only one deployment target. Advanced mode can have many deployment targets. If you need automatic building deployment, or if you want to deploy to multiple spaces, use Advanced mode rather than Simple. 
 
-In Advanced mode, you can disable automatic builds that run when changes are pushed to your project. To disable automatic builds, clear the **Automatically build when a change is delivered/pushed** check box when you configure a build stage. You could then manually request builds and then deploy from the build history page by dragging a successful build into the box under a configured space, or by clicking the cloud icon beside a build and then selecting a space under **Deploy to**.
+In Advanced mode, you can disable automatic builds that run when changes are pushed to your project. To disable automatic builds, when you configure a build stage, clear the **Automatically build when a change is delivered/pushed**. You can then manually request builds and deploy from the build history page in one of two ways:
+
+* Drag a build to the box that is under a configured space.
+* Click the cloud icon that is next to a build and then select a space under the Deploy to heading.
 
 <a name="manifests"></a>
 ###Manifests
 
-Manifest files (named `manifest.yml` in a project's root directory) control how your project is deployed to Bluemix. As Bluemix is based on Cloud Foundry, see the [Cloud Foundry manifest documentation][2] for detailed information on creating manifest files for your projects.  
+Manifest files, which are named `manifest.yml` in a project's root directory, control how your project is deployed to Bluemix. For information about creating manifest files for a project, see the [Cloud Foundry manifest documentation][2]. Bluemix is based on Cloud Foundry.
 
-The presence of a manifest file in a project's root directory is required for integration with Bluemix, but actually deploying based on the information in the file is optional. Everything in a manifest can also be specified by `cf push` command arguments. To learn about these arguments, see the [Cloud Foundry Push documentation][3]. To use them, modify the *Script* field in a deployer stage's configuration menu while in Advanced deployment mode.
+To integrate with Bluemix, a project must contain a manifest file in its root directory. However, you are not required to deploy based on the information in the file. Everything in a manifest file can also be specified by `cf push` command arguments. To learn about the arguments, see the [Cloud Foundry Push documentation][3]. To use them, while you are in Advanced deployment mode, modify the Script field in a deployer stage's configuration menu.
 
-As an example, the hostname argument, `-n`, allows you to specify a route with `cf push`. This is especially useful in projects that use multiple deployment stages: if the stages all attempt to use the same route (as specified in the project manifest), there will be a conflict. Modifying the deployment script for individual stages allows you to avoid this without needing to worry about the manifest.   
+As an example, you can use the hostname argument, `-n` to specify a route using `cf push`. That example is helpful in projects that use multiple deployment stages: if all of the the stages try to use the same route, as specified in the project manifest, a conflict occurs. By modifying the deployment script for individual stages, you can avoid conflicts without using the manifest file.
 
 ---
 <a name="pipeline"></a>
-##Pipeline
+##The Delivery Pipeline service
 
-Advanced deployment mode uses Pipeline to build and deploy your project.
+Advanced deployment mode uses the IBM Continuous Delivery Pipeline for Bluemix (the Delivery Pipeline service). 
 
 <a name="service"></a>
-###Bluemix and the Delivery Pipeline Service
+###Bluemix and the Delivery Pipeline service
 
-Making the most of Pipeline's integration with Bluemix requires that you add the Delivery Pipeline service to your targeted Bluemix spaces. For more information on the service, see [Getting started with IBM Continuous Delivery Pipeline for Bluemix][3]. For more information on charging and Pipeline, see the [DevOps Services Accounts document][4].
+To make the most of the Delivery Pipeline service's integration with Bluemix, you must add the service to your targeted Bluemix spaces. For more information about the service, see [Getting started with IBM Continuous Delivery Pipeline for Bluemix][3]. For information about how your account might be charged, see the [the Bluemix pricing overview][4].
 
 <a name="multi"></a>
 ###Multistage deployment
 
-You can configure DevOps Services projects to deploy to multiple Bluemix spaces. To use multistage deployment, just create more than one deployer stage. For example, you might configure a stage that deploys to a development space, another to a staging space, and a third to a production space. 
+You can configure DevOps Services projects to deploy to multiple Bluemix spaces. To use multistage deployment, create more than one deployer stage. For example, you might configure three stages: one that deploys to a development space, another that deploys to a staging space, and a third that deploys to a production space. 
 
-By default, a deployment will automatically be initiated every time a build completes or deploys successfully in the previous stage of the Pipeline. For the first deployer stage, this happens when a build completes successfully. For subsequent deployer stages, this happens when a build is successfully deployed to the preceding stage. If you do not enable this option, builds must be deployed manually via drag & drop or using the deploy menu.
+By default, every time a build is completed or deploys in the Delivery Pipeline service, a deployment is automatically initiated. In later deployer stages, automatic deployment happens when a build is deployed to the preceding stage. 
 
+If automatic building and deployment is not enabled for your project, you can still take advantage of multistage deployment. However, you will need to manually deploy builds.
 
 <!--
 <a name="addl"></a>
@@ -78,4 +82,4 @@ By default, a deployment will automatically be initiated every time a build comp
 [1]: http://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html
 [2]: https://www.ng.bluemix.net/docs/#services/DeliveryPipeline/index.html#getstartwithCD
 [3]: http://docs.cloudfoundry.org/devguide/installcf/whats-new-v6.html#push
-[4]: #
+[4]: https://ace.ng.bluemix.net/#/pricing/cloudOEPaneId=pricing
