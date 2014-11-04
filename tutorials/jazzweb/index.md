@@ -68,7 +68,7 @@ To open the app, click its name. Click on the deployment box in your space if yo
 
 ![Starting a Bluemix app][12]
 
-Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 60 minutes of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any Service, visit the [Bluemix pricing page](https://bluemix.net/#/pricing).
+Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. You shouldn't incur any charges just following the steps in this tutorial. A project is granted 60 minutes of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information on pricing for any service, visit the [Bluemix pricing page](https://bluemix.net/#/pricing).
 
 ---
 ## Editing the Sample Application
