@@ -23,7 +23,7 @@ The dashboard gives you an overview of the active Bluemix space for your organiz
 
 If you create additional organizations or spaces in Bluemix, remember to use the same ones as you follow our tutorials. If you stick to the default selections, you should be just fine.
 
-Clicking **CREATE AN APP** lets you choose different kinds of Runtimes (like Java or Ruby), Services (such as DataCache or Mongo) and Boilerplates, which are essentially pre-configured application templates that are great ways to get started. Select the **Java Web Cache Starter** Boilerplate, which opens a panel that displays more information about what it does:
+Clicking **CREATE AN APP** lets you choose different kinds of runtimes (like Java or Ruby), services (such as DataCache or Mongo) and Boilerplates, which are essentially pre-configured application templates that are great ways to get started. Select the **Java Web Cache Starter** Boilerplate, which opens a panel that displays more information about what it does:
 
 ![Bluemix Java Web Starter][7]
 
@@ -62,13 +62,13 @@ Success! You've created a Git repo, loaded it with the example code, and deploye
 
 ![Git repo success message dialog][14]
 
-There's just one more thing to do before moving on to DevOps Services: you need to enable the Delivery Pipeline Service in Bluemix. This will allow you to experience some of the fancier automated build and deployment capabilities later on. To do so:
+There's just one more thing to do before moving on to DevOps Services: you need to enable the Delivery Pipeline service in Bluemix. This will allow you to experience some of the fancier automated build and deployment capabilities later on. To do so:
 
 1. Click **ADD A SERVICE** from your new app's overview.
 2. Choose **Delivery Pipeline** in the *DevOps* category. 
 3. Don't worry about *Space* or *App*. Just click **CREATE**.
 
-The Delivery Pipeline Service will be added to your Bluemix space, ready to spring into action as you need it later.  
+The Delivery Pipeline service will be added to your Bluemix space, ready to spring into action as you need it later.  
 
 What if you want to see the app's code, now, or configure how it deploys? You'll need IBM DevOps Services for that. Return to the dashboard, click on your app's panel to open its overview, and then click **EDIT CODE**.
 
