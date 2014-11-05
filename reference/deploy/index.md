@@ -2,7 +2,7 @@
 
 Last modified: 4 November 2014
 
-You can get your code on the web in multiple ways by using IBM DevOps Services, which integrates with IBM® Bluemix™.
+You can get your code on the web in multiple ways by using IBM® DevOps Services, which integrates with IBM® Bluemix™.
 
 ---
 ##[Manual deployment](#manual)
@@ -38,7 +38,7 @@ Both command-line tools and the web IDE are effective way to work when you are d
 ###Overview
 Whether you use Simple or Advanced deployment modes, when changes are pushed to a project's source control repository, builds and deployments are triggered. Simple mode differs from Advanced in that Simple doesn't have a build stage. As a result, compiled languages like Java won't work with Simple mode, and it can have only one deployment target. Advanced mode can have many deployment targets. If you need automatic building deployment, or if you want to deploy to multiple spaces, use Advanced mode rather than Simple. 
 
-In Advanced mode, you can disable automatic builds that run when changes are pushed to your project. To disable automatic builds, when you configure a build stage, clear the **Automatically build when a change is delivered/pushed**. You can then manually request builds and deploy from the build history page in one of two ways:
+In Advanced mode, you can disable automatic builds that run when changes are pushed to your project. To disable automatic builds, when you configure a build stage, clear the **Automatically build when a change is delivered/pushed** check box. You can then manually request builds and deploy from the build history page in one of two ways:
 
 * Drag a build to the box that is under a configured space.
 * Click the cloud icon that is next to a build and then select a space under the Deploy to heading.
