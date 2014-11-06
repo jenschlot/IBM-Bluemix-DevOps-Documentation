@@ -433,7 +433,7 @@ Text in merged branch.
 <a name="troubleshoot_authentication_issues_by_using_the_push_command"></a>
 ### Troubleshoot authentication issues by using the push command
 
-"When you push, if a "406 Not Acceptable" error occurs, complete these steps:
+When you push, if a "406 Not Acceptable" error occurs, complete these steps:
 
 1. Upgrade your version of Git.
 
