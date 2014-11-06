@@ -11,6 +11,9 @@
 ### Tutorial: [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, eclipse, jazz_scm, pipeline, rtc
 
+### Reference: [Build and Deploy reference](/docs/reference/deploy)
+<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, pipeline
+
 ### Article: [Create a natural language question answering system with IBM Watson and Bluemix Services](http://www.ibm.com/developerworks/cloud/library/cl-watson-films-bluemix-app/index.html?ca=drs-)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
 Last updated: 29 September 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, watson, eclipse, git, nodejs, pipeline
 
@@ -69,4 +72,5 @@ Last updated: 23 September 2014 <img src="../all/images/tag.png"  align="bottom"
 Last updated: 23 September 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, pipeline, edit, nodejs
 
 &copy; Copyright IBM Corporation 2013, 2014.
+
 

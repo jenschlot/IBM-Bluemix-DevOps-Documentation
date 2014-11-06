@@ -1,4 +1,4 @@
-#Build and Deploy quick reference
+#Build and Deploy  reference
 
 Last modified: 4 November 2014
 
