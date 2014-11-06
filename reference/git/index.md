@@ -11,6 +11,7 @@ No matter where you like to code, use this quick reference to do common tasks.
 ---
 ##[Repositories](#repositories)
 * [Set up a local Git repository](#set_up_a_local_git_repository)
+* [Replace your origin repository](#replace_your_origin _repository)
 
 ##[Branches](#branches)
 * [Create a local branch](#create_a_local_branch)
@@ -34,11 +35,13 @@ No matter where you like to code, use this quick reference to do common tasks.
 
 ##[Git terminal only](#git_terminal)
 * [Troubleshoot authentication issues by using the push command](#troubleshoot_authentication_issues_by_using_the_push_command)
+* [Delete a branch from origin](#delete_a_branch_from_origin)
 
 ---
 <a name="repositories"></a>
 ##Repositories
 
+---
 <a name="set_up_a_local_git_repository"></a>
 ### Set up a local Git repository
 
@@ -64,11 +67,31 @@ If you want to code and test on a local machine, set up a local repository.
 
 1. When you are prompted, enter your IBM id and password.  
 **Note**: If you are not prompted for your password, do not continue.  Delete your cloned repository
-and repeat the steps by using a modified repository address: https://your_jazz_id:your_IBM_ID_password@hub.jazz.net/jazz_id/project_name> 
+and repeat the steps by using a modified repository address: https://your_jazz_id:your_IBM_ID_password@hub.jazz.net/jazz_id/project_name
 
 1. After your repository replicates, move into your new local repository.  
  
 1. Start working.
+
+---
+<a name="replace_your_origin _repository"></a>
+### Replace your origin repository
+
+#### DevOps Services web IDE
+
+1. Click the configuration icon (<img src="./images/configuration.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">).
+
+1. In the remote.origin.url pane, click the edit icon (<img src="./images/editconfiguration.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">) to edit the configuration entry.
+
+1. In the value field, paste your new repository URL, and then click **Submit**.
+
+1. Click the **REFERENCE** field.
+
+1. In the origin pane, click the fetch icon (<img src="./images/fetchfromremote.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">) to fetch from the remote repository.
+
+#### Git terminal
+
+1. Type `git remote set-url origin <repository_url>` and press Enter.
 
 ---
 <a name="branches"></a>
@@ -410,10 +433,21 @@ Text in merged branch.
 <a name="troubleshoot_authentication_issues_by_using_the_push_command"></a>
 ### Troubleshoot authentication issues by using the push command
 
-Upgrade your version of Git. If you cannot upgrade Git, try these steps.
+"When you push, if a "406 Not Acceptable" error occurs, complete these steps:
 
-1. Add your repository again but place your Jazz ID in the repository URL.  For example: https://your_Jazz_ID@hub.jazz.net/Jazz_ID/project_name
+1. Upgrade your version of Git.
+
+1. If you cannot upgrade Git, add your repository again but place your Jazz ID in the repository URL.  For example: https://your_Jazz_ID@hub.jazz.net/Jazz_ID/project_name.
+
+---
+<a name="delete_a_branch_from_origin"></a>
+### Delete a branch from origin
+
+Only project owners can delete branches from origin.
+
+1. Type `git push origin :<your_branch_name>` and press Enter.
 
 
-[1]: https://hub.jazz.net/tutorials/clients#installing_git
+
+[1]: https://hub.jazz.net/docs/reference/gitclient/#command_line_git
 [2]: https://hub.jazz.net
