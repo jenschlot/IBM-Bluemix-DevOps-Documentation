@@ -1,5 +1,7 @@
 #Getting Started with IBM Bluemix and DevOps Services using Java
 
+Last modified: 4 November 2014
+
 ##Create an application with IBM Bluemix
 
 *[IBM® Bluemix™][1] is an open-standards, cloud-based platform for building, managing and running apps of all types (web, mobile, big data, new smart devices). Capabilities include Java™, mobile backend development, application monitoring, as well as capabilities from ecosystem partners and open source, all through an as-a-service model in the cloud.*
