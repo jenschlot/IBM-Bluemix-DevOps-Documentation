@@ -32,7 +32,7 @@ To create a DevOps Services account and your first project:
 **Tip**: Use your university email address as your IBM id.
 
 3. Click the **Start coding** icon to create a project.  
-**Note**: If you do not plan to store code in your project, check out the [Track & Plan tutorial](https://hub.jazz.net/tutorials/trackplan) 
+**Note**: If you do not plan to store code in your project, check out the [Track & Plan tutorial](/tutorials/trackplan) 
 for information about configuring your project and using the Track & Plan feature.
 
 4. After you create your project, you will see the Overview page. Choose how to start your project.  
