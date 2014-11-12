@@ -107,6 +107,6 @@ For more information or to try a tutorial, [see the IBM DevOps Services Docs pag
 
 © Copyright IBM Corporation 2013, 2014.
 
-[18]: https://www.ibmdw.net/answers?community=Devops_services (DevOps Services forum)
+[18]: https://developer.ibm.com/answers/questions/?community=devops-services (DevOps Services forum)
 [19]: mailto:hub%40jazz.net
-[20]: https://hub.jazz.net/docs
+[20]: /docs

@@ -449,5 +449,5 @@ Only project owners can delete branches from origin.
 
 
 
-[1]: https://hub.jazz.net/docs/reference/gitclient/#command_line_git
+[1]: ../gitclient/#command_line_git
 [2]: https://hub.jazz.net

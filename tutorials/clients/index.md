@@ -17,6 +17,6 @@ For more information or to try a tutorial, [see the IBM DevOps Services Docs pag
 
 [1]: ../../docs/reference/gitclient
 [2]: ../../docs/reference/jazz_scm_client
-[3]: https://hub.jazz.net/docs
+[3]: /../docs
 
 &copy; Copyright IBM Corporation 2013, 2014.

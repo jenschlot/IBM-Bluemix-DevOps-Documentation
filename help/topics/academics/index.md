@@ -46,7 +46,7 @@ If you need help, click **SUPPORT** in the navigation bar.
 
 If you are looking for tutorials, click **DOCS** in the navigation bar.
 
-You can review the  [Academic resources](#resources) on this page.
+You can review the [Academic resources](#resources) on this page.
 
 You can watch the [Easily Collaborate on a Node.js App!](https://www.youtube.com/watch?v=R8LUmIcpT5c&list=UUfSJ0b6aUQ_Uvgdlpu9amRw) video to see how 
 students can start collaborating.
