@@ -16,6 +16,8 @@
 
 ### [Glossary](/docs/glossary)
 
+### [Support](/support)
+
 <a id="tut"></a>
 
 --------------------
