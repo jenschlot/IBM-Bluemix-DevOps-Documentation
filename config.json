@@ -34,7 +34,7 @@
 			"section_name": "Docs",
 			"resource_name": "FAQ",
 			"img_icon": "faq",
-			"directory": "help/faq"
+			"directory": "docs/faq"
 			
 		},
 		{
@@ -49,7 +49,7 @@
 			"section_name": "Docs",
 			"resource_name": "Glossary",
 			"img_icon": "glossary",
-			"directory": "glossary"
+			"directory": "/docs/glossary"
 		}
 	],
 	"reference": [
@@ -60,7 +60,7 @@
 			"parent_name": "Git",
 			"parent_uri": "/docs/git",
 			"img_icon": "git-qr",
-			"directory": "reference/git"
+			"directory": "docs/reference/git"
 		},
 		{
 			"uri_prefix": "/docs/reference/deploy",
@@ -69,7 +69,7 @@
 			"parent_uri": "/docs/build_deploy",
 			"resource_name": "Reference",
 			"img_icon": "build-deploy-qr",
-			"directory": "reference/deploy"
+			"directory": "docs/reference/deploy"
 		},
 		{
 			"uri_prefix": "/docs/reference/accounts",
@@ -78,7 +78,7 @@
 			"parent_uri": "/docs#topics",
 			"resource_name": "Accounts",
 			"img_icon": "accounts-qr",
-			"directory": "reference/accounts"
+			"directory": "docs/reference/accounts"
 		},
 		{
 			"uri_prefix": "/docs/reference/jazz_scm_client",
@@ -87,7 +87,7 @@
 			"parent_uri": "/docs/jazz_scm",
 			"resource_name": "Client reference",
 			"img_icon": "jazz_scm_client",
-			"directory": "/help/howto/jazz_scm_client"
+			"directory": "docs/reference/jazz_scm_client"
 		},
 		{
 			"uri_prefix": "/docs/reference/gitclient",
@@ -96,7 +96,7 @@
 			"parent_uri": "/docs/git",
 			"resource_name": "Client reference",
 			"img_icon": "git-qr",
-			"directory": "/help/howto/gitclient"
+			"directory": "/docs/reference/gitclient"
 		}
 	],
 	"topic": [
@@ -105,105 +105,105 @@
 			"section_name": "Docs",
 			"topic_name": "All",
 			"img_icon": "all",
-			"directory": "help/all"
+			"directory": "docs/all"
 		},
 		{
 			"uri_prefix": "/docs/academics",
 			"section_name": "Docs",
 			"topic_name": "Academics",
 			"img_icon": "academics",
-			"directory": "help/topics/academics"
+			"directory": "docs/topics/academics"
 		},
 		{
 			"uri_prefix": "/docs/bluemix",
 			"section_name": "Docs",
 			"topic_name": "Bluemix",
 			"img_icon": "bluemix",
-			"directory": "help/topics/bluemix"
+			"directory": "docs/topics/bluemix"
 		},
 		{
 			"uri_prefix": "/docs/build_deploy",
 			"section_name": "Docs",
 			"topic_name": "Build and Deploy",
 			"img_icon": "build_deploy",
-			"directory": "help/topics/build_deploy"
+			"directory": "docs/topics/build_deploy"
 		},
 		{
 			"uri_prefix": "/docs/eclipse",
 			"section_name": "Docs",
 			"topic_name": "Eclipse",
 			"img_icon": "eclipse",
-			"directory": "help/topics/eclipse"
+			"directory": "docs/topics/eclipse"
 		},
 		{
 			"uri_prefix": "/docs/git",
 			"section_name": "Docs",
 			"topic_name": "Git",
 			"img_icon": "git",
-			"directory": "help/topics/git"
+			"directory": "docs/topics/git"
 		},
 		{
 			"uri_prefix": "/docs/java",
 			"section_name": "Docs",
 			"topic_name": "Java",
 			"img_icon": "java",
-			"directory": "help/topics/java"
+			"directory": "docs/topics/java"
 		},
 		{
 			"uri_prefix": "/docs/jazz_scm",
 			"section_name": "Docs",
 			"topic_name": "Jazz SCM",
 			"img_icon": "jazz_scm",
-			"directory": "help/topics/jazz_scm"
+			"directory": "docs/topics/jazz_scm"
 		},
 		{
 			"uri_prefix": "/docs/mobile",
 			"section_name": "Docs",
 			"topic_name": "Mobile",
 			"img_icon": "mobile",
-			"directory": "help/topics/mobile"
+			"directory": "docs/topics/mobile"
 		},
 		{
 			"uri_prefix": "/docs/nodejs",
 			"section_name": "Docs",
 			"topic_name": "Node.js",
 			"img_icon": "nodejs",
-			"directory": "help/topics/nodejs"
+			"directory": "docs/topics/nodejs"
 		},
 		{
 			"uri_prefix": "/docs/python",
 			"section_name": "Docs",
 			"topic_name": "Python",
 			"img_icon": "python",
-			"directory": "help/topics/python"
+			"directory": "docs/topics/python"
 		},
 		{
 			"uri_prefix": "/docs/trackplanfg",
 			"section_name": "Track and Plan",
 			"topic_name": "Track and Plan Features",
 			"img_icon": "trackplan",
-			"directory": "help/topics/trackplan/trackplanfg"
+			"directory": "docs/topics/trackplan/trackplanfg"
 		},
 		{
 			"uri_prefix": "/docs/trackplan",
 			"section_name": "Docs",
 			"topic_name": "Track and Plan",
 			"img_icon": "trackplan",
-			"directory": "help/topics/trackplan"
+			"directory": "docs/topics/trackplan"
 		},
 		{
 			"uri_prefix": "/docs/mongodb",
 			"section_name": "Docs",
 			"topic_name": "MongoDB",
 			"img_icon": "mongodb",
-			"directory": "help/topics/mongodb"
+			"directory": "docs/topics/mongodb"
 		},
 		{
 			"uri_prefix": "/docs/hackathons",
 			"section_name": "Docs",
 			"topic_name": "Hackathons",
 			"img_icon": "hackathons",
-			"directory": "help/topics/hackathons"
+			"directory": "docs/topics/hackathons"
 		}
 	]
 }
