@@ -37,6 +37,14 @@
 			"directory": "help/faq"
 			
 		},
+				{
+			"uri_prefix": "/help/contactus",
+			"section_name": "Docs",
+			"resource_name": "FAQ",
+			"img_icon": "faq",
+			"directory": "help/contactus"
+			
+		},
 		{
 			"uri_prefix": "/support",
 			"section_name": "Support",

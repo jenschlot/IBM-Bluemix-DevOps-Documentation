@@ -51,8 +51,6 @@ _.each(['/help/faq'],
        }
 );
 
-*/
-
 /*
  * Depending on the request path, try to load and render the corresponding markdown source.
  * See config.json for a rundown of which prefixes load what.
