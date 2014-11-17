@@ -30,7 +30,7 @@
 							<div class="col-md-7 col-sm-9 col-xs-9 callout" id="2">
 								<p class="description">
 									<span style="color: #ffd801;"> <strong>NEW</strong>&nbsp;&nbsp;</span>
-									<strong>Starting projects</strong> in IBM DevOps Services
+									<strong>Start projects</strong> in IBM DevOps Services
 								</p>
 							</div>
 							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
@@ -43,7 +43,7 @@
 							</a>
 						</div>
 						<div class="row" id="doc-container-l">
-							<a class="section" href="/tutorials/trackplan">
+							<a class="section" href="/docs/reference/git">
 							<div class="col-md-7 col-sm-9 col-xs-9 callout" id="3">
 								<p class="description">
 									<span style="color: #ffd801;"> <strong>NEW</strong>&nbsp;&nbsp;</span>
