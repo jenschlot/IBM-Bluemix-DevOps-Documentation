@@ -30,11 +30,11 @@
 			"directory": "features"
 		},
 		{
-			"uri_prefix": "/docs/faq",
+			"uri_prefix": "/help/faq",
 			"section_name": "Docs",
 			"resource_name": "FAQ",
 			"img_icon": "faq",
-			"directory": "docs/faq"
+			"directory": "help/faq"
 			
 		},
 		{
