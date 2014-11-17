@@ -40,8 +40,8 @@
 				{
 			"uri_prefix": "/help/contactus",
 			"section_name": "Docs",
-			"resource_name": "FAQ",
-			"img_icon": "faq",
+			"resource_name": "Contact us",
+			"img_icon": "support",
 			"directory": "help/contactus"
 			
 		},
@@ -67,7 +67,7 @@
 			"resource_name": "Reference",
 			"parent_name": "Git",
 			"parent_uri": "/docs/git",
-			"img_icon": "git-qr",
+			"img_icon": "ref-qr",
 			"directory": "docs/reference/git"
 		},
 		{
@@ -76,7 +76,7 @@
 			"parent_name": "Build and Deploy",
 			"parent_uri": "/docs/build_deploy",
 			"resource_name": "Reference",
-			"img_icon": "build-deploy-qr",
+			"img_icon": "ref-qr",
 			"directory": "docs/reference/deploy"
 		},
 		{
@@ -94,7 +94,7 @@
 			"parent_name": "Account Management",
 			"parent_uri": "/docs/account",
 			"resource_name": "Account",
-			"img_icon": "account-qr",
+			"img_icon": "ref-qr",
 			"directory": "docs/reference/billing"
 		},
 		{
