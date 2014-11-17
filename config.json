@@ -72,13 +72,22 @@
 			"directory": "docs/reference/deploy"
 		},
 		{
-			"uri_prefix": "/docs/reference/accounts",
+			"uri_prefix": "/docs/reference/startproject",
+			"section_name": "How to",
+			"parent_name": "Account Management",
+			"parent_uri": "/docs/account",
+			"resource_name": "Reference",
+			"img_icon": "ref-qr",
+			"directory": "docs/reference/startproject"
+		},
+		{
+			"uri_prefix": "/docs/reference/billing",
 			"section_name": "Quick Reference",
-			"parent_name": "Billing",
-			"parent_uri": "/docs#topics",
-			"resource_name": "Accounts",
-			"img_icon": "accounts-qr",
-			"directory": "docs/reference/accounts"
+			"parent_name": "Account Management",
+			"parent_uri": "/docs/account",
+			"resource_name": "Account",
+			"img_icon": "account-qr",
+			"directory": "docs/reference/billing"
 		},
 		{
 			"uri_prefix": "/docs/reference/jazz_scm_client",
@@ -86,7 +95,7 @@
 			"parent_name": "Jazz source control management",
 			"parent_uri": "/docs/jazz_scm",
 			"resource_name": "Client reference",
-			"img_icon": "jazz_scm_client",
+			"img_icon": "ref-qr",
 			"directory": "docs/reference/jazz_scm_client"
 		},
 		{
@@ -95,7 +104,7 @@
 			"parent_name": "Git",
 			"parent_uri": "/docs/git",
 			"resource_name": "Client reference",
-			"img_icon": "git-qr",
+			"img_icon": "ref-qr",
 			"directory": "/docs/reference/gitclient"
 		}
 	],
@@ -114,6 +123,15 @@
 			"img_icon": "academics",
 			"directory": "docs/topics/academics"
 		},
+
+		{
+			"uri_prefix": "/docs/account",
+			"section_name": "Docs",
+			"topic_name": "Account Management",
+			"img_icon": "account",
+			"directory": "docs/topics/account"
+		},
+
 		{
 			"uri_prefix": "/docs/bluemix",
 			"section_name": "Docs",

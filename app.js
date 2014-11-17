@@ -34,14 +34,7 @@ app.get(['/tutorials', '/tutorials/landing'], function(req, res){
   res.redirect('/docs/all/#tut');
 });
 
-
-app.get(['/help/faq'], function(req, res){
-  res.redirect('/docs/faq');
-});
-
-
-
-app.get(['/docs/references', '/references'], function(req, res){
+app.get(['/docs/reference', '/reference'], function(req, res){
   res.redirect('/docs/all/#ref');
 });
 
@@ -51,8 +44,8 @@ _.each(['/docs'],
 		app.get(i, routes.docs)
        }
 );
-/* 
-_.each(['/docs/faq'],
+
+_.each(['/help/faq'],
        function(i) {
 		app.get(i, routes.faq)
        }

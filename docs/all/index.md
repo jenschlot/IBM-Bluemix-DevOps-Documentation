@@ -42,17 +42,18 @@
 ### Tutorial: [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, eclipse, jazz_scm, pipeline, rtc
 
-### Tutorial: [Working locally with IBM DevOps Services projects and Git source control](/docs/reference/gitclient)
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  git
-
-### Tutorial: [Working locally with IBM DevOps Services projects and Jazz source control](/docs/reference/jazz_scm_client)
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  jazz_scm
-
 <a id="ref"></a>
 
 ----------------------------------------
 
 ## Reference
+
+### Reference: [Working locally with IBM DevOps Services projects and Git source control](/docs/reference/gitclient)
+<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  git
+
+### Reference: [Working locally with IBM DevOps Services projects and Jazz source control](/docs/reference/jazz_scm_client)
+<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  jazz_scm
+
 
 ### Reference: [Git reference](/docs/reference/git)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  git

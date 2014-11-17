@@ -259,6 +259,13 @@
 							</a>
 						</div>
 						<div class="topic-container">
+							<a class="topic-section" href="/docs/account">
+								<div class="topic-img col-center"><span class="account"></span></div>
+								<div class="topic-name col-center">Account Management</div>
+							</a>
+						</div>
+
+						<div class="topic-container">
 							<a class="topic-section" href="/docs/eclipse">
 								<div class="topic-img col-center"><span class="eclipse"></span></div>
 								<div class="topic-name col-center">Eclipse</div>
