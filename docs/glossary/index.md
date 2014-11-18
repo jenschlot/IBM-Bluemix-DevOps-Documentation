@@ -1,4 +1,4 @@
-Last modified: 31 October 2014
+Last modified: 17 November 2014
 
 This glossary provides terms and definitions for the IBM&reg; DevOps Services features.
 
@@ -312,7 +312,7 @@ See [software as a service](#software_as_a_service).
 
 <a name="SCM"></a>
 **SCM**  
-See [software configuration management](#software_configuration_management).
+See [source control management](#source_control_management).
 
 <a name="Scrum"></a>
 **Scrum**  
@@ -341,11 +341,9 @@ critical, high, medium, or low.
 A model of software deployment whereby software including business processes, enterprise 
 applications, and collaboration tools, are provided as a service to customers.
 
-
-<a name="software_configuration_management"></a>
-**software configuration management (SCM)**  
-The tracking and control of software development. SCM systems typically offer version 
-control and team programming features.
+<a name="source_control_management"></a>
+**source control management (SCM)**  
+An aspect of software configuration management that involves managing changes to collections of files.
 
 <a name="space"></a>
 **space**  

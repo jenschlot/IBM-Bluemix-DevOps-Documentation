@@ -1,5 +1,7 @@
 #Getting Started with IBM Bluemix and IBM DevOps Services using Node.js
 
+Last modified: 17 November 2014
+
 ##Create an application with IBM Bluemix
 
 [IBM&reg; Bluemix&trade;](https://bluemix.net/) is an open-standards, cloud-based platform for building, managing, and running all types
@@ -9,8 +11,6 @@ all through an as-a-service model in the cloud.
 
 Before you can use the Bluemix capabilities, you have to sign up. To sign up, go to the [IBM Bluemix home page](https://bluemix.net/) and 
 click **Sign up for a free trial**.
-
-![Sign up for a free trial](/tutorials/jazzeditor/images/bm-join.png)
 
 After you sign up, the [IBM Bluemix site](https://bluemix.net/) offers helpful information about Bluemix:
 
