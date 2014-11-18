@@ -18,7 +18,7 @@ The duration of these outage windows is variable depending upon what needs to be
 | 11/15/2014 | Saturday | CANCELLED           |CANCELLED |
 | 11/18/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
 | 11/20/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
-| 11/23/2014 | Sunday   | 5:00 - 06:00PM EDT  | 1 hour   |
+| 11/23/2014 | Sunday   | 4:00 - 05:00PM EDT  | 1 hour   |
 | 11/25/2104 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
 | 11/27/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
 | 11/29/2014 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
