@@ -12,7 +12,7 @@
 
 ### [Features](/features)
 
-### [FAQ](/help/faq)
+### [FAQ](/docs/faq)
 
 ### [Glossary](/docs/glossary)
 

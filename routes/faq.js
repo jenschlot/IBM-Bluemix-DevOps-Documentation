@@ -1,6 +1,6 @@
-module.exports = function (req, res, next) {
+Imodule.exports = function (req, res, next) {
 	res.writeHead(301, {
-		'Location': '/help/faq'
+		'Location': '/docs/faq'
 	});
 	res.end();
 };

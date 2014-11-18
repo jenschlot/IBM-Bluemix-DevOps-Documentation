@@ -30,7 +30,7 @@
 			"directory": "features"
 		},
 		{
-			"uri_prefix": "/help/faq",
+			"uri_prefix": "/docs/faq",
 			"section_name": "Docs",
 			"resource_name": "FAQ",
 			"img_icon": "faq",
