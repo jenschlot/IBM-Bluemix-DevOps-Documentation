@@ -1,4 +1,4 @@
-# Working locally with IBM DevOps Services projects and Jazz source control
+# Work locally with IBM DevOps Services projects and Jazz source control
 
 Last modified: 23 October 2014
 

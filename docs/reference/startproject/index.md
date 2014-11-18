@@ -1,4 +1,4 @@
-# Creating IBM DevOps Services projects
+# Start a project in IBM DevOps Services 
 
 Last modified: 12 November 2014
 

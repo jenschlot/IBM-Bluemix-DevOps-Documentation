@@ -48,10 +48,13 @@
 
 ## Reference
 
-### Reference: [Working locally with IBM DevOps Services projects and Git source control](/docs/reference/gitclient)
+### Reference: [Start a project in IBM DevOps Services](/docs/reference/startproject)
+<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  projects
+
+### Reference: [Work locally with IBM DevOps Services projects and Git source control](/docs/reference/gitclient)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  git
 
-### Reference: [Working locally with IBM DevOps Services projects and Jazz source control](/docs/reference/jazz_scm_client)
+### Reference: [Work locally with IBM DevOps Services projects and Jazz source control](/docs/reference/jazz_scm_client)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  jazz_scm
 
 
@@ -61,7 +64,7 @@
 ### Reference: [Build and Deploy reference](/docs/reference/deploy)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, pipeline
 
-### Reference: [Explore the Track & Plan Beta feature](../../docs/trackplan/trackplanfg)
+### Reference: [Explore the Track & Plan Beta feature](/docs/reference/trackplan/trackplanfg)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> plan, track
 
 

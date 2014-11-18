@@ -1,7 +1,7 @@
 ### Reference: [Git reference](/docs/reference/git)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  git
 
-### Reference: [Working locally with IBM DevOps Services projects and Git source control](/docs/reference/gitclient)
+### Reference: [Work locally with IBM DevOps Services projects and Git source control](/docs/reference/gitclient)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  git
 
 ### Tutorial: [Developing with Git in the IBM DevOps Services web IDE](/tutorials/gitweb)
