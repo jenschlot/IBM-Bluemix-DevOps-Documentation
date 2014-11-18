@@ -1,5 +1,5 @@
 #Configuring IBM Bluemix billing for IBM DevOps Services
-
+Last modified: 20 November 2014
 IBM&reg; DevOps Services provides the Delivery Pipeline and Track & Plan services for IBM Bluemix&trade;. The first thing you do with DevOps Services is create a project, which is a collection of artifacts that an individual or team develops and typically deploys as an application in Bluemix. All DevOps Services projects include an allowance of free services. If you exceed your allowances, your work is interrupted. To avoid interruptions, set up a Bluemix billing account and configure your services.
 
 If you already set up a DevOps Services project, you can set up your Bluemix billing account at any time before your free services run out. When you set up a billing account, you still keep your free allowance.
