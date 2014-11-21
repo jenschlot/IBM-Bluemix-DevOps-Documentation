@@ -1,4 +1,4 @@
-#Build and Deploy  reference
+#Build and Deploy reference
 
 Last modified: 4 November 2014
 
@@ -14,6 +14,7 @@ You can get your code on the web in multiple ways by using IBM® DevOps Services
 ##[Pipeline](#pipeline)
 * [Bluemix and the Delivery Pipeline service](#service)
 * [Multistage deployment](#multi)
+* [Logging](#logs)
 
 <!--
 ##[Additional resources](#addl)
@@ -56,7 +57,7 @@ As an example, you can use the hostname argument, `-n` to specify a route using 
 <a name="pipeline"></a>
 ##The Delivery Pipeline service
 
-Advanced deployment mode uses the IBM Continuous Delivery Pipeline for Bluemix (the Delivery Pipeline service). 
+Advanced deployment mode uses the IBM Delivery Pipeline for Bluemix (the Delivery Pipeline service). 
 
 <a name="service"></a>
 ###Bluemix and the Delivery Pipeline service
@@ -72,6 +73,16 @@ By default, every time a build is completed or deploys in the Delivery Pipeline 
 
 If automatic building and deployment is not enabled for your project, you can still take advantage of multistage deployment. However, you will need to manually deploy builds.
 
+<a name="logs"></a>
+###Logging
+
+You can view history pages containing logs for your builder and deployer stages by clicking on particular builds or deployments, as well as clicking on the **Last Build** or **Deployed** links.
+
+![Locations that open history pages from Advanced Build & Deploy][5]
+
+In addition to the build logs themselves, you can also view unit test results, generated artifacts, and code changes for any particular build from the build history page.   
+
+
 <!--
 <a name="addl"></a>
 ##Additional resources
@@ -85,3 +96,4 @@ If automatic building and deployment is not enabled for your project, you can st
 [2]: https://www.ng.bluemix.net/docs/#services/DeliveryPipeline/index.html#getstartwithCD
 [3]: http://docs.cloudfoundry.org/devguide/installcf/whats-new-v6.html#push
 [4]: https://ace.ng.bluemix.net/#/pricing/cloudOEPaneId=pricing
+[5]: ./images/open_logs.png
