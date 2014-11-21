@@ -76,11 +76,11 @@ If automatic building and deployment is not enabled for your project, you can st
 <a name="logs"></a>
 ###Logging
 
-You can view history pages containing logs for your builder and deployer stages by clicking on particular builds or deployments, as well as clicking on the **Last Build** or **Deployed** links.
+You can view the logs for your builder and deployer stages on the Build and Deployment pages. Click a build or deployment, or click the **Last Build** or **Deployed** links.
 
 ![Locations that open history pages from Advanced Build & Deploy][5]
 
-In addition to the build logs themselves, you can also view unit test results, generated artifacts, and code changes for any particular build from the build history page.   
+On the Builds page, you can also view unit test results, generated artifacts, and code changes for any build.  
 
 
 <!--
