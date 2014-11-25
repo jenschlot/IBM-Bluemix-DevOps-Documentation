@@ -30,7 +30,7 @@ In the web IDE, if you're in the directory that contains the `manifest.yml` file
 
 You can configure the web IDE deploy and the Auto-Deploy to use different app names so that you can use the web IDE deploy tool as a personal test environment and the Auto-Deploy as a team integration environment.
 
-Both command-line tools and the web IDE are effective way to work when you are doing rapid, solo development, but many developers want the added security of auto-deploy control. By using auto-deploy, you know that the code that is running in the application matches a known state in the repository, instead of whatever was in your working directory when you you pushed.
+Both command-line tools and the web IDE are effective way to work when you are doing rapid, solo development, but many developers want the added security of auto-deploy control. By using auto-deploy, you know that the code that is running in the application matches a known state in the repository, instead of whatever was in your working directory when you pushed.
 
 ---
 <a name="auto"></a>
