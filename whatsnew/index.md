@@ -89,13 +89,13 @@ The topics pages are regularly updated, so check them often.
 
 ### New tutorial
 
- * Try the new tutorial, [Developing with Git in the IBM DevOps Services web IDE.](https://hub.jazz.net/tutorials/gitweb)
+ * Try the new tutorial, [Developing with Git in the IBM DevOps Services web IDE.](/tutorials/gitweb)
 
 ### New reference pages 
 
- * If you use a Git repository for your DevOps Services project, [learn how to configure a local client.](https://hub.jazz.net/docs/reference/gitclient/)
- * If you use Jazz source control management for your DevOps Services project, [learn how to configure a local client.](https://hub.jazz.net/docs/reference/jazz_scm_client/) 
- * If you use a Git repository for your DevOps Services project, [learn how to do common tasks in the web IDE.](https://hub.jazz.net/docs/reference/git/)
+ * If you use a Git repository for your DevOps Services project, [learn how to configure a local client.](/docs/reference/gitclient)
+ * If you use Jazz source control management for your DevOps Services project, [learn how to configure a local client.](/docs/reference/jazz_scm_client) 
+ * If you use a Git repository for your DevOps Services project, [learn how to do common tasks in the web IDE.](/docs/reference/git)
 
 ### October 2, 2014
 
@@ -223,7 +223,7 @@ most recent deployments, or easily navigate to your most recent build logs or de
 
 If your project exceeds free TRACK & PLAN or BUILD & DEPLOY usage, 
 you will need to configure these Add-Ons in Bluemix. 
-Learn more about [Bluemix pricing](https://hub.jazz.net/learn/cost). 
+Learn more about [Bluemix pricing](/earn/cost). 
 
 ## Web IDE enhancements
 
