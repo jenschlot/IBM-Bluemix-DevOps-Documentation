@@ -170,16 +170,3 @@ That was easy. Now you can develop Java applications on your own. Thanks for fol
 What did we do well? What can we do better? Post your comments to our [forum](https://www.ibmdw.net/answers?community=jazzhub)
 or send us an [email](mailto:hub%40jazz.net).
 
----
-
-##More Tutorials
-
-If you're interested in trying more Bluemix and DevOps capabilities, here is a list of tutorials:
-
-* [Getting Started with Bluemix and DevOps Services using Node.js](/tutorials/jazzeditor)
-* [Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava)
-* [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services](/tutorials/clients)
-* [Developing Bluemix applications in Node.js with the DevOps Services Web IDE](/tutorials/jazzweb)
-* [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)			
-
-&copy; Copyright IBM Corporation 2013, 2014.

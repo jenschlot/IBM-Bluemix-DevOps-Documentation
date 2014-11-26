@@ -280,27 +280,10 @@ You just saw how easy it is to create a Java web app at Bluemix and run that app
 
 For those of you who made it this far, we hope this tutorial has given you a feel for how to get started with Bluemix and DevOps Services using Java. Lots of details were glossed over, but the documentation links at the start can fill those in.
 
-Thanks for following along. And tell us what you think. What did we do well? What can we do better? Post your comments to our [forum][38] or send us an [email][39].
-
----
-## Next Steps
-
 If you want to learn more about configuring Eclipse or other desktop clients to work with your git repository, see [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][26].
 
 If you want to learn about how to integrate unit testing into your DevOps Services projects, see [Developing Bluemix applications in Java with Eclipse and DevOps Services][40].
 
----
-## More Tutorials
-
-Interested in trying more Bluemix and DevOps capabilities? Here is a list of tutorials:
-
-* [Getting Started with Bluemix and DevOps Services using Node.js][41]
-* [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services][42]
-* [Developing Bluemix applications in Node.js with the DevOps Services Web IDE][43]
-* [Developing Bluemix applications in Java with Eclipse and DevOps Services][40]
-* [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)
-
-&copy; Copyright IBM Corporation 2013, 2014.
 
 [1]: https://bluemix.net/ (Bluemix)
 [2]: /tutorials/jazzeditorjava/images/bm-join.png

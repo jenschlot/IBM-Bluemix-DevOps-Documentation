@@ -5,6 +5,15 @@
 		<div class="content-box">
 			{markdown|s}
 		</div>
+<hr/>
+<h2>Next steps</h2>
+<p>Your feedback is important. What worked well? What could be better? 
+<a href="https://developer.ibm.com/answers/smartspace/devops-services/">Post your comments to the IBM DevOps Services forum</a>, <a href="mailto:hub@jazz.net">send an email</a>, or <a href="/support">explore our support page</a>.
+</p><p>
+To learn more about IBM Bluemix and IBM DevOps Services capabilities, see the tutorials and references available on the <a href="/docs"> Docs page</a>.
+</p>
+<p>&copy; Copyright IBM Corporation 2013, 2014.</p>
 	</div>
 </div>
+
 {>footer/}

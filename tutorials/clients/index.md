@@ -12,12 +12,3 @@ To work in a desktop client, you must configure it for your repository.
  * <a name='git'></a>If you see the **Git URL** link, you are using a Git repository. See [Working locally with IBM DevOps Services projects and Git source control][1].
  * <a name='jazzscm'></a>If you see the **Configure eclipse client** link, you are using Jazz source control management.  See [Working locally with IBM DevOps Services projects and Jazz source control][2].
 
----
-
-For more information or to try a tutorial, [see the IBM DevOps Services Docs page][3].
-
-[1]: ../../docs/reference/gitclient
-[2]: ../../docs/reference/jazz_scm_client
-[3]: /../docs
-
-&copy; Copyright IBM Corporation 2013, 2014.
