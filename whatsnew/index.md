@@ -89,13 +89,13 @@ The topics pages are regularly updated, so check them often.
 
 ### New tutorial
 
- * Try the new tutorial, [Developing with Git in the IBM DevOps Services web IDE.](https://hub.jazz.net/tutorials/gitweb)
+ * Try the new tutorial, [Developing with Git in the IBM DevOps Services web IDE.](/tutorials/gitweb)
 
 ### New reference pages 
 
- * If you use a Git repository for your DevOps Services project, [learn how to configure a local client.](https://hub.jazz.net/docs/reference/gitclient/)
- * If you use Jazz source control management for your DevOps Services project, [learn how to configure a local client.](https://hub.jazz.net/docs/reference/jazz_scm_client/) 
- * If you use a Git repository for your DevOps Services project, [learn how to do common tasks in the web IDE.](https://hub.jazz.net/docs/reference/git/)
+ * If you use a Git repository for your DevOps Services project, [learn how to configure a local client.](/docs/reference/gitclient/)
+ * If you use Jazz source control management for your DevOps Services project, [learn how to configure a local client.](/docs/reference/jazz_scm_client/) 
+ * If you use a Git repository for your DevOps Services project, [learn how to do common tasks in the web IDE.](/docs/reference/git/)
 
 ### October 2, 2014
 
