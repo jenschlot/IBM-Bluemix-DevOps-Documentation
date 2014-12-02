@@ -5,21 +5,20 @@
 		<div class="content-box">
 			{markdown|s}
 		</div>
-
 <div>
 <hr/>
 <h2>Next steps</h2>
-<p>What worked well? What could be better? 
-<a href="https://developer.ibm.com/answers/smartspace/devops-services/">Post your comments to the IBM DevOps Services forum</a> or <a href="https://hub.jazz.net/ccm01/web/projects/srich%20|%20JazzHub#action=com.ibm.team.dashboard.viewDashboard">report a bug or share your idea in the JazzHub IBM DevOps Services project</a>.
-
+<p>
+Need help? <a href="https://developer.ibm.com/answers/smartspace/devops-services/">Post your questions on the IBM DevOps Services forum</a>. Have feedback or a suggestion? <a href="https://hub.jazz.net/ccm01/web/projects/srich%20|%20JazzHub#action=com.ibm.team.dashboard.viewDashboard">Report a bug or share your idea in the JazzHub IBM DevOps Services project</a>.
 </p><p>
-To learn more about IBM Bluemix and IBM DevOps Services capabilities, <a href="/docs">see the Docs page</a>.
+To learn more about IBM Bluemix and IBM DevOps Services, <a href="/docs">see the Docs page</a>.
 </p>
 <p>&copy; Copyright IBM Corporation 2013, 2014.</p>
 </div>
 	</div>
 	</div>
 </div>
+
 
 {>footer/}
 </div>
