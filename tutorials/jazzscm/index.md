@@ -149,20 +149,3 @@ by using the Web IDE, set up auto-deployments to trigger automatically when chan
 delivered to the stream, deployed the application, 
 checked the deployment status, and ran the app to show your changes.
 
-Tell us what you think. What worked well? 
-What could be better? Post your comments to the [IBM DevOps Services forum](https://www.ibmdw.net/answers?community=jazzhub) 
-or send an [email](mailto:hub%40jazz.net).
-
----
-##Tutorials
-
-To learn more about Bluemix and DevOps Services capabilities, see these tutorials:
-
-* [Getting Started with IBM Bluemix and IBM DevOps Services using node.js](/tutorials/jazzeditor)
-* [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)
-* [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access IBM DevOps Services](/tutorials/clients)
-* [Developing IBM Bluemix applications in Node.js with the IBM DevOps Services Web IDE](/tutorials/jazzweb)
-* [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)    
-* [Getting Started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)  
-    
-&copy; Copyright IBM Corporation 2013, 2014.

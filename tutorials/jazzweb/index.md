@@ -137,20 +137,7 @@ When the app is deployed, click on its web URL to give it a whirl:
 
 And that's it! You now know just what you need to do to develop and deploy a Bluemix application with the Web IDE. If it seemed a little too easy, well, that's just how working with Bluemix and DevOps Services is. Have fun!
 
-Thanks for following along. And tell us what you think. What did we do well? What can we do better? Post your comments to our [forum][20] or send us an [email][21].
-
----
-## More Tutorials
-
-Interested in trying more Bluemix and DevOps capabilities? Here is a list of tutorials:
-
-* [Getting Started with Bluemix and DevOps Services using Node.js](/tutorials/jazzeditor)
-* [Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava)
-* [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Service](/tutorials/clients)
-* [Developing Bluemix applications in Java with Eclipse and DevOps Services](/tutorials/jazzrtc)
-* [Getting started with tracking and planning using IBM DevOps Services](/tutorials/trackplan)
-
-&copy; Copyright IBM Corporation 2013, 2014.
+Thanks for following along.
 
 [1]: https://bluemix.net/ (Bluemix)
 [2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview

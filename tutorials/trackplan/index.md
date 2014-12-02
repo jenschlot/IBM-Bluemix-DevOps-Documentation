@@ -271,12 +271,6 @@ The Track & Plan feature makes it easy to track your sprint's work as you comple
 
 You should now have a good overview of the Track & Plan feature and see that you can use it to track any type of project, no matter how small or complex.
 
-Your feedback is important. What worked well? What could be better? Post your comments to the [IBM DevOps Services forum][18]
-or send an [email][19].
-
-For more information about DevOps Services and Bluemix or to try out more tutorials, [visit the Docs page][40].
-
-&copy; Copyright IBM Corporation 2013, 2014.
 
 [1]: https://hub.jazz.net
 [2]: images/mystufflanding.gif
@@ -292,8 +286,8 @@ For more information about DevOps Services and Bluemix or to try out more tutori
 [12]: images/estimateunassigned.gif
 
 [14]: images/querybar.gif
-[15]: /../jazzeditor
-[16]: https://hub.jazz.net/tutorials/jazzeditorjava
+[15]: /tutorials/jazzeditor
+[16]: /tutorials/jazzeditorjava
 [17]: https://bluemix.net/
 [18]: https://developer.ibm.com/answers/questions/?community=devops-services (DevOps Services forum)
 [19]: mailto:hub%40jazz.net

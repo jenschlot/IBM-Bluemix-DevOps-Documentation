@@ -167,11 +167,6 @@ To rebase, you must compare the contents of one branch to another by modifying t
 
 You now know how to fork a project and manually deploy to a Bluemix app.  You can make a branch, complete changes to your code in the web IDE, and commit your changes. You can also combine contents of branches.
 
-Your feedback is important. What worked well? What could be better? Post your comments to the [IBM DevOps Services forum][18]
-or send an [email][19].
-
-For more information about DevOps Services and Bluemix or to try out more tutorials, [visit the Docs page][20].
-
 
 [1]: images/manifest.png
 [2]: images/forkproject.png
