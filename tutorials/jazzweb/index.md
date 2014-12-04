@@ -1,17 +1,17 @@
 # Developing an IBM Bluemix application in Node.js with the Web IDE
 
-Last modified: 4 November 2014
+Last modified: 4 December 2014
 
 This tutorial shows you how to use DevOps Services to develop an application in the cloud and deploy it to [IBM® Bluemix™][1].
 
 ---
 ## Start with a sample project
 
-You'll start with the sample project, [Sentiment Analysis App][2]. This app is a hosted Node.js Git project that's configured with a Grunt build file, so it's ready to use with Advanced Build & Deploy. You need to make your own copy of it. Clicking **Edit Code** opens the Code Editor, where you can then click **Fork** to get started.
+You'll start with the sample project, [Sentiment Analysis App][2]. This app is a hosted Node.js Git project that's configured with a Grunt build file, so it's ready to use with Advanced Build & Deploy. You need to make your own copy of it. Click **Fork Project** on the sample project's Overview page to get started.
 
 ![Fork button][3]
 
-Enter whatever name you like for your fork of the Sentiment Analysis app. Also, make sure that the **Deploy to Bluemix** box is checked. You can leave the other options at their defaults. When you click **Save**, the code will be pushed into a new Git repository for you.
+Enter whatever name you like for your fork of the Sentiment Analysis app. Also, make sure that the **Deploy to Bluemix** box is checked. You can leave the other options at their defaults. When you click **CREATE**, the code will be pushed into a new Git repository for you.
 
 ![Fork new project][4]
 
