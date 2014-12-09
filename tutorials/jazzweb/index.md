@@ -11,7 +11,7 @@ You'll start with the sample project, [Sentiment Analysis App][2]. This app is a
 
 ![Fork button][3]
 
-Enter whatever name you like for your fork of the Sentiment Analysis app. Also, make sure that the **Deploy to Bluemix** box is checked. You can leave the other options at their defaults. When you click **CREATE**, a fork of the sample Git repository will be created for you.
+Enter whatever name you like for your fork of the Sentiment Analysis app. Also, make sure that the **Deploy to Bluemix** box is checked. You can leave the other options at their defaults. When you click **CREATE**,  a fork of the sample Git repository is created.
 
 ![Fork new project][4]
 
