@@ -15,9 +15,9 @@ Enter whatever name you like for your fork of the Sentiment Analysis app. Also, 
 
 ![Fork new project][4]
 
-After your fork of the project is created, you'll see your project files in the Code Editor. You'll make your mark on the app in a moment, but for now, let's get this project live on the web using Bluemix. To make the most of DevOps Services and Bluemix, make sure that your Bluemix space has the *Delivery Pipeline* service. If it doesn't yet have it, follow [these steps][26] to get it. 
+You'll make your mark on the app in a moment, but for now, let's get your fork of the project live on the web using Bluemix. To make the most of DevOps Services and Bluemix, make sure that your Bluemix space has the *Delivery Pipeline* service. If it doesn't yet have it, follow [these steps][26] to get it. 
 
-Click **Build &amp; Deploy** at the top of the Code Editor. Click **Simple**.
+Click **Build &amp; Deploy** at the top of the screen. Then, click **Simple**.
 
 ![Simple deployment interface][5]
 
