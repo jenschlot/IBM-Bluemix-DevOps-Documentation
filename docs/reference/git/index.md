@@ -1,6 +1,6 @@
 #Git reference
 
-Last modified: 28 October 2014
+Last modified: 9 December 2014
 
 If you store your code in a Git repository that is hosted by IBM&reg; DevOps Services, you have options for working with code. If you want to work on a local machine, you can use Git terminal commands to manipulate the contents of your hosted repository. If you want to use the web integrated development environment (IDE), you never have to use the Git terminal: you can perform many common Git commands in the web IDE.  
 
@@ -12,6 +12,7 @@ No matter where you like to code, use this quick reference to do common tasks.
 ##[Repositories](#repositories)
 * [Set up a local Git repository](#set_up_a_local_git_repository)
 * [Replace your origin repository](#replace_your_origin _repository)
+* [Integrate local commits in the web IDE](#integrate_local_commits_in_the_web_IDE)
 
 ##[Branches](#branches)
 * [Create a local branch](#create_a_local_branch)
@@ -92,6 +93,15 @@ and repeat the steps by using a modified repository address: https://your_jazz_i
 #### Git terminal
 
 1. Type `git remote set-url origin <repository_url>` and press Enter.
+
+---
+<a name="integrate_local_commits_in_the_web_IDE"></a>
+
+###Integrate local commits in the web IDE
+
+When you work in the web IDE, both your local and remote repositories are hosted on the cloud. To view the changes that you made in a local repository that is stored outside of DevOps Services, you must sync to your remote repository.
+
+1. Click **SYNC**. Sync combines the fetch, rebase, and push commands.
 
 ---
 <a name="branches"></a>
@@ -447,7 +457,7 @@ Only project owners can delete branches from origin.
 
 1. Type `git push origin :<your_branch_name>` and press Enter.
 
-
+&copy; Copyright IBM Corporation 2013, 2014.
 
 [1]: ../gitclient/#command_line_git
 [2]: https://hub.jazz.net

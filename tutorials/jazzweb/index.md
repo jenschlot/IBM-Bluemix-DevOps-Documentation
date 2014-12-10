@@ -1,6 +1,6 @@
 # Developing an IBM Bluemix application in Node.js with the Web IDE
 
-Last modified: 4 December 2014
+Last modified: 9 December 2014
 
 This tutorial shows you how to use DevOps Services to develop an application in the cloud and deploy it to [IBM® Bluemix™][1].
 
@@ -11,13 +11,13 @@ You'll start with the sample project, [Sentiment Analysis App][2]. This app is a
 
 ![Fork button][3]
 
-Enter whatever name you like for your fork of the Sentiment Analysis app. Also, make sure that the **Deploy to Bluemix** box is checked. You can leave the other options at their defaults. When you click **CREATE**, the code will be pushed into a new Git repository for you.
+Enter whatever name you like for your fork of the Sentiment Analysis app. Also, make sure that the **Deploy to Bluemix** box is checked. You can leave the other options at their defaults. When you click **CREATE**,  a fork of the sample Git repository is created.
 
 ![Fork new project][4]
 
-After your fork of the project is created, you'll see your project files in the Code Editor. You'll make your mark on the app in a moment, but for now, let's get this project live on the web using Bluemix. To make the most of DevOps Services and Bluemix, make sure that your Bluemix space has the *Delivery Pipeline* service. If it doesn't yet have it, follow [these steps][26] to get it. 
+You'll make your mark on the app in a moment, but for now, let's get your fork of the project live on the web using Bluemix. To make the most of DevOps Services and Bluemix, make sure that your Bluemix space has the *Delivery Pipeline* service. If it doesn't yet have it, follow [these steps][26] to get it. 
 
-Click **Build &amp; Deploy** at the top of the Code Editor. Click **Simple**.
+Click **Build &amp; Deploy** at the top of the screen. Then, click **Simple**.
 
 ![Simple deployment interface][5]
 
@@ -77,7 +77,7 @@ Building and deploying apps with Bluemix can result in charges to your Bluemix b
 
 This is certainly exciting, but you probably haven't come here to just build and deploy someone else's project. Next, you'll personalize the sample app using just DevOps Services' web-based Code Editor, push your changes to the project's remote repository, and initiate a re-deployment of your project. Best of all, this will only take you a few minutes.
 
-Click **Edit Code** again, and then open the file `app.js` by clicking on it in the side panel. Notice that the editor has recognized and highlighted the code as JavaScript.
+Click **Edit Code**, and then open the file `app.js` by clicking on it in the side panel. Notice that the editor has recognized and highlighted the code as JavaScript.
 
 Let's change how the app greets its users with a little help from the editor. Click **Edit**, then **Find**. Search for the phrase "Welcome to the Twitter Sentiment Analysis app."
 
