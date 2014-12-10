@@ -2,12 +2,12 @@
 
 ### December 10, 2014
 
-In the last few months we have seen a tremendous amount of positive feedback for the IBM&reg; DevOps Services Track & Plan Beta. Providing the ability to quickly track your work, monitor your team's activity, and plan your sprints without the tool getting in the way is our first priority.
+In the last few months, we have seen a tremendous amount of positive feedback for the IBM&reg; DevOps Services Track & Plan Beta. Our first priority is to provide you the ability the track your work, monitor your team's activity, and plan your sprints without the tool getting in your way. 
 
-So we are pleased to announce that the new Track & Plan feature is now generally available for all DevOps Services projects.
+In that spirit, we are pleased to announce that the new Track & Plan feature is now generally available for all DevOps Services projects.
 
 Here is an overview of the changes in Track & Plan:
-* Clicking on the **Track & Plan** button will always take you to the new Track & Plan. You don't have to explicitly enable the new Track & Plan from the Beta Features tab of the Project Settings page.
+* Clicking on the **Track & Plan** button will always take you to the new Track & Plan. You don't have to explicitly enable the new Track & Plan anymore.
 * The previous version of Track & Plan is still available for a limited period of time. To use the previous version of Track & Plan, click the down arrow on to the **Track & Plan** button and select **Project Dashboard**.
 * The Current Work functionality will be retired in favor of the new Track & Plan. Clicking on the **Current Work** tab, or using a bookmark for Current Work, will always take you to the new Track & Plan.
 
@@ -16,25 +16,22 @@ This is a significant milestone for us and we hope you continue to give us feedb
 Here are the details of what's new in Track & Plan:
 
 ## Ranking improvements
-You can now drag and drop items from the **Recently Created** view to the **Ranked List** view to rank them. The rank of the item is now also displayed in the **Sprint Planning** view.
+You can drag and drop items from the **Recently Created** view to the **Ranked List** view to rank them. The rank of the item is now also displayed in the **Sprint Planning** view.
 ![dragging work item to rank][68]
 
-Additionally, you can now click the rank number to edit it instead of dragging and dropping.
+Additionally, you can click the rank number to edit it instead of dragging and dropping.
 ![editing rank number][69]
-
-## Cross-project child work items
-The **Backlog** and **Sprint Planning** views now display cross-project child work item links. Now you can edit the values of the child work items in the same way you edit values for work items that belong to the same project.
 
 ## Work item count
 The work item count is now displayed on each view. For views with paged results, the count includes the work items that are not loaded yet. The count is updated as work items are added or removed from the view. Filtering a view also updates the work item count.
 ![count examples on My Work lanes and backlog][70] 
 
 ## Shortcut to set 'planned for' attribute
-When you create a work item, you can now set the planned for attribute by entering "~" as a keyboard shortcut.
+When you use the Quick Create feature to create a work item, you can now set the planned for attribute by entering "~" as a keyboard shortcut.
 ![Planned for attribute shortcut][71]
 
 ## Grid view is now table view
-The grid view is replaced with a sortable table view. The new table view displays items in a more condensed form. The table view has more columns to show the information that you need to quickly find what you are looking for in a large list of items. You can click the column titles to sort.
+The new table view displays more work items and additional columns in a more condensed form than the grid view. The table view makes it easier to find information in a long list of work items. 
 ![New table view][72]
 
 ## Sprint Planning
@@ -42,8 +39,7 @@ The start and end dates of the sprint now show in the title of each lane in the 
 ![Dates in Sprint Planning view][73]
 
 ## Task breakdown action now available everywhere
-
-Previously you could only access the task breakdown action from the **Backlog** or **Sprint Planning** views. Now you can access the task breakdown action from all views. Now, for example, when you are assigned a story, you can break it down to tasks without ever leaving the **My Work** view.
+Previously, you could only access the task breakdown action from the **Backlog** or **Sprint Planning** views. Now, you can access the task breakdown action from all views. When you are assigned a story, for example, you can break it down to tasks without ever leaving the **My Work** view.
 ![task breakdown in My Work view][74]
 
 
