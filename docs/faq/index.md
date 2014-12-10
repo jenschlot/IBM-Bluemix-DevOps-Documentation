@@ -1,13 +1,13 @@
 # FAQs
-##### Last modified: 28 August 2014
+##### Last modified: 05 December 2014
 
-Can't find the answer to your question here? [Check out our DevOps Services Forum](https://developer.ibm.com/answers/questions/?community=devops-services).
+Can't find the answer to your question here? [See our DevOps Services Forum](https://developer.ibm.com/answers/questions/?community=devops-services).
 ____
 
 -   [I see JazzHub is now called IBM DevOps Services. Can you tell me
     more?](#q1)
 -   [How much does it cost?](#q2)
--   [What additional help resources are available?](#q17)
+-   [What help resources are available?](#q17)
 -   [Why does my attempt to sign in to DevOps Services fail from my Rational Team
     Concert desktop client or Git client?](#rtcgit)
 -   [Why can I no longer sign in to DevOps Services by using my Jazz ID?](#login)
@@ -32,7 +32,7 @@ JazzHub has a new name! The JazzHub of today began life as an experimental devel
 academia and researchers, which was based on IBM&reg; Jazz&trade; technology. We learned a lot from that 
 experience, and since then, we implemented JazzHub again in the cloud and opened it up to everyone.
 
-We integrated the [Eclipse](http://eclipse.org/ "Eclipse") Orion Web IDE and introduced the ability to deploy applications directly to the [IBM Bluemix&trade; cloud platform](https://bluemix.net/ "Bluemix"). IBM also 
+We integrated the Orion Web IDE from [Eclipse](http://eclipse.org/ "Eclipse").  We now have the ability to deploy applications directly to the [IBM Bluemix&trade; cloud platform](https://bluemix.net/ "Bluemix"). IBM also 
 plans to expand that capability to include continuous integration, unit testing, and deployment that is based 
 on Jenkins and IBM UrbanCode. With these new capabilities and more to come, JazzHub builds on the core 
 Jazz services to provide a pretty nice environment for cloud application development. 
@@ -43,20 +43,17 @@ To reflect the expanded role of JazzHub in the IBM family, we are renaming it "I
 
 ### How much does it cost?
 
-Read the [latest information about cost](/learn/cost).
+[Get pricing information](/learn/cost).
 
 <a name="q17"></a>
 
-### What additional help resources are available? 
+### What help resources are available? 
 
-We developed the following tutorials to help you get started.
-
-- [Getting Started with Bluemix and DevOps Services by using Node.js](/tutorials/jazzeditor)
-- [Getting Started with Bluemix and DevOps Services by using Java](/tutorials/jazzeditorjava)
-- [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services](/tutorials/clients)
-- [Developing Bluemix applications in Node.js with the DevOps Services Web IDE](/tutorials/jazzweb)
-- [Developing Bluemix applications in Java with Eclipse and DevOps Services](/tutorials/jazzrtc)
-- [Getting started with tracking and planning in IBM DevOps Services](/tutorials/trackplan)
+You can find help resources for getting started and improving your skills on the [docs page](/docs):
+* [Tutorials](/docs/all#tut)
+* [References](/docs/all#ref)
+* [Key resources](/docs#key-resources)
+* [Resources by topic](/docs#topics)
 
 <a name="rtcgit"></a>
 
@@ -73,8 +70,8 @@ sign in to DevOps Services from a web browser. However, you use the combination 
 ### Why can I no longer sign in to DevOps Services by using my Jazz ID?
 
 IBM DevOps Services, formerly known as JazzHub, initially required a Jazz ID 
-to sign in. To move toward the goal of a single sign-on experience for all IBM services 
-through a single IBM id, DevOps Services now requires that Jazz users link 
+to sign in. We are moving toward the goal of a single sign-on experience for all IBM services 
+through a single IBM id. DevOps Services now requires that Jazz users link 
 their Jazz ID with an IBM id, and all web users must user their IBM id to 
 sign in.  
 
@@ -102,10 +99,10 @@ If something's not working, we'd like to hear about it. [Report a bug here](http
 
 <a name="q8"></a>
 
-### How can I provide more feedback?
+### How can I provide feedback?
 
-We love feedback. If you have a suggestion about how to make something better, [share your idea here](https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
-To ask a question, check out our [DevOps Services Forum](https://developer.ibm.com/answers/questions/?community=devops-services).
+We love feedback. If you have a suggestion, [share your idea in the JazzHub IBM DevOps Services project](https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
+If you need help, [ask a question in the DevOps Services Forum](https://developer.ibm.com/answers/questions/?community=devops-services).
 
 <a name="ibmer"></a>
 
