@@ -2,44 +2,45 @@
 
 ### December 10, 2014
 
-In the last few months, we have seen a tremendous amount of positive feedback for the IBM&reg; DevOps Services Track & Plan Beta. Our first priority is to provide you the ability the track your work, monitor your team's activity, and plan your sprints without the tool getting in your way. 
+The IBM&reg; DevOps Services Track & Plan feature is now generally available for all DevOps Services projects. You can use the Track & Plan feature to track your work, monitor your team’s activity, and plan sprints. 
 
-In that spirit, we are pleased to announce that the new Track & Plan feature is now generally available for all DevOps Services projects.
+The latest iteration of this feature includes changes that are based on feedback that people like you provided. The Track & Plan team values your continued feedback.
 
-Here is an overview of the changes in Track & Plan:
-* Clicking on the **Track & Plan** button will always take you to the new Track & Plan. You don't have to explicitly enable the new Track & Plan anymore.
-* The previous version of Track & Plan is still available for a limited period of time. To use the previous version of Track & Plan, click the down arrow on to the **Track & Plan** button and select **Project Dashboard**.
-* The Current Work functionality will be retired in favor of the new Track & Plan. Clicking on the **Current Work** tab, or using a bookmark for Current Work, will always take you to the new Track & Plan.
+Here’s what's new in the Track & Plan feature:
 
-This is a significant milestone for us and we hope you continue to give us feedback.
+## Easier access
+You don't need to enable the new Track & Plan feature. When you click **Track & Plan**, the new Track & Plan feature opens.
 
-Here are the details of what's new in Track & Plan:
+The previous version of the Track & Plan feature is still available for a limited time. To use the previous version, click the down arrow on the **Track & Plan** button and then click **Project Dashboard**.
+
+## Track & Plan replaces Current Work
+The new Track & Plan feature replaces the Current Work feature. If you click the **Current Work** tab or use a bookmark to the Current Work page, the new Track & Plan feature opens.
 
 ## Ranking improvements
-You can drag and drop items from the **Recently Created** view to the **Ranked List** view to rank them. The rank of the item is now also displayed in the **Sprint Planning** view.
+You can rank items by dragging them from the Recently Created view to the Ranked List view. The rank of the item is also displayed in the Sprint Planning view. 
 ![dragging work item to rank][68]
 
-Additionally, you can click the rank number to edit it instead of dragging and dropping.
+Instead of dragging an item to rank it, you can also click the rank number and edit it. 
 ![editing rank number][69]
 
 ## Work item count
-The work item count is now displayed on each view. For views with paged results, the count includes the work items that are not loaded yet. The count is updated as work items are added or removed from the view. Filtering a view also updates the work item count.
+The work item count is now displayed in each view. For views that have paged results, the count includes the work items that are not loaded yet. The count is updated as work items are added to or removed from the view and when filters are applied to the view.  
 ![count examples on My Work lanes and backlog][70] 
 
-## Shortcut to set 'planned for' attribute
-When you use the Quick Create feature to create a work item, you can now set the planned for attribute by entering "~" as a keyboard shortcut.
+## Shortcut for setting the planned for attribute
+When you use the Quick Create feature to create a work item, you can quickly set the planned for attribute by typing a tilde (~). 
 ![Planned for attribute shortcut][71]
 
-## Grid view is now table view
-The new table view displays more work items and additional columns in a more condensed form than the grid view. The table view makes it easier to find information in a long list of work items. 
+## New table view
+The new table view displays more work items and columns in a more condensed form than the grid view. The table view is useful when you are looking for information in a long list of work items. 
 ![New table view][72]
 
-## Sprint Planning
-The start and end dates of the sprint now show in the title of each lane in the **Sprint Planning** view.
+## Sprint Planning dates
+The start and end dates of the sprint are now shown in the title of each lane in the Sprint Planning view. 
 ![Dates in Sprint Planning view][73]
 
-## Task breakdown action now available everywhere
-Previously, you could only access the task breakdown action from the **Backlog** or **Sprint Planning** views. Now, you can access the task breakdown action from all views. When you are assigned a story, for example, you can break it down to tasks without ever leaving the **My Work** view.
+## Task breakdown action is available everywhere
+Previously, the task breakdown action was accessible only from the Backlog or Sprint Planning views. Now, you can access the task breakdown action from all views. For example, when you are assigned a story, you can break it into tasks without leaving the My Work view. 
 ![task breakdown in My Work view][74]
 
 
