@@ -27,25 +27,24 @@ The **Backlog** and **Sprint Planning** views now display cross-project child wo
 
 ## Work item count
 The work item count is now displayed on each view. For views with paged results, the count includes the work items that are not loaded yet. The count is updated as work items are added or removed from the view. Filtering a view also updates the work item count.
-![work item count on My Work][70] ![work item count Backlog][71]
-![work item count Lanes][72]
+![count examples on My Work lanes and backlog][70] 
 
 ## Shortcut to set 'planned for' attribute
 When you create a work item, you can now set the planned for attribute by entering "~" as a keyboard shortcut.
-![Planned for attribute shortcut][73]
+![Planned for attribute shortcut][71]
 
 ## Grid view is now table view
 The grid view is replaced with a sortable table view. The new table view displays items in a more condensed form. The table view has more columns to show the information that you need to quickly find what you are looking for in a large list of items. You can click the column titles to sort.
-![New table view][74]
+![New table view][72]
 
 ## Sprint Planning
 The start and end dates of the sprint now show in the title of each lane in the **Sprint Planning** view.
-![Dates in Sprint Planning view][75]
+![Dates in Sprint Planning view][73]
 
 ## Task breakdown action now available everywhere
 
 Previously you could only access the task breakdown action from the **Backlog** or **Sprint Planning** views. Now you can access the task breakdown action from all views. Now, for example, when you are assigned a story, you can break it down to tasks without ever leaving the **My Work** view.
-![task breakdown in My Work view][76]
+![task breakdown in My Work view][74]
 
 
 ### November 10, 2014
@@ -495,10 +494,8 @@ and deploy to Bluemix can be changed in Project Settings after your project is c
 [67]: /whatsnew/images/doc_landing_menu.png
 [68]: /whatsnew/images/unrankedItems.png
 [69]: /whatsnew/images/explicitRanking.png
-[70]: /whatsnew/images/count-MyWork.png
-[71]: /whatsnew/images/count-Backlog.png
+[70]: /whatsnew/images/count-all.png
+[71]: /whatsnew/images/selectSprintQuickCreate.png
 [72]: /whatsnew/images/tableView.png
-[73]: /whatsnew/images/count-Lanes.png
-[74]: /whatsnew/images/selectSprintQuickCreate.png
-[75]: /whatsnew/images/sprintPlanning.png
-[76]: /whatsnew/images/taskBreakdown.png
+[73]: /whatsnew/images/sprintPlanning.png
+[74]: /whatsnew/images/taskBreakdown.png
