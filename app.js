@@ -38,6 +38,9 @@ app.get(['/docs/reference', '/reference'], function(req, res){
   res.redirect('/docs/all/#ref');
 });
 
+app.get(['/help/faq'], function(req, res){
+  res.redirect('/docs/faq');
+});
 
 _.each(['/docs'],
        function(i) {
@@ -45,11 +48,6 @@ _.each(['/docs'],
        }
 );
 
-_.each(['/help/faq'],
-       function(i) {
-		app.get(i, routes.faq)
-       }
-);
 
 /*
  * Depending on the request path, try to load and render the corresponding markdown source.
