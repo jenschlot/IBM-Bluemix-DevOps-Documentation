@@ -1,6 +1,6 @@
 #Build and Deploy reference
 
-Last modified: 21 November 2014
+Last modified: 11 December 2014
 
 You can get your code on the web in multiple ways by using IBM® DevOps Services, which integrates with IBM® Bluemix™.
 
@@ -28,9 +28,9 @@ You can get your code on the web in multiple ways by using IBM® DevOps Services
 
 In the web IDE, if you're in the directory that contains the `manifest.yml` file, you can manually deploy whatever you're developing in the web IDE to Bluemix. Remember: Only the current state of the code in the web IDE is deployed. If you use Auto-Deploy, it deploys what is checked into the project repository.
 
-You can configure the web IDE deploy and the Auto-Deploy to use different app names so that you can use the web IDE deploy tool as a personal test environment and the Auto-Deploy as a team integration environment.
+You can deploy manually and with Auto-Deploy to different app names. Then, you can use the IDE deployment tool as a personal test environment and the Auto-Deploy as a team integration environment.
 
-Both command-line tools and the web IDE are effective way to work when you are doing rapid, solo development, but many developers want the added security of auto-deploy control. By using auto-deploy, you know that the code that is running in the application matches a known state in the repository, instead of whatever was in your working directory when you pushed.
+Both command-line tools and the web IDE are effective way to work when you are doing rapid, solo development, but many developers want the added security of auto-deploy control. By using auto-deploy, the code that is running in the application matches a known state in the repository, instead of whatever was in your working directory when you pushed.
 
 ---
 <a name="auto"></a>
@@ -51,7 +51,7 @@ Manifest files, which are named `manifest.yml` in a project's root directory, co
 
 To integrate with Bluemix, a project must contain a manifest file in its root directory. However, you are not required to deploy based on the information in the file. Everything in a manifest file can also be specified by `cf push` command arguments. To learn about the arguments, see the [Cloud Foundry Push documentation][3]. To use them, while you are in Advanced deployment mode, modify the Script field in a deployer stage's configuration menu.
 
-As an example, you can use the hostname argument, `-n` to specify a route using `cf push`. That example is helpful in projects that use multiple deployment stages: if all of the the stages try to use the same route, as specified in the project manifest, a conflict occurs. By modifying the deployment script for individual stages, you can avoid conflicts without using the manifest file.
+As an example, you can use the host name argument, `-n` to specify a route using `cf push`. That example is helpful in projects that use multiple deployment stages: if all of the stages try to use the same route, as specified in the project manifest, a conflict occurs. By modifying the deployment script for individual stages, you can avoid conflicts without using the manifest file.
 
 ---
 <a name="pipeline"></a>
@@ -62,7 +62,7 @@ Advanced deployment mode uses the IBM Delivery Pipeline for Bluemix (the Deliver
 <a name="service"></a>
 ###Bluemix and the Delivery Pipeline service
 
-To make the most of the Delivery Pipeline service's integration with Bluemix, you must add the service to your targeted Bluemix spaces. For more information about the service, see [Getting started with IBM Continuous Delivery Pipeline for Bluemix][3]. For information about how your account might be charged, see the [the Bluemix pricing overview][4].
+To make the most of the Delivery Pipeline service's integration with Bluemix, you must add the service to your targeted Bluemix spaces. For more information about the service, see [Getting started with IBM Continuous Delivery Pipeline for Bluemix][3]. For information about how your account might be charged, see [the Bluemix pricing overview][4].
 
 <a name="multi"></a>
 ###Multistage deployment
@@ -71,7 +71,7 @@ You can configure DevOps Services projects to deploy to multiple Bluemix spaces.
 
 By default, every time a build is completed or deploys in the Delivery Pipeline service, a deployment is automatically initiated. In later deployer stages, automatic deployment happens when a build is deployed to the preceding stage. 
 
-If automatic building and deployment is not enabled for your project, you can still take advantage of multistage deployment. However, you will need to manually deploy builds.
+If automatic building and deployment are not enabled for your project, you can still take advantage of multistage deployment. However, you will need to manually deploy builds.
 
 <a name="logs"></a>
 ###Logging
