@@ -1,6 +1,6 @@
 #Developing IBM Bluemix applications in Java with Eclipse and DevOps Services
 
-Last modified: 10 October 2014
+Last modified: 10 December 2014
 
 This tutorial shows you how to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM DevOps Services and the Rational&reg; Team Concert client for Eclipse. 
 Make sure that your IBM id is registered with [Bluemix](//bluemix.net). Log in to DevOps Services with your IBM id.
