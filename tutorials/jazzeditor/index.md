@@ -1,6 +1,6 @@
-#Getting Started with IBM Bluemix and IBM DevOps Services using Node.js
+#Getting Started with IBM Bluemix and IBM DevOps Services by using Node.js
 
-Last modified: 17 November 2014
+Last modified: 11 December 2014
 
 ##Create an application with IBM Bluemix
 
@@ -9,10 +9,9 @@ of applications (mobile, smart devices, web, big data). Capabilities include Jav
 application monitoring, as well as features from ecosystem partners and open source, 
 all through an as-a-service model in the cloud.
 
-Before you can use the Bluemix capabilities, you have to sign up. To sign up, go to the [IBM Bluemix home page](https://bluemix.net/) and 
-click **Sign up for a free trial**.
+Before you can use the Bluemix capabilities, you have to sign up. To sign up, go to the [IBM Bluemix home page](https://bluemix.net/).
 
-After you sign up, the [IBM Bluemix site](https://bluemix.net/) offers helpful information about Bluemix:
+After you sign up, the IBM Bluemix site offers helpful information about Bluemix:
 
 * [Getting Started with Bluemix](https://bluemix.net/docs/QuickStart.jsp)
 * [Bluemix Overview](https://bluemix.net/docs/BlueMixIntro.jsp)
@@ -30,8 +29,8 @@ By default, the space is `dev` and the organization is the project creator's use
 For example, if `bob@example.com` logs in to Bluemix for the first time, Bob's active space is `dev` and Bobs organization 
 is `bob@example.com`.
 
-If you create additional organizations or spaces in Bluemix, 
-remember to use the same ones as you follow our tutorials. If you stick to the default selections, you should be just fine.
+If you create more organizations or spaces in Bluemix, 
+remember to use the same ones as you follow the tutorials. If you stick to the default selections, you will be fine.
 
 Click **CREATE AN APP** to choose particular runtimes 
 (such as Java or Ruby), services (such as IBM DataCache or MongoDB), and boilerplates, 
@@ -43,7 +42,7 @@ its description.
 As you can see, the application is a simple Node.js web server that includes example code 
 that demonstrates the IBM DataCache service. 
 
-At this point, you are a click away from a running application:
+You are a click away from a running application:
 
 1. Complete the **Name** and **Host** fields. The name is a descriptive name to identify the application on the 
 Bluemix dashboard. The host is a unique URL where you access your app. 
@@ -61,7 +60,7 @@ but when it does, the app dashboard opens and shows that it's running.
 
 ![Bluemix Application tile](/tutorials/jazzeditor/images/bm-app-panel.png)
 
-Click the URL on the the application dashboard, which
+Click the URL on the application dashboard, which
 takes you to your already Internet-visible, running application.
 
  
@@ -108,7 +107,7 @@ To see the status of the deployed app, go to the Bluemix application dashboard a
 
 ![CODE button](/tutorials/jazzeditor/images/bm-code-button.png)
 
-Your new project opens in the Web IDE. This page contains a lot of useful information that you can review later. To check the status of the application, 
+Your new project opens in the web IDE. The project page contains useful information that you can review later. To check the status of the application, 
 click **BUILD & DEPLOY**.
 
 ![Web IDE](/tutorials/jazzeditor/images/orion.png)
@@ -117,12 +116,12 @@ A page opens where you can configure and see the deployment status for the proje
 
 ![DevOps Services auto deploy page](/tutorials/jazzeditor/images/jh-auto-deploy.png)
 
-**Tip:** If you're curious, the **ADVANCED** option 
-enables you to add a build step, which is useful for Java applications, and to control 
+**Tip:** With the **ADVANCED** option, 
+you can add a build step, which is useful for Java applications. You can also control 
 additional deployment options. However, those options are more advanced than this basic workflow.
 
-Notice the warning message on this page about outgoing changes. These are project
-files that are created when you created your Git repository project. 
+Notice the warning message about outgoing changes. The outgoing files are project
+files that are created when you create a Git repository project. 
 You'll check in those files later in this tutorial.
 
 To change the deployment settings, you click **CONFIGURE**. To manage your application in 
@@ -135,14 +134,14 @@ You use the Git URL in Git commands. You can copy this URL now or return to the 
 ##Push changes to the Git repository by using the command line
 
 You now have a Git repository that contains example code. You can use several tools to work with Git, including desktop IDEs 
-and the browser-based Web IDE, but you can also use the command line. 
+and the browser-based web IDE, but you can also use the command line. 
 
 **Note**: If you need to install Git, 
 see [Installing Git](/tutorials/clients#installing_git).
 
-Browse the [Git documentation](http://git-scm.com/doc) to learn more about working with Git.
+To learn more about working with Git, browse the [Git documentation](http://git-scm.com/doc).
 
-Start by cloning the local repository using the Git URL from either the Bluemix application dashboard 
+Start by cloning the local repository by using the Git URL from either the Bluemix application dashboard 
 or the BUILD & DEPLOY page:
 
 
@@ -158,7 +157,7 @@ or the BUILD & DEPLOY page:
 
 
 Next, change the application source code to see what happens. Change to your Git clone directory. 
-The views folder contains a file named `index.ejs`. This file implements the main page for the example. 
+The views folder contains a file that is named `index.ejs`. This file implements the main page for the example. 
 Change this file, for example, modify the title that is displayed.
 
 ![Changing the title](/tutorials/jazzeditor/images/cli-edit-file.png)
@@ -184,8 +183,8 @@ Then, change to your Git clone directory and do a Git add, commit and push as sh
     To https://hub.jazz.net/git/jazzhubdemouser/mycoolwebappdemo
     	43c6bc7..bf26680 master -> master
 
-If you go back to the Web IDE and check the 
-BUILD & DEPLOY page, you should see something similar to this image:
+If you go back to the web IDE and check the 
+BUILD & DEPLOY page, you will see something similar to this image:
 
 ![Auto-deploy in action](/tutorials/jazzeditor/images/jh-auto-deployed.png)
 
@@ -198,22 +197,22 @@ that the title was updated. You might need to refresh your browser to see the up
 
 Click the link in the **Deploy to** field. The Bluemix application dashboard opens. 
 When you click the URL on the application dashboard, it takes you to your updated running application.
-To get to your running application faster, just click the URL on the same line as the 
+To get to your running application faster, click the URL on the same line as the 
 **Deploy to** field.
 
 **Tip**: The original title was Application Example: run DataCache using REST API. 
 
 
-![Application page showing new title](/tutorials/jazzeditor/images/app-new-title.png)
+![Application page with new title](/tutorials/jazzeditor/images/app-new-title.png)
 
 You can continue to modify the example code and push the changes to the 
 Git repository as often as you like. If your project and scope of work grows, you can add more people to the 
 project and everyone can push changes to the repository. Standard repository operations and 
-auto-deployment are all you need to ensure that the application's always running.
+auto-deployment are all that you need to ensure that the application's always running.
 
 
 ---
-##Push changes to the Git repository by using the Web IDE
+##Push changes to the Git repository by using the web IDE
 
 In addition to auto-deployment, IBM DevOps Services provides many other useful capabilities 
 for application development:
@@ -228,25 +227,25 @@ for application development:
 To learn about all the features, see the [IBM DevOps Services website](https://hub.jazz.net/learn). 
 
 You've already used the command line to modify your code and push it to the repository. 
-Now you can use the Web IDE in DevOps Services to do the same thing.
+Now you can use the web IDE in DevOps Services to do the same thing.
 
-If you go back to the deployment page, you can click **EDIT CODE** to access the complete, integrated Web IDE that's 
+If you go back to the deployment page, you can click **EDIT CODE** to access the complete, integrated web IDE that's 
 based on the [Eclipse Orion](http://orion.eclipse.org/) open-source project. 
 
-Here's what the Web IDE looks like with the example project open:
+Here's what the web IDE looks like with the example project open:
 
 ![Orion at DevOps Services](/tutorials/jazzeditor/images/orion.png)
 
 From this environment, you can edit files with color syntax support for multiple languages, including HTML, 
-CSS, JavaScript, Ruby, Python, and more. For some languages, such as JavaScript, the Web IDE also supports 
-syntax checking and code completion, both for standard language constructs and for the services provided 
-by Bluemix. To use Content Assist, just press **Ctrl + Space**. For example, this image shows code completion for the standard Node.js express module:
+CSS, JavaScript, Ruby, Python, and more. For some languages, such as JavaScript, the web IDE also supports 
+syntax checking and code completion, both for standard language constructs and for the services that are provided 
+by Bluemix. To use Content Assist, press **Ctrl + Space**. For example, this image shows code completion for the standard Node.js express module:
 
 ![Orion showing express completions](/tutorials/jazzeditor/images/completion.png)
 
-To try working in the Web IDE, you can make another change to your application. 
+To try working in the web IDE, make another change to your application. 
 But, before you do, you must merge the title change that you made with the command line
-so that it shows in the Web IDE. You merge from the Git Repository page. 
+so that it shows in the web IDE. You merge from the Git Repository page. 
 
 ![Orion Git repository icon](/tutorials/jazzeditor/images/orion-git-status.png)
 
@@ -254,7 +253,7 @@ On the Git Repository page, **SYNC** the change that you made to the title.
 
 ![Orion Git merge](/tutorials/jazzeditor/images/orion-git-merge.png)
 
-Next, click the pencil icon in the left bar to get back to the edit page, and then use the navigation tree to find the file that you modified 
+Next, click the pencil icon in the left bar to get back to the edit page. Then use the navigation tree to find the file that you modified 
 before (for example, `views/index.ejs`) and edit it in the integrated editor.
 
 ![Orion editing index](/tutorials/jazzeditor/images/orion-really-cool.png)
@@ -276,12 +275,12 @@ Push the changes:
 
 ![Orion Git push](/tutorials/jazzeditor/images/orion-push.png)
 
-These are the same steps that you performed with the command line. 
+These steps are the same steps that you performed with the command line. 
 To see that your app was updated again, 
-go to the BUILD & DEPLOY page, wait until it shows that the 
-application was deployed again, and then click the URL link next to the value in the **Deploy to** field.
+go to the BUILD & DEPLOY page and wait until it shows that the 
+application was deployed again. Then click the URL link next to the value in the **Deploy to** field.
 
-When you click the URL you see your updated running application.
+When you click the URL, you see your updated running application.
 
 
 ![Our really cool app](/tutorials/jazzeditor/images/really-cool.png)
@@ -291,15 +290,15 @@ When you click the URL you see your updated running application.
 
 In this workflow, you only used the simple deploy features with Bluemix. 
 For more control over deployment, you can use the advanced options. 
-Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can also manually deploy 
-applications directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the Web IDE, you can click **DEPLOY** to manually deploy your code to Bluemix. 
+Because Bluemix is based on Cloud Foundry, you can also manually deploy 
+applications directly to Bluemix by using the standard cf and gcf command-line tools. Similarly, in the web IDE, you can click **DEPLOY** to manually deploy your code to Bluemix. Learn more about [Cloud Foundry](http://cloudfoundry.com/).
 
-**Note**: The **DEPLOY** button in the Web IDE deploys the current state of the code in your Web IDE, whereas auto-deploy deploys the code that is
+**Note**: The **DEPLOY** button in the web IDE deploys the current state of the code in your web IDE, whereas auto-deploy deploys the code that is
 checked in to the repository.
 
-Both the command-line tools and the Web IDE are effective for rapid, 
+Both the command-line tools and the web IDE are effective for rapid, 
 solo development, but the auto-deploy feature adds the security of controlling what is pushed, especially in team environments. 
-With auto-deployment, you always know that the code running in the application matches 
+With auto-deployment, you always know that the code that is running in the application matches 
 a known state in the repository, instead of whatever was in your working directory 
 when you pushed changes.
 
@@ -307,12 +306,12 @@ when you pushed changes.
 ---
 ##Summary
 
-You should now have a good overview of how to get started with Bluemix and DevOps Services using Node.js. 
+You now have a good overview of how to get started with Bluemix and DevOps Services by using Node.js. 
 
 You've seen how to create and run a Node.js web app with Bluemix. 
 With one click, you created a Git repository, loaded it with example code, and automatically 
 deployed the application. In minutes, you changed the code, pushed the changes to the Git repository by using both the command line and the 
-Web IDE, automatically built and deployed the application, checked the deployment status, 
+web IDE, automatically built and deployed the application, checked the deployment status, 
 and ran the app to show your changes. 
 
 
