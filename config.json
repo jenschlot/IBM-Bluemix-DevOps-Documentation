@@ -2,6 +2,26 @@
 	"jazzhub": {
 		"url" : "https://beta3.hub.jazz.net/"
 	},
+	"appBaseRoutes": [
+		{
+			"routeName": "/docs"
+		},
+		{
+			"routeName": "/tutorials"
+		},
+		{
+			"routeName": "/support"
+		},
+		{
+			"routeName": "/maintenance"
+		},
+		{
+			"routeName": "/features"
+		},
+		{
+			"routeName": "/help"
+		}
+	],
 	"content": [
 		{
 			"uri_prefix": "/tutorials",

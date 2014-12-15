@@ -114,6 +114,23 @@ _.each(
 );
 
 /*
+	If the requested url begins with the routes covered by the app but there is no page to render
+	above, then render a 404 from this app. This will prevent a beta3/qa/prod redirect loop
+*/
+_.each(
+	config.appBaseRoutes,
+	function (baseRoute) {
+		console.log(baseRoute.routeName);
+		app.use(baseRoute.routeName, 
+			function (req, res, next) {
+				res.status(404);
+				res.sendfile(path.join(__dirname, 'views', '404_template.html'));
+			}
+		);
+	}
+);
+
+/*
  * If nothing was rendered, defer to an arbitrary JazzHub server.  Because this app will be deployed
  * behind a proxy which only directs the routes above to it, the handler below will never 
  * be called while the app is on beta3, qa, or prod.  It's only used for local testing while the app
