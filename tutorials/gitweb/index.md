@@ -2,7 +2,7 @@
 
 Last modified: 27 October 2014
 
-If you want to learn more about managing your Git repository, an open source code management system, with the IBM&reg; DevOps Services web IDE, complete this tutorial. The tutorial doesn't cover all of the possible Git commands in the DevOps Services web IDE, but you can practice creating a change on a separate branch, testing the change, and adding the change to the master branch. If you need help with specific commands, see the [Git reference](/../docs/reference/git).  If you want to try to work locally by using the command line, [read about setting up a local work environment](../../docs/reference/gitclient).
+If you want to learn more about managing your Git repository, an open source code management system, with the IBM&reg; DevOps Services web IDE, complete this tutorial. The tutorial doesn't cover all of the possible Git commands in the DevOps Services web IDE, but you can practice creating a change on a separate branch, testing the change, and adding the change to the master branch. If you need help with specific commands, see the [Git reference](/../docs/reference/git).  If you want to try to work locally by using the command line, see [Work locally with IBM DevOps Services projects and Git source control](../../docs/reference/gitclient).
 
 ---
 ## Contents
@@ -11,7 +11,7 @@ If you want to learn more about managing your Git repository, an open source cod
  * [Fork a project](#fork_a_project)
  * [Create a branch](#create_a_branch)
  * [Deploy a new Bluemix app](#deploy_a_new_bluemix_app)
- * [Change and test the code](#change_and_test_the_code)
+ * [Change and test the code](#change_and_test_the_code)c
  * [Deliver a change to the repository](#deliver_a_change_to_the_repository)
  * [Rebase to add changes to the master branch](#add_changes_to_the_master_branch)
  * [Summary](#summary)
@@ -116,7 +116,7 @@ You save your changes to your DevOps Services project.  Because this project use
 
 1. Click **Git Repository**.
 
-1. In the Working Directory Changes pane, select the **Select All** checkbox.
+1. In the Working Directory Changes pane, select the **Select All** check box.
 
 1. In the **Enter the commit message** field, enter a descriptive commit message, such as `Add deployment information to manifest and updated Fisherman's Feast price`.
 ![Sample commit message][6]
@@ -155,7 +155,7 @@ To rebase, you must compare the contents of one branch to another by modifying t
 
 1. Next to origin, click **>** to expand the origin pane.
 
-1. Click **master** to compare the contents of the your local copy of the master branch and the remote copy of the master branch. 
+1. Click **master** to compare the contents of your local copy of the master branch and the remote copy of the master branch. 
 
 1. Confirm that the commit that you made on the testbranch branch is visible in the OUTGOING pane.
 
