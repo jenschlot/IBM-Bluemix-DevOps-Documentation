@@ -22,7 +22,7 @@ No matter where you like to code, use this quick reference to do common tasks.
 
 ##[Commits](#commits)
 * [Commit files and push to the remote branch](#commit_files_to_the_remote_branch)
-* [Link a commit to a DevOps Services work item](#link_commit)
+* [Link a commit to a work item](#link_commit)
 * [View the commit history](#view_the_commit_history)
 * [Compare changes that a commit introduced](#compare_changes_that_a_commit_introduced)
 * [Modify the last commit](#modify_the_last_commit)
@@ -198,8 +198,8 @@ When you work in the web IDE, both your local and remote repositories are hosted
 
 ---
 <a name="link_commit"></a>
-### Link a commit to a DevOps Services work item
-Add a work-item keyword and number to your Git commit message to link the commit to a work item hosted in a Git project hosted at DevOps Services. 
+### Link a commit to a work item
+Add a work-item keyword and number to your Git commit message to link the commit to a Track & Plan work item for a Git project hosted at DevOps Services. 
 
 1. When writing a Git commit message, specifying a particular work item. The message format is `<work item keyword> <number>`.
  * For example, the commit message `Implements story 32` links a commit to story item 32.
