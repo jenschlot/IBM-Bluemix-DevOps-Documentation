@@ -2,7 +2,7 @@
 
 Last modified: 9 December 2014
 
-If you store your code in a Git repository that is hosted by IBM&reg; DevOps Services, you have options for working with code. If you want to work on a local workstation, you can use Git terminal commands to manipulate the contents of your hosted repository. If you want to use the web-integrated development environment (IDE), you don't need to use the Git terminal: you can run many common Git commands in the web IDE.  
+If you store your code in a Git repository that is hosted by IBM&reg; DevOps Services, you have options for working with code. If you want to work on a local machine, you can use Git terminal commands to manipulate the contents of your hosted repository. If you want to use the web integrated development environment (IDE), you never have to use the Git terminal: you can perform many common Git commands in the web IDE.  
 
 To access Git commands from within the web IDE, click the Git Repository icon (<img src="./images/gitrepository.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">).
 
@@ -16,7 +16,7 @@ No matter where you like to code, use this quick reference to do common tasks.
 
 ##[Branches](#branches)
 * [Create a local branch](#create_a_local_branch)
-* [Work on a local branch](#start_working_on_a_local_branch)
+* [Start working on a local branch](#start_working_on_a_local_branch)
 * [Delete a local branch](#delete_a_local_branch)
 * [Update a local branch with changes from the remote branch](#update_a_local_branch_with_changes_from_the_remote_branch)
 
@@ -49,12 +49,12 @@ No matter where you like to code, use this quick reference to do common tasks.
 #### DevOps Services web IDE
 When you use a hosted Git repository with your DevOps Services project, you work with both your local and remote repositories through the web IDE.
 
-1. Click **EDIT CODE** (<img src="./images/editcode.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">) and get coding!
+1. Click **EDIT CODE** (<img src="./images/editcode.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">) and start working.
 
 #### Git terminal
-If you want to code and test locally, set up a local repository.
+If you want to code and test on a local machine, set up a local repository.
 
-**Before you begin**: If Git is not installed on your computer, follow [these instructions][1].
+**Before you begin**: If you have not installed Git, follow [these instructions][1].
 
 1. Determine which directory to store your local repository in. If necessary, you can create a directory.
 
@@ -72,7 +72,7 @@ and repeat the steps by using a modified repository address: https://your_jazz_i
 
 1. After your repository replicates, move into your new local repository.  
  
-1. Work as normal.
+1. Start working.
 
 ---
 <a name="replace_your_origin _repository"></a>
@@ -123,7 +123,7 @@ When you work in the web IDE, both your local and remote repositories are hosted
 
 ---
 <a name="start_working_on_a_local_branch"></a>
-### Work on a local branch
+### Start working on a local branch
 
 #### DevOps Services web IDE
 1. Click the **REFERENCE** field
@@ -205,7 +205,7 @@ When you work in the web IDE, both your local and remote repositories are hosted
 ####Git terminal
 1. Type `git log` and press Enter. 
 
-2. Navigate through the committer's commits.  
+2. Navigate through the committer commits.  
  * To view more entries, press Page Down.  
  * To view previous entries, press Page Up.
 
@@ -256,7 +256,7 @@ When you work in the web IDE, both your local and remote repositories are hosted
 2. Type `git commit --amend` and press Enter.
 
 3. In your text editor, accept or modify the commit message.  
-**Note**: To save your commit message and close Vim, which might be your default text editor, press Esc, type `:wq`, and press Enter.
+**Note**: To save your commit message and close Vim, which may be your default text editor, press Esc, type `:wq`, and press Enter.
 
 ---
 <a name="tag_a_commit"></a>
