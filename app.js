@@ -4,6 +4,12 @@ var routes = require('./routes'); 		// Load non-trivial route handlers.
 var proxy = require('proxy-middleware');
 var url = require('url');
 
+var nconf = require('nconf');
+var cookieParser = require('cookie-parser');
+var headerAuth = require('./lib/middleware/header-auth.js');
+
+nconf.file('./config/app.json');
+
 var _ = require('underscore'); 			// Utility functions
 var config = require('./config.json');  	// Configuration file.
 var consolidate = require('consolidate');	// Provides a consistent template engine interface.
@@ -28,6 +34,9 @@ app.set('port', port)				// Store configuration in the app for later retrieval.
    .set('view engine', 'dust')			// Templates will be named *.dust.
    .engine('dust', consolidate.dust)		// Use dust as the template engine.
    .use(require('morgan')('dev')); 		// Log requests.
+
+app.use(cookieParser());
+app.use('/docs', headerAuth);
 
 
 app.get(['/tutorials', '/tutorials/landing'], function(req, res){

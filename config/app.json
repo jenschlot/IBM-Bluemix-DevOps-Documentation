@@ -1,0 +1,13 @@
+{
+	"config": {
+		"authCookieNames": [ "LtpaToken2_PSDEV", "LTPAToken_SSO_PSProd", "LtpaToken", "LtpaToken2", "LtpaToken2_PSSTG", "JSESSIONID" ],
+		"compositionServiceEndpoint": "https://beta3.hub.jazz.net/api/v1/composition",
+		"disableHub": false,
+		"guestUserData": {
+			"userId": "jazzhubguest",
+			"name": "Jazzhub Guest",
+			"email": "hub@jazz.net"
+		},
+		"userServiceEndpoint": "https://beta3.hub.jazz.net/manage/service/com.ibm.team.jazzhub.common.service.ICurrentUserService"
+	}
+}
