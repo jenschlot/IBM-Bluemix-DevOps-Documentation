@@ -120,7 +120,6 @@ _.each(
 _.each(
 	config.appBaseRoutes,
 	function (baseRoute) {
-		console.log(baseRoute.routeName);
 		app.use(baseRoute.routeName, 
 			function (req, res, next) {
 				res.status(404);
