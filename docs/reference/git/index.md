@@ -199,12 +199,17 @@ When you work in the web IDE, both your local and remote repositories are hosted
 ---
 <a name="link_commit"></a>
 ### Link a commit to a work item
-Add a work-item keyword and number to your Git commit message to link the commit to a Track & Plan work item for a Git project hosted at DevOps Services. 
+Add a work-item keyword and number to your Git commit message to link the commit to a Track & Plan work item for a Git project hosted at DevOps Services. This feature is also available if your project is hosted on GitHub. To use it, though, you'll need to do some [additional configuration][3].
 
-1. When writing a Git commit message, specifying a particular work item. The message format is `<work item keyword> <number>`.
+1. When writing a Git commit message, specify a particular work item. The message format is `<work item keyword> <number>`.
  * For example, the commit message `Implements story 32` links a commit to story item 32.
-
-Valid work item keywords are: `adoption item, bug, defect, epic, impediment, item, retrospective, story, task, track build item,` and `work item.`
+ * Valid work item keywords: `adoption item, bug, defect, epic, impediment, item, retrospective, story, task, track build item,` and `work item`. 
+2. Push the commit. After it's pushed, a linked commit will appear on a work item's **LINKS** tab.
+3. Alternatively, you can link a commit that was already pushed:
+	1. Open your project's Overview page.
+	2. Click **GIT LOG**.
+	3. Open the commit you want to link to a work item.
+	4. Click **Link Work Item**.
 
 ---
 <a name="view_the_commit_history"></a>
@@ -472,3 +477,4 @@ Only project owners can delete branches from origin.
 
 [1]: ../gitclient/#command_line_git
 [2]: https://hub.jazz.net
+[3]: https://hub.jazz.net/gitHook/ryehle/GitHubSentiment
