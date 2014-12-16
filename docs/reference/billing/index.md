@@ -66,5 +66,7 @@ To see your usage details, click **Profile Settings (<img src="images/bm-profile
 ---
 ##Billing terminology
 
-Several terms pertain to billing; for example, *application instance* and *application user*. To become familiar with the billing terminology, see the [IBM DevOps Services Terms of Use](https://hub.jazz.net/terms)
+Several terms pertain to billing; for example, *application instance* and *application user*. To become familiar with the billing terminology, see the [IBM DevOps Services Terms of Use](https://hub.jazz.net/terms).
+
+
 &copy; Copyright IBM Corporation 2013, 2014.
