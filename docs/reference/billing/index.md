@@ -3,7 +3,7 @@
 All IBM&reg; DevOps Services projects include an allowance of free services. If you exceed your allowances, your work is interrupted. To avoid interruptions, set up a Bluemix billing account and configure your services.
 
 ---
-### Free allowance
+## Free allowance
 If you plan to use the Delivery Pipeline and Track & Plan services beyond the free allowance, you must configure both services. Each service requires a separate billing configuration.
 
 ### Table 1. Billing threshold details
