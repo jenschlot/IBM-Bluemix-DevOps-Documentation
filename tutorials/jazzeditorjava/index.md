@@ -2,166 +2,171 @@
 
 Last modified: 11 December 2014
 
-##Create an application with IBM Bluemix
+##Create an app using IBM Bluemix
 
-*[IBM® Bluemix™][1] is an open-standard, cloud-based platform for building, managing and running apps of all types (web, mobile, big data, new smart devices). Capabilities include Java™, mobile backend development, application monitoring, as well as capabilities from ecosystem partners and open source, all through an as-a-service model in the cloud.*
+IBM® Bluemix™ is an open-standard, cloud-based platform for building, managing and running apps of all types: web, mobile, big data, smart devices. The Bluemix capabilities include Java™, mobile back-end development, application monitoring, and capabilities from ecosystem partners and open source, all through an as-a-service model in the cloud.
 
-If you aren't registered already, you'll need to do so at the [Bluemix home page][1]. Click **Sign up for free** to get set up. 
+If you aren't registered, [sign up for free on the Bluemix home page][1].
 
-![Sign up for a free][2]
+![Sign up for free][2]
 
-After you register, there is lots of helpful information available on the [Bluemix][1] site, such as ...
+After you register, you can find helpful information on the [Bluemix][1] site:
 
 * [Getting Started with IBM Bluemix](https://bluemix.net/docs/QuickStart.jsp)
 * [IBM Bluemix Overview](https://bluemix.net/docs/BlueMixIntro.jsp)
 
-... but if you prefer to _try_ things rather than read about them, follow along. You can have a sample application up and running in minutes.
+If you prefer to try things rather than read about them, try this tutorial. You can set up and run a sample app in minutes.
 
-You can start by signing in to [Bluemix][1], which takes you to the _Dashboard_:
+[Sign in to Bluemix][1]. The dashboard opens:
 
 ![Bluemix Dashboard][6]
 
-The dashboard gives you an overview of the active Bluemix space for your organization. By default, the space is `dev` and the organization is the project creator's user name. For example, if `sara@example.com` logs in to Bluemix for the first time, their active space is `dev` and their organization is `sara@example.com`.
+The dashboard shows an overview of the active Bluemix space for your organization. By default, the space is `dev` and the organization is the project creator's user name. For example, if `sara@example.com` signs in to Bluemix for the first time, the active space is `dev` and their organization is `sara@example.com`.
 
-If you create extra organizations or spaces in Bluemix, remember to use the same ones as you follow these tutorials. If you stick to the default selections, you will be fine.
+If you create extra organizations or spaces in Bluemix, be sure to use the same ones as you follow these tutorials. Use the default selections.
 
-Click **CREATE AN APP** to choose different kinds of runtimes (like Java or Ruby), services (such as DataCache or Mongo), and Boilerplates, which are application templates that get you started quickly. Select the **Java Web Cache Starter** Boilerplate:
+Click CREATE AN APP to select from several run times, such as Java or Ruby; services, such as DataCache or Mongo; and boilerplates, which are application templates. 
+
+Select the Java Web Cache Starter boilerplate:
 
 ![Bluemix Java Web Starter][7]
 
-As you can see, the application is a simple Java Web server that includes some example code that demonstrates the IBM DataCache and Monitoring and Analytics services. You'll use this Boilerplate in this tutorial. 
+As you can see, the application is a simple Java Web server that includes example code that demonstrates the IBM DataCache and Monitoring and Analytics services.   
 
-You're a few clicks away from having a running application.
+1. In the “Create an app” section, enter a name for your app.
+2. If Bluemix indicates that a host route is taken or if you want a host that is different from the app name, enter a different host. The host partially defines the URL (the rest comes from Bluemix itself) that is used to access your new app. This URL must be unique because the URL space is shared among all users.
+3. Leave the **Space** field as is. 
+4. In the **Selected Plans** section, make sure that the **Liberty for Java™** field is set to **Default** and that the **Datacache** and **Monitoring and Analytics** fields are set to Free.
 
-In the *Create an app* panel, enter a **Name** for your app. Enter a different host if Bluemix indicates that a host route is taken (or if you want a host that's different from the app name). Leave the **Space** field as it is. 
 ![Bluemix Create App dialog][8]
 
-The **Name** is a simple name that you can use to find this application the next time you come back to the Bluemix dashboard. **Host** partially defines the URL (the rest comes from Bluemix itself) that is used to access your new app from the Internet. As you probably guessed, this URL must be unique, since the URL space is shared among all users. In *Selected Plans*, leave **Liberty for Java™** as *Default*, and **Datacache** and **Monitoring and Analytics** as *Free.*
-
-That's all there is to it! You'll be taken to your app's overview page. It takes a short while for the application to start, but when it does, click your app's route to see it running:
+Click CREATE. Your app's overview page opens. After a moment, the application starts, and you can click your app's route to see it run:
 
 ![A running web application][10]
 
-It's great that the application is running, but it's not especially interesting if you don't have a way to publish updates to it. 
+Although it's great that the application is running, it's not interesting if you can’t publish updates to it. 
 
-There are lots of ways you can work with your application code, but one of the slickest is to use something that is called _auto-deploy_. With auto-deploy, you can modify the code that is running in your app by pushing the changes to a Git repository. The mechanism that implements auto-deploy is provided by the IBM DevOps Services powered by JazzHub Build &amp; Deploy support, but more about that later.
+You can work with your application code in many ways. For example, with auto-deploy, you can modify the code that runs in your app by pushing the changes to a Git repository. The mechanism that implements auto-deploy is provided by the IBM DevOps Services, but more about that later.
 
-To enable automatic deployment, click **ADD GIT** on your app's overview page. With a click, you get a Git repo that's populated with the code from the sample Java app.
+To enable automatic deployment, on your app’s overview page, click **ADD GIT**. You get a Git repo that is populated with the code from the sample Java app.
 
 ![Add Git][11]
 
-You might be asked to enter your password because DevOps Services must verify that it can act on your behalf, so enter your IBM id password and click **Sign In**.
+You might be prompted to enter your password because DevOps Services must verify that it can act on your behalf. 
 
 ![DevOps Services sign in page][12]
 
-*Note: The first time that you access DevOps Services, you might need to create a "Jazz™ ID" and link it to your IBM id. A Jazz ID is a kind of "short name" that is used in several places, including the URL for the repository that is about to be created for you. Follow the instructions in the dialog. You'll only ever see it once.*
+**Note:** The first time that you access DevOps Services, you might need to create a Jazz™ ID and link it to your IBM id. A Jazz ID is a kind of short name that is used in several places, including in the URL for the repository that is about to be created for you. Follow the instructions in the window. You'll see it only once.
 
-Make sure the box to populate the Git repo with the starter application package and automatically deploy the app is checked.
+Make sure that the check box to populate the Git repo with the starter application package and automatically deploy the app is selected.
 
 ![Create Git repo dialog][13]
 
-Success! You've created a Git repo, loaded it with the example code, and deployed the app, all in a few clicks.
+You created a Git repo, loaded it with the sample code, and deployed the app.
 
 ![Git repo success message dialog][14]
 
-There's just one more thing to do before you move on to DevOps Services: you need to enable the Delivery Pipeline service in Bluemix to take advantage of some of the fancier build and deployment capabilities later on. 
+Before you move to DevOps Services, do one more thing: enable the Delivery Pipeline service in Bluemix so that you can use several of the build and deployment capabilities later. 
 
-To add it:
-1. Click **ADD A SERVICE** from your new app's overview.
-2. Choose **Delivery Pipeline** in the *DevOps* category. 
-3. Don't worry about *Space* or *App*. Click **CREATE**.
+1.	On the new app’s overview page, click **ADD A SERVICE**.
+2.	For the DevOps category, select **Delivery Pipeline**. 
+3.	Leave the settings for Space and App as is. 
+4.	Click **CREATE**.
 
-The Delivery Pipeline service will be added to your Bluemix space, ready to spring into action as you need it later.  
+The Delivery Pipeline service is added to your Bluemix space, so it will be ready when you need it later. 
 
-What if you want to see the app's code, now, or configure how it deploys? These things are done in IBM DevOps Services. Return to the dashboard, click your app's tile to open its overview, and then click **EDIT CODE**.
+Want to see the app's code or configure how it deploys? Use IBM DevOps Services. Return to the dashboard, click your app's tile, and then click **EDIT CODE**.
 
 ![CODE button][15]
 
 ---
-##DevOps Services
+##Build and deploy using DevOps Services
 
-Your new project opens in the DevOps Services web IDE. When you clicked "Add Git Integration" in Bluemix, you chose to populate a new Git repository with the code that's now in front of you. There is lots of useful information here, which you can peruse later, but for now, you will see how the code you have here is pushed out to Bluemix. Click **BUILD &amp; DEPLOY**.
+Your new project opens in the DevOps Services web IDE. When you clicked **Add Git Integration** in Bluemix, you populated a new Git repository with the code that you now see. The repository contains lots of useful information, which you can peruse later. For now, see how the code is pushed to Bluemix. 
+
+Click **BUILD & DEPLOY**.
 
 ![Web IDE][16]
 
-You'll arrive at the **Simple** page. With this deployment option, the contents of the Git repository are deployed directly to Bluemix. There is no intermediate build step.
+The Simple page opens. With this deployment option, the contents of the Git repository are directly deployed to Bluemix. 
 
-A deployment of your sample app is already started. When it's running, it's available at the URL linked after **Deploy to**, while you can click the app name to view its overview on Bluemix.
+A deployment of your sample app is already started. When it's running, the app is available at the URL that is shown next to “Deploy to.” You can view the app’s overview on Bluemix by clicking the app name.
 
 ![DevOps Services auto deploy page][17]
 
-You might be wondering how DevOps Services deployed a Java application directly from source, and well, it's not: this project is designed to help you get a sample application to run on Bluemix as quickly as possible. The app is already compiled, and the sample .war file is in the root directory.
+You might be wondering how DevOps Services deployed a Java application directly from the source. It didn’t. The purpose of this project is to help you get a sample app to run on Bluemix as quickly as possible. The app is already compiled and the sample .war file is in the root directory.
 
-When you change things, you'll need to build the app again, and the Simple deployer doesn't do that. It's time to change the switch to **Advanced**. Click it!
+When you make changes to your app, you must build it again, which is a job for the Advanced deployer. Click **ADVANCED**.
 
 ---
-## Configuring Advanced Build &amp; Deploy
+##Configuring Advanced Build &amp; Deploy mode
 
-When you switch from Simple to Advanced mode, Pipeline automatically generates a configuration for your project. You will configure Advanced Build & Deploy from scratch, though, so before you go further:
+When you switch from Simple to Advanced mode, the Delivery Pipeline service automatically generates a configuration for your project. However, you first must configure Advanced Build &amp; Deploy:
+
+On the rightmost tile, click the gear icon, which represents a stage that is named `dev` by default. 
 
 ![A preconfigured Pipeline][52]
 
-1. Click the gear icon on the rightmost tile, which represents a stage that is named `dev` by default. 
-2. On the *Deployer Stage Configuration* page, click **DELETE**. Click **OK** when the confirmation message appears.
-3. Click the gear icon on the Builder tile.
-4. On the *Builder Configuration* page, click **RESET**. Click **OK** when the confirmation message appears.
+1. On the Deployer Stage Configuration page, click **DELETE**. When the confirmation message is shown, click **OK**.
+2. On the Builder tile, click the gear icon.
+3. On the Builder Configuration page, click **RESET**. When the confirmation message is shown, click **OK**.
 
-With the Advanced option, also known as Pipeline, you can configure a builder to compile and package your application. You can then configure a deployer to deploy the application to Bluemix with any additional options needed.
+
+With the Advanced option, which is also known as the Delivery Pipeline, you can configure a builder to compile and package your application. Then, you configure a deployer to deploy the application to Bluemix.
 
 ![Unconfigured Advanced Build & Deploy page][45]
 
-First, configure the builder. Click **add a builder**. The *Add Builder* configuration page will open. 
+Configure the builder:
+
+  1. Click **add a builder**. The Add Builder configuration page opens. 
+  2. For this project, use the default settings: build with Ant and pull from the master branch of your Git repo. The builder will find the build.xml file in the root directory and run it during the build. The files that are needed for deployment are copied into the build archive directory. The build archive directory defaults to the same directory as the build script path. Make sure that the check box for automatic builds is enabled so that when changes are delivered to the selected Git branch, new builds are triggered. 
 
 ![Configuring the Builder][18]
 
-The default settings will work for this project: build with Ant and pull from the master branch of your Git repo. The builder will find `build.xml` in the root directory and run it during the build. The files that are needed for deployment are output into the build archive directory. It defaults to the same directory as the build script path, so there's no need to change that setting, either. Additionally, with automatic building enabled, changes delivered to the selected Git branch will trigger new builds. 
-
-Click **Save**. In a moment, the Pipeline page will refresh with information on your newly configured builder. 
+Click **SAVE**. In a moment, the Pipeline page is refreshed and shows the information about your newly configured builder. 
 
 ![A configured Builder panel][46]
 
-Click **REQUEST BUILD**. In a moment, you will have a successful build on your hands. 
+Click **REQUEST BUILD**. After a moment, you have a successful build.
 
 ![A configured Builder panel with a successful build][47]
 
-But what to do with it? Get it on the web with Bluemix! Click **add a stage**.  
+Put the build on the web by using Bluemix: click **add a stage**. 
+
+The Deployer Stage Configuration page opens. On that page, you can configure deployments to Bluemix. You can give the app a name. By default, the name comes from the manifest file, `manifest.yml`, which Bluemix uses to deploy your application.
 
 ![Configuring the Deployer with the Add Deployer Stage screen][19]
 
-Here, you can configure deployments to Bluemix. You can give the app a name; by default, the name comes from the manifest file, `manifest.yml`, which tells Bluemix how to deploy your application. Leave it blank so that it will use the name in the manifest.
-
-Leave the organization as it is. You can choose an existing space to use, or create a new one. Here, leave it as dev. 
-
-The script section shows the deployment script that will be run to deploy the application. The `CF_APP` variable resolves to the app name. In this case, it will resolve to the name in the manifest, as the *Application name* field is blank. Click **SAVE**. 
+1.	Leave the **Application name** field blank so that Bluemix will use the name in the manifest.
+2.	Leave the organization as is. 
+3.	You can select a space to use, or create one. For the purposes of this tutorial, leave the space as dev.  
+The script section shows the deployment script that runs to deploy the application. The `CF_APP` variable resolves to the app name. In this case, it resolves to the name in the manifest because the **Application name** field is blank. 
+4.	Click SAVE. Your app is ready to be pushed to Bluemix. 
 
 ![Fully configured Pipeline][48]
 
-And that's as much configuration as you need to do. Next, your app is ready to be pushed out onto Bluemix. 
-
-Remember the build that you requested a few moments ago? Drop it onto the stage you configured.
+Drag the build to the stage that you configured. Dragging a build onto a deployer stage is one way to kick off a deployment. In seconds, your app is on Bluemix. Because you configured the Delivery Pipeline service, future successful builds of your app are automatically deployed. 
 
 ![Dropping to deploy][49]
 
-Dragging a build onto a deployer stage is one way to kick off a deployment. In seconds, your app will be on Bluemix. Fast, right? And with the Pipeline configured, future successful builds of your app will be automatically deployed. 
+To view your app on the web, click its name. To view your app’s Bluemix dashboard, click next to your app in the *dev* deployment pane. 
 
 ![A deployed app using fully configured Pipeline][50]
 
-You can click your app's name to view it on the web; click next to it in the  *dev* deployment box to look at your app's Bluemix dashboard. 
-
-For this tutorial, you configure a single deployment stage. If you want more stages (maybe you want separate instances for testing and production, for example) you'll enjoy DevOps Services' multistage deployment capability. To learn more, watch this short video:
+In this tutorial, you configure a single deployment stage. If you want more stages, for example, to have separate instances for testing and production, use multistage deployment capability in DevOps Services. To learn more, watch this short video:
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/5jdKL8VZgP0?rel=0" frameborder="0" allowfullscreen></iframe> 
 
-Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. A project is granted 60 minutes of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information about pricing for any service, see the [Bluemix pricing page](https://bluemix.net/#/pricing).
+When you build and deploy apps by using Bluemix, your Bluemix billing account might be charged. A project is granted 60 minutes of free build time per month. For more information about pricing for any service, see the [Bluemix pricing page](https://bluemix.net/#/pricing).
 
 ---
-##Push changes to the Git repository by using the command line
+##Push changes to the Git repository using the command line
 
-You now have a Git repo with example code. Lots of tools can be used to work with Git, including all of the major desktop IDEs and DevOps Services' own web IDE. For now, use the command-line Git support.
+You now have a Git repo with example code. You can use many tools to work with Git, including all of the major desktop IDEs and the DevOps Services web IDE. For now, use the command-line Git support.
 
-**Note:** If you don't have Git, you can find information on installing it at [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][20]. If you want to learn more about working with Git, you can browse the [Git documentation pages](http://git-scm.com/doc).
+**Note:** If you don't have Git, [see Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][20]. If you want to learn more about working with Git, [see the Git documentation pages](http://git-scm.com/doc).
 
-First, clone from the project repository URL, which you can find on the Bluemix application's dashboard _or_ the DevOps project's overview:
+Clone from the project repository URL, which you can find on the Bluemix application's dashboard or the DevOps project's overview:
 
 
     $ git clone https://hub.jazz.net/git/jazzhubdemouser/YourApp-2014
@@ -174,7 +179,7 @@ First, clone from the project repository URL, which you can find on the Bluemix 
     Unpacking objects: 100% (49/49), done.
     Checking connectivity... done. 
 
-Next, change your app source code and see what happens. In the `WebContent` folder, there's a file that is named `index.html`. This file contains some of what you see when you view your app on the web. Change some text in the body of the HTML there with whatever tool you like. To see a quick change, search for the title text, `Welcome to my very own <span class="blue">Java Web Starter</span> on Bluemix!`, and edit a word or two. When you're done, change to your project directory and `git stage`, `git commit`, and `git push`, like so:
+Change your app source code and see what happens. In the `WebContent folder`, a file is named `index.html`. This file contains some of what you see when you view your app on the web. Change some text in the body of the HTML. For example, to see a quick change, search for the title text, `Welcome to my very own <span class="blue">Java Web Starter</span> on Bluemix!`, and edit a word or two. When you're done, change to your project directory and `git stage`, `git commit`, and `git push`:
 
     $ cd /project_directory
     $ git stage Webcontent/index.html
@@ -196,16 +201,18 @@ Next, change your app source code and see what happens. In the `WebContent` fold
     To https://hub.jazz.net/git/jazzhubdemouser/YourApp-2014
     	ab4aaad..2336018 master -> master
 
-If you go back to the Build &amp; Deploy page, you might notice that a new build was requested. It was automatically triggered by the changes you delivered to the project repository. When it's finished, it will be deployed to Bluemix. When it's running, you can view your updated app on the web. Refresh your browser to ensure the updated page is displayed.
+Return to the Build &amp; Deploy page. You can see that a new build was requested. It was automatically triggered by the changes that you delivered to the project repository. When the build is finished, it is deployed to Bluemix. When the instance is running, you can view your updated app on the web. 
+
+Refresh your browser to ensure that the updated page is shown.
 
 ![Application page showing new title][25]
 
-Excellent! Now you can continue to modify the example and push your changes to the Git repository as often as needed. And as the scope of the work grows, and more people are added to the project to work on it, _everyone_ can push changes to the repository. Standard repository operations and build and deploy are all that is required to ensure that the right bits are always running.
+You can continue to modify the example and push your changes to the Git repository as often as needed. As the scope of the work grows and more people are added to the project, everyone can push changes to the repository. Standard repository operations and build and deploy are all that is required to ensure that the right bits are always running.
 
-If you want to configure desktop clients to work with your Git repository, see [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][26].
+If you want to configure desktop clients to work with your Git repository, [see Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][26].
 
 ---
-## Back to DevOps Services
+##Edit and deploy code using the DevOps Services web IDE
 
 In addition to build and deploy, DevOps Services provides many other capabilities that are useful for application development:
 
@@ -213,75 +220,78 @@ In addition to build and deploy, DevOps Services provides many other capabilitie
   * Multiple source code repositories
   * Support for teams that use agile development
   * Web-based development tools with customizations specifically for working with Bluemix
-  * And lots more coming...
 
 To learn more about DevOps Services, see its [Learn page][27].
 
-So far you've used command-line tools to modify your code and push it to the repository. However, you can work with DevOps Services another way: entirely in your browser.
+So far, you used command-line tools to modify your code and push it to the repository. However, you can work with DevOps Services another way: entirely in your browser.
 
-Go back to the deployment page and click **EDIT CODE**. You'll be taken to a complete online integrated development environment (IDE), based on the work of the [Orion][28] open source project. Here's what it looks like when you open the example project:
+Return to the deployment page and click **EDIT CODE**. A complete online integrated development environment (IDE) opens, which is based on the work of the [Orion][28] open source project. 
 
 ![Orion at DevOps Services][29]
 
-From this environment, you can edit files with syntax coloring support for multiple languages, including HTML, CSS, Java, JavaScript, Ruby, Python, and more. For some languages, like JavaScript and CSS, the IDE also supports syntax checking and content assist, both for standard language constructs and for services that are provided by Bluemix. To use Content Assist, press **Ctrl + Space**. For example, here's what it looks like providing code completion for the standard `node.js express` module:
+In this environment, you can edit files with syntax coloring support for multiple languages, including HTML, CSS, Java, JavaScript, Ruby, and Python. For some languages, such as JavaScript and CSS, the IDE also supports syntax checking and content assist, both for standard language constructs and for services that Bluemix provides. To use content assist, press Ctrl + Space. For example, this image shows code completion for the standard Node.js express module:
 
 ![Orion showing express completions][30]
 
-*Tip: While outside of the code editor, type Shift + ? to search through the various key bindings in the IDE. Type Shift + Alt + ? to do so while you're in the editor.* 
+**Tip:** While you are outside of the code editor, you can search through the various key bindings in the IDE by pressing Shift + ?. To search while you’re in the editor, press Shift + Alt + ?. 
 
-To round out the process, you'll make one more modification to your application in web IDE. Before you do that, though, you must fetch and merge the app title change that you just made with the command line so that it shows in the web IDE. You do that with the Git page. Open it. 
+To complete the process, you must make one more modification to your application in web IDE. First, though, you must fetch the change to the app title that you just made and merge the change so that it is shown in the web IDE. 
+
+Open the Git Repository page. 
 
 ![Orion git status menu](/tutorials/jazzeditorjava/images/orion-git-status.png)
 
-From the Git page, fetch and then merge the change to your app.
+Fetch and then merge the change to your app.
 
 ![Fetching and merging the change](/tutorials/jazzeditorjava/images/merge.png)
 
-Next, navigate through the directory tree until you get to the same file you worked on before (for example, <tt>WebContent/index.html</tt>), then edit in place.
+Navigate through the directory tree until you reach the same file that you worked on before; for example, `WebContent/index.html`. 
+
+Edit the file in place.
 
 ![Orion editing index](/tutorials/jazzeditorjava/images/heyworld.png)
 
-You can then use the integrated Git support to push the change. Head back to the Git page.
+Return to the Git page, then push the change by using the integrated Git support:
 
 ![Orion git status menu](/tutorials/jazzeditorjava/images/orion-git-status.png)
 
-Then, stage the change by checking the box next to it:
+Stage the change by selecting the check box next to it.
 
 ![Orion git staging][33]
 
-Enter a commit message and then click **Commit**:
+Enter a commit message and then click **Commit**.
 
 ![Orion git commit][34]
 
-**Push** the change to the <tt>master</tt> branch on the <tt>origin</tt> remote:
+Push the change to the `master` branch on the `origin` remote.
 
 ![Orion git push][35]
 
-It's just like you did with the command line, only with a few more clicks and a lot less typing. And now that you've done that, you can again see that your app was updated (refresh your browser to view the changes).
+This process is like the process you did on the command line, only with more clicks and less typing. To see that your app was updated, refresh your browser.
 
 ![Our really cool app][36]
 
 ---
-## Manual Deployment
+## Manual deployment
 
-Whie you're working in the directory that contains your `manifest.yml` file, you can click **Deploy** to manually deploy whatever is in the web IDE workspace to Bluemix. Remember: the **Deploy** button deploys the current state of your code *in your web IDE*, while Auto-Deploy deploys from what is checked into the repository.
+While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the web IDE workspace to Bluemix by clicking **Deploy**. Remember: When you click **Deploy**, you deploy the current state of your code in your web IDE. The auto-deploy deploys from what is checked into the repository.
 
 ![About to click the Deploy button in the Web IDE][37]
 
-You could configure the web IDE deploy and the Auto-Deploy to use different app names. Then, you could use the web IDE deployment for a personal test environment and Auto-Deployment for a team integration environment.
+You can configure the web IDE deploy and the Auto-Deploy to use different app names. Then, you can use the web IDE deployment for a personal test environment and Auto-Deployment for a team integration environment.
 
-Whether you are using command-line tools or the web IDE, they can be an effective way to work when you are doing rapid, solo development. For many of you, the added security of having auto-deploy control of what is being pushed is a better way to go. By using auto-deploy, you always know that the code that is running in the application matches some known state in the repository. In contrast, manual deployment deploys whatever happens to be in your working directory at the time you push.
+Whether you are using command-line tools or the web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having auto-deploy so that you can control what is being pushed. By using auto-deploy, you know that the code that is running in the app matches a known state in the repository. In contrast, manual deployment deploys whatever is in your working directory when you push.
 
 ---
-## A Final Note
+## A final note
 
-You just saw how easy it is to create a Java web app at Bluemix and run that app. With a few clicks, you created a Git repo, loaded it with the example code, and automatically deployed the app. In minutes, you changed code and pushed it using the Git command line. You then did the same thing entirely in your browser with DevOps Services' web IDE. You configured automatic building and deployment, checked the status of the app deployment, and ran the app to verify your changes. 
+You saw how easy it is to create a Java web app on Bluemix and run that app. With a few clicks, you created a Git repo, loaded it with the sample code, and automatically deployed the app. You changed code and pushed it by using the Git command line. You then did the same thing entirely in your browser by using the DevOps Services web IDE. You configured automatic building and deployment, checked the status of the app deployment, and ran the app to verify your changes. 
 
-Hopefully, this tutorial gave you a feel for how to get started with Bluemix and DevOps Services using Java. Lots of details were glossed over, but the documentation links at the start can fill those in.
+Hopefully, you learned how to get started with Bluemix and DevOps Services by using Java. Lots of details were minimized, but you can find out more from the documentation links at the beginning of the tutorial.
 
-If you want to learn more about configuring Eclipse or other desktop clients to work with your Git repository, see [Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][26].
+To learn more about configuring Eclipse or other desktop clients to work with your Git repository, [see Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][26].
 
-If you want to learn about how to integrate unit testing into your DevOps Services projects, see [Developing Bluemix applications in Java with Eclipse and DevOps Services][40].
+To learn about how to integrate unit testing into your DevOps Services projects,  [see Developing Bluemix applications in Java with Eclipse and DevOps Services][40].
 
 [1]: https://bluemix.net/ (Bluemix)
 [2]: /tutorials/jazzeditorjava/images/bm-join.png
