@@ -2,11 +2,9 @@
 
 All IBM&reg; DevOps Services projects include an allowance of free services. If you exceed your allowances, your work is interrupted. To avoid interruptions, set up a Bluemix billing account and configure your services.
 
----
-## Free allowance
 If you plan to use the Delivery Pipeline and Track & Plan services beyond the free allowance, you must configure both services. Each service requires a separate billing configuration.
 
-### Table 1. Free allowance details
+### Table: Free allowance details
 <table border="1" summary="" width="100%">
 	<tbody>
 		<tr>
@@ -37,12 +35,12 @@ If you plan to use the Delivery Pipeline and Track & Plan services beyond the fr
 	</tbody>
 </table> 
 
-**Note:** The person who is responsible for setting up the billing account might not be the same person who receives a warning. To protect your project from build and deployment failures and blocked access to the Track & Plan pages, ask your Bluemix manager or billing manager to enable your Bluemix billing account early.
-
 ---
 ##Setting up a billing account
 
 Before you set up your billing account, review the [Bluemix plans](https://www.ng.bluemix.net/docs/#acctmgmt/billing.html#bil_plan) to select the best plan for your project.
+
+**Note:** The person who is responsible for setting up the billing account might not be the same person who receives a warning. To protect your project from build and deployment failures and blocked access to the Track & Plan pages, ask your Bluemix manager or billing manager to enable your Bluemix billing account early.
 
 To set up your billing account, complete these steps: 
 1. Go to your Bluemix dashboard and select the space that is listed in your DevOps Services project settings. 
