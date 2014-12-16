@@ -6,7 +6,7 @@ All IBM&reg; DevOps Services projects include an allowance of free services. If 
 ## Free allowance
 If you plan to use the Delivery Pipeline and Track & Plan services beyond the free allowance, you must configure both services. Each service requires a separate billing configuration.
 
-### Table 1. Billing threshold details
+### Table 1. Free allowance details
 <table border="1" summary="" width="100%">
 	<tbody>
 		<tr>
@@ -36,8 +36,6 @@ If you plan to use the Delivery Pipeline and Track & Plan services beyond the fr
 		</tr>
 	</tbody>
 </table> 
-
-If a billing account hasn't been established for your project and you are close to exceeding your billing threshold, warnings are shown periodically. If you exceed your billing threshold, you are blocked from the service or services.
 
 **Note:** The person who is responsible for setting up the billing account might not be the same person who receives a warning. To protect your project from build and deployment failures and blocked access to the Track & Plan pages, ask your Bluemix manager or billing manager to enable your Bluemix billing account early.
 
