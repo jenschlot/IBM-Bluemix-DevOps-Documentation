@@ -39,9 +39,9 @@ If you plan to use the Delivery Pipeline and Track & Plan services beyond the fr
 ---
 ##Setting up a billing account
 
-To select the best plan for your project, before you set up your billing account, review the [Bluemix plans](https://www.ng.bluemix.net/docs/#acctmgmt/billing.html#bil_plan).
+To select the best plan for your project before you set up your billing account, review the [Bluemix plans](https://www.ng.bluemix.net/docs/#acctmgmt/billing.html#bil_plan).
 
-**Note:** The person who is responsible for setting up the billing account might not be the same person who receives a warning. To protect your project from build and deployment failures and blocked access to the Track & Plan pages, ask your Bluemix manager or billing manager to enable your Bluemix billing account early.
+**Note:** The person who is responsible for setting up the billing account might not be the same person who receives a warning. To protect against build and deployment failures and blocked access to Track & Plan pages, ask your Bluemix billing manager to enable your billing account early.
 
 To set up your billing account, complete these steps: 
 1. Go to your Bluemix dashboard and select the space that is listed in your DevOps Services project settings. 
@@ -54,7 +54,7 @@ To set up your billing account, complete these steps:
 ##Monitoring your usage
 
 
-You can monitor the usage details for your Bluemix account. For information, see the [billing and usage documentation](https://www.ng.bluemix.net/docs/#acctmgmt/index-gentopic1.html#bil_usage). To determine costs, see the [Bluemix pricing page](https://bluemix.net/#/pricing) .
+You can monitor the usage details for your Bluemix account. For information, see the [billing and usage documentation](https://www.ng.bluemix.net/docs/#acctmgmt/index-gentopic1.html#bil_usage). To determine costs, see the [Bluemix pricing page](https://bluemix.net/#/pricing).
 
 The Delivery Pipeline and Track & Plan services use metered pricing, where you pay based on consumption; however, they also include a free monthly allowance.
 
