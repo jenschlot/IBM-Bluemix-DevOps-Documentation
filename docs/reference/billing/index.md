@@ -1,4 +1,5 @@
 #Configuring IBM Bluemix billing for IBM DevOps Services
+Last modified: 16 December 2014
 
 All IBM&reg; DevOps Services projects include an allowance of free services. If you exceed your allowances, your work is interrupted. To avoid interruptions, set up a Bluemix billing account and configure your services.
 
@@ -38,7 +39,7 @@ If you plan to use the Delivery Pipeline and Track & Plan services beyond the fr
 ---
 ##Setting up a billing account
 
-Before you set up your billing account, review the [Bluemix plans](https://www.ng.bluemix.net/docs/#acctmgmt/billing.html#bil_plan) to select the best plan for your project.
+To select the best plan for your project, before you set up your billing account, review the [Bluemix plans](https://www.ng.bluemix.net/docs/#acctmgmt/billing.html#bil_plan).
 
 **Note:** The person who is responsible for setting up the billing account might not be the same person who receives a warning. To protect your project from build and deployment failures and blocked access to the Track & Plan pages, ask your Bluemix manager or billing manager to enable your Bluemix billing account early.
 
@@ -53,11 +54,11 @@ To set up your billing account, complete these steps:
 ##Monitoring your usage
 
 
-You can monitor the usage details for your Bluemix account. For information, see the [billing and usage](https://www.ng.bluemix.net/docs/#acctmgmt/index-gentopic1.html#bil_usage) documentation. To determine costs, see the [Bluemix pricing](https://bluemix.net/#/pricing) page.
+You can monitor the usage details for your Bluemix account. For information, see the [billing and usage documentation](https://www.ng.bluemix.net/docs/#acctmgmt/index-gentopic1.html#bil_usage). To determine costs, see the [Bluemix pricing page](https://bluemix.net/#/pricing) .
 
 The Delivery Pipeline and Track & Plan services use metered pricing, where you pay based on consumption; however, they also include a free monthly allowance.
 
-To help monitor monthly usage, see the [cost estimator](https://ace.ng.bluemix.net/#/pricing/paneId=pricingSheet) on the Bluemix Pricing page.
+To help monitor monthly usage, see the Bluemix [cost estimator](https://ace.ng.bluemix.net/#/pricing/paneId=pricingSheet).
 
 To see your usage details, click **Profile Settings (<img src="images/bm-profilealien.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) > Account > Usage Details**.
 
