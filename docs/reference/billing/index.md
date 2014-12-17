@@ -1,7 +1,7 @@
 #Configuring IBM Bluemix billing for IBM DevOps Services
 Last modified: 16 December 2014
 
-All IBM&reg; DevOps Services projects include an allowance of free services. If you exceed your allowances, your work is interrupted. To avoid interruptions, set up an IBM&reg; Bluemix billing account and configure your services.
+All IBM&reg; DevOps Services Bluemix projects include an allowance of free services. If you exceed your allowances, your work is interrupted. To avoid interruptions, set up an IBM&reg; Bluemix billing account and configure your services.
 
 If you plan to use the Delivery Pipeline and Track & Plan services beyond the free allowance, you must configure both services. Each service requires a separate billing configuration.
 
@@ -46,7 +46,7 @@ To select the best plan for your project before you set up your billing account,
 To set up your billing account, complete these steps: 
 1. Go to your Bluemix dashboard and select the space that is listed in your DevOps Services project settings. 
 2. Click **Services**, and from the DevOps section, select either **Delivery Pipeline** or **Track & Plan**.
-3. Make sure that the space that corresponds to your DevOps Services project is selected.
+3. Make sure that the space that corresponds to your DevOps Services Bluemix project is selected.
 4. Choose a billing plan.  
 5. Click **Create.**
 
