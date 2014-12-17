@@ -13,6 +13,7 @@
 			<link rel='stylesheet' href='/tutorials/stylesheets/topic_academics.css'></link>
 		{/if}
 		<link rel='stylesheet' href='/embed/css/navbar'></link>
+		<link rel='stylesheet' href='{headerStyling}'></link>
 	</head>
 	<body>
 		<div class="com-ibm-team-jazzhub">

@@ -1,14 +1,20 @@
-
 var nconf = require('nconf');
 var NavbarClient = require("../lib/clients/navbar-client.js");
 
 
 var renderDocsLanding = function(req, res, next, headerContent) {
+	var config = nconf.get('config');
+	var headerStyling;
+
+	if (config) {
+		headerStyling = config.compositionServiceStylingEndpoint;
+	}
 
 	res.render('docs_landing', {
 		'sectionname': 'Docs',
 		navbarSelection: 'docs',
-		headerContent: headerContent
+		headerContent: headerContent,
+		headerStyling: headerStyling
 	});	
 }
 

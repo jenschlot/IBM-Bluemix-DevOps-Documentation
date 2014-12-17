@@ -7,7 +7,8 @@
 		<script src='/tutorials/javascript/pageResize.js'></script>		
 		<link rel='icon' type='image/x-icon' href='/tutorials/favicon.ico'></link>
 		<link rel='stylesheet' href='/embed/css/navbar'></link>
-		<link rel='stylesheet' href='/tutorials/stylesheets/style.css'></link>	
+		<link rel='stylesheet' href='{headerStyling}'></link>
+		<link rel='stylesheet' href='/tutorials/stylesheets/style.css'></link>
 	</head>
 	<body>
 		<div class="com-ibm-team-jazzhub">

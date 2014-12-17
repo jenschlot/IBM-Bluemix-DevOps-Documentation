@@ -1,17 +1,26 @@
 var express = require('express');
 var _ = require('underscore');
 var path = require('path');
+var nconf = require('nconf');
 var NavbarClient = require('../lib/clients/navbar-client.js');
 
 
 var renderSection = function(req, res, next, headerContent) {
+	var config = nconf.get('config');
+	var headerStyling;
+
+	if (config) {
+		headerStyling = config.compositionServiceStylingEndpoint;
+	}
+
 	res.render(
 		'document',
 		{ 
 			markdown: req.rendered_markdown,
 			sectionname: 'Docs',
 			navbarSelection: 'docs',
-			headerContent: headerContent
+			headerContent: headerContent,
+			headerStyling: headerStyling
 		}
 	);
 }

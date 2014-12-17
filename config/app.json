@@ -3,6 +3,7 @@
 		"contextPath": "",
 		"authCookieNames": [ "LtpaToken2_PSDEV", "LTPAToken_SSO_PSProd", "LtpaToken", "LtpaToken2", "LtpaToken2_PSSTG", "JSESSIONID" ],
 		"compositionServiceEndpoint": "https://hub.jazz.net/api/v1/composition",
+		"compositionServiceStylingEndpoint": "https://hub.jazz.net/api/v1/composition/css/header/navbar.css",
 		"disableHub": false,
 		"guestUserData": {
 			"userId": "jazzhubguest",

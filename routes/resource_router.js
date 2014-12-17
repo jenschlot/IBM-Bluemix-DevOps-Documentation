@@ -1,9 +1,18 @@
 var express = require('express');
 var _ = require('underscore');
 var path = require('path');
+var nconf = require('nconf');
 var NavbarClient = require('../lib/clients/navbar-client.js');
 
 var renderResource = function(req, res, next, headerContent) {
+
+	var config = nconf.get('config');
+	var headerStyling;
+
+	if (config) {
+		headerStyling = config.compositionServiceStylingEndpoint;
+	}
+
 	res.render(
 		'key_resource',
 		{ 
@@ -11,7 +20,8 @@ var renderResource = function(req, res, next, headerContent) {
 			sectionname: req.sectionname,
 			resourcename: req.resourcename,
 			imgicon: req.imgicon,
-			headerContent: headerContent
+			headerContent: headerContent,
+			headerStyling: headerStyling
 		}
 	);
 }
