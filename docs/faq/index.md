@@ -114,7 +114,7 @@ projects and ask that you remember these guidelines:
 ### How can I report abuse? 
 
 To report an instance of abuse of DevOps Services or a violation of the Terms of Use, send an email to [hub@jazz.net](mailto:hub@jazz.net?Subject=Reporting%20abuse%20of%20JazzHub&Body=Please%20include%20the%20following%20information%3A%0A%0A%20-%20Your%20email%20address%3A%0A%20-%20The%20URL%28s%29%20where%20you%20observed%20abuse%20on%20Jazzhub%3A%0A%20-%20Any%20other%20details%20you%20feel%20could%20help%20in%20our%20investigation%20of%20this%20issue%3A%0A%0AThank%20you%20for%20your%20report%2C%0A%0AThe%20JazzHub%20Team). 
-[You can read the Terms of Use here](/terms). Please include as much information as possible including the URL where you see the abuse and a description of the nature of the problem.
+Please include as much information as possible including the URL where you see the abuse and a description of the nature of the problem. [You can read the Terms of Use here](/terms). 
 
 <a name="q19"></a>
 
