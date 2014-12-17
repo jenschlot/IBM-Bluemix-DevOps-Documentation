@@ -1,6 +1,6 @@
 #Git reference
 
-Last modified: 9 December 2014
+Last modified: 17 December 2014
 
 If you store your code in a Git repository that is hosted by IBM® DevOps Services, you can work with code in a Git terminal or in a web integrated development environment (IDE). If you work on a local workstation, you can use Git terminal commands to edit the contents of your hosted repository. If you use the web IDE, you don't need the Git terminal: you can run many common Git commands in the web IDE.  
 
