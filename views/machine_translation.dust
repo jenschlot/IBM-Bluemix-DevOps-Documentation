@@ -1,0 +1,10 @@
+<!-- start of the source code of the customized embedded Transwidget -->
+	<div style="position: relative; float: left; width: 50%; height: 30px;"></div>
+	<div style="position: relative; float: right; width: 50%; height: 30px;"> <br/>
+		<label for="ietran_ui_langselect" class="translate_label"><strong>Translate this page (machine translation):&nbsp;&nbsp;</strong></label>
+		<script src='https://rtts.ihe.ibm.com/transwidget/tw.jsp?app=ibm-devops-services.doc&amp;from=en_us&amp;sl=1&amp;disclaimer=1&amp;ubl&=1&amp;style=minimal&amp;removable=CODE,B,I,U,STRONG,EM'></script>
+	</div>
+
+<!-- end of the source code of the customized embedded Transwidget -->
+<p>&nbsp;</p>
+
