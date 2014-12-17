@@ -1,6 +1,6 @@
 #Build and Deploy reference
 
-Last modified: 21 November 2014
+Last modified: 11 December 2014
 
 You can get your code on the web in multiple ways by using IBM® DevOps Services, which integrates with IBM® Bluemix™.
 
