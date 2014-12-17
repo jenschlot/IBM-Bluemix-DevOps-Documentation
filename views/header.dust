@@ -11,8 +11,7 @@
 	</head>
 	<body>
 		<div class="com-ibm-team-jazzhub">
-			<div id='navbar'></div>
-			<script src='/embed/js/navbar?e=navbar&navSelection=docs&navigationPageTitle={sectionname}'></script>		
+			{headerContent|s}
 			
 			<div id="announcement" class="announcement hidden">
 				<div class="message-container">

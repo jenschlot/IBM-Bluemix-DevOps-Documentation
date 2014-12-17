@@ -1,6 +1,21 @@
 var express = require('express');
 var _ = require('underscore');
 var path = require('path');
+var NavbarClient = require('../lib/clients/navbar-client.js');
+
+var renderTopic = function(req, res, next, headerContent) {
+	res.render(
+		'topic',
+		{ 
+			markdown: req.rendered_markdown,
+			sectionname: req.sectionname,
+			lowercaseSectionName: req.sectionname.toLowerCase(),
+			topicname: req.topicname,
+			imgicon: req.imgicon,
+			headerContent: headerContent
+		}
+	);
+}
 
 module.exports =  function (env, section_name, topic_name, img_icon, directory) {
 	var router = express.Router();
@@ -25,17 +40,17 @@ module.exports =  function (env, section_name, topic_name, img_icon, directory) 
 			if (!req.rendered_markdown)
 				return next();
 
-			res.render(
-				'topic',
-				{ 
-					markdown: req.rendered_markdown,
-					sectionname: req.sectionname,
-					lowercaseSectionName: req.sectionname.toLowerCase(),
-					topicname: req.topicname,
-					imgicon: req.imgicon,
-					navbarSelection: 'docs'
+			var args = {
+				"selection": 'navbar.entry.help.docs',
+				"userid": res.locals.user.userId,
+				"username": res.locals.user.name,
+			};
+
+			NavbarClient.getNavbar(args, req, function (error, content) {
+				if (!error) {
+					renderTopic(req, res, next, content);
 				}
-			);
+			});
 		},
 		function (req, res) {
 			res.status(404);
