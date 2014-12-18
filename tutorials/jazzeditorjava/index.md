@@ -291,7 +291,7 @@ Hopefully, you learned how to get started with Bluemix and DevOps Services by us
 
 To learn more about configuring Eclipse or other desktop clients to work with your Git repository, [see Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][26].
 
-To learn about how to integrate unit testing into your DevOps Services projects,  [see Developing Bluemix applications in Java with Eclipse and DevOps Services][40].
+To learn about how to integrate unit testing into your DevOps Services projects, [see Developing Bluemix applications in Java with Eclipse and DevOps Services][40].
 
 [1]: https://bluemix.net/ (Bluemix)
 [2]: /tutorials/jazzeditorjava/images/bm-join.png

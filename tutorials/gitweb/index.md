@@ -167,12 +167,6 @@ To rebase, you must compare the contents of one branch to another by modifying t
 
 You forked a project and manually deployed to a Bluemix app. You made a branch, completed changes to your code in the web IDE, and committed your changes. You also combined contents of branches.
 
----
-##Next steps
-
-Need help? [Ask a question in the IBM DevOps Services forum][28]. Have feedback? [Report a bug or share your idea in the JazzHub IBM DevOps Services project][29].
-
-To learn more about IBM Bluemix and IBM DevOps Services, [see the Docs][30] page.
 
 [1]: images/manifest.png
 [2]: images/forkproject.png

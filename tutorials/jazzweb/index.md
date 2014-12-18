@@ -148,13 +148,6 @@ When the app is deployed, try it by clicking its web URL:
 
 You developed and deployed a Bluemix application by using the web IDE. 
 
----
-##Next steps
-
-Need help? [Ask a question in the IBM DevOps Services forum][28]. Have feedback? [Report a bug or share your idea in the JazzHub IBM DevOps Services project][29].
-
-To learn more about IBM Bluemix and IBM DevOps Services, [see the Docs][30] page.
-
 [1]: https://bluemix.net/ (Bluemix)
 [2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview
 [3]: /tutorials/jazzweb/images/forkbutton.png
