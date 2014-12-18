@@ -1,11 +1,11 @@
 #Getting Started with IBM Bluemix and IBM DevOps Services by using Node.js
 
-Last modified: 17 December 2014
+Last modified: 18 December 2014
 
 ##Create an application with IBM Bluemix
 
 IBM&reg; Bluemix&trade; is an open-standards, cloud-based platform for building, managing, and running all types
-of applications: mobile, smart devices, and web, big data. Capabilities include Java&trade;, mobile back-end development, 
+of applications: mobile, smart devices, web, and big data. The Bluemix capabilities include Java&trade;, mobile back-end development, 
 application monitoring, and features from ecosystem partners and open source, 
 all through an as-a-service model in the cloud.
 
@@ -33,8 +33,7 @@ which are preconfigured app templates.
 its description. As you can see, the app is a simple Node.js web server that includes example code 
 that demonstrates the IBM DataCache service. 
 
-4. Name the app and enter a host. The name is a descriptive name to identify the application on the 
-Bluemix dashboard. The host is a unique URL where you access your app. 
+4. Name the app and enter a host. The name is a unique URL where you access your app. 
 
 5. For the space, use the default setting. For the Datacache Plan, make sure that **Free** is selected.
 
@@ -61,7 +60,7 @@ click **ADD GIT**. You get a Git repository that is populated with example code 
 ![Add Git button](/tutorials/jazzeditor/images/bm-add-git-integration.png)
 You might be prompted to enter your password to verify that DevOps Services can act on your behalf. 
 ![DevOps Services sign in page](/tutorials/jazzeditor/images/jh-signin.png)
-**Note:** The first time that you access IBM DevOps Services, you might need to create a Jazz&trade; ID and link it to your IBM ID. A Jazz ID is a short name that is used in several places, 
+**Note:** The first time that you access IBM DevOps Services, you might need to create a Jazz&trade; ID and link it to your IBM id. A Jazz ID is a short name that is used in several places, 
 including the URL for the repository that is created for you. For this one-time process, follow 
 the instructions in the window.
  
@@ -81,7 +80,9 @@ A page opens where you can configure and see the deployment status for the proje
 ![DevOps Services auto deploy page](/tutorials/jazzeditor/images/jh-auto-deploy.png)
 **Tip:** With Advanced deployment, you can add a build step, which is useful for Java applications. You can also control 
 more deployment options. However, those options are more advanced than this basic workflow.
+
 Notice the warning message about outgoing changes. The outgoing files are project files that are created when you create a Git repository project. You'll check in those files later.
+
 The Git URL is used in Git commands. You can copy the URL now or return to this page and copy it later.
 
 5. To manage your application in Bluemix, click the link next to the **Deploy to** field.
@@ -89,8 +90,7 @@ The Git URL is used in Git commands. You can copy the URL now or return to this 
 ---
 ##Push changes to the Git repository by using the command line
 
-You now have a Git repository that contains example code. You can use several tools to work with Git, including desktop IDEs 
-and the browser-based web IDE, and the command line. 
+You now have a Git repository that contains example code. You can use several tools to work with Git, including desktop IDEs, the browser-based web IDE, and the command line. 
 
 **Before you begin:**
 If you need to install Git, [see Installing Git](/tutorials/clients#installing_git).
@@ -111,9 +111,12 @@ or the BUILD & DEPLOY page:
     Checking connectivity... done. 
 
 2. Change the application source code and see what happens:
+
 a. Change to your Git clone directory. The views folder contains a file that is named `index.ejs`. This file implements the main page for the example. 
+
 b. Change this file. For example, modify the title.
 ![Changing the title](/tutorials/jazzeditor/images/cli-edit-file.png)
+
 c. Change to your Git clone directory and do a Git add, commit and push as shown:
 
 	$ cd ..
@@ -134,18 +137,20 @@ c. Change to your Git clone directory and do a Git add, commit and push as shown
     remote: Processing changes: refs: 1, done
     To https://hub.jazz.net/git/jazzhubdemouser/mycoolwebappdemo
     	43c6bc7..bf26680 master -> master
+
 d. If you return to the web IDE and check the 
 BUILD & DEPLOY page, you will see something like this image:
 ![Auto-deploy in action](/tutorials/jazzeditor/images/jh-auto-deployed.png)
 At the top of the **Recent auto-deployments** list, an entry has a comment that 
 matches the commit operation that you made from the command line. 
 The entry shows that your app is running the code that you pushed.
+
 e. View your running app and verify that the title was updated. You might need to refresh your browser to see the updates.
 
 3. Next to "Deploy to," click the link. The Bluemix application dashboard opens. 
 When you click the URL on the application dashboard, your updated running application opens.
 To access your running application quickly, click the URL that is next to  
-"Deploy to.""
+"Deploy to."
 
 ![Application page with new title](/tutorials/jazzeditor/images/app-new-title.png)
 
@@ -205,7 +210,7 @@ These steps are the same steps that you completed by using the command line.
 
 6. To verify that your app was updated, 
 go to the BUILD & DEPLOY page and wait until you see an indication that the 
-application was deploye,d again. Then click the URL link that is next to "Deploy to." Your update running application is shown.
+application was deployed again. Then, click the URL link that is next to "Deploy to." Your updated running application is shown.
 ![Our really cool app](/tutorials/jazzeditor/images/really-cool.png)
 
 ---
@@ -222,7 +227,7 @@ checked in to the repository.
 Both the command-line tools and the web IDE are effective for rapid, 
 solo development. However, the auto-deploy feature adds the security of controlling what is pushed, especially in team environments. 
 With auto-deployment, you always know that the code that is running in the application matches 
-a known state in the repository. In contrast to manual deployment, which deploys whatever is in your working directory 
+a known state in the repository. In contrast, manual deployment deploys whatever is in your working directory 
 when you push changes.
 
 
