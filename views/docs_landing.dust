@@ -9,19 +9,18 @@
 
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<div class="row" id="doc-container-l">
-							<a class="section" href="/docs/reference/deploy">
+							<a class="section" href="/docs/reference/billing">
 							<div class="col-md-7 col-sm-9 col-xs-9 callout" id="1">
 								<p class="description">
 									<span style="color: #ffd801;"> <strong>NEW</strong>&nbsp;&nbsp;</span>
-									<strong>Build and Deploy</strong> with IBM Bluemix and IBM DevOps Services
+									<strong>Configure IBM Bluemix billing </strong> for IBM DevOps Service
 								</p>
 							</div>
 							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
 							<div class="col-md-3 hidden-xs col-sm-2 hex-container">
 								<div class="hex">
-									<span class="hex-jazzhub pos-2"></span>
-									<span class="hex-bluemix pos-3"></span>
-									<span class="hex-builddeploy pos-4"></span>
+									<span class="hex-bluemix pos-1"></span>
+									<span class="hex-jazzhub pos-0"></span>
 								</div>
 							</div>
 						</div>
@@ -29,7 +28,6 @@
 							<a class="section" href="/docs/reference/startproject">
 							<div class="col-md-7 col-sm-9 col-xs-9 callout" id="2">
 								<p class="description">
-									<span style="color: #ffd801;"> <strong>NEW</strong>&nbsp;&nbsp;</span>
 									<strong>Start a project</strong> in IBM DevOps Services
 								</p>
 							</div>
@@ -46,7 +44,7 @@
 							<a class="section" href="/docs/reference/git">
 							<div class="col-md-7 col-sm-9 col-xs-9 callout" id="3">
 								<p class="description">
-									<span style="color: #ffd801;"> <strong>NEW</strong>&nbsp;&nbsp;</span>
+							
 									<strong>Git</strong> in IBM DevOps Services Reference
 								</p>
 							</div>
