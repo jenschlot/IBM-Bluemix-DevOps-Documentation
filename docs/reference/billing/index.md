@@ -1,9 +1,9 @@
-#Configuring IBM Bluemix billing for IBM DevOps Services
-Last modified: 17 December 2014
+#Configure IBM Bluemix billing for IBM DevOps Services
+Last modified: 18 December 2014
 
-All IBM&reg; DevOps Services Bluemix&trade; projects include an allowance of free services. If you exceed your allowances, your work is interrupted. To avoid interruptions, set up a Bluemix billing account and configure your services. Configuring your Bluemix account also gives you the added benefit of advanced features for monitoring your builds, deployments, and status of your projects. 
+All IBM&reg; DevOps Services Bluemix&trade; projects include an allowance of free services. If you exceed your allowances, your work is interrupted. To avoid interruptions, set up a Bluemix billing account and configure your services. By configuring your Bluemix account, you also get advanced features for monitoring your builds, deployments, and status of your projects. 
 
-If you plan to use the Delivery Pipeline and Track & Plan services beyond the free allowance, you must configure both services. Each service requires a separate billing configuration. 
+If you plan to use the Delivery Pipeline (Build & Deploy) and Track & Plan services beyond the free allowance, configure both services. Each service requires a separate billing configuration. 
 
 ### Table: Free allowance details
 <table border="1" summary="" width="100%">
@@ -18,7 +18,7 @@ If you plan to use the Delivery Pipeline and Track & Plan services beyond the fr
 			<td rowspan="2">Delivery Pipeline</td>
 			<td>Build minutes</td>
 			<td>60 minutes per application (project), per month</td>
-			<td rowspan="2">See Bluemix [Pricing Sheet](https://ace.ng.bluemix.net/#/pricing/)</td>
+			<td rowspan="2">See the Bluemix [Pricing Sheet](https://ace.ng.bluemix.net/#/pricing/)</td>
 		</tr>
 		<tr style="background-color: #FFFFFF">
 			<td>Application instances (deployers)</td>
@@ -28,7 +28,7 @@ If you plan to use the Delivery Pipeline and Track & Plan services beyond the fr
 			<td rowspan="2">Track &amp; Plan</td>
 			<td rowspan="2">Users per application</td>
 			<td>Private project: Three users</td>
-			<td rowspan="2">See Bluemix [Pricing Sheet](https://ace.ng.bluemix.net/#/pricing/)</td>
+			<td rowspan="2">See the Bluemix [Pricing Sheet](https://ace.ng.bluemix.net/#/pricing/)</td>
 		</tr>
 		<tr style="background-color: #EBEBFF">
 			<td>Public project: Unlimited users</td>
@@ -37,11 +37,11 @@ If you plan to use the Delivery Pipeline and Track & Plan services beyond the fr
 </table> 
 
 ---
-##Setting up a billing account
+##Set up a billing account
 
-To select the best plan for your project before you set up your billing account, review the [Bluemix plans](https://www.ng.bluemix.net/docs/#acctmgmt/billing.html#bil_plan).
+Before you set up your billing account, determine what the best plan for your project is. [Review the Bluemix plans](https://www.ng.bluemix.net/docs/#acctmgmt/billing.html#bil_plan).
 
-**Note:** The person who is responsible for setting up the billing account might not be the same person who receives a warning. To protect against build and deployment failures and blocked access to Track & Plan pages, ask your Bluemix billing manager to enable your billing account early.
+**Important:** The person who is responsible for setting up the billing account might not be the same person who is most affected by build and deployment failures and blocked access to Track & Plan pages. If you are not the person who sets up the account, ask your Bluemix billing manager to enable your billing account early.
 
 To set up your billing account, complete these steps: 
 1. Go to your Bluemix dashboard and select the space that is listed in your DevOps Services project settings. 
@@ -51,14 +51,14 @@ To set up your billing account, complete these steps:
 5. Click **Create.**
 
 ---
-##Monitoring your usage
+##Monitor your usage
 
 
-You can monitor the usage details for your Bluemix account. For information, see the [billing and usage documentation](https://www.ng.bluemix.net/docs/#acctmgmt/index-gentopic1.html#bil_usage). To determine costs, see the [Bluemix pricing page](https://bluemix.net/#/pricing).
+You can monitor the usage details for your Bluemix account. For more information, [see the billing and usage documentation](https://www.ng.bluemix.net/docs/#acctmgmt/index-gentopic1.html#bil_usage). To determine costs, [see the Bluemix pricing page](https://bluemix.net/#/pricing).
 
-The Delivery Pipeline and Track & Plan services use metered pricing, where you pay based on consumption; however, they also include a free monthly allowance.
+The Delivery Pipeline and Track & Plan services use metered pricing, where you pay based on consumption. However, they also include a free monthly allowance.
 
-To help monitor monthly usage, see the Bluemix [cost estimator](https://ace.ng.bluemix.net/#/pricing/paneId=pricingSheet).
+To help monitor monthly usage, [see the Bluemix cost estimator](https://ace.ng.bluemix.net/#/pricing/paneId=pricingSheet).
 
 To see your usage details, click **Profile Settings (<img src="images/bm-profilealien.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) > Account > Usage Details**.
 
@@ -67,7 +67,7 @@ To see your usage details, click **Profile Settings (<img src="images/bm-profile
 ---
 ##Billing terminology
 
-Several terms pertain to billing; for example, *application instance* and *application user*. To become familiar with the billing terminology, see the [IBM DevOps Services Terms of Use](https://hub.jazz.net/terms).
+Several terms pertain to billing; for example, *application instance* and *application user*. For an explanation of billing terminology, [see the IBM DevOps Services Terms of Use](https://hub.jazz.net/terms).
 
 
 &copy; Copyright IBM Corporation 2013, 2014.
