@@ -211,7 +211,7 @@ Add a work-item keyword and number to your Git commit message to link the commit
 	3. Open the commit you want to link to a work item.
 	4. Click **Link Work Item**.
 
-**Note:** This feature is also available if your repository is hosted on GitHub. To use it, though, you'll need to do some additional configuration:
+**Note:** Linking your commits to work items on push is also available if your repository is hosted on GitHub. To use it, though, you'll need to do some additional configuration:
 
 1. Open your DevOps Services project's Overview page.
 2. Under the message to GitHub users, click the link "configure GitHub" for directions on configuring commit linking between GitHub and DevOps Services.
