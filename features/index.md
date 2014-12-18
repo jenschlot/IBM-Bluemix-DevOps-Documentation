@@ -1,5 +1,7 @@
-## What's New
-Check out the latest enhancements, features and capabilities at our [What's New](/whatsnew) page.							
+Last modified: 09 December 2014
+
+## Easy to find What's New
+Check out the latest enhancements, features and capabilities at our [What's New page](/whatsnew).							
 
 ## Simple user interface for starting a project quickly
 
@@ -18,26 +20,44 @@ Click **Edit Code** to get started!
 
 ## Integrated source code editor
 
-The Web IDE provides smart features including content assist for CSS, HTML, and JavaScript.
+The web IDE provides smart features where you can do these tasks:
 
-* Easily import your source code
-* Copy a file by dragging it to a new directory
-* Syntax highlighting and code validation
-* Editing features for coding quickly, including keyboard shortcuts, and bracket and block-comment auto-completion
-* Key-bindings for vi and emacs users
+* Import your source code.
+
+* Copy a file by dragging it to a new directory.
+
+* Edit code quickly. The editor includes several features:
+
+   * Content assist for CSS, HTML, and JavaScript
+
+   * Syntax highlighting for many popular programming languages
+
+   * Syntax highlighting, validation and content assist for Cloud Foundry manifest files
+
+   * Code validation
+
+   * Keyboard shortcuts
+
+   * Bracket and block-comment auto-completion
+
+   * Key-bindings for vi and emacs users 
 
 ![Integrated source code editor](/features/images/jazzhub-editor.png)											
 
 ## Build and deploy your way
 
-Configure your project to automatically deploy to [IBM&reg; Bluemix&trade;](//bluemix.net/ "Bluemix") 
-whenever a project member pushes code to your Git repository or
-Jazz&trade; SCM. You can simply deploy files as they are pushed, or you
+Configure your project to automatically deploy whenever a project member pushes code to your Git repository or
+
+Jazz&trade;  SCM to [IBM&reg; Bluemix&trade;](//bluemix.net/ "Bluemix"). You can simply deploy files as they are pushed, or you
 can configure more advanced build options to be deployed automatically.
 
 To learn more about configuring and using the various build and deploy capabilities,
-see the tutorial [Getting Started with Bluemix and DevOps Services using Node.js](/tutorials/jazzeditor)
-or [Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava).
+see these resources:
+
+* [Tutorial: Getting Started with Bluemix and DevOps Services using Node.js](/tutorials/jazzeditor)
+* [Tutorial: Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava)
+* [Reference information on Build and Deploy](/docs/reference/deploy)
+
 
 ![Automatic build of source code](/features/images/automatic-build-source-code.png)
 									
@@ -47,7 +67,7 @@ or [Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazz
 It's simple to track, plan, and develop your project, and you don't have to 
 give up your favorite SCM.  You can quickly create a project with a 
 Git repository to share your source with team members (private 
-projects), or the world.  Edit your source, push commits, and 
+projects), or with the world.  Edit your source, push commits, and 
 automatically deploy changes to	the cloud, all without leaving your
 browser. And, don't worry, your favorite Git client is supported too.
  
@@ -85,7 +105,7 @@ updates.
 Track who's doing what, and when it will get done. Need a design? Open a task
  and assign it to the person with the wireframing tools. Something 
 not working? Then, open a defect.  Hidden benefit: expect a warm 
-fuzzy when you complete a work item, and the status changes to Done.
+fuzzy when you complete a work item and change the status to Done.
 
 ![Work items](/features/images/WorkItemsMain.png)		
 																			
@@ -98,3 +118,4 @@ for tracking team velocity and work-item and source-control widgets
 ![Dashboard](/features/images/Charts.png)
 
 &copy; Copyright IBM Corporation 2013, 2014.
+
