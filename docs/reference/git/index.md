@@ -199,7 +199,7 @@ When you work in the web IDE, both your local and remote repositories are hosted
 ---
 <a name="link_commit"></a>
 ### Link a commit to a work item
-Add a work-item keyword and number to your Git commit message to link the commit to a Track & Plan work item for a Git project hosted at DevOps Services. This feature is also available if your project is hosted on GitHub. To use it, though, you'll need to do some [additional configuration][3].
+Add a work-item keyword and number to your Git commit message to link the commit to a Track & Plan work item for a Git project hosted at DevOps Services. 
 
 1. When writing a Git commit message, specify a particular work item. The message format is `<work item keyword> <number>`.
  * For example, the commit message `Implements story 32` links a commit to story item 32.
@@ -210,6 +210,11 @@ Add a work-item keyword and number to your Git commit message to link the commit
 	2. Click **GIT LOG**.
 	3. Open the commit you want to link to a work item.
 	4. Click **Link Work Item**.
+
+**Note:** This feature is also available if your repository is hosted on GitHub. To use it, though, you'll need to do some additional configuration:
+
+1. Open your DevOps Services project's Overview page.
+2. Under the message to GitHub users, click the link "configure GitHub" for directions on configuring commit linking between GitHub and DevOps Services.
 
 ---
 <a name="view_the_commit_history"></a>
