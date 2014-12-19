@@ -80,9 +80,7 @@ A page opens where you can configure and see the deployment status for the proje
 ![DevOps Services auto deploy page](/tutorials/jazzeditor/images/jh-auto-deploy.png)
 **Tip:** With Advanced deployment, you can add a build step, which is useful for Java applications. You can also control 
 more deployment options. However, those options are more advanced than this basic workflow.
-
 Notice the warning message about outgoing changes. The outgoing files are project files that are created when you create a Git repository project. You'll check in those files later.
-
 The Git URL is used in Git commands. You can copy the URL now or return to this page and copy it later.
 
 5. To manage your application in Bluemix, click the link next to the **Deploy to** field.
@@ -112,12 +110,12 @@ or the BUILD & DEPLOY page:
 
 2. Change the application source code and see what happens:
 
-a. Change to your Git clone directory. The views folder contains a file that is named `index.ejs`. This file implements the main page for the example. 
+	a. Change to your Git clone directory. The views folder contains a file that is named `index.ejs`. This file implements the main page for the example. 
 
-b. Change this file. For example, modify the title.
+	b. Change this file. For example, modify the title.
 ![Changing the title](/tutorials/jazzeditor/images/cli-edit-file.png)
 
-c. Change to your Git clone directory and do a Git add, commit and push as shown:
+	c. Change to your Git clone directory and do a Git add, commit and push as shown:
 
 	$ cd ..
     $ git add *
@@ -137,15 +135,14 @@ c. Change to your Git clone directory and do a Git add, commit and push as shown
     remote: Processing changes: refs: 1, done
     To https://hub.jazz.net/git/jazzhubdemouser/mycoolwebappdemo
     	43c6bc7..bf26680 master -> master
-
-d. If you return to the web IDE and check the 
-BUILD & DEPLOY page, you will see something like this image:
-![Auto-deploy in action](/tutorials/jazzeditor/images/jh-auto-deployed.png)
+	
+	d. If you return to the web IDE and check the 
+	BUILD & DEPLOY page, you will see something like this image:
+	![Auto-deploy in action](/tutorials/jazzeditor/images/jh-auto-deployed.png)
 At the top of the **Recent auto-deployments** list, an entry has a comment that 
 matches the commit operation that you made from the command line. 
 The entry shows that your app is running the code that you pushed.
-
-e. View your running app and verify that the title was updated. You might need to refresh your browser to see the updates.
+	e. View your running app and verify that the title was updated. You might need to refresh your browser to see the updates.
 
 3. Next to "Deploy to," click the link. The Bluemix application dashboard opens. 
 When you click the URL on the application dashboard, your updated running application opens.
