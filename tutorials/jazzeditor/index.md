@@ -98,15 +98,15 @@ To learn more about working with Git, [browse the Git documentation](http://git-
 1. Clone the local repository by using the Git URL from either the Bluemix application dashboard 
 or the BUILD & DEPLOY page:
 
-	$ git clone https://hub.jazz.net/git/jazzhubdemouser/mycoolwebappdemo
-    Cloning into 'mycoolwebappdemo'...
-    Username for 'https://hub.jazz.net': jazzhubdemouser
-    Password for 'https://jazzhubdemouser@hub.jazz.net':
-    remote: Counting objects: 23, done
-    remote: Finding sources: 100% (23/23)
-    remote: Total 23 (delta 0), reused 23 (delta 0)
-    Unpacking objects: 100% (23/23), done.
-    Checking connectivity... done. 
+		$ git clone https://hub.jazz.net/git/jazzhubdemouser/mycoolwebappdemo
+    	Cloning into 'mycoolwebappdemo'...
+    	Username for 'https://hub.jazz.net': jazzhubdemouser
+    	Password for 'https://jazzhubdemouser@hub.jazz.net':
+    	remote: Counting objects: 23, done
+    	remote: Finding sources: 100% (23/23)
+    	remote: Total 23 (delta 0), reused 23 (delta 0)
+	    Unpacking objects: 100% (23/23), done.
+	    Checking connectivity... done. 
 
 2. Change the application source code and see what happens:
 
@@ -117,24 +117,24 @@ or the BUILD & DEPLOY page:
 
 	c. Change to your Git clone directory and do a Git add, commit and push as shown:
 
-	$ cd ..
-    $ git add *
-    $ git commit -m "Changing title of app"
-    [master bf26680] Changing title of app
-    1 file changed, 2 insertions(+), 2 deletions(-)
+		$ cd ..
+    	$ git add *
+    	$ git commit -m "Changing title of app"
+ 	   [master bf26680] Changing title of app
+    	1 file changed, 2 insertions(+), 2 deletions(-)
 
-	$ git push
-    Username for 'https://hub.jazz.net': jazzhubdemouser
-    Password for 'https://jazzhubdemouser@hub.jazz.net':
-    Counting objects: 8, done.
-    Delta compression using up to 2 threads.
-    Compressing objects: 100% (3/3), done.
-    Writing objects: 100% (4/4), 383 bytes | 0 bytes/s, done.
-    Total 4 (delta 2), reused 0 (delta 0)
-    remote: Resolving deltas: 100% (2/2)
-    remote: Processing changes: refs: 1, done
-    To https://hub.jazz.net/git/jazzhubdemouser/mycoolwebappdemo
-    	43c6bc7..bf26680 master -> master
+		$ git push
+    	Username for 'https://hub.jazz.net': jazzhubdemouser
+    	Password for 'https://jazzhubdemouser@hub.jazz.net':
+    	Counting objects: 8, done.
+    	Delta compression using up to 2 threads.
+    	Compressing objects: 100% (3/3), done.
+    	Writing objects: 100% (4/4), 383 bytes | 0 bytes/s, done.
+    	Total 4 (delta 2), reused 0 (delta 0)
+    	remote: Resolving deltas: 100% (2/2)
+    	remote: Processing changes: refs: 1, done
+    	To https://hub.jazz.net/git/jazzhubdemouser/mycoolwebappdemo
+    		43c6bc7..bf26680 master -> master
 	
 	d. If you return to the web IDE and check the 
 	BUILD & DEPLOY page, you will see something like this image:
