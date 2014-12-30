@@ -21,4 +21,4 @@ The duration of these outage windows is variable depending upon what needs to be
 | 12/23/2014 | Tuesday  | CANCELLED           | CANCELLED|
 | 12/25/2104 | Thursday | CANCELLED           | CANCELLED|
 | 12/27/2014 | Saturday | CANCELLED           | CANCELLED|
-| 12/30/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
+| 12/30/2014 | Tuesday  | CANCELLED           | CANCELLED|
