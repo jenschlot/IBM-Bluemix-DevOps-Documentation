@@ -1,8 +1,52 @@
 ## What's New
 
+### December 10, 2014
+
+The IBM&reg; DevOps Services Track & Plan feature is now generally available for all DevOps Services projects. You can use the Track & Plan feature to track your work, monitor your team’s activity, and plan sprints. 
+
+The latest iteration of this feature includes changes that are based on feedback that people like you provided. The Track & Plan team values your continued feedback.
+
+Here’s what's new in the Track & Plan feature:
+
+## Easier access
+You don't need to enable the new Track & Plan feature. When you click **Track & Plan**, the new Track & Plan feature opens.
+
+The previous version of the Track & Plan feature is still available for a limited time. To use the previous version, click the down arrow on the **Track & Plan** button and then click **Project Dashboard**.
+
+## Track & Plan replaces Current Work
+The new Track & Plan feature replaces the Current Work feature. If you click the **Current Work** tab or use a bookmark to the Current Work page, the new Track & Plan feature opens.
+
+## Ranking improvements
+You can rank items by dragging them from the Recently Created view to the Ranked List view. The rank of the item is also displayed in the Sprint Planning view. 
+![dragging work item to rank][68]
+
+Instead of dragging an item to rank it, you can also click the rank number and edit it. 
+![editing rank number][69]
+
+## Work item count
+The work item count is now displayed in each view. For views that have paged results, the count includes the work items that are not loaded yet. The count is updated as work items are added to or removed from the view and when filters are applied to the view.  
+![count examples on My Work lanes and backlog][70] 
+
+## Shortcut for setting the planned for attribute
+When you use the Quick Create feature to create a work item, you can quickly set the planned for attribute by typing a tilde (~). 
+![Planned for attribute shortcut][71]
+
+## New table view
+The new table view displays more work items and columns in a more condensed form than the grid view. The table view is useful when you are looking for information in a long list of work items. 
+![New table view][72]
+
+## Sprint Planning dates
+The start and end dates of the sprint are now shown in the title of each lane in the Sprint Planning view. 
+![Dates in Sprint Planning view][73]
+
+## Task breakdown action is available everywhere
+Previously, the task breakdown action was accessible only from the Backlog or Sprint Planning views. Now, you can access the task breakdown action from all views. For example, when you are assigned a story, you can break it into tasks without leaving the My Work view. 
+![task breakdown in My Work view][74]
+
+
 ### November 10, 2014
 
-The IBM&reg; DevOps Services web integrated development environment (IDE) has been significantly changed. It has several new user interfaces (UI) and more capabilities.
+The IBM DevOps Services web integrated development environment (IDE) has been significantly changed. It has several new user interfaces (UI) and more capabilities.
 
 ## Git UI
 
@@ -445,3 +489,10 @@ and deploy to Bluemix can be changed in Project Settings after your project is c
 [65]: /whatsnew/images/childtaskboard.png
 [66]: /whatsnew/images/childtaskbreakdown.png
 [67]: /whatsnew/images/doc_landing_menu.png
+[68]: /whatsnew/images/unrankedItems.png
+[69]: /whatsnew/images/explicitRanking.png
+[70]: /whatsnew/images/count-all.png
+[71]: /whatsnew/images/selectSprintQuickCreate.png
+[72]: /whatsnew/images/tableView.png
+[73]: /whatsnew/images/sprintPlanning.png
+[74]: /whatsnew/images/taskBreakdown.png

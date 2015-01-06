@@ -1,4 +1,4 @@
-Last modified: 17 November 2014
+Last modified: 12 December 2014
 
 This glossary provides terms and definitions for the IBM&reg; DevOps Services features.
 
@@ -6,9 +6,9 @@ The following cross-references are used in this glossary:
 * *See* refers you from a nonpreferred term to the preferred term or from an abbreviation to the spelled-out form. 
 * *See also* refers you to a related or contrasting term. 
 
-For other terms and definitions, see the [IBM Terminology website](http://www-01.ibm.com/software/globalization/terminology/d.html).
+For other terms and definitions, [see the IBM Terminology website](http://www-01.ibm.com/software/globalization/terminology/d.html).
 
-For definitions of Git terms, see the [official Git Manual Page](https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html).
+For definitions of Git terms, [see the official Git Manual Page](https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html).
 
 ---
 
@@ -24,7 +24,7 @@ A development work item that tracks when changes by one team must be adopted by 
 
 <a name="agile"></a>
 **agile**  
-See [agile software development](#agile_software_development)
+[See agile software development](#agile_software_development)
 
 <a name="agile_software_development"></a>
 **agile software development (agile)**  
@@ -38,12 +38,12 @@ A web or mobile device application.
 <a name="artifact"></a>
 **artifact**  
 An entity that is used or produced by a software development process. Examples of artifacts 
-are models, source files, scripts, and binary executable files. See also 
-[component](#component).
+are models, source files, scripts, and binary executable files. [See also 
+component](#component).
 
 <a name="auto-complete"></a>
 **auto-complete**  
-See [code completion](#code_completion).
+[See code completion](#code_completion).
 
 <a name="auto-deploy"></a>
 **auto-deploy** 
@@ -83,7 +83,7 @@ A tool that builds and compiles code.
 
 <a name="CD"></a>
 **CD**  
-See [continuous delivery](#continuous_delivery).
+[See continuous delivery](#continuous_delivery).
 
 <a name="change_set"></a>
 **change set**  
@@ -91,7 +91,7 @@ A group of related changes to files, folders, or symbolic links in a workspace o
 
 <a name="CLI"></a>
 **CLI**  
-See [command-line interface](#command-line_interface).
+[See command-line interface](#command-line_interface).
 
 <a name="code_completion"></a>
 **code completion**  
@@ -110,8 +110,8 @@ defined by a series of commits.
 
 <a name="component"></a>
 **component**  
-A unit of organization consisting of a reusable set of engineering artifacts. See also 
-[artifact](#artifact).
+A unit of organization consisting of a reusable set of engineering artifacts. [See also 
+artifact](#artifact).
 
 <a name="continuous_delivery"></a>
 **continuous delivery (CD)**  
@@ -194,7 +194,7 @@ partners and open source—all provided as-a-service in the cloud.
 
 <a name="IDE"></a>
 **IDE**  
-See [integrated development environment](#integrated_developer_environment).
+[See integrated development environment](#integrated_developer_environment).
 
 <a name="impediment"></a>
 **impediment**  
@@ -212,7 +212,7 @@ that are accessible from a single user interface.
 
 <a name="iteration"></a>
 **iteration**  
-See [sprint](#sprint).
+[See sprint](#sprint).
 
 ---
 <a name="M"></a>
@@ -253,7 +253,7 @@ well known example of open source software.
 
 <a name="Paas"></a>
 **PaaS**  
-See [platform as a service](#platform_as_a_service).
+[See platform as a service](#platform_as_a_service).
 
 <a name="platform_as_a_service"></a>
 **platform as a service (PaaS)**  
@@ -277,7 +277,7 @@ version management, sharing, and organizing resources related to a single work e
 
 <a name="repo"></a>
 **repo**  
-See [repository](#repository).
+[See repository](#repository).
 
 <a name="repository"></a>
 **repository (repo)**  
@@ -290,7 +290,7 @@ typically used by individual team members to contain their changes in progress. 
 members deliver their changes from their repository workspace to the stream and accept 
 changes from other team members into their repository workspace from the stream. Every 
 repository workspace has an owner, and only the owner can make changes in the workspace. 
-See also [workspace](#workspace).
+[See also workspace](#workspace).
 
 <a name="retrospective"></a>
 **retrospective**  
@@ -308,11 +308,11 @@ A set of resources that are used to run a program or process.
 
 <a name="Saas"></a>
 **SaaS**  
-See [software as a service](#software_as_a_service).
+[See software as a service](#software_as_a_service).
 
 <a name="SCM"></a>
 **SCM**  
-See [source control management](#source_control_management).
+[See source control management](#source_control_management).
 
 <a name="Scrum"></a>
 **Scrum**  
@@ -410,7 +410,7 @@ amount of positive and negative feedback that users provide.
 
 <a name="WAR"></a>
 **WAR**  
-See [web archive](#web_archive).
+[See web archive](#web_archive).
 
 <a name="web_archive"></a>
 **web archive (WAR)**  
@@ -431,7 +431,5 @@ defect report, or enhancement request.
 **workspace**  
 In Eclipse, the collection of projects and other resources that the user is currently 
 developing in the workbench. Metadata about these resources resides in a directory on the 
-file system; the resources might reside in the same directory. See also 
-[repository workspace](#repository_workspace).
-
-
+file system; the resources might reside in the same directory. [See also 
+repository workspace](#repository_workspace).
