@@ -21,7 +21,7 @@ Click **Build &amp; Deploy** at the top of the screen. Then, click **Simple**.
 
 ![Simple deployment interface][5]
 
-Simple deployment works by directly deploying the contents of the Git repository, using the `manifest.yml` file to tell it how to deploy to Bluemix. Your app will deploy in a few seconds. Click on the link to the deployed app to give it a look:
+Simple deployment works by directly deploying the contents of the Git repository, using the `manifest.yml` file to tell it how to deploy to Bluemix. Your app will deploy in a few seconds. When the Result of the latest deployment changes from "Pending" to "OK," click on the link to the deployed app:
 
 ![Simple view up close][6]
 
@@ -29,7 +29,16 @@ Simple deployment works by directly deploying the contents of the Git repository
 
 The sample project incorporates JSHint validation to make sure that your code is error-free. The simple deployer doesn't support that sort of thing, though. You need to configure a builder, which is only available in Advanced mode, also known as Pipeline. 
 
-At the top of the *Build & Deploy* page, click **Advanced**. 
+At the top of the Build & Deploy page, click **Advanced**. Because you've switched from Simple to Advanced mode, Pipeline will have automatically generated a configuration for your project. You're going to set this up from scratch, though, so before going further:
+
+1. Click the gear icon on the rightmost panel, which represents a stage named dev by default.
+2. On the Deployer Stage Configuration page, click DELETE. Click OK when the confirmation message appears.
+3. Click the gear icon on the Builder panel.
+4. On the Builder Configuration page, click RESET. Click OK when the confirmation message appears.
+
+![Deleting the pre-configured Pipeline][25]
+
+And that's that. You can do as much creation and customization as you like when you configure your own project. This one, however, is designed to require minimal fuss to get things up and running: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it will automatically be found.
 
 Click **add a builder**. On the *Add Builder* page that appears, select "Grunt" as the **Builder**. Leave everything else as default. 
 
