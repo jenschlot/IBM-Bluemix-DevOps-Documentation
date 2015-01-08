@@ -138,8 +138,8 @@ Thanks for following along.
 [2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview
 [3]: /tutorials/jazzweb/images/forkbutton.png
 [4]: /tutorials/jazzweb/images/forknew.png
-[5]: /tutorials/jazzweb/images/simpledeployment.gif
-[6]: /tutorials/jazzweb/images/closesimple.gif
+[5]: /tutorials/jazzweb/images/simpledeployment.png
+[6]: /tutorials/jazzweb/images/closesimple.png
 [7]: /tutorials/jazzweb/images/stockapp.gif
 [8]: /tutorials/jazzweb/images/builder1.png
 [9]: /tutorials/jazzweb/images/deployscriptex.png
