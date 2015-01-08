@@ -13,6 +13,9 @@
 						<div class="col-md-4 vcenter reference-header-name">
 							<span>{resourcename}</span>
 						</div>
+						<div class="col-md-6 vcenter">
+							{>machine_translation/}		
+						</div>
 					</div>
 				</div>
 			</div>

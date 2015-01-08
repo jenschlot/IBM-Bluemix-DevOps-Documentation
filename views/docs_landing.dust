@@ -2,8 +2,17 @@
 <script type="text/javascript" src="/tutorials/javascript/hexAlign.js"></script>
 <div class="container-fluid">
 		<div class="row pbl" id="featured-docs">
-			<h2 class="plm pts pts">Featured Docs <a role="button" href="/docs/all#tut" class="mll btn btn-dark btn-sm"><strong>All Tutorials</strong></a>
-			<a role="button" href="/docs/all#ref" class="mll btn btn-dark btn-sm"><strong>All References</strong></a>	</h2>
+			<div class="row mts mbm prl">
+				<div class="col-md-6">
+					<h2 class="plm">Featured Docs
+						<a role="button" href="/docs/all#tut" class="mll btn btn-dark btn-sm"><strong>All Tutorials</strong></a>
+						<a role="button" href="/docs/all#ref" class="mll btn btn-dark btn-sm"><strong>All References</strong></a>
+					</h2>
+				</div>
+				<div class="col-md-6">
+					{>machine_translation/}			
+				</div>
+			</div>
 			<div class="col-md-12">
 				<div class="row">
 
