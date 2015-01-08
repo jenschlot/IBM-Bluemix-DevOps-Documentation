@@ -102,11 +102,13 @@ When you're in the Rational Team Concert client for Eclipse, change your code th
 ![Edit Code](/tutorials/jazzrtc/images/edit_code.png "Edit Code")
 
 2. Deliver the change to the Jazz SCM repository:
+
 	a. In the Pending Changes view, check in the change in a new change set.
 	![Check In Change](/tutorials/jazzrtc/images/checkin.png "Check In Change")
 
 	b. If necessary, you can edit the comment for the change set.
 	![Edit Change Set Comment](/tutorials/jazzrtc/images/edit_comment.png "Edit Change Set Comment")
+	
 	c. Deliver the change. 
 	![Deliver Change Set](/tutorials/jazzrtc/images/deliver.png "Deliver Change Set")
 
