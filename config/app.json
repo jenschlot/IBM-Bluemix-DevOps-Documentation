@@ -15,5 +15,5 @@
 	"ssl": {
 		"key": "file:./config/ssl/privatekey.pem",
 		"cert": "file:./config/ssl/certificate.pem"
-	},
+	}
 }
