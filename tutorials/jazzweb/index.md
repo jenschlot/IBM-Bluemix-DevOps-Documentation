@@ -15,7 +15,7 @@ Enter whatever name you like for your fork of the Sentiment Analysis app. Also, 
 
 ![Fork new project][4]
 
-You'll make your mark on the app in a moment, but for now, let's get your fork of the project live on the web using Bluemix. To make the most of DevOps Services and Bluemix, make sure that your Bluemix space has the *Delivery Pipeline* service. If it doesn't yet have it, follow [these steps][26] to get it. 
+You'll make your mark on the app in a moment, but for now, let's get your fork of the project live on the web using Bluemix. To make the most of DevOps Services and Bluemix, make sure that your Bluemix space has the *Delivery Pipeline* service. If it doesn't yet have it, [follow these steps][26]. 
 
 Click **Build &amp; Deploy** at the top of the screen. Then, click **Simple**.
 
@@ -27,20 +27,15 @@ Simple deployment works by directly deploying the contents of the Git repository
 
 ![Sentiment Analysis Sample App][7]
 
-The sample project incorporates JSHint validation to make sure that your code is prim, proper, and error free. The simple deployer doesn't support that sort of thing, though. You need to configure a builder, which is only available in Advanced mode, also known as Pipeline. 
+The sample project incorporates JSHint validation to make sure that your code is error-free. The simple deployer doesn't support that sort of thing, though. You need to configure a builder, which is only available in Advanced mode, also known as Pipeline. 
 
-At the top of the *Build & Deploy* page, click **Advanced**. Because you've switched from Simple to Advanced mode, Pipeline will have automatically generated a configuration for your project. You're going to set this up from scratch, though, so before going further:
+At the top of the *Build & Deploy* page, click **Advanced**. 
 
-![A preconfigured Pipeline][25]
+Click **add a builder**. On the *Add Builder* page that appears, select "Grunt" as the **Builder**. Leave everything else as default. 
 
-1. Click the gear icon on the rightmost panel, which represents a stage named `dev` by default. 
-2. On the *Deployer Stage Configuration* page, click **DELETE**. Click **OK** when the confirmation message appears.
-3. Click the gear icon on the Builder panel.
-4. On the *Builder Configuration* page, click **RESET**. Click **OK** when the confirmation message appears.
- 
-And that's that. You can do as much creation and customization as you like when you configure your own project. This one, however, is designed to require minimal fuss to get things up and running: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it will automatically be found.
+You can do as much creation and customization as you like when you configure your own project. This one, however, is designed to require minimal fuss to get things up and running: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it will automatically be found.
 
-Click **add a builder**. On the *Add Builder* page that appears, select "Grunt" as the **Builder**. Leave everything else as default and click **SAVE**.
+Click **SAVE**.
 
 ![Configuring the Builder][8]
 
@@ -48,7 +43,7 @@ Next, click **add a stage** on the right side of the screen. DevOps Services int
 
 To make sure that the project has a unique path, add the flag `-n` followed by a unique host name to the first line of the Bluemix script. A complete version of the command might look like this:
 
-    cf push "${CF_APP}" -n Your-SA-App201410
+    cf push "${CF_APP}" -n Your-SA-App201501
 
 As an example:
 
