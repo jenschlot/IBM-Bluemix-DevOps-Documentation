@@ -31,8 +31,8 @@ The sample project incorporates JSHint validation to make sure that your code is
 
 At the top of the Build & Deploy page, click **Advanced**. Because you've switched from Simple to Advanced mode, Pipeline will have automatically generated a configuration for your project. You're going to set this up from scratch, though, so before going further:
 
-1. Click the gear icon on the rightmost panel, which represents a stage named `dev Deploy` by default. Click **Delete Stage** and confirm the deletion.
-2. Click the gear icon on the remaining build stage panel. Click **Delete Stage** and confirm the deletion.
+1. Click the gear icon on the rightmost tile, which represents a stage named `dev Deploy` by default. Click **Delete Stage** and confirm the deletion.
+2. Click the gear icon on the remaining build stage tile. Click **Delete Stage** and confirm the deletion.
 
 ![Deleting the pre-configured Pipeline][25]
 
