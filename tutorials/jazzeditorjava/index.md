@@ -22,13 +22,17 @@ The dashboard shows an overview of the active Bluemix space for your organizatio
 
 If you create extra organizations or spaces in Bluemix, be sure to use the same ones as you follow these tutorials. Use the default selections.
 
-Click **CREATE AN APP**, then select **WEB**. Select the Libery from Java Starter, then click **CONTINUE** and choose a name for your app.
+Click **CREATE AN APP**, then select **WEB**. Select the Libery from Java Starter, then click **CONTINUE**: 
+
+![Bluemix Java Web Starter][7]
+
+Choose a name for your app:
 
 ![Naming a Bluemix app][54]
 
 In seconds, you'll a Java web server application instance running on Bluemix:
 
-![Bluemix Java Web Starter][7]
+![The new app's Bluemix dashboard][55]
 
 If you click the route on the application dashboard, you can access the running Starter application:
 
@@ -329,3 +333,4 @@ To learn about how to integrate unit testing into your DevOps Services projects,
    [52]: /tutorials/jazzeditorjava/images/config-to-delete.png
    [53]: https://www.ng.bluemix.net/docs/#
    [54]: /tutorials/jazzeditorjava/images/bm-name-app.png
+   [55]: /tutorials/jazzeditorjava/images/bm-web-starter.png
