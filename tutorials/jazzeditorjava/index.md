@@ -24,6 +24,8 @@ If you create extra organizations or spaces in Bluemix, be sure to use the same 
 
 Click **CREATE AN APP**, then select **WEB**. Select the Libery from Java Starter, then click **CONTINUE** and choose a name for your app.
 
+![Naming a Bluemix app][54]
+
 In seconds, you'll a Java web server application instance running on Bluemix:
 
 ![Bluemix Java Web Starter][7]
@@ -326,3 +328,4 @@ To learn about how to integrate unit testing into your DevOps Services projects,
    [51]: /tutorials/jazzeditorjava/images/click-to-open.gif
    [52]: /tutorials/jazzeditorjava/images/config-to-delete.png
    [53]: https://www.ng.bluemix.net/docs/#
+   [54]: /tutorials/jazzeditorjava/images/bm-name-app.png
