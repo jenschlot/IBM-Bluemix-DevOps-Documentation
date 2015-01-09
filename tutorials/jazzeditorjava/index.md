@@ -1,6 +1,6 @@
 #Getting Started with IBM Bluemix and DevOps Services using Java
 
-Last modified: 16 December 2014
+Last modified: 9 January 2015
 
 ##Create an app using IBM Bluemix
 
@@ -10,10 +10,7 @@ If you aren't registered, [sign up for free on the Bluemix home page][1].
 
 ![Sign up for free][2]
 
-After you register, you can find helpful information on the [Bluemix][1] site:
-
-* [Getting Started with IBM Bluemix](https://bluemix.net/docs/QuickStart.jsp)
-* [IBM Bluemix Overview](https://bluemix.net/docs/BlueMixIntro.jsp)
+After you register, you can find helpful information on [IBM Bluemix Docs][53]. 
 
 If you prefer to try things rather than read about them, try this tutorial. You can set up and run a sample app in minutes.
 
@@ -345,3 +342,4 @@ To learn about how to integrate unit testing into your DevOps Services projects,
    [50]: /tutorials/jazzeditorjava/images/deployed-with-pipeline.gif
    [51]: /tutorials/jazzeditorjava/images/click-to-open.gif
    [52]: /tutorials/jazzeditorjava/images/config-to-delete.gif
+   [53]: https://www.ng.bluemix.net/docs/#
