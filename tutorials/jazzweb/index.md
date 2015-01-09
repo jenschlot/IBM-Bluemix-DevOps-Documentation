@@ -17,7 +17,7 @@ Enter a name for your fork of the Sentiment Analysis app, and make sure that the
 
 ![Fork new project][4]
 
-Put your fork of the project on the web by using Bluemix. To make the most of DevOps Services and Bluemix, make sure that your Bluemix space has the Delivery Pipeline service. If it doesn't have that service, [these steps][26].
+Put your fork of the project on the web by using Bluemix. To make the most of DevOps Services and Bluemix, make sure that your Bluemix space has the Delivery Pipeline service. If it doesn't have that service, [follow these steps][26].
 
 At the top of the screen, click **Build &amp; Deploy**. Then, click **Simple**.
 
@@ -35,12 +35,10 @@ The sample project incorporates JSHint validation to ensure that your code is co
 
 At the top of the Build & Deploy page, click **ADVANCED**. Because you switched from Simple to Advanced mode, Pipeline automatically generates a configuration for your project. However, you're going to create a configuration, so you first must reset Pipeline:
 
-![A preconfigured Pipeline][25]
+![Deleting a preconfigured Pipeline][25]
 
-1.	On the rightmost tile, click the gear icon, which represents a stage that is named dev by default. 
-2.	On the Deployer Stage Configuration page, click **DELETE**. When the confirmation message is shown, click **OK**.
-3.	On the Builder tile, click the gear icon.
-4.	On the Builder Configuration page, click **RESET**. When the confirmation message is shown, click **OK**.
+1. Click the gear icon on the rightmost tile, which represents a stage named `dev Deploy` by default. Click **Delete Stage** and confirm the deletion.
+2. Click the gear icon on the remaining build stage tile. Click **Delete Stage** and confirm the deletion.
  
 You reset the Delivery Pipeline service. When you configure your own project, you can create and customize as much as you want to. However, this sample, is designed to require minimal activity to get started: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it is automatically found. This Grunt build file includes JSHint validation, so your project's code will be checked automatically each time a build occurs.
 
@@ -52,7 +50,7 @@ On the right side of the screen, click **add a stage**. Because DevOps Services 
 
 Make sure that the project has a unique path by editing the first line of the Bluemix script: add the `-n` flag followed by a unique host name. A complete version of the command might look like this example:
  
-    cf push "${CF_APP}" -n Your-SA-App201410
+    cf push "${CF_APP}" -n Your-SA-App201501
 
 The Deployer Stage Configuration might look like this example:
 
@@ -152,8 +150,8 @@ You developed and deployed a Bluemix application by using the web IDE.
 [2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview
 [3]: /tutorials/jazzweb/images/forkbutton.png
 [4]: /tutorials/jazzweb/images/forknew.png
-[5]: /tutorials/jazzweb/images/simpledeployment.gif
-[6]: /tutorials/jazzweb/images/closesimple.gif
+[5]: /tutorials/jazzweb/images/simpledeployment.png
+[6]: /tutorials/jazzweb/images/closesimple.png
 [7]: /tutorials/jazzweb/images/stockapp.gif
 [8]: /tutorials/jazzweb/images/builder1.png
 [9]: /tutorials/jazzweb/images/deployscriptex.png
@@ -175,6 +173,3 @@ You developed and deployed a Bluemix application by using the web IDE.
 [25]: /tutorials/jazzweb/images/config-to-delete.png
 [26]: https://www.ng.bluemix.net/docs/#services/DeliveryPipeline/index.html#getstartwithCD
 [27]: https://dev.twitter.com/apps
-[28]: https://developer.ibm.com/answers/smartspace/devops-services/
-[29]: https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard
-[30]: /docs
