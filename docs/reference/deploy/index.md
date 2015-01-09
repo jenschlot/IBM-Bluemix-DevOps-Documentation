@@ -77,7 +77,7 @@ If automatic building and deployment are not enabled for your project, you can s
 <a name="logs"></a>
 ###Logging
 
-You can view the logs for your builder and deployer stages on the Build and Deployment pages. Click a build or deployment, or click the **Last Build** or **Deployed** links.
+You can view the logs for your builder and deployer stages on the Build and Deployment pages. Click a build or deployment, or click **View logs and history**.
 
 ![Locations that open history pages from Advanced Build & Deploy][5]
 
