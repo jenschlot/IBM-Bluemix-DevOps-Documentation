@@ -496,7 +496,6 @@ Only project owners can delete branches from origin.
 
 1. Type `git push origin :<your_branch_name>` and press Enter.
 
-&copy; Copyright IBM Corporation 2013, 2014.
 
 [1]: ../gitclient/#command_line_git
 [2]: https://hub.jazz.net
