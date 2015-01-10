@@ -1,6 +1,6 @@
 #Getting Started with IBM Bluemix and IBM DevOps Services by using Node.js
 
-Last modified: 18 December 2014
+Last modified: 9 January 2015
 
 ##Create an application with IBM Bluemix
 
@@ -13,38 +13,26 @@ Before you can use the Bluemix capabilities, [sign up for free](https://bluemix.
 
 After you sign up, you can find helpful information on the Bluemix website:
 
-* [Getting Started with Bluemix](https://bluemix.net/docs/QuickStart.jsp)
-* [Bluemix Overview](https://bluemix.net/docs/BlueMixIntro.jsp)
+* [Getting Started with Bluemix](https://www.ng.bluemix.net/docs/#)
+* [Bluemix Overview](https://www.ng.bluemix.net/docs/#overview/overview.html#overview)
 
 To get started now, try this tutorial. You'll create an application and deploy it.
 
 1. Sign into Bluemix. The dashboard opens:
-![Bluemix dashboard](/tutorials/jazzeditor/images/bm-home.png)
+![Bluemix dashboard](/tutorials/jazzeditor/images/bm-home_NEW.png)
 The dashboard shows an overview of the active Bluemix space for your organization. 
 By default, the space is `dev` and the organization is the project creator's user name. 
 For example, if `bob@example.com` logs in to Bluemix for the first time, the active space is `dev` and the organization 
 is `bob@example.com`.
 If you create more organizations or spaces in Bluemix, be sure to use the same ones as you follow the tutorials. Use the default selections.
 
-2. Click **CREATE AN APP** to select from several run times, such as Java or Ruby; services, such as IBM DataCache or MongoDB; and boilerplates, 
-which are preconfigured app templates. 
+2. Click **CREATE AN APP** and click **Web** as the kind of app you are creating.  
 
-3. For this workflow, select the Node JS Web Starter boilerplate and review 
-its description. As you can see, the app is a simple Node.js web server that includes example code 
-that demonstrates the IBM DataCache service. 
+3. For your starter, click **SDK for Node.js** and review the docs and details. Click **CONTINUE**.
 
-4. Name the app and enter a host. The name is a unique URL where you access your app. 
-
-5. For the space, use the default setting. For the Datacache Plan, make sure that **Free** is selected.
-
-6. Click **CREATE**.
-![Bluemix Create App dialog](/tutorials/jazzeditor/images/bm-create.png)
+4. Name your app and click **FINISH**. The name is a unique URL where you access your app. 
 The app starts after a moment. The app dashboard opens and shows that it's running.
-![Bluemix Application tile](/tutorials/jazzeditor/images/bm-app-panel.png)
-
-7. On the dashboard, click the URL to open your running app.
-
- ![A running web application](/tutorials/jazzeditor/images/bm-example.png)
+![Bluemix Application tile](/tutorials/jazzeditor/images/bm-app-panel_NEW.png)
 
 Now that your application is running, you can see and modify its code with IBM DevOps Services.
 
@@ -55,9 +43,9 @@ You can work with your application code in many ways. For example, with the auto
 Git repository. The mechanism that implements auto-deployment is powered by 
 the BUILD & DEPLOY capabilities of DevOps Services.
 
-1. To enable auto-deployment, go to the Bluemix dashboard for your application and 
+1. To enable auto-deployment, go to the Bluemix overview for your application and 
 click **ADD GIT**. You get a Git repository that is populated with example code and a deployed app. 
-![Add Git button](/tutorials/jazzeditor/images/bm-add-git-integration.png)
+![Add Git button](/tutorials/jazzeditor/images/bm-add-git-integration_NEW.png)
 You might be prompted to enter your password to verify that DevOps Services can act on your behalf. 
 ![DevOps Services sign in page](/tutorials/jazzeditor/images/jh-signin.png)
 **Note:** The first time that you access IBM DevOps Services, you might need to create a Jazz&trade; ID and link it to your IBM id. A Jazz ID is a short name that is used in several places, 
@@ -66,24 +54,20 @@ the instructions in the window.
  
 2. Make sure that the check box is selected to populate the Git repository with the starter application package and 
 to automatically deploy the app.
-![Create Git repo dialog](/tutorials/jazzeditor/images/bm-create-git-repo.png)
+![Create Git repo dialog](/tutorials/jazzeditor/images/bm-create-git-repo_NEW.png)
 You created a Git repository, populated it with the example code, and deployed the app.
-![Git repo success message dialog](/tutorials/jazzeditor/images/bm-git-repo-success-msg.png)
+![Git repo success message dialog](/tutorials/jazzeditor/images/bm-git-repo-success-msg_NEW.png)
 
-3. To see the status of the deployed app, go to the Bluemix application dashboard and click **EDIT CODE**.
-![CODE button](/tutorials/jazzeditor/images/bm-code-button.png)
+3. Go to the Bluemix application overview and click **EDIT CODE**.
+![CODE button](/tutorials/jazzeditor/images/bm-code-button_NEW.png)
 Your new project opens in the web IDE. The project page contains useful information that you can review later. 
 
 4. To check the status of the application, click **BUILD & DEPLOY**.
-![Web IDE](/tutorials/jazzeditor/images/orion.png)
-A page opens where you can configure and see the deployment status for the project.
-![DevOps Services auto deploy page](/tutorials/jazzeditor/images/jh-auto-deploy.png)
-**Tip:** With Advanced deployment, you can add a build step, which is useful for Java applications. You can also control 
-more deployment options. However, those options are more advanced than this basic workflow.
+![Web IDE](/tutorials/jazzeditor/images/orion_NEW.png)
+A page opens where you can request a build and see the deployment status for the project.
 Notice the warning message about outgoing changes. The outgoing files are project files that are created when you create a Git repository project. You'll check in those files later.
 The Git URL is used in Git commands. You can copy the URL now or return to this page and copy it later.
 
-5. To manage your application in Bluemix, click the link next to the **Deploy to** field.
 
 ---
 ##Push changes to the Git repository by using the command line
@@ -98,7 +82,7 @@ To learn more about working with Git, [browse the Git documentation](http://git-
 1. Clone the local repository by using the Git URL from either the Bluemix application dashboard 
 or the BUILD & DEPLOY page:
 
-		$ git clone https://hub.jazz.net/git/jazzhubdemouser/mycoolwebappdemo
+		$ git clone https://hub.jazz.net/git/jazzhubdemouser/newcoolwebappdemo
     	Cloning into 'mycoolwebappdemo'...
     	Username for 'https://hub.jazz.net': jazzhubdemouser
     	Password for 'https://jazzhubdemouser@hub.jazz.net':
@@ -133,7 +117,7 @@ or the BUILD & DEPLOY page:
     	Total 4 (delta 2), reused 0 (delta 0)
     	remote: Resolving deltas: 100% (2/2)
     	remote: Processing changes: refs: 1, done
-    	To https://hub.jazz.net/git/jazzhubdemouser/mycoolwebappdemo
+    	To https://hub.jazz.net/git/jazzhubdemouser/newcoolwebappdemo
     		43c6bc7..bf26680 master -> master
 	
 	d. If you return to the web IDE and check the 
@@ -142,6 +126,7 @@ or the BUILD & DEPLOY page:
 At the top of the **Recent auto-deployments** list, an entry has a comment that 
 matches the commit operation that you made from the command line. 
 The entry shows that your app is running the code that you pushed.
+	
 	e. View your running app and verify that the title was updated. You might need to refresh your browser to see the updates.
 
 3. Next to "Deploy to," click the link. The Bluemix application dashboard opens. 
