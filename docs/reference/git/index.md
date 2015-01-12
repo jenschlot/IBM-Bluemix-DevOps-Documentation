@@ -1,6 +1,10 @@
 #Git reference
 
+<<<<<<< HEAD
 Last modified: 9 January 2015
+=======
+Last modified: 17 December 2014
+>>>>>>> refs/heads/mdb-machine-translation-updates
 
 If you store your code in a Git repository that is hosted by IBM® DevOps Services, you can work with code in a Git terminal or in a web integrated development environment (IDE). If you work on a local workstation, you can use Git terminal commands to edit the contents of your hosted repository. If you use the web IDE, you don't need the Git terminal: you can run many common Git commands in the web IDE.  
 
@@ -213,6 +217,7 @@ To link a commit to a Track & Plan work item for a Git project that is hosted at
 
 1. Open your DevOps Services project's Overview page.
 2. Under the message to GitHub users, click **configure GitHub** to get instructions to configure commit linking between GitHub and DevOps Services.
+<<<<<<< HEAD
 
 ---
 <a name="link_commit"></a>
@@ -233,6 +238,8 @@ To link a commit to a Track & Plan work item for a Git project that is hosted at
 
 1. Open your DevOps Services project's Overview page.
 2. Under the message to GitHub users, click **configure GitHub** to get instructions to configure commit linking between GitHub and DevOps Services.
+=======
+>>>>>>> refs/heads/mdb-machine-translation-updates
 
 ---
 <a name="view_the_commit_history"></a>
@@ -499,4 +506,9 @@ Only project owners can delete branches from origin.
 
 [1]: ../gitclient/#command_line_git
 [2]: https://hub.jazz.net
+<<<<<<< HEAD
 [3]: https://hub.jazz.net/gitHook/ryehle/GitHubSentiment
+=======
+[3]: #view_the_commit_history
+[4]: #start_working_on_a_local_branch
+>>>>>>> refs/heads/mdb-machine-translation-updates
