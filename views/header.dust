@@ -23,7 +23,5 @@
 			<script src='/tutorials/javascript/adminMessage.js'></script>
 			
 			<div class='content fluid-content'>
-			<div class="translate-widget-container prl pll">
-				{>machine_translation/}
-			</div>
+
 
