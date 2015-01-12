@@ -10,6 +10,7 @@
 			"name": "Jazzhub Guest",
 			"email": "hub@jazz.net"
 		},
+		"publicUri": "https://qa.hub.jazz.net",
 		"userServiceEndpoint": "https://qa.hub.jazz.net/manage/service/com.ibm.team.jazzhub.common.service.ICurrentUserService"
 	}
 }
