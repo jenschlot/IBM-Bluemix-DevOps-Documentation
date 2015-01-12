@@ -5,7 +5,7 @@ var nconf = require('nconf');
 var NavbarClient = require('../lib/clients/navbar-client.js');
 
 var renderReference = function(req, res, next, headerContent) {
-	var config = nconf.get('config');
+	var config = require("../config").get("config");
 	var headerStyling;
 
 	if (config) {

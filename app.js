@@ -5,11 +5,9 @@ var proxy = require('proxy-middleware');
 var url = require('url');
 
 
-var nconf = require('nconf');
+var nconf = require("./config").get("config");
 var cookieParser = require('cookie-parser');
 var headerAuth = require('./lib/middleware/header-auth.js');
-
-nconf.file('./config/app.json');
 
 var _ = require('underscore'); 			// Utility functions
 var config = require('./config.json');  	// Configuration file.
