@@ -25,7 +25,7 @@ At the top of the screen, click **Build &amp; Deploy**. Then, click **Simple**.
 
 Simple deployment directly deploys the contents of the Git repository. Simple deployment uses the information in the project's `manifest.yml` file to specify how the repository code will be deployed to Bluemix. Your app will be deployed in a few seconds. 
 
-To see your deployed app, click the link to it
+To see your deployed app, click the link to it:
 
 ![Simple view up close][6]
  
@@ -152,7 +152,7 @@ You developed and deployed a Bluemix application by using the web IDE.
 [4]: /tutorials/jazzweb/images/forknew.png
 [5]: /tutorials/jazzweb/images/simpledeployment.png
 [6]: /tutorials/jazzweb/images/closesimple.png
-[7]: /tutorials/jazzweb/images/stockapp.gif
+[7]: /tutorials/jazzweb/images/stockapp.png
 [8]: /tutorials/jazzweb/images/builder1.png
 [9]: /tutorials/jazzweb/images/deployscriptex.png
 [10]: /tutorials/jazzweb/images/click2blue.png
@@ -164,7 +164,7 @@ You developed and deployed a Bluemix application by using the web IDE.
 [16]: /tutorials/jazzweb/images/pushing.png
 [17]: /tutorials/jazzweb/images/manifest.gif
 [18]: /tutorials/jazzweb/images/manualdeploy.png
-[19]: /tutorials/jazzweb/images/updatedapp.gif
+[19]: /tutorials/jazzweb/images/updatedapp.png
 [20]: https://www.ibmdw.net/answers?community=jazzhub (forum)
 [21]: mailto:hub%40jazz.net
 [22]: /tutorials/jazzweb/images/deployto.png
