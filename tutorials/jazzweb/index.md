@@ -1,10 +1,6 @@
 #Developing an IBM Bluemix application in Node.js with the web IDE
 
-<<<<<<< HEAD
 Last modified: 12 January 2015
-=======
-Last modified: 9 January 2015
->>>>>>> refs/heads/mdb-machine-translation-updates
 
 In this tutorial, you use IBM DevOps Services to develop an application in the cloud and deploy it to [IBM® Bluemix™][1].
 
@@ -154,13 +150,8 @@ You developed and deployed a Bluemix application by using the web IDE.
 [2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview
 [3]: /tutorials/jazzweb/images/forkbutton.png
 [4]: /tutorials/jazzweb/images/forknew.png
-<<<<<<< HEAD
-[5]: /tutorials/jazzweb/images/simpledeployment.gif
-[6]: /tutorials/jazzweb/images/closesimple.gif
-=======
 [5]: /tutorials/jazzweb/images/simpledeployment.png
 [6]: /tutorials/jazzweb/images/closesimple.png
->>>>>>> refs/heads/mdb-machine-translation-updates
 [7]: /tutorials/jazzweb/images/stockapp.png
 [8]: /tutorials/jazzweb/images/builder1.png
 [9]: /tutorials/jazzweb/images/deployscriptex.png
