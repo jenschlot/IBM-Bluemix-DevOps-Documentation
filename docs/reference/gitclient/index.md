@@ -136,7 +136,7 @@ If you use Eclipse, you can use the Rational Team Concert plug-in to access your
 1. In Eclipse, click **Help > Install New Software**
 
 3. In the Install window, complete these steps:
-  1. In the **Work with** field, enter `https://jazz.net/downloads/rational-team-concert/5.0/5.0/p2`
+  1. In the **Work with** field, enter `https://jazz.net/downloads/rational-team-concert/5.0.2/5.0.2/p2`
   2. Press Enter to load the contents of the update site.
   3. Select the **Rational Team Concert Client Feature** check box.
   4. Select the **Group items by category** check box
