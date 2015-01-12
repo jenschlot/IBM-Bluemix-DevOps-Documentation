@@ -1,7 +1,6 @@
 #Work locally with IBM DevOps Services projects and Git source control
 
-Last modified: 22 December 2014
-
+Last modified: 9 Janaury 2015
 If you use a Git repository for your IBM&reg; DevOps Services project, you can manage your repository and work locally or by using the integrated web IDE in DevOps Services. If you install Git, you can use the [command line to manage your repository](#command_line_git). If you work in Eclipse, you can install the EGit plug-in for version control.  For more information, [see using EGit in Eclipse](#eclipse_using_egit).
 
 If you use the Track & Plan feature to manage your project plans and work items, and if you install the the Rational Team Concert plug-in, you can access your project locally from Eclipse.
@@ -33,9 +32,11 @@ If you know how to use the command line with Git, you can use this method to man
 
 Create a local copy of the project files by cloning the Git repository so that you can access the contents of your repository outside the web IDE. 
 
-**Before you begin**: 
+**Before you begin**
 
 Check whether Git is installed. On a command line, enter `git version`. If Git is installed, the version number is shown and you can begin. If Git is not installed, [go to the Git website](http://git-scm.com/downloads). Download and install the version for your operating system. You can accept the default installation values.
+
+**Clone your project**
 
 1. Sign in to [DevOps Services](https://hub.jazz.net/)
 
@@ -67,8 +68,9 @@ If you use Eclipse and have a project that uses Git for source control, you can 
 * If you use Eclipse 4.2.2 or later, complete these steps. If you use an earlier version of Eclipse, [see the EGit/FAQs for instructions](http://wiki.eclipse.org/EGit/FAQ#Where_can_I_find_older_releases_of_EGit.3F).  
 * If you do not have Eclipse installed and want tools for Java development, [download and install the Java EE IDE for Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2).  
 * If you do not have Java 1.7 installed, [download and install the Java SE Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
-*  Check whether the EGit plug-in is already installed. In Eclipse, click **Window > Show View > Other** and type `git` as the filter text. If you see a list of Git views, skip ahead to [Connect to your DevOps Services Project with EGit](#connect_to_your_devops_services_project_with_egit)
+* Check whether the EGit plug-in is already installed. In Eclipse, click **Window > Show View > Other** and type `git` as the filter text. If you see a list of Git views, skip ahead to [Connect to your DevOps Services Project with EGit](#connect_to_your_devops_services_project_with_egit)
 
+**Install the plug-in**
 1. In Eclipse, click **Help > Install New Software**
 
 2. In the Install window, complete these  steps:
@@ -123,15 +125,18 @@ If you use Eclipse, you can use the Rational Team Concert plug-in to access your
 ### Install the Rational Team Concert plug-in
 
 
-**Before you begin**: 
-* Rational Team Concert 5.0 and later require Eclipse 4.3.2, and Eclipse requires Java 1.7.  
-8 If you do not have Eclipse installed and want tools for Java development, [download and install the  Java EE IDE for Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2).  
+**Before you begin**
+
+* Rational Team Concert 5.0.2 and later require Eclipse 4.3.2, and Eclipse requires Java 1.7.  
+* If you do not have Eclipse installed and want tools for Java development, [download and install the  Java EE IDE for Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2).  
 * If you do not have Java 1.7 installed, [download and install the Java SE Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
+
+**Install the plug-in**
 
 1. In Eclipse, click **Help > Install New Software**
 
 3. In the Install window, complete these steps:
-  1. In the **Work with** field, enter `https://jazz.net/downloads/rational-team-concert/5.0/5.0/p2`
+  1. In the **Work with** field, enter `https://jazz.net/downloads/rational-team-concert/5.0.2/5.0.2/p2`
   2. Press Enter to load the contents of the update site.
   3. Select the **Rational Team Concert Client Feature** check box.
   4. Select the **Group items by category** check box

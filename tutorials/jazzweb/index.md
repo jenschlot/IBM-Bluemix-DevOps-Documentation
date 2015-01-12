@@ -1,6 +1,6 @@
 # Developing an IBM Bluemix application in Node.js with the Web IDE
 
-Last modified: 9 December 2014
+Last modified: 12 January 2015
 
 This tutorial shows you how to use DevOps Services to develop an application in the cloud and deploy it to [IBM® Bluemix™][1].
 
@@ -145,7 +145,7 @@ Thanks for following along.
 [4]: /tutorials/jazzweb/images/forknew.png
 [5]: /tutorials/jazzweb/images/simpledeployment.gif
 [6]: /tutorials/jazzweb/images/closesimple.gif
-[7]: /tutorials/jazzweb/images/stockapp.gif
+[7]: /tutorials/jazzweb/images/stockapp.png
 [8]: /tutorials/jazzweb/images/builder1.png
 [9]: /tutorials/jazzweb/images/deployscriptex.png
 [10]: /tutorials/jazzweb/images/click2blue.png
@@ -157,7 +157,7 @@ Thanks for following along.
 [16]: /tutorials/jazzweb/images/pushing.png
 [17]: /tutorials/jazzweb/images/manifest.gif
 [18]: /tutorials/jazzweb/images/manualdeploy.png
-[19]: /tutorials/jazzweb/images/updatedapp.gif
+[19]: /tutorials/jazzweb/images/updatedapp.png
 [20]: https://www.ibmdw.net/answers?community=jazzhub (forum)
 [21]: mailto:hub%40jazz.net
 [22]: /tutorials/jazzweb/images/deployto.png

@@ -1,6 +1,6 @@
 # Work locally with IBM DevOps Services projects and Jazz source control
 
-Last modified: 22 December 2014
+Last modified: 9 January 2015
 
 If you use Jazz Source Control Management (SCM) for your IBM&reg; DevOps Services project you can  work locally or by using the integrated web IDE. If you work in Eclipse, you can install the IBM&reg; Rational Team Concert&trade; plug-in for version control.
 
@@ -19,16 +19,18 @@ If you use the Track & Plan feature to manage your project plans and work items,
 
 
 **Before you begin**: 
-* Rational Team Concert 5.0 and later require Eclipse 4.3.2, and Eclipse requires Java 1.7.  
+* Rational Team Concert 5.0.2 and later require Eclipse 4.3.2, and Eclipse requires Java 1.7.  
 
 * If you do not have Eclipse installed and want tools for Java development, [download and install the Java EE IDE for Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2).  
 
 * If you do not have Java 1.7 installed, [download and install the Java SE Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
 
+**Install the plug-in**
+
 1. In Eclipse, click **Help > Install New Software**.
 
 2. In the Install window, complete these steps:
-  1. In the **Work with** field, enter `https://jazz.net/downloads/rational-team-concert/5.0/5.0/p2`
+  1. In the **Work with** field, enter `https://jazz.net/downloads/rational-team-concert/5.0.2/5.0.2/p2`.
   2. Press Enter to load the contents of the update site.
   3. Select the **Rational Team Concert Client Feature** check box.
   4. Select the **Group items by category** check box
