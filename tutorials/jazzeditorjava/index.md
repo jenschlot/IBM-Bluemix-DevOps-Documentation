@@ -22,7 +22,7 @@ The dashboard shows an overview of the active Bluemix space for your organizatio
 
 If you create extra organizations or spaces in Bluemix, be sure to use the same ones as you follow these tutorials. Use the default selections.
 
-Click **CREATE AN APP**, then select **WEB**. Select the Libery from Java Starter, then click **CONTINUE**: 
+Click **CREATE AN APP**, then select **WEB**. Select the Liberty from Java Starter, then click **CONTINUE**: 
 
 ![Bluemix Java Web Starter][7]
 
