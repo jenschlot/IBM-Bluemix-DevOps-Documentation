@@ -1,6 +1,6 @@
 #Developing IBM Bluemix applications in Java with Eclipse and DevOps Services
 
-Last modified: 7 January 2015
+Last modified: 13 January 2015
 
 Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM DevOps Services, and the Rational&reg; Team Concert client for Eclipse. 
 
@@ -42,7 +42,7 @@ To track charges, after you deploy your first build, add the Delivery Pipeline s
 
 4. On the Add Builder page, enter this information:
 	* In the **Your IBM DevOps Services password** field, type the password that is associated with your IBM id.
-	* In the **Build script path**, type the folder that contains your code; for example,  `WordCounter`. When the project is loaded in the Rational Team Concert client, this folder loading automatically maps to an Eclipse project.
+	* In the **Build script path**, type the folder that contains your code; for example,  `WordCounter`. When the project is loaded in the Rational Team Concert client, this folder automatically maps to an Eclipse project.
 	* In the **Build archive directory** field, type the directory where the build output files are archived as part of the build result.
 
 5. Select the **Enable unit tests** check box so that you can run the test cases during a build. Then, click **Save**.
@@ -50,7 +50,6 @@ To track charges, after you deploy your first build, add the Delivery Pipeline s
 
 6. Click **add a stage**. The Add Deployer Stage page opens.
 ![Click Add A New Stage](/tutorials/jazzrtc/images/add_deployer.png "Click add a new stage")
-The Add Deployer Stage page uses the settings that are provided by the `manifest.yml` file, which is included with the project. All of the values except for the host name can be used directly as provided. The host name is used to define your application's URL and must be unique for each application that you deploy. 
 
 7. This page will use the settings provided by the `manifest.yml` file, included as part of the project. All of the values,
 except for the hostname, can be used directly as provided. The hostname is used to define your application's url and needs
@@ -75,7 +74,9 @@ Add the Delivery Pipeline service to the app.
 ![Bluemix Instance](/tutorials/jazzrtc/images/running_instance.png "Bluemix Instance")
 
 2. From the new app's overview page, click **ADD A SERVICE**.
+
 3. In the DevOps category, select **Delivery Pipeline**.
+
 4. Leave the settings for Space and App as is. Click **CREATE**.
 
 The Delivery Pipeline service is added to your Bluemix space. 
@@ -112,7 +113,7 @@ When you're in the Rational Team Concert client for Eclipse, change your code th
 	c. Deliver the change. 
 	![Deliver Change Set](/tutorials/jazzrtc/images/deliver.png "Deliver Change Set")
 
-3. In a browser, go to the deployment page. A build is triggered and the page is automatically updated. Wait until the app status is green.
+3. In a browser, go to the deployment page. A build is triggered soon and then the page is automatically updated. Wait until the app status is green. 
 ![Successful Build](/tutorials/jazzrtc/images/build2_success.png "Successful Build")
 
 4. Click the app link and verify that the app name is updated.
@@ -127,10 +128,9 @@ To see what happens when the build fails, add a failure to the JUnit tests.
 ![Edit Test Case](/tutorials/jazzrtc/images/edit_testcase.png "Edit Test Case")
 
 2. In the `index.html` file, on line 10, change the app name. 
-
-3. Deliver the changes.
 ![Edit App Name Again](/tutorials/jazzrtc/images/edit_code_2.png "Edit App Name Again")
-The deployment page shows a failed build, as expected. The build was not automatically deployed. Only successful builds are automatically deployed. When you click the app link, the app name is not updated. 
+
+3. Deliver the changes. The deployment page shows a failed build, as expected. The build was not automatically deployed. Only successful builds are automatically deployed. When you click the app link, the app name is not updated. 
 ![Failed Build](/tutorials/jazzrtc/images/build3_failure.png "Failed Build")
 
 4. Access the build logs and test results by clicking the build.
@@ -145,7 +145,7 @@ The deployment page shows a failed build, as expected. The build was not automat
 2. Verify that the build is now green.
 ![Successful Build](/tutorials/jazzrtc/images/build4_success.png "Successful Build")
 
-3. Verify that the app is green, too.
+3. Verify that the app is running, too.
 ![Application](/tutorials/jazzrtc/images/app3.png "Application")
 						
 You finished this tutorial. You are ready to develop Java applications on your own. 
