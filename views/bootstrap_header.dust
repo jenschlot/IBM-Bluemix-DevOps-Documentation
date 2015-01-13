@@ -13,11 +13,12 @@
 			<link rel='stylesheet' href='/tutorials/stylesheets/topic_academics.css'></link>
 		{/if}
 		<link rel='stylesheet' href='/embed/css/navbar'></link>
+		<link rel='stylesheet' href='{headerStyling}'></link>
 	</head>
 	<body>
 		<div class="com-ibm-team-jazzhub">
-			<div id='navbar'></div>
-			<script src='/embed/js/navbar?e=navbar&navSelection={navbarSelection}&navigationPageTitle={sectionname}'></script>
+
+			{headerContent|s}
 			
 			<div id="announcement" class="announcement hidden">
 				<div class="message-container">
@@ -28,4 +29,3 @@
 			<script src='/tutorials/javascript/adminMessage.js'></script>
 
 			<div class='content fluid-content'>
-{>machine_translation/}

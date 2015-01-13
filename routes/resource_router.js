@@ -1,6 +1,30 @@
 var express = require('express');
 var _ = require('underscore');
 var path = require('path');
+var nconf = require('nconf');
+var NavbarClient = require('../lib/clients/navbar-client.js');
+
+var renderResource = function(req, res, next, headerContent) {
+
+	var config = require("../config").get("config");
+	var headerStyling;
+
+	if (config) {
+		headerStyling = config.compositionServiceStylingEndpoint;
+	}
+
+	res.render(
+		'key_resource',
+		{ 
+			markdown: req.rendered_markdown,
+			sectionname: req.sectionname,
+			resourcename: req.resourcename,
+			imgicon: req.imgicon,
+			headerContent: headerContent,
+			headerStyling: headerStyling
+		}
+	);
+}
 
 module.exports =  function (env, section_name, resource_name, img_icon, directory) {
 	var router = express.Router();
@@ -24,18 +48,20 @@ module.exports =  function (env, section_name, resource_name, img_icon, director
 		function(req, res, next) {
 			if (!req.rendered_markdown)
 				return next();
-			var section_name = ((req.resourcename === 'Support') ? 'Support' : 'Docs');
-			var navbarSelection = ((req.resourcename === 'Support') ? 'support' : 'docs');
-			res.render(
-				'key_resource',
-				{ 
-					markdown: req.rendered_markdown,
-					sectionname: section_name,
-					resourcename: req.resourcename,
-					imgicon: req.imgicon,
-					navbarSelection: navbarSelection
+			
+			var navbarSelection = ((req.resourcename === 'Support') ? 'navbar.entry.help.support' : 'navbar.entry.help.docs');
+
+			var args = {
+				"selection": navbarSelection,
+				"userid": res.locals.user.userId,
+				"username": res.locals.user.name,
+			};
+
+			NavbarClient.getNavbar(args, req, function (error, content) {
+				if (!error) {
+					renderResource(req, res, next, content);
 				}
-			);
+			});
 		},
 		function (req, res) {
 			res.status(404);

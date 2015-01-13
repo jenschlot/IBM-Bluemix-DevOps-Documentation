@@ -7,12 +7,12 @@
 		<script src='/tutorials/javascript/pageResize.js'></script>		
 		<link rel='icon' type='image/x-icon' href='/tutorials/favicon.ico'></link>
 		<link rel='stylesheet' href='/embed/css/navbar'></link>
-		<link rel='stylesheet' href='/tutorials/stylesheets/style.css'></link>	
+		<link rel='stylesheet' href='{headerStyling}'></link>
+		<link rel='stylesheet' href='/tutorials/stylesheets/style.css'></link>
 	</head>
 	<body>
 		<div class="com-ibm-team-jazzhub">
-			<div id='navbar'></div>
-			<script src='/embed/js/navbar?e=navbar&navSelection=docs&navigationPageTitle={sectionname}'></script>		
+			{headerContent|s}
 			
 			<div id="announcement" class="announcement hidden">
 				<div class="message-container">
@@ -23,5 +23,5 @@
 			<script src='/tutorials/javascript/adminMessage.js'></script>
 			
 			<div class='content fluid-content'>
-{>machine_translation/}
+
 

@@ -81,6 +81,10 @@ body {
 	min-height: 600px;
 }
 
+.hide-overflow {
+	overflow: hidden;
+}
+
 .@{jh-namespace} { /* com-ibm-team-jazzhub */
 	min-height: 100%;
 	background-color: @jh-color-page-background;
@@ -259,7 +263,7 @@ body {
 }
 
 .jh-docmode h1:nth-of-type(1) {
-	.mtm; // First heading1 on page (title)
+	.mtxs; // First heading1 on page (title)
 	.mbs;
 }
 
@@ -1548,3 +1552,28 @@ a:hover {
 	.breadcrumb .current {
 		color: #94A3AB;
 	}
+
+/************** Machine Translation Widget **************************/
+
+.translate-widget {
+	width: 100%;
+	.hide-overflow;
+	text-align: right;
+	.translate_label {
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 75px;
+	}
+
+	select {
+		color: #333333;
+	}
+}
+
+.translate-widget-container {
+	background-color: #ffffff;
+
+}
+
+
+

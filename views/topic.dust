@@ -10,8 +10,11 @@
 								<span class="{imgicon}"></span>
 							</div>
 						</div>
-						<div class="col-md-6 vcenter topic-header-name">
+						<div class="col-md-4 vcenter topic-header-name">
 							<span>{topicname}</span>
+						</div>
+						<div class="col-md-6 vcenter">
+							{>machine_translation/}			
 						</div>
 					</div>
 				</div>

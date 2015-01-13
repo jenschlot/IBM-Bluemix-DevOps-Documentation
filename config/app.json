@@ -1,0 +1,20 @@
+{
+	"config": {
+		"contextPath": "",
+		"authCookieNames": [ "LtpaToken2_PSDEV", "LTPAToken_SSO_PSProd", "LtpaToken", "LtpaToken2", "LtpaToken2_PSSTG", "JSESSIONID" ],
+		"compositionServiceEndpoint": "https://hub.jazz.net/api/v1/composition",
+		"compositionServiceStylingEndpoint": "https://hub.jazz.net/api/v1/composition/css/header/navbar.css",
+		"disableHub": false,
+		"guestUserData": {
+			"userId": "jazzhubguest",
+			"name": "Jazzhub Guest",
+			"email": "hub@jazz.net"
+		},
+		"publicUri": "https://hub.jazz.net",
+		"userServiceEndpoint": "https://hub.jazz.net/manage/service/com.ibm.team.jazzhub.common.service.ICurrentUserService"
+	},
+	"ssl": {
+		"key": "file:./config/ssl/privatekey.pem",
+		"cert": "file:./config/ssl/certificate.pem"
+	}
+}

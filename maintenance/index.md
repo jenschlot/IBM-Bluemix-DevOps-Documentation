@@ -5,22 +5,21 @@ As we continue to improve IBM DevOps Services, we will occasionally be required 
 The duration of these outage windows is variable depending upon what needs to be done,  however for planning purposes the schedule below represents the maximum outage time expected during a given window.
 
 
-## December 2014
+## January 2015
 
 | Date       | Day      | Time                | Duration |
 |------------|----------|---------------------|----------|
-| 12/02/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
-| 12/04/2014 | Thursday | CANCELLED           | CANCELLED|
-| 12/07/2014 | Sunday   | 7:00 - 08:00AM EDT  | 1 hour   |
-| 12/09/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
-| 12/11/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
-| 12/13/2014 | Saturday | CANCELLED           | CANCELLED|
-| 12/16/2014 | Tuesday  | CANCELLED           | CANCELLED|
-| 12/18/2014 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
-| 12/20/2014 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
-| 12/23/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
-| 12/25/2104 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
-| 12/27/2014 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
-| 12/29/2014 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   | 
-
-
+| 01/01/2015 | Thursday | CANCELLED           | CANCELLED|
+| 01/03/2015 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
+| 01/06/2015 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
+| 01/08/2015 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 01/10/2015 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
+| 01/13/2015 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
+| 01/15/2015 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 01/17/2015 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
+| 01/20/2015 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
+| 01/22/2015 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 01/24/2015 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
+| 01/27/2015 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
+| 01/29/2015 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 01/31/2015 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
