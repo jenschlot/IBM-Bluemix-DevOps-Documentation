@@ -1,6 +1,6 @@
 #Getting Started with IBM Bluemix and IBM DevOps Services by using Node.js
 
-Last modified: 9 January 2015
+Last modified: 13 January 2015
 
 ##Create an application with IBM Bluemix
 
