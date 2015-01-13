@@ -94,17 +94,17 @@ or the BUILD & DEPLOY page:
 
 2. Change the application source code and see what happens:
 
-	a. Change to your Git clone directory. The views folder contains a file that is named `index.ejs`. This file implements the main page for the example. 
+	a. Change to your Git clone directory. The views folder contains a file that is named `body.jade`. This file implements the main page for the example. 
 
-	b. Change this file. For example, modify the title.
-![Changing the title](/tutorials/jazzeditor/images/cli-edit-file.png)
+	b. Change this file. For example, modify the heading.
+![Changing the title](/tutorials/jazzeditor/images/cli-edit-file_NEW.png)
 
 	c. Change to your Git clone directory and do a Git add, commit and push as shown:
 
 		$ cd ..
     	$ git add *
-    	$ git commit -m "Changing title of app"
- 	   [master bf26680] Changing title of app
+    	$ git commit -m "changed h1 text"
+ 	   [master bf26680] changed h1 text
     	1 file changed, 2 insertions(+), 2 deletions(-)
 
 		$ git push
@@ -122,7 +122,7 @@ or the BUILD & DEPLOY page:
 	
 	d. If you return to the web IDE and check the 
 	BUILD & DEPLOY page, you will see something like this image:
-	![Auto-deploy in action](/tutorials/jazzeditor/images/jh-auto-deployed.png)
+	![Auto-deploy in action](/tutorials/jazzeditor/images/jh-auto-deployed_NEW.png)
 At the top of the **Recent auto-deployments** list, an entry has a comment that 
 matches the commit operation that you made from the command line. 
 The entry shows that your app is running the code that you pushed.
@@ -134,7 +134,7 @@ When you click the URL on the application dashboard, your updated running applic
 To access your running application quickly, click the URL that is next to  
 "Deploy to."
 
-![Application page with new title](/tutorials/jazzeditor/images/app-new-title.png)
+![Application page with new title](/tutorials/jazzeditor/images/app-new-title_NEW.png)
 
 You can continue to modify the example code and push the changes to the 
 Git repository. If your project and scope of work grow, you can people to the 
@@ -162,7 +162,7 @@ Now, try the web IDE in DevOps Services to do the same thing.
 
 1. Return to the deployment page and click **EDIT CODE** to access the complete, integrated web IDE that's 
 based on [the Eclipse Orion open-source project](http://orion.eclipse.org/). When the example project is open, the web IDE looks like this image:
-![Orion at DevOps Services](/tutorials/jazzeditor/images/orion.png)
+![Orion at DevOps Services](/tutorials/jazzeditor/images/orion_1_NEW.png)
 In this environment, you can edit files with syntax coloring support for multiple languages, including HTML, 
 CSS, JavaScript, Ruby, and Python. For some languages, such as JavaScript, the web IDE also supports 
 syntax checking and code completion, both for standard language constructs and for the services that Bluemix provides. To use content assist, press **Ctrl + Space**. For example, this image shows code completion for the standard Node.js express module:
@@ -170,30 +170,29 @@ syntax checking and code completion, both for standard language constructs and f
 
 2. Before you make another change to your application, merge the title change that you made on the command line
 so that the change shows in the web IDE. You merge from the Git Repository page. 
-![Orion Git repository icon](/tutorials/jazzeditor/images/orion-git-status.png)
+![Orion Git repository icon](/tutorials/jazzeditor/images/orion-git-status_NEW.png)
 
 3. On the Git Repository page, sync the change that you made to the title.
-![Orion Git merge](/tutorials/jazzeditor/images/orion-git-merge.png)
+![Orion Git merge](/tutorials/jazzeditor/images/orion-git-merge_NEW.png)
 
 4. In the left bar, click the pencil icon to get to the edit page. Then, use the navigation tree to find the file that you modified 
-before; for example, `views/index.ejs`. Edit the file in the integrated editor.
-![Orion editing index](/tutorials/jazzeditor/images/orion-really-cool.png)
+before; for example, `views/body.jade`. Edit the file in the integrated editor.
+![Orion editing index](/tutorials/jazzeditor/images/orion-really-cool_NEW.png)
 
 5. Push the change by using the integrated Git support. Switch to the Git Repository page and follow these steps:
-![Orion Git repository icon](/tutorials/jazzeditor/images/orion-git-status.png)
-a. Select the changed files, which include project files from when you created the Git repository and
-your changed title file:
-![Orion Git staging](/tutorials/jazzeditor/images/orion-git-stage.png)
-b. Commit the changes:
-![Orion Git commit](/tutorials/jazzeditor/images/orion-commit.png)
-c. Push the changes:
-![Orion Git push](/tutorials/jazzeditor/images/orion-push.png)
+
+	a. Select the changed file:
+![Orion Git staging](/tutorials/jazzeditor/images/orion-git-stage_NEW.png)
+	b. Add a commit message and commit the changes:
+![Orion Git commit](/tutorials/jazzeditor/images/orion-commit_NEW.png)
+	c. Push the changes:
+![Orion Git push](/tutorials/jazzeditor/images/orion-push_NEW.png)
 These steps are the same steps that you completed by using the command line. 
 
-6. To verify that your app was updated, 
+6. To verify that your code was deployed, 
 go to the BUILD & DEPLOY page and wait until you see an indication that the 
-application was deployed again. Then, click the URL link that is next to "Deploy to." Your updated running application is shown.
-![Our really cool app](/tutorials/jazzeditor/images/really-cool.png)
+application was deployed again. Then, click the URL link that is next to "Deploy to." Your update is shown.
+![Our really cool app](/tutorials/jazzeditor/images/really-cool_NEW.png)
 
 ---
 ##Advanced deployment features
@@ -221,7 +220,7 @@ You have a good overview of how to get started with Bluemix and DevOps Services 
 You saw how to create and run a Node.js web app by using Bluemix. 
 With one click, you created a Git repository, populated it with example code, and automatically 
 deployed the application. You changed the code and pushed the changes to the Git repository by using both the command line and the 
-web IDE. Then, you automatically built and deployed the app, checked the deployment status, 
-and ran the app to view your changes. 
+web IDE. Then, you automatically built and deployed your changes, checked the deployment status, 
+and verified your changes. 
 
 
