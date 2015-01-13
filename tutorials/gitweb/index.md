@@ -1,6 +1,6 @@
 #Developing with Git in the IBM DevOps Services web IDE
 
-Last modified: 17 December 2014
+Last modified: 13 January 2015
 
 If you want to learn more about managing your Git repository, an open source code management system, with the IBM® DevOps Services web IDE, complete this tutorial. The tutorial doesn't cover all of the possible Git commands in the DevOps Services web IDE, but you can practice creating a change on a separate branch, testing the change, and adding the change to the master branch. If you need help with specific commands, [see the Git reference](/../docs/reference/git).  If you want to try to work locally by using the command line, [see Work locally with IBM DevOps Services projects and Git source control](../../docs/reference/gitclient).
 
@@ -29,19 +29,19 @@ You complete this tutorial by copying, or forking, a project. Then, you modify t
 
 1. [Open the YummyRation project](https://hub.jazz.net/project/jlmarech/YummyRation/overview).
 
-1. Click **EDIT CODE**.
-
-1. Click **FORK**.
+1. Click **FORK PROJECT**.
 
 1. In the window that opens, name the project `YummyRation` and review the contents of the window.  Make sure that the **Deploy to Bluemix** check box is selected.
-![Options while forking project][2]
 
-1. Click **Save**. The new project's code is shown after a moment.
+    ![Options while forking project][2]
+1. Click **Save**. The new project's Overview page is shown after a moment.
 
 ---
 <a name='create_a_branch'></a>
 ## Create a branch
 When you work with many people or want to test different ideas, a common practice is to work in different branches.
+
+1. Click **EDIT CODE**.
 
 1. Click the **Git Repository** icon <img src="images/gitrepository.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">.
 
@@ -50,7 +50,7 @@ When you work with many people or want to test different ideas, a common practic
 1. Click **NEW BRANCH**. For the name, enter `testbranch`. Click **Submit**.
 ![New branch dialog][10]
 
-1. Next to the `testbranch` branch, click the **Checkout** icon.
+1. Under **local**, next to the `testbranch` branch, click the **Checkout** icon.
 
 1. Confirm that the value in the **REFERENCE** field is "testbranch => origin/testbranch [New Branch]".
 ![testbranch reference][11]
@@ -63,7 +63,7 @@ To see the changes that you make to your code, create a Bluemix app and deploy t
 
 1. To view your code, click the **Show Current Folder** icon <img src="images/showcurrentfolder.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">.
 
-1. Click **manifest.yml**.
+1. In the project side panel, click the `manifest.yml` file.
 
 1. In both the **host** and **name** fields, enter the same unique host name.  
 **Note**: This name must be unique through all of Bluemix, so include your Jazz ID in the host name.
@@ -71,9 +71,9 @@ To see the changes that you make to your code, create a Bluemix app and deploy t
 
 1. Click **File**, and then click **Save**.
 
-1. Click **DEPLOY**, and then review the contents of the Configure Application Deployment window.
+1. Click **DEPLOY AS**, **Deploy application from Web IDE to Bluemix**, and then review the contents of the Configure Application Deployment window.
  * Make sure that the information about the organization and space are as you expected.
- * Make sure that the displayed host and application name match the contents of the manifest.yml file
+ * Make sure that the displayed host and application name match the contents of the `manifest.yml` file
  * Make sure the check box that is next to "Save to manifest file: /manifest.yml" is selected.
 
 1. Click **DEPLOY**.
@@ -140,7 +140,7 @@ To rebase, you must compare the contents of one branch to another by modifying t
 1. Next to local, click __>__ to expand the list of local branches.
 ![Expand local pane][13]
 
-1. Next to the local `master` branch, click the **Checkout** icon.
+1. Next to the local master branch, click the **Checkout** icon.
 
 1. Click the **REFERENCE field**.
 
