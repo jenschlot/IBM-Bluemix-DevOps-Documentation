@@ -60,7 +60,7 @@ The Delivery Pipeline and Track & Plan services use metered pricing, where you p
 
 To help monitor monthly usage, [see the Bluemix cost estimator](https://ace.ng.bluemix.net/#/pricing/paneId=pricingSheet).
 
-To see your usage details, click **Profile Settings (<img src="images/bm-profilealien.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) > Account > Usage Details**.
+To see your usage details, click **Profile Settings (<img src="./images/bm-profilealien.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) > Account > Usage Details**.
 
 
 
