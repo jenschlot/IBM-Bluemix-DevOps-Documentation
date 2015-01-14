@@ -436,7 +436,7 @@ To update your name and email address for all repositories
 
 2. Type `git rebase <source_branchname>` and press Enter.
 
-3. If you encounter conflicts, [resolve](#resolve_a_rebase_conflict) them.
+3. If you encounter conflicts, [resolve them](#resolve_a_rebase_conflict).
 
 5. Repeat the previous step as many times as necessary to complete the rebase operation.  
 **Note**: To stop the rebase operation, type `git rebase --abort` and press Enter.
