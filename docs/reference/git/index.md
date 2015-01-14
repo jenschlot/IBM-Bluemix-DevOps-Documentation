@@ -69,7 +69,7 @@ If you want to code and test locally, set up a local repository.
 
 1. When you are prompted, enter your IBM id and password.  
 **Note**: If you are not prompted for your password, do not continue.  Delete your cloned repository
-and repeat the steps by using a modified repository address: `https://your_jazz_id:your_IBM_ID_password@hub.jazz.net/jazz_id/project_name`
+and repeat the steps by using a modified repository address: `https://your_jazz_id:your_IBM_ID_password@hub.jazz.net/jazz_id/project_name`.
 
 1. After your repository replicates, move into your new local repository.  
 
