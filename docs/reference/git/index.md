@@ -378,12 +378,14 @@ To update your name and email address for all repositories
 2. In the web IDE, open each file that contains conflicts.
 
 3. Resolve each conflicting change.  
-**Note**: Delete all of the text that you do not want to keep. Each conflict is in this format:  
-<<<<<<< HEAD  
-Text in checked out branch.  
-=======&nbsp;  
-Text in merged branch.  
-\>>>>>>> commit_ID_from_merged_branch
+**Note**: Delete all of the text that you do not want to keep. Each conflict is in this format:
+
+		<<<<<<< HEAD  
+		Text in checked out branch.  
+		=======
+		Text in merged branch.  
+		\>>>>>>> commit_ID_from_merged_branch
+
 
 4. For each conflicting file, select the check box. Type a merge commit message, and click **COMMIT**.
 
@@ -393,12 +395,14 @@ Text in merged branch.
 2. In a text editor, open a file that contains conflicts.
 
 3. Resolve each conflicting change, and then save the file.  
-**Note**: Delete all of the text that you do not want to keep. Each conflict is in this format:   
-<<<<<<< HEAD  
-Text in checked out branch.  
-=======&nbsp;   
-Text in merged branch.  
-\>>>>>>> merged_branch
+**Note**: Delete all of the text that you do not want to keep. Each conflict is in this format: 
+ 
+		<<<<<<< HEAD  
+		Text in checked out branch.  
+		=======   
+		Text in merged branch.  
+		\>>>>>>> merged_branch
+
 
 4. Stage each file that you modified, and then commit the merge.
 
@@ -447,12 +451,13 @@ Text in merged branch.
 2. In the web IDE, open each file that contains conflicts.
 
 3. Resolve each conflicting change.  
-**Note**: Delete all of the text that you do not want to retain. Each conflict is in this format:   
-<<<<<<< HEAD  
-Text in checked out branch.  
-=======&nbsp;  
-Text in merged branch.  
-\>>>>>>> commit_ID_from_merged_branch
+**Note**: Delete all of the text that you do not want to retain. Each conflict is in this format: 
+  
+		<<<<<<< HEAD  
+		Text in checked out branch.  
+		=======  
+		Text in merged branch.  
+		\>>>>>>> commit_ID_from_merged_branch
 
 4. In the rebase pane, select the check box for each corrected file and click **CONTINUE**.
 
@@ -463,11 +468,12 @@ Text in merged branch.
 
 3. Resolve each conflicting change, and then save the file.   
 **Note**: Delete all of the text that you do not want to retain. Each conflict is in this format:     
-<<<<<<< HEAD  
-Text in checked out branch.  
-=======&nbsp;  
-Text in merged branch.  
-\>>>>>>> merged_branch
+
+		<<<<<<< HEAD  
+		Text in checked out branch.  
+		=======  
+		Text in merged branch.  
+		\>>>>>>> merged_branch
 
 4. Stage each file that you modified.
 
