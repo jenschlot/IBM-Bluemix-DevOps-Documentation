@@ -385,8 +385,6 @@ To update your name and email address for all repositories
 		=======
 		Text in merged branch.  
 		>>>>>>> commit_ID_from_merged_branch
-
-
 4. For each conflicting file, select the check box. Type a merge commit message, and click **COMMIT**.
 
 ####Git terminal
@@ -402,8 +400,6 @@ To update your name and email address for all repositories
 		=======   
 		Text in merged branch.  
 		>>>>>>> merged_branch
-
-
 4. Stage each file that you modified, and then commit the merge.
 
 ---
@@ -458,7 +454,6 @@ To update your name and email address for all repositories
 		=======  
 		Text in merged branch.  
 		>>>>>>> commit_ID_from_merged_branch
-
 4. In the rebase pane, select the check box for each corrected file and click **CONTINUE**.
 
 ####Git terminal
@@ -474,7 +469,6 @@ To update your name and email address for all repositories
 		=======  
 		Text in merged branch.  
 		>>>>>>> merged_branch
-
 4. Stage each file that you modified.
 
 5. Resume the rebase operation by typing `git rebase --continue` and pressing Enter.
