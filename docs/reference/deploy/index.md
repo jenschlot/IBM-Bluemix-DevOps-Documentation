@@ -1,6 +1,6 @@
 #Build and Deploy reference
 
-Last modified: 11 December 2014
+Last modified: 15 January 2015
 
 You can get your code on the web in multiple ways by using IBM® DevOps Services, which integrates with IBM® Bluemix™.
 
@@ -26,11 +26,20 @@ You can get your code on the web in multiple ways by using IBM® DevOps Services
 <a name="manual"></a>
 ##Manual deployment from the web IDE
 
-While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the web IDE workspace to Bluemix by clicking **Deploy**. Remember: When you click **Deploy**, you deploy the current state of your code in your web IDE. Build &amp; Deploy deploys from what is checked into the repository.
+While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the web IDE workspace to Bluemix by using the Play button in the Run Bar. Remember: When you deploy with the Run Bar, you deploy the current state of your code in the web IDE. Build &amp; Deploy deploys from what is checked into the repository.
 
-You can configure web IDE manual deployment and Build &amp; Deploy's automatic deployment to use different app names. Then, you can use the web IDE deployment for a personal test environment and automatic deployment for a team integration environment.
+You can configure web IDE manual deployment and Build &amp; Deploy's automatic deployment to use different app names. Then, you can use the web IDE deployment for a personal test environment and automatic deployment for a team integration environment. Manual deployment launch configurations are saved in the web IDE; you can access them via the dropdown menu in the Run Bar. 
 
 Whether you are using command-line tools or the web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment so that you can control what is being pushed. By using automatic deployment, you know that the code that is running in the app matches a known state in the repository. In contrast, manual deployment deploys whatever is in your working directory when you push.
+
+###The Run Bar explained
+
+![Annotated Run Bar screenshot][7]
+
+1. **Status area:** See which launch configuration is selected and the deployment status of your app here. If your project doesn't contain any launch configurations, click the dropdown menu and then **CREATE NEW** to create one.
+2. **Play button:** Manually deploy your app using the currently selected launch configuration.
+3. **Stop button:** Stop a running application. 
+4. **Open URL button:** Open a running application. 
 
 ---
 <a name="auto"></a>
@@ -99,3 +108,4 @@ On the Builds page, you can also view unit test results, generated artifacts, an
 [4]: https://ace.ng.bluemix.net/#/pricing/cloudOEPaneId=pricing
 [5]: ./images/open_logs.png
 [6]: #manifests
+[7]: ./images/runbar-annotated.png
