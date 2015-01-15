@@ -123,11 +123,11 @@ Deploying a DevOps Services project from the web IDE requires the project to hav
 ---
 ##Manual deployment
 
-While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the web IDE workspace to Bluemix by clicking **Deploy**. Remember: When you click **Deploy**, you deploy the current state of your code in your web IDE. Build &amp; Deploy deploys from what is checked into the repository.
+While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the web IDE workspace to Bluemix by using the Play button in the Run Bar. Remember: When you deploy with the Run Bar, you deploy the current state of your code in the web IDE. Build &amp; Deploy deploys from what is checked into the repository.
 
-![About to click the Deploy button in the Web IDE][18]
+![The IDE Run Bar][28]
 
-You can configure web IDE manual deployment and Build &amp; Deploy's automatic deployment to use different app names. Then, you can use the web IDE deployment for a personal test environment and automatic deployment for a team integration environment.
+You can configure web IDE manual deployment and Build &amp; Deploy's automatic deployment to use different app names. Then, you can use the web IDE deployment for a personal test environment and automatic deployment for a team integration environment. Manual deployment launch configurations are saved in the web IDE; you can access them via the dropdown menu in the Run Bar. 
 
 Whether you are using command-line tools or the web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment so that you can control what is being pushed. By using automatic deployment, you know that the code that is running in the app matches a known state in the repository. In contrast, manual deployment deploys whatever is in your working directory when you push.
 
@@ -173,3 +173,4 @@ You developed and deployed a Bluemix application by using the web IDE.
 [25]: /tutorials/jazzweb/images/config-to-delete.png
 [26]: https://www.ng.bluemix.net/docs/#services/DeliveryPipeline/index.html#getstartwithCD
 [27]: https://dev.twitter.com/apps
+[28]: /tutorials/jazzweb/images/runbar_green.png
