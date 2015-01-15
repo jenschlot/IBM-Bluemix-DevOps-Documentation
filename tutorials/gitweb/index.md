@@ -11,7 +11,7 @@ If you want to learn more about managing your Git repository, an open source cod
  * [Fork a project](#fork_a_project)
  * [Create a branch](#create_a_branch)
  * [Deploy a new Bluemix app](#deploy_a_new_bluemix_app)
- * [Change and test the code](#change_and_test_the_code)c
+ * [Change and test the code](#change_and_test_the_code)
  * [Deliver a change to the repository](#deliver_a_change_to_the_repository)
  * [Rebase to add changes to the master branch](#add_changes_to_the_master_branch)
  * [Summary](#summary)
@@ -71,7 +71,8 @@ To see the changes that you make to your code, create a Bluemix app and deploy t
 
 1. Click **File**, and then click **Save**.
 
-1. Click **DEPLOY AS**, **Deploy application from Web IDE to Bluemix**, and then review the contents of the Configure Application Deployment window.
+1. Click the status area in the Run Bar. Click **CREATE NEW**, and then review the contents of the Configure Application Deployment window.
+![The dropdown menu in the Run Bar][33]
  * Make sure that the information about the organization and space are as you expected.
  * Make sure that the displayed host and application name match the contents of the `manifest.yml` file
  * Make sure the check box that is next to "Save to manifest file: /manifest.yml" is selected.
@@ -186,4 +187,5 @@ You forked a project and manually deployed to a Bluemix app. You made a branch, 
 [30]: /docs
 [31]: images/runbar_url.png
 [32]: images/runbar_play.png
+[33]: images/launch-configs-callout.png
 
