@@ -197,20 +197,13 @@ application was deployed again. Then, click the URL link that is next to "Deploy
 ---
 ##Advanced deployment features
 
-In this tutorial, you used only the simple deploy features with Bluemix. 
-If you want more control over deployment, use the advanced options. 
-Because Bluemix is based on Cloud Foundry, you can also manually deploy 
-applications directly to Bluemix by using the standard cf and gcf command-line tools. Similarly, in the web IDE, you can click **DEPLOY** to manually deploy your code to Bluemix. [Learn more about Cloud Foundry](http://cloudfoundry.com/).
+In this workflow, you only used the simple deploy features with Bluemix. For more control over deployment, you can use the advanced options. Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can also manually deploy applications directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the web IDE, you can deploy your code to Bluemix by using the Play button in the Run Bar. 
 
-**Important**: The **DEPLOY** button in the web IDE deploys the current state of the code in your web IDE, the auto-deploy feature deploys the code that is
-checked in to the repository.
+![Screenshot here of Run Bar][1]
 
-Both the command-line tools and the web IDE are effective for rapid, 
-solo development. However, the auto-deploy feature adds the security of controlling what is pushed, especially in team environments. 
-With auto-deployment, you always know that the code that is running in the application matches 
-a known state in the repository. In contrast, manual deployment deploys whatever is in your working directory 
-when you push changes.
+**Note**: Clicking the Play button in the Run Bar deploys the current state of the code in your web IDE, whereas auto-deploy deploys the code that is checked in to the repository.
 
+Both the command-line tools and the web IDE are effective for rapid, solo development, but the auto-deploy feature adds the security of controlling what is pushed, especially in team environments. With auto-deployment, you always know that the code running in the application matches a known state in the repository, instead of whatever was in your working directory when you pushed changes.
 
 ---
 ##Summary
@@ -223,4 +216,4 @@ deployed the application. You changed the code and pushed the changes to the Git
 web IDE. Then, you automatically built and deployed your changes, checked the deployment status, 
 and verified your changes. 
 
-
+[1]: /tutorials/jazzeditor/images/runbar_green.png
