@@ -14,7 +14,7 @@ For more information, [please see where did the Deploy button go in DevOps Servi
 ### December 17, 2014
 
 You can now see the documentation in different languages by using the our machine translation pilot.  To display the content of a page in a different language, select the language and accept the disclaimer.
-![images/translate-widget.gif]
+![Translation widget](images/translate-widget.gif)
 ### December 10, 2014
 
 The IBM&reg; DevOps Services Track & Plan feature is now generally available for all DevOps Services projects. You can use the Track & Plan feature to track your work, monitor your team’s activity, and plan sprints. 
