@@ -11,7 +11,10 @@
 @jh-color-page-background: #747D85;
 @jh-color-link: @jh-color-blue;
 @jh-color-link-hover: #F47D64;
-@jh-color-footer-background: #EDF1F4;
+@jh-color-footer-dark-background: #111f2a;
+@jh-color-footer-light-background: #3B4B54;
+@jh-color-footer-link: rgba(255, 255, 255, 0.4);
+@jh-color-footer-link-hover: #ffffff;
 @jh-default-text: #26343F;
 
 @jh-color-white: #ffffff;
@@ -128,60 +131,56 @@ body {
 	@{jh-namespace} .content-box {
 		padding: 0 15px;
 	}
-	
-	.@{jh-namespace} .footer,
-	.@{jh-namespace} .footer * {
-		background-color: @jh-color-footer-background;
-		font-size: 10.5pt;
+
+	.@{jh-namespace} .@{jh-namespace}-footer {
+		font-size: 0.88889em;
+		height: 100px;
+		margin-bottom: -20px;
+		margin-top: 0px;
 	}
-	
-	.@{jh-namespace} .footer {
-		overflow: hidden;
-		.jh-border-box;
-		padding: 0 20px 0 20px;
-		height: 80px;
-		color: @jh-color-smoky-black;
-		.left {
-			.f_left;
-			margin: 23px 0 0 0; 
-		};
-		.right {
-			.f_right;
-			margin: 16px 0 0 0;
-		};
-		.center {
-			width: 450px;
-			margin: 0 auto;
-			.content-links-area {
-				margin: 30px 0 0 0;
-				overflow: hidden;
-				.text-links {
-					.f_left;
-					text-align: center;
-					.separator {
-						width: 1px;
-						height: 20px;
-						margin: 0 1.25em;
-						display: inline-block;
-						vertical-align: bottom;
-					}
-				}
-				.twitter-site {
-					.f_left;
-					overflow:hidden;
-					margin: 1px 1.25em 0 1.25em;
-				}
-				.facebook-site {
-					.f_left;
-					margin: 1px 0 0 0;
-				}
-			}
-		};
-		.browser-support {
-			text-align: center;
-			margin: 5px 0 0 0;		
+
+		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area {
+			height: 80px;
+			background-color: @jh-color-footer-dark-background;
 		}
+
+		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links {
+			overflow: hidden;
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links > a {
+			color: @jh-color-footer-link;
+			text-decoration: none;
+		}
+
+		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links > a:not(:last-child):after {
+			content: " / ";
+		}
+
+		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links a:hover {
+			text-decoration: none;
+		}
+
+		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links a:hover > span {
+			color: @jh-color-footer-link-hover;
+			text-decoration: underline;
+		}
+
+		.@{jh-namespace} .@{jh-namespace}-footer .footer-bottom {
+			overflow: hidden;
+			height: 20px;
+			background-color: @jh-color-footer-light-background;
+			margin-bottom: -5px;
+		}
+
+	#browser-support {
+		text-align: center;
+		margin: 5px 0 0 0;
 	}
+
 	
 
 /******************************************************************************
