@@ -11,7 +11,7 @@ If you want to learn more about managing your Git repository, an open source cod
  * [Fork a project](#fork_a_project)
  * [Create a branch](#create_a_branch)
  * [Deploy a new Bluemix app](#deploy_a_new_bluemix_app)
- * [Change and test the code](#change_and_test_the_code)c
+ * [Change and test the code](#change_and_test_the_code)
  * [Deliver a change to the repository](#deliver_a_change_to_the_repository)
  * [Rebase to add changes to the master branch](#add_changes_to_the_master_branch)
  * [Summary](#summary)
@@ -71,21 +71,18 @@ To see the changes that you make to your code, create a Bluemix app and deploy t
 
 1. Click **File**, and then click **Save**.
 
-1. Click **DEPLOY AS**, **Deploy application from Web IDE to Bluemix**, and then review the contents of the Configure Application Deployment window.
+1. Click the status area in the Run Bar. Click **CREATE NEW**, and then review the contents of the Configure Application Deployment window.
+![The dropdown menu in the Run Bar][33]
  * Make sure that the information about the organization and space are as you expected.
  * Make sure that the displayed host and application name match the contents of the `manifest.yml` file
  * Make sure the check box that is next to "Save to manifest file: /manifest.yml" is selected.
 
-1. Click **DEPLOY**.
+6. Click **DEPLOY**.
 
-1. After the deployment succeeds, a message opens that describes the deployment.  In the message, click **root folder page**.  
-    ![Manual deployment information][3]
-    
-1. Under Manual Deployment Information, click the link to open the site in a new browser tab.
-![Deployment location information][4]
+7. After the deployment succeeds, click the **Open URL** button.
+![Open URL button in the Run Bar][31]
 
-1. Click the **Seafood** image to check the information about the Fisherman's Platter.
-![Original Fisherman's Feast price][8]
+8. On the YummyRation project page, click the **Seafood** image to check the information about the Fisherman's Platter.
 
 ---
 <a name='change_and_test_the_code'></a>
@@ -93,16 +90,17 @@ To see the changes that you make to your code, create a Bluemix app and deploy t
 
 1. Return to your YummyRation project page on DevOps Services.
 
-1. In the file explorer, next to routes, click the __>__ to expand the contents of the folder. Then, click **dishes.js**.
+2. In the file explorer, next to routes, click the __>__ to expand the contents of the folder. Then, click **dishes.js**.
 
-1. Locate the "Fisherman's Platter" code block and change the price to `$17.95`.
+3. Locate the "Fisherman's Platter" code block and change the price to `$17.95`.
 ![Changed Fisherman's Platter code block][5]
 
-1. Click **File**, and then click **Save**
+4. Click **File**, and then click **Save**
 
-1. Click **DEPLOY**.
+5. In the Run Bar, click the Play button.
+![Runbar at status green with Play Button highlighted][32]
 
-1. Return to your deployed website and click **Refresh** to view your change.  
+6. Return to your deployed website and click **Refresh** to view your change.  
 **Note**: If you closed your website, click **root folder page** in the deployment message, and then click the link under Manual Deployment Information.
 
 ![New Fisherman's Feast price][7]
@@ -187,3 +185,7 @@ You forked a project and manually deployed to a Bluemix app. You made a branch, 
 [28]: https://developer.ibm.com/answers/smartspace/devops-services/
 [29]: https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard
 [30]: /docs
+[31]: images/runbar_url.png
+[32]: images/runbar_play.png
+[33]: images/launch-configs-callout.png
+
