@@ -32,6 +32,7 @@
 									<span class="hex-jazzhub pos-0"></span>
 								</div>
 							</div>
+							</a>
 						</div>
 						<div class="row" id="doc-container-l">
 							<a class="section" href="/docs/reference/startproject">
@@ -70,7 +71,7 @@
 
 					<div class="col-md-6 col-sm-12 col-xs-12" id="col-offset">
 						<div class="row" id="doc-container-r">
-						<a class="section" href="/tutorials/jazzeditor">
+							<a class="section" href="/tutorials/jazzeditor">
 							<div class="col-md-7 col-sm-9 col-xs-9 col-md-push-5 callout" id="4">
 								<p class="description">
 									<strong>Getting started</strong> with IBM Bluemix and IBM DevOps Services <strong>using Node.js</strong>
@@ -84,8 +85,6 @@
 									<span class="hex-node pos-4"></span>
 								</div>
 							</div>
-							</a>
-						
 							</a>
 						</div>						
 						<div class="row" id="doc-container-r">				
