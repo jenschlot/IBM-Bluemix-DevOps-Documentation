@@ -1,5 +1,21 @@
 ## What's New
 
+### January 13, 2015
+
+## New way to deploy from the workspace
+
+The DEPLOY and DEPLOY as buttons for deploying to Bluemix directly from the web IDE are replaced with a new, more powerful mechanism called the ***run bar***.
+
+![Run Bar](images/run-bar.png)
+
+For more information, [please see where did the Deploy button go in DevOps Services?](https://developer.ibm.com/bluemix/2015/01/15/deploy-button/)
+
+
+### December 17, 2014
+
+You can now see the documentation in different languages by using the our machine translation pilot.  To display the content of a page in a different language, select the language and accept the disclaimer.
+![Translation widget](images/translate-widget.gif)
+
 ### December 10, 2014
 
 The IBM&reg; DevOps Services Track & Plan feature is now generally available for all DevOps Services projects. You can use the Track & Plan feature to track your work, monitor your team’s activity, and plan sprints. 
