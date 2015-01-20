@@ -1,4 +1,5 @@
 {>bootstrap_header/}
+
 <div class="translate-widget-container prl pll">
 	{>machine_translation/}
 </div>

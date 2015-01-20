@@ -1,4 +1,5 @@
 {>bootstrap_header/}
+
 <div id="content" class="com-ibm-team-jazzhub-Docs content fluid-content">
 	<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none"></div>
 		<div class="container-fluid">
@@ -14,7 +15,7 @@
 							<span>{resourcename}</span>
 						</div>
 						<div class="col-md-6 vcenter">
-							{>machine_translation/}		
+							{>machine_translation/}
 						</div>
 					</div>
 				</div>

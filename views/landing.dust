@@ -7,22 +7,17 @@
 					<div class="landing-title">
 						<h1>Tutorials</h1>
 					</div>
-					<div class="landing-intro">
-					</div>
-					<div class="landing-get-started">
-
-					</div>
+					<div class="landing-intro"></div>
+					<div class="landing-get-started"></div>
 				</div>
-				<div class="landing-header-right jh-col-12-6 plm">
-					
-				</div>
+				<div class="landing-header-right jh-col-12-6 plm"></div>
 			</div>
 		</div>
 
 		<div class="landing-body-wrapper pll prl">
 			<div class="landing-body jh-columns">
 				<div class="jh-col-12-6 prm">
-					<!--Start Section -->
+
 					<div class="tutorial-section">
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
@@ -45,9 +40,7 @@
 							</div>
 						</div>
 					</div>
-					<!--End Section -->
 
-					<!--Start Section -->
 					<div class="tutorial-section">
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
@@ -70,8 +63,7 @@
 							</div>
 						</div>
 					</div>
-					<!--End Section -->
-					<!--Start Section -->
+
 					<div class="tutorial-section">
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
@@ -94,12 +86,11 @@
 							</div>
 						</div>
 					</div>
-					<!--End Section -->
 
 				</div>
 				
 				<div class="jh-col-12-6 plm">
-					<!--Start Section -->
+
 					<div class="tutorial-section">
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
@@ -122,8 +113,7 @@
 							</div>
 						</div>
 					</div>
-					<!--End Section -->
-					<!--Start Section -->
+
 					<div class="tutorial-section">
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
@@ -146,9 +136,7 @@
 							</div>
 						</div>
 					</div>
-					<!--End Section -->
 
-	<!--Start Section -->
 					<div class="tutorial-section">
 						<div class="tutorial-section-header">
 							<div class="section-title f_left">
@@ -171,10 +159,8 @@
 							</div>
 						</div>
 					</div>
-					<!--End Section -->
 
-
-				</div>			
+				</div>
 			</div>
 		</div>
 	</div>

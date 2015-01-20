@@ -1,4 +1,5 @@
 {>bootstrap_header/}
+
 <div id="content" class="com-ibm-team-jazzhub-Docs content fluid-content">
 	<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none"></div>
 		<div class="container-fluid">
@@ -28,11 +29,11 @@
 			</ol>
 			<div class="row ptm">
 				<div class="col-md-12 topic">
-						{markdown|s}
+					{markdown|s}
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-{>footer/}
 
+{>footer/}
