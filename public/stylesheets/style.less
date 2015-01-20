@@ -132,54 +132,8 @@ body {
 		padding: 0 15px;
 	}
 
-	.@{jh-namespace} .@{jh-namespace}-footer {
-		font-size: 0.88889em;
-		height: 100px;
-		margin-bottom: -20px;
-		margin-top: 0px;
-	}
 
-		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area {
-			height: 80px;
-			background-color: @jh-color-footer-dark-background;
-		}
 
-		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links {
-			overflow: hidden;
-			position: relative;
-			top: 50%;
-			transform: translateY(-50%);
-		}
-
-		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links > a {
-			color: @jh-color-footer-link;
-			text-decoration: none;
-		}
-
-		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links > a:not(:last-child):after {
-			content: " / ";
-		}
-
-		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links a:hover {
-			text-decoration: none;
-		}
-
-		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links a:hover > span {
-			color: @jh-color-footer-link-hover;
-			text-decoration: underline;
-		}
-
-		.@{jh-namespace} .@{jh-namespace}-footer .footer-bottom {
-			overflow: hidden;
-			height: 20px;
-			background-color: @jh-color-footer-light-background;
-			margin-bottom: -5px;
-		}
-
-	#browser-support {
-		text-align: center;
-		margin: 5px 0 0 0;
-	}
 
 	
 
@@ -461,12 +415,12 @@ a img {
 1.0 CSS for markdown pages
 
 	1.1 Help FAQ Page Markdown pages
-
 	1.2 CSS for codeblocks on Markdown pages
-
 	1.3 CSS for tables on Markdown pages
 
-2.0 404 Error Page
+2.0 Error Messages
+	2.1 404 Page
+	2.2 Maintenace outage notification
 
 3.0 Docs Landing Page
 
@@ -488,10 +442,11 @@ a img {
 
 	3.4 Breadcrumb CSS
 
+4.0 Footer
+
+5.0 Machine Translation Widget
+
 **********************************************************************
-
-						End Table of Contents
-
 *********************************************************************/
 
 
@@ -615,8 +570,10 @@ table tr th, table tr td
 }
 
 /******************************************************************
- 2.0 404 Error Page 
+ 2.0 Error Messages
  ******************************************************************/
+
+/*********************** 2.1 404 Page *****************************/
 
 a:link, a:visited {
 	color: #00649D;
@@ -673,10 +630,8 @@ a:hover {
 		margin-top: 35px;
 	}
 
-/********************************************************************
- * Maintenance announcement outage message
- *******************************************************************/
- 
+/***** 2.2 Maintenance announcement outage message *****************/
+
  .hidden {
  	display: none;
  }
@@ -717,18 +672,6 @@ a:hover {
 	word-wrap: break-word;
 	margin: 0;
 	padding: 0;
-}
-
-/************* TEXT ALIGN **********************
-
-.t_left {
-	text-align: left;
-}
-.t_center {
-	text-align: center;
-}
-.t_right {
-	text-align: right;
 }
 
 /*******************************************************************
@@ -1552,7 +1495,62 @@ a:hover {
 		color: #94A3AB;
 	}
 
-/************** Machine Translation Widget **************************/
+/*******************************************************************
+4.0 Footer
+*******************************************************************/
+
+.@{jh-namespace} .@{jh-namespace}-footer {
+		font-size: 0.88889em;
+		height: 100px;
+		margin-bottom: -20px;
+		margin-top: 0px;
+	}
+
+		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area {
+			height: 80px;
+			background-color: @jh-color-footer-dark-background;
+		}
+
+		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links {
+			overflow: hidden;
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links > a {
+			color: @jh-color-footer-link;
+			text-decoration: none;
+		}
+
+		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links > a:not(:last-child):after {
+			content: " / ";
+		}
+
+		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links a:hover {
+			text-decoration: none;
+		}
+
+		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links a:hover > span {
+			color: @jh-color-footer-link-hover;
+			text-decoration: underline;
+		}
+
+		.@{jh-namespace} .@{jh-namespace}-footer .footer-bottom {
+			overflow: hidden;
+			height: 20px;
+			background-color: @jh-color-footer-light-background;
+			margin-bottom: -5px;
+		}
+
+	#browser-support {
+		text-align: center;
+		margin: 5px 0 0 0;
+	}
+
+/*******************************************************************
+5.0 Machine Translation Widget
+*******************************************************************/
 
 .translate-widget {
 	width: 100%;
@@ -1573,6 +1571,3 @@ a:hover {
 	background-color: #ffffff;
 
 }
-
-
-
