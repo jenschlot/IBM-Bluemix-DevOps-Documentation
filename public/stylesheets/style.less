@@ -133,9 +133,18 @@ body {
 	}
 
 
+.@{jh-namespace}-Docs {
+	background-color: @jh-color-white;
+}
 
+img {
+	margin: 0 auto;
+}
 
-	
+/* For internet explorer. */
+a img {
+	border: 0px;
+}
 
 /******************************************************************************
 	JazzHub Columns
@@ -268,142 +277,6 @@ body {
 
 .-jazzhub-navbar > .button {
 	line-height: 50px;
-}
-
-/******************************************************************************
-	Landing Styles
-******************************************************************************/
-
-.@{jh-namespace}-Docs {
-	background-color: @jh-color-white;
-}
-
-.tutorial-landing {
-
-	.landing-header {
-		width: 100%;
-		height: 200px;
-		background-color: @jh-color-blue;
-
-		background: #00add0; /* Old browsers */
-		background: -moz-linear-gradient(top,  #00add0 96%, #00a0c1 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(96%,#00add0), color-stop(100%,#00a0c1)); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top,  #00add0 96%,#00a0c1 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top,  #00add0 96%,#00a0c1 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top,  #00add0 96%,#00a0c1 100%); /* IE10+ */
-		background: linear-gradient(to bottom,  #00add0 96%,#00a0c1 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00add0', endColorstr='#00a0c1',GradientType=0 ); /* IE6-9 */
-
-
-
-		.landing-header-body {
-
-			.landing-title {
-				color: @jh-color-white;
-				padding-top: 80px;
-
-				h1 {
-					margin: 0;
-					font-weight: normal;
-				}
-			}
-
-			.landing-intro {
-				color: @jh-color-white;
-			}
-
-			.landing-header-right {
-
-				position: relative;
-
-				.table-of-contents {
-					background-color: #0abce0;
-					width: 200px;
-					height: 200px;
-					position: absolute;
-					right: 0;
-					bottom: 0;
-					z-index: 200;
-
-				}
-
-			}
-
-		}
-
-	}
-
-	.tutorial-section {
-		.mtm;
-	}
-}
-
-.tutorial-section {
-	
-	.mbl;
-
-	.tutorial-section-header {
-		border-bottom: 1px solid @jh-color-very-light-grey;
-		overflow: hidden;
-		.mbs;
-
-		.section-title {
-			.f_left;
-
-			h2 {
-				margin: 0;
-				padding: 0;
-				.mtxs;
-				.mbxs;
-				font-weight: normal;
-			}
-
-			a {
-				color: #333333;
-			}
-		}
-
-		.back-to-top {
-			.f_right;
-			line-height: 2.8em;
-			display: none; /* Going into hiding */
-		}
-	}
-
-	.tutorial-section-body {
-
-		.tutorial-section-description {
-			font-size: 0.9rem;
-			color: @jh-color-page-background;
-			line-height: 1.4em;
-		}
-
-		.tutorial-section-list {
-			ul {
-				margin: 0;
-				.mtxs;
-				list-style-type: none; /*Temp */
-				.mln; /*Temp */
-				.pln; /*Temp */
-
-				li {
-					font-size: 1rem;
-					line-height: 1.4em;
-					.mln; /*Temp */
-					.pln; /*Temp */
-				}
-			}
-		}
-	}
-}
-
-img {
-	margin: 0 auto;
-}
-
-/* For internet explorer. */
-a img {
-	border: 0px;
 }
 
 /*********************************************************************
