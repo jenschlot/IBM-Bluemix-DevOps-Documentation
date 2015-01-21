@@ -82,7 +82,7 @@ Click **BUILD & DEPLOY**.
 
 ![Web IDE][16]
 
-The Build & Deploy page opens.  
+The Build & Deploy page opens. If it's your first time using this feature, you will see a welcome page. Click **GET STARTED** to proceed.  
 
 A deployment of your sample app is already started. When it's running, the app is available at the URL that is shown in the stage named "dev Deploy." You can see the app’s overview on Bluemix by clicking the app name.
 
