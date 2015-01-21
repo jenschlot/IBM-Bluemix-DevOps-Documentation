@@ -1,16 +1,20 @@
-{>bootstrap_header/}
+{>"common/page_layout" /}
 
-<div class="translate-widget-container prl pll">
-	{>machine_translation/}
-</div>
-<div id="content" class="com-ibm-team-jazzhub-Docs content fluid-content">
-	<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none"></div>
-	<div class="fixed-content jh-docmode">
-		<div class="content-box">
-			{markdown|s}
-			{>next_steps/}
+{<sidebar}
+	{>"common/sidebar" selected="document"/}
+{/sidebar}
+
+{<content}
+	<div class="translate-widget-container prl pll">
+		{>"common/machine_translation"/}
+	</div>
+	<div id="content" class="com-ibm-team-jazzhub-Docs content fluid-content">
+		<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none"></div>
+		<div class="fixed-content jh-docmode">
+			<div class="content-box">
+				{markdown|s}
+				{>"common/next_steps"/}
+			</div>
 		</div>
 	</div>
-</div>
-
-{>footer/}
+{/content}

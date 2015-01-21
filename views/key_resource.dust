@@ -1,40 +1,46 @@
-{>bootstrap_header/}
-<div id="content" class="com-ibm-team-jazzhub-Docs content fluid-content">
-	<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none"></div>
-		<div class="container-fluid">
-			<div class="row" id="resource-header">
-				<div class="col-md-12">
-					<div class="row">
-						<div class="col-md-2 col-sm-2 col-xs-2 vcenter">
-							<div class="resource-img">
-								<span class="{imgicon}"></span>
+{>"common/page_layout"/}
+
+{<sidebar}
+	{>"common/sidebar" selected="key_resource"/}
+{/sidebar}
+
+{<content}
+	<div id="content" class="com-ibm-team-jazzhub-Docs content fluid-content">
+		<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none"></div>
+			<div class="container-fluid">
+				<div class="row" id="resource-header">
+					<div class="col-md-12">
+						<div class="row">
+							<div class="col-md-2 col-sm-2 col-xs-2 vcenter">
+								<div class="resource-img">
+									<span class="{imgicon}"></span>
+								</div>
 							</div>
-						</div>
-						<div class="col-md-4 vcenter resource-header-name">
-							<span>{resourcename}</span>
-						</div>
-						<div class="col-md-6 vcenter">
-							{>machine_translation/}
+							<div class="col-md-4 vcenter resource-header-name">
+								<span>{resourcename}</span>
+							</div>
+							<div class="col-md-6 vcenter">
+								{>"common/machine_translation"/}
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			{@eq key=resourcename value="Support"}
-			
-			<ol class="hidden">
-			{:else}
-			<ol class="breadcrumb">
-			{/eq}
-				<li><a href="/docs">Docs</a></li>
-				<li><a href="/docs#key-resources">Key Resources</a></li>
-				<li class="current">{resourcename}</li>
-			</ol>
-			<div class="row ptm">
-				<div class="col-md-12 resource">
-						{markdown|s}
+				{@eq key=resourcename value="Support"}
+				
+				<ol class="hidden">
+				{:else}
+				<ol class="breadcrumb">
+				{/eq}
+					<li><a href="/docs">Docs</a></li>
+					<li><a href="/docs#key-resources">Key Resources</a></li>
+					<li class="current">{resourcename}</li>
+				</ol>
+				<div class="row ptm">
+					<div class="col-md-12 resource">
+							{markdown|s}
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-{>footer/}
+{/content}

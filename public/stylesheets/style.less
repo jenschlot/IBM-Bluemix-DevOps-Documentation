@@ -8,15 +8,58 @@
 	Global Color Variables
 ******************************************************************************/
 
+/*** Bluemix Look and feel color palette ***/
+/* from Manage JazzHubCommonStyles.less */
+
+/*Basics */
+@color-black: #000000;
+@color-white: #ffffff;
+@color-dark-page-background: #152934;
+@color-dark-content-background: #253b46;
+@color-dark-darker-content-background: #111f2a;
+@color-dark-font: #82a3ab;
+@color-dark-link: #82a3ab;
+
+/* Accents */
+@color-accent-one: #27ada5; /* Teal */
+@color-accent-two: #60b3ff; /* Blue */
+
+/* Tiles */
+@color-tile-background: #ffffff;
+@color-tile-link: #00b4a0;
+@color-tile-footer-background: #e9f1f4;
+@color-tile-footer-border: #d0d9de; 
+@color-tile-font: #747e83;
+
+@color-darktile-background: @color-dark-darker-content-background;
+@color-darktile-border: @color-accent-two;
+@color-darktile-font: @color-accent-two;
+
+/* Sidebar */
+@color-sidebar-dark-background: #22333F;
+@color-sidebar-highlight: @color-dark-darker-content-background;
+@color-sidebar-accent: @color-accent-one;
+
+/* Buttons */
+@color-button-background: transparent;
+@color-button-border: #959595;
+@color-button-font: #959595;
+@color-button-hover-background: #4de9d7;
+@color-button-hover-border: #4de9d7;
+@color-button-hover-font: #152934;
+
+/*** Color Palette ***/
+
 @jh-color-page-background: #747D85;
+
+@jh-default-text: #26343F;
 @jh-color-link: @jh-color-blue;
 @jh-color-link-hover: #F47D64;
+
 @jh-color-footer-dark-background: #111f2a;
 @jh-color-footer-light-background: #3B4B54;
 @jh-color-footer-link: rgba(255, 255, 255, 0.4);
 @jh-color-footer-link-hover: #ffffff;
-@jh-default-text: #26343F;
-
 @jh-color-white: #ffffff;
 @jh-color-blue: #00ADD0;
 @jh-color-dark-grey: #333333;
@@ -295,29 +338,34 @@ a img {
 	2.1 404 Page
 	2.2 Maintenace outage notification
 
-3.0 Docs Landing Page
+3.0 Left-Nav / Sidebar
+	3.1 Fixed Sidebar - Fluid Content container
+	3.1.1 Navigation For Fixed Sidebar and full sidebar
+	3.1.2 Full-Width sidebar container sizes
 
-	3.1 Featured Docs Section
-		3.1.1 Hex tile icons
-		3.1.2 Hex icons positions
-		3.1.3 Hexagons hover behaviour
+4.0 Docs Landing Page
 
-	3.2 Key Resources Section
-		3.2.1 Key Resources Icons
-		3.2.2 Key Resources Subpages
-		3.2.3 Key Resources Hover
+	4.1 Featured Docs Section
+		4.1.1 Hex tile icons
+		4.1.2 Hex icons positions
+		4.1.3 Hexagons hover behaviour
 
-	3.3 Topics Section
-		3.3.1 All Docs Button
-		3.3.2 Topics Icons
-		3.3.3 Topics Subpages
-		3.3.4 Topics Hover behaviou
+	4.2 Key Resources Section
+		4.2.1 Key Resources Icons
+		4.2.2 Key Resources Subpages
+		4.2.3 Key Resources Hover
 
-	3.4 Breadcrumb CSS
+	4.3 Topics Section
+		4.3.1 All Docs Button
+		4.3.2 Topics Icons
+		4.3.3 Topics Subpages
+		4.3.4 Topics Hover behaviou
 
-4.0 Footer
+	4.4 Breadcrumb CSS
 
-5.0 Machine Translation Widget
+5.0 Footer
+
+6.0 Machine Translation Widget
 
 **********************************************************************
 *********************************************************************/
@@ -548,10 +596,72 @@ a:hover {
 }
 
 /*******************************************************************
-3.0 Docs Landing Page
+3.0 Left-Nav / Sidebar
 *******************************************************************/
 
-/***************** 3.1 Featured Docs Section **********************/
+/* 3.1 Fixed Sidebar - Fluid Content container */
+
+.jh-sidebar-content {
+	padding-left: 186px;
+	position: relative;
+	min-height: 600px;
+
+	.sidebar-container {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 166px;
+	}
+}
+
+/* 3.1.1 Navigation For Fixed Sidebar and full sidebar */
+
+.jh-sidebar-content,
+.jh-sidebar-full-content {
+	.sidebar-container .nav .item > a {
+		display: inline-block;
+		width: 100%;
+		padding: 15px 10px 15px 40px;
+		margin-bottom: 0px;
+		line-height: 1.5em;
+		font: 0.8em Arial;
+		color: @color-dark-font;
+		background-color: @color-dark-page-background;
+	}
+
+	.sidebar-container .nav .item > a:hover {
+		text-decoration: none;
+		background-color: @color-dark-darker-content-background;
+	}
+
+	.sidebar-container .nav .item.selected > a {
+		border-left: 4px solid @color-accent-one;
+		color: @color-white;
+		background-color: @color-dark-darker-content-background;
+		padding: 15px 10px 15px 36px;
+	}
+}
+
+/* 3.1.2 Full-Width sidebar container sizes */
+
+.jh-sidebar-full-content {
+	padding-left: 278px;
+	position: relative;
+	min-height: 600px;
+
+	.sidebar-container {
+		position: absolute;
+		left: 0; 
+		top: 0; 
+		width: 278px;
+	}
+}
+
+/*******************************************************************
+4.0 Docs Landing Page
+*******************************************************************/
+
+/***************** 4.1 Featured Docs Section **********************/
 
 #featured-docs {
 	background-color: #3b4b54;
@@ -639,7 +749,7 @@ a:hover {
 		font-size: 1rem;
 	}
 
-	/******************* 3.1.1 Hex tile icons *************************/
+	/******************* 4.1.1 Hex tile icons *************************/
 
 	.hex-tile-position {
 		position: absolute;
@@ -702,7 +812,7 @@ a:hover {
 		
 	}
 
-	/******************* 3.1.2 Hex icons positions *************************/
+	/******************* 4.1.2 Hex icons positions *************************/
 
 	/***Note: The first image in sprite on the top left corner is pos-0.
 	          pos-# increases as you move in the right direction.         */
@@ -743,7 +853,7 @@ a:hover {
 		background-position: -420px 0px;
 	}
 
-	/******************* 3.1.3 Hexagons hover behaviour *************************/
+	/******************* 4.1.3 Hexagons hover behaviour *************************/
 
 	a.section, a.section:hover {
 	text-decoration: none;
@@ -767,7 +877,7 @@ a:hover {
 		border: 4px solid #dee6eb;
 	}
 
-/***************** 3.1.4 tutorials and references twistie Section **********************/
+/***************** 4.1.4 tutorials and references twistie Section **********************/
 	div.twistie {
 	background-color:@jh-color-very-light-grey;
 	}
@@ -793,7 +903,7 @@ a:hover {
 			color: white; 
 	}
 
-/***************** 3.2 Key Resources Section **********************/
+/***************** 4.2 Key Resources Section **********************/
 
 #key-resources {
 	background-color: #ffffff;
@@ -808,7 +918,7 @@ a:hover {
 		margin: 0 auto;
 	}
 
-	/************ 3.2.1 Key Resources Icons ********************/
+	/************ 4.2.1 Key Resources Icons ********************/
 
 	div#key-resources .col-center {
 		margin: 0 auto;
@@ -890,7 +1000,7 @@ a:hover {
 		color: #26343f;
 	}
 
-	/************ 3.2.2 Key Resources Subpages ********************/
+	/************ 4.2.2 Key Resources Subpages ********************/
 
 	#resource-header {
 		background-color: #03829e;
@@ -939,7 +1049,7 @@ a:hover {
 			margin: 2.5em auto;
 		}
 
-	/************ 3.2.3 Key Resources Hover ********************/
+	/************ 4.2.3 Key Resources Hover ********************/
 
 	a.resource-section ,a.resource-section:hover {
 	text-decoration: none;
@@ -1119,12 +1229,12 @@ a:hover {
 	}
 	
 	
-/***************** 3.3 Topics Section **********************/
+/***************** 4.3 Topics Section **********************/
 
 #topics {
 	background-color: #94a3ab;
 }
-	/************* 3.3.1 All Docs Button **********************/
+	/************* 4.3.1 All Docs Button **********************/
 	a.btn-dark {
 	background-color: #26343f;
 	color: #dee6eb;
@@ -1137,7 +1247,7 @@ a:hover {
 		text-decoration: none;
 	}
 
-	/************* 3.3.2 Topics Icons ************************/
+	/************* 4.3.2 Topics Icons ************************/
 
 	div#topics .col-center {
 		margin: 0 auto;
@@ -1261,7 +1371,7 @@ a:hover {
 		}
 
 
-	/************* 3.3.3 Topics Subpages *********************/
+	/************* 4.3.3 Topics Subpages *********************/
 
 	#topic-header {
 		background-color: #3b4b54;
@@ -1322,7 +1432,7 @@ a:hover {
 			margin: 2.5em auto;
 		}
 
-	/************* 3.3.4 Topics Hover behaviour ************/
+	/************* 4.3.4 Topics Hover behaviour ************/
 
 	a.topic-section , a.topic-section:hover {
 	text-decoration: none;
@@ -1337,7 +1447,7 @@ a:hover {
 		color: #dee6eb;
 	}
 
-/************** 3.4 Breadcrumb CSS **************************/
+/************** 4.4 Breadcrumb CSS **************************/
 
 	.breadcrumb {
 		margin: 0px -15px 0 -15px;
@@ -1369,60 +1479,60 @@ a:hover {
 	}
 
 /*******************************************************************
-4.0 Footer
+5.0 Footer
 *******************************************************************/
 
-.@{jh-namespace} .@{jh-namespace}-footer {
-		font-size: 0.88889em;
-		height: 100px;
-		margin-bottom: -20px;
-		margin-top: 0px;
-	}
+.@{jh-namespace}-footer {
+	font-size: 0.88889em;
+	height: 100px;
+	margin-bottom: -20px;
+	margin-top: 0px;
 
-		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area {
-			height: 80px;
-			background-color: @jh-color-footer-dark-background;
-		}
+	.content-links-area {
+		height: 80px;
+		background-color: @jh-color-footer-dark-background;
 
-		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links {
+		.text-links {
 			overflow: hidden;
 			position: relative;
 			top: 50%;
 			transform: translateY(-50%);
-		}
 
-		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links > a {
-			color: @jh-color-footer-link;
-			text-decoration: none;
-		}
+			a {
+				color: @jh-color-footer-link;
+				text-decoration: none;
+			}
 
-		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links > a:not(:last-child):after {
-			content: " / ";
-		}
+			a:not(:last-child):after {
+				content: " / ";
+			}
 
-		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links a:hover {
-			text-decoration: none;
-		}
+			a:hover {
+				text-decoration: none;
+			}
 
-		.@{jh-namespace} .@{jh-namespace}-footer .content-links-area > .text-links a:hover > span {
-			color: @jh-color-footer-link-hover;
-			text-decoration: underline;
+			a:hover > span {
+				color: @jh-color-footer-link-hover;
+				text-decoration: underline;
+			}
 		}
-
-		.@{jh-namespace} .@{jh-namespace}-footer .footer-bottom {
-			overflow: hidden;
-			height: 20px;
-			background-color: @jh-color-footer-light-background;
-			margin-bottom: -5px;
-		}
-
-	#browser-support {
-		text-align: center;
-		margin: 5px 0 0 0;
 	}
 
+	.footer-bottom {
+		overflow: hidden;
+		height: 20px;
+		background-color: @jh-color-footer-light-background;
+		margin-bottom: -5px;
+	}
+}	
+
+#browser-support {
+	text-align: center;
+	margin: 5px 0 0 0;
+}
+
 /*******************************************************************
-5.0 Machine Translation Widget
+6.0 Machine Translation Widget
 *******************************************************************/
 
 .translate-widget {
