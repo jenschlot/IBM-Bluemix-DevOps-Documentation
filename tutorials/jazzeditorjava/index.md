@@ -1,6 +1,6 @@
 #Getting Started with IBM Bluemix and DevOps Services using Java
 
-Last modified: 9 January 2015
+Last modified: 21 January 2015
 
 ##Create an app using IBM Bluemix
 
