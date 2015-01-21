@@ -1,6 +1,6 @@
 #Developing an IBM Bluemix application in Node.js with the web IDE
 
-Last modified: 12 January 2015
+Last modified: 21 January 2015
 
 In this tutorial, you use IBM DevOps Services to develop an application in the cloud and deploy it to [IBM® Bluemix™][1].
 
@@ -19,11 +19,9 @@ Enter a name for your fork of the Sentiment Analysis app, and make sure that the
 
 Put your fork of the project on the web by using Bluemix. To make the most of DevOps Services and Bluemix, make sure that your Bluemix space has the Delivery Pipeline service. If it doesn't have that service, [follow these steps][26].
 
-At the top of the screen, click **Build &amp; Deploy**. Then, click **Simple**.
+At the top of the screen, click **Build &amp; Deploy**. 
 
-![Simple deployment interface][5]
-
-Simple deployment directly deploys the contents of the Git repository. Simple deployment uses the information in the project's `manifest.yml` file to specify how the repository code will be deployed to Bluemix. Your app will be deployed in a few seconds. 
+The Build & Deploy page opens. If it's your first time using this feature, you will see a welcome page. Click **GET STARTED** to proceed. 
 
 To see your deployed app, click the link to it:
 
@@ -31,16 +29,16 @@ To see your deployed app, click the link to it:
  
 ![Sentiment Analysis Sample App][7]
 
-The sample project incorporates JSHint validation to ensure that your code is correctly formed and error-free. This can't happen in the simple deployment mode, though: all that mode can do is *deploy* your code. You must configure a builder. Builders are only available in Advanced mode, which is also known as Pipeline. 
-
-At the top of the Build & Deploy page, click **ADVANCED**. Because you switched from Simple to Advanced mode, Pipeline automatically generates a configuration for your project. However, you're going to create a configuration, so you first must reset Pipeline:
+DevOps Services automatically generated a configuration for your project. However, you're going to create your own configuration, so you first must reset Pipeline:
 
 ![Deleting a preconfigured Pipeline][25]
 
 1. Click the gear icon on the rightmost tile, which represents a stage named `dev Deploy` by default. Click **Delete Stage** and confirm the deletion.
 2. Click the gear icon on the remaining build stage tile. Click **Delete Stage** and confirm the deletion.
  
-You reset the Delivery Pipeline service. When you configure your own project, you can create and customize as much as you want to. However, this sample, is designed to require minimal activity to get started: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it is automatically found. This Grunt build file includes JSHint validation, so your project's code will be checked automatically each time a build occurs.
+You reset the Delivery Pipeline service. When you configure your own project, you can create and customize as much as you want to. This sample, however, is designed to require minimal activity to get started: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it is automatically found. This Grunt build file includes JSHint validation, so your project's code will be checked automatically each time a build occurs.
+
+The Pipeline configuration for your Sentiment Analysis app will comprise two stages: a build stage and a deploy stage. The builder stage will use the included `Gruntfile.js` to validated your code, and the deployer stage will deploy your code to Bluemix. 
 
 Click **add a builder**. On the Add Builder page, select **Grunt** as the Builder. Leave the default settings as is and then click **SAVE**.
 
@@ -151,7 +149,7 @@ You developed and deployed a Bluemix application by using the web IDE.
 [3]: /tutorials/jazzweb/images/forkbutton.png
 [4]: /tutorials/jazzweb/images/forknew.png
 [5]: /tutorials/jazzweb/images/simpledeployment.png
-[6]: /tutorials/jazzweb/images/closesimple.png
+[6]: /tutorials/jazzweb/images/closedeploy.png
 [7]: /tutorials/jazzweb/images/stockapp.png
 [8]: /tutorials/jazzweb/images/builder1.png
 [9]: /tutorials/jazzweb/images/deployscriptex.png
