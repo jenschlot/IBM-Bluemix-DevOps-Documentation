@@ -1,19 +1,16 @@
 
-{@eq key=uri_prefix value="{selected_uri_prefix}"}
-
+{@eq key=uri_prefix_with_trailing_slash value="{selected_uri_prefix}"}
 	<div class="item selected">
-		<a href="{uri_prefix}">{title}</a>
-		{#children}
-			{>"common/sidebar_element":. /}
-		{/children}
-	</div>
-
 {:else}
 	<div class="item">
-		<a href="{uri_prefix}">{title}</a>
+{/eq}
+		<a href="{uri_prefix_with_trailing_slash}">
+			<img class="sidebar-icon" src="/tutorials/images/sidebar/{icon}" />
+			{title}
+			<span class="sidebar-right-arrow">&gt;</span>
+		</a>
+
 		{#children}
 			{>"common/sidebar_element":. /}
 		{/children}
 	</div>
-
-{/eq}

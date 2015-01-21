@@ -23,7 +23,8 @@ var renderTopic = function(req, res, next, headerContent) {
 			imgicon: req.imgicon,
 			headerContent: headerContent,
 			headerStyling: headerStyling,
-			sidebarLinks: sidebarLinks
+			sidebarLinks: sidebarLinks,
+			selected_uri_prefix: req.path
 		}
 	);
 }

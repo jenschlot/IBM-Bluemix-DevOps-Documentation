@@ -15,7 +15,8 @@ var renderDocsLanding = function(req, res, next, headerContent) {
 		navbarSelection: 'docs',
 		headerContent: headerContent,
 		headerStyling: headerStyling,
-		sidebarLinks: sidebarLinks
+		sidebarLinks: sidebarLinks,
+		selected_uri_prefix: req.path
 	});
 }
 

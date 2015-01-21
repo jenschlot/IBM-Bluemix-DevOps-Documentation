@@ -36,9 +36,10 @@
 @color-darktile-font: @color-accent-two;
 
 /* Sidebar */
-@color-sidebar-dark-background: #22333F;
+@color-sidebar-dark-background: #152934;
 @color-sidebar-highlight: @color-dark-darker-content-background;
 @color-sidebar-accent: @color-accent-one;
+@color-sidebar-right-arrow: #DFE6EB;
 
 /* Buttons */
 @color-button-background: transparent;
@@ -619,14 +620,14 @@ a:hover {
 .jh-sidebar-content,
 .jh-sidebar-full-content {
 
-	background-color: @color-dark-page-background;
+	background-color: @color-sidebar-dark-background;
 
 	.sidebar-container .nav .item {
 
 		> a {
 			display: inline-block;
 			width: 100%;
-			padding: 15px 10px 15px 40px;
+			padding: 10px 10px 10px 40px;
 			margin-bottom: 0px;
 			line-height: 1.5em;
 			font: 0.8em Arial;
@@ -641,11 +642,21 @@ a:hover {
 		&.selected > a {
 			border-left: 4px solid @color-accent-one;
 			background-color: @color-dark-darker-content-background;
-			padding: 15px 10px 15px 36px;
 		}
 
 		& .item {
 			margin-left: 1.1em;
+		}
+
+		.sidebar-icon {
+			padding-right: 1.3em;
+			vertical-align: middle;
+		}
+
+		.sidebar-right-arrow {
+			float: right;
+			padding-right: 5px;
+			color: @color-sidebar-right-arrow;
 		}
 	}
 }
