@@ -1,6 +1,6 @@
 #Getting Started with IBM Bluemix and IBM DevOps Services by using Node.js
 
-Last modified: 13 January 2015
+Last modified: 21 January 2015
 
 ##Create an application with IBM Bluemix
 
@@ -64,10 +64,8 @@ Your new project opens in the web IDE. The project page contains useful informat
 
 4. To check the status of the application, click **BUILD & DEPLOY**.
 ![Web IDE](/tutorials/jazzeditor/images/orion_NEW.png)
-A page opens where you can request a build and see the deployment status for the project.
-Notice the warning message about outgoing changes. The outgoing files are project files that are created when you create a Git repository project. You'll check in those files later.
-The Git URL is used in Git commands. You can copy the URL now or return to this page and copy it later.
 
+The Build & Deploy page opens. If it's your first time using this feature, you will see a welcome page. Click **GET STARTED** to proceed. 
 
 ---
 ##Push changes to the Git repository by using the command line
@@ -79,8 +77,7 @@ If you need to install Git, [see Installing Git](/tutorials/clients#installing_g
 
 To learn more about working with Git, [browse the Git documentation](http://git-scm.com/doc).
 
-1. Clone the local repository by using the Git URL from either the Bluemix application dashboard 
-or the BUILD & DEPLOY page:
+1. Clone the local repository by using the Git URL from the Bluemix application dashboard, the BUILD & DEPLOY page, or your DevOps Services project overview:
 
 		$ git clone https://hub.jazz.net/git/jazzhubdemouser/newcoolwebappdemo
     	Cloning into 'mycoolwebappdemo'...
@@ -197,7 +194,7 @@ application was deployed again. Then, click the URL link that is next to "Deploy
 ---
 ##Advanced deployment features
 
-In this workflow, you only used the simple deploy features with Bluemix. For more control over deployment, you can use the advanced options. Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can also manually deploy applications directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the web IDE, you can deploy your code to Bluemix by using the Play button in the Run Bar. 
+Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can also manually deploy applications directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the web IDE, you can deploy your code to Bluemix by using the Play button in the Run Bar. 
 
 ![Screenshot here of Run Bar][1]
 
