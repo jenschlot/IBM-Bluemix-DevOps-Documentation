@@ -254,6 +254,80 @@
 			"img_icon": "hackathons",
 			"directory": "docs/topics/hackathons"
 		}
+	],
+	"sidebarLinks": [
+		{
+			"title": "General",
+			"icon": "images/docs/project-46.png",
+			"uri_prefix": "/docs/",
+			"children": [
+				{
+					"title": "Learn about IBM DevOps",
+					"icon_path": "images/docs/project-46.png",
+					"uri_prefix": "/learn"
+				},
+				{
+					"title": "What's new",
+					"icon_path": "images/docs/project-46.png",
+					"uri_prefix": "/docs/whatsnew"
+				},
+				{
+					"title": "Features",
+					"icon_path": "images/docs/project-46.png",
+					"uri_prefix": "/docs/"
+				},
+				{
+					"title": "FAQ",
+					"icon_path": "images/docs/project-46.png",
+					"uri_prefix": "/docs/"
+				},
+				{
+					"title": "Glossary",
+					"icon_path": "images/docs/project-46.png",
+					"uri_prefix": "/docs/"
+				},
+				{
+					"title": "Support",
+					"icon_path": "images/docs/project-46.png",
+					"uri_prefix": "/docs/"
+				}
+			]
+		},
+		{
+			"title": "Tutorials",
+			"icon_path": "images/docs/project-46.png",
+			"uri_prefix": "/docs/"
+		},
+		{
+			"title": "Reference",
+			"icon_path": "images/docs/project-46.png",
+			"uri_prefix": "/docs/"
+		},
+		{
+			"title": "Articles",
+			"icon_path": "images/docs/project-46.png",
+			"uri_prefix": "/docs/"
+		},
+		{
+			"title": "Blogs",
+			"icon_path": "images/docs/project-46.png",
+			"uri_prefix": "/docs/"
+		},
+		{
+			"title": "Samples",
+			"icon_path": "images/docs/project-46.png",
+			"uri_prefix": "/docs/"
+		},
+		{
+			"title": "Videos",
+			"icon_path": "images/docs/project-46.png",
+			"uri_prefix": "/docs/"
+		},
+		{
+			"title": "Workshops",
+			"icon_path": "images/docs/project-46.png",
+			"uri_prefix": "/docs/"
+		}
 	]
 
 }

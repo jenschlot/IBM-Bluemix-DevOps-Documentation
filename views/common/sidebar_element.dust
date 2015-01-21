@@ -1,0 +1,19 @@
+
+{@eq key=uri_prefix value="{selected_uri_prefix}"}
+
+	<div class="item selected">
+		<a href="{uri_prefix}">{title}</a>
+		{#children}
+			{>"common/sidebar_element":. /}
+		{/children}
+	</div>
+
+{:else}
+	<div class="item">
+		<a href="{uri_prefix}">{title}</a>
+		{#children}
+			{>"common/sidebar_element":. /}
+		{/children}
+	</div>
+
+{/eq}

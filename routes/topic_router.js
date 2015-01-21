@@ -6,6 +6,7 @@ var NavbarClient = require('../lib/clients/navbar-client.js');
 
 var renderTopic = function(req, res, next, headerContent) {
 	var config = require("../config").get("config");
+	var sidebarLinks = require("../config.json").sidebarLinks;
 	var headerStyling;
 
 	if (config) {
@@ -21,7 +22,8 @@ var renderTopic = function(req, res, next, headerContent) {
 			topicname: req.topicname,
 			imgicon: req.imgicon,
 			headerContent: headerContent,
-			headerStyling: headerStyling
+			headerStyling: headerStyling,
+			sidebarLinks: sidebarLinks
 		}
 	);
 }

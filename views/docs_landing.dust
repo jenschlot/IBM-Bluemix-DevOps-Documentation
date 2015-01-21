@@ -1,7 +1,7 @@
 {>"common/page_layout" /}
 
 {<sidebar}
-	{>"common/sidebar" selected="docs_landing"/}
+	{>"common/sidebar"/}
 {/sidebar}
 
 {<content}
@@ -272,6 +272,6 @@
 						</div>
 					</div>
 				</div>
-			</div>		
+			</div>
 	</div>
 {/content}

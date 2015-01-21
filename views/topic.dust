@@ -1,7 +1,7 @@
 {>"common/page_layout"/}
 
 {<sidebar}
-	{>"common/sidebar" selected="topic"/}
+	{>"common/sidebar"/}
 {/sidebar}
 
 {<content}

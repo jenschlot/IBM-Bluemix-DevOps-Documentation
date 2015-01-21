@@ -1,38 +1,8 @@
 
-<div class="nav mbs">
-	<div>
-		{@eq key=selected value="docs_landing"}
-			<div class="item selected"><a href="general">docs_landing</a></div>
-		{:else}
-			<div class="item"><a href="general">docs_landing</a></div>
-		{/eq}
-	</div>
-	<div>
-		{@eq key=selected value="topic"}
-			<div class="item selected"><a href="options">topic</a></div>
-		{:else}
-			<div class="item"><a href="options">topic</a></div>
-		{/eq}
-	</div>
-	<div>
-		{@eq key=selected value="document"}
-			<div class="item selected"><a href="change-owner">document</a></div>
-		{:else}
-			<div class="item"><a href="change-owner">document</a></div>
-		{/eq}
-	</div>
-	<div>
-		{@eq key=selected value="quick_reference"}
-			<div class="item selected"><a href="delete">quick_reference</a></div>
-		{:else}
-			<div class="item"><a href="delete">quick_reference</a></div>
-		{/eq}
-	</div>
-	<div>
-		{@eq key=selected value="key_resource"}
-			<div class="item selected"><a href="delete">key_resource</a></div>
-		{:else}
-			<div class="item"><a href="delete">key_resource</a></div>
-		{/eq}
-	</div>
+<div class="nav mbs mts">
+
+{#sidebarLinks}
+	{>"common/sidebar_element"/}
+{/sidebarLinks}
+
 </div>

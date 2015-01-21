@@ -7,7 +7,9 @@ var NavbarClient = require('../lib/clients/navbar-client.js');
 var renderResource = function(req, res, next, headerContent) {
 
 	var config = require("../config").get("config");
+	var sidebarLinks = require("../config.json").sidebarLinks;
 	var headerStyling;
+
 
 	if (config) {
 		headerStyling = config.compositionServiceStylingEndpoint;
@@ -21,7 +23,8 @@ var renderResource = function(req, res, next, headerContent) {
 			resourcename: req.resourcename,
 			imgicon: req.imgicon,
 			headerContent: headerContent,
-			headerStyling: headerStyling
+			headerStyling: headerStyling,
+			sidebarLinks: sidebarLinks
 		}
 	);
 }

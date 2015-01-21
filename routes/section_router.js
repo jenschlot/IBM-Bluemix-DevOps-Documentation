@@ -7,6 +7,7 @@ var NavbarClient = require('../lib/clients/navbar-client.js');
 
 var renderSection = function(req, res, next, headerContent) {
 	var config = require("../config").get("config");
+	var sidebarLinks = require("../config.json").sidebarLinks;
 	var headerStyling;
 
 	if (config) {
@@ -20,7 +21,8 @@ var renderSection = function(req, res, next, headerContent) {
 			sectionname: 'Docs',
 			navbarSelection: 'docs',
 			headerContent: headerContent,
-			headerStyling: headerStyling
+			headerStyling: headerStyling,
+			sidebarLinks: sidebarLinks
 		}
 	);
 }

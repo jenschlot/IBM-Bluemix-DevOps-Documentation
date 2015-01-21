@@ -1,7 +1,7 @@
 {>"common/page_layout"/}
 
 {<sidebar}
-	{>"common/sidebar" selected="key_resource"/}
+	{>"common/sidebar"/}
 {/sidebar}
 
 {<content}

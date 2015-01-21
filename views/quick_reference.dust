@@ -1,7 +1,7 @@
 {>"common/page_layout"/}
 
 {<sidebar}
-	{>"common/sidebar" selected="quick_reference"/}
+	{>"common/sidebar"/}
 {/sidebar}
 
 {<content}
