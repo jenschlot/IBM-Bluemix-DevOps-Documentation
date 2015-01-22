@@ -1,11 +1,5 @@
 ## What's New
 
-### January 27, 2015
-
-## New project admins
-
-See the blog post: link
-
 ### January 13, 2015
 
 ## New way to deploy from the workspace
