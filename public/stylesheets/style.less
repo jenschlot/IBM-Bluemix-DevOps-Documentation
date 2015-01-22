@@ -632,6 +632,7 @@ a:hover {
 			line-height: 1.5em;
 			font: 0.8em Arial;
 			color: @color-white;
+			border-left: 4px solid @color-sidebar-dark-background; /* to match width of selected */
 		}
 
 		> a:hover {
@@ -651,6 +652,14 @@ a:hover {
 		.sidebar-icon {
 			padding-right: 1.3em;
 			vertical-align: middle;
+		}
+
+		.sidebar-icon-missing {
+			.sidebar-icon;
+			width: 36px;
+			height: 20px;
+			display: inline-block;
+			visibility: hidden;
 		}
 
 		.sidebar-right-arrow {

@@ -257,76 +257,59 @@
 	],
 	"sidebarLinks": [
 		{
-			"title": "General",
+			"title": "IBM DevOps Services",
 			"icon": "tmp20x20.png",
-			"uri_prefix_with_trailing_slash": "/docs/",
-			"children": [
-				{
-					"title": "Learn about IBM DevOps",
-					"icon": "tmp20x20.png",
-					"uri_prefix_with_trailing_slash": "/learn/"
-				},
-				{
-					"title": "What's new",
-					"icon": "tmp20x20.png",
-					"uri_prefix_with_trailing_slash": "/whatsnew/"
-				},
-				{
-					"title": "Features",
-					"icon": "tmp20x20.png",
-					"uri_prefix_with_trailing_slash": "/docs"
-				},
-				{
-					"title": "FAQ",
-					"icon": "tmp20x20.png",
-					"uri_prefix_with_trailing_slash": "/docs/faq/"
-				},
-				{
-					"title": "Glossary",
-					"icon": "tmp20x20.png",
-					"uri_prefix_with_trailing_slash": "/docs"
-				},
-				{
-					"title": "Support",
-					"icon": "tmp20x20.png",
-					"uri_prefix_with_trailing_slash": "/docs"
-				}
-			]
+			"uri_prefix": "/docs/"
+		},
+		{
+			"title": "What is IBM DevOps Services",
+			"icon": "tmp20x20.png",
+			"uri_prefix": "/docs"
+		},
+		{
+			"title": "How to get started",
+			"icon": "tmp20x20.png",
+			"uri_prefix": "/docs"
+		},
+		{
+			"title": "What's new",
+			"icon": "tmp20x20.png",
+			"uri_prefix": "/docs"
+		},
+		{
+			"title": "Features",
+			"icon": "tmp20x20.png",
+			"uri_prefix": "/docs"
+		},
+		{
+			"title": "FAQ",
+			"icon": "tmp20x20.png",
+			"uri_prefix": "/docs"
 		},
 		{
 			"title": "Tutorials",
 			"icon": "tmp20x20.png",
-			"uri_prefix_with_trailing_slash": "/docs"
+			"uri_prefix": "/docs"
 		},
 		{
 			"title": "Reference",
 			"icon": "tmp20x20.png",
-			"uri_prefix_with_trailing_slash": "/docs"
+			"uri_prefix": "/docs"
 		},
 		{
-			"title": "Articles",
+			"title": "Resources by topic",
 			"icon": "tmp20x20.png",
-			"uri_prefix_with_trailing_slash": "/docs"
+			"uri_prefix": "/docs"
 		},
 		{
-			"title": "Blogs",
+			"title": "Glossary",
 			"icon": "tmp20x20.png",
-			"uri_prefix_with_trailing_slash": "/docs"
+			"uri_prefix": "/docs"
 		},
 		{
-			"title": "Samples",
+			"title": "Support",
 			"icon": "tmp20x20.png",
-			"uri_prefix_with_trailing_slash": "/docs"
-		},
-		{
-			"title": "Videos",
-			"icon": "tmp20x20.png",
-			"uri_prefix_with_trailing_slash": "/docs"
-		},
-		{
-			"title": "Workshops",
-			"icon": "tmp20x20.png",
-			"uri_prefix_with_trailing_slash": "/docs"
+			"uri_prefix": "/docs"
 		}
 	]
 
