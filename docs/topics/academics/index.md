@@ -87,4 +87,4 @@ competitive advantage through continuous delivery. </div>
 ### Blue Labs
 <div style="color:black">Visit the [Blue Labs website](http://bluelabs.mybluemix.net/) for materials to conduct an introductory workshop. </div>
 
-&copy; Copyright IBM Corporation 2013, 2014.
+&copy; Copyright IBM Corporation 2013, 2015.
