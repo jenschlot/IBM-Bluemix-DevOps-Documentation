@@ -15,7 +15,7 @@
 				<div class="fixed-content">
 				
 					<div class="jh-columns mbs">
-						<div class="jh-col-12-8 manage prxs pbxxxl">
+						<div class="jh-columns-8-12 manage prxs pbxxxl">
 						
 							<div class="inverted-pentagon">
 								<div class="green-background center-text c_white pam">
@@ -46,7 +46,7 @@
 							<div class="horizontal-dots repeat-along-x dots-margin-for-video" dojoAttachPoint="_horizDots"></div>	
 											
 						</div>
-						<div class="jh-col-12-4 plxs absl abn arn">
+						<div class="jh-columns-4-12 plxs absl abn arn">
 							<div class="grey-background pam">
 								<h4 class="mtxs mbxs">
 									<div>Show off your work ...</div>
@@ -63,10 +63,10 @@
 					</div>
 					
 					<div class="jh-columns mbs">
-						<div class="jh-col-12-8 prxs">
+						<div class="jh-columns-8-12 prxs">
 							<div class="public-projects-image"></div>
 						</div>
-						<div class="jh-col-12-4 plxs absl abn arn">
+						<div class="jh-columns-4-12 plxs absl abn arn">
 							<div class="pam">
 								<h4 class="mtxs mbxs">Be part of something bigger</h4>
 								<p class="mtm">See which projects are trending. Get involved by joining someone else&#39;s 
@@ -76,7 +76,7 @@
 					</div>
 
 					<div class="jh-columns">
-						<div class="jh-col-12-8 prxs">
+						<div class="jh-columns-8-12 prxs">
 							<div class="center-text mtxl">
 								<h4 class="mbxs">Choose how you code</h4>
 								<p class="mtm mbs">Code in the Web IDE, based on Eclipse Orion technology, or in the Rational Team Concert 
@@ -85,7 +85,7 @@
 								<span class="client-icon mts mbl"></span>							
 							</div>
 						</div>
-						<div class="jh-col-12-4 plxs absl abn arn">
+						<div class="jh-columns-4-12 plxs absl abn arn">
 							<div class="blue-background c_white pam" style="min-height: 320px;">
 								<h4 class="mbxs">Ditch the grunt work</h1>  
 								<p class="mtxs">We take care of the cloud so you can take care of the code. With no servers to 
@@ -100,8 +100,8 @@
 				<div class="fixed-content">
 					
 					<div class="jh-columns mbs">
-						<div class="jh-col-12-4 jh-col-dummy prxs">&nbsp;</div>
-						<div class="jh-col-12-4 prxs absl abn aln">
+						<div class="jh-columns-4-12 jh-col-dummy prxs">&nbsp;</div>
+						<div class="jh-columns-4-12 prxs absl abn aln">
 							<div class="grey-background pam">														
 								<div class="globe-icon mrs mbs mls"></div>							
 								<h4 class="mts mbxs">Collaborate across the room or across the world</h4>
@@ -112,7 +112,7 @@
 								<div style="height: 160px;"></div>					
 							</div>						
 						</div>
-						<div class="jh-col-12-8 plxs">
+						<div class="jh-columns-8-12 plxs">
 						
 							<div class="inverted-pentagon">
 								<div class="orange-background center-text c_white pam">
@@ -130,10 +130,10 @@
 													
 							<div class="gold-background">
 								<div class="jh-columns pbm">
-									<div class="jh-col-12-6 pal right-text">
+									<div class="jh-columns-6-12 pal right-text">
 										<span class="track-and-plan-icon"></span>
 									</div>
-									<div class="jh-col-12-6 ptl prl pbl plm c_white">
+									<div class="jh-columns-6-12 ptl prl pbl plm c_white">
 										<h4 class="mts mbxs">Track and plan in context</h4>
 										<p class="mtm">Plans and code are smartly linked, so things stay in sync with development team progress.
 										Create stories, tasks, and defects to describe and track project work, and use agile planning 
@@ -145,10 +145,10 @@
 					</div>
 							
 					<div class="jh-columns mbs">
-						<div class="jh-col-12-8 prxs">
+						<div class="jh-columns-8-12 prxs">
 							<div class="code-in-cloud-image"></div>
 						</div>
-						<div class="jh-col-12-4 plxs absl abn arn">
+						<div class="jh-columns-4-12 plxs absl abn arn">
 							<div class="pam">
 								<div class="code-icon"></div>							
 								<h4 class="mbxs">Code in the cloud</h4>
@@ -160,7 +160,7 @@
 					</div>
 					
 					<div class="jh-columns mbs">
-						<div class="jh-col-12-8 prxs">
+						<div class="jh-columns-8-12 prxs">
 							<div class="center-text mtxl">
 								<h4 class="mbxs">Use your favorite client</h4>
 								<p class="mtm mbm">Eclipse and .NET developers &ndash; connect your projects to source code in Rational Team Concert 
@@ -170,7 +170,7 @@
 										   	     						
 							</div>						
 						</div>
-						<div class="jh-col-12-4 plxs">
+						<div class="jh-columns-4-12 plxs">
 							<div class="blue-background pam c_white">
 								<h4 class="mbxs text-right">
 									<span class="git-title text-left">Connect to your GitHub repositories</span>
@@ -183,7 +183,7 @@
 					</div>
 					
 					<div class="jh-columns">
-						<div class="jh-col-12-4 prxs">
+						<div class="jh-columns-4-12 prxs">
 							<div class="green-background pam c_white" style="min-height: 462px;">						
 								<h4 class="mbxs">See what people have been up to, and what's left to be done</h4>
 								<p class="mtm">Want to see how things are going, or who has too much or too little on their plate? 
@@ -191,7 +191,7 @@
 									It's highly customizable &ndash; add the reports, graphs, and charts that best fit your project.</p>											
 							</div>					
 						</div>
-						<div class="jh-col-12-8 plxs">
+						<div class="jh-columns-8-12 plxs">
 							<div class="dashboard-image"></div>
 						</div>
 					</div>				
@@ -202,7 +202,7 @@
 				<div class="fixed-content">
 					
 					<div class="jh-columns rela">
-						<div class="jh-col-12-6 prxs mbxl">
+						<div class="jh-columns-6-12 prxs mbxl">
 							<div class="inverted-pentagon">
 								<div class="grey-background ptm center-text blue-text">
 									<div class="zero-dollars">$0*</div>
@@ -217,7 +217,7 @@
 								<a target="_blank" href="https://bluemix.net/#/pricing">Bluemix pricing plan</a> for this service.</p>						
 							</div>			
 						</div>
-						<div class="jh-col-12-6 plxs mbxl rela">
+						<div class="jh-columns-6-12 plxs mbxl rela">
 							<div class="inverted-pentagon">
 								<div class="blue-background ptm center-text">
 									<div class="zero-dollars white-text">$0**</div>
@@ -236,7 +236,7 @@
 						</div>
 					</div>	
 					<div class="jh-columns rela">
-						<div class="jh-col-12-12 plxs mbxl rela">
+						<div class="jh-columns-12-12 plxs mbxl rela">
 							<p>In addition to the above, we plan to implement charging for non-Bluemix projects soon.  IBM DevOps Services will continue to be free 
 							until Dec 31, 2014 for users who registered before Dec 31, 2013.  In the future we may introduce limits to what is 
 							free for some services, such as storage, build and deployment.
