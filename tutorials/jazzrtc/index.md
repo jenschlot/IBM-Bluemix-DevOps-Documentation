@@ -15,14 +15,13 @@ To get your app, you fork a sample project named WordCounter. WordCounter uses J
 
 DevOps Services also supports Git projects. For more information, [see Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava).
 
-1. On the WordCounter project overview page, click **EDIT CODE**. The DevOps Services web IDE opens.
-![Click Edit Code](/tutorials/jazzrtc/images/click_edit_code.png "Click Edit Code")
+On the WordCounter project overview page, click **FORK PROJECT**. 
+![Click Fork Project](/tutorials/jazzrtc/images/click_fork_project.png "Click Fork Project")
 
-2. Click **FORK**. When you are prompted, enter a unique name.
-![Fork](/tutorials/jazzrtc/images/fork.png "Fork")
+When you are prompted, enter a new, unique name for your project.
+![Create Project Dialog](/tutorials/jazzrtc/images/create_project.png "Create Project Dialog")
 
 You get a new project, a new project name, and a copy of the code from the sample project.
-![Create Project Dialog](/tutorials/jazzrtc/images/create_project.png "Create Project Dialog")
 
 **Tip:** If you see an error message, [make sure you have a Bluemix account](//bluemix.net).
 
