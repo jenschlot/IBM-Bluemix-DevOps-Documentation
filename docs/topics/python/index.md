@@ -7,5 +7,5 @@
 ### Sample: [Twitter Influence Analyzer (Python)](https://hub.jazz.net/project/jstart/Twitter%20Influence%20Analyzer%20%28Python%29/overview)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> python, bottle, klout, cloudant, bluemix, git, twitter
 
-&copy; Copyright IBM Corporation 2013, 2014.
+&copy; Copyright IBM Corporation 2013, 2015.
 

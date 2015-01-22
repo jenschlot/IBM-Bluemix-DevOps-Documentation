@@ -1,10 +1,12 @@
 ---
 applications:
-- disk_quota: 100M
-  host: jazzhubdocs
-  name: jazzhubdocs
-  command: node app.js
-  path: .
+- memory: 128MB
   domain: mybluemix.net
+  path: .
+  disk_quota: 100M
+  host: docs
+  name: docs
+  command: node app.js
+  env:
+    ENABLE_BLUEMIX_DEV_MODE: false
   instances: 1
-  memory: 128M
