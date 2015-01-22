@@ -57,6 +57,8 @@ _.each(['/docs'],
        }
 );
 
+app.get('/learn', routes.learn_router);
+
 
 /*
  * Depending on the request path, try to load and render the corresponding markdown source.
