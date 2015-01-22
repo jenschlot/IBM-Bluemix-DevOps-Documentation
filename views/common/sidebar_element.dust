@@ -1,24 +1,20 @@
 
-{@eq key=uri_prefix value="{selected_uri_prefix}"}
-	<div class="item selected">
-{:else}
-	<div class="item">
-{/eq}
-		<a href="{uri_prefix_with_trailing_slash}">
-			{?icon}
-				<img class="sidebar-icon" src="/tutorials/images/sidebar/{icon}" />
-			{:else}
-				<div class="sidebar-icon-missing"></div>
-			{/icon}
-			{title}
-			<span class="sidebar-right-arrow">&gt;</span>
-		</a>
-		{! Arbitrary levels of child sidebar elements are supported.
-		   These child elements should be created/described in config.json
-		   in the same format as regular links.
-		   All links will be rendered, there is no collapse/expand
-		   functionality as of this writing. !}
-		{#children}
-			{>"common/sidebar_element":. /}
-		{/children}
-	</div>
+<div class="item">
+	<a href="{uri_prefix}">
+		{?icon}
+			<img class="sidebar-icon" src="/tutorials/images/sidebar/{icon}" />
+		{:else}
+			<div class="sidebar-icon-missing"></div>
+		{/icon}
+		{title}
+		<span class="sidebar-right-arrow">&gt;</span>
+	</a>
+	{! Arbitrary levels of child sidebar elements are supported.
+	   These child elements should be created/described in config.json
+	   in the same format as regular links.
+	   All links will be rendered, there is no collapse/expand
+	   functionality as of this writing. !}
+	{#children}
+		{>"common/sidebar_element":. /}
+	{/children}
+</div>

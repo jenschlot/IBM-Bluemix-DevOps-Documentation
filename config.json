@@ -259,57 +259,57 @@
 		{
 			"title": "IBM DevOps Services",
 			"icon": "tmp20x20.png",
-			"uri_prefix": "/docs/"
+			"uri_prefix": "/landing_uri"
 		},
 		{
 			"title": "What is IBM DevOps Services",
 			"icon": "tmp20x20.png",
-			"uri_prefix": "/docs"
+			"uri_prefix": "/reference_uri"
 		},
 		{
 			"title": "How to get started",
 			"icon": "tmp20x20.png",
-			"uri_prefix": "/docs"
+			"uri_prefix": "/getstarted_uri"
 		},
 		{
 			"title": "What's new",
 			"icon": "tmp20x20.png",
-			"uri_prefix": "/docs"
+			"uri_prefix": "/whatsnew_uri"
 		},
 		{
 			"title": "Features",
 			"icon": "tmp20x20.png",
-			"uri_prefix": "/docs"
+			"uri_prefix": "/features_uri"
 		},
 		{
 			"title": "FAQ",
 			"icon": "tmp20x20.png",
-			"uri_prefix": "/docs"
+			"uri_prefix": "/docs/faq"
 		},
 		{
 			"title": "Tutorials",
 			"icon": "tmp20x20.png",
-			"uri_prefix": "/docs"
+			"uri_prefix": "/tutorials_uri"
 		},
 		{
 			"title": "Reference",
 			"icon": "tmp20x20.png",
-			"uri_prefix": "/docs"
+			"uri_prefix": "/reference_uri"
 		},
 		{
 			"title": "Resources by topic",
 			"icon": "tmp20x20.png",
-			"uri_prefix": "/docs"
+			"uri_prefix": "/resources_uri"
 		},
 		{
 			"title": "Glossary",
 			"icon": "tmp20x20.png",
-			"uri_prefix": "/docs"
+			"uri_prefix": "/glossary_uri"
 		},
 		{
 			"title": "Support",
 			"icon": "tmp20x20.png",
-			"uri_prefix": "/docs"
+			"uri_prefix": "/support"
 		}
 	]
 
