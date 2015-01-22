@@ -14,7 +14,7 @@
 /*Basics */
 @color-black: #000000;
 @color-white: #ffffff;
-@color-dark-page-background: #152934;
+@color-dark-page-background: #111F2A;
 @color-dark-content-background: #253b46;
 @color-dark-darker-content-background: #111f2a;
 @color-dark-font: #82a3ab;
@@ -205,9 +205,9 @@ a img {
 .generate-jh-cols(@jh-number-of-columns);
 
 .generate-jh-cols(@n, @i: 1) when (@i =< @n) {
-	.@{jh-namespace} .jh-columns > .jh-col-12-@{i} {
+	.@{jh-namespace} .jh-columns > .jh-columns-@{i}-@{jh-number-of-columns} {
 		.f_left;
-		width: round((@i * (100vh / @jh-number-of-columns)), 2);
+		width: round((@i * (100% / @jh-number-of-columns)), 2);
 	}
 
 	.generate-jh-cols(@n, (@i + 1));
@@ -363,6 +363,8 @@ a img {
 		4.3.4 Topics Hover behaviou
 
 	4.4 Breadcrumb CSS
+
+	4.5 Masthead "What is DevOps Services"
 
 5.0 Footer
 
@@ -627,10 +629,10 @@ a:hover {
 		> a {
 			display: inline-block;
 			width: 100%;
-			padding: 10px 10px 10px 40px;
+			padding: 10px 10px 10px 24px;
 			margin-bottom: 0px;
 			line-height: 1.5em;
-			font: 0.8em Arial;
+			font-size: 0.8em;
 			color: @color-white;
 		}
 
@@ -1496,6 +1498,48 @@ a:hover {
 	.breadcrumb .current {
 		color: #94A3AB;
 	}
+
+/************** 4.5 Masthead "What is DevOps Services?" **************************/
+
+.docs-masthead {
+	height: 387px;
+	background-color: @color-dark-page-background;
+	color: @color-white;
+	border-bottom: #aaa solid 1px;
+
+	h1 {
+		color: @jh-color-blue;
+	}
+
+	.docs-masthead-rocket {
+		.ptxl;
+		.pbl;
+		padding-left: 75px;
+	}
+
+	.hollowButton {
+		color: @jh-color-blue;
+		cursor: pointer;
+		font-size: 1.0em;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		overflow: hidden;
+		display: inline;
+		display: inline-block;
+		padding: 12px 29px;
+		position: relative;
+		line-height: 22px;
+		border: 1px solid  @jh-color-blue;
+		background: transparent;
+
+		&:hover {
+			color: @color-white;
+			background-color: @jh-color-blue;
+		}
+	}
+}
 
 /*******************************************************************
 5.0 Footer

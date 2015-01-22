@@ -6,6 +6,30 @@
 
 {<content}
 	<script type="text/javascript" src="/tutorials/javascript/hexAlign.js"></script>
+	<div class="container-fluid docs-masthead">
+		<div class="jh-columns">
+			<div class="jh-columns-6-12">
+				<img class="docs-masthead-rocket" src="/tutorials/images/tmp-314x262-docs-rocket.png" />
+			</div>
+			<div class="jh-columns-6-12">
+				<div class="ptxl">
+					<h1>What is DevOps Services?</h1>
+					<p>
+						IBM&reg; Bluemix&#8482; is an open-standards, cloud-based platform for building, 
+						managing, and running apps of all types, such as web, mobile, big data, 
+						and smart devices. Capabilities include Java, mobile back-end development, and 
+						application monitoring, as well as features from ecosystem partners and open 
+						source &#8211; all provided as-a-service in the cloud.
+					</p>
+					<div class="mtl mbxl pbxxl">
+						<a href="TODO"><div class="hollowButton">
+							Learn More
+						</div></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="container-fluid">
 			<div class="row pbl" id="featured-docs">
 				<div class="row mts mbm prl">
