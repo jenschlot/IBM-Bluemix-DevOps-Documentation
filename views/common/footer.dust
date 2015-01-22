@@ -11,7 +11,7 @@
 	<div class="content-links-area plxl">
 		<div class="text-links">
 			<a href="{config.hubRootUrl}/help"><span>Contact</span></a>
-			<a href="http://www.ibm.com/privacy/ca/en/"><span>Privacy</span></a>
+			<a href="http://www.ibm.com/privacy/us/en/"><span>Privacy</span></a>
 			<a href="{config.hubRootUrl}/terms"><span>Terms of Use</span></a>
 			<a href="https://status.hub.jazz.net"><span>Status</span></a>
 		</div>
