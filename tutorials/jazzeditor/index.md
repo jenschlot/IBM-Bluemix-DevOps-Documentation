@@ -65,7 +65,7 @@ Your new project opens in the web IDE. The project page contains useful informat
 4. To check the status of the application, click **BUILD & DEPLOY**.
 ![Web IDE](/tutorials/jazzeditor/images/orion_NEW.png)
 
-The Build & Deploy page opens. If it's your first time using this feature, you will see a welcome page. Click **GET STARTED** to proceed. 
+The Build & Deploy page opens. If it's your first time using this feature, you will see a welcome page. Click **GET STARTED** to proceed. You can then click the URL for your running app to open it. 
 
 ---
 ##Push changes to the Git repository by using the command line
