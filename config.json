@@ -137,6 +137,15 @@
 			"resource_name": "Client reference",
 			"img_icon": "ref-qr",
 			"directory": "/docs/reference/gitclient"
+		},
+			{
+			"uri_prefix": "/docs/reference/projectadmin",
+			"section_name": "How to",
+			"parent_name": "Account Management",
+			"parent_uri": "/docs/account",
+			"resource_name": "Project admin",
+			"img_icon": "ref-qr",
+			"directory": "/docs/reference/projectadmin"
 		}
 	],
 	"topic": [
