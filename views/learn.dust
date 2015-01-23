@@ -4,14 +4,34 @@
 	{>"common/sidebar"/}
 {/sidebar}
 
+<script type="text/javascript" src="/tutorials/javascript/learn.js"></script>
 {<content}
 	<div class="com-ibm-team-jazzhub-Learn common-fluid-content">
 		<div class="button-row">
-			<div class="button-area" dojoAttachPoint="buttonArea"></div>	
+			<div class="jh-columns button-area">
+				<div class="jh-columns-4-12">
+					<a class="button enabled overview selected" href="/learn">
+						<span>What is DevOps Services?</span>
+						<span class="highlight"></span>
+					</a>
+				</div>
+				<div class="jh-columns-4-12">
+					<a class="button enabled what" href="/learn/what">
+						<span>What's in a project?</span>
+						<span class="highlight"></span>
+					</a>
+				</div>
+				<div class="jh-columns-4-12">
+					<a class="button enabled cost" href="/learn/cost">
+						<span>How much does it cost?</span>
+						<span class="highlight"></span>
+					</a>
+				</div>
+			</div>
 		</div>
 			
-		<div class="container" dojoAttachPoint="containerNode">
-			<div class="page no-display" pageLabel="What is DevOps Services?" pageId="overview">
+		<div class="container">
+			<div class="page learn-content-section" id="overview">
 				<div class="fixed-content">
 				
 					<div class="jh-columns mbs">
@@ -29,7 +49,7 @@
 							
 							<div class="vertical-dots"></div>					
 										
-							<div class="video" dojoAttachPoint="_video">
+							<div class="video">
 								<!-- 
 									We are using the Youtube JavaScript Player IFrame API. 
 									To read more about this, use the following link: https://developers.google.com/youtube/iframe_api_reference								
@@ -39,11 +59,11 @@
 									"autoplay=0" do not autoplay
 									"enablejsapi=1" enable Youtube JavaScript Player IFrame API.
 								-->
-								<iframe id="ytplayer" class="video-frame" width="532px" height="300px" dojoAttachPoint="_videoFrame" 
+								<iframe id="ytplayer" class="video-frame" width="532px" height="300px"
 								src="https://www.youtube-nocookie.com/embed/Fr-mkkEKtWo?enablejsapi=1&rel=0&showinfo=0&controls=2&autoplay=0&autohide=1" frameborder="0"></iframe>
 							</div>	
 												
-							<div class="horizontal-dots repeat-along-x dots-margin-for-video" dojoAttachPoint="_horizDots"></div>	
+							<div class="horizontal-dots repeat-along-x dots-margin-for-video"></div>	
 											
 						</div>
 						<div class="jh-columns-4-12 plxs absl abn arn">
@@ -96,11 +116,11 @@
 					
 				</div>
 			</div>
-			<div class="page no-display" pageLabel="What's in a project?" pageId="what">
+			<div class="page no-display learn-content-section" id="what">
 				<div class="fixed-content">
 					
 					<div class="jh-columns mbs">
-						<div class="jh-columns-4-12 jh-col-dummy prxs">&nbsp;</div>
+						<div class="jh-columns-4-12 prxs">&nbsp;</div>
 						<div class="jh-columns-4-12 prxs absl abn aln">
 							<div class="grey-background pam">														
 								<div class="globe-icon mrs mbs mls"></div>							
@@ -198,7 +218,7 @@
 					
 				</div>			
 			</div>
-			<div class="page no-display" pageLabel="How much does it cost?" pageId="cost" dojoAttachPoint="_costPage">
+			<div class="page no-display learn-content-section" id="cost">
 				<div class="fixed-content">
 					
 					<div class="jh-columns rela">
@@ -247,7 +267,20 @@
 			</div>
 		</div>
 		<div class="button-row">
-			<div class="button-area custom-padding" dojoAttachPoint="bottomButtonArea"></div>	
-		</div>		
+			<div class="button-area jh-columns custom-padding">
+				<div class="jh-columns-6-12">
+					<a class="button enabled cost" href="/explore">
+						<span>Explore projects</span>
+						<span class="highlight"></span>
+					</a>
+				</div>
+				<div class="jh-columns-6-12">
+					<a class="button enabled create" href="/create">
+						<span>Create a project</span>
+						<span class="highlight"></span>
+					</a>
+				</div>
+			</div>
+		</div>
 	</div>
 {/content}
