@@ -107,7 +107,7 @@
 		</div>
 		<div class="learn-content-section no-display" id="what">
 			<div class="jh-columns mbs">
-				<div class="jh-columns-4-12 prxs absl abn aln">
+				<div class="jh-columns-4-12 prxs">
 					<div class="grey-background ptm prm pbm plm">
 						<div class="globe-icon mrs mbs mls"></div>
 						<h4 class="mts mbxs">Collaborate across the room or across the world</h4>
@@ -115,11 +115,9 @@
 							<span class="mail-icon mtxs mrxs"></span>
 							<span class="invite-anyone">Invite anyone to your project &ndash; all you need is an email address.</span>
 						</p>
-						<div style="height: 160px;"></div>
 					</div>
 				</div>
 				<div class="jh-columns-8-12 plxs">
-
 					<div class="inverted-pentagon">
 						<div class="green-background center-text ptm prm pbm plm">
 							<h3>Create a project in minutes</h3>
@@ -152,7 +150,7 @@
 
 			<div class="jh-columns mbs">
 				<div class="jh-columns-8-12 prxs">
-					<div class="code-in-cloud-image"></div>
+					<img src="/tutorials/images/learn/whatsinaproject/screencap_cloud.png" class="code-in-cloud-image" />
 				</div>
 				<div class="jh-columns-4-12 plxs absl abn arn">
 					<div class="ptm prm pbm plm">

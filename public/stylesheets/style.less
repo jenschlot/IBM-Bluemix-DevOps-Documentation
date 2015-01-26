@@ -121,6 +121,10 @@ body {
 		bottom: 0;
 	}
 
+	.abl {
+		left: 0;
+	}
+
 .fixed {
 	position: fixed;
 }
@@ -1913,9 +1917,7 @@ a:hover {
 		}
 
 		.code-in-cloud-image {
-			background: url('/tutorials/images/learn/whatsinaproject/screencap_cloud.png') no-repeat 0 0 transparent;
-			width: 630px;
-			height: 413px;
+			width: 100%;
 		}
 
 		.rtc-icon {
@@ -2007,15 +2009,15 @@ a:hover {
 				.down-arrow-after(#F47D64);
 			}
 
-			&.what-down-arrow {
+			&.what-down-arrow:after {
 				.down-arrow-after(#00b299);
 			}
 
-			&.cost-down-arrow-grey {
+			&.cost-down-arrow-grey:after {
 				.down-arrow-after(#dfe6eb);
 			}
 
-			&.cost-down-arrow-blue {
+			&.cost-down-arrow-blue:after {
 				.down-arrow-after(#00aed1);
 			}
 		}
