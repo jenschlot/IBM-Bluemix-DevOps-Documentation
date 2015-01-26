@@ -11,17 +11,17 @@
 			<div class="jh-columns button-area">
 				<div class="jh-columns-4-12">
 					<a class="button enabled overview selected" href="/learn">
-						What is DevOps Services?
+						IBM DevOps Services
 					</a>
 				</div>
 				<div class="jh-columns-4-12">
 					<a class="button enabled what" href="/learn/what">
-						What's in a project?
+						Projects
 					</a>
 				</div>
 				<div class="jh-columns-4-12">
 					<a class="button enabled cost" href="/learn/cost">
-						How much does it cost?
+						Pricing
 					</a>
 				</div>
 			</div>
