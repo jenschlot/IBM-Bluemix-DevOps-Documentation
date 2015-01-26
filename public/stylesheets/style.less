@@ -140,6 +140,7 @@ body {
 	padding: 0;
 	z-index: 0;
 	.jh-border-box;
+	overflow: hidden;
 }
 
 	.@{jh-namespace} a {
@@ -627,13 +628,15 @@ a:hover {
 	.sidebar-container .nav .item {
 
 		> a {
+			position: relative;
 			display: inline-block;
 			width: 100%;
-			padding: 10px 10px 10px 24px;
+			padding: 10px 20px 10px 20px;
+			margin-right: 5px;
 			margin-bottom: 0px;
-			line-height: 1.5em;
-			font-size: 0.8em;
+			font: 0.8em;
 			color: @color-white;
+			border-left: 4px solid @color-sidebar-dark-background; /* to match width of selected */
 		}
 
 		> a:hover {
@@ -646,19 +649,46 @@ a:hover {
 			background-color: @color-dark-darker-content-background;
 		}
 
+		// child elements
 		& .item {
-			margin-left: 1.1em;
+			display: none; // shown via javascript when active
 		}
 
 		.sidebar-icon {
-			padding-right: 1.3em;
+			width: 20px;
+			height: 20px;
+			padding-right: 0.7em;
 			vertical-align: middle;
+			float: left;
+		}
+
+		.sidebar-icon-missing {
+			.sidebar-icon;
+			width: 36px;
+			height: 20px;
+			display: inline-block;
+			visibility: hidden;
 		}
 
 		.sidebar-right-arrow {
-			float: right;
-			padding-right: 5px;
-			color: @color-sidebar-right-arrow;
+			position: absolute;
+			right: 3px;
+			top: 10px;
+			width: 20px;
+
+			> .arrow {
+				position: inherit;
+				top: 5px;
+				right: 6px;
+				width: 9px;
+				height: 9px;
+				font-size: 1px;
+				-webkit-transform: rotate(45deg);
+				transform: rotate(45deg);
+				border-width: 3px 3px 0px 0px;
+				border-style: solid;
+				border-color: #808080;
+			}
 		}
 	}
 }

@@ -22,6 +22,14 @@
 			"img_icon": "academics",				// Topic Icon (See Note: style.less TOC - 3.3.2)
 			"directory": "/help/topics/academics"	// pyhsical directory for the page where index.md is stored
 		}
+	],
+	"sidebarLinks": [								// Elements in the sidebar nav
+		{
+			"title": "IBM DevOps Services",			// The text on the sidebar
+			"icon": "tmp20x20.png",					// [optional] The icon to the left. This should have a transparent background.
+			"uri_prefix": "/docs/"					// Where the link should point. MUST HAVE A TRAILING SLASH
+													//     correct: "/docs/" ... incorrect: "/docs"
+		}
 	]
 }
 

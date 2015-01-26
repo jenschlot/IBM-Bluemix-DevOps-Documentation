@@ -258,75 +258,111 @@
 	"sidebarLinks": [
 		{
 			"title": "General",
-			"icon": "tmp20x20.png",
-			"uri_prefix_with_trailing_slash": "/docs/",
+			"icon": "docs-general.svg",
+			"uri_prefix": "/docs",
 			"children": [
 				{
-					"title": "Learn about IBM DevOps",
-					"icon": "tmp20x20.png",
-					"uri_prefix_with_trailing_slash": "/learn/"
-				},
-				{
-					"title": "What's new",
-					"icon": "tmp20x20.png",
-					"uri_prefix_with_trailing_slash": "/whatsnew/"
+					"title": "Getting started",
+					"uri_prefix": "/docs/reference/startproject"
 				},
 				{
 					"title": "Features",
-					"icon": "tmp20x20.png",
-					"uri_prefix_with_trailing_slash": "/docs"
+					"uri_prefix": "/features"
+				},
+				{
+					"title": "What's new",
+					"uri_prefix": "/whatsnew"
 				},
 				{
 					"title": "FAQ",
-					"icon": "tmp20x20.png",
-					"uri_prefix_with_trailing_slash": "/docs/faq/"
-				},
-				{
-					"title": "Glossary",
-					"icon": "tmp20x20.png",
-					"uri_prefix_with_trailing_slash": "/docs"
-				},
-				{
-					"title": "Support",
-					"icon": "tmp20x20.png",
-					"uri_prefix_with_trailing_slash": "/docs"
+					"uri_prefix": "/docs/faq"
 				}
 			]
 		},
 		{
 			"title": "Tutorials",
-			"icon": "tmp20x20.png",
-			"uri_prefix_with_trailing_slash": "/docs"
+			"icon": "docs-tutorials.svg",
+			"uri_prefix": "/docs/all#tut",
+			"children": [
+				{
+					"title": "Getting started using Node.js",
+					"uri_prefix": "/tutorials/jazzeditor"
+				},
+				{
+					"title": "Getting started using Java",
+					"uri_prefix": "/tutorials/jazzeditor"
+				},
+				{
+					"title": "Developing with Git using the Web IDE",
+					"uri_prefix": "/tutorials/gitweb"
+				},
+				{
+					"title": "Developing Bluemix applications in Node.js using the Web IDE",
+					"uri_prefix": "/tutorials/jazzweb"
+				},
+				{
+					"title": "Developing Bluemix applications in Java using the Eclipse IDE",
+					"uri_prefix": "/tutorials/jazzrtc"
+				},
+				{
+					"title": "Getting started with Tracking and Planning",
+					"uri_prefix": "/tutorials/trackplan"
+				}
+			]
 		},
 		{
 			"title": "Reference",
-			"icon": "tmp20x20.png",
-			"uri_prefix_with_trailing_slash": "/docs"
+			"icon": "docs-reference.svg",
+			"uri_prefix": "/docs/all#ref",
+			"children": [
+				{
+					"title": "Start a project in DevOps Services",
+					"uri_prefix": "/docs/reference/startproject"
+				},
+				{
+					"title": "Administer a project",
+					"uri_prefix": "/docs#TODO"
+				},
+				{
+					"title": "Git reference",
+					"uri_prefix": "/docs/reference/git"
+				},
+				{
+					"title": "Using Git source control locally with DevOps Services",
+					"uri_prefix": "/docs/reference/gitclient"
+				},
+				{
+					"title": "Using Jazz source control locally with DevOps Services",
+					"uri_prefix": "/docs/reference/jazz_scm_client"
+				},
+				{
+					"title": "Build and Deploy to Bluemix reference",
+					"uri_prefix": "/docs/reference/deploy"
+				},
+				{
+					"title": "Configure billing for Bluemix Build and Deploy",
+					"uri_prefix": "/docs/reference/billing"
+				},
+				{
+					"title": "Using Track and Plan",
+					"uri_prefix": "/docs/trackplan/trackplanfg"
+				}
+			]
 		},
 		{
-			"title": "Articles",
-			"icon": "tmp20x20.png",
-			"uri_prefix_with_trailing_slash": "/docs"
+			"title": "Resources by topic",
+			"icon": "docs-TODO.svg",
+			"uri_prefix": "/docs#topics"
 		},
 		{
-			"title": "Blogs",
-			"icon": "tmp20x20.png",
-			"uri_prefix_with_trailing_slash": "/docs"
+			"title": "Glossary",
+			"icon": "docs-TODO.svg",
+			"uri_prefix": "/docs/glossary"
 		},
 		{
-			"title": "Samples",
-			"icon": "tmp20x20.png",
-			"uri_prefix_with_trailing_slash": "/docs"
-		},
-		{
-			"title": "Videos",
-			"icon": "tmp20x20.png",
-			"uri_prefix_with_trailing_slash": "/docs"
-		},
-		{
-			"title": "Workshops",
-			"icon": "tmp20x20.png",
-			"uri_prefix_with_trailing_slash": "/docs"
+			"title": "Support",
+			"icon": "docs-TODO.svg",
+			"uri_prefix": "/support"
 		}
 	]
 
