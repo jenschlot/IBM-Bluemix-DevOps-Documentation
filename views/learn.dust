@@ -11,20 +11,17 @@
 			<div class="jh-columns button-area">
 				<div class="jh-columns-4-12">
 					<a class="button enabled overview selected" href="/learn">
-						<span>What is DevOps Services?</span>
-						<span class="highlight"></span>
+						What is DevOps Services?
 					</a>
 				</div>
 				<div class="jh-columns-4-12">
 					<a class="button enabled what" href="/learn/what">
-						<span>What's in a project?</span>
-						<span class="highlight"></span>
+						What's in a project?
 					</a>
 				</div>
 				<div class="jh-columns-4-12">
 					<a class="button enabled cost" href="/learn/cost">
-						<span>How much does it cost?</span>
-						<span class="highlight"></span>
+						How much does it cost?
 					</a>
 				</div>
 			</div>
