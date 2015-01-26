@@ -258,57 +258,114 @@
 	"sidebarLinks": [
 		{
 			"title": "IBM DevOps Services",
-			"icon": "tmp20x20.png",
-			"uri_prefix": "/docs"
-		},
-		{
-			"title": "What is IBM DevOps Services",
-			"icon": "tmp20x20.png",
-			"uri_prefix": "/learn"
-		},
-		{
-			"title": "How to get started",
-			"icon": "tmp20x20.png",
-			"uri_prefix": "/docs/reference/startproject"
-		},
-		{
-			"title": "What's new",
-			"icon": "tmp20x20.png",
-			"uri_prefix": "/whatsnew"
-		},
-		{
-			"title": "Features",
-			"icon": "tmp20x20.png",
-			"uri_prefix": "/features"
-		},
-		{
-			"title": "FAQ",
-			"icon": "tmp20x20.png",
-			"uri_prefix": "/docs/faq"
+			"icon": "docs-general.svg",
+			"uri_prefix": "/docs",
+			"children": [
+				{
+					"title": "Overview",
+					"uri_prefix": "/learn"
+				},
+				{
+					"title": "How to get started",
+					"uri_prefix": "/docs/reference/startproject"
+				},
+				{
+					"title": "What's new",
+					"uri_prefix": "/whatsnew"
+				},
+				{
+					"title": "Features",
+					"uri_prefix": "/features"
+				},
+				{
+					"title": "FAQ",
+					"uri_prefix": "/docs/faq"
+				}
+			]
 		},
 		{
 			"title": "Tutorials",
-			"icon": "tmp20x20.png",
-			"uri_prefix": "/docs/all#tut"
+			"icon": "docs-tutorials.svg",
+			"uri_prefix": "/docs/all#tut",
+			"children": [
+				{
+					"title": "Node.js",
+					"uri_prefix": "/docs/all#TODO"
+				},
+				{
+					"title": "Java",
+					"uri_prefix": "/docs/all#TODO"
+				},
+				{
+					"title": "Using Git in the Web IDE",
+					"uri_prefix": "/docs/all#TODO"
+				},
+				{
+					"title": "Using the Web IDE",
+					"uri_prefix": "/docs/all#TODO"
+				},
+				{
+					"title": "Using Eclipse",
+					"uri_prefix": "/docs/all#TODO"
+				},
+				{
+					"title": "Task tracking and planning",
+					"uri_prefix": "/docs/all#TODO"
+				}
+			]
 		},
 		{
 			"title": "Reference",
-			"icon": "tmp20x20.png",
-			"uri_prefix": "/docs/all#ref"
+			"icon": "docs-reference.svg",
+			"uri_prefix": "/docs/all#ref",
+			"children": [
+				{
+					"title": "Start a project",
+					"uri_prefix": "/docs/all#TODO"
+				},
+				{
+					"title": "Administer a project",
+					"uri_prefix": "/docs/all#TODO"
+				},
+				{
+					"title": "Git",
+					"uri_prefix": "/docs/all#TODO"
+				},
+				{
+					"title": "Using Git source control",
+					"uri_prefix": "/docs/all#TODO"
+				},
+				{
+					"title": "Using Jazz source control",
+					"uri_prefix": "/docs/all#TODO"
+				},
+				{
+					"title": "Build and Deploy to Bluemix",
+					"uri_prefix": "/docs/all#TODO"
+				},
+				{
+					"title": "Bluemix billing",
+					"uri_prefix": "/docs/all#TODO"
+				},
+				{
+					"title": "Track and Plan",
+					"uri_prefix": "/docs/all#TODO"
+				}
+			]
 		},
 		{
 			"title": "Resources by topic",
-			"icon": "tmp20x20.png",
+			"icon": "docs-TODO.svg",
 			"uri_prefix": "/docs#topics"
 		},
 		{
 			"title": "Glossary",
-			"icon": "tmp20x20.png",
+			"icon": "docs-TODO.svg",
 			"uri_prefix": "/docs/glossary"
 		},
 		{
 			"title": "Support",
-			"icon": "tmp20x20.png",
+			"icon": "docs-TODO.svg",
 			"uri_prefix": "/support"
 		}
 	]
