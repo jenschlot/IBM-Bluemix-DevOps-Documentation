@@ -257,25 +257,21 @@
 	],
 	"sidebarLinks": [
 		{
-			"title": "IBM DevOps Services",
+			"title": "General",
 			"icon": "docs-general.svg",
 			"uri_prefix": "/docs",
 			"children": [
 				{
-					"title": "Overview",
-					"uri_prefix": "/learn"
-				},
-				{
-					"title": "How to get started",
+					"title": "Getting started",
 					"uri_prefix": "/docs/reference/startproject"
-				},
-				{
-					"title": "What's new",
-					"uri_prefix": "/whatsnew"
 				},
 				{
 					"title": "Features",
 					"uri_prefix": "/features"
+				},
+				{
+					"title": "What's new",
+					"uri_prefix": "/whatsnew"
 				},
 				{
 					"title": "FAQ",
@@ -289,28 +285,28 @@
 			"uri_prefix": "/docs/all#tut",
 			"children": [
 				{
-					"title": "Node.js",
-					"uri_prefix": "/docs/all#TODO"
+					"title": "Getting started using Node.js",
+					"uri_prefix": "/tutorials/jazzeditor"
 				},
 				{
-					"title": "Java",
-					"uri_prefix": "/docs/all#TODO"
+					"title": "Getting started using Java",
+					"uri_prefix": "/tutorials/jazzeditor"
 				},
 				{
-					"title": "Using Git in the Web IDE",
-					"uri_prefix": "/docs/all#TODO"
+					"title": "Developing with Git using the Web IDE",
+					"uri_prefix": "/tutorials/gitweb"
 				},
 				{
-					"title": "Using the Web IDE",
-					"uri_prefix": "/docs/all#TODO"
+					"title": "Developing Bluemix applications in Node.js using the Web IDE",
+					"uri_prefix": "/tutorials/jazzweb"
 				},
 				{
-					"title": "Using Eclipse",
-					"uri_prefix": "/docs/all#TODO"
+					"title": "Developing Bluemix applications in Java using the Eclipse IDE",
+					"uri_prefix": "/tutorials/jazzrtc"
 				},
 				{
-					"title": "Task tracking and planning",
-					"uri_prefix": "/docs/all#TODO"
+					"title": "Getting started with Tracking and Planning",
+					"uri_prefix": "/tutorials/trackplan"
 				}
 			]
 		},
@@ -320,36 +316,36 @@
 			"uri_prefix": "/docs/all#ref",
 			"children": [
 				{
-					"title": "Start a project",
-					"uri_prefix": "/docs/all#TODO"
+					"title": "Start a project in DevOps Services",
+					"uri_prefix": "/docs/reference/startproject"
 				},
 				{
 					"title": "Administer a project",
-					"uri_prefix": "/docs/all#TODO"
+					"uri_prefix": "/docs#TODO"
 				},
 				{
-					"title": "Git",
-					"uri_prefix": "/docs/all#TODO"
+					"title": "Git reference",
+					"uri_prefix": "/docs/reference/git"
 				},
 				{
-					"title": "Using Git source control",
-					"uri_prefix": "/docs/all#TODO"
+					"title": "Using Git source control locally with DevOps Services",
+					"uri_prefix": "/docs/reference/gitclient"
 				},
 				{
-					"title": "Using Jazz source control",
-					"uri_prefix": "/docs/all#TODO"
+					"title": "Using Jazz source control locally with DevOps Services",
+					"uri_prefix": "/docs/reference/jazz_scm_client"
 				},
 				{
-					"title": "Build and Deploy to Bluemix",
-					"uri_prefix": "/docs/all#TODO"
+					"title": "Build and Deploy to Bluemix reference",
+					"uri_prefix": "/docs/reference/deploy"
 				},
 				{
-					"title": "Bluemix billing",
-					"uri_prefix": "/docs/all#TODO"
+					"title": "Configure billing for Bluemix Build and Deploy",
+					"uri_prefix": "/docs/reference/billing"
 				},
 				{
-					"title": "Track and Plan",
-					"uri_prefix": "/docs/all#TODO"
+					"title": "Using Track and Plan",
+					"uri_prefix": "/docs/trackplan/trackplanfg"
 				}
 			]
 		},
