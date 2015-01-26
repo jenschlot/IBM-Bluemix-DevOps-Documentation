@@ -7,7 +7,9 @@
 			<div class="sidebar-icon-missing"></div>
 		{/icon}
 		{title}
-		<span class="sidebar-right-arrow">&gt;</span>
+		<span class="sidebar-right-arrow">
+			<span class="arrow"></span>
+		</span>
 	</a>
 	{! Arbitrary levels of child sidebar elements are supported.
 	   These child elements should be created/described in config.json
