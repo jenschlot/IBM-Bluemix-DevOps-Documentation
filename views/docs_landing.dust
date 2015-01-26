@@ -34,10 +34,7 @@
 			<div class="row pbl" id="featured-docs">
 				<div class="row mts mbm prl">
 					<div class="col-md-6">
-						<h2 class="plm">Featured Docs
-							<a role="button" href="/docs/all#tut" class="mll btn btn-dark btn-sm"><strong>All Tutorials</strong></a>
-							<a role="button" href="/docs/all#ref" class="mll btn btn-dark btn-sm"><strong>All References</strong></a>
-						</h2>
+						<h2 class="plm">Featured Docs</h2>
 					</div>
 					<div class="col-md-6">
 						{>"common/machine_translation"/}
