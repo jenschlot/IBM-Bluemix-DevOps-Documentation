@@ -29,7 +29,7 @@
 
 		<div class="learn-content-section" id="overview">
 			<div class="jh-columns mbs">
-				<div class="jh-columns-8-12 manage prxs pbxxxl">
+				<div class="jh-columns-8-12 prxs pbxxxl">
 					<div class="inverted-pentagon">
 						<div class="orange-background center-text c_white ptm prm pbxs plm">
 							<h3>Develop, track, plan and deploy: <br> the right tools, in one place</h3>
@@ -41,7 +41,7 @@
 
 					<div class="vertical-dots"></div>
 
-					<div class="video">
+					<div class="video aspect-ratio">
 						<!--
 							We are using the Youtube JavaScript Player IFrame API.
 							To read more about this, use the following link: https://developers.google.com/youtube/iframe_api_reference
@@ -51,11 +51,9 @@
 							"autoplay=0" do not autoplay
 							"enablejsapi=1" enable Youtube JavaScript Player IFrame API.
 						-->
-						<iframe id="ytplayer" class="video-frame" width="532px" height="300px"
+						<iframe id="ytplayer" class="video-frame"
 						src="https://www.youtube-nocookie.com/embed/Fr-mkkEKtWo?enablejsapi=1&rel=0&showinfo=0&controls=2&autoplay=0&autohide=1" frameborder="0"></iframe>
 					</div>
-
-					<div class="horizontal-dots repeat-along-x dots-margin-for-video"></div>
 				</div>
 				<div class="jh-columns-4-12 plxs absl abn arn">
 					<div class="grey-background ptm prm pbm plm">
@@ -68,7 +66,7 @@
 						you invite &ndash; your eyes and trusted members only. To allow more access in 
 						either public or private projects, invite people to become members and accept
 						requests from others to join. Project members can edit work items, plans, and code.</p>
-						<span class="public-private-icon mtm"></span>
+						<img src='/tutorials/images/learn/whatsjazzhub/public-private-proj.png' class="public-private-icon mtm" />
 					</div>
 				</div>
 			</div>
