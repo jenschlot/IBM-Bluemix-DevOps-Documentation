@@ -5,12 +5,32 @@
 {/sidebar}
 
 <script type="text/javascript" src="/tutorials/javascript/learn.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	var selected_tab = '{learn_tab}'.split('/')[2]; /* /learn/what, /learn/cost, /learn/ */
+	switch (selected_tab) {
+		case 'what':
+			$('.button.enabled.what').addClass('selected');
+			$('#what').show();
+			break;
+		case 'cost':
+			$('.button.enabled.cost').addClass('selected');
+			$('#cost').show();
+			break;
+		case 'overview':
+		default:
+			$('.button.enabled.overview').addClass('selected');
+			$('#overview').show();
+			break;
+	}
+});
+</script>
 {<content}
 	<div class="com-ibm-team-jazzhub-Learn common-fluid-content">
 		<div class="button-row">
 			<div class="jh-columns button-area">
 				<div class="jh-columns-4-12">
-					<a class="button enabled overview selected" href="/learn">
+					<a class="button enabled overview" href="/learn">
 						IBM DevOps Services
 					</a>
 				</div>
@@ -27,7 +47,7 @@
 			</div>
 		</div>
 
-		<div class="learn-content-section" id="overview">
+		<div class="learn-content-section no-display" id="overview">
 			<div class="jh-columns mbs">
 				<div class="jh-columns-8-12 prxs pbxxxl">
 					<div class="inverted-pentagon">

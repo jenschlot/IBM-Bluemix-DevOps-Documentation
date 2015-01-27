@@ -16,7 +16,8 @@ var renderLearn = function(req, res, next, headerContent) {
 		headerContent: headerContent,
 		headerStyling: headerStyling,
 		sidebarLinks: sidebarLinks,
-		selected_uri_prefix: req.path
+		selected_uri_prefix: '/learn',
+		learn_tab: req.path
 	});
 }
 

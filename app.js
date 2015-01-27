@@ -57,7 +57,11 @@ _.each(['/docs'],
        }
 );
 
-app.get('/learn', routes.learn_router);
+_.each(['/learn', '/learn/what', '/learn/cost',],
+	function(i) {
+		app.get(i, routes.learn_router);
+	}
+);
 
 
 /*
