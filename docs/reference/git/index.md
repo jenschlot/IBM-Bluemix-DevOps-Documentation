@@ -191,37 +191,17 @@ When you work in the web IDE, both your local and remote repositories are hosted
 
 2. Review the changes to be committed. If all of your files are listed to be committed, proceed. To commit unstaged files, stage them first.
 
-3. Type `git commit -m "<commit_message>"` and press Enter.  
+3. Type `git commit -m "<commit_message>"` and press Enter.
 **Tip**: In the commit message, describe your changes well.
 
 ---
 <a name="link_commit"></a>
 ### Link a commit to a work item
-To link a commit to a Track & Plan work item for a Git project that is hosted at DevOps Services, add a work-item keyword and number to the Git commit message.  
+To link a commit to a Track & Plan work item for a Git project that is hosted at DevOps Services, add a work-item keyword and number to the Git commit message.
 
 1. When you write a Git commit message, specify a work item. The message format is `<work item keyword> <number>`.
  * For example, if you type `Implements story 32` as the commit message, you link the commit to story item 32.
- * Valid work item keywords: `adoption item, bug, defect, epic, impediment, item, retrospective, story, task, track build item,` and `work item`. 
-2. Push the commit. A linked commit is shown on a work item's **LINKS** tab.
-3. Alternatively, link a commit that was already pushed:
-	1. Open your project's Overview page.
-	2. Click **GIT LOG**.
-	3. Open the commit to link to a work item
-	4. Click **Link Work Item**.
-
-**Note:** If your repository is hosted on GitHub, you can link your commits to work items when you push. This activity requires extra configuration:
-
-1. Open your DevOps Services project's Overview page.
-2. Under the message to GitHub users, click **configure GitHub** to get instructions to configure commit linking between GitHub and DevOps Services.
-
----
-<a name="link_commit"></a>
-### Link a commit to a work item
-To link a commit to a Track & Plan work item for a Git project that is hosted at DevOps Services, add a work-item keyword and number to the Git commit message.  
-
-1. When you write a Git commit message, specify a work item. The message format is `<work item keyword> <number>`.
- * For example, if you type `Implements story 32` as the commit message, you link the commit to story item 32.
- * Valid work item keywords: `adoption item, bug, defect, epic, impediment, item, retrospective, story, task, track build item,` and `work item`. 
+ * Valid work item keywords: `adoption item, bug, defect, epic, impediment, item, retrospective, story, task, track build item,` and `work item`.
 2. Push the commit. A linked commit is shown on a work item's **LINKS** tab.
 3. Alternatively, link a commit that was already pushed:
 	1. Open your project's Overview page.
