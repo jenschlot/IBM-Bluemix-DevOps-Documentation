@@ -348,6 +348,10 @@
 					"uri_prefix": "/docs/reference/deploy"
 				},
 				{
+					"title": "Administer a Project",
+					"uri_prefix": "/docs/reference/projectadmin"
+				},
+				{
 					"title": "Configure billing for Bluemix Build and Deploy",
 					"uri_prefix": "/docs/reference/billing"
 				},
