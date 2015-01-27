@@ -20,6 +20,10 @@
 @color-dark-font: #82a3ab;
 @color-dark-link: #82a3ab;
 
+@color-title-teal: #00B299;
+@color-header2-grey: #94A3AB;
+@color-markdown-body-text: #3B4B54;
+
 /* Accents */
 @color-accent-one: #27ada5; /* Teal */
 @color-accent-two: #60b3ff; /* Blue */
@@ -442,6 +446,10 @@ pre {
 pre code, pre tt {
 	background-color: transparent;
 	border: none;
+}
+
+h1 {
+	color: @color-title-teal;
 }
 
 h1.help {
@@ -1067,19 +1075,26 @@ a:hover {
 		div.resource {
 			padding: 0px 90px 30px 90px;
 		}
-		.resource > a {
+		.resource a {
 			color: #00aed1;
+			&:hover {
+				color: #00aed1;
+				text-decoration: underline;
+			}
 		}
 
-		.resource > h2 {
+		.resource h2 {
 			font-size: 1.6rem;
+			color: @color-header2-grey;
 		}
-		.resource > h3 {
+		.resource h3 {
 			font-size: 1.3rem;
+			color: @color-header2-grey;
 		}
 
-		.resource > p {
+		.resource p {
 			line-height: 1.4rem;
+			color: @color-markdown-body-text;
 		}
 
 		.resource > ul {
