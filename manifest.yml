@@ -8,5 +8,5 @@ applications:
   name: jazzhubdocs
   command: node app.js
   env:
-    ENABLE_BLUEMIX_DEV_MODE: false
+    ENABLE_BLUEMIX_DEV_MODE: "false"
   instances: 1
