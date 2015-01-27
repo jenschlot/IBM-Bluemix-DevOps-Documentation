@@ -73,7 +73,7 @@
 
 			<div class="jh-columns mbs">
 				<div class="jh-columns-8-12 prxs">
-					<div class="public-projects-image"></div>
+					<img src='/tutorials/images/learn/whatsjazzhub/screencap-exploreproj.png' class="public-projects-image" />
 				</div>
 				<div class="jh-columns-4-12 plxs absl abn arn">
 					<div class="ptm prm pbm plm">
@@ -104,7 +104,7 @@
 			<div class="jh-columns mbs">
 				<div class="jh-columns-4-12 prxs">
 					<div class="grey-background ptm prm pbm plm">
-						<div class="globe-icon mrs mbs mls"></div>
+						<img src='/tutorials/images/learn/whatsinaproject/globe.png' class="globe-icon mrs mbs mls" />
 						<h4 class="mts mbxs">Collaborate across the room or across the world</h4>
 						<p class="mtm">
 							<span class="mail-icon mtxs mrxs"></span>
@@ -165,7 +165,7 @@
 						<p class="mtm mbm">Eclipse and .NET developers &ndash; connect your projects to source code in Rational Team Concert 
 						client for Eclipse or Visual Studio.</p>
 
-						<div class="favorite-client-image mtl mbl"></div>
+						<img src='/tutorials/images/learn/whatsinaproject/favorite-client.png' class="favorite-client-image mtl mbl" />
 
 					</div>
 				</div>
