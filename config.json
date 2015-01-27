@@ -263,6 +263,14 @@
 			"uri_prefix": "/docs"
 		},
 		{
+			"title": "Learn about DevOps Services",
+			"uri_prefix": "/learn"
+		},
+		{
+			"title": "Pricing",
+			"uri_prefix": "/learn/cost"
+		},
+		{
 			"title": "Features",
 			"uri_prefix": "/features"
 		},
