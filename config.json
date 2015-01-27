@@ -351,7 +351,7 @@
 		},
 		{
 			"title": "Resources by topic",
-			"icon": "docs-TODO.svg",
+			"icon": "docs-resources-by-topic.png",
 			"uri_prefix": "/docs#topics",
 			"children": [
 				{
@@ -398,12 +398,12 @@
 		},
 		{
 			"title": "Glossary",
-			"icon": "docs-TODO.svg",
+			"icon": "docs-glossary.png",
 			"uri_prefix": "/docs/glossary"
 		},
 		{
 			"title": "Support",
-			"icon": "docs-TODO.svg",
+			"icon": "docs-support.png",
 			"uri_prefix": "/support"
 		}
 	]

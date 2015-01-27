@@ -1,5 +1,4 @@
-
-<script src="/tutorials/javascript/sidebarSelectElement.js"></script>
+<script type="text/javascript" src="/tutorials/javascript/sidebarSelectElement.js"></script>
 <div class="nav mbs mts">
 {#sidebarLinks}
 	{>"common/sidebar_element"/}
