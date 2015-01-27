@@ -1,6 +1,7 @@
 #Work locally with IBM DevOps Services projects and Git source control
 
-Last modified: 9 Janaury 2015
+Last modified: 9 January 2015
+
 If you use a Git repository for your IBM&reg; DevOps Services project, you can manage your repository and work locally or by using the integrated web IDE in DevOps Services. If you install Git, you can use the [command line to manage your repository](#command_line_git). If you work in Eclipse, you can install the EGit plug-in for version control.  For more information, [see using EGit in Eclipse](#eclipse_using_egit).
 
 If you use the Track & Plan feature to manage your project plans and work items, and if you install the the Rational Team Concert plug-in, you can access your project locally from Eclipse.
