@@ -351,17 +351,59 @@
 		},
 		{
 			"title": "Resources by topic",
-			"icon": "docs-TODO.svg",
-			"uri_prefix": "/docs#topics"
+			"icon": "docs-resources-by-topic.png",
+			"uri_prefix": "/docs#topics",
+			"children": [
+				{
+					"title": "Node.js",
+					"uri_prefix": "/docs/nodejs"
+				},
+				{
+					"title": "Java",
+					"uri_prefix": "/docs/java"
+				},
+				{
+					"title": "Python",
+					"uri_prefix": "/docs/python"
+				},
+				{
+					"title": "MongoDB",
+					"uri_prefix": "/docs/mongodb"
+				},
+				{
+					"title": "Mobile",
+					"uri_prefix": "/docs/mobile"
+				},
+				{
+					"title": "Git Source Control Management",
+					"uri_prefix": "/docs/git"
+				},
+				{
+					"title": "Jazz Source Control Management",
+					"uri_prefix": "/docs/jazz_scm"
+				},
+				{
+					"title": "Track and Plan",
+					"uri_prefix": "/docs/trackplan"
+				},
+				{
+					"title": "Bluemix",
+					"uri_prefix": "/docs/bluemix"
+				},
+				{
+					"title": "Build and Deploy",
+					"uri_prefix": "/docs/build_deploy"
+				}
+			]
 		},
 		{
 			"title": "Glossary",
-			"icon": "docs-TODO.svg",
+			"icon": "docs-glossary.png",
 			"uri_prefix": "/docs/glossary"
 		},
 		{
 			"title": "Support",
-			"icon": "docs-TODO.svg",
+			"icon": "docs-support.png",
 			"uri_prefix": "/support"
 		}
 	]
