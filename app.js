@@ -57,6 +57,12 @@ _.each(['/docs'],
        }
 );
 
+_.each(['/learn', '/learn/what', '/learn/cost',],
+	function(i) {
+		app.get(i, routes.learn_router);
+	}
+);
+
 
 /*
  * Depending on the request path, try to load and render the corresponding markdown source.

@@ -117,6 +117,18 @@ body {
 	position: absolute;
 }
 
+	.arn {
+		right: 0;
+	}
+
+	.abn {
+		bottom: 0;
+	}
+
+	.abl {
+		left: 0;
+	}
+
 .fixed {
 	position: fixed;
 }
@@ -128,6 +140,11 @@ body {
 .f_right {
 	float: right;
 }
+
+.center-text {
+	text-align: center;
+}
+
 .stretch {
 	min-height: 600px;
 }
@@ -384,6 +401,8 @@ a img {
 5.0 Footer
 
 6.0 Machine Translation Widget
+
+7.0 Learn Page
 
 **********************************************************************
 *********************************************************************/
@@ -1594,7 +1613,7 @@ a:hover {
 		padding: 12px 29px;
 		position: relative;
 		line-height: 22px;
-		border: 1px solid  @jh-color-blue;
+		border: 1px solid @jh-color-blue;
 		background: transparent;
 
 		&:hover {
@@ -1679,4 +1698,382 @@ a:hover {
 .translate-widget-container {
 	background-color: #ffffff;
 
+}
+
+/*******************************************************************
+7.0 Learn Page
+*******************************************************************/
+
+.com-ibm-team-jazzhub-Learn {
+	color: #26343f;
+	background-color: #FFFFFF;
+
+	> .button-row {
+		clear: both;
+		overflow: hidden;
+		margin: 0 auto;
+		.plm;
+		.prm;
+
+		> .button-area {
+			padding: 15px 0 20px 0;
+			font-size: 1.5em;
+			overflow: hidden;
+
+			a.button {
+				width: 97%;
+				padding: 13px 0;
+				display: block;
+				overflow: visible;
+				color: white;
+				text-align: center;
+				position: relative;
+
+				&:hover {
+					text-decoration: none;
+				}
+
+				&.enabled:hover {
+					background-color: #3b4b54;
+				}
+
+				&.overview {
+					@color-button-overview: #F47D64;
+					background-color: @color-button-overview;
+					border-bottom-color: @color-button-overview;
+					.highlight {
+						background-color: @color-button-overview;
+					}
+					.enabled:hover {
+						color: @color-button-overview;
+					}
+				}
+
+				&.what {
+					@color-button-what: #00b299;
+					background-color: @color-button-what;
+					border-bottom-color: @color-button-what;
+					.highlight {
+						background-color: @color-button-what;
+					}
+					.enabled:hover {
+						color: @color-button-what;
+					}
+				}
+
+				&.cost {
+					@color-button-cost: #00aed1;
+					background-color: @color-button-cost;
+					border-bottom-color: @color-button-cost;
+					.enabled:hover {
+						color: @color-button-cost;
+					}
+				}
+
+				&.explore {
+					@color-button-explore: #00aed1;
+					background-color: @color-button-explore;
+					.enabled:hover {
+						color: @color-button-explore;
+					}
+				}
+
+				&.grey {
+					color: black;
+					background-color: #DFE6Eb;
+					.enabled:hover {
+						color: white;
+					}
+				}
+
+				&.create {
+					@color-button-create: #F47D64;
+					background-color: @color-button-create;
+					.enabled:hover {
+						color: @color-button-create;
+					}
+				}
+
+				&.selected {
+					color: black;
+					background-color: white;
+					&:hover {
+						color: black;
+						background-color: white;
+					}
+					border-bottom-width: 9px;
+					border-bottom-style: solid;
+				}
+			}
+		}
+
+		> .custom-padding {
+			padding: 10px 0 20px 0;
+		}
+	}
+
+	.learn-content-section {
+		.plm;
+		.prm;
+
+		.blue-text {
+			color: #00aed1;
+		}
+
+		.gold-background {
+			background-color: #cec53b;
+		}
+
+		.orange-background {
+			background-color: #F47D64;
+		}
+
+		.green-background {
+			background-color: #00B299;
+		}
+
+		.blue-background {
+			background-color: #00aed1;
+		}
+
+		.dark-gray-background {
+			background-color: #3b4b54;
+		}
+
+		.vertical-dots {
+			background: url('/tutorials/images/learn/whatsinaproject/vert-dots.png') repeat-y 0 0 transparent;
+			height: 96px;
+			width: 4px;
+			margin: 10px auto;
+		}
+
+		.video.aspect-ratio {
+			position: relative;
+			display: inline-block;
+			width: 100%;
+			height: 0;
+			padding-bottom: 56.4%; // aspect ratio (height/width) in %
+
+			& iframe {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+		}
+
+		.public-private-icon {
+			display: block;
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		.horizontal-dots {
+			background: url('/tutorials/images/learn/whatsinaproject/horiz-dots.png') repeat-x 0 0 transparent;
+			width: 53px;
+			height: 4px;
+			margin: 97px 5px;
+			display: inline-block;
+
+			.dots-margin-for-video {
+				background: url('/tutorials/images/learn/whatsinaproject/horiz-dots.png') repeat-x 0 0 transparent;
+				width: 25px;
+				height: 4px;
+				margin: 148px 0px 148px 12px;
+				display: inline-block;
+			}
+
+			&.left-most {
+				background: url('/tutorials/images/learn/whatsinaproject/horiz-dots.png') repeat-x 0 0 transparent;
+				width: 53px;
+				height: 4px;
+				margin: 97px 5px 97px 7px;
+				display: inline-block;
+			}
+		}
+
+		.public-projects-image {
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		.client-icon {
+			background: url('/tutorials/images/learn/whatsjazzhub/choosecode.png') no-repeat 0 0 transparent;
+			width: 327px;
+			height: 76px;
+			display: inline-block;
+		}
+
+		.globe-icon {
+			width: 100%;
+			margin: 0 auto;
+			margin-bottom: 25px;
+		}
+
+		p > .mail-icon {
+			background: url('/tutorials/images/learn/whatsinaproject/mail.png') no-repeat 0 0 transparent;
+			width: 25px;
+			height: 18px;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.invite-anyone {
+			display: inline-block;
+			max-width: 216px;
+		}
+
+		.proj-icon {
+			background: url('/tutorials/images/learn/whatsinaproject/proj.png') no-repeat 0 0 transparent;
+			width: 88px;
+			height: 70px;
+			display: inline-block;
+			margin: 64px 2px;
+		}
+
+		.time-icon {
+			background: url('/tutorials/images/learn/whatsinaproject/time.png') no-repeat 0 0 transparent;
+			width: 161px;
+			height: 160px;
+			display: inline-block;
+			margin: 19px 2px;
+		}
+
+		.track-and-plan-icon {
+			background: url('/tutorials/images/learn/whatsinaproject/track-plan.png') no-repeat 0 0 transparent;
+			width: 197px;
+			height: 306px;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		.code-icon {
+			background: url('/tutorials/images/learn/whatsinaproject/code.png') no-repeat 0 0 transparent;
+			width: 80px;
+			height: 61px;
+			margin: 20px 0;
+		}
+
+		.code-in-cloud-image {
+			width: 100%;
+		}
+
+		.rtc-icon {
+			background: url('/tutorials/images/learn/whatsinaproject/rtc.png') no-repeat 0 0 transparent;
+			width: 80px;
+			height: 76px;
+			display: inline-block;
+			vertical-align: middle;
+			margin-bottom: 100px;
+		}
+
+		h4 {
+			> .git-title {
+				display: inline-block;
+				width: 190px;
+				vertical-align: middle;
+			}
+
+			> .github-icon {
+				background: url('/tutorials/images/learn/whatsinaproject/github.png') no-repeat 0 0 transparent;
+				width: 51px;
+				height: 50px;
+				display: inline-block;
+				vertical-align: middle;
+			}
+		}
+
+		.favorite-client-image {
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		.dashboard-image {
+			background: url('/tutorials/images/learn/whatsinaproject/screencap_projdash.png') no-repeat 0 0 transparent;
+			width: 630px;
+			height: 462px;
+		}
+
+		.limited-time {
+			display: none;
+			top: 150px;
+			left: 140px;
+			width: 250px;
+			height: 43px;
+			background-color: #555555;
+			color: white;
+			text-align: center;
+			padding-top: 7px;
+
+			&.shadow {
+				top: 160px;
+				left: 150px;
+				background-color: #F47D64;
+			}
+		}
+
+		.grey-background {
+			background-color: #dfe6eb;
+			color: black;
+		}
+	}
+
+	.inverted-pentagon {
+		/* Responive triangle from
+		 * http://codeitdown.com/css-triangles-responsive/ */
+		.down-arrow {
+			width: 100%;
+		    height: 0;
+		    padding-left:50%;
+		    padding-top: 10%;
+		    overflow: hidden;
+
+			.down-arrow-after(@color) {
+			    content: "";
+			    display: block;
+			    width: 0;
+			    height: 0;
+			    margin-left:-500px;
+			    margin-top:-100px;
+			    
+			    border-left: 500px solid transparent;
+			    border-right: 500px solid transparent;
+			    border-top: 100px solid @color;
+			}
+
+			&.overview-down-arrow:after {
+				.down-arrow-after(#F47D64);
+			}
+
+			&.what-down-arrow:after {
+				.down-arrow-after(#00b299);
+			}
+
+			&.cost-down-arrow-grey:after {
+				.down-arrow-after(#dfe6eb);
+			}
+
+			&.cost-down-arrow-blue:after {
+				.down-arrow-after(#00aed1);
+			}
+		}
+
+		.zero-dollars {
+			font-size: 9.1875em;
+			line-height: 0.8em;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		.white-text {
+			color: @color-white;
+		}
+
+		.free-3-users-text {
+			position: absolute;
+			top: 75px;
+			left: 275px;
+		}
+	}
 }
