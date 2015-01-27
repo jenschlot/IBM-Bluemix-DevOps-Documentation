@@ -1,6 +1,19 @@
 
 $(document).ready(function() {
 	refreshActiveElement();
+	var $topLevelSidebarLinks = $(".jh-sidebar-full-content .sidebar-container .nav > .item");
+	$topLevelSidebarLinks.has('.item').children('a').click(function(event) {
+		hideAllChildElements();
+		var $item = $(this).parent();
+		if ($item.hasClass('selected')) {
+			$item.removeClass('selected');
+		} else {
+			$topLevelSidebarLinks.removeClass('selected');
+			$item.addClass('selected');
+			showActiveElement($item);
+		}
+		event.preventDefault();
+	});
 });
 
 function hideAllChildElements() {
@@ -29,6 +42,7 @@ function findActiveElement() {
 		curPath += window.location.hash;
 		if (normalizeEqual(curPath, a.attr('href'))) {
 			$(this).addClass('selected');
+			$(this).parent().addClass('selected');
 			activeElement = this;
 		} else {
 			$(this).removeClass('selected');

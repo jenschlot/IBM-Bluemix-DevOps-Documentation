@@ -60,7 +60,7 @@
 			"directory": "docs/faq"
 			
 		},
-				{
+		{
 			"uri_prefix": "/help/contactus",
 			"section_name": "Docs",
 			"resource_name": "Contact us",
@@ -154,7 +154,6 @@
 			"img_icon": "academics",
 			"directory": "docs/topics/academics"
 		},
-
 		{
 			"uri_prefix": "/docs/account",
 			"section_name": "Docs",
@@ -162,7 +161,6 @@
 			"img_icon": "account",
 			"directory": "docs/topics/account"
 		},
-
 		{
 			"uri_prefix": "/docs/bluemix",
 			"section_name": "Docs",
@@ -257,27 +255,21 @@
 	],
 	"sidebarLinks": [
 		{
-			"title": "General",
+			"title": "IBM DevOps Services",
 			"icon": "docs-general.svg",
-			"uri_prefix": "/docs",
-			"children": [
-				{
-					"title": "Getting started",
-					"uri_prefix": "/docs/reference/startproject"
-				},
-				{
-					"title": "Features",
-					"uri_prefix": "/features"
-				},
-				{
-					"title": "What's new",
-					"uri_prefix": "/whatsnew"
-				},
-				{
-					"title": "FAQ",
-					"uri_prefix": "/docs/faq"
-				}
-			]
+			"uri_prefix": "/docs"
+		},
+		{
+			"title": "Features",
+			"uri_prefix": "/features"
+		},
+		{
+			"title": "What's new",
+			"uri_prefix": "/whatsnew"
+		},
+		{
+			"title": "FAQ",
+			"uri_prefix": "/docs/faq"
 		},
 		{
 			"title": "Tutorials",
@@ -290,7 +282,7 @@
 				},
 				{
 					"title": "Getting started using Java",
-					"uri_prefix": "/tutorials/jazzeditor"
+					"uri_prefix": "/tutorials/jazzeditorjava"
 				},
 				{
 					"title": "Developing with Git using the Web IDE",
@@ -318,10 +310,6 @@
 				{
 					"title": "Start a project in DevOps Services",
 					"uri_prefix": "/docs/reference/startproject"
-				},
-				{
-					"title": "Administer a project",
-					"uri_prefix": "/docs#TODO"
 				},
 				{
 					"title": "Git reference",
@@ -393,8 +381,49 @@
 				{
 					"title": "Build and Deploy",
 					"uri_prefix": "/docs/build_deploy"
+				},
+				{
+					"title": "Account Management",
+					"uri_prefix": "/docs/account"
+				},
+				{
+					"title": "Eclipse",
+					"uri_prefix": "/docs/eclipse"
+				},
+				{
+					"title": "Academics",
+					"uri_prefix": "/docs/academics"
+				},
+				{
+					"title": "Hackathons",
+					"uri_prefix": "/docs/hackathons"
 				}
 			]
+		},
+		{
+			"title": "Articles",
+			"icon": "docs-articles.svg",
+			"uri_prefix": "/docs/all#articles"
+		},
+		{
+			"title": "Blogs",
+			"icon": "docs-blogs.svg",
+			"uri_prefix": "/docs/all#blogs"
+		},
+		{
+			"title": "Samples",
+			"icon": "docs-samples.svg",
+			"uri_prefix": "/docs/all#samples"
+		},
+		{
+			"title": "Videos",
+			"icon": "docs-videos.svg",
+			"uri_prefix": "/docs/all#videos"
+		},
+		{
+			"title": "Workshops",
+			"icon": "docs-workshops.svg",
+			"uri_prefix": "/docs/all#workshops"
 		},
 		{
 			"title": "Glossary",

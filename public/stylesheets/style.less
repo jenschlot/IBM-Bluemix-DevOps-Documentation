@@ -646,6 +646,10 @@ a:hover {
 	.sidebar-container .nav .item {
 
 		> a {
+			&:active,
+			&:focus {
+				outline: none;
+			}
 			position: relative;
 			display: inline-block;
 			width: 100%;
@@ -670,6 +674,9 @@ a:hover {
 		// child elements
 		& .item {
 			display: none; // shown via javascript when active
+			> a {
+				padding-left: 32px;
+			}
 		}
 
 		.sidebar-icon {
@@ -682,7 +689,6 @@ a:hover {
 
 		.sidebar-icon-missing {
 			.sidebar-icon;
-			width: 36px;
 			display: inline-block;
 			visibility: hidden;
 		}
