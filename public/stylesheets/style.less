@@ -147,10 +147,10 @@ body {
 }
 
 	.@{jh-namespace} a {
-	  color: @jh-color-link;
+	  color: @color-tile-link;
 	  text-decoration: none;
 	  &:hover {
-	  	color: @jh-color-link-hover;
+	  	color: @color-tile-link;
 	  	text-decoration: underline;
 	  }
 	}
@@ -183,6 +183,17 @@ body {
 
 .@{jh-namespace}-Docs {
 	background-color: @jh-color-white;
+
+	h1 {
+		color: @color-title-teal;
+	}
+
+	h2,
+	h3,
+	h4,
+	h5 {
+		color: @color-header2-grey;
+	}
 }
 
 img {
@@ -508,13 +519,13 @@ table tr th, table tr td
 /*********************** 2.1 404 Page *****************************/
 
 a:link, a:visited {
-	color: #00649D;
+	color: @color-tile-link;
 	text-decoration: none;	
 }
 
 a:hover {
-	color: #05386b;
-	text-decoration: none;	
+	color: @color-tile-link;
+	text-decoration: underline;	
 }
 
 .page_wrapper {
