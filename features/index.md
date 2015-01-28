@@ -117,5 +117,5 @@ for tracking team velocity and work-item and source-control widgets
  
 ![Dashboard](/features/images/Charts.png)
 
-&copy; Copyright IBM Corporation 2013, 201.
+&copy; Copyright IBM Corporation 2013, 2015.
 
