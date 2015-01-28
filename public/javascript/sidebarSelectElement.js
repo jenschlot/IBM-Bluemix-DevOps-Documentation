@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
 	refreshActiveElement();
+	resizePgOnSidebarExpandCollapse();
 	var $topLevelSidebarLinks = $(".jh-sidebar-full-content .sidebar-container .nav > .item");
 	$topLevelSidebarLinks.has('.item').children('a').click(function(event) {
 		hideAllChildElements();
@@ -12,9 +13,16 @@ $(document).ready(function() {
 			$item.addClass('selected');
 			showActiveElement($item);
 		}
+		resizePgOnSidebarExpandCollapse();
 		event.preventDefault();
 	});
 });
+
+function resizePgOnSidebarExpandCollapse() {
+	$.getScript("/tutorials/javascript/pageResize.js", function() {
+		resizePg();
+	});
+}
 
 function hideAllChildElements() {
 	$(".jh-sidebar-full-content .sidebar-container .nav .item .item").hide({
