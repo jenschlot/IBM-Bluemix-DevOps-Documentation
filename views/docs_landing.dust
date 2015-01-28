@@ -32,7 +32,7 @@
 	</div>
 	<div class="container-fluid">
 			<div class="row pbl" id="featured-docs">
-				<div class="row mts mbm prl">
+				<div class="mts mbm prl">
 					<div class="col-md-6">
 						<h2 class="plm">Featured Docs</h2>
 					</div>
@@ -203,7 +203,7 @@
 
 			<div class="row pts pbl" id="topics">
 				<h2 class="pbs plm text-left" >Resources by topic <a role="button" href="/docs/all" class="mll btn btn-dark btn-sm">All Resources</a></h2>
-					<div class="row">
+					<div>
 						<div id="topics-grid" class="col-md-12 col-sm-12 col-xs-9 text-center">
 							<div class="topic-container">
 								<a class="topic-section" href="/docs/nodejs">
