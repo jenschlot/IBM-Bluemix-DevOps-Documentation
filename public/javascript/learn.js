@@ -18,6 +18,16 @@ $(document).ready(function() {
 		$('.learn-content-section').on('sectionClicked', function(event, sectionNameClicked) {
 			if ($(this).attr('id') === sectionNameClicked) {
 				$(this).show();
+
+				var learnSidebarLinks = $(".jh-sidebar-full-content .sidebar-container .nav > .item").has("a[href*=learn]");
+				var costSidebarLink = learnSidebarLinks.has("a[href*='cost']");
+				var otherLearnSidebarLink = learnSidebarLinks.not(costSidebarLink);
+				learnSidebarLinks.removeClass('selected');
+				if (sectionNameClicked === 'cost') {
+					costSidebarLink.addClass('selected');
+				} else {
+					otherLearnSidebarLink.addClass('selected');
+				}
 			} else {
 				$(this).hide();
 			}
