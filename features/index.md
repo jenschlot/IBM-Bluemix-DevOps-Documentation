@@ -48,7 +48,7 @@ The web IDE provides smart features where you can do these tasks:
 
 Configure your project to automatically deploy whenever a project member pushes code to your Git repository or
 
-Jazz&trade;  SCM to [IBM&reg; Bluemix&trade;](//bluemix.net/ "Bluemix"). You can simply deploy files as they are pushed, or you
+Jazz&trade;  Source Code Management (SCM) repository to [IBM&reg; Bluemix&trade;](//bluemix.net/ "Bluemix"). You can simply deploy files as they are pushed, or you
 can configure more advanced build options to be deployed automatically.
 
 To learn more about configuring and using the various build and deploy capabilities,
@@ -78,7 +78,7 @@ browser. And, don't worry, your favorite Git client is supported too.
 It's easy to link work items with GitHub code changes: use your existing 
 tools to code, and manage your project with DevOps Services.  You 
 can reference a work item in the GitHub comments before you push 
-code changes, and the work item is updated with the new commit.
+code changes, and the work item is updated with the new commit information.
 
 ![User interface](/features/images/GitIntegration.png)		
 
@@ -92,7 +92,7 @@ to help you stay organized.
 
 ## Built-in source code management						
 
-Easy code delivery and seamless tracking of changes from all developers. 
+Easily deliver code and seamless track changes from all developers. 
 Each project gets a Git repository or a Jazz source code management
  repository and workspace where project members check in changes, 
 associate code changes with work items, and view a history of recent 
@@ -117,5 +117,5 @@ for tracking team velocity and work-item and source-control widgets
  
 ![Dashboard](/features/images/Charts.png)
 
-&copy; Copyright IBM Corporation 2013, 2014.
+&copy; Copyright IBM Corporation 2013, 201.
 
