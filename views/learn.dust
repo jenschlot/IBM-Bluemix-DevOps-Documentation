@@ -234,8 +234,10 @@ $(document).ready(function() {
 				<div class="jh-columns-6-12 plxs mbxl rela">
 					<div class="inverted-pentagon">
 						<div class="blue-background ptm center-text">
-							<div class="zero-dollars white-text">$0**</div>
-							<div class="white-text free-3-users-text">get started <br> for free</div>
+							<div class="zero-dollars white-text">
+								$0**
+								<div class="white-text free-3-users-text">get started <br /> for free</div>
+							</div>
 						</div>
 						<div class="down-arrow cost-down-arrow-blue"></div>
 					</div>
