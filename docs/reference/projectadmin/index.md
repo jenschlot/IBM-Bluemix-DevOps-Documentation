@@ -3,36 +3,34 @@
 Last modified: 29 January 2015
 
 
-To administer IBM&reg; DevOps Services projects you must be a project owner or a project administrator. You can only have one project owner, but you can have multiple project administrators. 
- 
+To administer IBM&reg; DevOps Services projects you must be a project owner or a project admin. You can only have one project owner, but you can have multiple project admins. 
 
 ##Project admin privileges
-Each administrator has the following privileges:
-* Send invitations for new members and new project admins
-* Accept or decline requests to join a project
-* Remove other members and admins from the project
-* Promote members to admin
-* Remove project admin privileges from another project admin (demote)
-* Demote himself from admin to member
+
+Each admin has the following privileges:
+* Send invitations to join the project
+* Accept or decline requests to join the project
+* Promote members to admins and demote admins to members
+* Demote self from admin to member
 * Update the following project settings: 
 
 	a. Change project photo and description
 	
-	b. Change public and private setting
+	b. Enable or disable project privacy
 	
-	c. Enable or disable Track & Plan and Build & Deploy features
+	c. Enable or disable Track & Plan feature
 	
-* Configure builder and deployer on the Build & Deploy page
 * Manage the following functions for Git projects:
+
 	a. Update and delete branches and tags
+	
 	b. Force pushes
 
 ##Project owner privileges
 A project owner can do all the things that project admins can do and more. Here are the additional privileges for a project owner:
-* Rename a project
-* Transfer ownership of a project
-* Delete a project
-* Remove the project owner from the project
+* Rename the project
+* Transfer ownership of the project
+* Delete the project
 
 ----
 ##Managing projects
