@@ -18,7 +18,7 @@ Each admin has the following privileges:
 	
 	b. Enable or disable project privacy
 	
-	c. Enable or disable Track & Plan feature
+	c. Enable or disable Track & Plan
 	
 * Manage the following functions for Git projects:
 
@@ -35,13 +35,13 @@ A project owner can do all the things that project admins can do and more. Here 
 ----
 ##Managing projects
 
-A common task for project owners and admins is managing projects and members. When you sign in to DevOps Services, the My Stuff page has a REQUESTS tab, which lists incoming requests to join projects for which you are an administrator. As an administrator, you can accept or reject these requests. You can also invite members to join by using either the "Invite others to join your project" link or from the MANAGE page. 
-Note: The "Invite others to join your project" link is only available if you haven't invited any members to join yet.
+A common task for project owners and admins is managing the project's settings and members. When you sign in to DevOps Services, the MyStuff page is loaded. The REQUESTS tab on this page lists incoming requests to join projects for which you are an admin. As an admin, you can accept or reject these requests. You can also invite members to join by using the Invite Members button on the members page for these projects.
 
-As a project owner or admin you can also change your project settings. To do so, click the gear icon on any of the project pages. 
+As a project owner or admin you can also change your project settings. To do so, click the gear icon.
+
 ![Project settings gear icon][7]
 
-From the project settings you can add or change the project image; modify the project description; make the project public or private; enable tracking and planning options; and set deployment to Bluemix options. If you are the project owner, you can reassign ownership or delete the project entirely.
+From the project settings page you can add or change the project image; modify the project description; make the project public or private; enable tracking and planning options. If you are the project owner, you can reassign ownership or delete the project entirely.
 
 ----
 ##Promoting or demoting project admins
@@ -64,12 +64,12 @@ To promote other project admins, complete the following steps:
 
 ![Promote button on the project admins page][6]
 
-The project will refresh automatically and the newly promoted member's name is listed as a project admin and an email message is sent that shares the good news.  
+The newly promoted member's name is listed as a project admin and an email message is sent that shares the good news.  
 
 To demote a project admin, from the Project Admins page, select the admin whose privileges you want to remove and click **DEMOTE**.
 ![Project admin selected for demotion][8]
 
-After the project refreshes, the former project admin's name appears in the list of other members and an email notification is sent that notifies the user of the change.
+The former project admin's name appears in the list of other members and an email notification is sent that notifies the user of the change.
 
 [1]: images/invitemembers.png
 [2]: images/projadminspage1.png
