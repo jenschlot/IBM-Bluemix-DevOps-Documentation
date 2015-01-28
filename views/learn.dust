@@ -26,7 +26,7 @@ $(document).ready(function() {
 });
 </script>
 {<content}
-	<div class="com-ibm-team-jazzhub-Learn common-fluid-content">
+	<div id="content" class="com-ibm-team-jazzhub-Learn common-fluid-content">
 		<div class="button-row">
 			<div class="jh-columns button-area">
 				<div class="jh-columns-4-12">
