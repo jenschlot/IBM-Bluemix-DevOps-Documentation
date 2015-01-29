@@ -183,7 +183,7 @@ You forked a project and manually deployed to a Bluemix app. You made a branch, 
 [19]: mailto:hub%40jazz.net
 [20]: /docs
 [28]: https://developer.ibm.com/answers/smartspace/devops-services/
-[29]: https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard
+[
 [30]: /docs
 [31]: images/runbar_url.png
 [32]: images/runbar_play.png
