@@ -89,13 +89,13 @@ Yes it is. You can plan, define requirements, track tasks, and collaborate on an
 
 ### How do I report a bug? 
 
-[Report a bug here](https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
+[Report a bug here](https://hub.jazz.net/ccm01/web/projects/idsorg%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
 
 <a name="q8"></a>
 
 ### How can I provide feedback?
 
-We love feedback. If you have a suggestion, [share your idea in the JazzHub IBM DevOps Services project](https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
+We love feedback. If you have a suggestion, [share your idea in the JazzHub IBM DevOps Services project](https://hub.jazz.net/ccm01/web/projects/idsorg%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
 If you need help, [ask a question in the DevOps Services Forum](https://developer.ibm.com/answers/questions/?community=devops-services).
 
 <a name="ibmer"></a>

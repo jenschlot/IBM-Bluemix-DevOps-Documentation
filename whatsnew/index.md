@@ -489,8 +489,8 @@ and to deploy to Bluemix from your project settings.
 [50]: /whatsnew/images/readmemd-large.png
 [51]: /whatsnew/images/autosaveoptions.png
 [52]: /whatsnew/images/richworkitemeditor.png
-[53]: https://hub.jazz.net/project/srich/JazzHub
-[54]: https://hub.jazz.net/project/srich/JazzHub
+[53]: https://hub.jazz.net/project/idsorg/JazzHub
+[54]: https://hub.jazz.net/project/idsorg/JazzHub
 [55]: /whatsnew/images/configured-pipeline.png
 [56]: /whatsnew/images/teamprogressview.gif
 [57]: /whatsnew/images/addsubscriber.gif
