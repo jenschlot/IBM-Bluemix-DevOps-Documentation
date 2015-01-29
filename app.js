@@ -51,15 +51,25 @@ app.get(['/help/faq'], function(req, res){
   res.redirect('/docs/faq');
 });
 
+app.get(['/learn/cost'], function(req, res){
+	res.redirect('/pricing');
+});
+
 _.each(['/docs'],
        function(i) {
 		app.get(i, routes.docs)
        }
 );
 
-_.each(['/learn', '/learn/what', '/learn/cost',],
+_.each(['/learn', '/learn/what'],
 	function(i) {
 		app.get(i, routes.learn_router);
+	}
+);
+
+_.each(['/pricing'],
+	function(i) {
+		app.get(i, routes.pricing_router);
 	}
 );
 

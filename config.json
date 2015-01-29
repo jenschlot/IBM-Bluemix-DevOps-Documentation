@@ -26,6 +26,9 @@
 		},
 		{
 			"routeName": "/learn"
+		},
+		{
+			"routeName": "/pricing"
 		}
 	],
 	"content": [
@@ -277,7 +280,7 @@
 		},
 		{
 			"title": "Pricing",
-			"uri_prefix": "/learn/cost"
+			"uri_prefix": "/pricing"
 		},
 		{
 			"title": "Features",
