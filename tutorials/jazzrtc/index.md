@@ -15,14 +15,13 @@ To get your app, you fork a sample project named WordCounter. WordCounter uses J
 
 DevOps Services also supports Git projects. For more information, [see Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava).
 
-1. On the WordCounter project overview page, click **EDIT CODE**. The DevOps Services web IDE opens.
-![Click Edit Code](/tutorials/jazzrtc/images/click_edit_code.png "Click Edit Code")
+On the WordCounter project overview page, click **FORK PROJECT**. 
+![Click Fork Project](/tutorials/jazzrtc/images/click_fork_project.png "Click Fork Project")
 
-2. Click **FORK**. When you are prompted, enter a unique name.
-![Fork](/tutorials/jazzrtc/images/fork.png "Fork")
+When you are prompted, enter a new, unique name for your project. Then, click **CREATE**.
+![Create Project Dialog](/tutorials/jazzrtc/images/create_project.png "Create Project Dialog")
 
 You get a new project, a new project name, and a copy of the code from the sample project.
-![Create Project Dialog](/tutorials/jazzrtc/images/create_project.png "Create Project Dialog")
 
 **Tip:** If you see an error message, [make sure you have a Bluemix account](//bluemix.net).
 
@@ -32,15 +31,15 @@ You're ready to build and deploy.
 ##Deploy your app
 
 1. Go to the deployment page by clicking **BUILD & DEPLOY**. 
-
-2. Turn on deployment in the advanced mode by clicking **ADVANCED**. You must work in advanced mode because you need builds to compile your Java code. 
-**Important:** When you build and deploy, your Bluemix account might be charged. For more information, [see the Bluemix pricing page](https://bluemix.net/#/pricing).
+  * If it's your first time using this feature, you will see a welcome page. Click **GET STARTED** to proceed. 
+  * When you build and deploy, your Bluemix account might be charged. For more information, [see the Bluemix pricing page](https://bluemix.net/#/pricing).
 To track charges, after you deploy your first build, add the Delivery Pipeline service to your space.
 
 3. On the Pipeline page, click **add a builder**. The Add Builder page opens.
 ![Click Add A Builder](/tutorials/jazzrtc/images/add_builder.png "Click add a builder")
 
 4. On the Add Builder page, enter this information:
+    * In the **Builder** menu, select **Ant**.
 	* In the **Your IBM DevOps Services password** field, type the password that is associated with your IBM id.
 	* In the **Build script path**, type the folder that contains your code; for example,  `WordCounter`. When the project is loaded in the Rational Team Concert client, this folder automatically maps to an Eclipse project.
 	* In the **Build archive directory** field, type the directory where the build output files are archived as part of the build result.

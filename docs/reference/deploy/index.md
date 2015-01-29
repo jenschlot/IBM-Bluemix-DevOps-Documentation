@@ -6,6 +6,7 @@ You can get your code on the web in multiple ways by using IBM® DevOps Services
 
 ---
 ##[Manual deployment from the web IDE](#manual)
+* [The Run Bar explained][#runbar]
 
 ##[Auto-deployment](#auto)
 * [Overview](#autohow)
@@ -32,6 +33,7 @@ You can configure web IDE manual deployment and Build &amp; Deploy's automatic d
 
 Whether you are using command-line tools or the web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment so that you can control what is being pushed. By using automatic deployment, you know that the code that is running in the app matches a known state in the repository. In contrast, manual deployment deploys whatever is in your working directory when you push.
 
+<a name="runbar"></a>
 ###The Run Bar explained
 
 ![Annotated Run Bar screenshot][7]
@@ -46,9 +48,11 @@ Whether you are using command-line tools or the web IDE, both methods are effect
 ##Auto-deployment
 
 ###Overview
-Whether you use the Simple or Advanced deployment modes, when changes are pushed to a project's source control repository, builds and deployments are triggered. Simple mode doesn't have a build stage, but Advanced mode does. As a result, compiled languages such as Java won't work with Simple mode, and Simple mode can have only one deployment target. Advanced mode can have many deployment targets. If you need automatic building and deployment, or if you want to deploy to multiple spaces, use Advanced mode.  
+By default, changes that are delivered to a project's source control repository trigger builds and deployments. 
 
-In Advanced mode, you can disable automatic builds that run when changes are pushed to your project. To disable automatic builds, when you configure a build stage, clear the **Automatically build when a change is delivered/pushed** check box. You can then manually request builds and deploy from the build history page in one of two ways:
+**Note**: If you select the **Simple** builder type for a build stage, remember that the *build* process will be skipped. Your code won't compile; it will be output to the deploy stage as it is. If you need both building and deployment, select a builder type other than **Simple**.  
+
+You can disable automatic builds that run when changes are pushed to your project. To disable automatic builds, when you configure a build stage, clear the **Automatically build when a change is delivered/pushed** check box. You can then manually request builds and deploy from the build history page in one of two ways:
   * Drag a build to the box that is under a configured space.
   * Next to a build, click the cloud icon and then select a space.
 
@@ -65,7 +69,7 @@ One case where the `cf push` command arguments are helpful is in a project that 
 <a name="pipeline"></a>
 ##The Delivery Pipeline service
 
-Advanced deployment mode uses the IBM Delivery Pipeline for Bluemix (the Delivery Pipeline service). 
+The Build & Deploy feature uses the IBM Delivery Pipeline for Bluemix (the Delivery Pipeline service).
 
 <a name="service"></a>
 ###Bluemix and the Delivery Pipeline service
