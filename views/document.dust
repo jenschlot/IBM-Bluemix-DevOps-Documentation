@@ -1,4 +1,4 @@
-{>"common/page_layout" /}
+{>"common/page_layout"/}
 
 {<sidebar}
 	{>"common/sidebar"/}
@@ -10,10 +10,12 @@
 	</div>
 	<div id="content" class="com-ibm-team-jazzhub-Docs content fluid-content">
 		<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none"></div>
-		<div class="fixed-content jh-docmode">
-			<div class="content-box">
-				{markdown|s}
-				{>"common/next_steps"/}
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 resource">
+					{markdown|s}
+					{>"common/next_steps"/}
+				</div>
 			</div>
 		</div>
 	</div>
