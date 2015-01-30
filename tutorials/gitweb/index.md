@@ -95,7 +95,7 @@ To see the changes that you make to your code, create a Bluemix app and deploy t
 
 2. In the file explorer, next to `views`, click the **>** to expand the contents of the folder. Then, click **home.jade**.
 
-3. Locate the phrase "We deliver delicious fresh cooked food for your next dinner, cocktail, or party." Change it to "We deliver delicious freshcooked food for your next dinner or gathering."
+3. Locate the phrase "We deliver delicious fresh cooked food for your next dinner, cocktail, or party." Change it to "We deliver delicious, freshly cooked food for your next dinner or gathering."
 ![Changed Fisherman's Platter code block][5]
 
 4. In the Run Bar, click the **Open URL** button. You'll see the updated phrase on the page that opens.
