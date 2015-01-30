@@ -5,8 +5,7 @@
 {/sidebar}
 {<content}
 	<div id="content" class="com-ibm-team-jazzhub-Pricing common-fluid-content">
-		<h1 class="pricing-header">Pricing</h1>
-		<div class="learn-content-section">
+		<div class="learn-content-section pricing">
 			<div class="jh-columns rela">
 				<div class="jh-columns-6-12 prxs mbxl">
 					<div class="inverted-pentagon">
