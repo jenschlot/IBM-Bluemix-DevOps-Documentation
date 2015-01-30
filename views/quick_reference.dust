@@ -11,17 +11,7 @@
 	<div id="content" class="com-ibm-team-jazzhub-Docs content fluid-content">
 		<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none"></div>
 			<div class="container-fluid">
-				{@eq key=resourcename value="Support"}
-				<ol class="hidden">
-				{:else}
-				<ol class="breadcrumb">
-				{/eq}
-					<li><a href="/docs">Docs</a></li>
-					<li><a href="/docs#topics">Resources by topic</a></li>
-					<li><a href="{parenturi}">{parentname}</a></li>
-					<li class="current">{resourcename}</li>
-				</ol>
-				<div class="row ptm">
+				<div class="row">
 					<div class="col-md-12 resource">
 						{markdown|s}
 						{>"common/next_steps"/}

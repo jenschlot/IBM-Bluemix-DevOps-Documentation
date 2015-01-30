@@ -18,7 +18,6 @@ var renderTopic = function(req, res, next, headerContent) {
 		{ 
 			markdown: req.rendered_markdown,
 			sectionname: req.sectionname,
-			lowercaseSectionName: req.sectionname.toLowerCase(),
 			topicname: req.topicname,
 			imgicon: req.imgicon,
 			headerContent: headerContent,
