@@ -1,6 +1,6 @@
 #Developing with Git in the IBM DevOps Services web IDE
 
-Last modified: 13 January 2015
+Last modified: 30 January 2015
 
 If you want to learn more about managing your Git repository, an open source code management system, with the IBM® DevOps Services web IDE, complete this tutorial. The tutorial doesn't cover all of the possible Git commands in the DevOps Services web IDE, but you can practice creating a change on a separate branch, testing the change, and adding the change to the master branch. If you need help with specific commands, [see the Git reference](/../docs/reference/git).  If you want to try to work locally by using the command line, [see Work locally with IBM DevOps Services projects and Git source control](../../docs/reference/gitclient).
 
@@ -55,6 +55,8 @@ When you work with many people or want to test different ideas, a common practic
 1. Confirm that the value in the **REFERENCE** field is "testbranch => origin/testbranch [New Branch]".
 ![testbranch reference][11]
 
+1. Beneath the **REFERENCE** field, click the **PUSH** button to populate `origin/testbranch` with the current contents of your local workspace.
+
 ---
 <a name='deploy_a_new_bluemix_app'></a>
 ##Deploy a new Bluemix app
@@ -71,7 +73,7 @@ To see the changes that you make to your code, create a Bluemix app and deploy t
 
 1. Click **File**, and then click **Save**.
 
-1. Click the status area in the Run Bar. Click **CREATE NEW**, and then review the contents of the Configure Application Deployment window.
+1. Click the status area in the Run Bar. Click **+**, and then review the contents of the Configure Node.js Application Deployment window.
 ![The dropdown menu in the Run Bar][33]
  * Make sure that the information about the organization and space are as you expected.
  * Make sure that the displayed host and application name match the contents of the `manifest.yml` file
@@ -79,10 +81,8 @@ To see the changes that you make to your code, create a Bluemix app and deploy t
 
 6. Click **DEPLOY**.
 
-7. After the deployment succeeds, click the **Open URL** button.
+7. After the deployment succeeds, click the **Open URL** button to see the YummyRation project page.
 ![Open URL button in the Run Bar][31]
-
-8. On the YummyRation project page, click the **Seafood** image to check the information about the Fisherman's Platter.
 
 ---
 <a name='change_and_test_the_code'></a>
@@ -90,20 +90,20 @@ To see the changes that you make to your code, create a Bluemix app and deploy t
 
 1. Return to your YummyRation project page on DevOps Services.
 
-2. In the file explorer, next to routes, click the __>__ to expand the contents of the folder. Then, click **dishes.js**.
+1. Near the run bar, click the **Live Edit** button. Let the app deployment finish.
+  * Live Edit mode allows you to quickly preview changes to JavaScript applications (like the YummyRation Node.js app). When you update your code with Live Edit turned on, you can refresh your web application's browser window to see those changes reflected seconds after you make them.  
 
-3. Locate the "Fisherman's Platter" code block and change the price to `$17.95`.
+2. In the file explorer, next to `views`, click the **>** to expand the contents of the folder. Then, click **home.jade**.
+
+3. Locate the phrase "We deliver delicious fresh cooked food for your next dinner, cocktail, or party." Change it to "We deliver delicious freshcooked food for your next dinner or gathering."
 ![Changed Fisherman's Platter code block][5]
 
-4. Click **File**, and then click **Save**
+4. In the Run Bar, click the **Open URL** button. You'll see the updated phrase on the page that opens.
+![Runbar at status green with Upen URL button highlighted][31]
 
-5. In the Run Bar, click the Play button.
-![Runbar at status green with Play Button highlighted][32]
+![New subheader][7]
 
-6. Return to your deployed website and click **Refresh** to view your change.  
-**Note**: If you closed your website, click **root folder page** in the deployment message, and then click the link under Manual Deployment Information.
-
-![New Fisherman's Feast price][7]
+That looks better! Click the **Live Edit** button again to turn Live Edit mode off. 
 
 ---
 <a name='deliver_a_change_to_the_repository'></a>
@@ -116,7 +116,7 @@ You save your changes to your DevOps Services project.  Because this project use
 
 1. In the Working Directory Changes panel, select the **Select All** check box.
 
-1. In the **Enter the commit message** field, enter a descriptive commit message, such as `Add deployment information to manifest and updated Fisherman's Feast price`.
+1. In the **Enter the commit message** field, enter a descriptive commit message, such as `Add deployment information to manifest and updated home page`.
 ![Sample commit message][6]
 
 1. Click **COMMIT** to commit your changes to your local repository.
