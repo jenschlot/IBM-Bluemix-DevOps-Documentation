@@ -2,7 +2,7 @@
 
 ##[Bluemix forum](https://developer.ibm.com/answers?community=bluemix)
 
-##[Report a bug](https://hub.jazz.net/ccm01/web/projects/idsorg%20|%20JazzHub#action=com.ibm.team.dashboard.viewDashboard)
+##[Report a bug](https://hub.jazz.net/ccm01/web/projects/srich%20|%20JazzHub#action=com.ibm.team.dashboard.viewDashboard)
 
 ##[Maintenance schedule](/maintenance)
 
