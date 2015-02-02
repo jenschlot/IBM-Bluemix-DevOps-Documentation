@@ -7,7 +7,7 @@
  * Contract with IBM Corp.
 !}
 
-<div class="com-ibm-team-jazzhub-footer">
+<div id="footer" class="com-ibm-team-jazzhub-footer">
 	<div class="content-links-area plxl">
 		<div class="text-links">
 			<a href="{config.hubRootUrl}/help"><span>Contact</span></a>
