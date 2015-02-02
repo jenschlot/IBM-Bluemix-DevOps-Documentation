@@ -1,5 +1,7 @@
 
-<div class="item">
+<div class='item
+            {@eq key=uri_prefix value=sidebarSelection} selected {/eq}
+            {?children} has-children {/children}'>
 	<a href="{uri_prefix}">
 		{?icon}
 			<img class="sidebar-icon" src="/tutorials/images/sidebar/{icon}" />
@@ -13,12 +15,7 @@
 		</span>
 		{/children}
 	</a>
-	{! Arbitrary levels of child sidebar elements are supported.
-	   These child elements should be created/described in config.json
-	   in the same format as regular links.
-	   All links will be rendered, there is no collapse/expand
-	   functionality as of this writing. !}
 	{#children}
-		{>"common/sidebar_element":. /}
+		{>"common/sidebar_element":. sidebarSelection=sidebarSelection /}
 	{/children}
 </div>

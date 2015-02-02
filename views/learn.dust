@@ -7,7 +7,7 @@
 <script type="text/javascript" src="/tutorials/javascript/learn.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-	var selected_tab = '{learn_tab}'.split('/')[2]; /* /learn/what, /learn/cost, /learn/ */
+	var selected_tab = '{learnTab}'.split('/')[2]; /* /learn/what, /learn/cost, /learn/ */
 	switch (selected_tab) {
 		case 'what':
 			$('.button.enabled.what').addClass('selected');

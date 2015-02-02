@@ -74,7 +74,8 @@ _.each(
 		app.use(
 			content.uri_prefix, 
 			routes.section_router(app.get('env'), 
-					      content.section_name, 
+					      content.section_name,
+					      content.uri_prefix,
 					      path.join(__dirname, content.directory)
 			)
 		);
@@ -90,6 +91,7 @@ _.each(
 					      resource.section_name,
 					      resource.resource_name, 
 					      resource.img_icon,
+					      resource.uri_prefix,
 					      path.join(__dirname, resource.directory)
 			)
 		);
@@ -107,6 +109,7 @@ _.each(
 					      reference.parent_name, 
 					      reference.parent_uri, 
 					      reference.img_icon,
+					      reference.uri_prefix,
 					      path.join(__dirname, reference.directory)
 			)
 		);
@@ -121,7 +124,8 @@ _.each(
 			routes.topic_router(app.get('env'), 
 					      topic.section_name,
 					      topic.topic_name,
-					      topic.img_icon, 
+					      topic.img_icon,
+					      topic.uri_prefix,
 					      path.join(__dirname, topic.directory)
 			)
 		);
