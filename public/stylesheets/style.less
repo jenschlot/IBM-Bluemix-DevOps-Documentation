@@ -19,6 +19,7 @@
 @color-dark-darker-content-background: #111f2a;
 @color-dark-font: #82a3ab;
 @color-dark-link: #82a3ab;
+@color-teal-link: #00AED1;
 
 @color-title-teal: #00B299;
 @color-header2-grey: #94A3AB;
@@ -39,12 +40,6 @@
 @color-darktile-border: @color-accent-two;
 @color-darktile-font: @color-accent-two;
 
-/* Sidebar */
-@color-sidebar-dark-background: #152934;
-@color-sidebar-highlight: @color-dark-darker-content-background;
-@color-sidebar-accent: @color-accent-one;
-@color-sidebar-right-arrow: #DFE6EB;
-
 /* Buttons */
 @color-button-background: transparent;
 @color-button-border: #959595;
@@ -52,6 +47,19 @@
 @color-button-hover-background: #4de9d7;
 @color-button-hover-border: #4de9d7;
 @color-button-hover-font: #152934;
+
+/* Sidebar */
+@color-sidebar-dark-background: #26343F;
+@color-sidebar-unselected-text: #94A3AB;
+@color-sidebar-selected-bg: #1B252D;
+@color-sidebar-selected-teal: #00B299;
+@color-sidebar-right-arrow: #DFE6EB;
+
+/* Footer */
+@color-footer-dark-background: #1B252D;
+@color-footer-light-background: #3B4B54;
+@color-footer-link: rgba(255, 255, 255, 0.4);
+@color-footer-link-hover: @color-white;
 
 /*** Color Palette ***/
 
@@ -61,10 +69,6 @@
 @jh-color-link: @jh-color-blue;
 @jh-color-link-hover: #F47D64;
 
-@jh-color-footer-dark-background: #111f2a;
-@jh-color-footer-light-background: #3B4B54;
-@jh-color-footer-link: rgba(255, 255, 255, 0.4);
-@jh-color-footer-link-hover: #ffffff;
 @jh-color-white: #ffffff;
 @jh-color-blue: #00ADD0;
 @jh-color-dark-grey: #333333;
@@ -163,11 +167,11 @@ body {
 }
 
 	.@{jh-namespace} a {
-	  color: @color-tile-link;
+	  color: @color-teal-link;
 	  text-decoration: none;
 	  &:hover {
-	  	color: @color-tile-link;
 	  	text-decoration: underline;
+	  	cursor: pointer;
 	  }
 	}
 
@@ -679,18 +683,19 @@ a:hover {
 			margin-right: 5px;
 			margin-bottom: 0px;
 			font-size: 0.8em;
-			color: @color-white;
+			color: @color-sidebar-unselected-text;
 			border-left: 4px solid @color-sidebar-dark-background; /* to match width of selected */
 		}
 
 		> a:hover {
 			text-decoration: none;
-			background-color: @color-dark-darker-content-background;
+			background-color: @color-sidebar-selected-bg;
 		}
 
 		&.selected > a {
-			border-left: 4px solid @color-accent-one;
-			background-color: @color-dark-darker-content-background;
+			border-left: 4px solid @color-sidebar-selected-teal;
+			background-color: @color-sidebar-selected-bg;
+			color: @color-white;
 		}
 
 		// child elements
@@ -1112,13 +1117,6 @@ a:hover {
 		div.resource {
 			padding: 0px 45px 30px 45px;
 		}
-		.resource a {
-			color: #00aed1;
-			&:hover {
-				color: #00aed1;
-				text-decoration: underline;
-			}
-		}
 
 		.resource h2 {
 			font-size: 1.6rem;
@@ -1278,9 +1276,6 @@ a:hover {
 	div.reference {
 		padding: 0px 80px 30px 80px;
 	}
-	.reference > a {
-		color: #00aed1;
-		}
 
 	.reference > h2 {
 		font-size: 1.6rem;
@@ -1497,9 +1492,6 @@ a:hover {
 	div.topic {
 			padding: 0px 90px 30px 90px;
 		}
-		.topic > a {
-			color: #00aed1;
-		}
 
 		.topic > h2 {
 			font-size: 1.6rem;
@@ -1638,7 +1630,7 @@ a:hover {
 
 	.content-links-area {
 		height: 80px;
-		background-color: @jh-color-footer-dark-background;
+		background-color: @color-footer-dark-background;
 
 		.text-links {
 			overflow: hidden;
@@ -1647,7 +1639,7 @@ a:hover {
 			transform: translateY(-50%);
 
 			a {
-				color: @jh-color-footer-link;
+				color: @color-footer-link;
 				text-decoration: none;
 			}
 
@@ -1660,7 +1652,7 @@ a:hover {
 			}
 
 			a:hover > span {
-				color: @jh-color-footer-link-hover;
+				color: @color-footer-link-hover;
 				text-decoration: underline;
 			}
 		}
@@ -1669,7 +1661,7 @@ a:hover {
 	.footer-bottom {
 		overflow: hidden;
 		height: 20px;
-		background-color: @jh-color-footer-light-background;
+		background-color: @color-footer-light-background;
 		margin-bottom: -5px;
 	}
 }	
