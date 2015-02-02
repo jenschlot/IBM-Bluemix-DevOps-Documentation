@@ -1,7 +1,7 @@
 
 # Getting started with tracking and planning in IBM DevOps Services
 
-Last modified: 15 December 2014
+Last modified: 3 February 2015
 
 You can use the Track & Plan feature in IBM&reg; DevOps Services to manage any type of project by using an agile approach. After you enable the Track & Plan feature, you can start getting organized right away by creating and assigning work items for your project.
 
@@ -60,7 +60,7 @@ IBM Bluemix&trade; is a cloud-based software hosting and deployment service. To 
 
 1. Click **TRACK & PLAN**. 
 
-2. Review the My Work view. From this view, you can see all of the project work items that are assigned to you. Because you're the only person working on this project, assign ownership of all work items to your Jazz ID. The fastest way to do this is to create your work items from this view.
+2. Review the My Work view. From this view, you can see all of the project work items that are assigned to you. Because you're the only person working on this project, assign ownership of all work items to your alias. The fastest way to do this is to create your work items from this view.
 
 2. In the **Create a work item** field, type a summary for the first work item: `Create a simple chat page for our site.` Press **Enter** to create the task.  
 **Note**: The default work item type is **Task** (<img src="/tutorials/trackplan/images/task.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">). 

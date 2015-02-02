@@ -31,6 +31,10 @@ A development work item that tracks when changes by one team must be adopted by 
 A software development methodology that focuses on collaboration and quality to produce 
 complete product increments at regular intervals, called iterations or sprints.
 
+<a name="alias"></a>
+**alias**  
+A unique, publicly visible short user name used in Git repository paths, Track & Plan, and desktop and command line clients. An alias was formerly called a Jazz ID.
+
 <a name="app"></a>
 **app**  
 A web or mobile device application.

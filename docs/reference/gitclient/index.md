@@ -1,6 +1,6 @@
 #Work locally with IBM DevOps Services projects and Git source control
 
-Last modified: 9 January 2015
+Last modified: 3 February 2015
 
 If you use a Git repository for your IBM&reg; DevOps Services project, you can manage your repository and work locally or by using the integrated web IDE in DevOps Services. If you install Git, you can use the [command line to manage your repository](#command_line_git). If you work in Eclipse, you can install the EGit plug-in for version control.  For more information, [see using EGit in Eclipse](#eclipse_using_egit).
 
@@ -49,7 +49,7 @@ Check whether Git is installed. On a command line, enter `git version`. If Git i
 
 4. Change the directory to where you want the local copy of the Git repository to be.
 
-5. Type `git clone`, paste the Git URL, and press Enter. When prompted, enter your Jazz ID and IBM id password.
+5. Type `git clone`, paste the Git URL, and press Enter. When prompted, enter your alias and IBM id password.
 
 After the download is complete, you have a local repository of the files for your project. For more information about using Git,  [see the Git documentation](http://git-scm.com/doc).
 
@@ -103,7 +103,7 @@ If you use Eclipse and have a project that uses Git for source control, you can 
 
 6. In the **URI** field, paste the Git URL.
 
-6. In the **Authentication** section, enter your Jazz ID and IBM id password, and click **Next**.
+6. In the **Authentication** section, enter your alias and IBM id password, and click **Next**.
 
 7. Select the branches to work on and click **Next**.
 
@@ -160,7 +160,7 @@ If you use Eclipse, you can use the Rational Team Concert plug-in to access your
 
  ![Manage JazzHub Projects button within the Team Artifacts View](./images/jazzhubfeature.png)
 
-3. In the **Manage JazzHub Projects** window, enter your Jazz ID and IBM id password to sign in to DevOps Services, and click **Next**
+3. In the **Manage JazzHub Projects** window, enter your alias and IBM id password to sign in to DevOps Services, and click **Next**
 
 4. Select the DevOps Services projects to connect to and click **Finish**.
 

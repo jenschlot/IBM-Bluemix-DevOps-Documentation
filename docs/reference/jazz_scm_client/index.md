@@ -1,6 +1,6 @@
 # Work locally with IBM DevOps Services projects and Jazz source control
 
-Last modified: 9 January 2015
+Last modified: 3 February 2015
 
 If you use Jazz Source Control Management (SCM) for your IBM&reg; DevOps Services project you can  work locally or by using the integrated web IDE. If you work in Eclipse, you can install the IBM&reg; Rational Team Concert&trade; plug-in for version control.
 
@@ -61,7 +61,7 @@ Option 1: Connect by using the Manage JazzHub Projects tool
 2. Click the **Manage JazzHub Projects** icon.
  ![Manage JazzHub Projects button within the Team Artifacts View](./images/jazzhubfeature.png)
 
-3. In the **Manage JazzHub Projects** window, enter your Jazz ID and IBM id password to sign in to DevOps Services, and then click **Next**
+3. In the **Manage JazzHub Projects** window, enter your alias and IBM id password to sign in to DevOps Services, and then click **Next**
 
 4. Select the DevOps Services projects to connect to and click **Finish**.
 
@@ -77,7 +77,7 @@ Option 2: Connect by accepting a team invitation
 
 5. Paste the invitation text, click **Next**, and then click **Finish**.
 
-6. Enter your Jazz ID and IBM id password to sign in  to DevOps Services.
+6. Enter your alias and IBM id password to sign in  to DevOps Services.
 
 You connected to your DevOps Services project in Eclipse. To see the new repository connection and project area, click the **Team Artifacts** tab.
 
