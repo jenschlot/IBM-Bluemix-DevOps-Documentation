@@ -105,7 +105,7 @@ html {
 
 body {
   margin: 0;
-  font: 100% "Helvetica Neue",Helvetica, Arial, sans-serif;
+  font: 100% "HelvLightIBM", "HelveticaNeue", "Helvetica Neue", "Helvetica", "Segoe UI", "Segoe", "Calibri", "Roboto", "Droid Sans", "Arial Unicode MS", Arial, sans-serif;
 }
 
 /******************************************************************************
@@ -606,7 +606,6 @@ a:hover {
 	background-color: #5bc0de;
 	color: white;
 	font-size: 0.813em;
-	font-family: Arial, sans-serif;
 	line-height: 1.15rem;
 	text-align: center;
 	min-width: 980px;
@@ -676,13 +675,17 @@ a:hover {
 			&:focus {
 				outline: none;
 			}
+
+			.sidebar-element-title {
+				overflow: hidden;
+			}
 			position: relative;
 			display: inline-block;
 			width: 100%;
 			padding: 8px 20px 2px 20px;
 			margin-right: 5px;
 			margin-bottom: 0px;
-			font-size: 0.8em;
+			font-size: 1.0em;
 			color: @color-sidebar-unselected-text;
 			border-left: 4px solid @color-sidebar-dark-background; /* to match width of selected */
 		}
@@ -709,8 +712,8 @@ a:hover {
 		.sidebar-icon {
 			width: 28px;
 			height: 28px;
-			padding-right: 0.7em;
-			padding-bottom: 0.6em;
+			padding-right: 0.5em;
+			padding-bottom: 0.5em;
 			float: left;
 		}
 

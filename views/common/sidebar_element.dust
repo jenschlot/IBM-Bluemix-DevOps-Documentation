@@ -6,9 +6,9 @@
 		{?icon}
 			<img class="sidebar-icon" src="/tutorials/images/sidebar/{icon}" />
 		{:else}
-			<div class="sidebar-icon-missing"></div>
+			<img class="sidebar-icon-missing" />
 		{/icon}
-		{title}
+		<p class="sidebar-element-title">{title}</p>
 		{?children}
 		<span class="sidebar-right-arrow">
 			<span class="arrow"></span>
