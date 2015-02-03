@@ -38,6 +38,7 @@
 			</div>
 
 			{>"common/footer"/}
+
 		</div>
 		{>"common/google_analytics"/}
 	</body>
