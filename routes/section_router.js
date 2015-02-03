@@ -14,6 +14,17 @@ var renderSection = function(req, res, next, headerContent) {
 		headerStyling = config.compositionServiceStylingEndpoint;
 	}
 
+	// WORKAROUND NOTE
+	// Tutorials are rendered implicitly by their directory, instead of
+	// explicitly by their full path (like the other content types do)
+	// The uri prefix comes from config.json and is the **dir name**.
+	// The request path comes from the request itself, which is the
+	//   rest of the URL excluding the dir name, and may contain a 
+	//   trailing slash.
+	// req.uriprefix = '/tutorials' || '/maintenance'
+	// req.path = '/jazzeditor' || '/jazzeditor/' || /jazzeditorjava' || ..etc..
+	var sidebarSelection = req.uriprefix + req.path.replace(/\/$/, "");
+
 	res.render(
 		'document',
 		{ 
@@ -23,7 +34,7 @@ var renderSection = function(req, res, next, headerContent) {
 			headerContent: headerContent,
 			headerStyling: headerStyling,
 			sidebarLinks: sidebarLinks,
-			sidebarSelection: req.uriprefix
+			sidebarSelection: sidebarSelection
 		}
 	);
 }
