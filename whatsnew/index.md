@@ -62,7 +62,7 @@ Previously, the task breakdown action was accessible only from the Backlog or Sp
 
 ### November 10, 2014
 
-In the DevOps Services web integrated development environment (IDE), you'll notice signicant changes: several new user interfaces (UIs) and more capabilities.
+In the DevOps Services web integrated development environment (IDE), you'll notice significant changes: several new user interfaces (UIs) and more capabilities.
 
 ## Git UI
 
