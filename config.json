@@ -305,15 +305,15 @@
 					"uri_prefix": "/tutorials/jazzeditorjava"
 				},
 				{
-					"title": "Developing with Git using the Web IDE",
+					"title": "Developing with Git in web IDE",
 					"uri_prefix": "/tutorials/gitweb"
 				},
 				{
-					"title": "Developing in Node.js using the Web IDE",
+					"title": "Developing in Node.js in web IDE",
 					"uri_prefix": "/tutorials/jazzweb"
 				},
 				{
-					"title": "Developing in Java using the Eclipse IDE",
+					"title": "Developing in Java in the Eclipse IDE",
 					"uri_prefix": "/tutorials/jazzrtc"
 				},
 				{
@@ -321,42 +321,54 @@
 					"uri_prefix": "/tutorials/trackplan"
 				}
 			]
+		},{
+			"title": "Tasks",
+			"icon": "docs-reference.svg",
+			"uri_prefix": "/docs/all#ref",
+			"children": [
+				{
+					"title": "Start a project",
+					"uri_prefix": "/docs/reference/startproject"
+				},
+		
+				{
+					"title": "Manage projects with Git clients",
+					"uri_prefix": "/docs/reference/gitclient"
+				},
+				{
+					"title": "Manage projects with  Jazz source control",
+					"uri_prefix": "/docs/reference/jazz_scm_client"
+				},
+				
+				{
+					"title": "Administer a project",
+					"uri_prefix": "/docs/reference/projectadmin"
+				},
+				{
+					"title": "Configure billing for Bluemix",
+					"uri_prefix": "/docs/reference/billing"
+				}
+			
+			]
 		},
 		{
 			"title": "Reference",
 			"icon": "docs-reference.svg",
 			"uri_prefix": "/docs/all#ref",
 			"children": [
+			
 				{
-					"title": "Start a project in DevOps Services",
-					"uri_prefix": "/docs/reference/startproject"
-				},
-				{
-					"title": "Git reference",
+					"title": "Git",
 					"uri_prefix": "/docs/reference/git"
 				},
+				
 				{
-					"title": "Using Git source control locally with DevOps Services",
-					"uri_prefix": "/docs/reference/gitclient"
-				},
-				{
-					"title": "Using Jazz source control locally with DevOps Services",
-					"uri_prefix": "/docs/reference/jazz_scm_client"
-				},
-				{
-					"title": "Build and Deploy to Bluemix reference",
+					"title": "Build and Deploy to Bluemix",
 					"uri_prefix": "/docs/reference/deploy"
 				},
+				
 				{
-					"title": "Administer a Project",
-					"uri_prefix": "/docs/reference/projectadmin"
-				},
-				{
-					"title": "Configure billing for Bluemix Build and Deploy",
-					"uri_prefix": "/docs/reference/billing"
-				},
-				{
-					"title": "Using Track and Plan",
+					"title": "Track and Plan",
 					"uri_prefix": "/docs/trackplan/trackplanfg"
 				}
 			]
