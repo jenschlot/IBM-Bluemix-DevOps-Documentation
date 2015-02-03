@@ -11,13 +11,12 @@ var renderLearn = function(req, res, next, headerContent) {
 	}
 
 	res.render('learn', {
-		'sectionname': 'Docs',
-		navbarSelection: 'docs',
+		sectionname: 'Docs',
 		headerContent: headerContent,
 		headerStyling: headerStyling,
 		sidebarLinks: sidebarLinks,
-		selected_uri_prefix: '/learn',
-		learn_tab: req.path
+		sidebarSelection: '/learn',
+		learnTab: req.path
 	});
 }
 

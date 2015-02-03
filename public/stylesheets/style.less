@@ -699,11 +699,11 @@ a:hover {
 		}
 
 		// child elements
-		& .item {
-			display: none; // shown via javascript when active
-			> a {
-				padding-left: 32px;
-			}
+		& .item:not(.selected) {
+			display: none;
+		}
+		& .item > a {
+			padding-left: 32px;
 		}
 
 		.sidebar-icon {

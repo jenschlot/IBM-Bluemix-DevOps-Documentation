@@ -25,12 +25,12 @@ var renderResource = function(req, res, next, headerContent) {
 			headerContent: headerContent,
 			headerStyling: headerStyling,
 			sidebarLinks: sidebarLinks,
-			selected_uri_prefix: req.path
+			sidebarSelection: req.uriprefix
 		}
 	);
 }
 
-module.exports =  function (env, section_name, resource_name, img_icon, directory) {
+module.exports =  function (env, section_name, resource_name, img_icon, uri_prefix, directory) {
 	var router = express.Router();
 	var markdown_middleware = require('jazzhub-markdown-middleware')(directory);
 	var static_in_dir_middleware = express.static(directory);
@@ -44,6 +44,7 @@ module.exports =  function (env, section_name, resource_name, img_icon, director
 			req.sectionname = section_name;
 			req.resourcename = resource_name;
 			req.imgicon = img_icon;
+			req.uriprefix = uri_prefix;
 			next();
 		},
 		less_in_public_middleware,

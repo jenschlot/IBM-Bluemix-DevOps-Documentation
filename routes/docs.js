@@ -11,12 +11,11 @@ var renderDocsLanding = function(req, res, next, headerContent) {
 	}
 
 	res.render('docs_landing', {
-		'sectionname': 'Docs',
-		navbarSelection: 'docs',
+		sectionname: 'Docs',
 		headerContent: headerContent,
 		headerStyling: headerStyling,
 		sidebarLinks: sidebarLinks,
-		selected_uri_prefix: req.path
+		sidebarSelection: '/docs'
 	});
 }
 
