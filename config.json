@@ -267,12 +267,12 @@
 	],
 	"sidebarLinks": [
 		{
-			"title": "IBM DevOps Services",
+			"title": "Docs",
 			"icon": "docs-general.svg",
 			"uri_prefix": "/docs"
 		},
 		{
-			"title": "Learn about DevOps Services",
+			"title": "Overview",
 			"uri_prefix": "/learn"
 		},
 		{
@@ -309,11 +309,11 @@
 					"uri_prefix": "/tutorials/gitweb"
 				},
 				{
-					"title": "Developing Bluemix applications in Node.js using the Web IDE",
+					"title": "Developing in Node.js using the Web IDE",
 					"uri_prefix": "/tutorials/jazzweb"
 				},
 				{
-					"title": "Developing Bluemix applications in Java using the Eclipse IDE",
+					"title": "Developing in Java using the Eclipse IDE",
 					"uri_prefix": "/tutorials/jazzrtc"
 				},
 				{
