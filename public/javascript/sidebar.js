@@ -1,8 +1,8 @@
 
 $(document).ready(function() {
 	var $linksWithChildren = $(".sidebar-container .item.has-children");
+	$linksWithChildren.children('.item.selected').siblings().show();
 	resizePgOnSidebarExpandCollapse();
-	$linksWithChildren.children('.item.selected').siblings().show(300);
 	$linksWithChildren.children('a').click(function(event) {
 		var resizedAlready = false;
 		$(this).siblings('.item').toggle(300, function() {
