@@ -1,12 +1,12 @@
 #Build and Deploy reference
 
-Last modified: 15 January 2015
+Last modified: 3 February 2015
 
 You can get your code on the web in multiple ways by using IBM® DevOps Services, which integrates with IBM® Bluemix™.
 
 ---
 ##[Manual deployment from the web IDE](#manual)
-* [The Run Bar explained][#runbar]
+* [The Run Bar explained](#runbar)
 
 ##[Auto-deployment](#auto)
 * [Overview](#autohow)
