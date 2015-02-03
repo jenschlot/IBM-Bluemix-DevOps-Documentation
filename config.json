@@ -297,27 +297,27 @@
 			"uri_prefix": "/docs/all#tut",
 			"children": [
 				{
-					"title": "Getting started using Node.js",
+					"title": "Get started with Node.js",
 					"uri_prefix": "/tutorials/jazzeditor"
 				},
 				{
-					"title": "Getting started using Java",
+					"title": "Get started with Java",
 					"uri_prefix": "/tutorials/jazzeditorjava"
 				},
 				{
-					"title": "Developing with Git in web IDE",
+					"title": "Develop with Git in the web IDE",
 					"uri_prefix": "/tutorials/gitweb"
 				},
 				{
-					"title": "Developing in Node.js in web IDE",
+					"title": "Develop with Node.js in the web IDE",
 					"uri_prefix": "/tutorials/jazzweb"
 				},
 				{
-					"title": "Developing in Java in the Eclipse IDE",
+					"title": "Develop with Java in the Eclipse IDE",
 					"uri_prefix": "/tutorials/jazzrtc"
 				},
 				{
-					"title": "Getting started with Tracking and Planning",
+					"title": "Get started with Track & Plan",
 					"uri_prefix": "/tutorials/trackplan"
 				}
 			]
@@ -327,25 +327,25 @@
 			"uri_prefix": "/docs/all#ref",
 			"children": [
 				{
-					"title": "Start a project",
+					"title": "Starting a project",
 					"uri_prefix": "/docs/reference/startproject"
 				},
 		
 				{
-					"title": "Manage projects with Git clients",
+					"title": "Managing projects with Git clients",
 					"uri_prefix": "/docs/reference/gitclient"
 				},
 				{
-					"title": "Manage projects with  Jazz source control",
+					"title": "Managing projects with  Jazz SCM",
 					"uri_prefix": "/docs/reference/jazz_scm_client"
 				},
 				
 				{
-					"title": "Administer a project",
+					"title": "Administering a project",
 					"uri_prefix": "/docs/reference/projectadmin"
 				},
 				{
-					"title": "Configure billing for Bluemix",
+					"title": "Configuring billing for Bluemix",
 					"uri_prefix": "/docs/reference/billing"
 				}
 			
@@ -363,12 +363,12 @@
 				},
 				
 				{
-					"title": "Build and Deploy to Bluemix",
+					"title": "Build & Deploy",
 					"uri_prefix": "/docs/reference/deploy"
 				},
 				
 				{
-					"title": "Track and Plan",
+					"title": "Track & Plan",
 					"uri_prefix": "/docs/trackplan/trackplanfg"
 				}
 			]
