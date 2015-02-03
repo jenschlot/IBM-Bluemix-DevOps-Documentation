@@ -407,6 +407,8 @@ a img {
 
 7.0 Learn Page
 
+8.0 Pricing Page
+
 **********************************************************************
 *********************************************************************/
 
@@ -1730,6 +1732,10 @@ a:hover {
 					text-decoration: none;
 				}
 
+				&:focus {
+					outline: none;
+				}
+
 				&.enabled:hover {
 					background-color: #3b4b54;
 				}
@@ -1755,15 +1761,6 @@ a:hover {
 					}
 					.enabled:hover {
 						color: @color-button-what;
-					}
-				}
-
-				&.cost {
-					@color-button-cost: #00aed1;
-					background-color: @color-button-cost;
-					border-bottom-color: @color-button-cost;
-					.enabled:hover {
-						color: @color-button-cost;
 					}
 				}
 
@@ -2075,5 +2072,17 @@ a:hover {
 			top: 50px;
 			left: 175px;
 		}
+	}
+}
+
+/*******************************************************************
+8.0 Pricing Page
+*******************************************************************/
+
+.@{jh-namespace}-Pricing {
+	.com-ibm-team-jazzhub-Learn;
+
+	.learn-content-section.pricing {
+		padding-top: 1.25em;
 	}
 }

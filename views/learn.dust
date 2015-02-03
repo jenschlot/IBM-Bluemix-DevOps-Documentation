@@ -7,21 +7,13 @@
 <script type="text/javascript" src="/tutorials/javascript/learn.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-	var selected_tab = '{learnTab}'.split('/')[2]; /* /learn/what, /learn/cost, /learn/ */
-	switch (selected_tab) {
-		case 'what':
-			$('.button.enabled.what').addClass('selected');
-			$('#what').show();
-			break;
-		case 'cost':
-			$('.button.enabled.cost').addClass('selected');
-			$('#cost').show();
-			break;
-		case 'overview':
-		default:
-			$('.button.enabled.overview').addClass('selected');
-			$('#overview').show();
-			break;
+	var selected_tab = '{learnTab}'.split('/')[2]; /* /learn/what, /learn/ */
+	if (selected_tab === 'what') {
+		$('.button.enabled.what').addClass('selected');
+		$('#what').show();
+	} else {
+		$('.button.enabled.overview').addClass('selected');
+		$('#overview').show();
 	}
 });
 </script>
@@ -29,19 +21,14 @@ $(document).ready(function() {
 	<div id="content" class="com-ibm-team-jazzhub-Learn common-fluid-content">
 		<div class="button-row">
 			<div class="jh-columns button-area">
-				<div class="jh-columns-4-12">
+				<div class="jh-columns-6-12">
 					<a class="button enabled overview" href="/learn">
 						IBM DevOps Services
 					</a>
 				</div>
-				<div class="jh-columns-4-12">
+				<div class="jh-columns-6-12">
 					<a class="button enabled what" href="/learn/what">
 						Projects
-					</a>
-				</div>
-				<div class="jh-columns-4-12">
-					<a class="button enabled cost" href="/learn/cost">
-						Pricing
 					</a>
 				</div>
 			</div>
@@ -211,50 +198,6 @@ $(document).ready(function() {
 				</div>
 				<div class="jh-columns-8-12 plxs">
 					<div class="dashboard-image"></div>
-				</div>
-			</div>
-		</div>
-		<div class="learn-content-section no-display" id="cost">
-			<div class="jh-columns rela">
-				<div class="jh-columns-6-12 prxs mbxl">
-					<div class="inverted-pentagon">
-						<div class="grey-background ptm center-text blue-text">
-							<div class="zero-dollars">$0*</div>
-						</div>
-						<div class="down-arrow cost-down-arrow-grey"></div>
-					</div>
-					<div class="ptl prm plm pbm">
-						<h4 class="mbs">Public projects</h4>
-						<p class="mts">Public projects include free Track & Plan, Web IDE and Git or Jazz SCM source control.</p>
-						<p class="mts">* Public projects configured to deploy to the <a target="_blank" href="https://bluemix.net">IBM Bluemix</a>
-						cloud platform are charged for Delivery Pipeline (Build & Deploy) usage in accordance with the 
-						<a target="_blank" href="https://bluemix.net/#/pricing">Bluemix pricing plan</a> for this service.</p>
-					</div>
-				</div>
-				<div class="jh-columns-6-12 plxs mbxl rela">
-					<div class="inverted-pentagon">
-						<div class="blue-background ptm center-text">
-							<div class="zero-dollars white-text">
-								$0**
-								<div class="white-text free-3-users-text">get started <br /> for free</div>
-							</div>
-						</div>
-						<div class="down-arrow cost-down-arrow-blue"></div>
-					</div>
-					<div class="ptl prm plm pbm">
-						<h4 class="mbs">Private projects</h4>
-						<p class="mts">Private projects include free Web IDE, and Git or Jazz source control management (SCM). </p>
-						<p class="mts">** Private projects configured to deploy to the <a target="_blank" href="https://bluemix.net">IBM Bluemix</a> cloud platform 
-						are charged for Delivery Pipeline (Build & Deploy) and Track & Plan usage in accordance with the 
-						<a target="_blank" href="https://bluemix.net/#/pricing">Bluemix pricing plan</a> for these services.
-						(Under the Standard Plan, Track & Plan is free for 3 users in Private Projects. Additional plans are available. <a target="_blank" href="https://bluemix.net/#/pricing">Learn More</a>.)</p>
-					</div>
-				</div>
-			</div>
-			<div class="jh-columns rela">
-				<div class="jh-columns-12-12 plxs mbxl rela">
-					<p>In addition to the above, we plan to implement charging for non-Bluemix projects soon.  IBM DevOps Services will continue to be free until Dec 31, 2014 for users who registered before Dec 31, 2013.  In the future we may introduce limits to what is free for some services, such as storage, build and deployment.
-					</p>
 				</div>
 			</div>
 		</div>
