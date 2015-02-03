@@ -9,22 +9,13 @@
 		{>"common/machine_translation"/}
 	</div>
 	<div id="content" class="com-ibm-team-jazzhub-Docs content fluid-content">
-		<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none"></div>
-			<div class="container-fluid">
-				{@eq key=resourcename value="Support"}
-				<ol class="hidden">
-				{:else}
-				<ol class="breadcrumb">
-				{/eq}
-					<li><a href="/docs">Docs</a></li>
-					<li><a href="/docs#key-resources">Key Resources</a></li>
-					<li class="current">{resourcename}</li>
-				</ol>
-				<div class="row ptm">
-					<div class="col-md-12 resource">
-						{markdown|s}
-						{>"common/next_steps"/}
-					</div>
+		<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none">
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 resource">
+					{markdown|s}
+					{>"common/next_steps"/}
 				</div>
 			</div>
 		</div>
