@@ -67,7 +67,7 @@ Click **Save** and you're all set!
 ---
 ##Add the Delivery Pipeline service
 
-Add the Delivery Pipeline service to the app.
+Add the Delivery Pipeline service to the app. The service allows you to use several of the build and deployment capabilities later. 
 
 1. Click the running instance of you app to view it from Bluemix. If prompted, enter your IBM id and password.
 ![Bluemix Instance](/tutorials/jazzrtc/images/running_instance.png "Bluemix Instance")
