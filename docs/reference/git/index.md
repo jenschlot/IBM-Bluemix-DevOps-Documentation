@@ -1,6 +1,6 @@
 #Git reference
 
-Last modified: 14 January 2015
+Last modified: 3 February 2015
 
 If you store your code in a Git repository that is hosted by IBM® DevOps Services, you can work with code in a Git terminal or in a web integrated development environment (IDE). If you work on a local workstation, you can use Git terminal commands to edit the contents of your hosted repository. If you use the web IDE, you don't need the Git terminal: you can run many common Git commands in the web IDE.  
 
@@ -69,7 +69,7 @@ If you want to code and test locally, set up a local repository.
 
 1. When you are prompted, enter your IBM id and password.  
 **Note**: If you are not prompted for your password, do not continue.  Delete your cloned repository
-and repeat the steps by using a modified repository address: `https://your_jazz_id:your_IBM_ID_password@hub.jazz.net/jazz_id/project_name`.
+and repeat the steps by using a modified repository address: `https://your_alias:your_IBM_ID_password@hub.jazz.net/alias/project_name`.
 
 1. After your repository replicates, move into your new local repository.  
 
@@ -466,7 +466,7 @@ When you push, if a "406 Not Acceptable" error occurs, complete these steps:
 
 1. Upgrade your version of Git.
 
-1. If you cannot upgrade Git, add your repository again but place your Jazz ID in the repository URL.  For example: `https://your_Jazz_ID@hub.jazz.net/Jazz_ID/project_name`.
+1. If you cannot upgrade Git, add your repository again but place your alias in the repository URL.  For example: `https://your_alias@hub.jazz.net/alias/project_name`.
 
 ---
 <a name="delete_a_branch_from_origin"></a>

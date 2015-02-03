@@ -1,4 +1,4 @@
-Last modified: 12 December 2014
+Last modified: 3 February 2015
 
 This glossary provides terms and definitions for the IBM&reg; DevOps Services features.
 
