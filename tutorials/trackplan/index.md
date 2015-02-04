@@ -1,7 +1,7 @@
 
 # Getting started with tracking and planning in IBM DevOps Services
 
-Last modified: 3 February 2015
+Last modified: 5 February 2015
 
 You can use the Track & Plan feature in IBM&reg; DevOps Services to manage any type of project by using an agile approach. After you enable the Track & Plan feature, you can start getting organized right away by creating and assigning work items for your project.
 
@@ -138,7 +138,7 @@ Notice the new text after your summary. When you set an attribute, the text code
 **Tip**: You can enter most of the attributes by typing their text code instead of using the mouse. 
 
   8. Enter these attributes:
-    * @:*< yourJazzID >* 
+    * @:*< yourAlias >* 
     * \#server 
     * $high 
 
