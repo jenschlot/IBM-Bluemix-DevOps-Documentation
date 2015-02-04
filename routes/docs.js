@@ -26,6 +26,7 @@ module.exports = function (req, res, next) {
 		"selection": "navbar.entry.help.docs",
 		"userid": res.locals.user.userId,
 		"username": res.locals.user.name,
+		"ibmId": res.locals.user.ibmId
 	};
 
 	NavbarClient.getNavbar(args, req, function (error, content) {

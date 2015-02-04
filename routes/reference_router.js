@@ -62,6 +62,7 @@ module.exports =  function (env, section_name, resource_name, parent_name, paren
 				"selection": navbarSelection,
 				"userid": res.locals.user.userId,
 				"username": res.locals.user.name,
+				"ibmId": res.locals.user.ibmId
 			};
 
 			NavbarClient.getNavbar(args, req, function (error, content) {

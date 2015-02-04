@@ -56,6 +56,7 @@ module.exports =  function (env, section_name, topic_name, img_icon, uri_prefix,
 				"selection": 'navbar.entry.help.docs',
 				"userid": res.locals.user.userId,
 				"username": res.locals.user.name,
+				"ibmId": res.locals.user.ibmId
 			};
 
 			NavbarClient.getNavbar(args, req, function (error, content) {
