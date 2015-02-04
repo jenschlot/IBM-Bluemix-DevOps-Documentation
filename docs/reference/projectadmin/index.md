@@ -1,6 +1,6 @@
 # Administer a project in IBM DevOps Services 
 
-Last modified: 30 January 2015
+Last modified: 4 February 2015
 
 To administer IBM&reg; DevOps Services projects, you must be a project admin or a project owner. A project can have multiple admins, but it can only have one owner. 
 
@@ -11,6 +11,7 @@ Each project admin can perform these tasks:
 * Accept or decline when others request to join the project
 * Promote members to admins 
 * Demote admins to members (including self)
+* Edit Track & Plan sprints
 * Update these project settings: 
 
 	a. Change the project photo and description
