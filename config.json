@@ -160,6 +160,13 @@
 			"directory": "docs/all"
 		},
 		{
+			"uri_prefix": "/docs/overview",
+			"section_name": "Docs",
+			"topic_name": "Overview",
+			"img_icon": "overview",
+			"directory": "docs/overview"
+		},
+		{
 			"uri_prefix": "/docs/academics",
 			"section_name": "Docs",
 			"topic_name": "Academics",
@@ -273,7 +280,7 @@
 		},
 		{
 			"title": "Overview",
-			"uri_prefix": "/learn"
+			"uri_prefix": "/docs/overview"
 		},
 		{
 			"title": "Pricing",

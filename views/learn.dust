@@ -225,7 +225,7 @@ $(document).ready(function() {
 					</div>
 					<div class="ptl prm plm pbm">
 						<h4 class="mbs">Public projects</h4>
-						<p class="mts">Public projects include free Track & Plan, Web IDE and Git or Jazz SCM source control.</p>
+						<p class="mts">Public projects include free Track & Plan, Web IDE and Git or Jazz source control management (SCM).</p>
 						<p class="mts">* Public projects configured to deploy to the <a target="_blank" href="https://bluemix.net">IBM Bluemix</a>
 						cloud platform are charged for Delivery Pipeline (Build & Deploy) usage in accordance with the 
 						<a target="_blank" href="https://bluemix.net/#/pricing">Bluemix pricing plan</a> for this service.</p>
@@ -247,13 +247,13 @@ $(document).ready(function() {
 						<p class="mts">** Private projects configured to deploy to the <a target="_blank" href="https://bluemix.net">IBM Bluemix</a> cloud platform 
 						are charged for Delivery Pipeline (Build & Deploy) and Track & Plan usage in accordance with the 
 						<a target="_blank" href="https://bluemix.net/#/pricing">Bluemix pricing plan</a> for these services.
-						(Under the Standard Plan, Track & Plan is free for 3 users in Private Projects. Additional plans are available. <a target="_blank" href="https://bluemix.net/#/pricing">Learn More</a>.)</p>
+						(Under the Standard Plan, Track & Plan is free for 3 users in Private Projects. For additional plans, see the <a target="_blank" href="https://bluemix.net/#/pricing">Bluemix pricing plan</a>.)</p>
 					</div>
 				</div>
 			</div>
 			<div class="jh-columns rela">
 				<div class="jh-columns-12-12 plxs mbxl rela">
-					<p>In addition to the above, we plan to implement charging for non-Bluemix projects soon.  IBM DevOps Services will continue to be free until Dec 31, 2014 for users who registered before Dec 31, 2013.  In the future we may introduce limits to what is free for some services, such as storage, build and deployment.
+					<p>To set up your account and learn more, see <a href="/docs/reference/billing">Configure IBM Bluemix billing for IBM DevOps Services</a>.
 					</p>
 				</div>
 			</div>
