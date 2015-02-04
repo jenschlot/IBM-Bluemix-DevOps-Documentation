@@ -69,7 +69,7 @@
 
 					<div class="col-md-6 col-sm-12 col-xs-12" id="col-offset">
 						<div class="row" id="doc-container-r">				
-							<a class="section" "href="/docs/reference/git">
+							<a class="section" href="/docs/reference/git">
 							<div class="col-md-7 col-sm-9 col-xs-9 col-md-push-5 callout" id="4">
 								<p class="description">
 								<strong>Git</strong> in IBM DevOps Services Reference
