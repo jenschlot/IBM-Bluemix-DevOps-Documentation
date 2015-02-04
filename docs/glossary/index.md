@@ -33,7 +33,7 @@ complete product increments at regular intervals, called iterations or sprints.
 
 <a name="alias"></a>
 **alias**  
-A unique, publicly visible short user name used in Git repository paths, Track & Plan, and desktop and command line clients. An alias was formerly called a Jazz ID.
+A unique, publicly visible short name used in Git repository paths, Track & Plan, and desktop and command line clients. If you have an existing Jazz ID, that is used as your alias.
 
 <a name="app"></a>
 **app**  

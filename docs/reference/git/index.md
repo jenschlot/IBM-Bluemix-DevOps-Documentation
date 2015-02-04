@@ -98,7 +98,7 @@ and repeat the steps by using a modified repository address: `https://your_alias
 
 ###Integrate local commits in the web IDE
 
-When you work in the web IDE, both your local and remote repositories are hosted on the cloud. To view the your changes that you made in a local repository that is stored outside of DevOps Services, you must sync to your remote repository.
+When you work in the web IDE, both your local and remote repositories are hosted on the cloud. To view the  changes that you made in a local repository that is stored outside of DevOps Services, you must sync to your remote repository.
 
 1. Click **SYNC**. Sync combines the fetch, rebase, and push commands.
 
