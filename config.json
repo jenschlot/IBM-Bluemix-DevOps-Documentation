@@ -42,6 +42,13 @@
 	],
 	"resource": [
 		{
+			"uri_prefix": "/docs/overview",
+			"section_name": "Docs",
+			"topic_name": "Overview",
+			"img_icon": "overview",
+			"directory": "docs/overview"
+		},
+		{
 			"uri_prefix": "/whatsnew",
 			"section_name": "Docs",
 			"resource_name": "What's New",
@@ -158,13 +165,6 @@
 			"topic_name": "All",
 			"img_icon": "all",
 			"directory": "docs/all"
-		},
-		{
-			"uri_prefix": "/docs/overview",
-			"section_name": "Docs",
-			"topic_name": "Overview",
-			"img_icon": "overview",
-			"directory": "docs/overview"
 		},
 		{
 			"uri_prefix": "/docs/academics",
@@ -328,7 +328,8 @@
 					"uri_prefix": "/tutorials/trackplan"
 				}
 			]
-		},{
+		},
+		{
 			"title": "Tasks",
 			"icon": "docs-reference.svg",
 			"uri_prefix": "/docs/all#ref",
@@ -337,7 +338,6 @@
 					"title": "Starting a project",
 					"uri_prefix": "/docs/reference/startproject"
 				},
-		
 				{
 					"title": "Managing projects locally with Git clients",
 					"uri_prefix": "/docs/reference/gitclient"
@@ -346,7 +346,6 @@
 					"title": "Managing projects locally with Jazz SCM",
 					"uri_prefix": "/docs/reference/jazz_scm_client"
 				},
-				
 				{
 					"title": "Administering a project",
 					"uri_prefix": "/docs/reference/projectadmin"
@@ -355,7 +354,6 @@
 					"title": "Configuring billing for Bluemix",
 					"uri_prefix": "/docs/reference/billing"
 				}
-			
 			]
 		},
 		{
@@ -363,17 +361,14 @@
 			"icon": "docs-reference.svg",
 			"uri_prefix": "/docs/all#ref",
 			"children": [
-			
 				{
 					"title": "Git",
 					"uri_prefix": "/docs/reference/git"
 				},
-				
 				{
 					"title": "Build & Deploy",
 					"uri_prefix": "/docs/reference/deploy"
 				},
-				
 				{
 					"title": "Track & Plan",
 					"uri_prefix": "/docs/trackplan/trackplanfg"
