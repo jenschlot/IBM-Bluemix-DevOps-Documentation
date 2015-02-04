@@ -5,21 +5,20 @@ As we continue to improve IBM DevOps Services, we will occasionally be required 
 The duration of these outage windows is variable depending upon what needs to be done,  however for planning purposes the schedule below represents the maximum outage time expected during a given window.
 
 
-## January 2015
+## February 2015
 
 | Date       | Day      | Time                | Duration |
 |------------|----------|---------------------|----------|
-| 01/01/2015 | Thursday | CANCELLED           | CANCELLED|
-| 01/03/2015 | Saturday | CANCELLED           | CANCELLED|
-| 01/06/2015 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
-| 01/08/2015 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
-| 01/10/2015 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
-| 01/13/2015 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
-| 01/15/2015 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
-| 01/17/2015 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
-| 01/20/2015 | Tuesday  | CANCELLED           |CANCELLED |
-| 01/22/2015 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
-| 01/24/2015 | Saturday | CANCELLED           |CANCELLED |
-| 01/27/2015 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
-| 01/29/2015 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
-| 01/31/2015 | Saturday | CANCELLED           |CANCELLED |
+| 02/03/2015 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
+| 02/05/2015 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 02/07/2015 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
+| 02/10/2015 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
+| 02/12/2015 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 02/14/2015 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
+| 02/17/2015 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
+| 02/19/2015 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 02/21/2015 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
+| 02/24/2015 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
+| 02/26/2015 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
+| 02/28/2015 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
+
