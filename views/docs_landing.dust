@@ -68,8 +68,7 @@
 								<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
 								<div class="col-md-3 hidden-xs col-sm-2 hex-container">
 									<div class="hex">
-										<span class="hex-bluemix pos-1"></span>
-										<span class="hex-jazzhub pos-0"></span>
+										<img class="featured-doc" src="/tutorials/images/docs/docs-featured-billing.png" />
 									</div>
 								</div>
 								</a>
@@ -84,8 +83,7 @@
 								<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
 								<div class="col-md-3 hidden-xs col-sm-2 hex-container">
 									<div class="hex">
-										<span class="hex-bluemix pos-1"></span>
-										<span class="hex-jazzhub pos-0"></span>
+										<img class="featured-doc" src="/tutorials/images/docs/docs-featured-start-project.png" />
 									</div>
 									</a>
 								</div>
@@ -103,8 +101,7 @@
 								<div class="col-md-2 hidden-xs col-sm-1 col-md-pull-4 stem"><hr /></div>
 								<div class="col-md-3 hidden-xs col-sm-2 col-md-pull-9 hex-container">
 									<div class="hex">
-										<span class="hex-jazzhub pos-0"></span>
-										<span class="hex-git pos-1"></span>
+										<img class="featured-doc" src="/tutorials/images/docs/docs-featured-git.png" />
 									</div>
 								</div>
 								</a>
@@ -119,9 +116,7 @@
 								<div class="col-md-2 hidden-xs col-sm-1 col-md-pull-4 stem"><hr /></div>
 								<div class="col-md-3 hidden-xs col-sm-2 col-md-pull-9 hex-container">
 									<div class="hex">
-										<span class="hex-jazzhub pos-2"></span>
-										<span class="hex-bluemix pos-3"></span>
-										<span class="hex-node pos-4"></span>
+										<img class="featured-doc" src="/tutorials/images/docs/docs-featured-js.png" />
 									</div>
 								</div>
 								</a>
@@ -138,8 +133,7 @@
 								<div class="col-md-2 hidden-xs col-sm-1 col-md-pull-4 stem"><hr /></div>
 								<div class="col-md-3 hidden-xs col-sm-2 col-md-pull-9 hex-container">
 									<div class="hex">
-										<span class="hex-jazzhub pos-0"></span>
-										<span class="hex-git pos-1"></span>
+										<img class="featured-doc" src="/tutorials/images/docs/docs-featured-git.png" />
 									</div>
 								</div>
 								</a>
