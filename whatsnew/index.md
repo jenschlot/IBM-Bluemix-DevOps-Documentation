@@ -1,5 +1,14 @@
 # What's New
 
+
+##  February 5, 2015
+
+You can now access the content about What's New in IBM Bluemix DevOps Services blog. Check out the latest post:
+
+## [A new chapter, a fresh experience. Check out the new IBM Bluemix DevOps Services look and feel!]()
+
+[See all the What's new posts](https://developer.ibm.com/devops-services/category/whats-new/)
+
 ### January 13, 2015
 
 ## New way to deploy from the workspace
@@ -8,7 +17,7 @@ The DEPLOY and DEPLOY as buttons for deploying to Bluemix directly from the web 
 
 ![Run Bar](images/run-bar.png)
 
-For more information, [please see where did the Deploy button go in DevOps Services?](https://developer.ibm.com/bluemix/2015/01/15/deploy-button/)
+For more information, [please see where did the Deploy button go in DevOps Services?](https://developer.ibm.com/devops-services/2015/01/13/deploy-button/)
 
 
 ### December 17, 2014
