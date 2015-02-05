@@ -287,18 +287,22 @@
 		},
 		{
 			"title": "Pricing",
+			"icon": "docs-pricing.svg",
 			"uri_prefix": "/pricing"
 		},
 		{
 			"title": "Features",
+			"icon": "docs-features.svg",
 			"uri_prefix": "/features"
 		},
 		{
 			"title": "What's new",
+			"icon": "docs-whatsnew.svg",
 			"uri_prefix": "/whatsnew"
 		},
 		{
 			"title": "FAQ",
+			"icon": "docs-faq.svg",
 			"uri_prefix": "/docs/faq"
 		},
 		{
