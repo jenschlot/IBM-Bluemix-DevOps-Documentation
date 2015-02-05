@@ -11,7 +11,10 @@ var resizePg = function() {
 	var windowHeight = $(window).height();
 	var navbarHeight = $("#navbar").height();
 	var footerHeight = $("#footer").height();
-	var contentHeight = $("#content").height();
+	var sidebarHeight = $(".sidebar-container").height();
 	var minContentHeight = windowHeight - navbarHeight - footerHeight;
-	$("#content").css('min-height', minContentHeight);	
+	$("#content").animate(
+	{
+		'min-height': Math.max(minContentHeight, sidebarHeight)
+	}, 200);
 };

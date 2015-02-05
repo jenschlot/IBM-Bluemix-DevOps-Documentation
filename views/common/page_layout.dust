@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="background-color: #26343F;">
 	<head>		
 		<title>IBM DevOps Services</title>
 		<script src="//cdn.optimizely.com/js/1141215513.js"></script>
@@ -19,7 +19,7 @@
 		<div class="com-ibm-team-jazzhub">
 
 			{headerContent|s}
-			
+
 			<div id="announcement" class="announcement hidden">
 				<div class="message-container">
 					<div class="messageIcon"></div>
@@ -28,4 +28,18 @@
 			</div>
 			<script src='/tutorials/javascript/adminMessage.js'></script>
 
-			<div class='content fluid-content'>
+			<div class="jh-sidebar-full-content">
+				<div class="sidebar-container">
+					{+sidebar/}
+				</div>
+				<div class="content-cell">
+					{+content/}
+				</div>
+			</div>
+
+			{>"common/footer"/}
+
+		</div>
+		{>"common/google_analytics"/}
+	</body>
+</html>

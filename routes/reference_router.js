@@ -7,6 +7,7 @@ var NavbarClient = require('../lib/clients/navbar-client.js');
 var renderReference = function(req, res, next, headerContent) {
 	var config = require("../config").get("config");
 	var headerStyling;
+	var sidebarLinks = require("../config.json").sidebarLinks;
 
 	if (config) {
 		headerStyling = config.compositionServiceStylingEndpoint;
@@ -22,12 +23,14 @@ var renderReference = function(req, res, next, headerContent) {
 			resourcename: req.resourcename,
 			imgicon: req.imgicon,
 			headerContent: headerContent,
-			headerStyling: headerStyling
+			headerStyling: headerStyling,
+			sidebarLinks: sidebarLinks,
+			sidebarSelection: req.uriprefix
 		}
 	);
 }
 
-module.exports =  function (env, section_name, resource_name, parent_name, parent_uri, img_icon, directory) { 
+module.exports =  function (env, section_name, resource_name, parent_name, parent_uri, img_icon, uri_prefix, directory) { 
 	var router = express.Router();
 	var markdown_middleware = require('jazzhub-markdown-middleware')(directory);
 	var static_in_dir_middleware = express.static(directory);
@@ -43,6 +46,7 @@ module.exports =  function (env, section_name, resource_name, parent_name, paren
 			req.parentname = parent_name;
 			req.parenturi = parent_uri;
 			req.imgicon = img_icon;
+			req.uriprefix = uri_prefix;
 			next();
 		},
 		less_in_public_middleware,
@@ -58,6 +62,7 @@ module.exports =  function (env, section_name, resource_name, parent_name, paren
 				"selection": navbarSelection,
 				"userid": res.locals.user.userId,
 				"username": res.locals.user.name,
+				"ibmId": res.locals.user.ibmId
 			};
 
 			NavbarClient.getNavbar(args, req, function (error, content) {

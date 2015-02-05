@@ -8,11 +8,66 @@
 	Global Color Variables
 ******************************************************************************/
 
+/*** Bluemix Look and feel color palette ***/
+/* from Manage JazzHubCommonStyles.less */
+
+/*Basics */
+@color-black: #000000;
+@color-white: #ffffff;
+@color-dark-page-background: #111F2A;
+@color-dark-content-background: #253b46;
+@color-dark-darker-content-background: #111f2a;
+@color-dark-font: #82a3ab;
+@color-dark-link: #82a3ab;
+@color-teal-link: #00AED1;
+
+@color-title-teal: #00B299;
+@color-header2-grey: #94A3AB;
+@color-markdown-body-text: #3B4B54;
+
+/* Accents */
+@color-accent-one: #27ada5; /* Teal */
+@color-accent-two: #60b3ff; /* Blue */
+
+/* Tiles */
+@color-tile-background: #ffffff;
+@color-tile-link: #00b4a0;
+@color-tile-footer-background: #e9f1f4;
+@color-tile-footer-border: #d0d9de; 
+@color-tile-font: #747e83;
+
+@color-darktile-background: @color-dark-darker-content-background;
+@color-darktile-border: @color-accent-two;
+@color-darktile-font: @color-accent-two;
+
+/* Buttons */
+@color-button-background: transparent;
+@color-button-border: #959595;
+@color-button-font: #959595;
+@color-button-hover-background: #4de9d7;
+@color-button-hover-border: #4de9d7;
+@color-button-hover-font: #152934;
+
+/* Sidebar */
+@color-sidebar-dark-background: #26343F;
+@color-sidebar-unselected-text: #94A3AB;
+@color-sidebar-selected-bg: #1B252D;
+@color-sidebar-selected-teal: #00B299;
+@color-sidebar-right-arrow: #DFE6EB;
+
+/* Footer */
+@color-footer-dark-background: #1B252D;
+@color-footer-light-background: #3B4B54;
+@color-footer-link: rgba(255, 255, 255, 0.4);
+@color-footer-link-hover: @color-white;
+
+/*** Color Palette ***/
+
 @jh-color-page-background: #747D85;
+
+@jh-default-text: #26343F;
 @jh-color-link: @jh-color-blue;
 @jh-color-link-hover: #F47D64;
-@jh-color-footer-background: #EDF1F4;
-@jh-default-text: #26343F;
 
 @jh-color-white: #ffffff;
 @jh-color-blue: #00ADD0;
@@ -26,7 +81,7 @@
 ******************************************************************************/
 
 /* Widths & Heights */
-@jh-min-width: 980px;
+@jh-min-width: 860px;
 @jh-max-width: 1180px;
 
 /* Base em value for margins/padding (16px base) */
@@ -50,7 +105,8 @@ html {
 
 body {
   margin: 0;
-  font: 100% "Helvetica Neue",Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
 }
 
 /******************************************************************************
@@ -65,6 +121,18 @@ body {
 	position: absolute;
 }
 
+	.arn {
+		right: 0;
+	}
+
+	.abn {
+		bottom: 0;
+	}
+
+	.abl {
+		left: 0;
+	}
+
 .fixed {
 	position: fixed;
 }
@@ -76,6 +144,11 @@ body {
 .f_right {
 	float: right;
 }
+
+.center-text {
+	text-align: center;
+}
+
 .stretch {
 	min-height: 600px;
 }
@@ -95,11 +168,11 @@ body {
 }
 
 	.@{jh-namespace} a {
-	  color: @jh-color-link;
+	  color: @color-teal-link;
 	  text-decoration: none;
 	  &:hover {
-	  	color: @jh-color-link-hover;
 	  	text-decoration: underline;
+	  	cursor: pointer;
 	  }
 	}
 
@@ -127,61 +200,31 @@ body {
 	@{jh-namespace} .content-box {
 		padding: 0 15px;
 	}
-	
-	.@{jh-namespace} .footer,
-	.@{jh-namespace} .footer * {
-		background-color: @jh-color-footer-background;
-		font-size: 10.5pt;
+
+
+.@{jh-namespace}-Docs {
+	background-color: @jh-color-white;
+
+	h1 {
+		color: @color-title-teal;
 	}
-	
-	.@{jh-namespace} .footer {
-		overflow: hidden;
-		.jh-border-box;
-		padding: 0 20px 0 20px;
-		height: 80px;
-		color: @jh-color-smoky-black;
-		.left {
-			.f_left;
-			margin: 23px 0 0 0; 
-		};
-		.right {
-			.f_right;
-			margin: 16px 0 0 0;
-		};
-		.center {
-			width: 450px;
-			margin: 0 auto;
-			.content-links-area {
-				margin: 30px 0 0 0;
-				overflow: hidden;
-				.text-links {
-					.f_left;
-					text-align: center;
-					.separator {
-						width: 1px;
-						height: 20px;
-						margin: 0 1.25em;
-						display: inline-block;
-						vertical-align: bottom;
-					}
-				}
-				.twitter-site {
-					.f_left;
-					overflow:hidden;
-					margin: 1px 1.25em 0 1.25em;
-				}
-				.facebook-site {
-					.f_left;
-					margin: 1px 0 0 0;
-				}
-			}
-		};
-		.browser-support {
-			text-align: center;
-			margin: 5px 0 0 0;		
-		}
+
+	h2,
+	h3,
+	h4,
+	h5 {
+		color: @color-header2-grey;
 	}
-	
+}
+
+img {
+	margin: 0 auto;
+}
+
+/* For internet explorer. */
+a img {
+	border: 0px;
+}
 
 /******************************************************************************
 	JazzHub Columns
@@ -198,9 +241,9 @@ body {
 .generate-jh-cols(@jh-number-of-columns);
 
 .generate-jh-cols(@n, @i: 1) when (@i =< @n) {
-	.@{jh-namespace} .jh-columns > .jh-col-12-@{i} {
+	.@{jh-namespace} .jh-columns > .jh-columns-@{i}-@{jh-number-of-columns} {
 		.f_left;
-		width: round((@i * (100vh / @jh-number-of-columns)), 2);
+		width: round((@i * (100% / @jh-number-of-columns)), 2);
 	}
 
 	.generate-jh-cols(@n, (@i + 1));
@@ -296,7 +339,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	display: block;
-	max-width: 950px;	
+	max-width: @jh-min-width;	
 	border: 1px solid @jh-color-very-light-grey;
 	padding: @jh-base-em*1em;
 	margin: (@jh-base-em*8em) auto;	
@@ -316,142 +359,6 @@ body {
 	line-height: 50px;
 }
 
-/******************************************************************************
-	Landing Styles
-******************************************************************************/
-
-.@{jh-namespace}-Docs {
-	background-color: @jh-color-white;
-}
-
-.tutorial-landing {
-
-	.landing-header {
-		width: 100%;
-		height: 200px;
-		background-color: @jh-color-blue;
-
-		background: #00add0; /* Old browsers */
-		background: -moz-linear-gradient(top,  #00add0 96%, #00a0c1 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(96%,#00add0), color-stop(100%,#00a0c1)); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top,  #00add0 96%,#00a0c1 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top,  #00add0 96%,#00a0c1 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top,  #00add0 96%,#00a0c1 100%); /* IE10+ */
-		background: linear-gradient(to bottom,  #00add0 96%,#00a0c1 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00add0', endColorstr='#00a0c1',GradientType=0 ); /* IE6-9 */
-
-
-
-		.landing-header-body {
-
-			.landing-title {
-				color: @jh-color-white;
-				padding-top: 80px;
-
-				h1 {
-					margin: 0;
-					font-weight: normal;
-				}
-			}
-
-			.landing-intro {
-				color: @jh-color-white;
-			}
-
-			.landing-header-right {
-
-				position: relative;
-
-				.table-of-contents {
-					background-color: #0abce0;
-					width: 200px;
-					height: 200px;
-					position: absolute;
-					right: 0;
-					bottom: 0;
-					z-index: 200;
-
-				}
-
-			}
-
-		}
-
-	}
-
-	.tutorial-section {
-		.mtm;
-	}
-}
-
-.tutorial-section {
-	
-	.mbl;
-
-	.tutorial-section-header {
-		border-bottom: 1px solid @jh-color-very-light-grey;
-		overflow: hidden;
-		.mbs;
-
-		.section-title {
-			.f_left;
-
-			h2 {
-				margin: 0;
-				padding: 0;
-				.mtxs;
-				.mbxs;
-				font-weight: normal;
-			}
-
-			a {
-				color: #333333;
-			}
-		}
-
-		.back-to-top {
-			.f_right;
-			line-height: 2.8em;
-			display: none; /* Going into hiding */
-		}
-	}
-
-	.tutorial-section-body {
-
-		.tutorial-section-description {
-			font-size: 0.9rem;
-			color: @jh-color-page-background;
-			line-height: 1.4em;
-		}
-
-		.tutorial-section-list {
-			ul {
-				margin: 0;
-				.mtxs;
-				list-style-type: none; /*Temp */
-				.mln; /*Temp */
-				.pln; /*Temp */
-
-				li {
-					font-size: 1rem;
-					line-height: 1.4em;
-					.mln; /*Temp */
-					.pln; /*Temp */
-				}
-			}
-		}
-	}
-}
-
-img {
-	margin: 0 auto;
-}
-
-/* For internet explorer. */
-a img {
-	border: 0px;
-}
-
 /*********************************************************************
 
 						TABLE OF CONTENTS
@@ -461,37 +368,47 @@ a img {
 1.0 CSS for markdown pages
 
 	1.1 Help FAQ Page Markdown pages
-
 	1.2 CSS for codeblocks on Markdown pages
-
 	1.3 CSS for tables on Markdown pages
 
-2.0 404 Error Page
+2.0 Error Messages
+	2.1 404 Page
+	2.2 Maintenace outage notification
 
-3.0 Docs Landing Page
+3.0 Left-Nav / Sidebar
+	3.1 Fixed Sidebar - Fluid Content container
+	3.1.1 Navigation For Fixed Sidebar and full sidebar
+	3.1.2 Full-Width sidebar container sizes
 
-	3.1 Featured Docs Section
-		3.1.1 Hex tile icons
-		3.1.2 Hex icons positions
-		3.1.3 Hexagons hover behaviour
+4.0 Docs Landing Page
 
-	3.2 Key Resources Section
-		3.2.1 Key Resources Icons
-		3.2.2 Key Resources Subpages
-		3.2.3 Key Resources Hover
+	4.1 Featured Docs Section
+		4.1.1 Hex tile icons
+		4.1.2 Hex icons positions
+		4.1.3 Hexagons hover behaviour
 
-	3.3 Topics Section
-		3.3.1 All Docs Button
-		3.3.2 Topics Icons
-		3.3.3 Topics Subpages
-		3.3.4 Topics Hover behaviou
+	4.2 Key Resources Section
+		4.2.1 Key Resources Icons
+		4.2.2 Key Resources Subpages
+		4.2.3 Key Resources Hover
 
-	3.4 Breadcrumb CSS
+	4.3 Topics Section
+		4.3.1 All Docs Button
+		4.3.2 Topics Icons
+		4.3.3 Topics Subpages
+		4.3.4 Topics Hover behaviou
+
+	4.4 Masthead "What is DevOps Services"
+
+5.0 Footer
+
+6.0 Machine Translation Widget
+
+7.0 Learn Page
+
+8.0 Pricing Page
 
 **********************************************************************
-
-						End Table of Contents
-
 *********************************************************************/
 
 
@@ -564,6 +481,10 @@ pre code, pre tt {
 	border: none;
 }
 
+h1 {
+	color: @color-title-teal;
+}
+
 h1.help {
 		padding: 50px 8px 7px 8px;
 		height: 46px;
@@ -615,17 +536,19 @@ table tr th, table tr td
 }
 
 /******************************************************************
- 2.0 404 Error Page 
+ 2.0 Error Messages
  ******************************************************************/
 
+/*********************** 2.1 404 Page *****************************/
+
 a:link, a:visited {
-	color: #00649D;
+	color: @color-teal-link;
 	text-decoration: none;	
 }
 
 a:hover {
-	color: #05386b;
-	text-decoration: none;	
+	color: @color-teal-link;
+	text-decoration: underline;	
 }
 
 .page_wrapper {
@@ -673,10 +596,8 @@ a:hover {
 		margin-top: 35px;
 	}
 
-/********************************************************************
- * Maintenance announcement outage message
- *******************************************************************/
- 
+/***** 2.2 Maintenance announcement outage message *****************/
+
  .hidden {
  	display: none;
  }
@@ -686,7 +607,6 @@ a:hover {
 	background-color: #5bc0de;
 	color: white;
 	font-size: 0.813em;
-	font-family: Arial, sans-serif;
 	line-height: 1.15rem;
 	text-align: center;
 	min-width: 980px;
@@ -719,23 +639,135 @@ a:hover {
 	padding: 0;
 }
 
-/************* TEXT ALIGN **********************
+/*******************************************************************
+3.0 Left-Nav / Sidebar
+*******************************************************************/
 
-.t_left {
-	text-align: left;
+/* 3.1 Fixed Sidebar - Fluid Content container */
+
+.jh-sidebar-content {
+	padding-left: 186px;
+	position: relative;
+	min-height: 600px;
+
+	.sidebar-container {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 166px;
+	}
 }
-.t_center {
-	text-align: center;
+
+/* 3.1.1 Navigation For Fixed Sidebar and full sidebar */
+
+.jh-sidebar-content,
+.jh-sidebar-full-content {
+
+	background-color: @color-sidebar-dark-background;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+	.content-cell {
+		background-color: @color-white;
+	}
+
+	.sidebar-container .nav .item {
+
+		> a {
+			&:active,
+			&:focus {
+				outline: none;
+			}
+
+			.sidebar-element-title {
+				overflow: hidden;
+			}
+			position: relative;
+			display: inline-block;
+			width: 100%;
+			padding: 8px 20px 2px 20px;
+			margin-right: 5px;
+			margin-bottom: 0px;
+			font-size: 1.0em;
+			color: @color-sidebar-unselected-text;
+			border-left: 4px solid @color-sidebar-dark-background; /* to match width of selected */
+		}
+
+		> a:hover {
+			text-decoration: none;
+			background-color: @color-sidebar-selected-bg;
+		}
+
+		&.selected > a {
+			border-left: 4px solid @color-sidebar-selected-teal;
+			background-color: @color-sidebar-selected-bg;
+			color: @color-white;
+		}
+
+		// child elements
+		& .item:not(.selected) {
+			display: none;
+		}
+		& .item > a {
+			padding-left: 32px;
+		}
+
+		.sidebar-icon {
+			width: 28px;
+			height: 28px;
+			padding-right: 0.5em;
+			padding-bottom: 0.5em;
+			float: left;
+		}
+
+		.sidebar-icon-missing {
+			.sidebar-icon;
+			display: inline-block;
+			visibility: hidden;
+		}
+
+		.sidebar-right-arrow {
+			position: absolute;
+			right: 3px;
+			top: 10px;
+			width: 20px;
+
+			> .arrow {
+				position: inherit;
+				top: 5px;
+				right: 6px;
+				width: 9px;
+				height: 9px;
+				font-size: 1px;
+				-webkit-transform: rotate(45deg);
+				transform: rotate(45deg);
+				border-width: 3px 3px 0px 0px;
+				border-style: solid;
+				border-color: #808080;
+			}
+		}
+	}
 }
-.t_right {
-	text-align: right;
+
+/* 3.1.2 Full-Width sidebar container sizes */
+
+.jh-sidebar-full-content {
+	padding-left: 278px;
+	position: relative;
+	min-height: 600px;
+
+	.sidebar-container {
+		position: absolute;
+		left: 0; 
+		top: 0; 
+		width: 278px;
+	}
 }
 
 /*******************************************************************
-3.0 Docs Landing Page
+4.0 Docs Landing Page
 *******************************************************************/
 
-/***************** 3.1 Featured Docs Section **********************/
+/***************** 4.1 Featured Docs Section **********************/
 
 #featured-docs {
 	background-color: #3b4b54;
@@ -809,6 +841,11 @@ a:hover {
 		width: 136px;
 		background-image: url(../images/docs/hexagons.png);
 		background-repeat: none;
+		#doc-container-r & {
+			@media (min-width: 1400px) {
+				float: right;
+			}
+		}
 	}
 
 	.title-name {
@@ -823,7 +860,7 @@ a:hover {
 		font-size: 1rem;
 	}
 
-	/******************* 3.1.1 Hex tile icons *************************/
+	/******************* 4.1.1 Hex tile icons *************************/
 
 	.hex-tile-position {
 		position: absolute;
@@ -886,7 +923,7 @@ a:hover {
 		
 	}
 
-	/******************* 3.1.2 Hex icons positions *************************/
+	/******************* 4.1.2 Hex icons positions *************************/
 
 	/***Note: The first image in sprite on the top left corner is pos-0.
 	          pos-# increases as you move in the right direction.         */
@@ -927,7 +964,7 @@ a:hover {
 		background-position: -420px 0px;
 	}
 
-	/******************* 3.1.3 Hexagons hover behaviour *************************/
+	/******************* 4.1.3 Hexagons hover behaviour *************************/
 
 	a.section, a.section:hover {
 	text-decoration: none;
@@ -951,7 +988,7 @@ a:hover {
 		border: 4px solid #dee6eb;
 	}
 
-/***************** 3.1.4 tutorials and references twistie Section **********************/
+/***************** 4.1.4 tutorials and references twistie Section **********************/
 	div.twistie {
 	background-color:@jh-color-very-light-grey;
 	}
@@ -977,7 +1014,7 @@ a:hover {
 			color: white; 
 	}
 
-/***************** 3.2 Key Resources Section **********************/
+/***************** 4.2 Key Resources Section **********************/
 
 #key-resources {
 	background-color: #ffffff;
@@ -992,7 +1029,7 @@ a:hover {
 		margin: 0 auto;
 	}
 
-	/************ 3.2.1 Key Resources Icons ********************/
+	/************ 4.2.1 Key Resources Icons ********************/
 
 	div#key-resources .col-center {
 		margin: 0 auto;
@@ -1074,7 +1111,7 @@ a:hover {
 		color: #26343f;
 	}
 
-	/************ 3.2.2 Key Resources Subpages ********************/
+	/************ 4.2.2 Key Resources Subpages ********************/
 
 	#resource-header {
 		background-color: #03829e;
@@ -1088,21 +1125,21 @@ a:hover {
 		}
 		
 		div.resource {
-			padding: 0px 90px 30px 90px;
-		}
-		.resource > a {
-			color: #00aed1;
+			padding: 0px 45px 30px 45px;
 		}
 
-		.resource > h2 {
+		.resource h2 {
 			font-size: 1.6rem;
+			color: @color-header2-grey;
 		}
-		.resource > h3 {
+		.resource h3 {
 			font-size: 1.3rem;
+			color: @color-header2-grey;
 		}
 
-		.resource > p {
+		.resource p {
 			line-height: 1.4rem;
+			color: @color-markdown-body-text;
 		}
 
 		.resource > ul {
@@ -1117,13 +1154,13 @@ a:hover {
 			background-repeat: no-repeat;
 			background-position: center center;
 			display: block;
-			max-width: 950px;
+			max-width: 100%;
 			border: 1px solid #E0E0E0;
 			padding: 0.3125em;
 			margin: 2.5em auto;
 		}
 
-	/************ 3.2.3 Key Resources Hover ********************/
+	/************ 4.2.3 Key Resources Hover ********************/
 
 	a.resource-section ,a.resource-section:hover {
 	text-decoration: none;
@@ -1249,9 +1286,6 @@ a:hover {
 	div.reference {
 		padding: 0px 80px 30px 80px;
 	}
-	.reference > a {
-		color: #00aed1;
-		}
 
 	.reference > h2 {
 		font-size: 1.6rem;
@@ -1303,12 +1337,12 @@ a:hover {
 	}
 	
 	
-/***************** 3.3 Topics Section **********************/
+/***************** 4.3 Topics Section **********************/
 
 #topics {
 	background-color: #94a3ab;
 }
-	/************* 3.3.1 All Docs Button **********************/
+	/************* 4.3.1 All Docs Button **********************/
 	a.btn-dark {
 	background-color: #26343f;
 	color: #dee6eb;
@@ -1321,7 +1355,7 @@ a:hover {
 		text-decoration: none;
 	}
 
-	/************* 3.3.2 Topics Icons ************************/
+	/************* 4.3.2 Topics Icons ************************/
 
 	div#topics .col-center {
 		margin: 0 auto;
@@ -1445,7 +1479,7 @@ a:hover {
 		}
 
 
-	/************* 3.3.3 Topics Subpages *********************/
+	/************* 4.3.3 Topics Subpages *********************/
 
 	#topic-header {
 		background-color: #3b4b54;
@@ -1467,9 +1501,6 @@ a:hover {
 
 	div.topic {
 			padding: 0px 90px 30px 90px;
-		}
-		.topic > a {
-			color: #00aed1;
 		}
 
 		.topic > h2 {
@@ -1506,7 +1537,7 @@ a:hover {
 			margin: 2.5em auto;
 		}
 
-	/************* 3.3.4 Topics Hover behaviour ************/
+	/************* 4.3.4 Topics Hover behaviour ************/
 
 	a.topic-section , a.topic-section:hover {
 	text-decoration: none;
@@ -1521,38 +1552,109 @@ a:hover {
 		color: #dee6eb;
 	}
 
-/************** 3.4 Breadcrumb CSS **************************/
+/************** 4.4 Masthead "What is DevOps Services?" **************************/
 
-	.breadcrumb {
-		margin: 0px -15px 0 -15px;
-		padding-left: 25px;
-		font-size: 16px;
+.docs-masthead {
+	min-height: 387px;
+	background-color: @color-dark-page-background;
+	color: @color-white;
+	border-bottom: #aaa solid 1px;
+
+	h1 {
+		color: @jh-color-blue;
 	}
-	.breadcrumb li {
+
+	.docs-masthead-rocket {
+		.ptm;
+		.pbl;
+		.pls;
+		width: 85%;
+		max-width: 370px;
+		max-height: 350px;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.hollowButton {
+		color: @jh-color-blue;
+		cursor: pointer;
+		font-size: 1.0em;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		overflow: hidden;
 		display: inline;
-		color: #1b252d;
+		display: inline-block;
+		padding: 12px 29px;
+		position: relative;
+		line-height: 22px;
+		border: 1px solid @jh-color-blue;
+		background: transparent;
+
+		&:hover {
+			color: @color-white;
+			background-color: @jh-color-blue;
+		}
 	}
-/**
-	.breadcrumb li a {
-		text-decoration: none;
-		color: #1b252d;
-	}
-	.breadcrumb li a:hover{
-		text-decoration: none;
-		color: #F47D64;
-	}
-**/
-	.breadcrumb li+li:before {
-		content: ' > ';
-		color: #94a3ab;
-		padding-left: 12px;
-		padding-right: 12px;
-	}
-	.breadcrumb .current {
-		color: #94A3AB;
+}
+
+/*******************************************************************
+5.0 Footer
+*******************************************************************/
+
+.@{jh-namespace}-footer {
+	font-size: 0.88889em;
+	height: 100px;
+	margin-bottom: -20px;
+	margin-top: 0px;
+
+	.content-links-area {
+		height: 80px;
+		background-color: @color-footer-dark-background;
+
+		.text-links {
+			overflow: hidden;
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+
+			a {
+				color: @color-footer-link;
+				text-decoration: none;
+			}
+
+			a:not(:last-child):after {
+				content: " / ";
+			}
+
+			a:hover {
+				text-decoration: none;
+			}
+
+			a:hover > span {
+				color: @color-footer-link-hover;
+				text-decoration: underline;
+			}
+		}
 	}
 
-/************** Machine Translation Widget **************************/
+	.footer-bottom {
+		overflow: hidden;
+		height: 20px;
+		background-color: @color-footer-light-background;
+		margin-bottom: -5px;
+	}
+}	
+
+#browser-support {
+	text-align: center;
+	margin: 5px 0 0 0;
+}
+
+/*******************************************************************
+6.0 Machine Translation Widget
+*******************************************************************/
 
 .translate-widget {
 	width: 100%;
@@ -1574,5 +1676,390 @@ a:hover {
 
 }
 
+/*******************************************************************
+7.0 Learn Page
+*******************************************************************/
 
+.com-ibm-team-jazzhub-Learn {
+	color: #26343f;
+	background-color: #FFFFFF;
 
+	> .button-row {
+		clear: both;
+		overflow: hidden;
+		margin: 0 auto;
+		.plm;
+		.prm;
+
+		> .button-area {
+			padding: 15px 0 20px 0;
+			font-size: 1.5em;
+			overflow: hidden;
+
+			a.button {
+				width: 97%;
+				padding: 13px 0;
+				display: block;
+				overflow: visible;
+				color: white;
+				text-align: center;
+				position: relative;
+
+				&:hover {
+					text-decoration: none;
+				}
+
+				&:focus {
+					outline: none;
+				}
+
+				&.enabled:hover {
+					background-color: #3b4b54;
+				}
+
+				&.overview {
+					@color-button-overview: #F47D64;
+					background-color: @color-button-overview;
+					border-bottom-color: @color-button-overview;
+					.highlight {
+						background-color: @color-button-overview;
+					}
+					.enabled:hover {
+						color: @color-button-overview;
+					}
+				}
+
+				&.what {
+					@color-button-what: #00b299;
+					background-color: @color-button-what;
+					border-bottom-color: @color-button-what;
+					.highlight {
+						background-color: @color-button-what;
+					}
+					.enabled:hover {
+						color: @color-button-what;
+					}
+				}
+
+				&.explore {
+					@color-button-explore: #00aed1;
+					background-color: @color-button-explore;
+					.enabled:hover {
+						color: @color-button-explore;
+					}
+				}
+
+				&.grey {
+					color: black;
+					background-color: #DFE6Eb;
+					.enabled:hover {
+						color: white;
+					}
+				}
+
+				&.create {
+					@color-button-create: #F47D64;
+					background-color: @color-button-create;
+					.enabled:hover {
+						color: @color-button-create;
+					}
+				}
+
+				&.selected {
+					color: black;
+					background-color: white;
+					&:hover {
+						color: black;
+						background-color: white;
+					}
+					border-bottom-width: 9px;
+					border-bottom-style: solid;
+				}
+			}
+		}
+
+		> .custom-padding {
+			padding: 10px 0 20px 0;
+		}
+	}
+
+	.learn-content-section {
+		.plm;
+		.prm;
+
+		.blue-text {
+			color: #00aed1;
+		}
+
+		.gold-background {
+			background-color: #cec53b;
+		}
+
+		.orange-background {
+			background-color: #F47D64;
+		}
+
+		.green-background {
+			background-color: #00B299;
+		}
+
+		.blue-background {
+			background-color: #00aed1;
+		}
+
+		.dark-gray-background {
+			background-color: #3b4b54;
+		}
+
+		.vertical-dots {
+			background: url('/tutorials/images/learn/whatsinaproject/vert-dots.png') repeat-y 0 0 transparent;
+			height: 96px;
+			width: 4px;
+			margin: 10px auto;
+		}
+
+		.video.aspect-ratio {
+			position: relative;
+			display: inline-block;
+			width: 100%;
+			height: 0;
+			padding-bottom: 56.4%; // aspect ratio (height/width) in %
+
+			& iframe {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+		}
+
+		.public-private-icon {
+			display: block;
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		.horizontal-dots {
+			background: url('/tutorials/images/learn/whatsinaproject/horiz-dots.png') repeat-x 0 0 transparent;
+			width: 53px;
+			height: 4px;
+			margin: 97px 5px;
+			display: inline-block;
+
+			.dots-margin-for-video {
+				background: url('/tutorials/images/learn/whatsinaproject/horiz-dots.png') repeat-x 0 0 transparent;
+				width: 25px;
+				height: 4px;
+				margin: 148px 0px 148px 12px;
+				display: inline-block;
+			}
+
+			&.left-most {
+				background: url('/tutorials/images/learn/whatsinaproject/horiz-dots.png') repeat-x 0 0 transparent;
+				width: 53px;
+				height: 4px;
+				margin: 97px 5px 97px 7px;
+				display: inline-block;
+			}
+		}
+
+		.public-projects-image {
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		.client-icon {
+			background: url('/tutorials/images/learn/whatsjazzhub/choosecode.png') no-repeat 0 0 transparent;
+			width: 327px;
+			height: 76px;
+			display: inline-block;
+		}
+
+		.globe-icon {
+			width: 100%;
+			margin: 0 auto;
+			margin-bottom: 25px;
+		}
+
+		p > .mail-icon {
+			background: url('/tutorials/images/learn/whatsinaproject/mail.png') no-repeat 0 0 transparent;
+			width: 25px;
+			height: 18px;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.invite-anyone {
+			display: inline-block;
+			max-width: 216px;
+		}
+
+		.proj-icon {
+			background: url('/tutorials/images/learn/whatsinaproject/proj.png') no-repeat 0 0 transparent;
+			width: 88px;
+			height: 70px;
+			display: inline-block;
+			margin: 64px 2px;
+		}
+
+		.time-icon {
+			background: url('/tutorials/images/learn/whatsinaproject/time.png') no-repeat 0 0 transparent;
+			width: 161px;
+			height: 160px;
+			display: inline-block;
+			margin: 19px 2px;
+		}
+
+		.track-and-plan-icon {
+			background: url('/tutorials/images/learn/whatsinaproject/track-plan.png') no-repeat 0 0 transparent;
+			width: 197px;
+			height: 306px;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		.code-icon {
+			background: url('/tutorials/images/learn/whatsinaproject/code.png') no-repeat 0 0 transparent;
+			width: 80px;
+			height: 61px;
+			margin: 20px 0;
+		}
+
+		.code-in-cloud-image {
+			width: 100%;
+		}
+
+		.rtc-icon {
+			background: url('/tutorials/images/learn/whatsinaproject/rtc.png') no-repeat 0 0 transparent;
+			width: 80px;
+			height: 76px;
+			display: inline-block;
+			vertical-align: middle;
+			margin-bottom: 100px;
+		}
+
+		h4 {
+			> .git-title {
+				display: inline-block;
+				width: 190px;
+				vertical-align: middle;
+			}
+
+			> .github-icon {
+				background: url('/tutorials/images/learn/whatsinaproject/github.png') no-repeat 0 0 transparent;
+				width: 51px;
+				height: 50px;
+				display: inline-block;
+				vertical-align: middle;
+			}
+		}
+
+		.favorite-client-image {
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		.dashboard-image {
+			background: url('/tutorials/images/learn/whatsinaproject/screencap_projdash.png') no-repeat 0 0 transparent;
+			width: 630px;
+			height: 462px;
+		}
+
+		.limited-time {
+			display: none;
+			top: 150px;
+			left: 140px;
+			width: 250px;
+			height: 43px;
+			background-color: #555555;
+			color: white;
+			text-align: center;
+			padding-top: 7px;
+
+			&.shadow {
+				top: 160px;
+				left: 150px;
+				background-color: #F47D64;
+			}
+		}
+
+		.grey-background {
+			background-color: #dfe6eb;
+			color: black;
+		}
+	}
+
+	.inverted-pentagon {
+		/* Responive triangle from
+		 * http://codeitdown.com/css-triangles-responsive/ */
+		.down-arrow {
+			width: 100%;
+		    height: 0;
+		    padding-left:50%;
+		    padding-top: 10%;
+		    overflow: hidden;
+
+			.down-arrow-after(@color) {
+			    content: "";
+			    display: block;
+			    width: 0;
+			    height: 0;
+			    margin-left:-500px;
+			    margin-top:-100px;
+			    
+			    border-left: 500px solid transparent;
+			    border-right: 500px solid transparent;
+			    border-top: 100px solid @color;
+			}
+
+			&.overview-down-arrow:after {
+				.down-arrow-after(#F47D64);
+			}
+
+			&.what-down-arrow:after {
+				.down-arrow-after(#00b299);
+			}
+
+			&.cost-down-arrow-grey:after {
+				.down-arrow-after(#dfe6eb);
+			}
+
+			&.cost-down-arrow-blue:after {
+				.down-arrow-after(#00aed1);
+			}
+		}
+
+		.zero-dollars {
+			position: relative;
+			font-size: 9.1875em;
+			line-height: 0.8em;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		.white-text {
+			color: @color-white;
+		}
+
+		.free-3-users-text {
+			position: absolute;
+			font-size: 16px;
+			line-height: 1.2em;
+			top: 50px;
+			left: 175px;
+		}
+	}
+}
+
+/*******************************************************************
+8.0 Pricing Page
+*******************************************************************/
+
+.@{jh-namespace}-Pricing {
+	.com-ibm-team-jazzhub-Learn;
+
+	.learn-content-section.pricing {
+		padding-top: 1.25em;
+	}
+}

@@ -1,6 +1,13 @@
-{>bootstrap_header/}
-<div id="content" class="com-ibm-team-jazzhub-Docs content fluid-content">
-	<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none"></div>
+{>"common/page_layout"/}
+
+{<sidebar}
+	{>"common/sidebar"/}
+{/sidebar}
+
+{<content}
+	<div id="content" class="com-ibm-team-jazzhub-Docs content fluid-content">
+		<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none">
+		</div>
 		<div class="container-fluid">
 			<div class="row" id="topic-header">
 				<div class="col-md-12">
@@ -14,25 +21,16 @@
 							<span>{topicname}</span>
 						</div>
 						<div class="col-md-6 vcenter">
-							{>machine_translation/}			
+							{>"common/machine_translation"/}
 						</div>
 					</div>
 				</div>
 			</div>
-			<ol class="breadcrumb">
-				<li><a href="/{lowercaseSectionName}">{sectionname}</a></li>
-				{@ne key=topicname value="All"}
-				<li><a href="/docs#topics">Resources by topic</a></li>				
-				{/ne}
-				<li class="current">{topicname}</li>
-			</ol>
 			<div class="row ptm">
 				<div class="col-md-12 topic">
-						{markdown|s}
+					{markdown|s}
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-{>footer/}
-
+{/content}

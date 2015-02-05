@@ -1,4 +1,4 @@
-## What's New
+# What's New
 
 ### January 13, 2015
 
@@ -58,7 +58,6 @@ The start and end dates of the sprint are now shown in the title of each lane in
 ## Task breakdown action is available everywhere
 Previously, the task breakdown action was accessible only from the Backlog or Sprint Planning views. Now, you can access the task breakdown action from all views. For example, when you are assigned a story, you can break it into tasks without leaving the My Work view. 
 ![task breakdown in My Work view][74]
-
 
 ### November 10, 2014
 
