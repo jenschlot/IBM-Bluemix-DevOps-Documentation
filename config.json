@@ -280,10 +280,12 @@
 		},
 		{
 			"title": "Pricing",
+			"icon": "docs-pricing.svg",
 			"uri_prefix": "/pricing"
 		},
 		{
 			"title": "Features",
+			"icon": "docs-features.svg",
 			"uri_prefix": "/features"
 		},
 		{
@@ -292,6 +294,7 @@
 		},
 		{
 			"title": "FAQ",
+			"icon": "docs-tutorials.svg",
 			"uri_prefix": "/docs/faq"
 		},
 		{

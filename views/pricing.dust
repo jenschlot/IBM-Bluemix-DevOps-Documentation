@@ -18,7 +18,7 @@
 						<h4 class="mbs">Public projects</h4>
 						<p class="mts">Public projects include free Track & Plan, Web IDE and Git or Jazz SCM source control.</p>
 						<p class="mts">* Public projects configured to deploy to the <a target="_blank" href="https://bluemix.net">IBM Bluemix</a>
-						cloud platform are charged for Delivery Pipeline (Build & Deploy) usage in accordance with the 
+						 cloud platform are charged for Delivery Pipeline (Build & Deploy) usage in accordance with the 
 						<a target="_blank" href="https://bluemix.net/#/pricing">Bluemix pricing plan</a> for this service.</p>
 					</div>
 				</div>
