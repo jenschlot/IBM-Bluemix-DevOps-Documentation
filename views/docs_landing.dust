@@ -52,8 +52,7 @@
 							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
 							<div class="col-md-3 hidden-xs col-sm-2 hex-container">
 								<div class="hex">
-									<span class="hex-bluemix pos-1"></span>
-									<span class="hex-jazzhub pos-0"></span>
+									<img class="featured-doc" src="/tutorials/images/docs/docs-featured-administer.png" />
 								</div>
 							</div>
 							</a>
