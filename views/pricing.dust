@@ -16,7 +16,7 @@
 					</div>
 					<div class="ptl prm plm pbm">
 						<h4 class="mbs">Public projects</h4>
-						<p class="mts">Public projects include free Track & Plan, Web IDE and Git or Jazz source control management (SCM).</p>
+						<p class="mts">Public projects include free Track & Plan, Web IDE and Git or Jazz SCM source control.</p>
 						<p class="mts">* Public projects configured to deploy to the <a target="_blank" href="https://bluemix.net">IBM Bluemix </a>
 						cloud platform are charged for Delivery Pipeline (Build & Deploy) usage in accordance with the 
 						<a target="_blank" href="https://bluemix.net/#/pricing">Bluemix pricing plan</a> for this service.</p>
@@ -34,11 +34,15 @@
 					</div>
 					<div class="ptl prm plm pbm">
 						<h4 class="mbs">Private projects</h4>
-						<p class="mts">Private projects include free Web IDE, and Git or Jazz source control management (SCM). </p>
+						<p class="mts">Private projects include free Web IDE, and Git or Jazz SCM source control. </p>
 						<p class="mts">** Private projects configured to deploy to the <a target="_blank" href="https://bluemix.net">IBM Bluemix</a> cloud platform 
 						are charged for Delivery Pipeline (Build & Deploy) and Track & Plan usage in accordance with the 
 						<a target="_blank" href="https://bluemix.net/#/pricing">Bluemix pricing plan</a> for these services.
-						(Under the Standard Plan, Track & Plan is free for 3 users in Private Projects. For additional plans, see the <a target="_blank" href="https://bluemix.net/#/pricing">Bluemix pricing plan</a>.)</p>
+						(Under the Standard Plan, Track & Plan is free for 3 users in Private Projects. For additional plans, see the <a target="_blank" href="https://bluemix.net/#/pricing">Bluemix pricing plan</a>.)
+						</p>
+						<p>
+						In addition to the above, we plan to implement charging for non-Bluemix projects soon.
+						</p>
 					</div>
 				</div>
 			</div>
