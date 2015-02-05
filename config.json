@@ -283,6 +283,7 @@
 		},
 		{
 			"title": "Overview",
+			"icon": "docs-overview.svg",
 			"uri_prefix": "/docs/overview"
 		},
 		{
