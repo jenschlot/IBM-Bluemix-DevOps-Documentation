@@ -339,7 +339,7 @@
 		},
 		{
 			"title": "Tasks",
-			"icon": "docs-reference.svg",
+			"icon": "docs-tasks.svg",
 			"uri_prefix": "/docs/all#ref",
 			"children": [
 				{
