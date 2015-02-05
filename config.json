@@ -290,11 +290,12 @@
 		},
 		{
 			"title": "What's new",
+			"icon": "docs-whatsnew.svg",
 			"uri_prefix": "/whatsnew"
 		},
 		{
 			"title": "FAQ",
-			"icon": "docs-tutorials.svg",
+			"icon": "docs-faq.svg",
 			"uri_prefix": "/docs/faq"
 		},
 		{
