@@ -82,9 +82,9 @@ Click **BUILD & DEPLOY**.
 
 ![Web IDE][16]
 
-The Build & Deploy page opens. If it's your first time using this feature, you will see a welcome page. Click **GET STARTED** to proceed.  
+The Build & Deploy page opens. 
 
-A deployment of your sample app is already started. When it's running, the app is available at the URL that is shown in the stage named "dev Deploy." You can see the app’s overview on Bluemix by clicking the app name.
+A deployment of your sample app is already started. When it's running, the app is available at the URL that is shown in the stage named "Deploy to dev." You can see the app’s overview on Bluemix by clicking the app name.
 
 ![Bluemix DevOps Services autoconfigured Pipeline][17]
 
@@ -92,56 +92,57 @@ Bluemix DevOps Services is already configured to automatically build and deploy 
 
 ![A preconfigured Pipeline][52]
 
-  1. Click the gear icon on the rightmost tile (the stage named "dev Deploy"). Click **Delete Stage** and confirm the deletion.
+  1. Click the gear icon on the rightmost tile (the deploy stage). Click **Delete Stage** and confirm the deletion.
   2. Click the gear icon on the remaining build stage tile. Click **Delete Stage** and confirm the deletion.
 
-When you use Build & Deploy, you can configure a build stage to compile and package your application. Then, you configure a deploy stage to deploy the application to Bluemix.
+Within Build & Deploy stages, you can configure jobs to compile and package your application, to deploy the application to Bluemix, and to run tests on your code.
+
+You will create two stages. One will contain a build job, and the other will contain a deploy job.
 
 ![Unconfigured Advanced Build & Deploy page][45]
 
 Configure the build stage:
 
-  1. Click **add a builder**. The Add Builder page opens. 
-  2. For this project, select "Ant" as the Builder, and use the default settings for everything else. 
-    * The build stage will pull from the master branch of your Git repo. The builder will find the `build.xml` file in the root directory and run it during the build. The files that are needed for deployment are copied into the build archive directory. The build archive directory defaults to the same directory as the build script path. 
-  3. Make sure that the check box for **Automatically build when a change is delivered/pushed** is selected.
+  1. Click **ADD STAGE**. The Stage Configuration page opens.
+  2. Click the stage name, **MyStage**. Enter `Build` as the new name.
+  3. Make sure that the **Automatically execute jobs when a change is pushed to Git** option is selected. The stage is configured to accept input from your project Git repository's master branch.
+  4. Click **JOBS**. Click **ADD JOB**, and then select **Build**.
+  5. Select **Ant** as the Builder Type. Use the default settings for everything else.
+   * The build job will find the `build.xml` file in the root directory and run it during the build. The files that are needed for deployment are copied into the build archive directory.
+  6. Click **SAVE**.
 
 ![Configuring the Builder][18]
 
-Click **SAVE**. In a moment, the Pipeline page is refreshed and shows the information about your newly configured builder. 
+In a moment, the Pipeline page is refreshed and shows the information about your newly configured stage.
 
 ![A configured Builder panel][46]
 
-Click **REQUEST BUILD**. After a moment, you have a successful build.
+Click the play icon at the top of the stage tile. After a moment, you have a successful build.
 
 ![A configured Builder panel with a successful build][47]
 
-Put the build on the web by using Bluemix: click **add a stage**. 
+Next, create another stage to deploy your build to Bluemix:
 
-The Deployer Stage Configuration page opens. On that page, you can configure deployments to Bluemix. You can give the app a name. By default, the name comes from the manifest file, `manifest.yml`, which Bluemix uses to deploy your application.
+  1. Click **ADD STAGE**. The Stage Configuration page opens.
+  2. Click the stage name, **MyStage**. Enter `Deploy to dev` as the new name.
+  3. Make sure that the **Automatically execute jobs when a change is pushed to Git** option is selected. The stage is already configured to accept the build job output from the Build stage that precedes it.
+  4. Click **JOBS**. Click **ADD JOB**, and then select **Deploy**.
+  5. Use the default settings on the Deploy Configuration page. Confirm that the app is being deployed to your Bluemix organization's **dev** space.
+  6. Click **SAVE**.
 
 ![Configuring the Deployer with the Add Deployer Stage screen][19]
 
-1.  Leave the **Stage Name** field at its default.
-2.	Leave the **Application name** field alone; the default name comes from the project `manifest.yml` file. 
-3.	Leave the **Target** and **Organization** as they are. 
-4.	You can select a **Space** to use, or create one. For the purposes of this tutorial, leave the space as "dev."  
-The script section shows the deployment script that runs to deploy the application. The `CF_APP` variable resolves to the app name.
-5.	Click **SAVE**. Your app is ready to be pushed to Bluemix. 
-
 ![Fully configured Pipeline][48]
 
-Drag the build to the stage that you configured. Dragging a build onto a deployer stage is one way to kick off a deployment. In seconds, your app is on Bluemix. Because you configured the Delivery Pipeline service, future successful builds of your app are automatically deployed. 
+Drag the build from the bottom of the Build stage onto the Deploy to dev stage. Dragging a build onto a stage with a deploy job is one way to kick off a deployment. In seconds, your app is on Bluemix. Because you configured the Delivery Pipeline service, future successful builds of your app are automatically deployed.
 
 ![Dropping to deploy][49]
 
-To view your app on the web, click its name. To view your app’s Bluemix dashboard, click next to your app in the *dev* deployment pane. 
+To view your app on the web, click its name. To view your app’s Bluemix dashboard, click next to your app in the Deploy to dev tile. 
 
 ![A deployed app using fully configured Pipeline][50]
 
-In this tutorial, you configure a single deployment stage. If you want more stages, for example, to have separate instances for testing and production, use multistage deployment in Bluemix DevOps Services. To learn more, watch this short video:
-
-<iframe width="560" height="315" src="//www.youtube.com/embed/5jdKL8VZgP0?rel=0" frameborder="0" allowfullscreen></iframe> 
+In this tutorial, you configure a single stage for deployment. If you want more stages, for example, to have separate instances for testing and production, you can do just that. Just create additional stages with deploy jobs.
 
 When you build and deploy apps by using Bluemix, your Bluemix billing account might be charged. A project is granted 60 minutes of free build time per month. For more information about pricing for any service, see the [Bluemix pricing page](https://bluemix.net/#/pricing).
 
