@@ -120,16 +120,15 @@ To learn more about working with Git, [browse the Git documentation](http://git-
 	d. If you return to the web IDE and check the 
 	BUILD & DEPLOY page, you will see something like this image:
 	![Auto-deploy in action](/tutorials/jazzeditor/images/jh-auto-deployed_NEW.png)
-At the top of the **Recent auto-deployments** list, an entry has a comment that 
+At the top of the leftmost tile, under Input, an entry has a comment that 
 matches the commit operation that you made from the command line. 
 The entry shows that your app is running the code that you pushed.
 	
 	e. View your running app and verify that the title was updated. You might need to refresh your browser to see the updates.
 
-3. Next to "Deploy to," click the link. The Bluemix application dashboard opens. 
+3. In the rightmost tile, below Last Execution Result, click the application name. The Bluemix application dashboard opens. 
 When you click the URL on the application dashboard, your updated running application opens.
-To access your running application quickly, click the URL that is next to  
-"Deploy to."
+To access your running application quickly, click the URL under Last Execution Result.
 
 ![Application page with new title](/tutorials/jazzeditor/images/app-new-title_NEW.png)
 
