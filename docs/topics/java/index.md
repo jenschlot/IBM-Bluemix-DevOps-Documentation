@@ -1,7 +1,7 @@
-### Tutorial: [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)
+### Tutorial: [Getting Started with IBM Bluemix and IBM Bluemix DevOps Services using Java](/tutorials/jazzeditorjava)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, git, web_ide, pipeline
 
-### Tutorial: [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)
+### Tutorial: [Getting Started with IBM Bluemix and IBM Bluemix DevOps Services using Java](/tutorials/jazzeditorjava)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, git, web_ide, pipeline
 
 ### Article: [Build a mobile app that isn't perfect](http://www.ibm.com/developerworks/library/mo-build-imperfect-mobile-app/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">

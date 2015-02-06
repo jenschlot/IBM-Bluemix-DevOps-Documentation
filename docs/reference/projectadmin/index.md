@@ -1,8 +1,8 @@
-# Administer a project in IBM DevOps Services 
+# Administer a project in IBM Bluemix DevOps Services 
 
 Last modified: 4 February 2015
 
-To administer IBM&reg; DevOps Services projects, you must be a project admin or a project owner. A project can have multiple admins, but it can only have one owner. 
+To administer IBM&reg; Bluemix&trade; DevOps Services projects, you must be a project admin or a project owner. A project can have multiple admins, but it can only have one owner. 
 
 ##Project admin privileges
 
@@ -35,7 +35,7 @@ A project owner can do everything that a project admin can do and more. Project 
 ----
 ##Managing projects
 
-A common task for project owners and admins is to manage the project's settings and members. When you sign in to DevOps Services, the MyStuff page opens. The REQUESTS tab on this page lists any incoming requests from others to join projects for which you are an admin. As an admin, you can accept or reject these requests. You can also invite members to join by using the **Invite Members** button on the member page for these projects.
+A common task for project owners and admins is to manage the project's settings and members. When you sign in to Bluemix DevOps Services, the MyStuff page opens. The REQUESTS tab on this page lists any incoming requests from others to join projects for which you are an admin. As an admin, you can accept or reject these requests. You can also invite members to join by using the **Invite Members** button on the member page for these projects.
 
 As a project owner or admin, you can also change your project settings. To do so, click the **Settings** icon.
 
@@ -46,7 +46,7 @@ On the project settings page, you can add or change the project image, modify th
 ----
 ##Promoting or demoting project admins
 
-In the past, DevOps Services projects only allowed one project admin. Now that you can have multiple admins, you can be promoted or promote others to the project admin role.
+In the past, Bluemix DevOps Services projects only allowed one project admin. Now that you can have multiple admins, you can be promoted or promote others to the project admin role.
 
 Before you can be promoted to a project admin, you must be a member of the project. Ask the project owner or a project admin to invite you to join the project and promote you to a project admin. (If you are the project creator, you already have the ability to promote others.)
 

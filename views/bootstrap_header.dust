@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>		
+		<title>IBM DevOps Services</title>
+		<script src="//cdn.optimizely.com/js/1141215513.js"></script>
+		<link rel='icon' type='image/x-icon' href='/tutorials/favicon.ico'></link>
+		<script src='/tutorials/lib/jquery/jquery-2.1.1.min.js'></script>
+		<script src='/tutorials/javascript/pageResize.js'></script>	
+		<link rel='stylesheet' href='/tutorials/lib/bootstrap/bootstrap-3.2.0-dist/css/bootstrap.min.css'></link>
+		<script src='/tutorials/lib/bootstrap/bootstrap-3.2.0-dist/js/bootstrap.min.js'></script>
+		<link rel='stylesheet' href='/tutorials/stylesheets/style.css'></link>
+		{@if cond="'{topicname}' == 'Academics'"}
+			<link rel='stylesheet' href='/tutorials/stylesheets/topic_academics.css'></link>
+		{/if}
+		<link rel='stylesheet' href='/embed/css/navbar'></link>
+		<link rel='stylesheet' href='{headerStyling}'></link>
+	</head>
+	<body>
+		<div class="com-ibm-team-jazzhub">
+
+			{headerContent|s}
+			
+			<div id="announcement" class="announcement hidden">
+				<div class="message-container">
+					<div class="messageIcon"></div>
+					<div class="messageSummary" id="messageSummary"></div>		
+				</div>
+			</div>
+			<script src='/tutorials/javascript/adminMessage.js'></script>
+
+			<div class='content fluid-content'>

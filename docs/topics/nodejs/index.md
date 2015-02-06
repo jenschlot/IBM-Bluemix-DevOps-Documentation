@@ -1,4 +1,4 @@
-### Tutorial: [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/jazzeditor)  
+### Tutorial: [Getting Started with Bluemix and Bluemix DevOps Services using Node.js](/tutorials/jazzeditor)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, nodejs, git, web_ide, pipeline, cloud_foundry
 
 ### Tutorial: [Developing BlueMix applications in Node.js with the Web IDE](/tutorials/jazzweb)  

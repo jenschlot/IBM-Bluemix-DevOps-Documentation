@@ -1,0 +1,15 @@
+{>header/}
+<div id="content" class="com-ibm-team-jazzhub-Docs content fluid-content">
+	<div class="fixed-content jh-docmode">
+		<div class="content-box">
+			<div class="jh-columns">
+
+			<h1>{path}</h1>
+			<ul>
+			{#files}<li><a href={.path}>{.name}</a></li>{/files}
+			</ul>
+			</div>
+		</div>
+	</div>
+</div>
+{>footer/}

@@ -2,7 +2,7 @@
 
 Last modified: 21 January 2015
 
-In this tutorial, you use IBM DevOps Services to develop an application in the cloud and deploy it to [IBM® Bluemix™][1].
+In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an application in the cloud and deploy it to [IBM® Bluemix™][1].
 
 ---
 ##Start by using a sample project
@@ -17,7 +17,7 @@ Enter a name for your fork of the Sentiment Analysis app, and make sure that the
 
 ![Fork new project][4]
 
-Put your fork of the project on the web by using Bluemix. To make the most of DevOps Services and Bluemix, make sure that your Bluemix space has the Delivery Pipeline service. If it doesn't have that service, [follow these steps][26].
+Put your fork of the project on the web by using Bluemix. To make the most of Bluemix DevOps Services and Bluemix, make sure that your Bluemix space has the Delivery Pipeline service. If it doesn't have that service, [follow these steps][26].
 
 At the top of the screen, click **Build &amp; Deploy**. 
 
@@ -29,7 +29,7 @@ To see your deployed app, click the link to it:
  
 ![Sentiment Analysis Sample App][7]
 
-DevOps Services automatically generated a configuration for your project. However, you're going to create your own configuration, so you first must reset Pipeline:
+Bluemix DevOps Services automatically generated a configuration for your project. However, you're going to create your own configuration, so you first must reset Pipeline:
 
 ![Deleting a preconfigured Pipeline][25]
 
@@ -44,7 +44,7 @@ Click **add a builder**. On the Add Builder page, select **Grunt** as the Builde
 
 ![Configuring the Builder][8]
 
-On the right side of the screen, click **add a stage**. Because DevOps Services integrates with Bluemix and this sample is a simple project, the default information is sufficient to deploy the project. 
+On the right side of the screen, click **add a stage**. Because Bluemix DevOps Services integrates with Bluemix and this sample is a simple project, the default information is sufficient to deploy the project. 
 
 Make sure that the project has a unique path by editing the first line of the Bluemix script: add the `-n` flag followed by a unique host name. A complete version of the command might look like this example:
  
@@ -78,7 +78,7 @@ Building and deploying apps with Bluemix can result in charges to your Bluemix b
 ---
 ##Edit the Sample Application
 
-In this section of the tutorial, you personalize the sample app in DevOps Services' web-based code editor, push your changes to the project's remote repository, and initiate a redeployment of your project. These activities won’t take more than a few minutes.
+In this section of the tutorial, you personalize the sample app in Bluemix DevOps Services' web-based code editor, push your changes to the project's remote repository, and initiate a redeployment of your project. These activities won’t take more than a few minutes.
 
 Click **Edit Code**, and then open the `app.js` file by clicking it in the side panel. The editor recognizes and highlights the code as JavaScript.
 
@@ -114,7 +114,7 @@ Any changes that are delivered to your project trigger a build. When a build is 
 ---
 ##The manifest file
 
-Deploying a DevOps Services project from the web IDE requires the project to have a `manifest.yml` file. This file contains important settings, such as the application instance name to use, the host machine, the services that the application uses, and more. The sample application already contains a manifest file, so you can leave it alone in this tutorial.
+Deploying a Bluemix DevOps Services project from the web IDE requires the project to have a `manifest.yml` file. This file contains important settings, such as the application instance name to use, the host machine, the services that the application uses, and more. The sample application already contains a manifest file, so you can leave it alone in this tutorial.
 
 ![An example manifest][17]
 

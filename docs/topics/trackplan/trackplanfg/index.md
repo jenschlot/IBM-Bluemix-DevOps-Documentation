@@ -4,7 +4,7 @@
 
 Last modified: 24 October 2014
 
-You can use the Track &amp; Plan feature in IBM&reg; DevOps Services to manage any type of project, large or small.
+You can use the Track &amp; Plan feature in IBM&reg; Bluemix&trade; DevOps Services to manage any type of project, large or small.
 
 To explore the feature, [start at the beginning][1] or click any text or image.
 

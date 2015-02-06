@@ -1,19 +1,19 @@
-#Developing IBM Bluemix applications in Java with Eclipse and DevOps Services
+#Developing IBM Bluemix applications in Java with Eclipse and Bluemix DevOps Services
 
 Last modified: 13 January 2015
 
-Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM DevOps Services, and the Rational&reg; Team Concert client for Eclipse. 
+Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM&reg; Bluemix&trade; DevOps Services, and the Rational&reg; Team Concert client for Eclipse. 
 
 ##Before you begin
 
 1. Make sure that your IBM id is registered with Bluemix. 
-2. Log in to DevOps Services by using your IBM id.
+2. Log in to Bluemix DevOps Services by using your IBM id.
 
 ##Get your app
 
 To get your app, you fork a sample project named WordCounter. WordCounter uses Jazz&trade; source control management (SCM) and contains a manifest for deploying to Bluemix. You can load the project directly in the Rational Team Concert client for Eclipse. To explore the project before you fork it,  [see the WordCounter project page](https://hub.jazz.net/project/pskhadke/WordCounter/overview).
 
-DevOps Services also supports Git projects. For more information, [see Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava).
+Bluemix DevOps Services also supports Git projects. For more information, [see Getting Started with Bluemix and Bluemix DevOps Services using Java](/tutorials/jazzeditorjava).
 
 On the WordCounter project overview page, click **FORK PROJECT**. 
 ![Click Fork Project](/tutorials/jazzrtc/images/click_fork_project.png "Click Fork Project")
@@ -40,7 +40,7 @@ To track charges, after you deploy your first build, add the Delivery Pipeline s
 
 4. On the Add Builder page, enter this information:
     * In the **Builder** menu, select **Ant**.
-	* In the **Your IBM DevOps Services password** field, type the password that is associated with your IBM id.
+	* In the **Your IBM Bluemix DevOps Services password** field, type the password that is associated with your IBM id.
 	* In the **Build script path**, type the folder that contains your code; for example,  `WordCounter`. When the project is loaded in the Rational Team Concert client, this folder automatically maps to an Eclipse project.
 	* In the **Build archive directory** field, type the directory where the build output files are archived as part of the build result.
 
@@ -85,13 +85,13 @@ The Delivery Pipeline service is added to your Bluemix space.
 
 From the Rational Team Concert client for Eclipse, connect to your running app. 
 
-1. In the DevOps Services web IDE, click the project link to go to the project overview page. 
+1. In the Bluemix DevOps Services web IDE, click the project link to go to the project overview page. 
 ![Project Link](/tutorials/jazzrtc/images/project_link.png "Project Link")
 
 2. From this page, get the Jazz repository information. 
 ![Team Invitation](/tutorials/jazzrtc/images/team_invite.png "Team Invitation")
 
-3. In the Rational Team Concert client for Eclipse, connect to your project and load the code. For detailed instructions, [see Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services](/tutorials/clients#working_with_a_jazz_scm_project).				
+3. In the Rational Team Concert client for Eclipse, connect to your project and load the code. For detailed instructions, [see Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access Bluemix DevOps Services](/tutorials/clients#working_with_a_jazz_scm_project).				
 
 ---
 ##Deliver your first change

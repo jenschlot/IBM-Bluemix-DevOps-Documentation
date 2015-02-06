@@ -1,4 +1,4 @@
-# Fork code from Sentiment Analysis (node.js) with IBM DevOps Services
+# Fork code from Sentiment Analysis (node.js) with IBM Bluemix DevOps Services
 
 ## Start with the sample app
 Before you fork the [Sentiment Analysis App](https://hub.jazz.net/project/spirit/Sentiment%20Analysis%20App/overview) app,
@@ -10,7 +10,7 @@ Notice that the editor recognizes the file as a Javascript file and highlights e
 
 >	![Sentiment app in the Web IDE](../images/guidejhwebide/jazzhubwebidesentimentapp.jpg)
 
-After changing the name, you can deploy the application to BlueMix and see your change. 
+After changing the name, you can deploy the application to Bluemix and see your change. 
 To deploy the application, you click **DEPLOY**. 
 
 >	![Deploy button in Web IDE](../images/guidejhwebide/jazzhubeditordeploybutton.jpg)
@@ -37,4 +37,4 @@ The **Applications** tab on the BlueMix Dashboard has the options to start, stop
 The **Services** tab has options to add various services such as mongodb, SSO, MapReduce and more.
 
 After making changes, you'll want to share them with other users of the project 
-so let's push them to the repository. Read how to at [Push changes for the IBM DevOps Services Sentiment analysis app](pushsentimentapp).
+so let's push them to the repository. Read how to at [Push changes for the IBM Bluemix DevOps Services Sentiment analysis app](pushsentimentapp).

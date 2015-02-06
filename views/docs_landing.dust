@@ -46,7 +46,7 @@
 							<div class="col-md-7 col-sm-9 col-xs-9 callout" id="1">
 								<p class="description">
 							
-									<span style="color: #ffd801;"> <strong>NEW</strong>&nbsp;&nbsp;</span> <strong>Administer a project</strong> in IBM DevOps Services
+									<span style="color: #ffd801;"> <strong>NEW</strong>&nbsp;&nbsp;</span> <strong>Administer a project</strong> in IBM Bluemix DevOps Services
 								</p>
 							</div>
 							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
@@ -61,7 +61,7 @@
 								<a class="section" href="/docs/reference/billing">
 								<div class="col-md-7 col-sm-9 col-xs-9 callout" id="2">
 									<p class="description">
-										<strong>Configure IBM Bluemix billing </strong> for IBM DevOps Service
+										<strong>Configure IBM Bluemix billing </strong> for IBM Bluemix DevOps Service
 									</p>
 								</div>
 								<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
@@ -76,7 +76,7 @@
 								<a class="section" href="/docs/reference/startproject">
 								<div class="col-md-7 col-sm-9 col-xs-9 callout" id="3">
 									<p class="description">
-										<strong>Start a project</strong> in IBM DevOps Services
+										<strong>Start a project</strong> in IBM Bluemix DevOps Services
 									</p>
 								</div>
 								<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
@@ -94,7 +94,7 @@
 								<a class="section" href="/docs/reference/git">
 								<div class="col-md-7 col-sm-9 col-xs-9 col-md-push-5 callout" id="4">
 									<p class="description">
-									<strong>Git</strong> in IBM DevOps Services Reference
+									<strong>Git</strong> in IBM Bluemix DevOps Services Reference
 									</p>
 								</div>
 								<div class="col-md-2 hidden-xs col-sm-1 col-md-pull-4 stem"><hr /></div>
@@ -109,7 +109,7 @@
 								<a class="section" href="/tutorials/jazzeditor">
 								<div class="col-md-7 col-sm-9 col-xs-9 col-md-push-5 callout" id="5">
 									<p class="description">
-										<strong>Getting started</strong> with IBM Bluemix and IBM DevOps Services <strong>using Node.js</strong>
+										<strong>Getting started</strong> with IBM Bluemix and IBM Bluemix DevOps Services <strong>using Node.js</strong>
 									</p>
 								</div>
 								<div class="col-md-2 hidden-xs col-sm-1 col-md-pull-4 stem"><hr /></div>
@@ -125,7 +125,7 @@
 								<div class="col-md-7 col-sm-9 col-xs-9 col-md-push-5 callout" id="6">
 									<p class="description">
 										<p class="description">
-											<strong> Developing with Git</strong> in the IBM DevOps Services web IDE
+											<strong> Developing with Git</strong> in the IBM Bluemix DevOps Services web IDE
 										</p>
 									</p>
 								</div>

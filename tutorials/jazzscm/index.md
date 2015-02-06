@@ -1,7 +1,7 @@
 #Developing an application that uses Jazz source control
 
 This tutorial shows how to develop an application that uses Jazz&trade; source control management (SCM). 
-Ensure that your IBM id is registered with [IBM&reg; Bluemix&trade;](https://bluemix.net). Log in to IBM DevOps Services with your IBM id.
+Ensure that your IBM id is registered with [IBM&reg; Bluemix&trade;](https://bluemix.net). Log in to IBM&reg; Bluemix&trade; DevOps Services with your IBM id.
 
 ---
 ##Start with a sample project
@@ -36,7 +36,7 @@ Click the application URL to see the running app with your changes.
 
 ###Manifest file
 
-To deploy a DevOps Services project from the Web IDE, the project must have a 
+To deploy a Bluemix DevOps Services project from the Web IDE, the project must have a 
 `manifest.yml` file. 
 This file contains important settings such as the application instance name,
 the host computer, the services that the application uses, and more. 
@@ -141,7 +141,7 @@ To find out more about these add-ons, see the associated tutorials.
 
 You should now have a good overview of how to develop an app that uses Jazz SCM. 
 
-You've seen how to edit a sample app and fork that app by using DevOps Services. 
+You've seen how to edit a sample app and fork that app by using Bluemix DevOps Services. 
 With a few simple steps, you deployed your changed app and saw it 
 running in the cloud.
 In minutes, you changed the code, delivered the changes to the Jazz SCM repository 

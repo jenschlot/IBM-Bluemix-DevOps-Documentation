@@ -1,22 +1,22 @@
 ### Reference: [Git reference](/docs/reference/git)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  git
 
-### Reference: [Work locally with IBM DevOps Services projects and Git source control](/docs/reference/gitclient)
+### Reference: [Work locally with IBM Bluemix DevOps Services projects and Git source control](/docs/reference/gitclient)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  git
 
-### Tutorial: [Developing with Git in the IBM DevOps Services web IDE](/tutorials/gitweb)
+### Tutorial: [Developing with Git in the IBM Bluemix DevOps Services web IDE](/tutorials/gitweb)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> git, webide
 
-### Tutorial: [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/jazzeditor)  
+### Tutorial: [Getting Started with Bluemix and IBM Bluemix DevOps Services using Node.js](/tutorials/jazzeditor)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, nodejs, git, webide, pipeline, cloud_foundry
 
-### Tutorial: [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)  
+### Tutorial: [Getting Started with IBM Bluemix and IBM Bluemix DevOps Services using Java](/tutorials/jazzeditorjava)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, git, webide, pipeline
 
-### Tutorial: [Developing BlueMix applications in Node.js with the Web IDE](/tutorials/jazzweb)  
+### Tutorial: [Developing Bluemix applications in Node.js with the Web IDE](/tutorials/jazzweb)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, nodejs, webide, git, pipeline, manifest
 
-### Tutorial: [Setting up Eclipse, Git, and Rational Team Concert desktop clients to access IBM DevOps Services](/tutorials/clients)  
+### Tutorial: [Setting up Eclipse, Git, and Rational Team Concert desktop clients to access IBM BluemixDevOps Services](/tutorials/clients)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> eclipse, git, rtc, jazz_scm
 
 
