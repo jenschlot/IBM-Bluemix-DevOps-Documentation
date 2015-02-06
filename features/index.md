@@ -1,3 +1,5 @@
+# Features
+
 Last modified: 09 December 2014
 
 ## Easy to find What's New
@@ -54,8 +56,8 @@ can configure more advanced build options to be deployed automatically.
 To learn more about configuring and using the various build and deploy capabilities,
 see these resources:
 
-* [Tutorial: Getting Started with Bluemix and DevOps Services using Node.js](/tutorials/jazzeditor)
-* [Tutorial: Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava)
+* [Tutorial: Getting Started with Bluemix and Bluemix DevOps Services using Node.js](/tutorials/jazzeditor)
+* [Tutorial: Getting Started with Bluemix and Bluemix DevOps Services using Java](/tutorials/jazzeditorjava)
 * [Reference information on Build and Deploy](/docs/reference/deploy)
 
 
@@ -76,7 +78,7 @@ browser. And, don't worry, your favorite Git client is supported too.
 ## Connect with your GitHub repository
 			
 It's easy to link work items with GitHub code changes: use your existing 
-tools to code, and manage your project with DevOps Services.  You 
+tools to code, and manage your project with  DevOps Services.  You 
 can reference a work item in the GitHub comments before you push 
 code changes, and the work item is updated with the new commit information.
 

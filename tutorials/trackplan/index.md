@@ -1,15 +1,15 @@
 
-# Getting started with tracking and planning in IBM DevOps Services
+# Getting started with tracking and planning in IBM Bluemix DevOps Services
 
 Last modified: 3 February 2015
 
-You can use the Track & Plan feature in IBM&reg; DevOps Services to manage any type of project by using an agile approach. After you enable the Track & Plan feature, you can start getting organized right away by creating and assigning work items for your project.
+You can use the Track & Plan feature in IBM&reg; Bluemix&trade; DevOps Services to manage any type of project by using an agile approach. After you enable the Track & Plan feature, you can start getting organized right away by creating and assigning work items for your project.
 
 The Track & Plan tools can simplify your project planning and speed your workflow. For example, you can drag items from one project phase to another, such as from your project backlog to a sprint. You can also quickly assign work item attributes using keyboard shortcuts or icons.
 
 The Track & Plan feature is useful for supporting both large and small teams, and for managing complex and simple projects. 
 
-You can use the Track & Plan feature with all of your public IBM DevOps Services projects at no cost. If you use the feature with private projects, a fee might apply. For more details, [see the subscription details][22].
+You can use the Track & Plan feature with all of your public IBM Bluemix DevOps Services projects at no cost. If you use the feature with private projects, a fee might apply. For more details, [see the subscription details][22].
 
 To try the Track & Plan feature, complete this tutorial. You'll start a simple, public, agile project and will use basic story, task, and defect work items to plan a chat page for a website.
 
@@ -18,7 +18,7 @@ For a quick overview of features and functions, [explore the Track & Plan featur
 ---
 ## Contents
 
-* [Set up an IBM DevOps Services project](#set_up_an_IBM_devops_services_project)
+* [Set up an IBM Bluemix DevOps Services project](#set_up_an_IBM_devops_services_project)
 * [Create your first work items](#create_your_first_work_items)
 * [Create parent and child work items from the backlog](#create_work_items_in_the_backlog)
 * [Triage the backlog](#triage_the_backlog)
@@ -28,9 +28,9 @@ For a quick overview of features and functions, [explore the Track & Plan featur
 
 ---
 <a name='set_up_an_IBM_devops_services_project'></a>
- ##Set up an IBM DevOps Services project
-1. [Sign in to IBM DevOps Services][1].  Your My Stuff page opens.  
-![DevOps Services new user landing page][2]
+ ##Set up an IBM Bluemix DevOps Services project
+1. [Sign in to IBM Bluemix DevOps Services][1].  Your My Stuff page opens.  
+![Bluemix DevOps Services new user landing page][2]
 
 2. Start a new project by clicking the **Start coding** icon.  
 If you see a list of projects instead of this page, click **CREATE PROJECT**.
@@ -41,7 +41,7 @@ If you see a list of projects instead of this page, click **CREATE PROJECT**.
 You can also manage an existing GitHub repository or a new Jazz source control management repository.
 
 5. Ensure that the **Private** check box is cleared.  
-IBM DevOps Services supports both public and private projects. Anyone can access your public projects, but only the DevOps Services users who you invite can access your private projects.  
+IBM Bluemix DevOps Services supports both public and private projects. Anyone can access your public projects, but only the Bluemix DevOps Services users who you invite can access your private projects.  
 
 6. Ensure that the **Add features for Scrum development** check box is selected. By enabling Scrum development, you can create sprints from your project's backlog of work items.  
 **Note**: To use the full Track & Plan capabilities, you must enable Scrum development. However, if you plan traditional projects that use simple tasks and iterations without a backlog, clear this check box.
@@ -290,7 +290,7 @@ You have a good overview of the Track & Plan feature and see that you can use it
 [15]: https://hub.jazz.net/tutorials/jazzeditor
 [16]: https://hub.jazz.net/tutorials/jazzeditorjava
 [17]: https://bluemix.net/
-[18]: https://www.ibmdw.net/answers?community=Devops_services (DevOps Services forum)
+[18]: https://www.ibmdw.net/answers?community=Devops_services (Bluemix DevOps Services forum)
 [19]: mailto:hub%40jazz.net
 [22]: https://ace.ng.bluemix.net/#/pricing
 
@@ -301,8 +301,8 @@ You have a good overview of the Track & Plan feature and see that you can use it
 [28]: /tutorials/trackplan/images/parentbreakdown.png
 
 
-[40]: /tutorials/jazzrtc (Developing Bluemix applications in Java with Eclipse and DevOps Services)
-[41]: /tutorials/jazzeditor (Getting Started with Bluemix and DevOps Services using Node.js)
-[42]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access DevOps Services)
-[43]: /tutorials/jazzweb (Developing Bluemix applications in Node.js with the DevOps Services Web IDE)
-[44]: /tutorials/jazzeditorjava (Getting Started with Bluemix and DevOps Services using Java)
+[40]: /tutorials/jazzrtc (Developing Bluemix applications in Java with Eclipse and Bluemix DevOps Services)
+[41]: /tutorials/jazzeditor (Getting Started with Bluemix and Bluemix DevOps Services using Node.js)
+[42]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access Bluemix DevOps Services)
+[43]: /tutorials/jazzweb (Developing Bluemix applications in Node.js with the Bluemix DevOps Services Web IDE)
+[44]: /tutorials/jazzeditorjava (Getting Started with Bluemix and Bluemix DevOps Services using Java)

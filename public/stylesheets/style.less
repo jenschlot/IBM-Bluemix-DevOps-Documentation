@@ -398,7 +398,7 @@ a img {
 		4.3.3 Topics Subpages
 		4.3.4 Topics Hover behaviou
 
-	4.4 Masthead "What is DevOps Services"
+	4.4 Masthead "What is Bluemix DevOps Services"
 
 5.0 Footer
 
@@ -603,36 +603,31 @@ a:hover {
  }
  
 .announcement {
-	min-height: 30px;
-	background-color: #5bc0de;
-	color: white;
-	font-size: 0.813em;
-	line-height: 1.15rem;
+	margin: 0;
+	padding: 0;
+	min-height: 33px;
+	line-height: 33px;
+	background-color: #26343f;
+	color: #ffffff;
+	font-size: 13px;
+	font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica", "Segoe UI", "Segoe", "Calibri", "Roboto", "Droid Sans", "Arial Unicode MS", Arial, sans-serif;
 	text-align: center;
 	min-width: 980px;
 	overflow: hidden;
-	width: 100%;	
-}
-
-.announcement > .message-container {
-	padding: 0 50px 5px 6px;
+	width: 100%;
+	padding-bottom: 2px;
+	box-shadow: 0px 0px 5pt 1pt rgba(0, 0, 0, 0.3);	
 }
 
 .announcement > .message-container > .messageIcon {
-	display: inline-block;	
-	background-image: url("../images/info-white_20.png");
-	background-repeat: no-repeat;
-	background-position: 0 center;
+	vertical-align: middle;
+	margin-right: 5px;
 	height: 20px;
 	width: 20px;
-	left: 0;
-	top: 5px;
-	margin-right: 5px;
-	position: relative;
-	padding: 0;
 }
 
 .announcement > .message-container > .messageSummary {
+	vertical-align: middle;
 	display: inline;
 	word-wrap: break-word;
 	margin: 0;
@@ -869,6 +864,14 @@ a:hover {
 		background-repeat: no-repeat;
 		z-index: 1;
 	}
+
+	/* Full-hexagon tiles */
+
+	img.featured-doc {
+		.hex-tile-position;
+	}
+
+	/* Angled Hex tiles */
 
 	span.hex-builddeploy {
 		.hex-tile-position;

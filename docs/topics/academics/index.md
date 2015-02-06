@@ -1,14 +1,14 @@
 Last modified: 20 October 2014
 
-###What is DevOps Services?
-IBM&reg; DevOps Services offers features you can use to collaborate with others to develop, track, plan, and deploy software in the cloud.
+###What is Bluemix DevOps Services?
+IBM&reg; Bluemix&trade; DevOps Services offers features you can use to collaborate with others to develop, track, plan, and deploy software in the cloud.
 From your projects, you can access everything you need to build all types of applications right from your web browser. Use our built-in collaboration tools to make team projects simple!
 Easily build and deploy your application with integrated deployment to the IBM&reg; Bluemix&trade; cloud platform. Go from source code
 to a running application with the push of a button.
 
 
-### How can I use DevOps Services in the classes I teach?
-You can use IBM DevOps Services and Bluemix in many ways.
+### How can I use Bluemix DevOps Services in the classes I teach?
+You can use IBM Bluemix DevOps Services and Bluemix in many ways.
 
 For example, you can use it to:  
 * teach [DevOps](http://www-03.ibm.com/software/products/en/category/SW888) principles to your students.
@@ -17,18 +17,18 @@ For example, you can use it to:
 * encourage collaboration in your students' group projects.
 * complete a class hackathon.
 
-### How much does it cost to use DevOps Services and Bluemix? 
-DevOps Services offers many capabilities at no cost.
- [Visit our pricing page](https://hub.jazz.net/learn/cost) to learn more about what you can do on DevOps Services for free.
+### How much does it cost to use Bluemix DevOps Services and Bluemix? 
+Bluemix DevOps Services offers many capabilities at no cost.
+ [Visit our pricing page](https://hub.jazz.net/learn/cost) to learn more about what you can do on Bluemix DevOps Services for free.
 
 To inquire about academic pricing for Bluemix features, [send us an email](mailto:hub%40jazz.net).
 
-### How do I set up my first DevOps Services project?
+### How do I set up my first Bluemix DevOps Services project?
 To create a DevOps Services account and your first project:
 
 1. Go to [IBM DevOps Services](https://hub.jazz.net/).
 
-2. Click **Register for Free**, and create your IBM id and Jazz ID.  
+2. Click **Register for Free**, and create your IBM id and alias.  
 **Tip**: Use your university email address as your IBM id.
 
 3. Click the **Start coding** icon to create a project.  
@@ -41,7 +41,7 @@ for information about configuring your project and using the Track & Plan featur
  * To start creating your project's code, click **EDIT CODE**
 
 
-### Where can I find help with DevOps Service?
+### Where can I find help with Bluemix DevOps Service?
 If you need help, click **SUPPORT** in the navigation bar.
 
 If you are looking for tutorials, click **DOCS** in the navigation bar.
@@ -59,7 +59,7 @@ students can start collaborating.
 ###Alan Kan: 
 ![Alan Kan](images/alankan.png) 
  
-“I am using DevOps Services and BlueMix in my new Agile Development class to help students collaborate on group assignments and  
+“I am using Bluemix DevOps Services and Bluemix in my new Agile Development class to help students collaborate on group assignments and  
 get familiar with online collaboration practices using the latest tools used in the industry, without the hassle and cost of  
 setting up servers."  - Alan Kan, Lecturer, Unitec Institute of Technology, New Zealand.   
 
@@ -68,10 +68,10 @@ setting up servers."  - Alan Kan, Lecturer, Unitec Institute of Technology, New 
 <a name="resources"></a>
 ##Resources
 
-### Tutorial: [Getting started with tracking and planning in IBM DevOps Services](/tutorials/trackplan)  
+### Tutorial: [Getting started with tracking and planning in IBM Bluemix DevOps Services](/tutorials/trackplan)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> plan, track
 
-### Tutorial: [Setting up Eclipse, Git, and Rational Team Concert desktop clients to access IBM DevOps Services](/tutorials/clients) 
+### Tutorial: [Setting up Eclipse, Git, and Rational Team Concert desktop clients to access IBM Bluemix DevOps Services](/tutorials/clients) 
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> eclipse, git, rtc
 
 ### IBM Academic Initiative Program

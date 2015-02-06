@@ -1,4 +1,4 @@
-#Getting Started with IBM Bluemix and IBM DevOps Services by using Node.js
+#Getting Started with IBM Bluemix and IBM Bluemix DevOps Services by using Node.js
 
 Last modified: 21 January 2015
 
@@ -34,21 +34,21 @@ If you create more organizations or spaces in Bluemix, be sure to use the same o
 The app starts after a moment. The app dashboard opens and shows that it's running.
 ![Bluemix Application tile](/tutorials/jazzeditor/images/bm-app-panel_NEW.png)
 
-Now that your application is running, you can see and modify its code with IBM DevOps Services.
+Now that your application is running, you can see and modify its code with IBM® Bluemix™ DevOps Services.
 
 ---
-##Enable Git integration and auto-deployment with DevOps Services
+##Enable Git integration and auto-deployment with Bluemix DevOps Services
 
 You can work with your application code in many ways. For example, with the auto-deploy feature, you can modify the code that runs in your app by pushing the changes to a 
 Git repository. The mechanism that implements auto-deployment is powered by 
-the BUILD & DEPLOY capabilities of DevOps Services.
+the BUILD & DEPLOY capabilities of Bluemix DevOps Services.
 
 1. To enable auto-deployment, go to the Bluemix overview for your application and 
 click **ADD GIT**. You get a Git repository that is populated with example code and a deployed app. 
 ![Add Git button](/tutorials/jazzeditor/images/bm-add-git-integration_NEW.png)
-You might be prompted to enter your password to verify that DevOps Services can act on your behalf. 
-![DevOps Services sign in page](/tutorials/jazzeditor/images/jh-signin.png)
-**Note:** The first time that you access IBM DevOps Services, you might need to create a Jazz&trade; ID and link it to your IBM id. A Jazz ID is a short name that is used in several places, 
+You might be prompted to enter your password to verify that Bluemix DevOps Services can act on your behalf. 
+![Bluemix DevOps Services sign in page](/tutorials/jazzeditor/images/jh-signin.png)
+**Note:** The first time that you access IBM Bluemix DevOps Services, you might need to create a Jazz&trade; ID and link it to your IBM id. A Jazz ID is a short name that is used in several places, 
 including the URL for the repository that is created for you. For this one-time process, follow 
 the instructions in the window.
  
@@ -77,7 +77,7 @@ If you need to install Git, [see Installing Git](/tutorials/clients#installing_g
 
 To learn more about working with Git, [browse the Git documentation](http://git-scm.com/doc).
 
-1. Clone the local repository by using the Git URL from the Bluemix application dashboard, the BUILD & DEPLOY page, or your DevOps Services project overview:
+1. Clone the local repository by using the Git URL from the Bluemix application dashboard, the BUILD & DEPLOY page, or your Bluemix DevOps Services project overview:
 
 		$ git clone https://hub.jazz.net/git/jazzhubdemouser/newcoolwebappdemo
     	Cloning into 'mycoolwebappdemo'...
@@ -142,7 +142,7 @@ auto-deploy features are all that you need to ensure that the application is alw
 ---
 ##Push changes to the Git repository by using the web IDE
 
-In addition to auto-deployment, IBM DevOps Services provides many other useful capabilities 
+In addition to auto-deployment, IBM Bluemix DevOps Services provides many other useful capabilities 
 for application development:
 
 * Hosting for public projects
@@ -152,14 +152,14 @@ for application development:
 * Continuous delivery pipeline for deploying applications to Bluemix
 * More capabilities under development
 
-To learn about all the features, [see the IBM DevOps Services website](https://hub.jazz.net/learn). 
+To learn about all the features, [see the IBM Bluemix DevOps Services website](https://hub.jazz.net/docs). 
 
 You used the command line to modify your code and push it to the repository. 
-Now, try the web IDE in DevOps Services to do the same thing.
+Now, try the web IDE in Bluemix DevOps Services to do the same thing.
 
 1. Return to the deployment page and click **EDIT CODE** to access the complete, integrated web IDE that's 
 based on [the Eclipse Orion open-source project](http://orion.eclipse.org/). When the example project is open, the web IDE looks like this image:
-![Orion at DevOps Services](/tutorials/jazzeditor/images/orion_1_NEW.png)
+![Orion at Bluemix DevOps Services](/tutorials/jazzeditor/images/orion_1_NEW.png)
 In this environment, you can edit files with syntax coloring support for multiple languages, including HTML, 
 CSS, JavaScript, Ruby, and Python. For some languages, such as JavaScript, the web IDE also supports 
 syntax checking and code completion, both for standard language constructs and for the services that Bluemix provides. To use content assist, press **Ctrl + Space**. For example, this image shows code completion for the standard Node.js express module:
@@ -205,7 +205,7 @@ Both the command-line tools and the web IDE are effective for rapid, solo develo
 ---
 ##Summary
 
-You have a good overview of how to get started with Bluemix and DevOps Services by using Node.js. 
+You have a good overview of how to get started with Bluemix and Bluemix DevOps Services by using Node.js. 
 
 You saw how to create and run a Node.js web app by using Bluemix. 
 With one click, you created a Git repository, populated it with example code, and automatically 

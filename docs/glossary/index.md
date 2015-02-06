@@ -1,6 +1,7 @@
+# Glossary
 Last modified: 3 February 2015
 
-This glossary provides terms and definitions for the IBM&reg; DevOps Services features.
+This glossary provides terms and definitions for the IBM&reg; Bluemix&trade; DevOps Services features.
 
 The following cross-references are used in this glossary: 
 * *See* refers you from a nonpreferred term to the preferred term or from an abbreviation to the spelled-out form. 
@@ -423,7 +424,7 @@ required to install and run a web application in a single file.
 
 <a name="Web_IDE"></a>
 **Web IDE**  
-In IBM DevOps Services, a browser-based IDE for web and cloud development that is built 
+In IBM Bluemix DevOps Services, a browser-based IDE for web and cloud development that is built 
 on the open source Orion platform from Eclipse.
 
 <a name="work_item"></a>

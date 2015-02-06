@@ -2,7 +2,7 @@
 
 Last modified: 3 February 2015
 
-You can get your code on the web in multiple ways by using IBM® DevOps Services, which integrates with IBM® Bluemix™.
+You can get your code on the web in multiple ways by using IBM® Bluemix&trade; DevOps Services, which integrates with IBM® Bluemix™.
 
 ---
 ##[Manual deployment from the web IDE](#manual)
@@ -79,7 +79,7 @@ To make the most of the Delivery Pipeline service's integration with Bluemix, ad
 <a name="multi"></a>
 ###Multistage deployment
 
-You can configure DevOps Services projects to deploy to multiple Bluemix spaces. To use multistage deployment, create multiple deployer stages. For example, you might configure three stages: one that deploys to a development space, another that deploys to a staging space, and a third that deploys to a production space. 
+You can configure Bluemix DevOps Services projects to deploy to multiple Bluemix spaces. To use multistage deployment, create multiple deployer stages. For example, you might configure three stages: one that deploys to a development space, another that deploys to a staging space, and a third that deploys to a production space. 
 
 If your deployment stages all attempt to use the route specified in your project manifest, there will be a route collision. For more information on preventing route collisions when deploying to multiple stages, [see the Manifests section][6].
 
