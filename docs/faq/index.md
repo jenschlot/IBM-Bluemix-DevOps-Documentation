@@ -121,6 +121,3 @@ Bluemix DevOps Services supports the latest version of these browsers:
 	</div>
 </div>
 
-
-
-&copy; Copyright IBM Corporation 2013, 2015.
