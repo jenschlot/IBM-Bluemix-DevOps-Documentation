@@ -46,7 +46,7 @@ You can find help resources for getting started and improving your skills on the
 
 ### Why can't I sign in to Bluemix DevOps Services from my Rational Team Concert&trade; desktop client or Git client? 
 
-When you sign into Bluemix DevOps Services for the first time from a web browser, you must link your IBM id with an alias. (An alias is a publicly visible short name.) After your IBM id and alias are linked, use your IBM id and IBM password to sign in from a browser. When you sign in from your Rational Team Concert desktop client or access a Git repository from your local Git client, you use your alias and password instead.   
+When you sign into Bluemix DevOps Services for the first time from a web browser, you must link your IBM id with an alias. (An alias is a publicly visible short name.) After your IBM id and alias are linked, use your IBM id and IBM password to sign in from a browser. When you sign in from your Rational Team Concert desktop client or access a Git repository from your local Git client, you use your alias and password instead. If you have an existing Jazz ID, that is used as your alias.
 
 <a name="git"></a>
 
