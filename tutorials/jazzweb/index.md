@@ -1,13 +1,13 @@
 #Developing an IBM Bluemix application in Node.js with the web IDE
 
-Last modified: 21 January 2015
+Last modified: 10 February 2015
 
 In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an application in the cloud and deploy it to [IBM® Bluemix™][1].
 
 ---
 ##Start by using a sample project
 
-Start with the sample project, [Sentiment Analysis App][2]. This app is a hosted Node.js Git project. You need your own copy of the project, which you can get by forking the project. 
+Start with the sample project, [Sentiment Analysis App][2]. This app is a hosted Node.js Git project. You need your own copy of the project, which you can get by forking the project.
 
 On the sample project's Overview page, click **FORK PROJECT**.
 
@@ -21,9 +21,9 @@ Put your fork of the project on the web by using Bluemix. To make the most of Bl
 
 At the top of the screen, click **Build &amp; Deploy**. 
 
-The Build & Deploy page opens. If it's your first time using this feature, you will see a welcome page. Click **GET STARTED** to proceed. 
+The Build & Deploy page opens.
 
-To see your deployed app, click the link to it:
+To see your deployed app, click its name under the stage that contains the deploy job:
 
 ![Simple view up close][6]
  
@@ -33,18 +33,30 @@ Bluemix DevOps Services automatically generated a configuration for your project
 
 ![Deleting a preconfigured Pipeline][25]
 
-1. Click the gear icon on the rightmost tile, which represents a stage named `dev Deploy` by default. Click **Delete Stage** and confirm the deletion.
-2. Click the gear icon on the remaining build stage tile. Click **Delete Stage** and confirm the deletion.
+1. Click the gear icon on the rightmost tile. Click **Delete Stage** and confirm the deletion.
+2. Click the gear icon on the remaining tile. Click **Delete Stage** and confirm the deletion.
  
 You reset the Delivery Pipeline service. When you configure your own project, you can create and customize as much as you want to. This sample, however, is designed to require minimal activity to get started: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it is automatically found. This Grunt build file includes JSHint validation, so your project's code will be checked automatically each time a build occurs.
 
-The Pipeline configuration for your Sentiment Analysis app will comprise two stages: a build stage and a deploy stage. The builder stage will use the included `Gruntfile.js` to validated your code, and the deployer stage will deploy your code to Bluemix. 
+The Pipeline configuration for your Sentiment Analysis app will comprise two stages: a build stage and a deploy stage. The builder stage will run a build job on the included `Gruntfile.js` to validated your code, and the deployer stage will run a deploy job to deploy your code to Bluemix.
 
-Click **add a builder**. On the Add Builder page, select **Grunt** as the Builder. Leave the default settings as is and then click **SAVE**.
+First, configure a stage to run a build job on code from your project's Git repository.
+
+Click **ADD STAGE**. At the top of the Stage Configuration page, click the **MyStage** name and change it to `Build`.
+
+Click **JOBS**. Click **ADD JOB**, then select **Build**. 
+
+On the Build Configuration page, select **Grunt** as the Builder. Leave the default settings as they are and click **SAVE**.
 
 ![Configuring the Builder][8]
 
-On the right side of the screen, click **add a stage**. Because Bluemix DevOps Services integrates with Bluemix and this sample is a simple project, the default information is sufficient to deploy the project. 
+Next, configure a stage to deploy the output from the Build stage to Bluemix.
+
+On the right side of the screen, click **ADD STAGE**. At the top of the Stage Configuration page, click the **MyStage** name and change it to `Deploy to dev`.
+
+This stage immediately follows the Build stage, so its default input is from that stage's build job. Because Bluemix DevOps Services integrates with Bluemix and this sample is a simple project, the other default information is sufficient to deploy the project, too.
+
+Click **JOBS**. Click **ADD JOB**, then select **Deploy**.
 
 Make sure that the project has a unique path by editing the first line of the Bluemix script: add the `-n` flag followed by a unique host name. A complete version of the command might look like this example:
  
@@ -58,13 +70,15 @@ The manifest file that is included in this sample application specifies a host n
 
 If the manifest file (`manifest.yml`) didn't specify a host or other parameter, you can define them by adding cf commands to the Bluemix script. The cf command deploys applications to Cloud Foundry-based platforms such as Bluemix. For more information, [see Getting Started with cf v6][24].
 
-Click **SAVE**. On the Pipeline page, click **Request Build**.
+Leave the other settings as they are and click **SAVE**. 
+
+On the Pipeline page, click the play button at the top of the Build stage.
 
 ![Clicking Request Build on configured Pipeline][23]
 
 Your project is queued to build. When the build is completed, your app automatically is queued for deployment to Bluemix. You can observe its status from this page and open the app when it's deployed.
 
-To open the app, click its name. If you want to see your app's Bluemix dashboard, click the deployment box in your space:
+To open the app, click its URL on the Deploy to dev tile. If you want to see your app's Bluemix dashboard, click its name:
 
 ![Ready to click to Bluemix from Pipeline][10]
 
@@ -134,7 +148,7 @@ Whether you are using command-line tools or the web IDE, both methods are effect
 
 Builds are triggered when changes are delivered to a project. Successful builds are automatically deployed. You can also manually deploy in these ways:
   * On the build history page, drag a successful build to the box that is under a configured space. 
-  * Next to a build, click the cloud icon and then select a space. 
+  * Next to a build, click **Deploy to** and select a stage that contains a deploy job. 
 
 ![Deploying an app after expanding a completed build][22]
 
