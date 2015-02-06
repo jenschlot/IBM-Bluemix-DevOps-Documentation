@@ -91,7 +91,7 @@ To see the changes that you make to your code, create a Bluemix app and deploy t
 1. Return to your YummyRation project page on DevOps Services.
 
 1. Near the run bar, click the **Live Edit** button. Let the app deployment finish.
-  * Live Edit mode allows you to quickly preview changes to JavaScript applications (like the YummyRation Node.js app). When you update your code with Live Edit turned on, you can refresh your web application's browser window to see those changes reflected seconds after you make them.  
+  * Bluemix Live Sync allows you to quickly preview changes to JavaScript applications (like the YummyRation Node.js app). When you update your code with Live Sync turned on, you can refresh your web application's browser window to see those changes reflected seconds after you make them.  
 
 2. In the file explorer, next to `views`, click the **>** to expand the contents of the folder. Then, click **home.jade**.
 
@@ -103,7 +103,7 @@ To see the changes that you make to your code, create a Bluemix app and deploy t
 
 ![New subheader][7]
 
-That looks better! Click the **Live Edit** button again to turn Live Edit mode off. 
+That looks better! Click the **Live Edit** button again to turn Bluemix Live Sync off. 
 
 ---
 <a name='deliver_a_change_to_the_repository'></a>
