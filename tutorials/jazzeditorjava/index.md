@@ -138,7 +138,7 @@ Drag the build from the bottom of the Build stage onto the Deploy to dev stage. 
 
 ![Dropping to deploy][49]
 
-To view your app on the web, click its name. To view your app’s Bluemix dashboard, click next to your app in the Deploy to dev tile. 
+To view your app on the web, in the Deploy to dev stage, click the URL below Last Execution Result. To view your app’s Bluemix dashboard, click its name.
 
 ![A deployed app using fully configured Pipeline][50]
 
