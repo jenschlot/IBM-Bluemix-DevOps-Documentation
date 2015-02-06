@@ -55,6 +55,10 @@ app.get(['/learn/cost'], function(req, res){
 	res.redirect('/pricing');
 });
 
+app.get(['/learn', '/learn/what'], function(req, res) {
+	res.redirect('/docs/overview');
+});
+
 _.each(['/docs'],
        function(i) {
 		app.get(i, routes.docs)
