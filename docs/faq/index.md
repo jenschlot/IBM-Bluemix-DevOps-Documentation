@@ -104,7 +104,7 @@ Please include as much information as possible including the URL where you see t
 <a name="q20"></a>
 ### Which browser should I use? 
 
-Bluemix DevOps Services supports the latest version these browsers:
+Bluemix DevOps Services supports the latest version of these browsers:
 
 <div class="jh-columns">
 	<div class="f_left google-chrome pts pbs mrxs ">
