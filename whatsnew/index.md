@@ -5,7 +5,7 @@
 
 You can now access the content about What's New in IBM Bluemix DevOps Services blog. Check out the latest post:
 
-## [A new chapter, a fresh experience. Check out the new IBM Bluemix DevOps Services look and feel!](http://developer.ibm.com/devops-services/2015/02/03/new-look-and-feel/)
+## [A new chapter, a fresh experience. Check out the new IBM Bluemix DevOps Services look and feel!](https://developer.ibm.com/devops-services/2015/02/03/new-look-and-feel/)
 
 [See all the What's new posts](https://developer.ibm.com/devops-services/category/whats-new/)
 

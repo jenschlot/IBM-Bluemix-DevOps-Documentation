@@ -104,25 +104,23 @@ Please include as much information as possible including the URL where you see t
 <a name="q20"></a>
 ### Which browser should I use? 
 
-Bluemix DevOps Services supports these browsers:
+Bluemix DevOps Services supports the latest version these browsers:
 
 <div class="jh-columns">
 	<div class="f_left google-chrome pts pbs mrxs ">
-		__Chrome__ v24+
+		__Chrome__
 	</div>
 	<div class="f_left mozilla-firefox pts pbs mrxs ">
-		__Firefox__ v17+
+		__Firefox__
 	</div>
 	<div class="f_left microsoft-ie pts pbs mrxs ">
-		__Internet Explorer__ 10+
+		__Internet Explorer__
 	</div>
 	<div class="f_left apple-safari pts pbs">
-		__Safari__ 6+
+		__Safari__
 	</div>
 </div>
 
-
-If your browser is not listed, your experience might not be optimal.
 
 
 &copy; Copyright IBM Corporation 2013, 2015.
