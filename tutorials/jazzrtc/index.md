@@ -1,6 +1,6 @@
 #Developing IBM Bluemix applications in Java with Eclipse and Bluemix DevOps Services
 
-Last modified: 13 January 2015
+Last modified: 10 February 2015
 
 Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM&reg; Bluemix&trade; DevOps Services, and the Rational&reg; Team Concert client for Eclipse. 
 
@@ -31,34 +31,35 @@ You're ready to build and deploy.
 ##Deploy your app
 
 1. Go to the deployment page by clicking **BUILD & DEPLOY**. 
-  * If it's your first time using this feature, you will see a welcome page. Click **GET STARTED** to proceed. 
   * When you build and deploy, your Bluemix account might be charged. For more information, [see the Bluemix pricing page](https://bluemix.net/#/pricing).
-To track charges, after you deploy your first build, add the Delivery Pipeline service to your space.
+To track charges, after you deploy your first build, add the Delivery Pipeline service to your Bluemix space.
 
-3. On the Pipeline page, click **add a builder**. The Add Builder page opens.
+3. On the Pipeline page, click **ADD STAGE**. The Stage Configuration page opens.
 ![Click Add A Builder](/tutorials/jazzrtc/images/add_builder.png "Click add a builder")
 
-4. On the Add Builder page, enter this information:
-    * In the **Builder** menu, select **Ant**.
-	* In the **Your IBM Bluemix DevOps Services password** field, type the password that is associated with your IBM id.
-	* In the **Build script path**, type the folder that contains your code; for example,  `WordCounter`. When the project is loaded in the Rational Team Concert client, this folder automatically maps to an Eclipse project.
-	* In the **Build archive directory** field, type the directory where the build output files are archived as part of the build result.
-
-5. Select the **Enable unit tests** check box so that you can run the test cases during a build. Then, click **Save**.
+4. Create a stage to build your application:
+    * Click the default **MyStage** name and change the name of this stage to `Build`. 
+    * Leave the INPUT tab settings at their defaults. Be sure to enter your account password where indicated. 
+	* Under the JOBS tab, click **ADD JOB** and then **Build**. Select the **Ant** builder type. 
+	  * In **Working Directory**, type the folder that contains your code; for example,  `WordCounter`. When the project is loaded in the Rational Team Concert client, this folder automatically maps to an Eclipse project.
+	  * In **Build Archive Directory** field, type the directory where the build output files are archived as part of the build result.
+      * Select the **Enable unit tests** check box so that you can run the test cases during a build.
+    * Click **Save**.
 ![Add Builder](/tutorials/jazzrtc/images/configure_builder.png "Add Builder")
 
-6. Click **add a stage**. The Add Deployer Stage page opens.
+6. Click **ADD STAGE**. The Stage Configuration page opens.
 ![Click Add A New Stage](/tutorials/jazzrtc/images/add_deployer.png "Click add a new stage")
 
-7. This page will use the settings provided by the `manifest.yml` file, included as part of the project. All of the values,
-except for the hostname, can be used directly as provided. The hostname is used to define your application's url and needs
-to be unique for each application deployed. Let's override the host with the `-n` option in the `cf push` command as below.
-Click **Save** and you're all set!
+7.  Create a stage to deploy your application to Bluemix:
+    * Click the default **MyStage** name and change the name of this stage to `Deploy to dev`. 
+    * Leave the INPUT tab settings at their defaults.
+	* Under the JOBS tab, click **ADD JOB** and then **Deploy**. 
+	  * This job will use the settings provided by the `manifest.yml` file, included as part of the project. All of the values, except for the hostname, can be used directly as provided.
+	  * The hostname is used to define your application's URL and needsto be unique for each application deployed that is deployed on Bluemix. Override the host with the `-n` option in the `cf push` command as below.
+    * Click **Save**. 
 ![Add Deployer](/tutorials/jazzrtc/images/configure_deployer.png "Add Deployer")
 
-8. Click **Save**. You're ready to deploy.
-
-9. Click **REQUEST BUILD** to see your project be built and deployed for the first time. The build process takes a couple of minutes. When you see a green circle, the app is live.
+9. Click the play button at the top of the Build stage to see your project built and deployed for the first time. The build process takes a couple of minutes. When you see a green circle, the app is live.
 ![Successful Build](/tutorials/jazzrtc/images/build1_success.png "Successful Build")
 
 10. Click the application link to verify that the app is running.
