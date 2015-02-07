@@ -35,7 +35,9 @@ The Bluemix Devops Services Build & Deploy feature, also known as Pipeline, auto
 <a name="key"></a>
 ###Stages and jobs
 
+Stages organize input and output as your code is built, deployed, and tested. Actual building, deploying, and testing is done by the jobs that a stage contains. A simple example Pipeline configuration might contain a "Build" stage that takes input from a Git repository and, by running build and test jobs, builds and unit tests a project. If the build and test jobs both run successfully, that compiled project would be output to a "Deploy" stage that pushes the application to Bluemix. 
 
+Jobs run serially within each stage.
 
 ---
 <a name="manual"></a>
