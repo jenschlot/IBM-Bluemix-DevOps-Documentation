@@ -1,10 +1,13 @@
-#Build and Deploy reference
+#Build & Deploy reference
 
 Last modified: 10 February 2015
 
 You can get your code on the web in multiple ways by using IBM® Bluemix&trade; DevOps Services, which integrates with IBM® Bluemix™.
 
 ---
+##[Build & Deploy overview](#overview)
+* [Key concepts](#key)
+
 ##[Manual deployment from the web IDE](#manual)
 * [The Run Bar explained](#runbar)
 
@@ -22,6 +25,17 @@ You can get your code on the web in multiple ways by using IBM® Bluemix&trade; 
 * [Charging](#charging)
 * [Bluemix Delivery Pipeline Service Documentation](#servicedoc)
 -->
+
+---
+<a name="overview"></a>
+##Overview
+
+The Bluemix Devops Services Build & Deploy feature, also known as Pipeline, automates continuous deployment of your projects. A fully configured Pipeline comprises sequences of stages that retrieve input and run jobs, such as builds, tests, and deployments.
+
+<a name="key"></a>
+###Stages and jobs
+
+
 
 ---
 <a name="manual"></a>
