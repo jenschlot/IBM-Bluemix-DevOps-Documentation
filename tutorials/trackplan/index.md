@@ -138,7 +138,7 @@ Notice the new text after your summary. When you set an attribute, the text code
 **Tip**: You can enter most of the attributes by typing their text code instead of using the mouse. 
 
   8. Enter these attributes:
-    * @:*< yourJazzID >* 
+    * @:*< yourAlias >* 
     * \#server 
     * $high 
 

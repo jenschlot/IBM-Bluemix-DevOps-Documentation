@@ -1,6 +1,6 @@
 #Getting Started with IBM Bluemix and IBM Bluemix DevOps Services using Java
 
-Last modified: 21 January 2015
+Last modified: 6 February 2015
 
 ##Create an app using IBM Bluemix
 
@@ -50,7 +50,7 @@ You might be prompted to enter your password because Bluemix DevOps Services mus
 
 ![Bluemix DevOps Services sign in page][12]
 
-**Note:** The first time that you access Bluemix DevOps Services, you might need to create a Jazz™ ID and link it to your IBM id. A Jazz ID is a kind of short name that is used in several places, including in the URL for the repository that is about to be created for you. Follow the instructions in the window. You'll see it only once.
+**Note:** The first time that you access IBM DevOps Services, you must create an alias that is linked to your IBM id. An alias is a unique, publicly visible short name that is used in Git repository paths, Track & Plan, and desktop and command line clients, including the URL for the repository that is created for you. For this one-time process, follow the instructions in the window.
 
 Make sure that the check box to populate the Git repo with the starter application package and automatically deploy the app is selected. Click **CONTINUE**. When you are prompted, click **CLOSE**. 
 

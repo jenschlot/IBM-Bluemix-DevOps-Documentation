@@ -1,6 +1,6 @@
 #Getting Started with IBM Bluemix and IBM Bluemix DevOps Services by using Node.js
 
-Last modified: 21 January 2015
+Last modified: 6 February 2015
 
 ##Create an application with IBM Bluemix
 
@@ -48,9 +48,7 @@ click **ADD GIT**. You get a Git repository that is populated with example code 
 ![Add Git button](/tutorials/jazzeditor/images/bm-add-git-integration_NEW.png)
 You might be prompted to enter your password to verify that Bluemix DevOps Services can act on your behalf. 
 ![Bluemix DevOps Services sign in page](/tutorials/jazzeditor/images/jh-signin.png)
-**Note:** The first time that you access IBM Bluemix DevOps Services, you might need to create a Jazz&trade; ID and link it to your IBM id. A Jazz ID is a short name that is used in several places, 
-including the URL for the repository that is created for you. For this one-time process, follow 
-the instructions in the window.
+**Note:** The first time that you access IBM DevOps Services, you must create an alias that is linked to your IBM id. An alias is a unique, publicly visible short name that is used in Git repository paths, Track & Plan, and desktop and command line clients, including the URL for the repository that is created for you. For this one-time process, follow the instructions in the window.
  
 2. Make sure that the check box is selected to populate the Git repository with the starter application package and 
 to automatically deploy the app.

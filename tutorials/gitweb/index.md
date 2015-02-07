@@ -1,6 +1,6 @@
 #Developing with Git in the IBM Bluemix DevOps Services web IDE
 
-Last modified: 13 January 2015
+Last modified: 6 February 2015
 
 If you want to learn more about managing your Git repository, an open source code management system, with the IBM® Bluemix&trade; DevOps Services web IDE, complete this tutorial. The tutorial doesn't cover all of the possible Git commands in the DevOps Services web IDE, but you can practice creating a change on a separate branch, testing the change, and adding the change to the master branch. If you need help with specific commands, [see the Git reference](/../docs/reference/git).  If you want to try to work locally by using the command line, [see Work locally with IBM DevOps Services projects and Git source control](../../docs/reference/gitclient).
 
@@ -66,7 +66,7 @@ To see the changes that you make to your code, create a Bluemix app and deploy t
 1. In the project side panel, click the `manifest.yml` file.
 
 1. In both the **host** and **name** fields, enter the same unique host name.  
-**Note**: This name must be unique through all of Bluemix, so include your Jazz ID in the host name.
+**Note**: This name must be unique through all of Bluemix, so include your a in the host name.
 ![Change the host and name entries in the manifest.yml file][1]
 
 1. Click **File**, and then click **Save**.
