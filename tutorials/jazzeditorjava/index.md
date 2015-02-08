@@ -259,15 +259,15 @@ This process is like the process you did on the command line, only with more cli
 ![Our really cool app][36]
 
 ---
-## Manual deployment
+##Deployment using the web IDE
 
-While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the web IDE workspace to Bluemix by using the Play button in the Run Bar. Remember: When you deploy with the Run Bar, you deploy the current state of your code in the web IDE. Build &amp; Deploy deploys from what is checked into the repository.
+While you're working in the directory that contains your `manifest.yml file`, you can deploy whatever is in the web IDE workspace to Bluemix by using the Play button in the Run Bar. Remember: When you deploy with the Run Bar, you deploy the current state of your code in the web IDE. Build &amp; Deploy deploys from what is checked into the repository.
 
 ![The IDE Run Bar][56]
 
-You can configure web IDE manual deployment and Build &amp; Deploy's automatic deployment to use different app names. Then, you can use the web IDE deployment for a personal test environment and automatic deployment for a team integration environment. Manual deployment launch configurations are saved in the web IDE; you can access them via the dropdown menu in the Run Bar. 
+You can configure web IDE deployment and Build &amp; Deploy's Pipeline deployment to use different app names. Then, you can use the web IDE deployment for a personal test environment and Pipeline deployment for a team integration environment. Web IDE deployment launch configurations are saved; you can access them via the dropdown menu in the Run Bar. 
 
-Whether you are using command-line tools or the web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment so that you can control what is being pushed. By using automatic deployment, you know that the code that is running in the app matches a known state in the repository. In contrast, manual deployment deploys whatever is in your working directory when you push.
+Whether you are using command-line tools or the web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment so that you can control what is being pushed. By using automatic deployment via Pipeline, you know that the code that is running in the app matches a known state in the repository. In contrast, the web IDE deploys whatever is in your working directory when you push.
 
 ---
 ## A final note
