@@ -189,15 +189,15 @@ application was deployed again. Then, click the URL link that is next to "Deploy
 ![Our really cool app](/tutorials/jazzeditor/images/really-cool_NEW.png)
 
 ---
-##Advanced deployment features
+##Deployment using the web IDE
 
-Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can also manually deploy applications directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the web IDE, you can deploy your code to Bluemix by using the Play button in the Run Bar. 
+Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can deploy applications directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the web IDE, you can deploy your code to Bluemix by using the Play button in the Run Bar. 
 
 ![Screenshot here of Run Bar][1]
 
-**Note**: Clicking the Play button in the Run Bar deploys the current state of the code in your web IDE, whereas auto-deploy deploys the code that is checked in to the repository.
+**Note**: Clicking the Play button in the Run Bar deploys the current state of the code in your web IDE, whereas Pipeline deploys the code that is checked in to the repository.
 
-Both the command-line tools and the web IDE are effective for rapid, solo development, but the auto-deploy feature adds the security of controlling what is pushed, especially in team environments. With auto-deployment, you always know that the code running in the application matches a known state in the repository, instead of whatever was in your working directory when you pushed changes.
+Both the command-line tools and the web IDE are effective for rapid, solo development, but the Pipeline adds the security of controlling what is pushed, especially in team environments. With Pipeline, you always know that the code running in the application matches a known state in the repository, instead of whatever was in your working directory when you pushed changes.
 
 ---
 ##Summary
