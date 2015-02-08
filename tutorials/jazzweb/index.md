@@ -23,20 +23,7 @@ At the top of the screen, click **Build &amp; Deploy**.
 
 The Build & Deploy page opens.
 
-To see your deployed app, click its name under the stage that contains the deploy job:
-
-![Simple view up close][6]
- 
-![Sentiment Analysis Sample App][7]
-
-Bluemix DevOps Services automatically generated a configuration for your project. However, you're going to create your own configuration, so you first must reset Pipeline:
-
-![Deleting a preconfigured Pipeline][25]
-
-1. Click the gear icon on the rightmost tile. Click **Delete Stage** and confirm the deletion.
-2. Click the gear icon on the remaining tile. Click **Delete Stage** and confirm the deletion.
- 
-You reset the Delivery Pipeline service. When you configure your own project, you can create and customize as much as you want to. This sample, however, is designed to require minimal activity to get started: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it is automatically found. This Grunt build file includes JSHint validation, so your project's code will be checked automatically each time a build occurs.
+When you configure your own project, you can create and customize as much as you want to. This sample, however, is designed to require minimal activity to get started: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it is automatically found. This Grunt build file includes JSHint validation, so your project's code will be checked automatically each time a build occurs.
 
 The Pipeline configuration for your Sentiment Analysis app will comprise two stages: a build stage and a deploy stage. The builder stage will run a build job on the included `Gruntfile.js` to validated your code, and the deployer stage will run a deploy job to deploy your code to Bluemix.
 
