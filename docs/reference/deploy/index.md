@@ -5,20 +5,18 @@ Last modified: 10 February 2015
 You can get your code on the web in multiple ways by using IBM® Bluemix&trade; DevOps Services, which integrates with IBM® Bluemix™.
 
 ---
-##[Build & Deploy overview](#overview)
-* [Key concepts](#key)
+##[Overview](#overview)
+* [Stages and jobs](#key)
 
-##[Manual deployment from the web IDE](#manual)
-* [The Run Bar explained](#runbar)
-
-##[Auto-deployment](#auto)
-* [Overview](#autohow)
-* [Manifests](#manifests)
-
-##[Pipeline](#pipeline)
-* [Bluemix and the Delivery Pipeline service](#service)
+##[Deployment using the Bluemix DevOps Services Pipeline](#auto)
+* [Manually deploying from Pipeline](#pipeline_manual)
 * [Multistage deployment](#multi)
+* [Manifests](#manifests)
+* [Bluemix and the Delivery Pipeline service](#service)
 * [Logging](#logs)
+
+##[Deployment from the web IDE](#manual)
+* [The Run Bar explained](#runbar)
 
 <!--
 ##[Additional resources](#addl)
@@ -35,42 +33,35 @@ The Bluemix Devops Services Build & Deploy feature, also known as Pipeline, auto
 <a name="key"></a>
 ###Stages and jobs
 
-Stages organize input and output as your code is built, deployed, and tested. Actual building, deploying, and testing is done by the jobs that a stage contains. A simple example Pipeline configuration might contain a "Build" stage that takes input from a Git repository and, by running build and test jobs, builds and unit tests a project. If the build and test jobs both run successfully, that compiled project would be output to a "Deploy" stage that pushes the application to Bluemix. 
+Stages organize input and output as your code is built, deployed, and tested. Actual building, deploying, and testing is done by the jobs that a stage contains. 
 
-Jobs run serially within each stage.
+A job is an execution unit that is contained within a stage. There can be multiple jobs within a stage; jobs within a stage run sequentially. All jobs within a stage must complete successfully for that stage to complete successfully. If a job fails, subsequent jobs within a stage will not run.
 
----
-<a name="manual"></a>
-##Manual deployment from the web IDE
-
-While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the web IDE workspace to Bluemix by using the Play button in the Run Bar. Remember: When you deploy with the Run Bar, you deploy the current state of your code in the web IDE. Build &amp; Deploy deploys from what is checked into the repository.
-
-You can configure web IDE manual deployment and Build &amp; Deploy's automatic deployment to use different app names. Then, you can use the web IDE deployment for a personal test environment and automatic deployment for a team integration environment. Manual deployment launch configurations are saved in the web IDE; you can access them via the dropdown menu in the Run Bar. 
-
-Whether you are using command-line tools or the web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment so that you can control what is being pushed. By using automatic deployment, you know that the code that is running in the app matches a known state in the repository. In contrast, manual deployment deploys whatever is in your working directory when you push.
-
-<a name="runbar"></a>
-###The Run Bar explained
-
-![Annotated Run Bar screenshot][7]
-
-1. **Status area:** See which launch configuration is selected and the deployment status of your app here. If your project doesn't contain any launch configurations, click the dropdown menu and then **CREATE NEW** to create one.
-2. **Play button:** Manually deploy your app using the currently selected launch configuration.
-3. **Stop button:** Stop a running application. 
-4. **Open URL button:** Open a running application. 
+A simple example Pipeline configuration might contain a "Build" stage that takes input from a Git repository and, by running build and test jobs, builds and unit tests a project. If the build and test jobs both run successfully, that compiled project would be output to a "Deploy" stage that contains a job that pushes the application to Bluemix.
 
 ---
 <a name="auto"></a>
-##Auto-deployment
+##Deployment using the Bluemix DevOps Services Pipeline
 
-###Overview
-By default, changes that are delivered to a project's source control repository trigger builds and deployments. 
+In a fully configured Pipeline, changes that are delivered to a project's source control repository can trigger builds and deployments.
 
 **Note**: If you select the **Simple** builder type for a build job, remember that the *build* process will be skipped. Your code won't compile; it will be output to the deploy stage as it is. If you need both building and deployment, select a builder type other than **Simple**.  
+
+<a name="pipeline_manual"></a>
+###Manually deploying from Pipeline
 
 You can disable automatic builds that run when changes are pushed to your project. To disable automatic builds, when you configure a stage that has a build job, clear the **Automatically build when a change is delivered/pushed** check box on the INPUT tab. You can then manually request builds and deploy from the build history page in one of two ways:
   * Drag a build to the box that is under a configured space.
   * Next to a build, click **Deploy to** icon and then select a space that has a deploy job.
+
+<a name="multi"></a>
+###Multistage deployment
+
+You can configure Bluemix DevOps Services projects to deploy to multiple Bluemix spaces. For example, you might configure three stages: one that deploys to a development space, another that deploys to a staging space, and a third that deploys to a production space.
+
+If your deployment stages all attempt to use the route specified in your project manifest, there will be a route collision. For more information on preventing route collisions when deploying to multiple stages, [see the Manifests section][6].
+
+By default, every time a build is completed or deploys in the Delivery Pipeline service, a deployment is automatically initiated. In later deployer stages, automatic deployment happens when successful build input is available and the preceding stage runs successfully.
 
 <a name="manifests"></a>
 ###Manifests
@@ -81,36 +72,39 @@ To integrate with Bluemix, a project must have a manifest file in its root direc
 
 One case where the `cf push` command arguments are helpful is in a project that has multiple deployment targets. If multiple deploy jobs try to use the same route, as specified in the project manifest, a conflict occurs. To avoid conflicts, you can use `cf push` followed by the host name argument `-n` and a route name to specify a route. By modifying the deployment script for individual stages, you can avoid conflicts without using the manifest file.
 
----
-<a name="pipeline"></a>
-##The Delivery Pipeline service
-
-The Build & Deploy feature uses the IBM Delivery Pipeline for Bluemix (the Delivery Pipeline service).
-
 <a name="service"></a>
 ###Bluemix and the Delivery Pipeline service
 
-To make the most of the Delivery Pipeline service's integration with Bluemix, add the service to your targeted Bluemix spaces. For more information about the service, [see Getting started with IBM Continuous Delivery Pipeline for Bluemix][3]. For information about possible charges to your account, [see the Bluemix pricing overview][4].
-
-<a name="multi"></a>
-###Multistage deployment
-
-You can configure Bluemix DevOps Services projects to deploy to multiple Bluemix spaces. For example, you might configure three stages: one that deploys to a development space, another that deploys to a staging space, and a third that deploys to a production space. 
-
-If your deployment stages all attempt to use the route specified in your project manifest, there will be a route collision. For more information on preventing route collisions when deploying to multiple stages, [see the Manifests section][6].
-
-By default, every time a build is completed or deploys in the Delivery Pipeline service, a deployment is automatically initiated. In later deployer stages, automatic deployment happens when a build is successfully deployed to the preceding stage. 
-
-If automatic building and deployment are not enabled for your project, you can still use multistage deployment. However, you must manually deploy builds
+The Build & Deploy feature uses the IBM Delivery Pipeline for Bluemix (the Delivery Pipeline service). To make the most of the Delivery Pipeline service's integration with Bluemix, add the service to your targeted Bluemix spaces. For more information about the service, [see Getting started with IBM Continuous Delivery Pipeline for Bluemix][3]. For information about possible charges to your account, [see the Bluemix pricing overview][4].
 
 <a name="logs"></a>
 ###Logging
 
-You can view the logs for your Build & Deploy stages on the Stage Job History page. Click a build or deployment, or click **View logs and history**.
+You can view the logs for your Build & Deploy jobs on the Stage Job History page. Click a job, or click **View logs and history**.
 
 ![Locations that open history pages from Advanced Build & Deploy][5]
 
-In addition to logs, you can view unit test results, generated artifacts, and code changes for any build job.  
+In addition to logs, you can view unit test results, generated artifacts, and code changes for any build job.
+
+---
+<a name="manual"></a>
+##Deployment from the web IDE
+
+While you're working in the directory that contains your `manifest.yml file`, you can deploy whatever is in the web IDE workspace to Bluemix by using the Play button in the Run Bar. Remember: When you deploy with the Run Bar, you deploy the current state of your code in the web IDE. Build &amp; Deploy deploys from what is checked into the repository.
+
+You can configure web IDE deployment and Build &amp; Deploy's Pipeline to use different app names. Then, you can use the web IDE deployment for a personal test environment and Pipeline for a team integration environment. The web IDE saves deployment launch configurations; you can access them via the dropdown menu in the Run Bar. 
+
+Whether you are using command-line tools or the web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment by using Pipeline so that you can control what is being pushed. By using automatic deployment, you know that the code that is running in the app matches a known state in the repository. In contrast, the web IDE deploys whatever is in your working directory when you push.
+
+<a name="runbar"></a>
+###The Run Bar explained
+
+![Annotated Run Bar screenshot][7]
+
+1. **Status area:** See which launch configuration is selected and the deployment status of your app here. If your project doesn't contain any launch configurations, click the dropdown menu and then **CREATE NEW** to create one.
+2. **Play button:** Manually deploy your app using the currently selected launch configuration.
+3. **Stop button:** Stop a running application. 
+4. **Open URL button:** Open a running application. 
 
 
 <!--
