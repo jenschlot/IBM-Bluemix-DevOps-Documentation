@@ -52,6 +52,10 @@
 					</p>
 				</div>
 			</div>
+			<hr/>
+			<div class="pbm">
+				{>"common/machine_translation"/}
+			</div>
 		</div>
 	</div>
 {/content}

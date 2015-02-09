@@ -20,15 +20,14 @@
 						<div class="col-md-4 vcenter topic-header-name">
 							<span>{topicname}</span>
 						</div>
-						<div class="col-md-6 vcenter">
-							{>"common/machine_translation"/}
-						</div>
 					</div>
 				</div>
 			</div>
 			<div class="row ptm">
 				<div class="col-md-12 topic">
 					{markdown|s}
+					<hr/>
+					{>"common/machine_translation"/}
 				</div>
 			</div>
 		</div>

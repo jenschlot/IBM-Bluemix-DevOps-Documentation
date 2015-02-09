@@ -5,12 +5,9 @@
 {/sidebar}
 
 {<content}
-	<div class="translate-widget-container prl pll">
-		{>"common/machine_translation"/}
-	</div>
 	<div id="content" class="com-ibm-team-jazzhub-Docs content fluid-content">
 		<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none"></div>
-			<div class="container-fluid">
+			<div class="container-fluid ptl">
 				<div class="row">
 					<div class="col-md-12 resource">
 						{markdown|s}

@@ -6,8 +6,7 @@
 
 {<content}
 	<script type="text/javascript" src="/tutorials/javascript/hexAlign.js"></script>
-	<div class="container-fluid docs-masthead">
-		{>"common/machine_translation"/}
+	<div class="container-fluid docs-masthead ptl">
 		<div class="jh-columns">
 			<div class="jh-columns-6-12">
 				<img class="docs-masthead-rocket" src="/tutorials/images/docs-rocket-ship.png" />
@@ -185,98 +184,100 @@
 				</div>
 			</div>
 
-		<div class="clearfix"></div>
+	<div class="clearfix"></div>
 
-		<div class="row pts pbl" id="topics">
-			<h2 class="pbs plm text-left" >Resources by topic <a role="button" href="/docs/all" class="mll btn btn-dark btn-sm">All Resources</a></h2>
-			<div>
-				<div id="topics-grid" class="col-md-12 col-sm-12 col-xs-9 text-center">
-					<div class="topic-container">
-						<a class="topic-section" href="/docs/nodejs">
-							<div class="topic-img col-center"><span class="nodejs"></span></div>
-							<div class="topic-name col-center">Node.js</div>
-						</a>
-					</div>
-					<div class="topic-container">
-						<a class="topic-section" href="/docs/java">
-							<div class="topic-img col-center"><span class="java"></span></div>
-							<div class="topic-name col-center">Java</div>
-						</a>
-					</div>
-					<div class="topic-container">
-						<a class="topic-section" href="/docs/python">
-							<div class="topic-img col-center"><span class="python"></span></div>
-							<div class="topic-name col-center">Python</div>
-						</a>
-					</div>
-					<div class="topic-container">
-						<a class="topic-section" href="/docs/mongodb">
-							<div class="topic-img col-center"><span class="mongodb"></span></div>
-							<div class="topic-name col-center">MongoDB</div>
-						</a>
-					</div>
-					<div class="topic-container">
-						<a class="topic-section" href="/docs/mobile">
-							<div class="topic-img col-center"><span class="mobile"></span></div>
-							<div class="topic-name col-center">Mobile</div>
-						</a>
-					</div>
-					<div class="topic-container">
-						<a class="topic-section" href="/docs/build_deploy">
-							<div class="topic-img col-center"><span class="build_deploy"></span></div>
-							<div class="topic-name col-center">Build and Deploy</div>
-						</a>
-					</div>
-					<div class="topic-container">
-						<a class="topic-section" href="/docs/trackplan">
-							<div class="topic-img col-center"><span class="trackplan"></span></div>
-							<div class="topic-name col-center">Track and Plan</div>
-						</a>
-					</div>
-					<div class="topic-container">
-						<a class="topic-section" href="/docs/bluemix">
-							<div class="topic-img col-center"><span class="bluemix"></span></div>
-							<div class="topic-name col-center">Bluemix</div>
-						</a>
-					</div>
-					<div class="topic-container">
-						<a class="topic-section" href="/docs/jazz_scm">
-							<div class="topic-img col-center"><span class="jazz_scm"></span></div>
-							<div class="topic-name col-center">Jazz Source Control Management</div>
-						</a>
-					</div>
-					<div class="topic-container">
-						<a class="topic-section" href="/docs/git">
-							<div class="topic-img col-center"><span class="git"></span></div>
-							<div class="topic-name col-center">Git</div>
-						</a>
-					</div>
-					<div class="topic-container">
-						<a class="topic-section" href="/docs/account">
-							<div class="topic-img col-center"><span class="account"></span></div>
-							<div class="topic-name col-center">Account Management</div>
-						</a>
-					</div>
-					<div class="topic-container">
-						<a class="topic-section" href="/docs/eclipse">
-							<div class="topic-img col-center"><span class="eclipse"></span></div>
-							<div class="topic-name col-center">Eclipse</div>
-						</a>
-					</div>
-					<div class="topic-container">
-						<a class="topic-section" href="/docs/academics">
-							<div class="topic-img col-center"><span class="academics"></span></div>
-							<div class="topic-name col-center">Academics</div>
-						</a>
-					</div>
-					<div class="topic-container">
-						<a class="topic-section" href="/docs/hackathons">
-							<div class="topic-img col-center"><span class="hackathons"></span></div>
-							<div class="topic-name col-center">Hackathons</div>
-						</a>
-					</div>
+	<div class="row pts pbl" id="topics">
+		<h2 class="pbs plm text-left" >Resources by topic <a role="button" href="/docs/all" class="mll btn btn-dark btn-sm">All Resources</a></h2>
+		<div>
+			<div id="topics-grid" class="col-md-12 col-sm-12 col-xs-9 text-center">
+				<div class="topic-container">
+					<a class="topic-section" href="/docs/nodejs">
+						<div class="topic-img col-center"><span class="nodejs"></span></div>
+						<div class="topic-name col-center">Node.js</div>
+					</a>
+				</div>
+				<div class="topic-container">
+					<a class="topic-section" href="/docs/java">
+						<div class="topic-img col-center"><span class="java"></span></div>
+						<div class="topic-name col-center">Java</div>
+					</a>
+				</div>
+				<div class="topic-container">
+					<a class="topic-section" href="/docs/python">
+						<div class="topic-img col-center"><span class="python"></span></div>
+						<div class="topic-name col-center">Python</div>
+					</a>
+				</div>
+				<div class="topic-container">
+					<a class="topic-section" href="/docs/mongodb">
+						<div class="topic-img col-center"><span class="mongodb"></span></div>
+						<div class="topic-name col-center">MongoDB</div>
+					</a>
+				</div>
+				<div class="topic-container">
+					<a class="topic-section" href="/docs/mobile">
+						<div class="topic-img col-center"><span class="mobile"></span></div>
+						<div class="topic-name col-center">Mobile</div>
+					</a>
+				</div>
+				<div class="topic-container">
+					<a class="topic-section" href="/docs/build_deploy">
+						<div class="topic-img col-center"><span class="build_deploy"></span></div>
+						<div class="topic-name col-center">Build and Deploy</div>
+					</a>
+				</div>
+				<div class="topic-container">
+					<a class="topic-section" href="/docs/trackplan">
+						<div class="topic-img col-center"><span class="trackplan"></span></div>
+						<div class="topic-name col-center">Track and Plan</div>
+					</a>
+				</div>
+				<div class="topic-container">
+					<a class="topic-section" href="/docs/bluemix">
+						<div class="topic-img col-center"><span class="bluemix"></span></div>
+						<div class="topic-name col-center">Bluemix</div>
+					</a>
+				</div>
+				<div class="topic-container">
+					<a class="topic-section" href="/docs/jazz_scm">
+						<div class="topic-img col-center"><span class="jazz_scm"></span></div>
+						<div class="topic-name col-center">Jazz Source Control Management</div>
+					</a>
+				</div>
+				<div class="topic-container">
+					<a class="topic-section" href="/docs/git">
+						<div class="topic-img col-center"><span class="git"></span></div>
+						<div class="topic-name col-center">Git</div>
+					</a>
+				</div>
+				<div class="topic-container">
+					<a class="topic-section" href="/docs/account">
+						<div class="topic-img col-center"><span class="account"></span></div>
+						<div class="topic-name col-center">Account Management</div>
+					</a>
+				</div>
+				<div class="topic-container">
+					<a class="topic-section" href="/docs/eclipse">
+						<div class="topic-img col-center"><span class="eclipse"></span></div>
+						<div class="topic-name col-center">Eclipse</div>
+					</a>
+				</div>
+				<div class="topic-container">
+					<a class="topic-section" href="/docs/academics">
+						<div class="topic-img col-center"><span class="academics"></span></div>
+						<div class="topic-name col-center">Academics</div>
+					</a>
+				</div>
+				<div class="topic-container">
+					<a class="topic-section" href="/docs/hackathons">
+						<div class="topic-img col-center"><span class="hackathons"></span></div>
+						<div class="topic-name col-center">Hackathons</div>
+					</a>
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="translate-widget-container prl pll">
+		{>"common/machine_translation"/}
 	</div>
 {/content}
