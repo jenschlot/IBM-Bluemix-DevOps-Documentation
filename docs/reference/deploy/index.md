@@ -82,8 +82,6 @@ The Build & Deploy feature uses the IBM Delivery Pipeline for Bluemix (the Deliv
 
 You can view the logs for your Build & Deploy jobs on the Stage Job History page. Click a job, or click **View logs and history**.
 
-![Locations that open history pages from Advanced Build & Deploy][5]
-
 In addition to logs, you can view unit test results, generated artifacts, and code changes for any build job.
 
 ---
