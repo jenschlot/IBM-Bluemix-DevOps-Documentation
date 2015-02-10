@@ -108,7 +108,7 @@ Commit your change to the Git repository for your project by entering a commit m
 
 ![Pushing Changes][16]
 
-Any changes that are delivered to your project trigger a build. When a build is completed successfully, it is automatically deployed. If you click **Build &amp; Deploy** again, you'll see that your change started a new build that, when it finishes, will be deployed.
+Any changes that are delivered to your project trigger a build. When a build is completed successfully, it is automatically deployed. If you click **BUILD &amp; DEPLOY** again, you'll see that your change started a new build that, when it finishes, will be deployed.
 
 ---
 ##The manifest file
