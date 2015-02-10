@@ -29,7 +29,7 @@ For a quick overview of features and functions, [explore the Track & Plan featur
 ---
 <a name='set_up_an_IBM_devops_services_project'></a>
  ##Set up an IBM Bluemix DevOps Services project
-1. [Sign in to IBM Bluemix DevOps Services][1].  Your My Stuff page opens.  
+1. [Sign in to IBM Bluemix DevOps Services][1].  Your MY PROJECTS page opens.  
 ![Bluemix DevOps Services new user landing page][2]
 
 2. Start a new project by clicking the **Start coding** icon.  

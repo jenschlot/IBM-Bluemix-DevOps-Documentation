@@ -19,7 +19,7 @@ You can start an IBM&reg; Bluemix&trade; DevOps Services project in three ways. 
 <a name='starting_a_devops_services_project'></a>
 ##Creating a project
 
-1. Sign in to [IBM Bluemix DevOps Services](https://hub.jazz.net). The My Stuff page opens.
+1. Sign in to [IBM Bluemix DevOps Services](https://hub.jazz.net). The MY PROJECTS page opens.
 
 2. If this project is your first project, click the **Start coding** icon. Otherwise, click **CREATE PROJECT**.
 
