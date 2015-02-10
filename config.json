@@ -74,14 +74,6 @@
 			
 		},
 		{
-			"uri_prefix": "/contactus",
-			"section_name": "Support",
-			"resource_name": "Contact Us",
-			"img_icon": "support",
-			"directory": "contactus"
-			
-		},
-		{
 			"uri_prefix": "/support",
 			"section_name": "Support",
 			"resource_name": "Support",
