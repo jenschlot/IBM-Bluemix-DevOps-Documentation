@@ -19,51 +19,49 @@ Enter a name for your fork of the Sentiment Analysis app, and make sure that the
 
 Put your fork of the project on the web by using Bluemix. To make the most of Bluemix DevOps Services and Bluemix, make sure that your Bluemix space has the Delivery Pipeline service. If it doesn't have that service, [follow these steps][26].
 
-At the top of the screen, click **Build &amp; Deploy**. 
+At the top of the screen, click **BUILD &amp; DEPLOY**. 
 
-The Build & Deploy page opens.
+When you configure your own project, you can create and customize as much as you want to. This sample, however, is designed to require minimal activity to get started: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it is automatically found. The Grunt build file includes JSHint validation so that your project's code is checked automatically each time a build runs.
 
-When you configure your own project, you can create and customize as much as you want to. This sample, however, is designed to require minimal activity to get started: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it is automatically found. This Grunt build file includes JSHint validation, so your project's code will be checked automatically each time a build occurs.
+The configuration for your Sentiment Analysis app will comprise two stages: a build stage and a deploy stage. These stages form a "Pipeline." The build stage will run a build job on the included `Gruntfile.js` to validated your code, and the deploy stage will run a deploy job to deploy your code to Bluemix.
 
-The Pipeline configuration for your Sentiment Analysis app will comprise two stages: a build stage and a deploy stage. The builder stage will run a build job on the included `Gruntfile.js` to validated your code, and the deployer stage will run a deploy job to deploy your code to Bluemix.
+Configure a stage to run a build job on code from your project's Git repository:
 
-First, configure a stage to run a build job on code from your project's Git repository.
+  1. Click **ADD STAGE**. At the top of the Stage Configuration page, click the **MyStage** name and change it to `Build`.
 
-Click **ADD STAGE**. At the top of the Stage Configuration page, click the **MyStage** name and change it to `Build`.
+  2. Click **JOBS**. Click **ADD JOB**, and then select **Build**. 
 
-Click **JOBS**. Click **ADD JOB**, then select **Build**. 
-
-On the Build Configuration page, select **Grunt** as the Builder. Leave the default settings as they are and click **SAVE**.
+  3. On the Build Configuration page, select **Grunt** as the Builder. Leave the default settings as they are and click **SAVE**.
 
 ![Configuring the Builder][8]
 
-Next, configure a stage to deploy the output from the Build stage to Bluemix.
+Configure a stage to deploy the output from the Build stage to Bluemix:
 
-On the right side of the screen, click **ADD STAGE**. At the top of the Stage Configuration page, click the **MyStage** name and change it to `Deploy to dev`.
+  1. On the right side of the screen, click **ADD STAGE**. At the top of the Stage Configuration page, click the **MyStage** name and change it to `Deploy to dev`.
 
-This stage immediately follows the Build stage, so its default input is from that stage's build job. Because Bluemix DevOps Services integrates with Bluemix and this sample is a simple project, the other default information is sufficient to deploy the project, too.
+  2. This stage immediately follows the Build stage, so its default input is from that stage’s build job. Because Bluemix DevOps Services integrates with Bluemix and this sample project is simple, you can use the other default information to deploy the project, too.
 
-Click **JOBS**. Click **ADD JOB**, then select **Deploy**.
+  3. Click **JOBS**. Click **ADD JOB**, and then select **Deploy**.
 
-Make sure that the project has a unique path by editing the first line of the Bluemix script: add the `-n` flag followed by a unique host name. A complete version of the command might look like this example:
+  4. Make sure that the project has a unique path by editing the first line of the Bluemix script: add the `-n` flag followed by a unique host name. A complete version of the command might look like this example:
  
-    cf push "${CF_APP}" -n Your-SA-App201501
+   `cf push "${CF_APP}" -n Your-SA-App201501`
 
 The Deployer Stage Configuration might look like this example:
 
 ![Configuring the Deployer][9]
 
-The manifest file that is included in this sample application specifies a host name and does not require any services, so you do not need to add anything to the script.
+The manifest file that is in this sample application specifies a host name and does not require any services, so you do not need to add anything to the script.
 
-If the manifest file (`manifest.yml`) didn't specify a host or other parameter, you can define them by adding cf commands to the Bluemix script. The cf command deploys applications to Cloud Foundry-based platforms such as Bluemix. For more information, [see Getting Started with cf v6][24].
+If the manifest file (`manifest.yml`) didn't specify a host or other parameter, you can define that information by adding cf commands to the Bluemix script. The cf command deploys applications to Cloud Foundry-based platforms, such as Bluemix.  For more information, [see Getting Started with cf v6][24].
 
 Leave the other settings as they are and click **SAVE**. 
 
-On the Pipeline page, click the play button at the top of the Build stage.
+On the Pipeline page, click the **Play** icon at the top of the Build stage.
 
 ![Clicking Request Build on configured Pipeline][23]
 
-Your project is queued to build. When the build is completed, your app automatically is queued for deployment to Bluemix. You can observe its status from this page and open the app when it's deployed.
+Your project is queued to build. When the build is completed, your app is queued for deployment to Bluemix automatically. You can observe its status from this page and open the app when it is deployed.
 
 To open the app, click its URL on the Deploy to dev tile. If you want to see your app's Bluemix dashboard, click its name:
 
