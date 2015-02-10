@@ -5,7 +5,7 @@
 ### Tutorial: [Getting Started with IBM Bluemix and IBM Bluemix DevOps Services using Java](/tutorials/jazzeditorjava)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, git, webide, pipeline
 
-### Tutorial: [Developing BlueMix applications in Node.js with the Web IDE](/tutorials/jazzweb)
+### Tutorial: [Developing Blueix applications in Node.js with the Web IDE](/tutorials/jazzweb)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, nodejs, webide, git, pipeline, manifest
 
 ### Tutorial: [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)

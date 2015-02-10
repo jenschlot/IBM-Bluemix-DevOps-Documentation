@@ -4,10 +4,10 @@
 Can't find the answer to your question here? [See the IBM&reg; Bluemix&trade; Bluemix DevOps Services Forum](https://developer.ibm.com/answers/questions/?community=BDevOps-services).
 ____
 
--   [I see IBM&reg;  DevOps Services is now called IBM&reg; Bluemix&trade; DevOps Services. Can you tell me more?](#q1)
+-   [I see IBM DevOps Services is now called IBM Bluemix DevOps Services. Can you tell me more?](#q1)
 -   [How much does it cost?](#q2)
 -   [What help resources are available?](#q17)
--   [Why can't I sign in to Bluemix DevOps Services from my Rational Team Concert&trade; desktop client or Git client? ](#rtcgit)
+-   [Why can't I sign in to Bluemix DevOps Services from my Rational Team Concert desktop client or Git client? ](#rtcgit)
 -   [Can I connect my project to a GitHub repository?](#git)
 -   [My team doesn't develop code. Is Bluemix DevOps Services right for us?](#q5)
 -   [How do I report a bug?](#q7)
@@ -22,7 +22,7 @@ ____
 
 <a name="q1"></a>
 
-### I see IBM&reg; DevOps Services is now called IBM&reg; Bluemix&trade; DevOps Services. Can you tell me more? 
+### I see IBM DevOps Services is now called IBM Bluemix DevOps Services. Can you tell me more? 
 
 IBM DevOps Services has a new name: IBM&reg; Bluemix DevOps Services. This change corresponds with the effort to align better with IBM Bluemix.
 
@@ -44,9 +44,9 @@ You can find help resources for getting started and improving your skills on the
 
 <a name="rtcgit"></a>
 
-### Why can't I sign in to Bluemix DevOps Services from my Rational Team Concert&trade; desktop client or Git client? 
+### Why can't I sign in to Bluemix DevOps Services from my Rational Team Concert desktop client or Git client? 
 
-When you sign into Bluemix DevOps Services for the first time from a web browser, you must link your IBM id with an alias. (An alias is a publicly visible short name.) After your IBM id and alias are linked, use your IBM id and IBM password to sign in from a browser. When you sign in from your Rational Team Concert desktop client or access a Git repository from your local Git client, you use your alias and password instead. If you have an existing Jazz ID, that is used as your alias.
+When you sign into Bluemix DevOps Services for the first time from a web browser, you must link your IBM id with an alias. (An alias is a publicly visible short name.) After your IBM id and alias are linked, use your IBM id and IBM password to sign in from a browser. When you sign in from your Rational Team Concert&trade; desktop client or access a Git repository from your local Git client, you use your alias and password instead. If you have an existing Jazz ID, that is used as your alias.
 
 <a name="git"></a>
 
@@ -60,7 +60,7 @@ You can also edit the code that is stored in your GitHub repository by using the
 
 <a name="q5"></a>
 
-### My team doesn't develop code. Is Bluemix DevOps Services right for us? 
+### My team doesn't develop code. Is IBM Bluemix DevOps Services right for us? 
 
 Yes it is. You can plan, define requirements, track tasks, and collaborate on any type of project.
 
@@ -74,8 +74,8 @@ Yes it is. You can plan, define requirements, track tasks, and collaborate on an
 
 ### How can I provide feedback?
 
-We love feedback. If you have a suggestion, [share your idea in the JazzHub IBM Bluemix DevOps Services project](https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
-If you need help, [ask a question in the Bluemix DevOps Services Forum](https://developer.ibm.com/answers/questions/?community=Bluemix DevOps-services).
+We love feedback. If you have a suggestion, [share your idea in the IBM Bluemix DevOps Services project](https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
+If you need help, [ask a question in the IBM Bluemix DevOps Services Forum](https://developer.ibm.com/answers/questions/?community=Bluemix DevOps-services).
 
 <a name="ibmer"></a>
 

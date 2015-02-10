@@ -37,8 +37,7 @@
 						<p class="mts">Private projects include free Web IDE, and Git or Jazz SCM source control. </p>
 						<p class="mts">** Private projects configured to deploy to the <a target="_blank" href="https://bluemix.net">IBM Bluemix</a> cloud platform 
 						are charged for Delivery Pipeline (Build & Deploy) and Track & Plan usage in accordance with the 
-						<a target="_blank" href="https://bluemix.net/#/pricing">Bluemix pricing plan</a> for these services.
-						(Under the Standard Plan, Track & Plan is free for 3 users in Private Projects. For additional plans, see the <a target="_blank" href="https://bluemix.net/#/pricing">Bluemix pricing plan</a>.)
+						<a target="_blank" href="https://bluemix.net/#/pricing">Bluemix pricing plan</a> for these services.  (Under the Standard Plan, Track & Plan is free for 3 users in Private Projects. For additional plans, see the <a target="_blank" href="https://bluemix.net/#/pricing">Bluemix pricing plan</a>.)
 						</p>
 						<p>
 						In addition to the above, we plan to implement charging for non-Bluemix projects soon.

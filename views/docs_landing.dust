@@ -60,7 +60,7 @@
 								<a class="section" href="/docs/reference/billing">
 								<div class="col-md-7 col-sm-9 col-xs-9 callout" id="2">
 									<p class="description">
-										<strong>Configure IBM Bluemix billing </strong> for IBM Bluemix DevOps Service
+										<strong>Configure billing </strong> for IBM Bluemix DevOps Services
 									</p>
 								</div>
 								<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
@@ -152,7 +152,7 @@
 							<div class="resource-container">
 								<a class="resource-section" href="learn">
 									<div class="resource-img col-center"><span class="learn"></span></div>
-									<div class="resource-name col-center">Learn about IBM DevOps Services</div>
+									<div class="resource-name col-center">Learn about IBM Bluemix DevOps Services</div>
 								</a>
 							</div>
 							<div class="resource-container">
