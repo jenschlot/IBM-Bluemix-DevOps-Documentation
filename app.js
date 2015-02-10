@@ -47,6 +47,10 @@ app.get(['/docs/reference', '/reference'], function(req, res){
   res.redirect('/docs/all/#ref');
 });
 
+app.get(['/help'], function(req, res){
+	  res.redirect('/contactus');
+});
+
 app.get(['/help/faq'], function(req, res){
   res.redirect('/docs/faq');
 });
