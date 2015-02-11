@@ -17,12 +17,6 @@ The Bluemix DevOps Services Build & Deploy feature, also known as Pipeline, auto
 ##[Deployment using the web IDE](#manual)
 * [The Run Bar](#runbar)
 
-<!--
-##[Additional resources](#addl)
-* [Charging](#charging)
-* [Bluemix Delivery Pipeline Service Documentation](#servicedoc)
--->
-
 ---
 <a name="key"></a>
 ##Stages and jobs
@@ -104,13 +98,6 @@ Whether you are using command-line tools or the web IDE, both methods are effect
 2. **Play button:** Deploys your app manually by using the currently selected launch configuration.
 3. **Stop button:** Stops a running application. 
 4. **Open URL button:** Opens a running application. 
-
-
-<!--
-<a name="addl"></a>
-##Additional resources
--->
-
 
 
 
