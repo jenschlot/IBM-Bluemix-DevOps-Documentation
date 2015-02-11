@@ -10,12 +10,8 @@
 		</div>
 		<div class="container-fluid">
 			<div class="row" id="topic-header">
-				<div class="col-md-12">
-					<div class="row">
-						<div class="col-md-4 vcenter topic-header-name">
-							<span>{topicname}</span>
-						</div>
-					</div>
+				<div class="col-md-12 topic-header-name">
+					<h1>{topicname}</h1>
 				</div>
 			</div>
 			<div class="row ptm">
