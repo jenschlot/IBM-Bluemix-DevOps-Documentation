@@ -1,7 +1,16 @@
 #Getting Started with IBM Bluemix and IBM Bluemix DevOps Services using Java
 
-Last modified: 6 February 2015
+Last modified: 11 February 2015
 
+## Contents
+* [Create an application with IBM Bluemix](#create_bluemix_app)
+* [Build & deploy using Bluemix DevOps Services](#build_and_deploy)
+* [Push changes to the Git repository by using the command line](#push_to_git)
+* [Edit and deploy code using the Bluemix DevOps Services web IDE](#edit_and_deploy_with_web_ide)
+* [More on deployments](#deployments)
+* [Summary](#summary)
+
+<a name='create_bluemix_app'></a>
 ##Create an app using IBM Bluemix
 
 IBM® Bluemix™ is an open-standard, cloud-based platform for building, managing and running apps of all types: web, mobile, big data, smart devices. The Bluemix capabilities include Java™, mobile back-end development, application monitoring, and capabilities from ecosystem partners and open source, all through an as-a-service model in the cloud.
@@ -74,7 +83,8 @@ Want to see the app's code or configure how it deploys? Use IBM Bluemix DevOps S
 ![CODE button][15]
 
 ---
-##Build and deploy using Bluemix DevOps Services
+<a name='build_and_deploy'></a>
+##Build & deploy using Bluemix DevOps Services
 
 Your new project opens in the Bluemix DevOps Services web IDE. When you clicked **Add Git Integration** in Bluemix, you populated a new Git repository with the sample code that you now see. The repository contains lots of useful information, which you can peruse later. For now, see how the code is pushed to Bluemix. 
 
@@ -146,6 +156,7 @@ In this tutorial, you configure a single deployment stage. If you want more stag
 When you build and deploy apps by using Bluemix, your Bluemix billing account might be charged. A project is granted 60 minutes of free build time per month. For more information about pricing for any service, see the [Bluemix pricing page](https://bluemix.net/#/pricing).
 
 ---
+<a name='push_to_git'></a>
 ##Push changes to the Git repository using the command line
 
 You now have a Git repo with example code. You can use many tools to work with Git, including all of the major desktop IDEs and the Bluemix DevOps Services web IDE. For now, use the command-line Git support.
@@ -198,6 +209,7 @@ You can continue to modify the example and push your changes to the Git reposito
 If you want to configure desktop clients to work with your Git repository, [see Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][26].
 
 ---
+<a name='edit_and_deploy_with_web_ide'></a>
 ##Edit and deploy code using the Bluemix DevOps Services web IDE
 
 In addition to build and deploy, Bluemix DevOps Services provides many other capabilities that are useful for application development:
@@ -258,7 +270,8 @@ This process is like the process you did on the command line, only with more cli
 ![Our really cool app][36]
 
 ---
-## Manual deployment
+<a name='deployment'></a>
+## More information on deployment
 
 While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the web IDE workspace to Bluemix by using the Play button in the Run Bar. Remember: When you deploy with the Run Bar, you deploy the current state of your code in the web IDE. Build &amp; Deploy deploys from what is checked into the repository.
 
@@ -269,7 +282,8 @@ You can configure web IDE manual deployment and Build &amp; Deploy's automatic d
 Whether you are using command-line tools or the web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment so that you can control what is being pushed. By using automatic deployment, you know that the code that is running in the app matches a known state in the repository. In contrast, manual deployment deploys whatever is in your working directory when you push.
 
 ---
-## A final note
+<a name='Summary'></a>
+## Summary
 
 You saw how easy it is to create a Java web app on Bluemix and run that app. With a few clicks, you created a Git repo, loaded it with the sample code, and automatically deployed the app. You changed code and pushed it by using the Git command line. You then did the same thing entirely in your browser by using the Bluemix DevOps Services web IDE. You configured automatic building and deployment, checked the status of the app deployment, and ran the app to verify your changes. 
 

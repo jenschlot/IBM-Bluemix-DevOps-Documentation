@@ -1,7 +1,16 @@
 #Getting Started with IBM Bluemix and IBM Bluemix DevOps Services by using Node.js
 
-Last modified: 6 February 2015
+Last modified: 11 February 2015
 
+## Contents
+* [Create an application with IBM Bluemix](#create_bluemix_app)
+* [Enable Git integration and autodeployment](#git_integration_and_autodeployment)
+* [Push changes to the Git repository by using the command line](#push_to_git)
+* [Push changes to the Git repository by using the web IDE](#push_with_web_ide)
+* [More on deployments](#deployments)
+* [Summary](#summary)
+
+<a name='create_bluemix_app'></a>
 ##Create an application with IBM Bluemix
 
 IBM&reg; Bluemix&trade; is an open-standards, cloud-based platform for building, managing, and running all types
@@ -37,7 +46,8 @@ The app starts after a moment. The app dashboard opens and shows that it's runni
 Now that your application is running, you can see and modify its code with IBM® Bluemix™ DevOps Services.
 
 ---
-##Enable Git integration and auto-deployment with Bluemix DevOps Services
+<a name='git_integration_and_autodeployment'></a>
+##Enable Git integration and autodeployment with Bluemix DevOps Services
 
 You can work with your application code in many ways. For example, with the auto-deploy feature, you can modify the code that runs in your app by pushing the changes to a 
 Git repository. The mechanism that implements auto-deployment is powered by 
@@ -66,6 +76,7 @@ Your new project opens in the web IDE. The project page contains useful informat
 The Build & Deploy page opens. If it's your first time using this feature, you will see a welcome page. Click **GET STARTED** to proceed. You can then click the URL for your running app to open it. 
 
 ---
+<a name='push_to_git'></a>
 ##Push changes to the Git repository by using the command line
 
 You now have a Git repository that contains example code. You can use several tools to work with Git, including desktop IDEs, the browser-based web IDE, and the command line. 
@@ -138,6 +149,7 @@ auto-deploy features are all that you need to ensure that the application is alw
 
 
 ---
+<a name='push_with_web_ide'></a>
 ##Push changes to the Git repository by using the web IDE
 
 In addition to auto-deployment, IBM Bluemix DevOps Services provides many other useful capabilities 
@@ -190,7 +202,8 @@ application was deployed again. Then, click the URL link that is next to "Deploy
 ![Our really cool app](/tutorials/jazzeditor/images/really-cool_NEW.png)
 
 ---
-##Advanced deployment features
+<a name='deployment'></a>
+##More information on deployment
 
 Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can also manually deploy applications directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the web IDE, you can deploy your code to Bluemix by using the Play button in the Run Bar. 
 
@@ -201,6 +214,7 @@ Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can a
 Both the command-line tools and the web IDE are effective for rapid, solo development, but the auto-deploy feature adds the security of controlling what is pushed, especially in team environments. With auto-deployment, you always know that the code running in the application matches a known state in the repository, instead of whatever was in your working directory when you pushed changes.
 
 ---
+<a name='summary'></a>
 ##Summary
 
 You have a good overview of how to get started with Bluemix and Bluemix DevOps Services by using Node.js. 

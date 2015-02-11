@@ -1,10 +1,19 @@
 #Developing an IBM Bluemix application in Node.js with the web IDE
 
-Last modified: 21 January 2015
+Last modified: 11 February 2015
 
 In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an application in the cloud and deploy it to [IBM® Bluemix™][1].
 
+## Contents
+* [Start by using a sample project](#fork)
+* [Edit the Sample Application](#edit)
+* [Push changes to the repository](#push)
+* [The manifest file](#manifest)
+* [Deploying from the web IDE](#deploy_from_web_ide)
+* [Automatic deployment](#automatic_deployment)
+
 ---
+<a name='fork'></a>
 ##Start by using a sample project
 
 Start with the sample project, [Sentiment Analysis App][2]. This app is a hosted Node.js Git project. You need your own copy of the project, which you can get by forking the project. 
@@ -76,6 +85,7 @@ You can manage the live application instance on [Bluemix][11]. Click an app's ge
 Building and deploying apps with Bluemix can result in charges to your Bluemix billing account. A project is granted 60 minutes of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information about pricing for any service, [see the Bluemix pricing page](https://bluemix.net/#/pricing).
 
 ---
+<a name='edit'></a>
 ##Edit the Sample Application
 
 In this section of the tutorial, you personalize the sample app in Bluemix DevOps Services' web-based code editor, push your changes to the project's remote repository, and initiate a redeployment of your project. These activities won’t take more than a few minutes.
@@ -93,6 +103,7 @@ If you want a fully functional version of the app, you also must supply your own
 When you're finished, press Ctrl + S (or Command + S on a Mac) to make sure that everything is saved..
 
 ---
+<a name='push'></a>
 ##Push changes to the repository
 
 After you edit the `app.js` file, share the changed file with other members of your project by pushing the file to the repository. 
@@ -112,6 +123,7 @@ Commit your change to the Git repository for your project by entering a commit m
 Any changes that are delivered to your project trigger a build. When a build is completed successfully, it is automatically deployed. If you click **Build &amp; Deploy** again, you'll see that your change started a new build that, when it finishes, will be deployed.
 
 ---
+<a name='manifest'></a>
 ##The manifest file
 
 Deploying a Bluemix DevOps Services project from the web IDE requires the project to have a `manifest.yml` file. This file contains important settings, such as the application instance name to use, the host machine, the services that the application uses, and more. The sample application already contains a manifest file, so you can leave it alone in this tutorial.
@@ -119,7 +131,8 @@ Deploying a Bluemix DevOps Services project from the web IDE requires the projec
 ![An example manifest][17]
 
 ---
-##Manual deployment
+<a name='deploy_from_web_ide'></a>
+##Deploying from the web IDE
 
 While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the web IDE workspace to Bluemix by using the Play button in the Run Bar. Remember: When you deploy with the Run Bar, you deploy the current state of your code in the web IDE. Build &amp; Deploy deploys from what is checked into the repository.
 
@@ -130,6 +143,7 @@ You can configure web IDE manual deployment and Build &amp; Deploy's automatic d
 Whether you are using command-line tools or the web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment so that you can control what is being pushed. By using automatic deployment, you know that the code that is running in the app matches a known state in the repository. In contrast, manual deployment deploys whatever is in your working directory when you push.
 
 ---
+<a name='automatic_deployment'></a>
 ##Automatic deployment
 
 Builds are triggered when changes are delivered to a project. Successful builds are automatically deployed. You can also manually deploy in these ways:
