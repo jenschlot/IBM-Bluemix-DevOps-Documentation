@@ -1,6 +1,6 @@
 #Getting Started with IBM Bluemix and IBM Bluemix DevOps Services by using Node.js
 
-Last modified: 6 February 2015
+Last modified: 10 February 2015
 
 ##Create an application with IBM Bluemix
 
@@ -37,13 +37,13 @@ The app starts after a moment. The app dashboard opens and shows that it's runni
 Now that your application is running, you can see and modify its code with IBM® Bluemix™ DevOps Services.
 
 ---
-##Enable Git integration and auto-deployment with Bluemix DevOps Services
+##Enable Git integration and autodeployment with Bluemix DevOps Services
 
-You can work with your application code in many ways. For example, with the auto-deploy feature, you can modify the code that runs in your app by pushing the changes to a 
-Git repository. The mechanism that implements auto-deployment is powered by 
+You can work with your application code in many ways. For example, with the autodeploy feature, you can modify the code that runs in your app by pushing the changes to a 
+Git repository. The mechanism that implements autodeployment is powered by 
 the BUILD & DEPLOY capabilities of Bluemix DevOps Services.
 
-1. To enable auto-deployment, go to the Bluemix overview for your application and 
+1. To enable autodeployment, go to the Bluemix overview for your application and 
 click **ADD GIT**. You get a Git repository that is populated with example code and a deployed app. 
 ![Add Git button](/tutorials/jazzeditor/images/bm-add-git-integration_NEW.png)
 You might be prompted to enter your password to verify that Bluemix DevOps Services can act on your behalf. 
@@ -63,7 +63,7 @@ Your new project opens in the web IDE. The project page contains useful informat
 4. To check the status of the application, click **BUILD & DEPLOY**.
 ![Web IDE](/tutorials/jazzeditor/images/orion_NEW.png)
 
-The Build & Deploy page opens. If it's your first time using this feature, you will see a welcome page. Click **GET STARTED** to proceed. You can then click the URL for your running app to open it. 
+You can then open your running app by clicking its URL.
 
 ---
 ##Push changes to the Git repository by using the command line
@@ -115,32 +115,23 @@ To learn more about working with Git, [browse the Git documentation](http://git-
     	To https://hub.jazz.net/git/jazzhubdemouser/newcoolwebappdemo
     		43c6bc7..bf26680 master -> master
 	
-	d. If you return to the web IDE and check the 
-	BUILD & DEPLOY page, you will see something like this image:
-	![Auto-deploy in action](/tutorials/jazzeditor/images/jh-auto-deployed_NEW.png)
-At the top of the **Recent auto-deployments** list, an entry has a comment that 
-matches the commit operation that you made from the command line. 
-The entry shows that your app is running the code that you pushed.
+	d. Return to the web IDE and check the BUILD & DEPLOY page.
+	![Auto-deploy in action](/tutorials/jazzeditor/images/jh-autodeployed_NEW.png)
+At the top of the leftmost tile, under Input, an entry has a comment that matches the commit operation that you made from the command line. The entry shows that your app is running the code that you pushed.
 	
 	e. View your running app and verify that the title was updated. You might need to refresh your browser to see the updates.
 
-3. Next to "Deploy to," click the link. The Bluemix application dashboard opens. 
-When you click the URL on the application dashboard, your updated running application opens.
-To access your running application quickly, click the URL that is next to  
-"Deploy to."
+3. In the rightmost tile, under the Last Execution Result heading, click the application name. The Bluemix application dashboard opens. When you click the URL on the application dashboard, your updated, running application opens. To access your application quickly, click the URL that is under the Last Execution Result heading.
 
 ![Application page with new title](/tutorials/jazzeditor/images/app-new-title_NEW.png)
 
-You can continue to modify the example code and push the changes to the 
-Git repository. If your project and scope of work grow, you can people to the 
-project and everyone can push changes to the repository. Standard repository operations and 
-auto-deploy features are all that you need to ensure that the application is always running.
+You can continue to modify the example code and push the changes to the Git repository. If your project and scope of work grow, you can add people to the project and everyone can push changes to the repository. Standard repository operations and autodeployment features are all that you need to ensure that the application is always running.
 
 
 ---
 ##Push changes to the Git repository by using the web IDE
 
-In addition to auto-deployment, IBM Bluemix DevOps Services provides many other useful capabilities 
+In addition to autodeployment, IBM Bluemix DevOps Services provides many other useful capabilities 
 for application development:
 
 * Hosting for public projects
@@ -190,15 +181,15 @@ application was deployed again. Then, click the URL link that is next to "Deploy
 ![Our really cool app](/tutorials/jazzeditor/images/really-cool_NEW.png)
 
 ---
-##Advanced deployment features
+##Deployment using the web IDE
 
-Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can also manually deploy applications directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the web IDE, you can deploy your code to Bluemix by using the Play button in the Run Bar. 
+Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can deploy applications directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the web IDE, you can deploy your code to Bluemix by using the Play button in the Run Bar. 
 
 ![Screenshot here of Run Bar][1]
 
-**Note**: Clicking the Play button in the Run Bar deploys the current state of the code in your web IDE, whereas auto-deploy deploys the code that is checked in to the repository.
+**Note**: Clicking the Play button in the Run Bar deploys the current state of the code in your web IDE, whereas Pipeline deploys the code that is checked in to the repository.
 
-Both the command-line tools and the web IDE are effective for rapid, solo development, but the auto-deploy feature adds the security of controlling what is pushed, especially in team environments. With auto-deployment, you always know that the code running in the application matches a known state in the repository, instead of whatever was in your working directory when you pushed changes.
+Both the command-line tools and the web IDE are effective for rapid, solo development, but the Pipeline adds the security of controlling what is pushed, especially in team environments. With Pipeline, you always know that the code running in the application matches a known state in the repository, instead of whatever was in your working directory when you pushed changes.
 
 ---
 ##Summary
