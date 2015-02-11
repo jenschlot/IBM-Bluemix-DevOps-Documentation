@@ -281,17 +281,17 @@ You have a good overview of the Track & Plan feature and see that you can use it
 [1]: https://hub.jazz.net
 [2]: /tutorials/trackplan/images/myprojectslanding.png
 [3]: https://bluemix.net/ (Register for Bluemix)
-[4]: /tutorials/trackplan/images/newprojectselection.gif
-[5]: /tutorials/trackplan/images/wiicons.gif
+[4]: /tutorials/trackplan/images/restyle_newprojectselection.png
+[5]: /tutorials/trackplan/images/restyle_wiicons.png
 [6]: https://bluemix.net/#/pricing/cloudOEPaneId=pricing 
-[7]: /tutorials/trackplan/images/appendeddefect.gif
-[8]: /tutorials/trackplan/images/workitemeditor.png
+[7]: /tutorials/trackplan/images/restyle_appendeddefect.png
+[8]: /tutorials/trackplan/images/restyle_workitemeditor.png
 [9]: /docs/trackplan/trackplanfg/
-[10]: /tutorials/trackplan/images/unrankedbacklog.png
-[11]: /tutorials/trackplan/images/rankedlist.png
-[12]: /tutorials/trackplan/images/estimateunassigned.gif
+[10]: /tutorials/trackplan/images/restyle_unrankedbacklog.png
+[11]: /tutorials/trackplan/images/restyle_rankedlist.png
+[12]: /tutorials/trackplan/images/restyle_estimateunassigned.png
 
-[14]: /tutorials/trackplan/images/querybar.gif
+[14]: /tutorials/trackplan/images/restyle_querybar.png
 [15]: https://hub.jazz.net/tutorials/jazzeditor
 [16]: https://hub.jazz.net/tutorials/jazzeditorjava
 [17]: https://bluemix.net/
@@ -299,11 +299,11 @@ You have a good overview of the Track & Plan feature and see that you can use it
 [19]: mailto:hub%40jazz.net
 [22]: https://ace.ng.bluemix.net/#/pricing
 
-[24]: /tutorials/trackplan/images/dragdropchild.png
-[25]: /tutorials/trackplan/images/teamprogress.gif
-[26]: /tutorials/trackplan/images/incomingwork.png
-[27]: /tutorials/trackplan/images/editsprints.gif
-[28]: /tutorials/trackplan/images/parentbreakdown.png
+[24]: /tutorials/trackplan/images/restyle_dragdropchild.png
+[25]: /tutorials/trackplan/images/restyle_teamprogress.png
+[26]: /tutorials/trackplan/images/restyle_incomingwork.png
+[27]: /tutorials/trackplan/images/restyle_editsprints.png
+[28]: /tutorials/trackplan/images/restyle_parentbreakdown.png
 
 
 [40]: /tutorials/jazzrtc (Developing Bluemix applications in Java with Eclipse and Bluemix DevOps Services)
