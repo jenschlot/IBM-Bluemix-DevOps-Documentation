@@ -47,7 +47,7 @@ IBM Bluemix DevOps Services supports both public and private projects. Anyone ca
 6. Ensure that the **Add features for Scrum development** check box is selected. By enabling Scrum development, you can create sprints from your project's backlog of work items.  
 **Note**: To use the full Track & Plan capabilities, you must enable Scrum development. However, if you plan traditional projects that use simple tasks and iterations without a backlog, clear this check box.
 
-7. Ensure that the **Make this a Bluemix project** check box is cleared.  
+7. Ensure that the **Make this a Bluemix Project** check box is cleared.  
 IBM Bluemix&trade; is a cloud-based software hosting and deployment service. To try Bluemix, [you need to register][3].
 
 8. To set up your project and go to the Overview page for the ChatPage project, click **CREATE**.  
@@ -133,7 +133,7 @@ Notice the new text after your summary. When you set an attribute, the text code
 
   4. In the search field, type `chat page`. From the results, select "Create a simple chat page",  and click **OK**.
 
-  5. Click **SAVE** and then click **Back to Backlog** (<img src="/tutorials/trackplan/images/backtobacklog.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">).
+  5. Click **SAVE** and then click **Back to Backlog** (<img src="/tutorials/trackplan/images/restyle_backtobacklog.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">).
 
   6. Click in the **Type a work item summary** field and type `Configure a chat server using Node.js.` 
 
