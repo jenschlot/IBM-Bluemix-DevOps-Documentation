@@ -68,16 +68,15 @@ To see the changes that you make to your code, create a Bluemix app and deploy t
 1. In the project side panel, click the `manifest.yml` file.
 
 1. In both the **host** and **name** fields, enter the same unique host name.  
-**Note**: This name must be unique through all of Bluemix, so include your a in the host name.
+**Note**: The host name must be unique through all of Bluemix.
 ![Change the host and name entries in the manifest.yml file][1]
 
 1. Click **File**, and then click **Save**.
 
-1. Click the status area in the Run Bar. Click **+**, and then review the contents of the Configure Node.js Application Deployment window.
+1. Click the status area in the Run Bar. Click **+**, and then review the contents of the Edit Launch Configuration window.
 ![The dropdown menu in the Run Bar][33]
  * Make sure that the information about the organization and space are as you expected.
  * Make sure that the displayed host and application name match the contents of the `manifest.yml` file
- * Make sure the check box that is next to "Save to manifest file: /manifest.yml" is selected.
 
 6. Click **SAVE**.
 
@@ -91,7 +90,7 @@ To see the changes that you make to your code, create a Bluemix app and deploy t
 1. Return to your YummyRation project page on Bluemix DevOps Services.
 
 1. Near the run bar, click the **Live Edit** button. Let the app deployment finish.
-  * Bluemix Live Sync allows you to quickly preview changes to Node.js applications (like the YummyRation app). When you update your code with Live Sync turned on, you can refresh your web application's browser window to see those changes reflected seconds after you make them.
+  * Bluemix Live Sync allows you to quickly preview changes to Node.js applications (like the YummyRation app). When you update your static files with Live Sync turned on, you can refresh your web application's browser window to see those changes reflected seconds after you make them.
 
 2. In the file explorer, next to `views`, click the **>** to expand the contents of the folder. Then, click **home.jade**.
 
