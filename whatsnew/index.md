@@ -21,7 +21,7 @@ You can now access the content about What's New in IBM Bluemix DevOps Services b
 
 ## New way to deploy from the workspace
 
-The DEPLOY and DEPLOY as buttons for deploying to Bluemix directly from the web IDE are replaced with a new, more powerful mechanism called the ***run bar***.
+The DEPLOY and DEPLOY as buttons for deploying to Bluemix directly from the Web IDE are replaced with a new, more powerful mechanism called the ***run bar***.
 
 ![Run Bar](images/run-bar.png)
 
@@ -82,7 +82,7 @@ In the DevOps Services web integrated development environment (IDE), you'll noti
 
 ## Git UI
 
-On the Git UI, you can access all major Git capabilities in a layout that is like the web IDE editor. On one page, you can view history, sync changes, create commits, and more. For complete details about the updates, [see the announcement on the Orion website](http://planetorion.org/news/2014/10/announcing-orion-7-0/).
+On the Git UI, you can access all major Git capabilities in a layout that is like the Web IDE editor. On one page, you can view history, sync changes, create commits, and more. For complete details about the updates, [see the announcement on the Orion website](http://planetorion.org/news/2014/10/announcing-orion-7-0/).
 
 ![Image of new Git UI showing commits](images/gitcommit.png)
 
@@ -90,13 +90,13 @@ On the Git UI, you can access all major Git capabilities in a layout that is lik
 
 The help system is now a simple HTML5 and JavaScript page that contains overview and detail panes.
 
-![Image of new web IDE help system](images/newidehelp.png)
+![Image of new Web IDE help system](images/newidehelp.png)
 
 ##A new global search UI
 
 To search, you no longer need to open the global search page. You can search directly from the editor. To run a global search, click **Edit -> Global Search**.
 
-![Image of new web IDE search](images/newidesearch.png)
+![Image of new Web IDE search](images/newidesearch.png)
 
 ##Third-party libraries
 
@@ -114,11 +114,11 @@ By using the JavaScript content assist, you can place proposals inside JSDoc-for
 
 ###ESLint support
 
-The web IDE has new linting rules and content assist templates and completions that you can use to create ESLint directives.
+The Web IDE has new linting rules and content assist templates and completions that you can use to create ESLint directives.
 
  * You can detect empty code blocks by using the new no-empty-block rule, which is off by default.
  * The new throw-error rule ensures that you throw error-objects from  only throw statements. 
- * The web IDE no longer uses JSLint or JSHint directives. Instead, warnings are shown when unsupported usage is detected. The warnsing are based on a linting rule. 
+ * The Web IDE no longer uses JSLint or JSHint directives. Instead, warnings are shown when unsupported usage is detected. The warnsing are based on a linting rule. 
  * To correct ESLint directives, you can use the new content assist completions.
  * New ESLint directive templates are available.
  * You can find assistance to set up an environment and to disable or enable rules.
@@ -127,13 +127,13 @@ For full details, [see the Orion website](http://planetorion.org/news/2014/10/or
 
 ###Parser improvements
 
-To provide content assist inside JSDoc blocks, the web IDE now recovers unclosed or incomplete comment blocks while it parses your source. The new block comment recovery support parses and recovers all of the complete statements up to the incomplete comment.
+To provide content assist inside JSDoc blocks, the Web IDE now recovers unclosed or incomplete comment blocks while it parses your source. The new block comment recovery support parses and recovers all of the complete statements up to the incomplete comment.
 
-The web IDE also reports parsing errors that cause a complete failure to parse, where no tokens are being returned from the parse. For full details, [see the Orion website](http://planetorion.org/news/2014/10/orion-7-0-language-tooling-enhancements/).
+The Web IDE also reports parsing errors that cause a complete failure to parse, where no tokens are being returned from the parse. For full details, [see the Orion website](http://planetorion.org/news/2014/10/orion-7-0-language-tooling-enhancements/).
 
 ###Improved occurrence support
 
-The web IDE is more accurate and provides more occurrence support.
+The Web IDE is more accurate and provides more occurrence support.
 
  * You can show occurrences of labeled statements, throw statements, and things that were not defined in the file.
  * You can mark occurrences in use-before-define and hoisting scenarios. 
@@ -142,11 +142,11 @@ For full details, [see the Orion website](http://planetorion.org/news/2014/10/or
 
 ##Editor hover help
 
-In the web IDE, if you hover over a function, the rendered documentation for that function is shown. To view an example, [see the Orion website](http://planetorion.org/news/2014/10/orion-7-0-language-tooling-enhancements/).
+In the Web IDE, if you hover over a function, the rendered documentation for that function is shown. To view an example, [see the Orion website](http://planetorion.org/news/2014/10/orion-7-0-language-tooling-enhancements/).
 
 ##Cloud foundry tooling
 
-The web IDE now has a Cloud Foundry manifest editor that highlights syntax, reports on errors and warnings, and provides content assist. From the deploy window, you can launch applications that are missing manifests or that have incomplete manifests, and persist missing manifest content during deployment. For more details, [see the Orion website](http://planetorion.org/news/2014/10/orion-7-0-language-tooling-enhancements/).
+The Web IDE now has a Cloud Foundry manifest editor that highlights syntax, reports on errors and warnings, and provides content assist. From the deploy window, you can launch applications that are missing manifests or that have incomplete manifests, and persist missing manifest content during deployment. For more details, [see the Orion website](http://planetorion.org/news/2014/10/orion-7-0-language-tooling-enhancements/).
 
 ---
 ### October 24, 2014
@@ -164,13 +164,13 @@ The topics pages are regularly updated. Check them often.
 
 ### New tutorial
 
- * Try the new tutorial, [Developing with Git in the IBM DevOps Services web IDE.](/tutorials/gitweb)
+ * Try the new tutorial, [Developing with Git in the IBM DevOps Services Web IDE.](/tutorials/gitweb)
 
 ### New reference pages 
 
  * If you use a Git repository for your DevOps Services project, [learn how to configure a local client.](/docs/reference/gitclient/)
  * If you use Jazz source control management for your DevOps Services project, [learn how to configure a local client.](/docs/reference/jazz_scm_client/) 
- * If you use a Git repository for your DevOps Services project, [learn how to do common tasks in the web IDE.](/docs/reference/git/)
+ * If you use a Git repository for your DevOps Services project, [learn how to do common tasks in the Web IDE.](/docs/reference/git/)
 
 ### October 2, 2014
 
@@ -442,7 +442,7 @@ of the application to Bluemix.
 
 ### More options when forking a project
 
-When you fork a project from the web IDE, you can now select whether your project is public or private, whether to add features for Scrum
+When you fork a project from the Web IDE, you can now select whether your project is public or private, whether to add features for Scrum
 development, and  whether to deploy your application to Bluemix. After you create the project, you can change the options to make it private 
 and to deploy to Bluemix from your project settings.
 

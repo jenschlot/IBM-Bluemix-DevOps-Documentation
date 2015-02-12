@@ -1,4 +1,4 @@
-#Getting Started with IBM Bluemix and IBM Bluemix DevOps Services by using Node.js
+#Getting Started with Bluemix and Bluemix DevOps Services using Node.js
 
 Last modified: 11 February 2015
 
@@ -6,8 +6,8 @@ Last modified: 11 February 2015
 * [Create an application with IBM Bluemix](#create_bluemix_app)
 * [Enable Git integration and autodeployment](#git_integration_and_autodeployment)
 * [Push changes to the Git repository by using the command line](#push_to_git)
-* [Push changes to the Git repository by using the web IDE](#push_with_web_ide)
-* [Deployment using the web IDE](#deployments)
+* [Push changes to the Git repository by using the Web IDE](#push_with_web_ide)
+* [Deployment using the Web IDE](#deployments)
 * [Summary](#summary)
 
 <a name='create_bluemix_app'></a>
@@ -68,7 +68,7 @@ You created a Git repository, populated it with the example code, and deployed t
 
 3. Go to the Bluemix application overview and click **EDIT CODE**.
 ![CODE button](/tutorials/jazzeditor/images/bm-code-button_NEW.png)
-Your new project opens in the web IDE. The project page contains useful information that you can review later. 
+Your new project opens in the Web IDE. The project page contains useful information that you can review later. 
 
 4. To check the status of the application, click **BUILD & DEPLOY**.
 ![Web IDE](/tutorials/jazzeditor/images/orion_NEW.png)
@@ -79,7 +79,7 @@ You can then open your running app by clicking its URL.
 <a name='push_to_git'></a>
 ##Push changes to the Git repository by using the command line
 
-You now have a Git repository that contains example code. You can use several tools to work with Git, including desktop IDEs, the browser-based web IDE, and the command line. 
+You now have a Git repository that contains example code. You can use several tools to work with Git, including desktop IDEs, the browser-based Web IDE, and the command line. 
 
 **Before you begin:**
 If you need to install Git, [see Installing Git](/tutorials/clients#installing_git).
@@ -126,7 +126,7 @@ To learn more about working with Git, [browse the Git documentation](http://git-
     	To https://hub.jazz.net/git/jazzhubdemouser/newcoolwebappdemo
     		43c6bc7..bf26680 master -> master
 	
-	d. Return to the web IDE and check the BUILD & DEPLOY page.
+	d. Return to the Web IDE and check the BUILD & DEPLOY page.
 	![Auto-deploy in action](/tutorials/jazzeditor/images/jh-autodeployed_NEW.png)
 At the top of the leftmost tile, under Input, an entry has a comment that matches the commit operation that you made from the command line. The entry shows that your app is running the code that you pushed.
 	
@@ -141,7 +141,7 @@ You can continue to modify the example code and push the changes to the Git repo
 
 ---
 <a name='push_with_web_ide'></a>
-##Push changes to the Git repository by using the web IDE
+##Push changes to the Git repository by using the Web IDE
 
 In addition to autodeployment, IBM Bluemix DevOps Services provides many other useful capabilities 
 for application development:
@@ -156,18 +156,18 @@ for application development:
 To learn about all the features, [see the IBM Bluemix DevOps Services website](https://hub.jazz.net/docs). 
 
 You used the command line to modify your code and push it to the repository. 
-Now, try the web IDE in Bluemix DevOps Services to do the same thing.
+Now, try the Web IDE in Bluemix DevOps Services to do the same thing.
 
-1. Return to the deployment page and click **EDIT CODE** to access the complete, integrated web IDE that's 
-based on [the Eclipse Orion open-source project](http://orion.eclipse.org/). When the example project is open, the web IDE looks like this image:
+1. Return to the deployment page and click **EDIT CODE** to access the complete, integrated Web IDE that's 
+based on [the Eclipse Orion open-source project](http://orion.eclipse.org/). When the example project is open, the Web IDE looks like this image:
 ![Orion at Bluemix DevOps Services](/tutorials/jazzeditor/images/orion_1_NEW.png)
 In this environment, you can edit files with syntax coloring support for multiple languages, including HTML, 
-CSS, JavaScript, Ruby, and Python. For some languages, such as JavaScript, the web IDE also supports 
+CSS, JavaScript, Ruby, and Python. For some languages, such as JavaScript, the Web IDE also supports 
 syntax checking and code completion, both for standard language constructs and for the services that Bluemix provides. To use content assist, press **Ctrl + Space**. For example, this image shows code completion for the standard Node.js express module:
 ![Orion showing express completions](/tutorials/jazzeditor/images/completion.png)
 
 2. Before you make another change to your application, merge the title change that you made on the command line
-so that the change shows in the web IDE. You merge from the Git Repository page. 
+so that the change shows in the Web IDE. You merge from the Git Repository page. 
 ![Orion Git repository icon](/tutorials/jazzeditor/images/orion-git-status_NEW.png)
 
 3. On the Git Repository page, sync the change that you made to the title.
@@ -194,15 +194,15 @@ application was deployed again. Then, click the URL link that is next to "Deploy
 
 ---
 <a name='deployment'></a>
-##Deployment using the web IDE
+##Deployment using the Web IDE
 
-Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can deploy applications directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the web IDE, you can deploy your code to Bluemix by using the Play button in the Run Bar. 
+Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can deploy applications directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the Web IDE, you can deploy your code to Bluemix by using the Play button in the Run Bar. 
 
 ![Screenshot here of Run Bar][1]
 
-**Note**: Clicking the Play button in the Run Bar deploys the current state of the code in your web IDE, whereas Pipeline deploys the code that is checked in to the repository.
+**Note**: Clicking the Play button in the Run Bar deploys the current state of the code in your Web IDE, whereas Pipeline deploys the code that is checked in to the repository.
 
-Both the command-line tools and the web IDE are effective for rapid, solo development, but the Pipeline adds the security of controlling what is pushed, especially in team environments. With Pipeline, you always know that the code running in the application matches a known state in the repository, instead of whatever was in your working directory when you pushed changes.
+Both the command-line tools and the Web IDE are effective for rapid, solo development, but the Pipeline adds the security of controlling what is pushed, especially in team environments. With Pipeline, you always know that the code running in the application matches a known state in the repository, instead of whatever was in your working directory when you pushed changes.
 
 ---
 <a name='summary'></a>
@@ -213,7 +213,7 @@ You have a good overview of how to get started with Bluemix and Bluemix DevOps S
 You saw how to create and run a Node.js web app by using Bluemix. 
 With one click, you created a Git repository, populated it with example code, and automatically 
 deployed the application. You changed the code and pushed the changes to the Git repository by using both the command line and the 
-web IDE. Then, you automatically built and deployed your changes, checked the deployment status, 
+Web IDE. Then, you automatically built and deployed your changes, checked the deployment status, 
 and verified your changes. 
 
 [1]: /tutorials/jazzeditor/images/runbar_green.png

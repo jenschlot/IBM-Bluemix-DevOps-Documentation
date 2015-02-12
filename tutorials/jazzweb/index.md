@@ -1,4 +1,4 @@
-#Developing an IBM Bluemix application in Node.js with the web IDE
+#Developing an Bluemix application in Node.js with the Web IDE
 
 Last modified: 11 February 2015
 
@@ -13,7 +13,7 @@ In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an applica
 * [Edit the Sample Application](#edit)
 * [Push changes to the repository](#push)
 * [The manifest file](#manifest)
-* [Deploying from the web IDE](#deploy_from_web_ide)
+* [Deploying from the Web IDE](#deploy_from_web_ide)
 * [Automatic deployment](#automatic_deployment)
 
 ---
@@ -129,22 +129,22 @@ Any changes that are delivered to your project trigger a build. When a build is 
 <a name='manifest'></a>
 ##The manifest file
 
-Deploying a Bluemix DevOps Services project from the web IDE requires the project to have a `manifest.yml` file. This file contains important settings, such as the application instance name to use, the host machine, the services that the application uses, and more. The sample application already contains a manifest file, so you can leave it alone in this tutorial.
+Deploying a Bluemix DevOps Services project from the Web IDE requires the project to have a `manifest.yml` file. This file contains important settings, such as the application instance name to use, the host machine, the services that the application uses, and more. The sample application already contains a manifest file, so you can leave it alone in this tutorial.
 
 ![An example manifest][17]
 
 
 ---
 <a name='deploy_from_web_ide'></a>
-##Deploying from the web IDE
+##Deploying from the Web IDE
 
-While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the web IDE workspace to Bluemix by using the Play button in the Run Bar. Remember: When you deploy with the Run Bar, you deploy the current state of your code in the web IDE. Build &amp; Deploy deploys from what is checked into the repository.
+While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the Web IDE workspace to Bluemix by using the Play button in the Run Bar. Remember: When you deploy with the Run Bar, you deploy the current state of your code in the Web IDE. Build &amp; Deploy deploys from what is checked into the repository.
 
 ![The IDE Run Bar][28]
 
-You can configure web IDE deployment and Build &amp; Deploy's Pipeline deployment to use different app names. Then, you can use the web IDE deployment for a personal test environment and Pipeline deployment for a team integration environment. The web IDE saves launch configurations; you can access them via the dropdown menu in the Run Bar. 
+You can configure Web IDE deployment and Build &amp; Deploy's Pipeline deployment to use different app names. Then, you can use the Web IDE deployment for a personal test environment and Pipeline deployment for a team integration environment. The Web IDE saves launch configurations; you can access them via the dropdown menu in the Run Bar. 
 
-Whether you are using command-line tools or the web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment via Pipeline so that you can control what is being pushed. By using automatic deployment, you know that the code that is running in the app matches a known state in the repository. In contrast, the web IDE deploys whatever is in your working directory when you push.
+Whether you are using command-line tools or the Web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment via Pipeline so that you can control what is being pushed. By using automatic deployment, you know that the code that is running in the app matches a known state in the repository. In contrast, the Web IDE deploys whatever is in your working directory when you push.
 
 ---
 <a name='automatic_deployment'></a>
@@ -160,7 +160,7 @@ When the app is deployed, try it by clicking its web URL:
 
 ![Our updated app on Bluemix][19]
 
-You developed and deployed a Bluemix application by using the web IDE. 
+You developed and deployed a Bluemix application by using the Web IDE. 
 
 [1]: https://bluemix.net/ (Bluemix)
 [2]: https://hub.jazz.net/project/curtispd/Sentiment%20Analysis%20App/overview

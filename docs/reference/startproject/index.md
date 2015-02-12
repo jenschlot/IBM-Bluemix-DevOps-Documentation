@@ -1,4 +1,4 @@
-# Start a project in IBM Bluemix DevOps Services 
+# Start a project in Bluemix DevOps Services 
 
 Last modified: 10 February 2015
 
