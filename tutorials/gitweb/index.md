@@ -1,6 +1,6 @@
 #Developing with Git in the IBM Bluemix DevOps Services web IDE
 
-Last modified: 6 February 2015
+Last modified: 12 February 2015
 
 If you want to learn more about managing your Git repository, an open source code management system, with the IBM® Bluemix&trade; DevOps Services web IDE, complete this tutorial. The tutorial doesn't cover all of the possible Git commands in the DevOps Services web IDE, but you can practice creating a change on a separate branch, testing the change, and adding the change to the master branch. If you need help with specific commands, [see the Git reference](/../docs/reference/git).  If you want to try to work locally by using the command line, [see Work locally with IBM DevOps Services projects and Git source control](../../docs/reference/gitclient).
 
@@ -79,9 +79,9 @@ To see the changes that you make to your code, create a Bluemix app and deploy t
  * Make sure that the displayed host and application name match the contents of the `manifest.yml` file
  * Make sure the check box that is next to "Save to manifest file: /manifest.yml" is selected.
 
-6. Click **DEPLOY**.
+6. Click **SAVE**.
 
-7. After the deployment succeeds, click the **Open URL** button to see the YummyRation project page.
+7. Click the **Play** button. After the deployment succeeds, click the **Open URL** button to see the YummyRation project page.
 ![Open URL button in the Run Bar][31]
 
 ---
@@ -91,7 +91,7 @@ To see the changes that you make to your code, create a Bluemix app and deploy t
 1. Return to your YummyRation project page on Bluemix DevOps Services.
 
 1. Near the run bar, click the **Live Edit** button. Let the app deployment finish.
-  * Bluemix Live Sync allows you to quickly preview changes to JavaScript applications (like the YummyRation Node.js app). When you update your code with Live Sync turned on, you can refresh your web application's browser window to see those changes reflected seconds after you make them.  
+  * Bluemix Live Sync allows you to quickly preview changes to Node.js applications (like the YummyRation app). When you update your code with Live Sync turned on, you can refresh your web application's browser window to see those changes reflected seconds after you make them.
 
 2. In the file explorer, next to `views`, click the **>** to expand the contents of the folder. Then, click **home.jade**.
 
