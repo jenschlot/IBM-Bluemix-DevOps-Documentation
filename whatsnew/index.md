@@ -1,13 +1,21 @@
 # What's New
 
 
+## February 12, 2015
+
+See the new blog posts:
+### [If there’s a fork in the road, take it! Forking support added to Jazz SCM projects](https://developer.ibm.com/devops-services/2015/02/11/theres-fork-road-take-forking-support-added-jazz-scm-projects/)
+
+### [Don’t hog all the permissions! Use multiple admins support to share project management duties](https://developer.ibm.com/devops-services/2015/02/10/project-admins-support/)
+
+[See all the What's new posts](https://developer.ibm.com/devops-services/category/whats-new/)
+
 ##  February 5, 2015
 
 You can now access the content about What's New in IBM Bluemix DevOps Services blog. Check out the latest post:
 
 #### [A new chapter, a fresh experience. Check out the new IBM Bluemix DevOps Services look and feel!](https://developer.ibm.com/devops-services/2015/02/03/new-look-and-feel/)
 
-[See all the What's new posts](https://developer.ibm.com/devops-services/category/whats-new/)
 
 ### January 13, 2015
 
