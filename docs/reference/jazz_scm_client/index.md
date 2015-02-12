@@ -1,8 +1,8 @@
-# Work locally with IBM Bluemix DevOps Services projects and Jazz source control
+# Work locally with Bluemix DevOps Services projects and Jazz source control
 
 Last modified: 3 February 2015
 
-If you use Jazz Source Control Management (SCM) for your IBM&reg; Bluemix&trade; DevOps Services project you can  work locally or by using the integrated web IDE. If you work in Eclipse, you can install the IBM&reg; Rational Team Concert&trade; plug-in for version control.
+If you use Jazz Source Control Management (SCM) for your IBM&reg; Bluemix&trade; DevOps Services project you can  work locally or by using the integrated Web IDE. If you work in Eclipse, you can install the IBM&reg; Rational Team Concert&trade; plug-in for version control.
 
 If you use the Track & Plan feature to manage your project plans and work items, and if you install the the Rational Team Concert plug-in, you can also access your work items from Eclipse.
 

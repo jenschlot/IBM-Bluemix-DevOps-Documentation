@@ -1,13 +1,13 @@
-#Getting Started with IBM Bluemix and IBM Bluemix DevOps Services using Java
+#Getting Started with Bluemix and Bluemix DevOps Services using Java
 
 Last modified: 11 February 2015
 
 ## Contents
 * [Create an application with IBM Bluemix](#create_bluemix_app)
-* [Build & deploy using Bluemix DevOps Services](#build_and_deploy)
+* [Build and deploy using Bluemix DevOps Services](#build_and_deploy)
 * [Push changes to the Git repository by using the command line](#push_to_git)
-* [Edit and deploy code using the Bluemix DevOps Services web IDE](#edit_and_deploy_with_web_ide)
-* [Deployment using the web IDE](#deployments)
+* [Edit and deploy code using the Bluemix DevOps Services Web IDE](#edit_and_deploy_with_web_ide)
+* [Deployment using the Web IDE](#deployments)
 * [Summary](#summary)
 
 <a name='create_bluemix_app'></a>
@@ -87,7 +87,7 @@ To see the app's code or configure how it deploys, use Bluemix DevOps Services.
 
 ---
 <a name='build_and_deploy'></a>
-##Build & deploy using Bluemix DevOps Services
+##Build and deploy using Bluemix DevOps Services
 
 Your new project opens in the Bluemix DevOps Services web integrated development environment (IDE). When you clicked **Add Git Integration** in Bluemix, you populated a new Git repository with the example code that you now see. The repository contains useful information that you can review later. Now, see how the code is pushed to Bluemix: 
 
@@ -161,7 +161,7 @@ When you build and deploy apps by using Bluemix, your Bluemix billing account mi
 <a name='push_to_git'></a>
 ##Push changes to the Git repository using the command line
 
-You now have a Git repo with example code. You can use many tools to work with Git, including all of the major desktop IDEs and the Bluemix DevOps Services web IDE. For now, use the command-line Git support.
+You now have a Git repo with example code. You can use many tools to work with Git, including all of the major desktop IDEs and the Bluemix DevOps Services Web IDE. For now, use the command-line Git support.
 
 **Note:** If you don't have Git, [see Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][20]. If you want to learn more about working with Git, [see the Git documentation pages](http://git-scm.com/doc).
 
@@ -212,7 +212,7 @@ If you want to configure desktop clients to work with your Git repository, [see 
 
 ---
 <a name='edit_and_deploy_with_web_ide'></a>
-##Edit and deploy code using the Bluemix DevOps Services web IDE
+##Edit and deploy code using the Bluemix DevOps Services Web IDE
 
 In addition to build and deploy, Bluemix DevOps Services provides many other capabilities that are useful for application development:
 
@@ -235,7 +235,7 @@ In this environment, you can edit files with syntax coloring support for multipl
 
 **Tip:** While you are outside of the code editor, you can search through the various key bindings in the IDE by pressing Shift + ?. To search while you’re in the editor, press Shift + Alt + ?. 
 
-To complete the process, you must make one more modification to your application in web IDE. First, though, you must fetch the change to the app title that you just made and merge the change so that it is shown in the web IDE. 
+To complete the process, you must make one more modification to your application in Web IDE. First, though, you must fetch the change to the app title that you just made and merge the change so that it is shown in the Web IDE. 
 
 Open the Git Repository page. 
 
@@ -273,22 +273,22 @@ This process is like the process you did on the command line, only with more cli
 
 ---
 <a name='deployment'></a>
-##Deployment using the web IDE
+##Deployment using the Web IDE
 
 
-While you're working in the directory that contains your `manifest.yml file`, you can deploy whatever is in the web IDE workspace to Bluemix by using the Play button in the Run Bar. Remember: When you deploy with the Run Bar, you deploy the current state of your code in the web IDE. Build &amp; Deploy deploys from what is checked into the repository.
+While you're working in the directory that contains your `manifest.yml file`, you can deploy whatever is in the Web IDE workspace to Bluemix by using the Play button in the Run Bar. Remember: When you deploy with the Run Bar, you deploy the current state of your code in the Web IDE. Build &amp; Deploy deploys from what is checked into the repository.
 
 ![The IDE Run Bar][56]
 
-You can configure web IDE deployment and Build &amp; Deploy's Pipeline deployment to use different app names. Then, you can use the web IDE deployment for a personal test environment and Pipeline deployment for a team integration environment. Web IDE deployment launch configurations are saved; you can access them via the dropdown menu in the Run Bar. 
+You can configure Web IDE deployment and Build &amp; Deploy's Pipeline deployment to use different app names. Then, you can use the Web IDE deployment for a personal test environment and Pipeline deployment for a team integration environment. Web IDE deployment launch configurations are saved; you can access them via the dropdown menu in the Run Bar. 
 
-Whether you are using command-line tools or the web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment so that you can control what is being pushed. By using automatic deployment via Pipeline, you know that the code that is running in the app matches a known state in the repository. In contrast, the web IDE deploys whatever is in your working directory when you push.
+Whether you are using command-line tools or the Web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment so that you can control what is being pushed. By using automatic deployment via Pipeline, you know that the code that is running in the app matches a known state in the repository. In contrast, the Web IDE deploys whatever is in your working directory when you push.
 
 ---
 <a name='Summary'></a>
 ## Summary
 
-You saw how easy it is to create a Java web app on Bluemix and run that app. With a few clicks, you created a Git repo, loaded it with the sample code, and automatically deployed the app. You changed code and pushed it by using the Git command line. You then did the same thing entirely in your browser by using the Bluemix DevOps Services web IDE. You configured automatic building and deployment, checked the status of the app deployment, and ran the app to verify your changes. 
+You saw how easy it is to create a Java web app on Bluemix and run that app. With a few clicks, you created a Git repo, loaded it with the sample code, and automatically deployed the app. You changed code and pushed it by using the Git command line. You then did the same thing entirely in your browser by using the Bluemix DevOps Services Web IDE. You configured automatic building and deployment, checked the status of the app deployment, and ran the app to verify your changes. 
 
 Hopefully, you learned how to get started with Bluemix and Bluemix DevOps Services by using Java. Lots of details were minimized, but you can find out more from the documentation links at the beginning of the tutorial.
 

@@ -1,4 +1,4 @@
-#Developing IBM Bluemix applications in Java with Eclipse and Bluemix DevOps Services
+#Developing Bluemix applications in Java with Eclipse and Bluemix DevOps Services
 
 Last modified: 11 February 2015
 
@@ -103,7 +103,7 @@ The Delivery Pipeline service is added to your Bluemix space.
 
 From the Rational Team Concert client for Eclipse, connect to your running app. 
 
-1. In the Bluemix DevOps Services web IDE, click the project link to go to the project overview page. 
+1. In the Bluemix DevOps Services Web IDE, click the project link to go to the project overview page. 
 ![Project Link](/tutorials/jazzrtc/images/project_link.png "Project Link")
 
 2. From this page, get the Jazz repository information. 

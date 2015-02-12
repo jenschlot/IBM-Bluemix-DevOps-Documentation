@@ -1,8 +1,8 @@
-#Working locally with IBM Bluemix DevOps Services projects
+#Working locally with Bluemix DevOps Services projects
 
 Last modified: 14 November 2014
 
-In IBM&reg; Bluemix&trade; DevOps Services, you decide how you code.  You can work in the cloud by using the web IDE or you can work in a desktop client.
+In IBM&reg; Bluemix&trade; DevOps Services, you decide how you code.  You can work in the cloud by using the Web IDE or you can work in a desktop client.
 
 To work in a desktop client, you must configure it for your repository.
 

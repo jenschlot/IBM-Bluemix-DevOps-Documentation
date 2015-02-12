@@ -14,7 +14,7 @@ For example, here's what it looks like providing completion for the standard nod
 
 >	![Web IDE with code](../images/guidebm/jazzhubeditorcode.jpg) 
 
-So just to round out the process, let's make one more modification to your application using the web IDE. 
+So just to round out the process, let's make one more modification to your application using the Web IDE. 
 You can navigate using the tree until you get to the same file you worked on before (for example, views/index.ejs), 
 and then simply edit in place.
 
