@@ -1,7 +1,7 @@
 
 # Getting started with tracking and planning in IBM Bluemix DevOps Services
 
-Last modified: 3 February 2015
+Last modified: 11 February 2015
 
 You can use the Track & Plan feature in IBM&reg; Bluemix&trade; DevOps Services to manage any type of project by using an agile approach. After you enable the Track & Plan feature, you can start getting organized right away by creating and assigning work items for your project.
 
@@ -13,7 +13,8 @@ You can use the Track & Plan feature with all of your public IBM Bluemix DevOps 
 
 To try the Track & Plan feature, complete this tutorial. You'll start a simple, public, agile project and will use basic story, task, and defect work items to plan a chat page for a website.
 
-For a quick overview of features and functions, [explore the Track & Plan feature][9].
+<!--- Commenting out until feature explorer is updated. -->
+<!--- For a quick overview of features and functions, [explore the Track & Plan feature][9]. -->
 
 ---
 ## Contents
@@ -29,7 +30,7 @@ For a quick overview of features and functions, [explore the Track & Plan featur
 ---
 <a name='set_up_an_IBM_devops_services_project'></a>
  ##Set up an IBM Bluemix DevOps Services project
-1. [Sign in to IBM Bluemix DevOps Services][1].  Your My Stuff page opens.  
+1. [Sign in to IBM Bluemix DevOps Services][1].  Your MY PROJECTS page opens.  
 ![Bluemix DevOps Services new user landing page][2]
 
 2. Start a new project by clicking the **Start coding** icon.  
@@ -46,7 +47,7 @@ IBM Bluemix DevOps Services supports both public and private projects. Anyone ca
 6. Ensure that the **Add features for Scrum development** check box is selected. By enabling Scrum development, you can create sprints from your project's backlog of work items.  
 **Note**: To use the full Track & Plan capabilities, you must enable Scrum development. However, if you plan traditional projects that use simple tasks and iterations without a backlog, clear this check box.
 
-7. Ensure that the **Deploy to Bluemix** check box is cleared.  
+7. Ensure that the **Make this a Bluemix Project** check box is cleared.  
 IBM Bluemix&trade; is a cloud-based software hosting and deployment service. To try Bluemix, [you need to register][3].
 
 8. To set up your project and go to the Overview page for the ChatPage project, click **CREATE**.  
@@ -72,8 +73,9 @@ margin-bottom: -10px;">) in the title bar to set the priority to **High**.
 
 4. Click the tag icon (<img src="/tutorials/trackplan/images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and in the tag field, type `website`. To assign the tag, press **Enter**.  
 **Tip**: A tag can help you group related work items. For example, you can use the filtering options to view only the items that have a certain tag.    
-<iframe width="640" height="360" src="//www.youtube.com/embed/EvVPxazK5jU" frameborder="0" allowfullscreen></iframe>
-<div align = center>Video: Adding attributes to an existing work item</div> 
+<!--- Commenting out videos until they are updated -->
+<!--- <iframe width="640" height="360" src="//www.youtube.com/embed/EvVPxazK5jU" frameborder="0" allowfullscreen></iframe>
+<div align = center>Video: Adding attributes to an existing work item</div> -->
 
 6. In the **Type a work item summary** field, enter the summary for the next work item: `Incoming messages are not reaching other chat participants.`
 
@@ -91,9 +93,10 @@ You use these icons to set the work item attributes. Don't worry if you aren't s
 Notice the new text after your summary. When you set an attribute, the text code for that attribute is added after the summary.  
 ![Defect summary appended with attribute codes][7]
 
-5. When you're finished, click **SAVE**.  
-<iframe width="640" height="360" src="//www.youtube.com/embed/t5xJnL_jinc" frameborder="0" allowfullscreen></iframe>
-<div align = center>Video: Adding attributes while you create a work item</div>
+5. When you're finished, click **CREATE**.  
+<!--- Commenting out videos until they are updated -->
+<!--- <iframe width="640" height="360" src="//www.youtube.com/embed/t5xJnL_jinc" frameborder="0" allowfullscreen></iframe>
+<div align = center>Video: Adding attributes while you create a work item</div> -->
 
 6. Click **Incoming Work** and evaluate your new work items. They are ranked by severity so that you know which tasks are most important. You can either send incoming work items to your backlog to be included on a sprint (<img src="/tutorials/trackplan/images/triagetobacklog.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) or you can delete (<img src="/tutorials/trackplan/images/trash.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) them, which marks the work item as invalid and moves it to the **TRASHED** tab.
 
@@ -115,9 +118,9 @@ Notice the new text after your summary. When you set an attribute, the text code
 
   4. Confirm that the work item type is "Story." If the type is not story, click the **Task** icon (<img src="/tutorials/trackplan/images/task.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and then click the **Story** icon (<img src="/tutorials/trackplan/images/story.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">).
 
-  5. Click **SAVE**.  
+  5. Click **CREATE**.  
 
-2. You should assign child work items to your story.
+2. Assign child work items to your story.
 
   1. Click the summary of your story, "As a user, I'd like your site to have a chat page," to open the work item editor.  
 **Tip**: You can change most of the attributes on the **OVERVIEW** tab.  When you share work with a team, add more details about a work item in the **DESCRIPTION** field.
@@ -130,7 +133,7 @@ Notice the new text after your summary. When you set an attribute, the text code
 
   4. In the search field, type `chat page`. From the results, select "Create a simple chat page",  and click **OK**.
 
-  5. Click **SAVE** and then click **Back to Backlog** (<img src="/tutorials/trackplan/images/backtobacklog.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">).
+  5. Click **SAVE** and then click **Back to Backlog** (<img src="/tutorials/trackplan/images/restyle_backtobacklog.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">).
 
   6. Click in the **Type a work item summary** field and type `Configure a chat server using Node.js.` 
 
@@ -142,7 +145,7 @@ Notice the new text after your summary. When you set an attribute, the text code
     * \#server 
     * $high 
 
-  8. Click **SAVE**.
+  8. Click **CREATE**.
 
   9. Make the "Configure a chat server using Node.js" task a child of the "As a user, I'd like your site to have a chat page" story. Click the task's title field and drag the task to the story's title field.
      ![Assign child relationship by dragging task][24]  
@@ -164,7 +167,7 @@ Your backlog should look like this image:
 
 1. Finish assigning work items owners.
 
-  1. In the Filter work items by keyword field, type `@:unassigned` and press **Enter**.  
+  1. In the Filter work items by keyword field, type `@:unassigned` and click **SAVE**.  
 ![Empty text filter field][14]
 
   2. Next to your story summary, click the plus sign (+).
@@ -185,8 +188,9 @@ Your backlog should look like this image:
 3. Before you populate a sprint, you rank the work items in your backlog. If you use agile management techniques with your projects, you probably use a similar process during your sprint planning meetings.
 
   1. Collapse the parent items and notice how each work item's rank is not ranked. You can easily change this status. Drag the "Incoming messages are not reaching other chat participants" task to the top of the list and see how its rank changes to 1.  
-<iframe width="640" height="360" src="//www.youtube.com/embed/twr30-5wcfc" frameborder="0" allowfullscreen></iframe>
-<div align = center>Video: Ranking work items in the backlog </div>
+<!--- Commenting out videos until they are updated -->
+<!--- <iframe width="640" height="360" src="//www.youtube.com/embed/twr30-5wcfc" frameborder="0" allowfullscreen></iframe>
+<div align = center>Video: Ranking work items in the backlog </div> -->
 
 
   2. Rank the rest of the work items in this order:  
@@ -214,8 +218,9 @@ Your backlog should look like this image:
 4. Next to each story, click the plus sign (+) to show the child tasks.
 
 4. Drag the rest of the work items to Sprint 1 in ascending order by rank.  
-<iframe width="640" height="360" src="//www.youtube.com/embed/SLQVK6V3qME" frameborder="0" allowfullscreen></iframe>
-<div align = center>Video: Populating a sprint</div>
+<!--- Commenting out videos until they are updated -->
+<!--- <iframe width="640" height="360" src="//www.youtube.com/embed/SLQVK6V3qME" frameborder="0" allowfullscreen></iframe>
+<div align = center>Video: Populating a sprint</div> -->
 
 ---
  <a name='work_through_the_sprint'></a>
@@ -274,19 +279,19 @@ You have a good overview of the Track & Plan feature and see that you can use it
 
 
 [1]: https://hub.jazz.net
-[2]: /tutorials/trackplan/images/mystufflanding.gif
+[2]: /tutorials/trackplan/images/myprojectslanding.png
 [3]: https://bluemix.net/ (Register for Bluemix)
-[4]: /tutorials/trackplan/images/newprojectselection.gif
-[5]: /tutorials/trackplan/images/wiicons.gif
+[4]: /tutorials/trackplan/images/restyle_newprojectselection.png
+[5]: /tutorials/trackplan/images/restyle_wiicons.png
 [6]: https://bluemix.net/#/pricing/cloudOEPaneId=pricing 
-[7]: /tutorials/trackplan/images/appendeddefect.gif
-[8]: /tutorials/trackplan/images/workitemeditor.png
+[7]: /tutorials/trackplan/images/restyle_appendeddefect.png
+[8]: /tutorials/trackplan/images/restyle_workitemeditor.png
 [9]: /docs/trackplan/trackplanfg/
-[10]: /tutorials/trackplan/images/unrankedbacklog.png
-[11]: /tutorials/trackplan/images/rankedlist.png
-[12]: /tutorials/trackplan/images/estimateunassigned.gif
+[10]: /tutorials/trackplan/images/restyle_unrankedbacklog.png
+[11]: /tutorials/trackplan/images/restyle_rankedlist.png
+[12]: /tutorials/trackplan/images/restyle_estimateunassigned.png
 
-[14]: /tutorials/trackplan/images/querybar.gif
+[14]: /tutorials/trackplan/images/restyle_querybar.png
 [15]: https://hub.jazz.net/tutorials/jazzeditor
 [16]: https://hub.jazz.net/tutorials/jazzeditorjava
 [17]: https://bluemix.net/
@@ -294,11 +299,11 @@ You have a good overview of the Track & Plan feature and see that you can use it
 [19]: mailto:hub%40jazz.net
 [22]: https://ace.ng.bluemix.net/#/pricing
 
-[24]: /tutorials/trackplan/images/dragdropchild.png
-[25]: /tutorials/trackplan/images/teamprogress.gif
-[26]: /tutorials/trackplan/images/incomingwork.png
-[27]: /tutorials/trackplan/images/editsprints.gif
-[28]: /tutorials/trackplan/images/parentbreakdown.png
+[24]: /tutorials/trackplan/images/restyle_dragdropchild.png
+[25]: /tutorials/trackplan/images/restyle_teamprogress.png
+[26]: /tutorials/trackplan/images/restyle_incomingwork.png
+[27]: /tutorials/trackplan/images/restyle_editsprints.png
+[28]: /tutorials/trackplan/images/restyle_parentbreakdown.png
 
 
 [40]: /tutorials/jazzrtc (Developing Bluemix applications in Java with Eclipse and Bluemix DevOps Services)

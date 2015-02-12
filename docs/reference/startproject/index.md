@@ -1,10 +1,8 @@
-# Start a project in IBM DevOps Bluemix Services 
+# Start a project in IBM Bluemix DevOps Services 
 
-Last modified: 8 January 2015
+Last modified: 10 February 2015
 
-You can start an IBM&reg; Bluemix&trade; DevOps Services project in three ways. If you want to start by using new code or an existing Git repository, 
-
-with all new code or use an existing Git repository, [create a project](#starting_a_devops_services_project). If you want to start from a copy of the code in a Bluemix DevOps Services project, [fork the code](#forking_a_devops_services_project).  You can also [create a Bluemix DevOps Services project from an IBM&reg; Bluemix&trade; app](#creating_a_devops_services_project_for_your_bluemix_app).
+You can start an IBM&reg; Bluemix&trade; DevOps Services project in three ways. If you want to start by using new code or an existing Git repository, [create a project](#starting_a_devops_services_project). If you want to start from a copy of the code in a Bluemix DevOps Services project, [fork the code](#forking_a_devops_services_project).  You can also [create a Bluemix DevOps Services project from an IBM&reg; Bluemix&trade; app](#creating_a_devops_services_project_for_your_bluemix_app).
 
 **Before you begin**
 * [Register for Bluemix DevOps Services](https://hub.jazz.net). 
@@ -21,7 +19,7 @@ with all new code or use an existing Git repository, [create a project](#startin
 <a name='starting_a_devops_services_project'></a>
 ##Creating a project
 
-1. Sign in to [Bluemix DevOps Services](https://hub.jazz.net). The My Stuff page opens.
+1. Sign in to [IBM Bluemix DevOps Services](https://hub.jazz.net). The MY PROJECTS page opens.
 
 2. If this project is your first project, click the **Start coding** icon. Otherwise, click **CREATE PROJECT**.
 
@@ -47,7 +45,7 @@ If you want to use only the traditional planning feature, which uses simplte tas
 <a name='forking_a_devops_services_project'></a>
 ## Forking a project
 
-1. [Sign in to Bluemix DevOps Services](https://hub.jazz.net).
+1. [Sign in to IBM Bluemix DevOps Services](https://hub.jazz.net).
 
 2. Click **EXPLORE**, find the project to start from, and click its name.
 ![Bluemix DevOps Services new user landing page][1]

@@ -12,12 +12,12 @@ a {
 }
 
 #message {
-	font-size: 35px;
+	font-size: 40px;
 }
 
 #tagline,
 #advice {
-	font-size: 18px;
+	font-size: 20px;
 }
 
 #advice {
@@ -38,14 +38,9 @@ a {
 
 #bluemix-logo {
 	position: absolute;
-	background: url("/tutorials/images/error/bluemix_logo_multi_181.png") no-repeat;
-	width: 181px;
-	height: 181px;
+	width: 191px;
+	height: 191px;
 	opacity: 0.35;
-	top: 50%;
-	left: 50%;
-        -o-transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
+	left: 22%;
+	bottom: 110%;
 }

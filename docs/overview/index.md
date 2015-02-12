@@ -1,4 +1,4 @@
-# What is IBM&reg; Bluemix&trade; DevOps Services
+# What is IBM Bluemix DevOps Services
 
 Last updated: 27 January 2015
 
@@ -19,4 +19,4 @@ IBM Bluemix DevOps Services provides these capabilities:
 * Automated builds and deployments, through the Delivery Pipeline service 
 <!--<image of build and deploy page>  -->
 
-Bluemix is the platform where you deploy your application and can add services. The Bluemix catalog contains services for data management, mobile applications, cloud integration, web applications, and security.  The IBM Bluemix DevOps services that are available from Bluemix are Delivery Pipeline and Track & Plan.  You can also source your Bluemix project in Git by using Bluemix DevOps Services.
+IBM Bluemix is the platform where you deploy your application and can add services. The Bluemix catalog contains services for data management, mobile applications, cloud integration, web applications, and security.  The IBM Bluemix DevOps Services that are available from Bluemix are Delivery Pipeline and Track & Plan.  You can also source your Bluemix project in Git by using IBM Bluemix DevOps Services.

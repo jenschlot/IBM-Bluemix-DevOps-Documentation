@@ -58,7 +58,7 @@ see these resources:
 
 * [Tutorial: Getting Started with Bluemix and Bluemix DevOps Services using Node.js](/tutorials/jazzeditor)
 * [Tutorial: Getting Started with Bluemix and Bluemix DevOps Services using Java](/tutorials/jazzeditorjava)
-* [Reference information on Build and Deploy](/docs/reference/deploy)
+* [Reference information on Build & Deploy](/docs/reference/deploy)
 
 
 ![Automatic build of source code](/features/images/automatic-build-source-code.png)
@@ -86,11 +86,11 @@ code changes, and the work item is updated with the new commit information.
 
 ## Your work in one place
 
-It's My Stuff. Get a quick view of the projects you own, belong	to, and
+It's My Projects. Get a quick view of the projects you own, belong	to, and
  like. See project invitations and requests too. Just another way 
 to help you stay organized.
 
-![My Stuff](/features/images/MyStuff.png)																		 
+![My Projects](/features/images/MyStuff.png)																		 
 
 ## Built-in source code management						
 
