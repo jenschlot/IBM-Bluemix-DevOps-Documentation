@@ -1,14 +1,29 @@
 #Developing IBM Bluemix applications in Java with Eclipse and Bluemix DevOps Services
 
-Last modified: 10 February 2015
+Last modified: 11 February 2015
 
 Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM&reg; Bluemix&trade; DevOps Services, and the Rational&reg; Team Concert client for Eclipse. 
 
+## Contents
+* [before you begin](#before_begin)
+* [Get your app (fork)](#fork_app)
+* [Deploy your app](deploy_app)
+* [Add the Delivery Pipeline service](add_pipeline)
+* [Access your app from the Rational Team Concert client for Eclipse](#use_rtc)
+* [Deliver your first change](#first_change)
+* [Add a test failure](#test_failure)
+* [Fix the bug](fix_bug)
+
+
+Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM&reg; Bluemix&trade; DevOps Services, and the Rational&reg; Team Concert client for Eclipse. 
+
+<a name='before_begin'></a>
 ##Before you begin
 
 1. Make sure that your IBM id is registered with Bluemix. 
 2. Log in to Bluemix DevOps Services by using your IBM id.
 
+<a name='fork_app'></a>
 ##Get your app
 
 To get your app, you fork a sample project named WordCounter. WordCounter uses Jazz&trade; source control management (SCM) and contains a manifest for deploying to Bluemix. You can load the project directly in the Rational Team Concert client for Eclipse. To explore the project before you fork it,  [see the WordCounter project page](https://hub.jazz.net/project/pskhadke/WordCounter/overview).
@@ -28,6 +43,7 @@ You get a new project, a new project name, and a copy of the code from the sampl
 You're ready to build and deploy.
 
 ---
+<a name='deploy_app'></a>
 ##Deploy your app
 
 1. Go to the deployment page by clicking **BUILD & DEPLOY**. 
@@ -65,6 +81,7 @@ To track charges, after you deploy your first build, add the Delivery Pipeline s
 ![Application](/tutorials/jazzrtc/images/app.png "Application")
 
 ---
+<a name='add_pipeline'></a>
 ##Add the Delivery Pipeline service
 
 Add the Delivery Pipeline service to the app so that you can use several of the build and deployment capabilities later.  
@@ -81,6 +98,7 @@ Add the Delivery Pipeline service to the app so that you can use several of the 
 The Delivery Pipeline service is added to your Bluemix space. 
 
 ---
+<a name='use_rtc'></a>
 ##Access your app from the Rational Team Concert client for Eclipse
 
 From the Rational Team Concert client for Eclipse, connect to your running app. 
@@ -94,6 +112,7 @@ From the Rational Team Concert client for Eclipse, connect to your running app.
 3. In the Rational Team Concert client for Eclipse, connect to your project and load the code. For detailed instructions, [see Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access Bluemix DevOps Services](/tutorials/clients#working_with_a_jazz_scm_project).				
 
 ---
+<a name='first_change'></a>
 ##Deliver your first change
 
 When you're in the Rational Team Concert client for Eclipse, change your code then verify that the change is shown in the running app.
@@ -119,6 +138,7 @@ When you're in the Rational Team Concert client for Eclipse, change your code th
 ![Application](/tutorials/jazzrtc/images/app2.png "Application") 
 
 ---
+<a name='test_failure'></a>
 ##Add a test failure
 
 To see what happens when the build fails, add a failure to the JUnit tests. 
@@ -136,6 +156,7 @@ To see what happens when the build fails, add a failure to the JUnit tests.
 ![Click Build](/tutorials/jazzrtc/images/build_log.png "Click Build")
 
 ---
+<a name='fix_bug'></a>
 ##Fix the bug
 
 1. Revert the code in `WordCounterFinderTest.java` to its previous state and deliver the change.
