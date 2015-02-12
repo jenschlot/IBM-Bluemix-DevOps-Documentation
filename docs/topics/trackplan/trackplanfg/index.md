@@ -1,4 +1,4 @@
-[Back to Track and Plan](../)
+[Back to Track & Plan](../)
 
 #Explore the Track &amp; Plan feature
 

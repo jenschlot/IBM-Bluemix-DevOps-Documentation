@@ -68,7 +68,7 @@
 ### Reference: [Git reference](/docs/reference/git)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  git
 
-### Reference: [Build and Deploy reference](/docs/reference/deploy)
+### Reference: [Build & Deploy reference](/docs/reference/deploy)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, pipeline
 
 ### Reference: [Explore the Track & Plan  feature](/docs/trackplan/trackplanfg)
