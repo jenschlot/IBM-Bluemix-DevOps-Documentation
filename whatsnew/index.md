@@ -222,7 +222,7 @@ To quickly differentiate between work item priority, severity, and status, use t
 ---
 ### September 12, 2014
 
-## Build and Deploy to IBM Bluemix
+## Build and deploy to IBM Bluemix
 
 ###Multistage deployment
 
