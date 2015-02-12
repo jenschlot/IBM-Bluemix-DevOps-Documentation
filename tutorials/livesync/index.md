@@ -55,15 +55,39 @@ Next, create a Git repository that's hosted by Bluemix DevOps Services and assoc
 
 1. On your app's Overview page, click **ADD GIT**.
 2. On the Create Git Repository Page, confirm that the check box is selected. Click **CONTINUE**.
-3. Once the repository is successfully initialized, click **CLOSE**. 
+3. When the repository is successfully initialized, click **CLOSE**. 
 
 Your app instance is now associated with a DevOps Services project and Git Repository.
 
 <a name='edit_ide'></a>
 ##Make a change to the app using the Web IDE and Live Sync
 
+Launch configurations define the settings that will be used by the Web IDE to deploy your app to Bluemix. By default, DevOps Services deploys to the Bluemix app it was associated with at creation. Because you want to test your changes before commiting to them, create a new launch configuration.
+
+1. On your app's Overview page, click **EDIT CODE**. The Web IDE opens. 
+2. Click the dropdown menu next in the run bar and click **+**. 
+3. On the Edit Launch Configuration menu, append an indication that this is a test version of your app app, like `-live`, to the app's name and host. Give the new launch configuration a name.
+4. Click **SAVE**. 
+
+You created a launch configuration that will allow you to perform Live Sync editing of your app. 
+
+Redeploying to Bluemix for every little change wastes valuable development time. Next, enable Live Sync's Live Edit mode in the DevOps Services Web IDE to quickly make and preview changes to your app.
+
+1. Click the dropdown menu in the run bar and select your new launch configuration. 
+2. Click the **Live Edit** button. The code in your workspace is deployed to Bluemix according to the new launch configuration.
+3. When deployment finishes, the phrase "running debug" appears next to your launch configuration in the run bar.
+4. In the run bar, click **Open URL**. The Live Sync app appears in a new browser window.
+
+Make a change to the Starter app to see Live Sync in action:
+
+1. In the Web IDE project view, open the **public** folder. Under **stylesheets**, open **style.css**.
+2. On the `h1` rule set, increase the font-size to `4em`. Add the declaration `color: #00aed1`. 
+3. Switch to the 
+
 <a name='edit_local'></a>
 ##Make a change to the app on your workstation using Live Sync
+
+
 
 <a name='summary'></a>
 ##Summary
