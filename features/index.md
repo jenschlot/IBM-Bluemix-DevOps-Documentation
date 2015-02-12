@@ -22,7 +22,7 @@ Click **Edit Code** to get started!
 
 ## Integrated source code editor
 
-The web IDE provides smart features where you can do these tasks:
+The Web IDE provides smart features where you can do these tasks:
 
 * Import your source code.
 

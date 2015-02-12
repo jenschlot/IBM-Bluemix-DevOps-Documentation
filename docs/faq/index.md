@@ -56,7 +56,7 @@ Yes. When you create a project, select the option for GitHub and enter your GitH
 
 You can track and plan the work you'll store in your GitHub repository from Bluemix DevOps Services. To configure GitHub to update your work items when you push your changes, navigate to your project and click the **configure GitHub** link on the left side of the page.
 
-You can also edit the code that is stored in your GitHub repository by using the web IDE. When you want to start coding, navigate to your project and click **Edit Code** at the top of the page. Your GitHub repository is automatically cloned for you, and your files are shown in the navigation pane. You can create and edit files. After you save your changes, select **Activities \> Git Status**. On the page that opens, you can stage, commit, and push your changes.
+You can also edit the code that is stored in your GitHub repository by using the Web IDE. When you want to start coding, navigate to your project and click **Edit Code** at the top of the page. Your GitHub repository is automatically cloned for you, and your files are shown in the navigation pane. You can create and edit files. After you save your changes, select **Activities \> Git Status**. On the page that opens, you can stage, commit, and push your changes.
 
 <a name="q5"></a>
 

@@ -51,6 +51,10 @@ app.get(['/help/faq'], function(req, res){
   res.redirect('/docs/faq');
 });
 
+app.get(['/help'], function(req, res){
+	  res.redirect('/support');
+	});
+
 app.get(['/learn/cost'], function(req, res){
 	res.redirect('/pricing');
 });

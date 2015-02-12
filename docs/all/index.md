@@ -27,19 +27,19 @@
 ### Tutorial: [Getting Started with Bluemix and Bluemix DevOps Services using Node.js](/tutorials/jazzeditor)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, nodejs, git, web_ide, pipeline, cloud_foundry
 
-### Tutorial: [Getting Started with IBM Bluemix and IBM Bluemix DevOps Services using Java](/tutorials/jazzeditorjava)
+### Tutorial: [Getting Started with Bluemix and Bluemix DevOps Services using Java](/tutorials/jazzeditorjava)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, git, web_ide, pipeline
 
-### Tutorial: [Getting started with tracking and planning in IBM Bluemix DevOps Services](/tutorials/trackplan)
+### Tutorial: [Getting started with tracking and planning in Bluemix DevOps Services](/tutorials/trackplan)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> track_and_plan
 
-### Tutorial: [Developing with Git in the IBM Bluemix DevOps Services web IDE](/tutorials/gitweb)
+### Tutorial: [Developing with Git in the Bluemix DevOps Services Web IDE](/tutorials/gitweb)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> git, web_ide
 
 ### Tutorial: [Developing Bluemix applications in Node.js with the Web IDE](/tutorials/jazzweb)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, nodejs, web_ide, git, pipeline, manifest
 
-### Tutorial: [Developing IBM Bluemix applications in Java with Eclipse and IBM Bluemix DevOps Services](/tutorials/jazzrtc)
+### Tutorial: [Developing Bluemix applications in Java with Eclipse and IBM Bluemix DevOps Services](/tutorials/jazzrtc)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, eclipse, jazz_scm, pipeline, rtc
 
 <a id="ref"></a>
@@ -49,19 +49,19 @@
 ## Reference
 
 
-### Reference: [Configure IBM Bluemix billing for IBM Bluemix DevOps Services](/docs/reference/billing)
+### Reference: [Configure Bluemix billing for Bluemix DevOps Services](/docs/reference/billing)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, cost
 
-### Reference: [Start a project in IBM Bluemix DevOps Services](/docs/reference/startproject)
+### Reference: [Start a project in Bluemix DevOps Services](/docs/reference/startproject)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  projects
 
-### Reference: [Administer a  project in IBM Bluemix DevOps Services](/docs/reference/projectadmin)
+### Reference: [Administer a  project in Bluemix DevOps Services](/docs/reference/projectadmin)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  projects
 
-### Reference: [Work locally with IBM Bluemix DevOps Services projects and Git source control](/docs/reference/gitclient)
+### Reference: [Work locally with Bluemix DevOps Services projects and Git source control](/docs/reference/gitclient)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  git
 
-### Reference: [Work locally with IBM Bluemix DevOps Services projects and Jazz source control](/docs/reference/jazz_scm_client)
+### Reference: [Work locally with Bluemix DevOps Services projects and Jazz source control](/docs/reference/jazz_scm_client)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  jazz_scm
 
 
@@ -244,7 +244,7 @@ Last updated: 3 July 2014 <img src="../all/images/tag.png"  align="bottom" style
 ### Video: [Dan Berg demonstrates the IBM DevOps Services and Bluemix integration (7:25 min)](https://www.youtube.com/watch?v=EHng3L2JScU)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
 Last updated: 30 June 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, track_and_plan, MQA, web_ide, pipeline, nodejs
 
-### Video: [Introducing IBM DevOps Services and how it integrates with Blueix (3:14 min)](https://www.youtube.com/watch?v=b2mM_Wwp_4c) <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
+### Video: [Introducing IBM DevOps Services and how it integrates with Bluemix (3:14 min)](https://www.youtube.com/watch?v=b2mM_Wwp_4c) <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
 Last updated: 30 June 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix
 
 ### Video: [The ShelterBox App (2:05 min)](http://www.youtube.com/watch?v=E1qXvrEh0nU)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">

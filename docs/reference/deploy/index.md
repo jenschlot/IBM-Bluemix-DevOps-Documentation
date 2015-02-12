@@ -14,7 +14,7 @@ The Bluemix DevOps Services Build & Deploy feature, also known as Pipeline, auto
 * [Bluemix and the Delivery Pipeline service](#service)
 * [Logging](#logs)
 
-##[Deployment using the web IDE](#manual)
+##[Deployment using the Web IDE](#manual)
 * [The Run Bar](#runbar)
 
 ---
@@ -78,15 +78,15 @@ In addition to logs, you can view unit test results, generated artifacts, and co
 
 ---
 <a name="manual"></a>
-##Deployment from the web IDE
+##Deployment from the Web IDE
 
-While you're working in the directory that contains your `manifest.yml` file, you can deploy whatever is in the web IDE workspace to Bluemix by clicking the **Play** icon on the Run Bar. 
+While you're working in the directory that contains your `manifest.yml` file, you can deploy whatever is in the Web IDE workspace to Bluemix by clicking the **Play** icon on the Run Bar. 
 
-**Remember:** By clicking the **Play** icon in the Run Bar, you deploy the current state of your code in the web IDE. To deploy the code that is checked in to the repository, use Pipeline.
+**Remember:** By clicking the **Play** icon in the Run Bar, you deploy the current state of your code in the Web IDE. To deploy the code that is checked in to the repository, use Pipeline.
 
-You can configure web IDE deployment and Build & Deploy's Pipeline to use different app names. Then, you can use the web IDE deployment for a personal test environment and Pipeline for a team integration environment. The web IDE saves deployment launch configurations; you can access them from the menu on the Run bar. 
+You can configure Web IDE deployment and Build & Deploy's Pipeline to use different app names. Then, you can use the Web IDE deployment for a personal test environment and Pipeline for a team integration environment. The Web IDE saves deployment launch configurations; you can access them from the menu on the Run bar. 
 
-Whether you are using command-line tools or the web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment by using Pipeline so that you can control what is being pushed. By using automatic deployment, you know that the code that is running in the app matches a known state in the repository. In contrast, the web IDE deploys whatever is in your working directory when you push.
+Whether you are using command-line tools or the Web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment by using Pipeline so that you can control what is being pushed. By using automatic deployment, you know that the code that is running in the app matches a known state in the repository. In contrast, the Web IDE deploys whatever is in your working directory when you push.
 
 
 <a name="runbar"></a>

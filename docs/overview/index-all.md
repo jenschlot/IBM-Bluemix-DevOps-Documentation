@@ -10,7 +10,7 @@ IBM DevOps Services provides these capabilities:
 * Agile planning, through the Track & Plan service 
 <!-- <image of quick planner>  -->
 
-* A web IDE for editing and managing source control 
+* A Web IDE for editing and managing source control 
 <!-- <image of web ide>  -->
 
 * Source control management (SCM), through Git, Jazz SCM, or GitHub 
@@ -87,7 +87,7 @@ Invite anyone to your project. All you need is an email address.
 See which projects are trending. Get involved by joining someone else's project, or invite others in to help you with yours. Explore projects.
 
 ### Decide how you code
-Code in the web IDE, which is based on Eclipse Orion technology, or in the Rational Team Concert client for Eclipse or Visual Studio. Connect code to project plans and review in your browser.  Edit any text file or script from your browser. If your project contains JavaScript, HTML, CSS, Ruby or PHP code, the web IDE is likely all you need to make changes.
+Code in the Web IDE, which is based on Eclipse Orion technology, or in the Rational Team Concert client for Eclipse or Visual Studio. Connect code to project plans and review in your browser.  Edit any text file or script from your browser. If your project contains JavaScript, HTML, CSS, Ruby or PHP code, the Web IDE is likely all you need to make changes.
 
 ### Use your favorite client
 Eclipse and .NET developers: Connect your projects to source code in Rational Team Concert client for Eclipse or Visual Studio.

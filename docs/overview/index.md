@@ -10,7 +10,7 @@ IBM Bluemix DevOps Services provides these capabilities:
 * Agile planning, through the Track & Plan service 
 <!-- <image of quick planner>  -->
 
-* A web IDE for editing and managing source control 
+* A Web IDE for editing and managing source control 
 <!-- <image of web ide>  -->
 
 * Source control management (SCM), through Git, Jazz SCM, or GitHub 

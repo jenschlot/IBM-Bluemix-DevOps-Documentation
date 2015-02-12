@@ -1,8 +1,8 @@
-#Developing with Git in the IBM Bluemix DevOps Services web IDE
+#Developing with Git in the Bluemix DevOps Services Web IDE
 
 Last modified: 12 February 2015
 
-If you want to learn more about managing your Git repository, an open source code management system, with the IBM® Bluemix&trade; DevOps Services web IDE, complete this tutorial. The tutorial doesn't cover all of the possible Git commands in the DevOps Services web IDE, but you can practice creating a change on a separate branch, testing the change, and adding the change to the master branch. If you need help with specific commands, [see the Git reference](/../docs/reference/git).  If you want to try to work locally by using the command line, [see Work locally with IBM DevOps Services projects and Git source control](../../docs/reference/gitclient).
+If you want to learn more about managing your Git repository, an open source code management system, with the IBM® Bluemix&trade; DevOps Services Web IDE, complete this tutorial. The tutorial doesn't cover all of the possible Git commands in the DevOps Services Web IDE, but you can practice creating a change on a separate branch, testing the change, and adding the change to the master branch. If you need help with specific commands, [see the Git reference](/../docs/reference/git).  If you want to try to work locally by using the command line, [see Work locally with IBM DevOps Services projects and Git source control](../../docs/reference/gitclient).
 
 ---
 ## Contents
@@ -61,7 +61,7 @@ When you work with many people or want to test different ideas, a common practic
 <a name='deploy_a_new_bluemix_app'></a>
 ##Deploy a new Bluemix app
 
-To see the changes that you make to your code, create a Bluemix app and deploy the changes to the app. To create an app from within the Bluemix DevOps Services web IDE, you edit the manifest.yml file to direct deployments to a different Bluemix app.
+To see the changes that you make to your code, create a Bluemix app and deploy the changes to the app. To create an app from within the Bluemix DevOps Services Web IDE, you edit the manifest.yml file to direct deployments to a different Bluemix app.
 
 1. To view your code, click the **Show Current Folder** icon <img src="images/showcurrentfolder.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">.
 
@@ -163,7 +163,7 @@ To rebase, you must compare the contents of one branch to another by modifying t
 <a name='summary'></a>
 ##Summary
 
-You forked a project and manually deployed to a Bluemix app. You made a branch, completed changes to your code in the web IDE, and committed your changes. You also combined contents of branches.
+You forked a project and manually deployed to a Bluemix app. You made a branch, completed changes to your code in the Web IDE, and committed your changes. You also combined contents of branches.
 
 
 [1]: images/manifest.png
