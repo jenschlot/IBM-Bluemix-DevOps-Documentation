@@ -223,13 +223,13 @@
 				<div class="topic-container">
 					<a class="topic-section" href="/docs/build_deploy">
 						<div class="topic-img col-center"><span class="build_deploy"></span></div>
-						<div class="topic-name col-center">Build and Deploy</div>
+						<div class="topic-name col-center">Build & Deploy</div>
 					</a>
 				</div>
 				<div class="topic-container">
 					<a class="topic-section" href="/docs/trackplan">
 						<div class="topic-img col-center"><span class="trackplan"></span></div>
-						<div class="topic-name col-center">Track and Plan</div>
+						<div class="topic-name col-center">Track & Plan</div>
 					</a>
 				</div>
 				<div class="topic-container">

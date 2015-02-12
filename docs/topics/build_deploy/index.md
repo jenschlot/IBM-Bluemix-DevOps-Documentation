@@ -11,7 +11,7 @@
 ### Tutorial: [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, eclipse, jazz_scm, pipeline, rtc
 
-### Reference: [Build and Deploy reference](/docs/reference/deploy)
+### Reference: [Build & Deploy reference](/docs/reference/deploy)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, pipeline
 
 ### Article: [Quick guide to deploying code from IBM BluemixDevOps Services to Bluemix](http://www.ibm.com/developerworks/cloud/library/cl-autodeploy/index.html) <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
