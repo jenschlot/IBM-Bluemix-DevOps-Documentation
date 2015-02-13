@@ -75,6 +75,6 @@ If you want to use only the traditional planning feature, which uses simplte tas
 
 7. If you wrote code for your app, push your code to your project's repository.
 
-[1]: images/projectname.png
-[2]: images/newprojectwindow.png
+[1]: images/restyle_projectname.png
+[2]: images/restyle_newprojectwindow.png
 [3]: https://ace.ng.bluemix.net/
