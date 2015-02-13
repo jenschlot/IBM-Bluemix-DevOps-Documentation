@@ -157,7 +157,7 @@ To rebase, you must compare the contents of one branch to another by modifying t
 
 1. Click **master** to compare the contents of your local copy of the master branch and the remote copy of the master branch. 
 
-1. Confirm that the commit that you made on the testbranch branch is visible under OUTGOING.
+1. Confirm that the commit that you originally made on the testbranch branch is visible under OUTGOING.
 
 1. Click **PUSH**. Your commit moves to the HISTORY panel.
 
