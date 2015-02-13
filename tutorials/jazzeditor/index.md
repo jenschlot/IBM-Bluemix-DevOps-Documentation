@@ -1,6 +1,6 @@
 #Getting Started with Bluemix and Bluemix DevOps Services using Node.js
 
-Last modified: 11 February 2015
+Last modified: 13 February 2015
 
 ## Contents
 * [Create an application with IBM Bluemix](#create_bluemix_app)
@@ -70,10 +70,8 @@ You created a Git repository, populated it with the example code, and deployed t
 ![CODE button](/tutorials/jazzeditor/images/bm-code-button_NEW.png)
 Your new project opens in the Web IDE. The project page contains useful information that you can review later. 
 
-4. To check the status of the application, click **BUILD & DEPLOY**.
+4. To check the status of the application, review the Run bar and click the **Open application** icon.
 ![Web IDE](/tutorials/jazzeditor/images/orion_NEW.png)
-
-You can then open your running app by clicking its URL.
 
 ---
 <a name='push_to_git'></a>
