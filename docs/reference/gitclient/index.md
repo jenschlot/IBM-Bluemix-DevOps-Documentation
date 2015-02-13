@@ -1,4 +1,4 @@
-#Work locally with  Bluemix DevOps Services projects and Git source control
+#Setting up local clients to work with Git source control 
 
 Last modified: 3 February 2015
 

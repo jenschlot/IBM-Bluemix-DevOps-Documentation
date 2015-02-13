@@ -339,11 +339,11 @@
 					"uri_prefix": "/docs/reference/startproject"
 				},
 				{
-					"title": "Managing projects locally with Git clients",
+					"title": "Setting up local clients to work with Git ",
 					"uri_prefix": "/docs/reference/gitclient"
 				},
 				{
-					"title": "Managing projects locally with Jazz SCM",
+					"title": "Setting up local Eclipse clients to work with Jazz SCM ",
 					"uri_prefix": "/docs/reference/jazz_scm_client"
 				},
 				{

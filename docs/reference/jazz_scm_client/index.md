@@ -1,4 +1,4 @@
-# Work locally with Bluemix DevOps Services projects and Jazz source control
+# Setting up local Eclipse clients to work with Jazz source control
 
 Last modified: 3 February 2015
 
