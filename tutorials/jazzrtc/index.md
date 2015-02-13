@@ -1,11 +1,11 @@
 #Developing Bluemix applications in Java with Eclipse and Bluemix DevOps Services
 
-Last modified: 11 February 2015
+Last modified: 13 February 2015
 
 Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM&reg; Bluemix&trade; DevOps Services, and the Rational&reg; Team Concert client for Eclipse. 
 
 ## Contents
-* [before you begin](#before_begin)
+* [Before you begin](#before_begin)
 * [Get your app (fork)](#fork_app)
 * [Deploy your app](deploy_app)
 * [Add the Delivery Pipeline service](add_pipeline)
@@ -13,9 +13,6 @@ Follow the steps in this tutorial to develop a Java&trade; application by using 
 * [Deliver your first change](#first_change)
 * [Add a test failure](#test_failure)
 * [Fix the bug](fix_bug)
-
-
-Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM&reg; Bluemix&trade; DevOps Services, and the Rational&reg; Team Concert client for Eclipse. 
 
 <a name='before_begin'></a>
 ##Before you begin
