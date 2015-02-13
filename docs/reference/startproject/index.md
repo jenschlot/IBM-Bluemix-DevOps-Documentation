@@ -36,7 +36,7 @@ You can start an IBM&reg; Bluemix&trade; DevOps Services project in three ways. 
 6. If you want to use all of the Track & Plan features, including the ability to create sprints from the project backlog of work items, select the **Add features for Scrum development** check box.  
 If you want to use only the traditional planning feature, which uses simplte tasks and iterations without a backlog, clear the check box.
 
-7. To deploy the project code to Bluemix, select the **Deploy to Bluemix** check box.  
+7. To deploy the project code to Bluemix, select the **Make this a Bluemix Project** check box.  
 **Important**: Building and deploying apps can result in charges to your Bluemix billing account. For more information about pricing, [see the Bluemix pricing page](https://ace.ng.bluemix.net/#/pricing).
 
 8. Click **CREATE**.  
@@ -55,7 +55,7 @@ If you want to use only the traditional planning feature, which uses simplte tas
 4. In the window that opens, type your project name, review the contents of the window, and specify options as needed. For more information about the options, [see Starting a Bluemix DevOps Services project](#starting_a_devops_services_project).
 ![Options while forking project][2]
 
-5. Click **Save**.
+5. Click **CREATE**.
 
 ---
 <a name='creating_a_devops_services_project_for_your_bluemix_app'></a>
