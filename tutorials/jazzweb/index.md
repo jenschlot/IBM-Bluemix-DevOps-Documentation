@@ -15,7 +15,7 @@ In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an applica
 * [Automatic deployment](#automatic_deployment)
 
 ---
-<a name='fork'></a>
+
 ##Start by using a sample project
 
 Start with the sample project, [Sentiment Analysis App][2]. This app is a hosted Node.js Git project. You need your own copy of the project, which you can get by forking the project.
@@ -24,7 +24,7 @@ On the sample project's Overview page, click **FORK PROJECT**.
 
 ![Fork button][3]
 
-Enter a name for your fork of the Sentiment Analysis app, and make sure that the **Deploy to Bluemix** check box is selected. You can use the default settings for the other options. When you click **CREATE**, a fork of the sample Git repository is created.
+Enter a name for your fork of the Sentiment Analysis app, and make sure that the **Make this a Bluemix Project** check box is selected. You can use the default settings for the other options. When you click **CREATE**, a fork of the sample Git repository is created.
 
 ![Fork new project][4]
 
