@@ -45,6 +45,13 @@
 	],
 	"resource": [
 		{
+			"uri_prefix": "/docs/dvt",
+			"section_name": "Docs",
+			"topic_name": "Instructions for DVT",
+			"img_icon": "overview",
+			"directory": "docs/readme-for-dvt"
+		},	
+		{
 			"uri_prefix": "/docs/overview",
 			"section_name": "Docs",
 			"topic_name": "Overview",
