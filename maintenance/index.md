@@ -14,7 +14,7 @@ The duration of these outage windows is variable depending upon what needs to be
 | 02/07/2015 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
 | 02/10/2015 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
 | 02/12/2015 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
-| 02/14/2015 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
+| 02/14/2015 | Saturday | CANCELLED           |CANCELLED |
 | 02/17/2015 | Tuesday  | 9:00 - 10:00PM EDT  | 1 hour   |
 | 02/19/2015 | Thursday | 9:00 - 10:00PM EDT  | 1 hour   |
 | 02/21/2015 | Saturday | 7:00 - 08:00AM EDT  | 1 hour   |
