@@ -29,7 +29,7 @@ Last modified: 12 February 2015
 - Talk about how you can check in to Git from either desktop or CLI
 -->
 
-If you are building a Node.js app, you can use Bluemix™ Live Sync to quickly update the app instance on Bluemix and develop as you would on the desktop without redeploying. Bluemix Live Sync works from both the command line and in the web IDE. For an app written in Node.js or Java™, you can also [use Bluemix Live Sync to debug the app][2].
+If you are building a Node.js app, you can use Bluemix™ Live Sync to quickly update the app instance on Bluemix and develop as you would on the desktop without redeploying. Bluemix Live Sync works from both the command line and in the web IDE. [Learn more about Live Sync here][4]. For an app written in Node.js or Java™, you can also [use Bluemix Live Sync to debug the app][2].
 
 In this tutorial, you deploy a Node.js app from a Bluemix Starter. Then, you update the app using Bluemix DevOps Services and Bluemix Live Sync. By using Live Sync, you immediately see the impact of your changes on the running Bluemix application without waiting for redeployment.
 
@@ -158,3 +158,4 @@ You edited a Node.js project both in the cloud and locally, using Bluemix Live S
 [1]: http://livesync.mybluemix.net/downloads/blive_setup.msi
 [2]: https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html#bluemixlivedebugger
 [3]: https://console.ng.bluemix.net/
+[4]: https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html
