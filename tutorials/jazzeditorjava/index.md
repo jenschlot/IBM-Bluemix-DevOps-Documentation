@@ -1,6 +1,6 @@
 #Getting Started with Bluemix and Bluemix DevOps Services using Java
 
-Last modified: 11 February 2015
+Last modified: 13 February 2015
 
 ## Contents
 * [Create an application with IBM Bluemix](#create_bluemix_app)
@@ -78,10 +78,7 @@ Before you move to Bluemix DevOps Services, enable the Delivery Pipeline service
 
 The Delivery Pipeline service is added to your Bluemix space. It will be ready when you need it later.
 
----
-##Build and deploy using Bluemix DevOps Services
-
-To see the app's code or configure how it deploys, use Bluemix DevOps Services. 
+To see the app's code or configure how it deploys, use Bluemix DevOps Services. Click **EDIT CODE**.
 
 ![CODE button][15]
 
