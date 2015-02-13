@@ -9,7 +9,7 @@ Last modified: 13 February 2015
 * [Push changes to the Git repository by using the Web IDE](#push_with_web_ide)
 * [Deployment using the Web IDE](#deployments)
 * [Summary](#summary)
-
+ 
 <a name='create_bluemix_app'></a>
 ##Create an application with IBM Bluemix
 
