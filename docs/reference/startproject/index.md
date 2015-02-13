@@ -1,6 +1,6 @@
 # Start a project in Bluemix DevOps Services 
 
-Last modified: 10 February 2015
+Last modified: 13 February 2015
 
 You can start an IBM&reg; Bluemix&trade; DevOps Services project in three ways. If you want to start by using new code or an existing Git repository, [create a project](#starting_a_devops_services_project). If you want to start from a copy of the code in a Bluemix DevOps Services project, [fork the code](#forking_a_devops_services_project).  You can also [create a Bluemix DevOps Services project from an IBM&reg; Bluemix&trade; app](#creating_a_devops_services_project_for_your_bluemix_app).
 
@@ -75,6 +75,6 @@ If you want to use only the traditional planning feature, which uses simplte tas
 
 7. If you wrote code for your app, push your code to your project's repository.
 
-[1]: images/projectname.png
-[2]: images/newprojectwindow.png
+[1]: images/restyle_projectname.png
+[2]: images/restyle_newprojectwindow.png
 [3]: https://ace.ng.bluemix.net/
