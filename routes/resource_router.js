@@ -10,7 +10,6 @@ var renderResource = function(req, res, next, headerContent) {
 	var sidebarLinks = require("../config.json").sidebarLinks;
 	var headerStyling;
 
-
 	if (config) {
 		headerStyling = config.compositionServiceStylingEndpoint;
 	}
@@ -36,6 +35,7 @@ module.exports =  function (env, section_name, resource_name, img_icon, uri_pref
 	var static_in_dir_middleware = express.static(directory);
 	var less_in_public_middleware = require('less-middleware')(path.join(__dirname, '..', 'public'));
 	var static_in_public_middleware = express.static(path.join(__dirname, '..', 'public'));
+	var _GUEST_USER_ID = "jazzhubguest";
 
 	var chain = [
 		markdown_middleware.file,
@@ -54,7 +54,13 @@ module.exports =  function (env, section_name, resource_name, img_icon, uri_pref
 			if (!req.rendered_markdown)
 				return next();
 			
-			var navbarSelection = ((req.resourcename === 'Support') ? 'navbar.entry.help.support' : 'navbar.entry.help.docs');
+			
+			var navbarSelection = 'navbar.entry.help.docs';
+			if(req.resourcename === 'Support') {
+				navbarSelection = 'navbar.entry.help.support';
+			} else if((req.resourcename === 'Features') && (res.locals.user.userId === _GUEST_USER_ID)) {
+				navbarSelection = 'navbar.entry.features';
+			}
 
 			var args = {
 				"selection": navbarSelection,
