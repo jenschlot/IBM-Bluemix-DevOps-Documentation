@@ -1,5 +1,5 @@
 
-# Getting started with tracking and planning in IBM Bluemix DevOps Services
+# Getting started with tracking and planning in Bluemix DevOps Services
 
 Last modified: 11 February 2015
 
