@@ -1,3 +1,5 @@
+# Features
+
 Last modified: 09 December 2014
 
 ## Easy to find What's New
@@ -20,7 +22,7 @@ Click **Edit Code** to get started!
 
 ## Integrated source code editor
 
-The web IDE provides smart features where you can do these tasks:
+The Web IDE provides smart features where you can do these tasks:
 
 * Import your source code.
 
@@ -54,9 +56,9 @@ can configure more advanced build options to be deployed automatically.
 To learn more about configuring and using the various build and deploy capabilities,
 see these resources:
 
-* [Tutorial: Getting Started with Bluemix and DevOps Services using Node.js](/tutorials/jazzeditor)
-* [Tutorial: Getting Started with Bluemix and DevOps Services using Java](/tutorials/jazzeditorjava)
-* [Reference information on Build and Deploy](/docs/reference/deploy)
+* [Tutorial: Getting Started with Bluemix and Bluemix DevOps Services using Node.js](/tutorials/jazzeditor)
+* [Tutorial: Getting Started with Bluemix and Bluemix DevOps Services using Java](/tutorials/jazzeditorjava)
+* [Reference information on Build & Deploy](/docs/reference/deploy)
 
 
 ![Automatic build of source code](/features/images/automatic-build-source-code.png)
@@ -76,7 +78,7 @@ browser. And, don't worry, your favorite Git client is supported too.
 ## Connect with your GitHub repository
 			
 It's easy to link work items with GitHub code changes: use your existing 
-tools to code, and manage your project with DevOps Services.  You 
+tools to code, and manage your project with  DevOps Services.  You 
 can reference a work item in the GitHub comments before you push 
 code changes, and the work item is updated with the new commit information.
 
@@ -84,11 +86,11 @@ code changes, and the work item is updated with the new commit information.
 
 ## Your work in one place
 
-It's My Stuff. Get a quick view of the projects you own, belong	to, and
+It's My Projects. Get a quick view of the projects you own, belong	to, and
  like. See project invitations and requests too. Just another way 
 to help you stay organized.
 
-![My Stuff](/features/images/MyStuff.png)																		 
+![My Projects](/features/images/MyStuff.png)																		 
 
 ## Built-in source code management						
 

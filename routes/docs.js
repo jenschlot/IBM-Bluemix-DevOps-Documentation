@@ -1,9 +1,9 @@
 var nconf = require('nconf');
 var NavbarClient = require("../lib/clients/navbar-client.js");
 
-
 var renderDocsLanding = function(req, res, next, headerContent) {
 	var config = require("../config").get("config");
+	var sidebarLinks = require("../config.json").sidebarLinks;
 	var headerStyling;
 
 	if (config) {
@@ -11,11 +11,12 @@ var renderDocsLanding = function(req, res, next, headerContent) {
 	}
 
 	res.render('docs_landing', {
-		'sectionname': 'Docs',
-		navbarSelection: 'docs',
+		sectionname: 'Docs',
 		headerContent: headerContent,
-		headerStyling: headerStyling
-	});	
+		headerStyling: headerStyling,
+		sidebarLinks: sidebarLinks,
+		sidebarSelection: '/docs'
+	});
 }
 
 
@@ -25,6 +26,7 @@ module.exports = function (req, res, next) {
 		"selection": "navbar.entry.help.docs",
 		"userid": res.locals.user.userId,
 		"username": res.locals.user.name,
+		"ibmId": res.locals.user.ibmId
 	};
 
 	NavbarClient.getNavbar(args, req, function (error, content) {

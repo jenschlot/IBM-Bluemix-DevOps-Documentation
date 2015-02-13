@@ -7,7 +7,7 @@ jazzhubdocs
 DESCRIPTION
 -----------
 
-Docs for the IBM DevOps Services cloud development environment.
+Docs for the IBM Bluemix DevOps Services cloud development environment.
 
 
 MAINTAINING

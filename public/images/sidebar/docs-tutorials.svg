@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 21.429703 21.453478"
+   enable-background="new 0 0 792 1224"
+   xml:space="preserve"
+   inkscape:version="0.48.5 r10040"
+   width="100%"
+   height="100%"
+   sodipodi:docname="docs-tutorials.svg"><metadata
+   id="metadata3032"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs3030" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="708"
+   inkscape:window-height="480"
+   id="namedview3028"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="4.3628026"
+   inkscape:cx="20.326746"
+   inkscape:cy="18.88097"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="g3018"
+   transform="translate(-387.2,-611.74652)"
+   style="fill:#86898c;fill-opacity:1">
+	<g
+   id="g3020"
+   style="fill:#86898c;fill-opacity:1">
+		
+			<rect
+   x="403.89999"
+   y="611.90002"
+   transform="matrix(0.7071,-0.7071,0.7071,0.7071,-316.0771,466.791)"
+   width="3"
+   height="6.0999999"
+   id="rect3022"
+   style="fill:#86898c;fill-opacity:1" />
+		<path
+   d="m 390,626 4.3,4.3 10.7,-10.7 -4.3,-4.3 L 390,626 z m 4.3,2.3 -2.3,-2.3 8.7,-8.7 2.3,2.3 -8.7,8.7 z"
+   id="path3024"
+   inkscape:connector-curvature="0"
+   style="fill:#86898c;fill-opacity:1" />
+		<polygon
+   points="387.2,633.2 390.7,631.8 388.6,629.6 "
+   id="polygon3026"
+   style="fill:#86898c;fill-opacity:1" />
+	</g>
+</g>
+</svg>

@@ -1,6 +1,7 @@
-Last modified: 12 December 2014
+# Glossary
+Last modified: 3 February 2015
 
-This glossary provides terms and definitions for the IBM&reg; DevOps Services features.
+This glossary provides terms and definitions for the IBM&reg; Bluemix&trade; DevOps Services features.
 
 The following cross-references are used in this glossary: 
 * *See* refers you from a nonpreferred term to the preferred term or from an abbreviation to the spelled-out form. 
@@ -30,6 +31,10 @@ A development work item that tracks when changes by one team must be adopted by 
 **agile software development (agile)**  
 A software development methodology that focuses on collaboration and quality to produce 
 complete product increments at regular intervals, called iterations or sprints.
+
+<a name="alias"></a>
+**alias**  
+A unique, publicly visible short name used in Git repository paths, Track & Plan, and desktop and command line clients. If you have an existing Jazz ID, that is used as your alias.
 
 <a name="app"></a>
 **app**  
@@ -419,7 +424,7 @@ required to install and run a web application in a single file.
 
 <a name="Web_IDE"></a>
 **Web IDE**  
-In IBM DevOps Services, a browser-based IDE for web and cloud development that is built 
+In IBM Bluemix DevOps Services, a browser-based IDE for web and cloud development that is built 
 on the open source Orion platform from Eclipse.
 
 <a name="work_item"></a>

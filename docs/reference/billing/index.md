@@ -1,7 +1,8 @@
-#Configure IBM Bluemix billing for IBM DevOps Services
+#Configure Bluemix billing for Bluemix DevOps Services
+
 Last modified: 14 January 2015
 
-All IBM&reg; DevOps Services Bluemix&trade; projects include an allowance of free services. If you exceed your allowances, your work is interrupted. To avoid interruptions, set up a Bluemix billing account and configure your services. By configuring your Bluemix account, you also get advanced features for monitoring your builds, deployments, and status of your projects. 
+All IBM&reg;  Bluemix&trade; DevOps Services projects include an allowance of free services. If you exceed your allowances, your work is interrupted. To avoid interruptions, set up a Bluemix billing account and configure your services. By configuring your Bluemix account, you also get advanced features for monitoring your builds, deployments, and status of your projects. 
 
 If you plan to use the Delivery Pipeline (Build & Deploy) and Track & Plan services beyond the free allowance, configure both services. Each service requires a separate billing configuration. 
 
@@ -44,9 +45,9 @@ Before you set up your billing account, determine what the best plan for your pr
 **Important:** The person who is responsible for setting up the billing account might not be the same person who is most affected by build and deployment failures and blocked access to Track & Plan pages. If you are not the person who sets up the account, ask your Bluemix billing manager to enable your billing account early.
 
 To set up your billing account, complete these steps: 
-1. Go to your Bluemix dashboard and select the space that is listed in your DevOps Services project settings. 
+1. Go to your Bluemix dashboard and select the space that is listed in your Bluemix DevOps Services project settings. 
 2. Click **Services**, and from the DevOps section, select either **Delivery Pipeline** or **Track & Plan**.
-3. Make sure that the space that corresponds to your DevOps Services Bluemix project is selected.
+3. Make sure that the space that corresponds to your Bluemix DevOps Services Bluemix project is selected.
 4. Choose a billing plan.  
 5. Click **Create.**
 
@@ -67,5 +68,5 @@ To see your usage details, click **Profile Settings (<img src="./images/bm-profi
 ---
 ##Billing terminology
 
-Several terms pertain to billing; for example, *application instance* and *application user*. For an explanation of billing terminology, [see the IBM DevOps Services Terms of Use](https://hub.jazz.net/terms).
+Several terms pertain to billing; for example, *application instance* and *application user*. For an explanation of billing terminology, [see the IBM Bluemix DevOps Services Terms of Use](https://hub.jazz.net/terms).
 

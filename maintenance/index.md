@@ -1,6 +1,6 @@
-# IBM DevOps Services Maintenance Schedule
+# IBM Bluemix DevOps Services Maintenance Schedule
 
-As we continue to improve IBM DevOps Services, we will occasionally be required to do site maintenance during which time some or all of our services will be temporarily unavailable.
+As we continue to improve IBM Bluemix DevOps Services, we will occasionally be required to do site maintenance during which time some or all of our services will be temporarily unavailable.
 
 The duration of these outage windows is variable depending upon what needs to be done,  however for planning purposes the schedule below represents the maximum outage time expected during a given window.
 

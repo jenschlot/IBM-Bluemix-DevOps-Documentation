@@ -7,6 +7,7 @@ var NavbarClient = require('../lib/clients/navbar-client.js');
 var renderResource = function(req, res, next, headerContent) {
 
 	var config = require("../config").get("config");
+	var sidebarLinks = require("../config.json").sidebarLinks;
 	var headerStyling;
 
 	if (config) {
@@ -21,17 +22,20 @@ var renderResource = function(req, res, next, headerContent) {
 			resourcename: req.resourcename,
 			imgicon: req.imgicon,
 			headerContent: headerContent,
-			headerStyling: headerStyling
+			headerStyling: headerStyling,
+			sidebarLinks: sidebarLinks,
+			sidebarSelection: req.uriprefix
 		}
 	);
 }
 
-module.exports =  function (env, section_name, resource_name, img_icon, directory) {
+module.exports =  function (env, section_name, resource_name, img_icon, uri_prefix, directory) {
 	var router = express.Router();
 	var markdown_middleware = require('jazzhub-markdown-middleware')(directory);
 	var static_in_dir_middleware = express.static(directory);
 	var less_in_public_middleware = require('less-middleware')(path.join(__dirname, '..', 'public'));
 	var static_in_public_middleware = express.static(path.join(__dirname, '..', 'public'));
+	var _GUEST_USER_ID = "jazzhubguest";
 
 	var chain = [
 		markdown_middleware.file,
@@ -40,6 +44,7 @@ module.exports =  function (env, section_name, resource_name, img_icon, director
 			req.sectionname = section_name;
 			req.resourcename = resource_name;
 			req.imgicon = img_icon;
+			req.uriprefix = uri_prefix;
 			next();
 		},
 		less_in_public_middleware,
@@ -49,12 +54,19 @@ module.exports =  function (env, section_name, resource_name, img_icon, director
 			if (!req.rendered_markdown)
 				return next();
 			
-			var navbarSelection = ((req.resourcename === 'Support') ? 'navbar.entry.help.support' : 'navbar.entry.help.docs');
+			
+			var navbarSelection = 'navbar.entry.help.docs';
+			if(req.resourcename === 'Support') {
+				navbarSelection = 'navbar.entry.help.support';
+			} else if((req.resourcename === 'Features') && (res.locals.user.userId === _GUEST_USER_ID)) {
+				navbarSelection = 'navbar.entry.features';
+			}
 
 			var args = {
 				"selection": navbarSelection,
 				"userid": res.locals.user.userId,
 				"username": res.locals.user.name,
+				"ibmId": res.locals.user.ibmId
 			};
 
 			NavbarClient.getNavbar(args, req, function (error, content) {

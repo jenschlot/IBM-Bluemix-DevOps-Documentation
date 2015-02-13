@@ -1,8 +1,8 @@
-#Work locally with IBM DevOps Services projects and Git source control
+#Setting up local clients to work with Git source control 
 
-Last modified: 9 January 2015
+Last modified: 3 February 2015
 
-If you use a Git repository for your IBM&reg; DevOps Services project, you can manage your repository and work locally or by using the integrated web IDE in DevOps Services. If you install Git, you can use the [command line to manage your repository](#command_line_git). If you work in Eclipse, you can install the EGit plug-in for version control.  For more information, [see using EGit in Eclipse](#eclipse_using_egit).
+If you use a Git repository for your IBM&reg; Bluemix&trade; DevOps Services project, you can manage your repository and work locally or by using the integrated Web IDE in Bluemix DevOps Services. If you install Git, you can use the [command line to manage your repository](#command_line_git). If you work in Eclipse, you can install the EGit plug-in for version control.  For more information, [see using EGit in Eclipse](#eclipse_using_egit).
 
 If you use the Track & Plan feature to manage your project plans and work items, and if you install the the Rational Team Concert plug-in, you can access your project locally from Eclipse.
 
@@ -13,10 +13,10 @@ If you use the Track & Plan feature to manage your project plans and work items,
   * [Clone your Git project from the command line](#clone_your_git_project_from_the_command_line)
  * [Access your repository by using Eclipse and the EGit plug-in](#eclipse_using_egit)
   * [Install the EGit Eclipse plug-in](#install_the_egit_eclipse_plugin)
-  * [Connect to your DevOps Services project by using EGit](#connect_to_your_devops_services_project_with_egit)
+  * [Connect to your Bluemix DevOps Services project by using EGit](#connect_to_your_devops_services_project_with_egit)
  * [Access your work items by using Eclipse and the Rational Team Concert plug-in](#eclipse_using_rtc)
   * [Install the Rational Team Concert plug-in](#install_eclipse_and_the_rational_team_concert_plugin)
-  * [Connect to your DevOps Services project from Eclipse](#connect_to_your_devops_service_projects_from_eclipse)
+  * [Connect to your Bluemix DevOps Services project from Eclipse](#connect_to_your_devops_service_projects_from_eclipse)
 
 
 ---
@@ -31,7 +31,7 @@ If you know how to use the command line with Git, you can use this method to man
 ### Clone your Git project from the command line
 
 
-Create a local copy of the project files by cloning the Git repository so that you can access the contents of your repository outside the web IDE. 
+Create a local copy of the project files by cloning the Git repository so that you can access the contents of your repository outside the Web IDE. 
 
 **Before you begin**
 
@@ -39,7 +39,7 @@ Check whether Git is installed. On a command line, enter `git version`. If Git i
 
 **Clone your project**
 
-1. Sign in to [DevOps Services](https://hub.jazz.net/)
+1. Sign in to [Bluemix DevOps Services](https://hub.jazz.net/)
 
 2. Navigate to your project page.
 
@@ -49,7 +49,7 @@ Check whether Git is installed. On a command line, enter `git version`. If Git i
 
 4. Change the directory to where you want the local copy of the Git repository to be.
 
-5. Type `git clone`, paste the Git URL, and press Enter. When prompted, enter your Jazz ID and IBM id password.
+5. Type `git clone`, paste the Git URL, and press Enter. When prompted, enter your alias and IBM id password.
 
 After the download is complete, you have a local repository of the files for your project. For more information about using Git,  [see the Git documentation](http://git-scm.com/doc).
 
@@ -69,7 +69,7 @@ If you use Eclipse and have a project that uses Git for source control, you can 
 * If you use Eclipse 4.2.2 or later, complete these steps. If you use an earlier version of Eclipse, [see the EGit/FAQs for instructions](http://wiki.eclipse.org/EGit/FAQ#Where_can_I_find_older_releases_of_EGit.3F).  
 * If you do not have Eclipse installed and want tools for Java development, [download and install the Java EE IDE for Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2).  
 * If you do not have Java 1.7 installed, [download and install the Java SE Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
-* Check whether the EGit plug-in is already installed. In Eclipse, click **Window > Show View > Other** and type `git` as the filter text. If you see a list of Git views, skip ahead to [Connect to your DevOps Services Project with EGit](#connect_to_your_devops_services_project_with_egit)
+* Check whether the EGit plug-in is already installed. In Eclipse, click **Window > Show View > Other** and type `git` as the filter text. If you see a list of Git views, skip ahead to [Connect to your Bluemix DevOps Services Project with EGit](#connect_to_your_devops_services_project_with_egit)
 
 **Install the plug-in**
 1. In Eclipse, click **Help > Install New Software**
@@ -87,11 +87,11 @@ If you use Eclipse and have a project that uses Git for source control, you can 
 
 ---
 <a name='connect_to_your_devops_services_project_with_egit'></a>
-### Connect to your DevOps Services project by using EGit
+### Connect to your Bluemix DevOps Services project by using EGit
 
 1. In Eclipse, click **Window > Preferences > General > Workspaces**. In the Text file encoding pane, click **Other** and from the list, select **UTF-8**.
 
-1. In [DevOps Services](https://hub.jazz.net/), browse to your project page. 
+1. In [Bluemix DevOps Services](https://hub.jazz.net/), browse to your project page. 
 
 2. Copy the **Git URL** from the right side of the page.
 
@@ -103,7 +103,7 @@ If you use Eclipse and have a project that uses Git for source control, you can 
 
 6. In the **URI** field, paste the Git URL.
 
-6. In the **Authentication** section, enter your Jazz ID and IBM id password, and click **Next**.
+6. In the **Authentication** section, enter your alias and IBM id password, and click **Next**.
 
 7. Select the branches to work on and click **Next**.
 
@@ -151,7 +151,7 @@ If you use Eclipse, you can use the Rational Team Concert plug-in to access your
 
 ---
 <a name='connect_to_your_devops_service_projects_from_eclipse'></a>
-### Connect to your DevOps Services project from Eclipse
+### Connect to your Bluemix DevOps Services project from Eclipse
 
 
 1. In Eclipse, click **Window > Show View > Other > Team Artifacts**.
@@ -160,11 +160,11 @@ If you use Eclipse, you can use the Rational Team Concert plug-in to access your
 
  ![Manage JazzHub Projects button within the Team Artifacts View](./images/jazzhubfeature.png)
 
-3. In the **Manage JazzHub Projects** window, enter your Jazz ID and IBM id password to sign in to DevOps Services, and click **Next**
+3. In the **Manage JazzHub Projects** window, enter your alias and IBM id password to sign in to Bluemix DevOps Services, and click **Next**
 
-4. Select the DevOps Services projects to connect to and click **Finish**.
+4. Select the Bluemix DevOps Services projects to connect to and click **Finish**.
 
 
-[18]: https://developer.ibm.com/answers/questions/?community=devops-services (DevOps Services forum)
+[18]: https://developer.ibm.com/answers/questions/?community=devops-services (Bluemix DevOps Services forum)
 [19]: mailto:hub%40jazz.net
 [20]: /docs

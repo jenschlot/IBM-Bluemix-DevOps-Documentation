@@ -23,6 +23,12 @@
 		},
 		{
 			"routeName": "/whatsnew"
+		},
+		{
+			"routeName": "/learn"
+		},
+		{
+			"routeName": "/pricing"
 		}
 	],
 	"content": [
@@ -38,6 +44,13 @@
 		}
 	],
 	"resource": [
+		{
+			"uri_prefix": "/docs/overview",
+			"section_name": "Docs",
+			"topic_name": "Overview",
+			"img_icon": "overview",
+			"directory": "docs/overview"
+		},
 		{
 			"uri_prefix": "/whatsnew",
 			"section_name": "Docs",
@@ -58,14 +71,6 @@
 			"resource_name": "FAQ",
 			"img_icon": "faq",
 			"directory": "docs/faq"
-			
-		},
-				{
-			"uri_prefix": "/help/contactus",
-			"section_name": "Docs",
-			"resource_name": "Contact us",
-			"img_icon": "support",
-			"directory": "help/contactus"
 			
 		},
 		{
@@ -96,7 +101,7 @@
 		{
 			"uri_prefix": "/docs/reference/deploy",
 			"section_name": "Quick Reference",
-			"parent_name": "Build and Deploy",
+			"parent_name": "Build & Deploy",
 			"parent_uri": "/docs/build_deploy",
 			"resource_name": "Reference",
 			"img_icon": "ref-qr",
@@ -163,7 +168,6 @@
 			"img_icon": "academics",
 			"directory": "docs/topics/academics"
 		},
-
 		{
 			"uri_prefix": "/docs/account",
 			"section_name": "Docs",
@@ -171,7 +175,6 @@
 			"img_icon": "account",
 			"directory": "docs/topics/account"
 		},
-
 		{
 			"uri_prefix": "/docs/bluemix",
 			"section_name": "Docs",
@@ -182,7 +185,7 @@
 		{
 			"uri_prefix": "/docs/build_deploy",
 			"section_name": "Docs",
-			"topic_name": "Build and Deploy",
+			"topic_name": "Build & Deploy",
 			"img_icon": "build_deploy",
 			"directory": "docs/topics/build_deploy"
 		},
@@ -237,15 +240,15 @@
 		},
 		{
 			"uri_prefix": "/docs/trackplanfg",
-			"section_name": "Track and Plan",
-			"topic_name": "Track and Plan Features",
+			"section_name": "Track & Plan",
+			"topic_name": "Track & Plan Features",
 			"img_icon": "trackplan",
 			"directory": "docs/topics/trackplan/trackplanfg"
 		},
 		{
 			"uri_prefix": "/docs/trackplan",
 			"section_name": "Docs",
-			"topic_name": "Track and Plan",
+			"topic_name": "Track & Plan",
 			"img_icon": "trackplan",
 			"directory": "docs/topics/trackplan"
 		},
@@ -262,6 +265,213 @@
 			"topic_name": "Hackathons",
 			"img_icon": "hackathons",
 			"directory": "docs/topics/hackathons"
+		}
+	],
+	"sidebarLinks": [
+		{
+			"title": "Docs",
+			"icon": "docs-general.svg",
+			"uri_prefix": "/docs"
+		},
+		{
+			"title": "Overview",
+			"icon": "docs-overview.svg",
+			"uri_prefix": "/docs/overview"
+		},
+		{
+			"title": "Pricing",
+			"icon": "docs-pricing.svg",
+			"uri_prefix": "/pricing"
+		},
+		{
+			"title": "Features",
+			"icon": "docs-features.svg",
+			"uri_prefix": "/features"
+		},
+		{
+			"title": "What's new",
+			"icon": "docs-whatsnew.svg",
+			"uri_prefix": "/whatsnew"
+		},
+		{
+			"title": "FAQ",
+			"icon": "docs-faq.svg",
+			"uri_prefix": "/docs/faq"
+		},
+		{
+			"title": "Tutorials",
+			"icon": "docs-tutorials.svg",
+			"uri_prefix": "/docs/all#tut",
+			"children": [
+				{
+					"title": "Get started with Node.js",
+					"uri_prefix": "/tutorials/jazzeditor"
+				},
+				{
+					"title": "Get started with Java",
+					"uri_prefix": "/tutorials/jazzeditorjava"
+				},
+				{
+					"title": "Develop with Git in the Web IDE",
+					"uri_prefix": "/tutorials/gitweb"
+				},
+				{
+					"title": "Develop with Node.js in the Web IDE",
+					"uri_prefix": "/tutorials/jazzweb"
+				},
+				{
+					"title": "Develop with Java in the Eclipse IDE",
+					"uri_prefix": "/tutorials/jazzrtc"
+				},
+				{
+					"title": "Get started with Track & Plan",
+					"uri_prefix": "/tutorials/trackplan"
+				}
+			]
+		},
+		{
+			"title": "Tasks",
+			"icon": "docs-tasks.svg",
+			"uri_prefix": "/docs/all#ref",
+			"children": [
+				{
+					"title": "Starting a project",
+					"uri_prefix": "/docs/reference/startproject"
+				},
+				{
+					"title": "Setting up local clients to work with Git ",
+					"uri_prefix": "/docs/reference/gitclient"
+				},
+				{
+					"title": "Setting up local Eclipse clients to work with Jazz SCM ",
+					"uri_prefix": "/docs/reference/jazz_scm_client"
+				},
+				{
+					"title": "Administering a project",
+					"uri_prefix": "/docs/reference/projectadmin"
+				},
+				{
+					"title": "Configuring billing for Bluemix",
+					"uri_prefix": "/docs/reference/billing"
+				}
+			]
+		},
+		{
+			"title": "Reference",
+			"icon": "docs-reference.svg",
+			"uri_prefix": "/docs/all#ref",
+			"children": [
+				{
+					"title": "Git",
+					"uri_prefix": "/docs/reference/git"
+				},
+				{
+					"title": "Build & Deploy",
+					"uri_prefix": "/docs/reference/deploy"
+				},
+				{
+					"title": "Track & Plan",
+					"uri_prefix": "/docs/trackplan/trackplanfg"
+				}
+			]
+		},
+		{
+			"title": "Resources by topic",
+			"icon": "docs-resources-by-topic.png",
+			"uri_prefix": "/docs#topics",
+			"children": [
+				{
+					"title": "Node.js",
+					"uri_prefix": "/docs/nodejs"
+				},
+				{
+					"title": "Java",
+					"uri_prefix": "/docs/java"
+				},
+				{
+					"title": "Python",
+					"uri_prefix": "/docs/python"
+				},
+				{
+					"title": "MongoDB",
+					"uri_prefix": "/docs/mongodb"
+				},
+				{
+					"title": "Mobile",
+					"uri_prefix": "/docs/mobile"
+				},
+				{
+					"title": "Git Source Control Management",
+					"uri_prefix": "/docs/git"
+				},
+				{
+					"title": "Jazz Source Control Management",
+					"uri_prefix": "/docs/jazz_scm"
+				},
+				{
+					"title": "Track & Plan",
+					"uri_prefix": "/docs/trackplan"
+				},
+				{
+					"title": "Bluemix",
+					"uri_prefix": "/docs/bluemix"
+				},
+				{
+					"title": "Build & Deploy",
+					"uri_prefix": "/docs/build_deploy"
+				},
+				{
+					"title": "Account Management",
+					"uri_prefix": "/docs/account"
+				},
+				{
+					"title": "Eclipse",
+					"uri_prefix": "/docs/eclipse"
+				},
+				{
+					"title": "Academics",
+					"uri_prefix": "/docs/academics"
+				},
+				{
+					"title": "Hackathons",
+					"uri_prefix": "/docs/hackathons"
+				}
+			]
+		},
+		{
+			"title": "Articles",
+			"icon": "docs-articles.svg",
+			"uri_prefix": "/docs/all#articles"
+		},
+		{
+			"title": "Blogs",
+			"icon": "docs-blogs.svg",
+			"uri_prefix": "/docs/all#blogs"
+		},
+		{
+			"title": "Samples",
+			"icon": "docs-samples.svg",
+			"uri_prefix": "/docs/all#samples"
+		},
+		{
+			"title": "Videos",
+			"icon": "docs-videos.svg",
+			"uri_prefix": "/docs/all#videos"
+		},
+		{
+			"title": "Workshops",
+			"icon": "docs-workshops.svg",
+			"uri_prefix": "/docs/all#workshops"
+		},
+		{
+			"title": "Glossary",
+			"icon": "docs-glossary.png",
+			"uri_prefix": "/docs/glossary"
+		},
+		{
+			"title": "Support",
+			"icon": "docs-support.png",
+			"uri_prefix": "/support"
 		}
 	]
 

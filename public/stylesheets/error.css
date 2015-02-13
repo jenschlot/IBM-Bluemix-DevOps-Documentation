@@ -1,0 +1,46 @@
+a {
+	color: #00aed1;
+}
+
+#message,
+#tagline,
+#advice
+{
+	font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	text-shadow: #3B4B54 0 2px;
+	text-align: center;
+}
+
+#message {
+	font-size: 40px;
+}
+
+#tagline,
+#advice {
+	font-size: 20px;
+}
+
+#advice {
+	margin-top: 8px;
+}
+
+#container {
+	color: #DFE6EB;
+	position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        -o-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+}
+
+#bluemix-logo {
+	position: absolute;
+	width: 191px;
+	height: 191px;
+	opacity: 0.35;
+	left: 22%;
+	bottom: 110%;
+}

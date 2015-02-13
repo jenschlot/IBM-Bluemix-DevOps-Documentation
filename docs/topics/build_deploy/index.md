@@ -1,20 +1,20 @@
-### Tutorial: [Getting Started with BlueMix and DevOps Services using Node.js](/tutorials/jazzeditor)  
+### Tutorial: [Getting Started with Bluemix and Bluemix DevOps Services using Node.js](/tutorials/jazzeditor)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, nodejs, git, webide, pipeline, cloud_foundry
 
 
-### Tutorial: [Getting Started with IBM Bluemix and IBM DevOps Services using Java](/tutorials/jazzeditorjava)
+### Tutorial: [Getting Started with Bluemix and Bluemix DevOps Services using Java](/tutorials/jazzeditorjava)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, git, webide, pipeline
 
-### Tutorial: [Developing BlueMix applications in Node.js with the Web IDE](/tutorials/jazzweb)
+### Tutorial: [Developing Bluemix applications in Node.js with the Web IDE](/tutorials/jazzweb)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, nodejs, webide, git, pipeline, manifest
 
-### Tutorial: [Developing IBM Bluemix applications in Java with Eclipse and IBM DevOps Services](/tutorials/jazzrtc)
+### Tutorial: [Developing Bluemix applications in Java with Eclipse and DevOps Services](/tutorials/jazzrtc)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, eclipse, jazz_scm, pipeline, rtc
 
-### Reference: [Build and Deploy reference](/docs/reference/deploy)
+### Reference: [Build & Deploy reference](/docs/reference/deploy)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, pipeline
 
-### Article: [Quick guide to deploying code from IBM DevOps Services to Bluemix](http://www.ibm.com/developerworks/cloud/library/cl-autodeploy/index.html) <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
+### Article: [Quick guide to deploying code from IBM BluemixDevOps Services to Bluemix](http://www.ibm.com/developerworks/cloud/library/cl-autodeploy/index.html) <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
 Last updated: 09 December 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, webide, git, pipeline, fork
 
 ### Article: [Set up an agile team environment to build an Ionic app](http://www.ibm.com/developerworks/mobile/library/mo-ionic-framework-app/index.html) <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
@@ -66,7 +66,7 @@ Last updated: 16 October 2014 <img src="../all/images/tag.png"  align="bottom" s
 ### Video: [Accelerate your innovation with Bluemix (1:00 hr)](https://www.youtube.com/watch?v=fL7Fvo9FeKM)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
 Last updated: 22 September 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, git, eclipse, pipeline, track_and_plan
 
-### Video: [IBM Codename: BlueMix DevOps Services for Rapid Software Delivery (Cloud Foundry Summit 2014) (5:14 min)](https://www.youtube.com/watch?v=fkHSYJJ6KVs)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
+### Video: [IBM Codename: Bluemix DevOps Services for Rapid Software Delivery (Cloud Foundry Summit 2014) (5:14 min)](https://www.youtube.com/watch?v=fkHSYJJ6KVs)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
 Last updated: 3 July 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, cloud_foundry, pipeline, track_and_plan
 
 ### Video: [Dan Berg demonstrates the IBM DevOps Services and Bluemix integration (7:25 min)](https://www.youtube.com/watch?v=EHng3L2JScU)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">

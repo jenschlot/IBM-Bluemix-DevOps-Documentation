@@ -1,0 +1,21 @@
+
+<div class='item
+            {@eq key=uri_prefix value=sidebarSelection} selected {/eq}
+            {?children} has-children {/children}'>
+	<a href="{uri_prefix}">
+		{?icon}
+			<img class="sidebar-icon" src="/tutorials/images/sidebar/{icon}" />
+		{:else}
+			<img class="sidebar-icon-missing" />
+		{/icon}
+		<p class="sidebar-element-title">{title}</p>
+		{?children}
+		<span class="sidebar-right-arrow">
+			<span class="arrow"></span>
+		</span>
+		{/children}
+	</a>
+	{#children}
+		{>"common/sidebar_element":. sidebarSelection=sidebarSelection /}
+	{/children}
+</div>
