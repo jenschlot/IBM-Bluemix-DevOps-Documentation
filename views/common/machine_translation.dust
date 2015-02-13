@@ -3,6 +3,6 @@
 	<label for="ietran_ui_langselect" class="translate_label">
 		Translate this page (machine translation):&nbsp;&nbsp;
 	</label>
-	<script src='https://rtts.ihe.ibm.com/transwidget/tw.jsp?app=ibm-devops-services.doc&from=en_us&sl=1&disclaimer=1&ubl&=1&style=minimal&hov_display=1&removable=CODE,B,I,U,STRONG,EM'></script>
+	<script src='https://rtts.ihe.ibm.com/transwidget/tw.jsp?app=ibm-devops-services.doc&hov_display=1&from=en_us&sl=1&ubl&=1&style=minimal&removable=CODE,B,I,U,STRONG,EM'></script>
 	<!-- end of the source code of the customized embedded Transwidget -->		
 </div>	
