@@ -23,23 +23,23 @@ After you register, [learn more about Bluemix at IBM Bluemix Docs][53].
 
 If you prefer to try things rather than read about them, try this tutorial. You can set up and run a sample app in minutes.
 
-[Sign in to Bluemix][1]. The dashboard opens:
+[Sign in to Bluemix][1] to start working!
 
 ![Bluemix Dashboard][6]
 
-The dashboard shows an overview of the active Bluemix space for your organization. By default, the space is `dev` and the organization is the project creator's user name. For example, if `sara@example.com` signs in to Bluemix for the first time, the active space is `dev` and their organization is `sara@example.com`.
+The dashboard shows an overview of the active Bluemix space for your organization. By default, the space is `dev` and the organization is the project creator's user name. For example, if `sara@example.com` signs in to Bluemix for the first time, the active space is `dev` and the organization is `sara@example.com`.
 
-If you create extra organizations or spaces in Bluemix, be sure to use the same ones as you follow these tutorials. Use the default selections.
+If you create other organizations or spaces in Bluemix, be sure to use the default selections as you follow the tutorial. 
 
-Click **CREATE AN APP**, then select **WEB**. Select the Liberty from Java Starter, then click **CONTINUE**: 
+Click **CREATE AN APP**, then select **WEB**. On the next page, select Liberty for Java, then click **CONTINUE**: 
 
 ![Bluemix Java Web Starter][7]
 
-Choose a name for your app:
+Choose a name for your app and click Finish.
 
 ![Naming a Bluemix app][54]
 
-In seconds, you'll a Java web server application instance running on Bluemix:
+In seconds, you'll have a Java web server application instance running on Bluemix:
 
 ![The new app's Bluemix dashboard][55]
 
@@ -47,7 +47,7 @@ If you click the route on the application dashboard, you can access the running 
 
 ![A running web application][10]
 
-Although it's great that the application is running, it's not interesting as it is. You will push updates to it.  
+Although it's great that the application is running, it's not interesting as it is. You will need topush updates to it.  
 
 You can work with your application code in many ways. For example, with auto-deploy, you can modify the code that runs in your app by pushing the changes to a Git repository. The mechanism that implements auto-deploy is provided by the IBM® Bluemix™ DevOps Services, but more about that later.
 
@@ -92,7 +92,7 @@ Click **BUILD & DEPLOY**.
 
 ![Web IDE][16]
 
-A deployment of your sample app already started. When the app is running, it is available at the URL that is shown in the "Deploy to dev" stage. You can see the app’s overview on Bluemix by clicking the app name.
+A deployment of your sample app already started. When the app is running, it is available at the URL shown in the "Deploy" stage. You can see the app’s overview on Bluemix by clicking the app name.
 
 ![Bluemix DevOps Services autoconfigured Pipeline][17]
 
