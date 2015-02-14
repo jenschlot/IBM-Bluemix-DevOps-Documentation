@@ -172,11 +172,11 @@ You developed and deployed a Bluemix application by using the Web IDE.
 [10]: /tutorials/jazzweb/images/click2blue.png
 [11]: https://bluemix.net
 [12]: /tutorials/jazzweb/images/startappbluemix.png
-[13]: /tutorials/jazzweb/images/autocompletesearch.gif
+[13]: /tutorials/jazzweb/images/autocompletesearch.png
 [14]: /tutorials/jazzweb/images/staging.png
 [15]: /tutorials/jazzweb/images/commit.png
 [16]: /tutorials/jazzweb/images/pushing.png
-[17]: /tutorials/jazzweb/images/manifest.gif
+[17]: /tutorials/jazzweb/images/manifest.png
 [18]: /tutorials/jazzweb/images/manualdeploy.png
 [19]: /tutorials/jazzweb/images/updatedapp.png
 [20]: https://www.ibmdw.net/answers?community=jazzhub (forum)
