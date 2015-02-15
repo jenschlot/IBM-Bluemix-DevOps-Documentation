@@ -194,13 +194,21 @@ application was deployed again. Then, click the URL link that is next to "Deploy
 <a name='deployment'></a>
 ##Deployment using the Web IDE
 
-Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can deploy applications directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the Web IDE, you can deploy your code to Bluemix by using the Play button in the Run Bar. 
+###Run bar
 
-![Screenshot here of Run Bar][1]
+Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can deploy applications directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the Web IDE, you can deploy your code to Bluemix by using the Play button in the Run bar. 
 
-**Note**: Clicking the Play button in the Run Bar deploys the current state of the code in your Web IDE, whereas Pipeline deploys the code that is checked in to the repository.
+![Screenshot here of Run bar][1]
+
+**Note**: Clicking the Play button in the Run bar deploys the current state of the code in your Web IDE, whereas Pipeline deploys the code that is checked in to the repository.
 
 Both the command-line tools and the Web IDE are effective for rapid, solo development, but the Pipeline adds the security of controlling what is pushed, especially in team environments. With Pipeline, you always know that the code running in the application matches a known state in the repository, instead of whatever was in your working directory when you pushed changes.
+
+###Bluemix Live Sync
+
+With Node.js apps, you can make changes to markdown, HTML or CSS files and have those changes reflected in the deployed app without redeploying by using the Bluemix Live Sync feature. You can still edit code with Live Sync enabled, but you must click Restart to have those changes applied to the deployed app.
+
+![Run bar with Live Edit](/tutorials/jazzeditor/images/live_edit.png)
 
 ---
 <a name='summary'></a>
