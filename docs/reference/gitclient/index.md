@@ -17,6 +17,7 @@ If you use the Track & Plan feature to manage your project plans and work items,
  * [Access your work items by using Eclipse and the Rational Team Concert plug-in](#eclipse_using_rtc)
   * [Install the Rational Team Concert plug-in](#install_eclipse_and_the_rational_team_concert_plugin)
   * [Connect to your Bluemix DevOps Services project from Eclipse](#connect_to_your_devops_service_projects_from_eclipse)
+ * [Bluemix Live Sync](#livesync)
 
 
 ---
@@ -164,7 +165,12 @@ If you use Eclipse, you can use the Rational Team Concert plug-in to access your
 
 4. Select the Bluemix DevOps Services projects to connect to and click **Finish**.
 
+<a name='livesynct'></a>
+## Bluemix Live Sync
 
+With Node.js apps, you can make changes to Markdown, HTML, or CSS files and have those changes reflected in the deployed app without redeploying by using the Bluemix Live Sync feature. You can still edit code with Live Sync enabled, but you must restart the instance to have those changes applied to the deployed app. For more information about Live Sync, see [the Bluemix Live Sync documentation][1].
+
+[1]: https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html
 [18]: https://developer.ibm.com/answers/questions/?community=devops-services (Bluemix DevOps Services forum)
 [19]: mailto:hub%40jazz.net
 [20]: /docs
