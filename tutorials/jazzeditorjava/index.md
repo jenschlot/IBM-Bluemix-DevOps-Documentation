@@ -92,7 +92,12 @@ Click **BUILD & DEPLOY**.
 
 ![Web IDE][16]
 
-A deployment of your sample app already started. When the app is running, it is available at the URL shown in the "Deploy" stage. You can see the app’s overview on Bluemix by clicking the app name.
+Start your app by selecting the play icon in the build tile. 
+
+![Play button][57]
+
+This starts the build and automatically deploys your app. 
+When the app is running, it is available at the URL shown in the "Deploy" stage. You can see the app’s overview on Bluemix by clicking the app name.
 
 ![Bluemix DevOps Services autoconfigured Pipeline][17]
 
@@ -124,7 +129,7 @@ After a moment, the Pipeline page is refreshed and shows the information about y
 
 ![A configured Builder panel][46]
 
-Click the play icon at the top of the stage tile. After a moment, you have a successful build.
+Click the play icon at the top of the Build tile. After a moment, you have a successful build.
 
 ![A configured Builder panel with a successful build][47]
 
@@ -226,7 +231,7 @@ Return to the deployment page and click **EDIT CODE**. A complete online integra
 
 ![Orion at Bluemix DevOps Services][29]
 
-In this environment, you can edit files with syntax coloring support for multiple languages, including HTML, CSS, Java, JavaScript, Ruby, and Python. For some languages, such as JavaScript and CSS, the IDE also supports syntax checking and content assist, both for standard language constructs and for services that Bluemix provides. To use content assist, press Ctrl + Space. For example, this image shows code completion for the standard Node.js express module:
+In this environment, you can edit files with syntax coloring support for multiple programming languages, including HTML, CSS, Java, JavaScript, Ruby, and Python. For some languages, such as JavaScript and CSS, the IDE also supports syntax checking and content assist, both for standard language constructs and for services that Bluemix provides. To use content assist, press Ctrl + Space. For example, this image shows code completion for the standard Node.js express module:
 
 ![Orion showing express completions][30]
 
@@ -248,23 +253,19 @@ Edit the file in place.
 
 ![Orion editing index](/tutorials/jazzeditorjava/images/heyworld.png)
 
-Return to the Git page, then push the change by using the integrated Git support:
+Save your changes. Return to the Git page, then push the change by using the integrated Git support.
 
-![Orion git status menu](/tutorials/jazzeditorjava/images/orion-git-status.png)
+In the Working Directory tile, stage the change by selecting the files you want to commit to the master branch.
 
-Stage the change by selecting the check box next to it.
-
-![Orion git staging][33]
-
-Enter a commit message and then click **Commit**.
+Type a description of the change and click **Commit**.
 
 ![Orion git commit][34]
 
-Push the change to the `master` branch on the `origin` remote.
+Push the change from the local 'master' branch to the remote branch.
 
 ![Orion git push][35]
 
-This process is like the process you did on the command line, only with more clicks and less typing. To see that your app was updated, refresh your browser.
+You can use either the Web IDE or the command line to make changes to your app. To see the updates you just made, refresh your browser.
 
 ![Our really cool app][36]
 
@@ -273,11 +274,12 @@ This process is like the process you did on the command line, only with more cli
 ##Deployment using the Web IDE
 
 
-While you're working in the directory that contains your `manifest.yml file`, you can deploy whatever is in the Web IDE workspace to Bluemix by using the Play button in the Run Bar. Remember: When you deploy with the Run Bar, you deploy the current state of your code in the Web IDE. Build &amp; Deploy deploys from what is checked into the repository.
+While you're working in the directory that contains your `manifest.yml file`, you can deploy whatever is in the Web IDE workspace to Bluemix by clicking the Play icon in the Run Bar. Remember: When you deploy using the Run Bar, you deploy the current state of your code in the Web IDE. However, if you deploy using Build &amp; Deploy you deploy what is checked into the repository.
 
 ![The IDE Run Bar][56]
 
-You can configure Web IDE deployment and Build &amp; Deploy's Pipeline deployment to use different app names. Then, you can use the Web IDE deployment for a personal test environment and Pipeline deployment for a team integration environment. Web IDE deployment launch configurations are saved; you can access them via the dropdown menu in the Run Bar. 
+To set up a test environment, you can configure Web IDE deployment and Build &amp; Deploy's Pipeline deployment to use different app names. You can use Web IDE deployment for a personal test environment and Pipeline deployment for a team integration environment.  
+Web IDE deployment launch configurations are saved; you can access them via the dropdown menu in the Run Bar. 
 
 Whether you are using command-line tools or the Web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment so that you can control what is being pushed. By using automatic deployment via Pipeline, you know that the code that is running in the app matches a known state in the repository. In contrast, the Web IDE deploys whatever is in your working directory when you push.
 
@@ -287,7 +289,7 @@ Whether you are using command-line tools or the Web IDE, both methods are effect
 
 You saw how easy it is to create a Java web app on Bluemix and run that app. With a few clicks, you created a Git repo, loaded it with the sample code, and automatically deployed the app. You changed code and pushed it by using the Git command line. You then did the same thing entirely in your browser by using the Bluemix DevOps Services Web IDE. You configured automatic building and deployment, checked the status of the app deployment, and ran the app to verify your changes. 
 
-Hopefully, you learned how to get started with Bluemix and Bluemix DevOps Services by using Java. Lots of details were minimized, but you can find out more from the documentation links at the beginning of the tutorial.
+You learned how to get started with Bluemix and Bluemix DevOps Services by using Java. Lots of details were minimized, but you can find out more from the documentation links at the beginning of the tutorial.
 
 To learn more about configuring Eclipse or other desktop clients to work with your Git repository, [see Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][26].
 
@@ -309,7 +311,7 @@ To learn about how to integrate unit testing into your Bluemix DevOps Services p
    [14]: /tutorials/jazzeditorjava/images/bm-git-repo-success-msg.png 
    [15]: /tutorials/jazzeditorjava/images/bm-code-button.png 
    [16]: /tutorials/jazzeditorjava/images/webide.gif 
-   [17]: /tutorials/jazzeditorjava/images/simpledeploy.png 
+   [17]: /tutorials/jazzeditorjava/images/simpledeploy2.png
    [18]: /tutorials/jazzeditorjava/images/configbuilder.png 
    [19]: /tutorials/jazzeditorjava/images/deployer.png 
    [20]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with Bluemix DevOps Services)
@@ -349,3 +351,4 @@ To learn about how to integrate unit testing into your Bluemix DevOps Services p
    [54]: /tutorials/jazzeditorjava/images/bm-name-app.png
    [55]: /tutorials/jazzeditorjava/images/bm-web-starter.png
    [56]: /tutorials/jazzeditorjava/images/runbar_green.png
+   [57]: /tutorials/jazzeditorjava/images/playbutton.png
