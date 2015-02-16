@@ -15,7 +15,7 @@ In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an applica
 * [Automatic deployment](#automatic_deployment)
 
 ---
-
+<a name='fork'></a>
 ##Start by using a sample project
 
 Start with the sample project, [Sentiment Analysis App][2]. This app is a hosted Node.js Git project. You need your own copy of the project, which you can get by forking the project.
@@ -104,7 +104,7 @@ If you want a fully functional version of the app, you also must supply your own
 When you're finished, press Ctrl + S (or Command + S on a Mac) to make sure that everything is saved..
 
 ---
-
+<a name='push'></a>
 ##Push changes to the repository
 
 After you edit the `app.js` file, share the changed file with other members of your project by pushing the file to the repository. 
@@ -124,7 +124,7 @@ Commit your change to the Git repository for your project by entering a commit m
 Any changes that are delivered to your project trigger a build. When a build is completed successfully, it is automatically deployed. If you click **BUILD &amp; DEPLOY** again, you'll see that your change started a new build that, when it finishes, will be deployed.
 
 ---
-
+<a name='manifest'></a>
 ##The manifest file
 
 Deploying a Bluemix DevOps Services project from the Web IDE requires the project to have a `manifest.yml` file. This file contains important settings, such as the application instance name to use, the host machine, the services that the application uses, and more. The sample application already contains a manifest file, so you can leave it alone in this tutorial.
@@ -133,7 +133,7 @@ Deploying a Bluemix DevOps Services project from the Web IDE requires the projec
 
 
 ---
-
+<a name='deploy_from_web_ide'></a>
 ##Deploying from the Web IDE
 
 While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the Web IDE workspace to Bluemix by using the Play button in the Run Bar. Remember: When you deploy with the Run Bar, you deploy the current state of your code in the Web IDE. Build &amp; Deploy deploys from what is checked into the repository.
