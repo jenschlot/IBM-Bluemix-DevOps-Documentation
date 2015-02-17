@@ -67,7 +67,7 @@ If you use Eclipse and have a project that uses Git for source control, you can 
 **Before you begin**: 
 
 * If you use Eclipse 4.2.2 or later, complete these steps. If you use an earlier version of Eclipse, [see the EGit/FAQs for instructions](http://wiki.eclipse.org/EGit/FAQ#Where_can_I_find_older_releases_of_EGit.3F).  
-* If you do not have Eclipse installed and want tools for Java development, [download and install the Java EE IDE for Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2).  
+* If you do not have Eclipse installed and want tools for Java development, [download and install Eclipse IDE for Java EE Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2).  
 * If you do not have Java 1.7 installed, [download and install the Java SE Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
 * Check whether the EGit plug-in is already installed. In Eclipse, click **Window > Show View > Other** and type `git` as the filter text. If you see a list of Git views, skip ahead to [Connect to your Bluemix DevOps Services Project with EGit](#connect_to_your_devops_services_project_with_egit)
 

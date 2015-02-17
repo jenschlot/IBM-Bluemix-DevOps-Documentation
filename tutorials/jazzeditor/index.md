@@ -8,6 +8,7 @@ Last modified: 13 February 2015
 * [Push changes to the Git repository by using the command line](#push_to_git)
 * [Push changes to the Git repository by using the Web IDE](#push_with_web_ide)
 * [Deployment using the Web IDE](#deployments)
+* [Bluemix Live Sync](#bluemix_live_sync)
 * [Summary](#summary)
  
 <a name='create_bluemix_app'></a>
@@ -204,11 +205,13 @@ Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can d
 
 Both the command-line tools and the Web IDE are effective for rapid, solo development, but the Pipeline adds the security of controlling what is pushed, especially in team environments. With Pipeline, you always know that the code running in the application matches a known state in the repository, instead of whatever was in your working directory when you pushed changes.
 
+<a name='bluemix_live_sync'></a>
 ###Bluemix Live Sync
 
-With Node.js apps, you can make changes to markdown, HTML or CSS files and have those changes reflected in the deployed app without redeploying by using the Bluemix Live Sync feature. You can still edit code with Live Sync enabled, but you must click Restart to have those changes applied to the deployed app.
+With Bluemix Live Sync, you can work in Live Edit mode to quickly update an application while it runs on Bluemix. If you are building a Node.js application by using the Web IDE in Live Edit mode, your changes are propogated to your running application without redeployment. For more information, see 
+[Bluemix Live Sync](https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html#bluemixlive).
 
-![Run bar with Live Edit](/tutorials/jazzeditor/images/live_edit.png)
+![Run bar with Live Edit](images/live_edit.png)
 
 ---
 <a name='summary'></a>
