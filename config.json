@@ -103,7 +103,7 @@
 			"section_name": "Quick Reference",
 			"resource_name": "Reference",
 			"parent_name": "Track & Plan",
-			"parent_uri": "/docs/trckplan",
+			"parent_uri": "/docs/trackplan",
 			"img_icon": "ref-qr",
 			"directory": "docs/reference/trackplan"
 		},
