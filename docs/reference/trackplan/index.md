@@ -7,7 +7,7 @@ Last updated: 17 February 2015
 ###Searching for a work item
 You can search for a work item by an ID or a keyword. Results display below the search field as you type.
 
-![Search field](/docs/reference/trackplan/images/search.png)
+![Search field](images/search.png)
 
 ###Work item states
 - **Open**: Items that are not started and have the New status.
@@ -18,17 +18,17 @@ You can search for a work item by an ID or a keyword. Results display below the 
 ####List display
 Each work item spans the width of the section and can be expanded for more detail. Attributes are displayed as icons.
 
-![List display](/docs/reference/trackplan/images/list_view.png)
+![List display](images/list_view.png)
 
 ####Table display 
 Each work item displays in a condensed format. Some attributes are displayed in a textual format and are arranged into columns.
 
-![Table display](/docs/reference/trackplan/images/table_view.png)
+![Table display](images/table_view.png)
 
 ####Lane display
 Work items are grouped by states and attributes are displayed as icons. Two states are visible at one time. Scroll horizontally to view the third state.
 
-![Lane display](/docs/reference/trackplan/images/lane_view.png)
+![Lane display](images/lane_view.png)
 
 
 ###Filtering work items
@@ -63,7 +63,7 @@ Options for triaging work items in the Incoming work view:
 - Click the **Triage to backlog** icon to accept the work item and assign it to the backlog. Then the work item can be evaluated against other work items in the **Sprint planning** view and assigned to a specific sprint.
 - Open the work item and assign it to a specific sprint.
 
-![Triaging work items in the Incoming work view](/docs/reference/trackplan/images/incoming_work_attributes.png)
+![Triaging work items in the Incoming work view](images/incoming_work_attributes.png)
 
 
 
@@ -97,4 +97,4 @@ You can also use the **All work** view to review all of the work items by state.
 ##Creating work items
 Where you create the work item affects its settings. If you create a work item in the **My work** view, the work item is automatically owned by you. Set attributes when you create a work item by clicking the icons. You can also click the summary of a work item to open and edit work item attributes.
 
-![Assigning work item attributes](/docs/reference/trackplan/images/work_item_attributes.png)
+![Assigning work item attributes](images/work_item_attributes.png)
