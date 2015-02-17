@@ -1,18 +1,18 @@
 # Track & Plan
 
-Last updated: 16 February 2015
+Last updated: 17 February 2015
 
 ##Managing work items
 
 ###Searching for a work item
-You can search for work items by an ID or a keyword. Results display as you type under the search field.
+You can search for a work item by an ID or a keyword. Results display below the search field as you type.
 
 ![Search field](/docs/reference/trackplan/images/search.png)
 
-###Work item states:
-- Open: Items that are not started and have the New status.
-- In progress: Items that are started and have the In progress status.
-- Resolved: Items that are finished and have the Complete or Invalid status.
+###Work item states
+- **Open**: Items that are not started and have the New status.
+- **In progress**: Items that are started and have the In progress status.
+- **Resolved**: Items that are finished and have the Complete or Invalid status.
 
 ###Work item display options
 ####List display
@@ -31,9 +31,6 @@ Work items are grouped by states and attributes are displayed as icons. Two stat
 ![Lane display](/docs/reference/trackplan/images/lane_view.png)
 
 
-
-
-
 ###Filtering work items
 In the **My work**, **My subscribed**, **Incoming work**, **Backlog**, **Sprint planning**, **Team's work**, and **All work** views, you can filter work items based on keywords or on values for specific attribute types. If you type in a keyword, the work item summaries that contain that keyword will display. To filter work items based on values for specific attributes, refer to the following table.
 
@@ -49,7 +46,11 @@ In the **My work**, **My subscribed**, **Incoming work**, **Backlog**, **Sprint 
 
 ###Managing your work items
 
-Work items that you own can be reviewed in the **My work** view. To view a subset of your important work items, you can star them and view those work items in the **My starred** view. To view your work items sorted by their modified date, open the **My Recent Work** view.
+- To view work items that you own, you can see them in the **My work** view. 
+- To view a subset of your important work items, you can star them and see those work items in the **My starred** view. The star is only applied in your My starred view. The star will not display for anyone else subscribed to the work item. 
+- To view all of the work items that you are subscribed to, see the **My subscribed** view.
+- To view your work items sorted by their modified date, see the **My Recent Work** view.
+- To view a feed of your work item activity, see the **My activities** view. The **My Events** section includes a list of work items that you were mentioned in. The **My Subscriptions** section includes a list of all of the changes that occurred in work items that you are subscribed to.
 
 
 ###Managing work items for the project
