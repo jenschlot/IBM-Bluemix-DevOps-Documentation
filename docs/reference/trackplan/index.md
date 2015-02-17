@@ -4,26 +4,38 @@ Last updated: 16 February 2015
 
 ##Managing work items
 
+###Searching for a work item
+You can search for work items by an ID or a keyword. Results display as you type under the search field.
+
+![Search field](/docs/reference/trackplan/images/search.png)
 
 ###Work item states:
-- Open: Items that are not started
-- In progress: Items that are started
-- Resolved: Items that are finished
+- Open: Items that are not started and have the New status.
+- In progress: Items that are started and have the In progress status.
+- Resolved: Items that are finished and have the Complete or Invalid status.
 
 ###Work item display options
-- List display: Work items by type and includes lots of detail
-- Table display: Work items in a condensed format
-- Lane display: Work items grouped by state. Two states are visible at one time. Scroll horizontally to display the third state.
+####List display
+Each work item spans the width of the section and can be expanded for more detail. Attributes are displayed as icons.
 
-###Creating work items
-Where you create the work item affects its settings. If you create a work item in the **My work** view, the work item is automatically owned by you. Set attributes when you create a work item by clicking the icons. You can also click the summary of a work item to open and edit work item attributes.
+![List display](/docs/reference/trackplan/images/list_view.png)
 
-![Assigning work item attributes](/docs/reference/trackplan/images/work_item_attributes.png)
+####Table display 
+Each work item displays in a condensed format. Some attributes are displayed in a textual format and are arranged into columns.
 
-###Searching for a work item
+![Table display](/docs/reference/trackplan/images/table_view.png)
+
+####Lane display
+Work items are grouped by states and attributes are displayed as icons. Two states are visible at one time. Scroll horizontally to view the third state.
+
+![Lane display](/docs/reference/trackplan/images/lane_view.png)
+
+
+
+
 
 ###Filtering work items
-In the **My work**, **My subscribed**, **Incoming work**, **Backlog**, **Sprint planning**, **Team's work**, and **All work** views, you can filter work items based on key words or on values for specific attribute types. If you type in a keyword, the work item summaries that contain that keyword will display. To filter work items based on values for specific attributes, refer to the following table.
+In the **My work**, **My subscribed**, **Incoming work**, **Backlog**, **Sprint planning**, **Team's work**, and **All work** views, you can filter work items based on keywords or on values for specific attribute types. If you type in a keyword, the work item summaries that contain that keyword will display. To filter work items based on values for specific attributes, refer to the following table.
 
 | Variable |Example | 
 |-------|-------|
@@ -37,7 +49,7 @@ In the **My work**, **My subscribed**, **Incoming work**, **Backlog**, **Sprint 
 
 ###Managing your work items
 
-
+Work items that you own can be reviewed in the **My work** view. To view a subset of your important work items, you can star them and view those work items in the **My starred** view. To view your work items sorted by their modified date, open the **My Recent Work** view.
 
 
 ###Managing work items for the project
@@ -80,3 +92,8 @@ Available statistics:
 - Story points acheived vs. total story points estimated
 
 You can also use the **All work** view to review all of the work items by state.
+
+##Creating work items
+Where you create the work item affects its settings. If you create a work item in the **My work** view, the work item is automatically owned by you. Set attributes when you create a work item by clicking the icons. You can also click the summary of a work item to open and edit work item attributes.
+
+![Assigning work item attributes](/docs/reference/trackplan/images/work_item_attributes.png)
