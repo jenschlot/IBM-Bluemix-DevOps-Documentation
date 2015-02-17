@@ -27,7 +27,7 @@ First, you need an app to edit. Bluemix provides everything you need to get star
 5. Give the app a name, then click **FINISH**.
 
 Soon, your app will be running on Bluemix. Click the URL after Routes to view it.
-![Sample starter app][5]
+![Sample starter app][14]
 
 <a name='connect'></a>
 ##Connect the Node.js app instance to DevOps Services
@@ -144,7 +144,7 @@ You edited a Node.js project both in the cloud and locally, using Bluemix Live S
 [2]: https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html#bluemixlivedebugger
 [3]: https://console.ng.bluemix.net/
 [4]: https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html
-[5]: /tutorials/tutorials/livesync/images/default_h1.png
+[5]: /tutorials/livesync/images/default_h1.png
 [6]: /tutorials/livesync/images/add_git.png
 [7]: /tutorials/livesync/images/run_plus.png
 [8]: /tutorials/livesync/images/edit_lc.png
