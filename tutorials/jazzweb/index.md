@@ -1,6 +1,6 @@
-#Develop an IBM Bluemix application in Node.js using the Web IDE
+#Develop a Bluemix application in Node.js using the Web IDE
 
-Last modified: 16 February 2015
+Last modified: 17 February 2015
 
 In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an application in the cloud and deploy it to [IBM® Bluemix™][1].
 
@@ -9,11 +9,11 @@ In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an applica
 ## Contents
 * [Fork a sample project](#fork)
 * [Build and deploy with the Delivery Pipeline](#deploy)
-* [Edit the Sample Application](#edit)
+* [Edit the sample application](#edit)
 * [Push changes to the repository](#push)
 * [The manifest file](#manifest)
-* [Deploying by using the Web IDE](#deploy_from_web_ide)
-* [Automatic deployment](#automatic_deployment)
+* [Deploy by using the Web IDE](#deploy_from_web_ide)
+* [Automatic and manual deployment](#automatic_deployment)
 
 ---
 <a name='fork'></a>
@@ -31,7 +31,7 @@ Start with the sample project, [Sentiment Analysis App][2]. That app is a hosted
 ![Fork new project][4]
 
 <a name='deploy'></a>
-##Build and Deploy with the Delivery Pipeline
+##Build and deploy with the Delivery Pipeline
 To make the most of Bluemix DevOps Services and Bluemix, make sure that your Bluemix space has the Delivery Pipeline service. Follow these steps to add the service to your Bluemix space if needed: [Getting started with Delivery Pipeline][26].
 
 When you configure your own project, you can create and customize as much as you want to. This sample, however, is designed to require minimal activity to get started: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it is automatically found. This Grunt build file includes JSHint validation so that your project's code is checked automatically each time a build runs.
@@ -138,9 +138,9 @@ When you deploy a Bluemix DevOps Services project from the Web IDE, the project 
 
 ---
 <a name='deploy_from_web_ide'></a>
-##Deploying by using the Web IDE
+##Deploy using the Web IDE
 
-While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the Web IDE workspace to Bluemix by clicking Play on the Run Bar. **Remember:** When you deploy by using the Run Bar, you deploy the current state of your code in the Web IDE. When you deploy by using the Build &amp; Deploy deploy feature, you deploy the code that is checked into the repository.
+While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the Web IDE workspace to Bluemix by clicking Play on the Run Bar. **Remember:** When you deploy by using the Run Bar, you deploy the current state of your code in the Web IDE. When you deploy by using the Build &amp; Deploy feature, you deploy the code that is checked into the repository.
 
 ![The IDE Run Bar][28]
 
@@ -150,11 +150,18 @@ Whether you are using command-line tools or the Web IDE, both methods are effect
 
 ---
 <a name='automatic_deployment'></a>
-##Automatic deployment
+##Automatic and manual deployment
 
-Builds are triggered when changes are delivered to a project. Successful builds are automatically deployed. You can also manually deploy in these ways:
-  * On the build history page, drag a successful build to the box that is under a configured space. 
-  * Next to a build, click **Deploy to** and select a stage that contains a deploy job. 
+Builds are triggered when changes are delivered to a project. Successful builds are automatically deployed.
+
+To manually deploy a specific successful build:
+1. On the build history page, select a build.
+2. Drag the build to the box that is under a configured space. 
+
+OR
+
+1. On the build history page, Click **Deploy to**
+2. Select a stage with a deploy job from the menu. 
 
 ![Deploying an app after expanding a completed build][22]
 
