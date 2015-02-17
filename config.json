@@ -313,12 +313,21 @@
 			"uri_prefix": "/docs/all#tut",
 			"children": [
 				{
+					"title": "Get started with Bluemix DevOps Services",
+					"uri_prefix": "/tutorials/devopsweb"
+				},		
+			
+				{
 					"title": "Get started with Node.js",
 					"uri_prefix": "/tutorials/jazzeditor"
 				},
 				{
 					"title": "Get started with Java",
 					"uri_prefix": "/tutorials/jazzeditorjava"
+				},
+				{
+					"title": "Develop with Bluemix Live Sync and Node.js",
+					"uri_prefix": "/tutorials/livesync"
 				},
 				{
 					"title": "Develop with Git in the Web IDE",
@@ -380,7 +389,7 @@
 				},
 				{
 					"title": "Track & Plan",
-					"uri_prefix": "/docs/trackplan/trackplanfg"
+					"uri_prefix": "/docs/reference/trackplan/"
 				}
 			]
 		},
