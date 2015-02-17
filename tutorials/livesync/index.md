@@ -64,10 +64,11 @@ You created a launch configuration that will allow you to perform Live Sync edit
 Redeploying to Bluemix for every little change wastes valuable development time. Next, enable Live Sync's Live Edit mode in the DevOps Services Web IDE to quickly make and preview changes to your project.
 
 1. Click the dropdown menu in the run bar and select your new launch configuration. 
-2. Click the Play icon beside the run bar. The code in your workspace is deployed to Bluemix according to the new launch configuration.
+2. Click the Play button beside the run bar. The code in your workspace is deployed to Bluemix according to the new launch configuration.
+![Clicking the Play icon][15]
 2. Click the **Live Edit** button. 
 ![Clicking the Live Edit button][9]
-3. When re-deployment finishes, the phrase "(running: live edit)" appears next to your launch configuration in the run bar.
+3. When re-deployment finishes, the deployment status icon turns green and the phrase "(running: live edit)" appears next to your launch configuration in the run bar.
 4. In the run bar, click **Open the application URL**. The Live Sync app appears in a new browser window.
 ![Clicking the Open the application URL button][10]
 
@@ -153,3 +154,4 @@ You edited a Node.js project both in the cloud and locally, using Bluemix Live S
 [12]: /images/4em_h1.png
 [13]: /images/big_blue_h1.png
 [14]: /images/default_h1.png
+[15]: /images/click_play.png
