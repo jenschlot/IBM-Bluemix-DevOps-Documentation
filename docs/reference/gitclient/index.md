@@ -169,7 +169,7 @@ If you use Eclipse, you can use the Rational Team Concert plug-in to access your
 <a name='livesync'></a>
 ## Bluemix Live Sync
 
-With Node.js apps, you can make changes to Markdown, HTML, or CSS files and have those changes reflected in the deployed app without redeploying by using the Bluemix Live Sync feature. You can still edit code with Live Sync enabled, but you must restart the instance to have those changes applied to the deployed app. For more information about Live Sync, [see the Bluemix Live Sync documentation][1].
+If you are building a Node.js application, you can use Bluemix™ Live Sync to quickly update the application instance on Bluemix and develop as you would on the desktop without redeploying. When you make a change, you can see that change in your running Bluemix application immediately. Bluemix Live Sync works from both the command line and in the Web IDE. For more information about Live Sync, [see the Bluemix Live Sync documentation][1].
 
 <a name='etools'></a>
 ## IBM Eclipse Tools

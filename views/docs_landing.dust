@@ -41,32 +41,32 @@
 
 						<div class="col-md-6 col-sm-12 col-xs-12">
 							<div class="row" id="doc-container-l">
-							<a class="section" href="/docs/reference/projectadmin">
+							<a class="section" href="/tutorials/devopsweb"">
 							<div class="col-md-7 col-sm-9 col-xs-9 callout" id="1">
 								<p class="description">
 							
-									<span style="color: #ffd801;"> <strong>NEW</strong>&nbsp;&nbsp;</span> <strong>Administer a project</strong> in Bluemix DevOps Services
+									<span style="color: #ffd801;"> <strong>NEW</strong>&nbsp;&nbsp;</span><strong>Get started with Bluemix DevOps Services</strong>
 								</p>
 							</div>
 							<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
 							<div class="col-md-3 hidden-xs col-sm-2 hex-container">
 								<div class="hex">
-									<img class="featured-doc" src="/tutorials/images/docs/docs-featured-administer.png" />
+									<img class="featured-doc" src="/tutorials/images/docs/docs-featured-start-project.png" />
 								</div>
 							</div>
 							</a>
 							</div>
 							<div class="row" id="doc-container-l">
-								<a class="section" href="/docs/reference/billing">
+								<a class="section" href="/tutorials/devopsweb">
 								<div class="col-md-7 col-sm-9 col-xs-9 callout" id="2">
 									<p class="description">
-										<strong>Configure billing </strong> for Bluemix DevOps Services
+										<span style="color: #ffd801;"> <strong>NEW</strong>&nbsp;&nbsp;</span> <strong>Develop with Bluemix Live Sync</strong> and Node.js 
 									</p>
 								</div>
 								<div class="col-md-2 hidden-xs col-sm-1 stem"><hr /></div>
 								<div class="col-md-3 hidden-xs col-sm-2 hex-container">
 									<div class="hex">
-										<img class="featured-doc" src="/tutorials/images/docs/docs-featured-billing.png" />
+										<img class="featured-doc" src="/tutorials/images/docs/docs-featured-js.png" />
 									</div>
 								</div>
 								</a>

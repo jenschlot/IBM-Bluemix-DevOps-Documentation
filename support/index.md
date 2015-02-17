@@ -12,7 +12,7 @@
 
 * [Check out the IBM Bluemix DevOps Services forum](https://developer.ibm.com/answers/questions/?community=devops-services).
 
-* [Report a bug or share your idea in the IBM Bluemix DevOps Services project](https://hub.jazz.net/ccm01/web/projects/srich%20|%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
+* [Report a bug or share your idea in the IBM Bluemix DevOps Services project](https://hub.jazz.net/ccm01/web/projects/idsorg | Bluemix DevOps Services#action=com.ibm.team.dashboard.viewDashboard ).
 
 * [Send email to hub@jazz.net for questions and problems with your IBM id](mailto:hub@jazz.net).
 
