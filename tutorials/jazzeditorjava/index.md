@@ -237,7 +237,7 @@ In this environment, you can edit files with syntax coloring support for multipl
 
 **Tip:** While you are outside of the code editor, you can search through the various key bindings in the IDE by pressing Shift + ?. To search while you’re in the editor, press Shift + Alt + ?. 
 
-To complete the process, you must make one more modification to your application in Web IDE. First, though, you must fetch the change to the app title that you just made and merge the change so that it is shown in the Web IDE. 
+Fetch the change you made to the app title and merge the change so that it is shown in the web IDE. 
 
 Open the Git Repository page. 
 
@@ -265,7 +265,7 @@ Push the change from the local 'master' branch to the remote branch.
 
 ![Orion git push][35]
 
-You can use either the Web IDE or the command line to make changes to your app. To see the updates you just made, refresh your browser.
+You can use either the Web IDE or the command line to make changes to your app. Open your application to see your change. If you already have it open in a browser window, refresh the page."
 
 ![Our really cool app][36]
 
@@ -274,7 +274,7 @@ You can use either the Web IDE or the command line to make changes to your app. 
 ##Deployment using the Web IDE
 
 
-While you're working in the directory that contains your `manifest.yml file`, you can deploy whatever is in the Web IDE workspace to Bluemix by clicking the Play icon in the Run Bar. Remember: When you deploy using the Run Bar, you deploy the current state of your code in the Web IDE. However, if you deploy using Build &amp; Deploy you deploy what is checked into the repository.
+While you're working in the directory that contains your `manifest.yml file`, you can deploy whatever is in the Web IDE workspace to Bluemix by clicking the Play button in the Run Bar. Remember: When you deploy using the Run Bar, you deploy the current state of your code in the Web IDE. However, if you deploy using Build &amp; Deploy, you deploy what is checked into the repository.
 
 ![The IDE Run Bar][56]
 
