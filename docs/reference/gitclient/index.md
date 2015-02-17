@@ -1,6 +1,6 @@
 #Setting up local clients to work with Git source control 
 
-Last modified: 3 February 2015
+Last modified: 17 February 2015
 
 If you use a Git repository for your IBM&reg; Bluemix&trade; DevOps Services project, you can manage your repository and work locally or by using the integrated Web IDE in Bluemix DevOps Services. If you install Git, you can use the [command line to manage your repository](#command_line_git). If you work in Eclipse, you can install the EGit plug-in for version control.  For more information, [see using EGit in Eclipse](#eclipse_using_egit).
 
@@ -18,6 +18,7 @@ If you use the Track & Plan feature to manage your project plans and work items,
   * [Install the Rational Team Concert plug-in](#install_eclipse_and_the_rational_team_concert_plugin)
   * [Connect to your Bluemix DevOps Services project from Eclipse](#connect_to_your_devops_service_projects_from_eclipse)
  * [Bluemix Live Sync](#livesync)
+ * [Eclipse Tools](#etools)
 
 
 ---
@@ -165,12 +166,18 @@ If you use Eclipse, you can use the Rational Team Concert plug-in to access your
 
 4. Select the Bluemix DevOps Services projects to connect to and click **Finish**.
 
-<a name='livesynct'></a>
+<a name='livesync'></a>
 ## Bluemix Live Sync
 
-With Node.js apps, you can make changes to Markdown, HTML, or CSS files and have those changes reflected in the deployed app without redeploying by using the Bluemix Live Sync feature. You can still edit code with Live Sync enabled, but you must restart the instance to have those changes applied to the deployed app. For more information about Live Sync, see [the Bluemix Live Sync documentation][1].
+With Node.js apps, you can make changes to Markdown, HTML, or CSS files and have those changes reflected in the deployed app without redeploying by using the Bluemix Live Sync feature. You can still edit code with Live Sync enabled, but you must restart the instance to have those changes applied to the deployed app. For more information about Live Sync, [see the Bluemix Live Sync documentation][1].
+
+<a name='etools'></a>
+## IBM Eclipse Tools
+
+IBM® Eclipse Tools for Bluemix™ provides plug-ins that can be installed into an existing Eclipse environment to assist in integrating the developer's integrated development environment (IDE) with Bluemix. The tools allows you to deploy your JavaScript, WAR (web archive) and EAR (enterprise archive) files, and Liberty Profile packaged servers to the Bluemix server right from your Eclipse IDE, or WebSphere® Application Server Developer Tools (WDT).  The tools also allow you to create and link services to your application and define environment variables as part of the deployment. For more information about the Eclipse Tools, [see Deploying apps with IBM Eclipse Tools for Bluemix][2].
 
 [1]: https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html
+[2]: https://www.ng.bluemix.net/docs/#manageapps/eclipsetools/eclipsetools.html#eclipsetools
 [18]: https://developer.ibm.com/answers/questions/?community=devops-services (Bluemix DevOps Services forum)
 [19]: mailto:hub%40jazz.net
 [20]: /docs
