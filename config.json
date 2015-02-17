@@ -99,6 +99,15 @@
 			"directory": "docs/reference/git"
 		},
 		{
+			"uri_prefix": "/docs/reference/trackplan",
+			"section_name": "Quick Reference",
+			"resource_name": "Reference",
+			"parent_name": "Track & Plan",
+			"parent_uri": "/docs/trckplan",
+			"img_icon": "ref-qr",
+			"directory": "docs/reference/trackplan"
+		},
+		{
 			"uri_prefix": "/docs/reference/deploy",
 			"section_name": "Quick Reference",
 			"parent_name": "Build & Deploy",

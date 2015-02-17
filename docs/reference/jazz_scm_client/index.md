@@ -1,6 +1,6 @@
 # Setting up local Eclipse clients to work with Jazz source control
 
-Last modified: 3 February 2015
+Last modified: 17 February 2015
 
 If you use Jazz Source Control Management (SCM) for your IBM&reg; Bluemix&trade; DevOps Services project you can  work locally or by using the integrated Web IDE. If you work in Eclipse, you can install the IBM&reg; Rational Team Concert&trade; plug-in for version control.
 
@@ -21,7 +21,7 @@ If you use the Track & Plan feature to manage your project plans and work items,
 **Before you begin**: 
 * Rational Team Concert 5.0.2 and later require Eclipse 4.3.2, and Eclipse requires Java 1.7.  
 
-* If you do not have Eclipse installed and want tools for Java development, [download and install the Java EE IDE for Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2).  
+* If you do not have Eclipse installed and want tools for Java development, [download and install Eclipse IDE for Java EE Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2).  
 
 * If you do not have Java 1.7 installed, [download and install the Java SE Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
 
@@ -32,7 +32,7 @@ If you use the Track & Plan feature to manage your project plans and work items,
 2. In the Install window, complete these steps:
   1. In the **Work with** field, enter `https://jazz.net/downloads/rational-team-concert/5.0.2/5.0.2/p2`.
   2. Press Enter to load the contents of the update site.
-  3. Select the **Rational Team Concert Client Feature** check box.
+  3. Select the **Rational Team Concert Client** feature check box.
   4. Select the **Group items by category** check box
   5. Click **Next** and click **Next** again.
   6. Review the license terms. If you agree to the terms, accept them.
@@ -49,27 +49,28 @@ If you use the Track & Plan feature to manage your project plans and work items,
 
 From Rational Team Concert, you can connect to your projects in two ways:
 
- * Use the Manage JazzHub Projects tool
+ * Use the Manage IBM DevOps Services Projects tool
  * Accept a team invitation
 
 After you connect to your project, you can access its work items.
 
-Option 1: Connect by using the Manage JazzHub Projects tool
+Option 1: Connect by using the Manage IBM DevOps Services Projects tool
 
-1. In Eclipse, click **Window > Show View > Other > Team Artifacts**.
+1. In the Eclipse Workbench, click **Window > Show View > Other > Team Artifacts**.
 
-2. Click the **Manage JazzHub Projects** icon.
+2. Click the **Manage IBM DevOps Services Projects** icon.
  ![Manage JazzHub Projects button within the Team Artifacts View](./images/jazzhubfeature.png)
 
-3. In the **Manage JazzHub Projects** window, enter your alias and IBM id password to sign in to Bluemix DevOps Services, and then click **Next**
+3. In the **Manage IBM DevOps Services Projects** window, enter your alias and IBM id password to sign in to Bluemix DevOps Services, and then click **Next**
 
 4. Select the Bluemix DevOps Services projects to connect to and click **Finish**.
 
 Option 2: Connect by accepting a team invitation
 
-1. In [Bluemix DevOps Services](https://hub.jazz.net/), browse to your project page.
+1. In [Bluemix DevOps Services](https://hub.jazz.net/), browse to your project overviewpage.
 
-2. On the right side of the page, click **Configure eclipse client**.
+2. Click **Configure eclipse client**. 
+![Configure eclipse button on the project overview](images/configure-eclipse.jpg)
 
 3. Copy the text for the project invitation.
 
@@ -79,7 +80,7 @@ Option 2: Connect by accepting a team invitation
 
 6. Enter your alias and IBM id password to sign in  to Bluemix DevOps Services.
 
-You connected to your Bluemix DevOps Services project in Eclipse. To see the new repository connection and project area, click the **Team Artifacts** tab.
+You are now connected to your Bluemix DevOps Services project in Eclipse. To see the new repository connection and project area, click the **Team Artifacts** tab.
 
 ---
 <a name='import_code_into_eclipse_from_jazz_source_control'></a>
@@ -88,7 +89,7 @@ You connected to your Bluemix DevOps Services project in Eclipse. To see the new
 
 From your Bluemix DevOps Services project that uses Jazz SCM, [connect to a project from Eclipse](#connect_to_your_devops_services_projects_from_eclipse). Then create a repository workspace and load your components into Eclipse.
 
-1. In Eclipse, click **Window > Show View > Other > Team Artifacts**.
+1. In the Eclipse Workbench,  click **Window > Show View > Other > Team > Team Artifacts**.
 
 2. Expand your project area to show the **Source Control** folder.
 

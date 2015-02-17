@@ -8,6 +8,7 @@ Last modified: 13 February 2015
 * [Push changes to the Git repository by using the command line](#push_to_git)
 * [Push changes to the Git repository by using the Web IDE](#push_with_web_ide)
 * [Deployment using the Web IDE](#deployments)
+* [Bluemix Live Sync](#bluemix_live_sync)
 * [Summary](#summary)
  
 <a name='create_bluemix_app'></a>
@@ -194,13 +195,23 @@ application was deployed again. Then, click the URL link that is next to "Deploy
 <a name='deployment'></a>
 ##Deployment using the Web IDE
 
-Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can deploy applications directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the Web IDE, you can deploy your code to Bluemix by using the Play button in the Run Bar. 
+###Run bar
 
-![Screenshot here of Run Bar][1]
+Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can deploy applications directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the Web IDE, you can deploy your code to Bluemix by using the Play button in the Run bar. 
 
-**Note**: Clicking the Play button in the Run Bar deploys the current state of the code in your Web IDE, whereas Pipeline deploys the code that is checked in to the repository.
+![Screenshot here of Run bar][1]
+
+**Note**: Clicking the Play button in the Run bar deploys the current state of the code in your Web IDE, whereas Pipeline deploys the code that is checked in to the repository.
 
 Both the command-line tools and the Web IDE are effective for rapid, solo development, but the Pipeline adds the security of controlling what is pushed, especially in team environments. With Pipeline, you always know that the code running in the application matches a known state in the repository, instead of whatever was in your working directory when you pushed changes.
+
+<a name='bluemix_live_sync'></a>
+###Bluemix Live Sync
+
+With Bluemix Live Sync, you can work in Live Edit mode to quickly update an application while it runs on Bluemix. If you are building a Node.js application by using the Web IDE in Live Edit mode, your changes are propogated to your running application without redeployment. For more information, see 
+[Bluemix Live Sync](https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html#bluemixlive).
+
+![Run bar with Live Edit](images/live_edit.png)
 
 ---
 <a name='summary'></a>
