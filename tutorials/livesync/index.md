@@ -1,6 +1,6 @@
 #Getting started with Bluemix Live Sync and Node.js
 
-Last modified: 12 February 2015
+Last modified: 17 February 2015
 
 ##Contents
 * [Create a Node.js app from a Bluemix Starter](#create)
@@ -9,29 +9,9 @@ Last modified: 12 February 2015
 * [Edit the app locally using Live Sync](#edit_local)
 * [Summary](#summary)
 
-<!--
-- Create a a Node.js app from a bluemix boiler plate
-- Press ADD GIT
-- Press Edit Code
-- Turn on Live Edit
-- Press Open URL to open a browser on the running app
-- Make a change (static file)
-- See it appear in a browser
-- Make a change (node module)
-- Press restart
-- See it appear in a browser
-- Download the CLI from the project page
-- Set up a synchronization directory
-- Edit a file locally
-- See the change immediately in the browser
-- See how changes you make in the desktop stay in sync with the Web IDE (browser refresh unfortunately needed)
-- Learn how to start, stop, and (quick) restart, the app from the CLI
-- Talk about how you can check in to Git from either desktop or CLI
--->
+If you are building a Node.js app, you can use Bluemix™ Live Sync to quickly update the app instance on Bluemix and develop like you would on the desktop. Bluemix Live Sync works from both the command line (Desktop Sync) and in the Web IDE (Live Edit). [Learn more about Live Sync here][4]. You can also [use Bluemix Live Sync to debug Node.js applications][2].
 
-If you are building a Node.js app, you can use Bluemix™ Live Sync to quickly update the app instance on Bluemix and develop as you would on the desktop without redeploying. Bluemix Live Sync works from both the command line and in the web IDE. [Learn more about Live Sync here][4]. For an app written in Node.js or Java™, you can also [use Bluemix Live Sync to debug the app][2].
-
-In this tutorial, you deploy a Node.js app from a Bluemix Starter. Then, you update the app using Bluemix DevOps Services and Bluemix Live Sync. By using Live Sync, you immediately see the impact of your changes on the running Bluemix application without waiting for redeployment.
+In this tutorial, you deploy a Node.js app. Then, you update the app using Bluemix DevOps Services and Bluemix Live Sync. By using Live Sync, you immediately see the impact of your changes on the running Bluemix application without waiting for redeployment.
 
 **Before you begin:** [install the Bluemix Live Sync command-line interface][1].
 
@@ -46,7 +26,7 @@ First, you need an app to edit. Bluemix provides everything you need to get star
 4. Select the **SDK for Node.js** Starter, then click **CONTINUE**.
 5. Give the app a name, then click **FINISH**.
 
-In a few seconds, your app will be running on Bluemix. Click the URL after Route to view it.
+Soon, your app will be running on Bluemix. Click the URL after Route to view it.
 
 <a name='connect'></a>
 ##Connect the Node.js app instance to DevOps Services
@@ -81,8 +61,8 @@ Redeploying to Bluemix for every little change wastes valuable development time.
 
 1. Click the dropdown menu in the run bar and select your new launch configuration. 
 2. Click the **Live Edit** button. The code in your workspace is deployed to Bluemix according to the new launch configuration.
-3. When deployment finishes, the phrase "(running debug)" appears next to your launch configuration in the run bar.
-4. In the run bar, click **Open URL**. The Live Sync app appears in a new browser window.
+3. When deployment finishes, the phrase "(running: live edit)" appears next to your launch configuration in the run bar.
+4. In the run bar, click **Open the application URL**. The Live Sync app appears in a new browser window.
 
 Make a change to the Starter app to see Live Sync in action:
 
@@ -102,14 +82,6 @@ You edited the project in the Web IDE and previewed the result of your changes w
 Live Sync isn't just available for work done in the Web IDE. You can also make changes on your local environment and see them previewed on Bluemix by using the Live Sync command-line tool. If you don't have it, [install the Live Sync command-line interface][1].
 
 <a name='edit_local_download'></a>
-###Download your DevOps Services project
-
-To work locally, you need a local version of your DevOps Services project. You could clone from the project's Git repository, but that isn't required to use Live Sync. Instead, download an archive of your project files:
-
-1. Select the root directory. Click **File**, **Export**, and **Zip**.
-2. Save the archive file to your local environment. 
-3. Extract the archive file.
-
 ###Synchronize your local environment with Bluemix
 
 Next, configure your local environment to work with Bluemix Live Sync:
@@ -125,37 +97,39 @@ bl projects
 ```
 4. Synchronize your local environment with your project on Bluemix:
 ```
-bl sync projectName -d localDirectory --verbose
+bl sync projectName -d localDirectory
 ```
-Where `localDirectory` is the location where you extracted your project files. Press `q` to end synchronization.
+Where `localDirectory` is the location where you extracted your project files. By synchronizing your local environment with Bluemix, you populated `localDirectory` with your Node project's files. You can `q` to end synchronization when you finish making changes.
 
-###Edit the app locally using Live Sync
+###Enable Desktop Sync and edit 
 
-In a second command prompt, begin editing the application:
+In a second command prompt, enable Desktop Sync:
 ```
 cd localDirectory
 bl start
 ```
-Using the most recent launch configuration from the Web IDE by default, Live Edit mode is enabled in your local environment. View the App URL, Debug URL, Manage URL, and Live Sync state in the second command prompt window.
+Using the most recent launch configuration from the Web IDE by default, Desktop Sync is enabled in your local environment. View the App URL, Debug URL, Manage URL, and Live Sync state in the second command prompt window.
 
-Changes that you save to local, static files will appear in your Debug instance after a browser refresh. Add the declaration `color: #00aed1` to the `h1` rule set to view a quick change. If you update the Node module, restart the Debug instance by entering `bl stop` and then `bl start` in the Live Edit command-line interface to see your changes.
+Changes that you save to local, static files will appear in your Debug instance after a browser refresh. 
 
-###Stop Live Edit mode and stop synchronization: 
+Using your favorite editor, add the declaration `color: #00aed1` to the `h1` rule set and save to view a quick change. If you update the Node module, restart the Debug instance by entering `bl stop` and then `bl start` in the Live Edit command-line interface to see your change.
+
+###Stop Live Edit mode and stop synchronization:
 
 If you made both changes suggested in this tutorial, the header on your application page should be big and blue. Nice work! 
 
-Finally, disable Live Sync:
-1. In the second command prompt, enter `bl stop`. 
+Finally, disable Desktop Sync:
+1. In the second command prompt, enter `bl stop`.
 2. In the first command prompt, press `q`.
 
-If you were working on a real project, you might commit your changes in Git or discard them. 
+If you were working on a real project, and you liked the way your app looks now, you would commit your changes in Git. DevOps Services' Pipeline would then deploy your updated app to Bluemix.
 
 <a name='summary'></a>
 ##Summary
 
 You edited a Node.js project both in the cloud and locally, using Bluemix Live Sync to preview your changes along the way. 
 
-[1]: http://livesync.mybluemix.net/downloads/blive_setup.msi
+[1]: https://jazz.net/pub/bluemixlive/blive_setup.msi 
 [2]: https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html#bluemixlivedebugger
 [3]: https://console.ng.bluemix.net/
 [4]: https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html
