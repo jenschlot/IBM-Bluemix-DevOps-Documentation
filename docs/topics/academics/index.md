@@ -1,6 +1,6 @@
-Last modified: 20 October 2014
+Last modified: 18 February 2015
 
-###What is Bluemix DevOps Services?
+###What is IBM Bluemix DevOps Services?
 IBM&reg; Bluemix&trade; DevOps Services offers features you can use to collaborate with others to develop, track, plan, and deploy software in the cloud.
 From your projects, you can access everything you need to build all types of applications right from your web browser. Use our built-in collaboration tools to make team projects simple!
 Easily build and deploy your application with integrated deployment to the IBM&reg; Bluemix&trade; cloud platform. Go from source code
@@ -67,12 +67,6 @@ setting up servers."  - Alan Kan, Lecturer, Unitec Institute of Technology, New 
 
 <a name="resources"></a>
 ##Resources
-
-### Tutorial: [Getting started with tracking and planning in IBM Bluemix DevOps Services](/tutorials/trackplan)  
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> plan, track
-
-### Tutorial: [Setting up Eclipse, Git, and Rational Team Concert desktop clients to access IBM Bluemix DevOps Services](/tutorials/clients) 
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> eclipse, git, rtc
 
 ### IBM Academic Initiative Program
 <div style="color:black">Visit the [IBM Academic Initiative website](http://www-304.ibm.com/ibm/university/academic/pub/page/academic_initiative) or 
