@@ -7,12 +7,12 @@ Follow the steps in this tutorial to develop a Java&trade; application by using 
 ## Contents
 * [before you begin](#before_begin)
 * [Get your app (fork)](#fork_app)
-* [Deploy your app](deploy_app)
-* [Add the Delivery Pipeline service](add_pipeline)
+* [Deploy your app](#deploy_app)
+* [Add the Delivery Pipeline service](#add_pipeline)
 * [Access your app from the Rational Team Concert client for Eclipse](#use_rtc)
 * [Deliver your first change](#first_change)
 * [Add a test failure](#test_failure)
-* [Fix the bug](fix_bug)
+* [Fix the bug](#fix_bug)
 
 
 Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM&reg; Bluemix&trade; DevOps Services, and the Rational&reg; Team Concert client for Eclipse. 
