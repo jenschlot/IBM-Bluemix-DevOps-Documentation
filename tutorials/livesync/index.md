@@ -52,7 +52,7 @@ Launch configurations define the settings that will be used by the Web IDE to de
 1. On your app's Overview page, click **EDIT CODE**. The Web IDE opens. 
 2. Click the dropdown menu next in the run bar and click **+**. 
 ![Clicking Plus icon in the run bar][7]
-3. On the Edit Launch Configuration menu, append an indication that this is a test version of your app app, like `-live`, to the app's name and host. Give the new launch configuration a name.
+3. On the Edit Launch Configuration menu, append an indication that this is a test version of your app app, like `-live`, to the app's name and host. DevOps Services will automatically provide a launch configuration name.
 ![Edit Launch Configuration menu][8]
 4. Click **SAVE**. 
 
