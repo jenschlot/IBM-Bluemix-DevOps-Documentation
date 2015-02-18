@@ -1,19 +1,19 @@
-#Develop an IBM Bluemix application in Node.js using the Web IDE
+#Develop a Bluemix application in Node.js using the Web IDE
 
-Last modified: 16 February 2015
+Last modified: 17 February 2015
 
 In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an application in the cloud and deploy it to [IBM® Bluemix™][1].
 
 ---
 
 ## Contents
-* [Start by forking a sample project](#fork)
-* [Build and deploy a forked project](#deploy)
-* [Edit the Sample Application](#edit)
+* [Fork a sample project](#fork)
+* [Build and deploy with the Delivery Pipeline](#deploy)
+* [Edit the sample application](#edit)
 * [Push changes to the repository](#push)
 * [The manifest file](#manifest)
-* [Deploying from the Web IDE](#deploy_from_web_ide)
-* [Automatic deployment](#automatic_deployment)
+* [Deploy by using the Web IDE](#deploy_from_web_ide)
+* [Automatic and manual deployment](#automatic_deployment)
 
 ---
 <a name='fork'></a>
@@ -21,90 +21,90 @@ In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an applica
 
 Start with the sample project, [Sentiment Analysis App][2]. That app is a hosted Node.js Git project. You need your own copy of the project, which you can get by forking the project.
 
-On the sample project's Overview page, click **FORK PROJECT**.
+1. On the sample project's Overview page, click **FORK PROJECT**.
 
-![Fork button][3]
+	![Fork button][3]
 
-Name your forked project, and make sure that the **Make this a Bluemix Project** check box is selected. For the other options, use the default settings. Click **CREATE**. A forked project with a copy of the sample Git repository is created.
+2. Name your forked project, and make sure that the **Make this a Bluemix Project** check box is selected. For the other options, use the default settings. 
+3. Click **CREATE**. A forked project with a copy of the sample Git repository is created.
 
 ![Fork new project][4]
 
 <a name='deploy'></a>
-##Deploy your forked project
-To make the most of Bluemix DevOps Services and Bluemix, make sure that your Bluemix space has the Delivery Pipeline service. If it doesn't have that service, follow these steps [Getting started with Delivery Pipeline][26].
-
-At the top of the screen, click **BUILD &amp; DEPLOY**. 
+##Build and deploy with the Delivery Pipeline
+To make the most of Bluemix DevOps Services and Bluemix, make sure that your Bluemix space has the Delivery Pipeline service. Follow these steps to add the service to your Bluemix space if needed: [Getting started with Delivery Pipeline][26].
 
 When you configure your own project, you can create and customize as much as you want to. This sample, however, is designed to require minimal activity to get started: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it is automatically found. This Grunt build file includes JSHint validation so that your project's code is checked automatically each time a build runs.
 
-The Delivery Pipeline configuration for your Sentiment Analysis app has two stages: a build stage and a deploy stage. These stages form a "Pipeline." The build stage will run a build job on the included `Gruntfile.js` to validated your code, and the deploy stage will run a deploy job to deploy your code to Bluemix.
+The Delivery Pipeline configuration for your Sentiment Analysis app has two stages: a build stage and a deploy stage. These stages form a pipeline. The build stage runs a build job on the included `Gruntfile.js` to validated your code. Then, the deploy stage runs a deploy job to deploy your code to Bluemix.
 
-Configure a stage to run a build job on code from your project's Git repository:
+1. At the top of the screen, click **BUILD &amp; DEPLOY**. 
+2. Configure a stage to run a build job on code from your project's Git repository:
 
-  1. Click **ADD STAGE**. At the top of the Stage Configuration page, click the **MyStage** name and change it to `Build`.
+  a. Click **ADD STAGE**. At the top of the Stage Configuration page, click the **MyStage** name and change it to `Build`.
 
-  2. Click **JOBS**. Click **ADD JOB**, and then select **Build**. 
+  b. Click **JOBS**. Click **ADD JOB**, and then select **Build**. 
 
-  3. On the Build Configuration page, select **Grunt** as the Builder Type. Leave the default settings as they are and click **SAVE**.
+  c. On the Build Configuration page, select **Grunt** as the Builder Type. Leave the default settings as they are and click **SAVE**.
 
-![Configuring the Builder][8]
+	![Configuring the Builder][8]
 
-Configure a stage to deploy the output from the Build stage to Bluemix:
+3. Configure a stage to deploy the output from the Build stage to Bluemix:
 
-  1. Click **ADD STAGE**. At the top of the Stage Configuration page, click the **MyStage** name and change it to `Deploy to dev`.
+  a. Click **ADD STAGE**. At the top of the Stage Configuration page, click the **MyStage** name and change it to `Deploy to dev`.
 
-  2. This stage immediately follows the Build stage, so its default input is from that stage’s build job. Because Bluemix DevOps Services integrates with Bluemix and this sample project is simple, you can use the other default information to deploy the project, too.
+	This stage immediately follows the Build stage, so its default input is from that stage’s build job. Because Bluemix DevOps Services integrates with Bluemix and this sample project is simple, you can use the other default information to deploy the project, too.
 
-  3. Click **JOBS**. Click **ADD JOB**, and then select **Deploy**.
+  b. Click **JOBS**. Click **ADD JOB**, and then select **Deploy**.
 
-  4. Make sure that the project has a unique path by editing the first line of the Bluemix script: add the `-n` flag followed by a unique host name. A complete version of the command might look like this example:
+4. Make sure that the project has a unique path by editing the first line of the Bluemix script: add the `-n` flag followed by a unique host name. A complete version of the command might look like this example:
  
    `cf push "${CF_APP}" -n mysaap`
 
-The Deploy Stage Configuration might look like this example:
+	The configuration for the Deploy Stage might look like this example:
 
-![Configuring the Deployer][9]
+	![Configuring the Deployer][9]
 
-The manifest file that is in this sample application specifies a host name and does not require any services, so you do not need to add anything to the script.
+	The manifest file that is in this sample application specifies a host name and does not require any services, so you do not need to add anything to the script.
 
-If the manifest file (`manifest.yml`) didn't specify a host or other parameter, you can define that information by adding cf commands to the Bluemix script. The cf command deploys applications to Cloud Foundry-based platforms, such as Bluemix.  For more information, [see Getting Started with cf v6][24].
+5. If the manifest file (`manifest.yml`) didn't specify a host or other parameter, you can define that information by adding cf commands to the Bluemix script. The cf command deploys applications to Cloud Foundry based platforms, such as Bluemix.  For more information, [see Getting Started with cf v6][24].
 
-Leave the other settings as they are and click **SAVE**. 
+6. Leave the other settings as they are and click **SAVE**. 
 
-On the Pipeline page, click the **Play** icon at the top of the Build stage.
+7. On the Pipeline page, click the **Play** icon at the top of the Build stage.
 
-![Clicking Request Build on configured Pipeline][23]
+	![Clicking Request Build on configured Pipeline][23]
 
-Your project is queued to build. When the build is completed, your app is queued for deployment to Bluemix automatically. You can observe its status from this page and open the app when it is deployed.
+	Your project is queued to build. When the build is completed, your app is queued for deployment to Bluemix automatically. You can observe its status from this page and open the app when it is deployed.
 
-To open the app, click its URL on the Deploy to dev tile. If you want to see your app's Bluemix dashboard, click its name:
+8. To open the app, click its URL on the Deploy to dev tile. If you want to see your app's Bluemix dashboard, click its name:
 
 ![Ready to click to Bluemix from Pipeline][10]
 
-You can manage the live application instance on the [Bluemix Dashboard][11]. Use the Menu to start, stop, edit, or delete the app. On the Services tab, you can add various services such as MongoDB, SSO, MapReduce, and more.
+You can manage the live application instance on the [Bluemix dashboard][11]. From the Menu, you can start, stop, edit, or delete the app. On the Services tab, you can add various services such as MongoDB, SSO, MapReduce, and more.
  
 
 ![Starting a Bluemix app][12]
 
-Building and deploying apps using Bluemix can result in charges to your Bluemix billing account. A project is granted 60 minutes of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information about pricing for any service, [see the Bluemix pricing page](https://bluemix.net/#/pricing).
+**Important:** Building and deploying apps using Bluemix can result in charges to your Bluemix billing account. A project is granted 60 minutes of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information about pricing for any service, [see the Bluemix pricing page](https://bluemix.net/#/pricing).
 
 ---
 <a name='edit'></a>
-##Edit the Sample Application
+##Edit the sample application
 
 You can now personalize the sample app in a Bluemix DevOps Services' web-based code editor, push your changes to the project's remote repository, and initiate a redeployment of your project. These activities won’t take more than a few minutes.
 
-Click **Edit Code**, and then open the `app.js` file by clicking it in the side panel. The editor recognizes and highlights the code as JavaScript.
+1. Click **Edit Code**, and then open the `app.js` file by clicking it in the side panel. The editor recognizes and highlights the code as JavaScript.
 
-Change how the app greets its users: click **Edit**, and then click **Find**. Search for the phrase "Welcome to the Twitter Sentiment Analysis app."
+2. Change how the app greets its users: click **Edit**, and then click **Find**. Search for the phrase "Welcome to the Twitter Sentiment Analysis app."
 
-![Configure Builder][13]
+	![Configure Builder][13]
 
-Replace occurrences of that message with whatever you like.
+3. Replace occurrences of that message with whatever you like.
 
-If you want a fully functional version of the app, you must supply your own Twitter API keys. To sign up for API keys, [go to Twitter Application Management][27]. When you have the API keys, you can replace the keys that are in the tweeter variable, which starts at line 22. 
+4. If you want a fully functional version of the app, you must supply your own Twitter API keys. To sign up for API keys, [go to Twitter Application Management][27]. When you have the API keys, you can replace the keys that are in the tweeter variable, which starts at line 22. 
 
-When you're finished, save your work by pressing Ctrl + S (or Command + S on a Mac).
+5. When you're finished, save your work by pressing Ctrl+S (or Command+S on a Mac).
 
 ---
 <a name='push'></a>
@@ -112,15 +112,16 @@ When you're finished, save your work by pressing Ctrl + S (or Command + S on a M
 
 After you edit the `app.js` file, share the changed file with other members of your project by pushing the file to the repository. 
 
-In the sidebar, click the Git Repository icon. Stage the change to `app.js` by selecting the check box next to it:
+1. In the sidebar, click the Git Repository icon. 
+2. Stage the change to `app.js` by selecting the check box next to it:
 
-![Stage Changes][14]
+	![Stage Changes][14]
 
-Commit your change to the Git repository for your project by entering a commit message, and then clicking **COMMIT**.
+3. Commit your change to the Git repository for your project by entering a commit message, and then clicking **COMMIT**.
 
-![Committing changes][15]
+	![Committing changes][15]
 
-Push the change to the remote project repository by clicking **PUSH**.
+4. Push the change to the remote project repository by clicking **PUSH**.
 
 ![Pushing Changes][16]
 
@@ -137,9 +138,9 @@ When you deploy a Bluemix DevOps Services project from the Web IDE, the project 
 
 ---
 <a name='deploy_from_web_ide'></a>
-##Deploying from the Web IDE
+##Deploy using the Web IDE
 
-While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the Web IDE workspace to Bluemix by clicking Play on the Run Bar. Remember: When you deploy by using the Run Bar, you deploy the current state of your code in the Web IDE. When you deploy by using the Build &amp; Deploy deploy feature, you deploy the code that is checked into the repository.
+While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the Web IDE workspace to Bluemix by clicking Play on the Run Bar. **Remember:** When you deploy by using the Run Bar, you deploy the current state of your code in the Web IDE. When you deploy by using the Build &amp; Deploy feature, you deploy the code that is checked into the repository.
 
 ![The IDE Run Bar][28]
 
@@ -149,11 +150,18 @@ Whether you are using command-line tools or the Web IDE, both methods are effect
 
 ---
 <a name='automatic_deployment'></a>
-##Automatic deployment
+##Automatic and manual deployment
 
-Builds are triggered when changes are delivered to a project. Successful builds are automatically deployed. You can also manually deploy in these ways:
-  * On the build history page, drag a successful build to the box that is under a configured space. 
-  * Next to a build, click **Deploy to** and select a stage that contains a deploy job. 
+Builds are triggered when changes are delivered to a project. Successful builds are automatically deployed.
+
+To manually deploy a specific successful build:
+1. On the build history page, select a build.
+2. Drag the build to the box that is under a configured space. 
+
+OR
+
+1. On the build history page, Click **Deploy to**
+2. Select a stage with a deploy job from the menu. 
 
 ![Deploying an app after expanding a completed build][22]
 
