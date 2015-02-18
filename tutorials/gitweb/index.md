@@ -135,9 +135,11 @@ After you confirm a change in a test branch, you can introduce its code to the m
 
 To rebase, you must compare the contents of one branch to another by modifying the references.
 
-1. Click the **REFERENCE field**.
+1. Click the **REFERENCE** field.
+![The Git Repository reference field][15]
 
-1. Next to local, click __>__ to expand the list of local branches.
+1. Next to local, click **>** to expand the list of local branches.
+![Click local branch][16]
 
 1. Next to the local master branch, click the **Checkout** icon.
 ![Checkout master branch][13]
@@ -155,7 +157,7 @@ To rebase, you must compare the contents of one branch to another by modifying t
 
 1. Next to origin, click **>** to expand the list of remote branches.
 
-1. Click **master** to compare the contents of your local copy of the master branch and the remote copy of the master branch. 
+1. Click the **master** row to compare the contents of the local copy of the master branch and the remote copy of the master branch. 
 
 1. Confirm that the commit that you originally made on the testbranch branch is visible under OUTGOING.
 
@@ -182,6 +184,8 @@ You forked a project and manually deployed to a Bluemix app. You made a branch, 
 [12]: images/mastertotestbranch.png
 [13]: images/arrowbylocal.png
 [14]: https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html
+[15]: images/reference.png
+[16]: images/local.png
 [18]: https://developer.ibm.com/answers/questions/?community=devops-services (Bluemix DevOps Services forum)
 [19]: mailto:hub%40jazz.net
 [20]: /docs
