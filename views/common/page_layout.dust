@@ -37,8 +37,9 @@
 				</div>
 			</div>
 
-			{>"common/footer"/}
-
+			{@if cond="'{resourcename}' != 'Support'"}
+				{>"common/footer"/}
+			{/if}
 		</div>
 		{>"common/google_analytics"/}
 	</body>
