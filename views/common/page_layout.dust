@@ -37,9 +37,9 @@
 				</div>
 			</div>
 
-			{@if cond="'{resourcename}' != 'Support'"}
+			{@ne key="Support" value=resourcename}
 				{>"common/footer"/}
-			{/if}
+			{/ne}
 		</div>
 		{>"common/google_analytics"/}
 	</body>
