@@ -1,4 +1,4 @@
-# Develop with Bluemix Live Sync and Node.js
+# Get started with Bluemix DevOps Services
 
 Last modified: 17 February 2015
 
