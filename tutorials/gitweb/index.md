@@ -146,14 +146,14 @@ To rebase, you must compare the contents of one branch to another by modifying t
 
 1. Click the **REFERENCE field** again.
 
-1. Next to local, click __>__ to expand the list of local branches again.
+1. Next to local, click **>** to expand the list of local branches again.
 
 1. Compare the contents of the local master and testbranch branches by clicking the **testbranch** row.
 ![Comparing testbranch to master][12]
 
 1. Click the **Rebase** icon <img src="images/rebase.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">.
 
-1. Click the **REFERENCE field**.
+1. Click the **REFERENCE field** again.
 
 1. Next to origin, click **>** to expand the list of remote branches.
 
