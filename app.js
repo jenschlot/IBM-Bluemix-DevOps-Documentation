@@ -63,6 +63,10 @@ app.get(['/learn', '/learn/what'], function(req, res) {
 	res.redirect('/docs/overview');
 });
 
+app.get('/docs/trackplan/trackplanfg/*', function(req, res) {
+	res.redirect('/docs/reference/trackplan');
+});
+
 _.each(['/docs'],
        function(i) {
 		app.get(i, routes.docs)

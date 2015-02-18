@@ -27,8 +27,8 @@
 		{
 			"title": "IBM DevOps Services",			// The text on the sidebar
 			"icon": "tmp20x20.png",					// [optional] The icon to the left. This should have a transparent background.
-			"uri_prefix": "/docs/"					// Where the link should point. MUST HAVE A TRAILING SLASH
-													//     correct: "/docs/" ... incorrect: "/docs"
+			"uri_prefix": "/docs"					// Where the link should point. To highlight properly, this should exactly match
+													// some document's "uri_prefix" property.
 		}
 	]
 }
