@@ -38,7 +38,9 @@ In a moment, your copy of the sample Sentiment Analysis App project opens. If yo
 With the Track & Plan service in DevOps Services, you can manage projects by using an agile approach. You can create sprints and rank and assign stories, tasks, and defects to members of your development team. To keep this tutorial brief, create one task and assign it to yourself.
 
 1. Near the top of the page, click **TRACK & PLAN**.
-2. In the OPEN lane, click **Create a work item**. Work items are grouped into the OPEN, IN PROGRESS, and RESOLVED lanes based on their status.
+2. If you don't see lanes labeled OPEN and IN PROGRESS, enter the Lanes view by clicking **Display as lanes**.
+![Click Display as lanes button][38]
+3. In the OPEN lane, click **Create a work item**. Work items are grouped into the OPEN, IN PROGRESS, and RESOLVED lanes based on their status.
 
 You can create different types of work items depending on what you're planning. For example, to describe a minor feature update, you might create a task item. To track the work to fix a problem, you might create a defect item. 
 
