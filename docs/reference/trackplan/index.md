@@ -2,10 +2,22 @@
 
 # Track & Plan reference for Bluemix DevOps Services
 
-Last updated: 17 February 2015
+Last updated: 1 February 2015
+
+## Contents
+* [Creating work items](#creatingwis)
+* [Searching for a work item](#searchingwis)
+* [Work item states](#wistates)
+* [Work item display options](#widisplay)
+* [Filtering work items](#filteringwis)
+* [Viewing and organizing your work items](#organizingwis)
+* [Triaging work items](#triaging)
+* [Planning the work for your team](#planning)
+* [Reviewing the team's progress](#progress)
 
 With the Track & Plan feature, you track work for a project through work items. For example, if you find a bug in someone's code, you can open a Defect work item and assign it to the person who owns the code. 
 
+<a name='creatingwis'></a>
 ##Creating work items
 You can create a work item in more than one way, and how you set up a work item depends on how you create it. For example, if you create a work item in the "My work" view, you own the work item automatically. To set the attributes, click the icons, as shown in the following image. You can also open and edit a work item's attributes by clicking the work item's summary. 
 
@@ -15,16 +27,19 @@ Note: Some attributes are available for only specific work item types. For examp
 
 For more information about creating work items and defining their attributes, [see the documentation for IBM&reg; Rational Team Concert&#8482;][rtcWorkItemDoc]. 
 
+<a name='searchingwis'></a>
 ##Searching for a work item
 You can search for a work item by ID or keyword. As you type, the results are displayed under the search field.
 
 ![Search field](images/search.png)
 
+<a name='wistates'></a>
 ##Work item states
 - **Open**: The work item is not started yet. Its status is New.
 - **In progress**: The work item is started. Its status is In progress.
 - **Resolved**: The work item is finished. Its status is Complete or Invalid.
 
+<a name='widisplay'></a>
 ##Work item display options
 ###List 
 When you view work items in a list, each work item spans the width of the section. You can see more information by expanding it. Attributes are displayed as icons.
@@ -41,7 +56,7 @@ When you view work items in lanes, the work items are grouped by states. Attribu
 
 ![Lane display](images/lane_view.png)
 
-
+<a name='filteringwis'></a>
 ##Filtering work items
 You can filter work items based on keywords or on values for specific attribute types in the following views:
 - My work
@@ -64,6 +79,7 @@ If you type a keyword, the work item summaries that contain that keyword are dis
 |!Severity|!Major|
 
 
+<a name='organizingwis'></a>
 ##Viewing and organizing your work items
 
 - To view work items that you own, see the "My work" view. 
@@ -73,9 +89,9 @@ If you type a keyword, the work item summaries that contain that keyword are dis
 - To view your work item activity, see the "My activities" view. The "My Events" section lists the work items that you were mentioned in. The "My Subscriptions" section lists all of the changes that occurred in work items that you are subscribed to.
 
 
-##Triaging, planning, and reviewing project work
 
-###Triaging work items
+<a name='triaging'></a>
+##Triaging work items
 You can see new work items that team members or guests create in the "Incoming work" view. Work items are displayed in that view when they are not assigned to a sprint. As soon as they are assigned to a sprint, they are no longer displayed in the "Incoming work" view.
 
 In the “Incoming work” view, you can triage work items in several ways: 
@@ -86,8 +102,8 @@ In the “Incoming work” view, you can triage work items in several ways:
 ![Triaging work items in the Incoming work view](images/incoming_work_attributes.png)
 
 
-
-###Planning the work for your team
+<a name='planning'></a>
+##Planning the work for your team
 In the "Sprint planning" view, you can plan sprints by dragging ranked work items between sprints. To reassign work items, drag them between the lanes.  Tip: If you keep the backlog open, you can move work items easily from the backlog to a specific sprint. You can keep the backlog open by clicking the **Pin** icon.
 
 You can also review statistics about the sprint's progress:
@@ -95,10 +111,12 @@ You can also review statistics about the sprint's progress:
 - Work items completed vs. total work items
 - Story points achieved vs. total story points estimated
 
-####Ranking work items
+###Ranking work items
 While you plan a sprint, review the work items in the "Backlog" and "Sprint planning" views to rank the work items. Assign story points to work items and  assign them a rank by dragging work items into position.
 
-###Reviewing the team's progress
+
+<a name='progress'></a>
+##Reviewing the team's progress
 In the "Team's work" view, you can review all of the work items that are assigned to the team and the statistics for the team's progress.
 
 You can also review these available statistics:
