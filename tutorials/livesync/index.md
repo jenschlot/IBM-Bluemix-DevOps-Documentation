@@ -1,4 +1,4 @@
-#Develop with Bluemix Live Sync
+#Develop with Bluemix Live Sync and Node.js
 
 Last modified: 17 February 2015
 
