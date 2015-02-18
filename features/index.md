@@ -51,7 +51,7 @@ The Web IDE provides smart features where you can do these tasks:
 
    * Content assist for CSS, HTML, and JavaScript
 
-   * Syntax highlighting for many popular programming languages
+   * Syntax highlighting for over 20 popular programming languages
 
    * Syntax highlighting, validation and content assist for Cloud Foundry manifest files
 
@@ -63,17 +63,21 @@ The Web IDE provides smart features where you can do these tasks:
 
    * Key-bindings for vi and emacs users 
 
+   * Quick fixes to automatically solve common programming problems in JavaScript
+
 ![Integrated source code editor](/features/images/jazzhub-editor.png)											
 
 ##Bluemix Live Sync
 
-With node.js apps, you can make changes to static files, like HTML or CSS, and have them immediately included in the deployed app by using the IBM® Bluemix™ Live Sync feature. Refresh the app in your browser to see the changes. You can also edit code, however, you must click the Restart icon to have those changes reflected in the deployed app.
+With node.js apps, you can make changes to static files, like HTML or CSS, and have them immediately included in the deployed app by using the IBM® Bluemix™ Live Sync feature. Refresh the app in your browser to see the changes. You can also edit code, and use the **Quick Restart** icon restart the Node run time in a matter of seconds, without redeploying the app. You can use the Debugger to create breakpoints and inspect variables in your code so you can isolate problem areas as you work.
 
 ![Bluemix Live Edit](/features/images/live_edit.png)	
 
+For more information about Bluemix Live Sync, [see the documentation for IBM&reg; Bluemix&trade;](https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html#bluemixlive).
+
 ## Build and deploy your way
 
-Configure your project to automatically deploy whenever a project member pushes code to your Git repository or Jazz&trade;  Source Code Management (SCM) repository to [IBM&reg; Bluemix&trade;](//bluemix.net/ "Bluemix"). You can simply deploy files as they are pushed, or you
+Configure your project to automatically deploy whenever a project member pushes code to your Git repository or Jazz&trade;  Source Code Management (SCM) repository to [Bluemix](//bluemix.net/ "Bluemix"). You can simply deploy files as they are pushed, or you
 can configure more advanced build options to be deployed automatically.
 
 To learn more about configuring and using the various build and deploy capabilities,
@@ -94,7 +98,7 @@ Get a quick view of the projects you own, belong to, and
  like. See project invitations and requests too. Just another way 
 to help you stay organized.
 
-![My Projects](/features/images/MyStuff.png)																		 
+![My Projects](/features/images/my_projects.png)																		 
 
 ## Built-in source code management						
 
