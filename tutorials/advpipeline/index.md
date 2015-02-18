@@ -89,13 +89,15 @@ Create a stage called FVT that contains a deploy job that takes input from the B
     
 Name  | Value
 ------------- | -------------
-CF_HOSTNAME | DeliveryPipelineSample
+CF_HOSTNAME | DeliveryPipelineSample-[uniqueText]
 TEST_URL  | set_in_job
 CF_DOMAIN | mybluemix.net
 
+Where `[uniqueText]` is a string of your own choosing. If the hostname is not unique across Bluemix, the deployment will fail. 
+
 When finished, click **SAVE**. 
 
-You now have an FVT stage that will take successful builds from the Build stage, run a deploy job and, using a test script, run tests against the deployed application.
+You now have an FVT stage that will take successful builds from the Build stage, run a deploy job and, using the included test script, run tests against the deployed application.
 
 ### Create the PROD-US South stage
 
