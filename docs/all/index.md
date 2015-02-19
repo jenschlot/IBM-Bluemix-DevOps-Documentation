@@ -1,79 +1,4 @@
-### [General](#gen) | [Tutorials](#tut) | [Reference](#ref) | [Articles](#articles) | [Blogs](#blogs) | [Samples](#samples) | [Videos](#videos) | [Workshops](#workshops)
-
-<a id="gen"></a>
-
--------------------------------------
-
-## General
-
-### [Overview of IBM Bluemix DevOps Services](/docs/overview)
-
-### [What's new](/whatsnew)
-
-### [Features](/features)
-
-### [FAQ](/docs/faq)
-
-### [Glossary](/docs/glossary)
-
-### [Support](/support)
-
-<a id="tut"></a>
-
---------------------
-
-## Tutorials
-
-### Tutorial: [Getting Started with Bluemix and Bluemix DevOps Services using Node.js](/tutorials/jazzeditor)
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, nodejs, git, web_ide, pipeline, cloud_foundry
-
-### Tutorial: [Getting Started with Bluemix and Bluemix DevOps Services using Java](/tutorials/jazzeditorjava)
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, git, web_ide, pipeline
-
-### Tutorial: [Getting started with tracking and planning in Bluemix DevOps Services](/tutorials/trackplan)
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> track_and_plan
-
-### Tutorial: [Developing with Git in the Bluemix DevOps Services Web IDE](/tutorials/gitweb)
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> git, web_ide
-
-### Tutorial: [Developing Bluemix applications in Node.js with the Web IDE](/tutorials/jazzweb)
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, nodejs, web_ide, git, pipeline, manifest
-
-### Tutorial: [Developing Bluemix applications in Java with Eclipse and IBM Bluemix DevOps Services](/tutorials/jazzrtc)
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, eclipse, jazz_scm, pipeline, rtc
-
-<a id="ref"></a>
-
-----------------------------------------
-
-## Reference
-
-
-### Reference: [Configure Bluemix billing for Bluemix DevOps Services](/docs/reference/billing)
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, cost
-
-### Reference: [Start a project in Bluemix DevOps Services](/docs/reference/startproject)
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  projects
-
-### Reference: [Administer a  project in Bluemix DevOps Services](/docs/reference/projectadmin)
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  projects
-
-### Reference: [Work locally with Bluemix DevOps Services projects and Git source control](/docs/reference/gitclient)
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  git
-
-### Reference: [Work locally with Bluemix DevOps Services projects and Jazz source control](/docs/reference/jazz_scm_client)
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  jazz_scm
-
-
-### Reference: [Git reference](/docs/reference/git)
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  git
-
-### Reference: [Build & Deploy reference](/docs/reference/deploy)
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, pipeline
-
-
-### Reference:  [Track & Plan](/docs/reference/trackplan)
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> track_and_plan
+### [Articles](#articles) | [Blogs](#blogs) | [Samples](#samples) | [Videos](#videos) | [Workshops](#workshops)
 
 
 <a id="articles"></a>
@@ -186,7 +111,7 @@ ___________
 ### Sample: [Twitter influence analyzer (Java)](https://hub.jazz.net/project/jstart/Twitter%20Influencer%20Analyzer%20%28Java%29/overview)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> java, klout, mongodb, bluemix, eclipse
 
-### Sample: [Sentiment analysis](http://hub.jazz.net/project/Scott/Sentiment%20Analysis/overview)
+### Sample: [Sentiment analysis](https://hub.jazz.net/project/ibmdevopsservices/Sentiment Analysis App/overview)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> nodejs, sentiment
 
 ### Sample: [Starfighter](http://hub.jazz.net/project/bryancboyd/Starfighter/overview)
