@@ -1,6 +1,6 @@
 #Getting started with Bluemix and Bluemix DevOps Services using Node.js
 
-Last modified: 13 February 2015
+Last modified: 19 February 2015
 
 ## Contents
 * [Create an app with IBM Bluemix](#create_bluemix_app)
@@ -8,7 +8,7 @@ Last modified: 13 February 2015
 * [Push changes to the Git repository by using the command line](#push_to_git)
 * [Push changes to the Git repository by using the Web IDE](#push_with_web_ide)
 * [Deploy by using the Web IDE](#deployment)
-* [Bluemix Live Sync](#bluemix_live_sync)
+* [Update a running app automatically with Bluemix Live Sync](#bluemix_live_sync)
 * [Summary](#summary)
  
 <a name='create_bluemix_app'></a>
@@ -206,12 +206,21 @@ By clicking the Play button in the Run bar, you deploy the current state of your
 Both the command-line tools and the Web IDE are effective for rapid, solo development, but the Delivery Pipeline feature adds the security of controlling what is pushed, especially in team environments. With the Delivery Pipeline feature, you always know that the code running in the app matches a known state in the repository, instead of whatever was in your working directory when you pushed changes.
 
 <a name='bluemix_live_sync'></a>
-###Bluemix Live Sync
 
-With Bluemix Live Sync, you can work in Live Edit mode to quickly update an app while it runs on Bluemix. If you are building a Node.js app by using the Web IDE in Live Edit mode, your changes are propagated to your running app without redeployment. For more information, see 
-[Bluemix Live Sync](https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html#bluemixlive).
+###Update a running app automatically with Bluemix Live Sync
+
+With Node.js apps, you can make changes to static files, like HTML or CSS, and have them immediately propagated to the deployed app by using the IBM® Bluemix™ Live Sync feature. 
+
+In the Web IDE, turn on Live Edit and see your updated static files by refreshing the app in your browser to see the changes.  If you update a node module, use the **Quick Restart** icon to restart the Node run time in a matter of seconds, without redeploying the app. 
 
 ![Run bar with Live Edit](images/live_edit.png)
+
+You can use the Debugger to create breakpoints and inspect variables in your node modules so you can isolate problem areas as you work.
+
+For more information, see 
+[Bluemix Live Sync](https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html#bluemixlive).
+
+
 
 ---
 <a name='summary'></a>

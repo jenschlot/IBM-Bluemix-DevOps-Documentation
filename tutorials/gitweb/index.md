@@ -103,6 +103,7 @@ That looks better! Click the **Live Edit** button again to stop using Bluemix Li
 ---
 <a name='deliver_a_change_to_the_repository'></a>
 ##Deliver a change to the repository
+
 You save your changes to your Bluemix DevOps Services project.  Because this project uses a Git repository, you first make a commit to record all of your changes to your local branch. Then, you push the commit to the remote branch.
 
 1. Return to your YummyRation project page on Bluemix DevOps Services.
@@ -124,6 +125,7 @@ You save your changes to your Bluemix DevOps Services project.  Because this pro
 ---
 <a name='add_changes_to_the_master_branch'></a>
 ##Rebase to add changes to the master branch
+
 After you confirm a change in a test branch, you can introduce its code to the master branch.  To do so, you copy the contents of the testbranch branch to the master branch by using a rebase command. When you use the rebase command, you place the commits from the testbranch branch after the commits on the master branch.  For more information about the rebase command, [review the official Git documentation](http://git-scm.com/book/ch3-6.html).
 
 To rebase, you must compare the contents of one branch to another by modifying the references.

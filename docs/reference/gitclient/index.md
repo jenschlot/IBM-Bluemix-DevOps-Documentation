@@ -168,7 +168,11 @@ If you use Eclipse, you can use the Rational Team Concert plug-in to access your
 <a name='livesync'></a>
 ## Bluemix Live Sync
 
-If you are building a Node.js application, you can use Bluemix™ Live Sync to quickly update the application instance on Bluemix and develop as you would on the desktop without redeploying. When you make a change, you can see that change in your running Bluemix application immediately. Bluemix Live Sync works from both the command line and in the Web IDE. For more information about Live Sync, [see the Bluemix Live Sync documentation][1].
+With Node.js apps, you can make changes to static files, like HTML or CSS, and have them immediately propagated to the deployed app by using the IBM® Bluemix™ Live Sync feature. 
+
+In the Web IDE, turn on Live Edit and see your updated static files by refreshing the app in your browser to see the changes.  If you update a node module, use the **Quick Restart** icon to restart the Node run time in a matter of seconds, without redeploying the app. 
+
+You can use the Debugger to create breakpoints and inspect variables in your node modules so you can isolate problem areas as you work. For more information about Live Sync, [see the Bluemix Live Sync documentation][1].
 
 <a name='etools'></a>
 ## IBM Eclipse Tools
