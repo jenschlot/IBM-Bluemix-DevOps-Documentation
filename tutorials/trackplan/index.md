@@ -1,7 +1,7 @@
 
 # Getting started with tracking and planning in Bluemix DevOps Services
 
-Last modified: 11 February 2015
+Last modified: 19 February 2015
 
 You can use the Track & Plan feature in IBM&reg; Bluemix&trade; DevOps Services to manage any type of project by using an agile approach. After you enable the Track & Plan feature, you can start getting organized right away by creating and assigning work items for your project.
 
@@ -9,7 +9,7 @@ The Track & Plan tools can simplify your project planning and speed your workflo
 
 The Track & Plan feature is useful for supporting both large and small teams, and for managing complex and simple projects. 
 
-You can use the Track & Plan feature with all of your public IBM Bluemix DevOps Services projects at no cost. If you use the feature with private projects, a fee might apply. For more details, [see the subscription details][22].
+You can use the Track & Plan feature with all of your public IBM Bluemix DevOps Services projects at no cost. If you use the feature with private projects, a fee might apply. For more details, [see the Pricing page][22].
 
 To try the Track & Plan feature, complete this tutorial. You'll start a simple, public, agile project and will use basic story, task, and defect work items to plan a chat page for a website.
 
@@ -66,10 +66,10 @@ IBM Bluemix&trade; is a cloud-based software hosting and deployment service. To 
 2. In the **Create a work item** field, type a summary for the first work item: `Create a simple chat page for our site.` Press **Enter** to create the task.  
 **Note**: The default work item type is **Task** (<img src="/tutorials/trackplan/images/task.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">). 
 
-3. Add more attributes to your task. In the Quick Create field, click the
+3. Add more attributes to your task. Click the
 **Priority** icon (<img src="/tutorials/trackplan/images/nopriority.gif"
 align="bottom" style="display: inline; margin: 0px; border-style: none;
-margin-bottom: -10px;">) in the title bar to set the priority to **High**. 
+margin-bottom: -10px;">) to set the priority to **High**. 
 
 4. Click the tag icon (<img src="/tutorials/trackplan/images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and in the tag field, type `website`. To assign the tag, press **Enter**.  
 **Tip**: A tag can help you group related work items. For example, you can use the filtering options to view only the items that have a certain tag.    
@@ -86,7 +86,7 @@ You use these icons to set the work item attributes. Don't worry if you aren't s
 8. Use the icons to set these parameters for the work item:
  * Set the type to **Defect** (<img src="/tutorials/trackplan/images/defect.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">).
  * Set the severity (<img src="/tutorials/trackplan/images/severity.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) to **Major**.   
-**Note**: You can assign severity to defects only.
+**Note**: You can assign severity only to defects.
  * Add a tag (<img src="/tutorials/trackplan/images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) named `messages`. 
 
  * Set the priority (<img src="/tutorials/trackplan/images/priority.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) to **High**.  
@@ -98,7 +98,7 @@ Notice the new text after your summary. When you set an attribute, the text code
 <!--- <iframe width="640" height="360" src="//www.youtube.com/embed/t5xJnL_jinc" frameborder="0" allowfullscreen></iframe>
 <div align = center>Video: Adding attributes while you create a work item</div> -->
 
-6. Click **Incoming Work** and evaluate your new work items. They are ranked by severity so that you know which tasks are most important. You can either send incoming work items to your backlog to be included on a sprint (<img src="/tutorials/trackplan/images/triagetobacklog.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) or you can delete (<img src="/tutorials/trackplan/images/trash.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) them, which marks the work item as invalid and moves it to the **TRASHED** tab.
+6. Click **Incoming Work** and evaluate your new work items. They are ranked by severity so that you know which tasks are most important. You can either send incoming work items to your backlog to be included on a sprint (<img src="/tutorials/trackplan/images/triagetobacklog.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) or you can delete (<img src="/tutorials/trackplan/images/trash.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) them, which marks the work item as invalid and moves it to the **TRASHED** section.
 
   ![Incoming Work][26]
 
@@ -153,8 +153,8 @@ Notice the new text after your summary. When you set an attribute, the text code
 3. Add a few more work items to complete this project.
 
   1. Add the following work items and attributes by using the method that you like best. Remember, you can assign or modify attributes after you created the work items.
-    * As a user, I'd like to be able to log into your chat with my Facebook or Google+ account. #login $high 
-    * Integrate OAuth to the chat site. *task #login #website $high
+    * `As a user, I'd like to be able to log into your chat with my Facebook or Google+ account. #login $high` 
+    * `Integrate OAuth to the chat site. *task #login #website $high`
   2.  Make the new task a child of the new story, "As a user, I'd like to be able to log into your chat with my Facebook or Google+ account."
 
   3. Refresh your browser and then click the plus signs (+) next to your story summaries to expand your parent work items.
@@ -187,16 +187,14 @@ Your backlog should look like this image:
 
 3. Before you populate a sprint, you rank the work items in your backlog. If you use agile management techniques with your projects, you probably use a similar process during your sprint planning meetings.
 
-  1. Collapse the parent items and notice how each work item's rank is not ranked. You can easily change this status. Drag the "Incoming messages are not reaching other chat participants" task to the top of the list and see how its rank changes to 1.  
-<!--- Commenting out videos until they are updated -->
+  1. Collapse the parent items and notice how each work item's rank is not ranked. You can easily change this status. Drag the "Incoming messages are not reaching other chat participants" task to the top of the list and see how its rank changes to 1.  <!--- Commenting out videos until they are updated -->
 <!--- <iframe width="640" height="360" src="//www.youtube.com/embed/twr30-5wcfc" frameborder="0" allowfullscreen></iframe>
 <div align = center>Video: Ranking work items in the backlog </div> -->
 
-
-  2. Rank the rest of the work items in this order:  
+4. Rank the rest of the work items in this order:  
      ![Ranked work items in the backlog][11]
      
-4. Assign story points to the stories.  In agile projects, story points are a team-determined scale that reflects the effort required to implement a story. 
+5. Assign story points to the stories.  In agile projects, story points are a team-determined scale that reflects the effort required to implement a story. 
 
   1. Next to each story, click **0 pts** and from the list, select **20 pts**.  
 **Note**: You can expand each story by clicking the plus sign (+) to review its child items.
@@ -262,9 +260,9 @@ You set up your sprint and are ready to start work.
   1. Click **Incoming Work**.
 
   2. Click in the **Create a work item** field and create three work items:
-    * As a user, I'd like your chat site to look good on my phone. #mobile $low 
-    * Test site on mobile devices and optimize Bootstrap and CSS files to improve performance. *task #mobile #website $low
-    * The server handles the requests too slowly. *defect #server $high !major 
+     1. `As a user, I'd like your chat site to look good on my phone. #mobile $low`
+     1. `Test site on mobile devices and optimize Bootstrap and CSS files to improve performance. *task #mobile #website $low`
+     1. `The server handles the requests too slowly. *defect #server $high !major` 
 
   3. Send all of the work items to the backlog by using the **Triage to Backlog** icon.
 
@@ -280,7 +278,7 @@ You have a good overview of the Track & Plan feature and see that you can use it
 
 [1]: https://hub.jazz.net
 [2]: /tutorials/trackplan/images/myprojectslanding.png
-[3]: https://bluemix.net/ (Register for Bluemix)
+[3]: https://apps.admin.ibmcloud.com/manage/trial/bluemix.html (Register for Bluemix)
 [4]: /tutorials/trackplan/images/restyle_newprojectselection.png
 [5]: /tutorials/trackplan/images/restyle_wiicons.png
 [6]: https://bluemix.net/#/pricing/cloudOEPaneId=pricing 

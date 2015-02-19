@@ -164,10 +164,10 @@ Well done! The Track & Plan service keeps administrative overheard to a minimum 
 In only a few minutes, you forked a Node.js app project, planned an update to the app, made the update, and deployed the updated app to Bluemix--all without leaving your browser. 
 Now that you know the basics, you might want to explore this information:
 
+- [Integrate DevOps Services into your preferred development environment][37]
+- [Develop like you would on the desktop by using Bluemix Live Sync][40]
 - [Get started with the Track & Plan feature][35] 
 - [Build & Deploy reference (Pipeline)][36]
-- [Integrate DevOps Services into your preferred development environment][37]
-
 
 [1]: https://bluemix.net/ (Bluemix)
 [2]: https://hub.jazz.net/project/ibmdevopsservices/Sentiment%20Analysis%20App
@@ -200,3 +200,4 @@ Now that you know the basics, you might want to explore this information:
 [37]: /tutorials/clients
 [38]: /tutorials/devopsweb/images/displayAsLanes.png
 [39]: /docs/reference/billing/
+[40]: /tutorials/livesync

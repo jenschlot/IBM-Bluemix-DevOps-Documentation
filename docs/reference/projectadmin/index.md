@@ -35,13 +35,15 @@ A project owner can do everything that a project admin can do and more. Project 
 ----
 ##Managing projects
 
-A common task for project owners and admins is to manage the project's settings and members. When you sign in to DevOps Services, the MY PROJECTS page opens. The REQUESTS tab on this page lists any incoming requests from others to join projects for which you are an admin. As an admin, you can accept or reject these requests. You can also invite members to join by using the **Invite Members** button on the member page for these projects.
+A common task for project owners and admins is to manage the project's settings and members. When you sign in to DevOps Services, the MY PROJECTS page opens. The REQUESTS tab on this page lists any incoming requests from others to join projects for which you are an admin. As an admin, you can accept or reject these requests. 
+
+For a project for which you are an owner or admin, you can invite new members from the MEMBERS tab of the project page by clicking the **Invite Members** button.
 
 As a project owner or admin, you can also change your project settings. To do so, click the **Settings** icon.
 
 ![Project settings gear icon][7]
 
-On the project settings page, you can add or change the project image, modify the project description, make the project public or private, and enable tracking and planning options. If you are the project owner, you can reassign ownership or delete the project entirely.
+On the project settings page, on the OVERVIEW tab, you can add or change the project image and modify the project description.  On the OPTIONS tab, you can make the project public or private and enable or disable Track & Plan. If you are the project owner, you can reassign ownership or delete the project entirely.
 
 ----
 ##Promoting or demoting project admins
@@ -60,12 +62,12 @@ To promote others to project admins, complete these steps:
 3. When the GENERAL page opens, click the PROJECT ADMINS page in the navigation pane.
 ![Project Admins page link in navigation pane][5]
 
-4. On the Project Admins page, select the members to promote and click **PROMOTE**.
+4. On the PROJECT ADMINS page, select the members to promote and click **PROMOTE**.
 ![Promote button on the project admins page][6]
 
 The newly promoted members are listed as project admins and an email is sent that shares the good news.  
 
-To demote project admins, on the Project Admins page, select the admins whose privileges to remove and click **DEMOTE**.
+To demote project admins to be regular project members, on the Project Admins page, select the admins whose privileges to remove and click **DEMOTE**.
 ![Project admin selected for demotion][8]
 
 The former project admins are listed as members and an email is sent that notifies the former admins of the change.

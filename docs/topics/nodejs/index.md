@@ -38,12 +38,12 @@ Last updated: 29 June 2014 <img src="../all/images/tag.png"  align="bottom" styl
 Last updated: 27 June 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> eclipse, nodejs, mongodb, angularjs, Express, bluemix
 
 ### Article: [Build a sentiment analysis application with Node.js, Express, sentiment, and ntwitter](http://www.ibm.com/developerworks/library/wa-nodejs-app/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
-Last updated: 27 June 2013 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> nodejs, Express, sentiment, ntwitter, PaaS, bluemix
+Last updated: 27 June 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> nodejs, Express, sentiment, ntwitter, PaaS, bluemix
 
 ### Blog: [Creating a Node.js application with JazzHub](https://www.ibm.com/developerworks/community/blogs/jlmarechaux/entry/creating_a_node_js_application_with_jazzhub?lang=en)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  
 Last updated: 26 January 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> nodejs, manifest, bluemix
 
-### Sample: [Sentiment analysis](http://hub.jazz.net/project/Scott/Sentiment%20Analysis/overview)  
+### Sample: [Sentiment analysis](https://hub.jazz.net/project/ibmdevopsservices/Sentiment Analysis App/overview )  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> nodejs, sentiment
 
 ### Sample: [Starfighter](http://hub.jazz.net/project/bryancboyd/Starfighter/overview)  
