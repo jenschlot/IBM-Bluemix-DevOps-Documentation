@@ -1,11 +1,11 @@
 #Developing Bluemix applications in Java with Eclipse and Bluemix DevOps Services
 
-Last modified: 11 February 2015
+Last modified: 13 February 2015
 
 Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM&reg; Bluemix&trade; DevOps Services, and the Rational&reg; Team Concert client for Eclipse. 
 
 ## Contents
-* [before you begin](#before_begin)
+* [Before you begin](#before_begin)
 * [Get your app (fork)](#fork_app)
 * [Deploy your app](deploy_app)
 * [Add the Delivery Pipeline service](add_pipeline)
@@ -13,9 +13,6 @@ Follow the steps in this tutorial to develop a Java&trade; application by using 
 * [Deliver your first change](#first_change)
 * [Add a test failure](#test_failure)
 * [Fix the bug](fix_bug)
-
-
-Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM&reg; Bluemix&trade; DevOps Services, and the Rational&reg; Team Concert client for Eclipse. 
 
 <a name='before_begin'></a>
 ##Before you begin
@@ -149,7 +146,7 @@ To see what happens when the build fails, add a failure to the JUnit tests.
 2. In the `index.html` file, on line 10, change the app name. 
 ![Edit App Name Again](/tutorials/jazzrtc/images/edit_code_2.png "Edit App Name Again")
 
-3. Deliver the changes. The deployment page shows a failed build, as you expected. The build was not deployed automatically. Only successful builds are deployed automatically. When you click the app link, the app name is not updated.
+3. Deliver the changes. DevOps Services shows a failed build, as you expected. The Build stage could not complete. Only successful builds are deployed automatically. When you click the app link, the app name is not updated.
 ![Failed Build](/tutorials/jazzrtc/images/build3_failure.png "Failed Build")
 
 4. Access the build logs and test results by clicking the build.

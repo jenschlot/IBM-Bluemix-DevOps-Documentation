@@ -20,7 +20,6 @@ If you use the Track & Plan feature to manage your project plans and work items,
  * [Bluemix Live Sync](#livesync)
  * [Eclipse Tools](#etools)
 
-
 ---
 <a name='command_line_git'></a>
 ## Access your repository by using command-line Git
