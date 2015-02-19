@@ -211,7 +211,7 @@ Both the command-line tools and the Web IDE are effective for rapid, solo develo
 
 With Node.js apps, you can make changes to static files, like HTML or CSS, and have them immediately propagated to the deployed app by using the IBM® Bluemix™ Live Sync feature. 
 
-In the Web IDE, turn on Live Edit and see your updated static files by refreshing the app in your browser to see the changes.  If you update a node module, use the **Quick Restart** icon to restart the Node run time in a matter of seconds, without redeploying the app. 
+In the Web IDE, turn on Live Edit and see your updated static files by refreshing the app in your browser.  If you update a node module, use the **Quick Restart** icon to restart the Node run time in a matter of seconds, without redeploying the app. 
 
 ![Run bar with Live Edit](images/live_edit.png)
 

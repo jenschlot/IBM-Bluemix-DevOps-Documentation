@@ -170,7 +170,7 @@ If you use Eclipse, you can use the Rational Team Concert plug-in to access your
 
 With Node.js apps, you can make changes to static files, like HTML or CSS, and have them immediately propagated to the deployed app by using the IBM® Bluemix™ Live Sync feature. 
 
-In the Web IDE, turn on Live Edit and see your updated static files by refreshing the app in your browser to see the changes.  If you update a node module, use the **Quick Restart** icon to restart the Node run time in a matter of seconds, without redeploying the app. 
+In the Web IDE, turn on Live Edit and see your updated static files by refreshing the app in your browser.  If you update a node module, use the **Quick Restart** icon to restart the Node run time in a matter of seconds, without redeploying the app.
 
 You can use the Debugger to create breakpoints and inspect variables in your node modules so you can isolate problem areas as you work. For more information about Live Sync, [see the Bluemix Live Sync documentation][1].
 
