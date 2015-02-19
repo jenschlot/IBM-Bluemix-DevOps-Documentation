@@ -90,7 +90,7 @@ Last updated: 23 September 2014 <img src="../all/images/tag.png"  align="bottom"
 ### Workshop: [Intro to Bluemix and DevOps Services, Part 2: Deploy an app that uses a Bluemix service](http://www.ibm.com/developerworks/cloud/library/cl-intro2-app/index.html)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
 Last updated: 23 September 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, pipeline, mongodb
 
-### Workshop: [Node.js Apps with IBM DevOps Services and Bluemix](https://developer.ibm.com/bluemix/docs/workshops/node-js-apps-ibm-devops-services-powered-jazzhub-ibm-codename-bluemix/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
+### Workshop: [Node.js Apps with IBM DevOps Services and Bluemix](https://developer.ibm.com/bluemix/documentation/workshops/node-js-apps-ibm-devops-services-powered-jazzhub-ibm-codename-bluemix/)  <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
 Last updated: 23 September 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, pipeline, edit, nodejs
 
 &copy; Copyright IBM Corporation 2013, 2015.
