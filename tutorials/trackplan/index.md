@@ -66,10 +66,10 @@ IBM Bluemix&trade; is a cloud-based software hosting and deployment service. To 
 2. In the **Create a work item** field, type a summary for the first work item: `Create a simple chat page for our site.` Press **Enter** to create the task.  
 **Note**: The default work item type is **Task** (<img src="/tutorials/trackplan/images/task.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">). 
 
-3. Add more attributes to your task. In the Quick Create field, click the
+3. Add more attributes to your task. Click the
 **Priority** icon (<img src="/tutorials/trackplan/images/nopriority.gif"
 align="bottom" style="display: inline; margin: 0px; border-style: none;
-margin-bottom: -10px;">) in the title bar to set the priority to **High**. 
+margin-bottom: -10px;">) to set the priority to **High**. 
 
 4. Click the tag icon (<img src="/tutorials/trackplan/images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) and in the tag field, type `website`. To assign the tag, press **Enter**.  
 **Tip**: A tag can help you group related work items. For example, you can use the filtering options to view only the items that have a certain tag.    
@@ -86,7 +86,7 @@ You use these icons to set the work item attributes. Don't worry if you aren't s
 8. Use the icons to set these parameters for the work item:
  * Set the type to **Defect** (<img src="/tutorials/trackplan/images/defect.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">).
  * Set the severity (<img src="/tutorials/trackplan/images/severity.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) to **Major**.   
-**Note**: You can assign severity to defects only.
+**Note**: You can assign severity only to defects.
  * Add a tag (<img src="/tutorials/trackplan/images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) named `messages`. 
 
  * Set the priority (<img src="/tutorials/trackplan/images/priority.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) to **High**.  
@@ -98,7 +98,7 @@ Notice the new text after your summary. When you set an attribute, the text code
 <!--- <iframe width="640" height="360" src="//www.youtube.com/embed/t5xJnL_jinc" frameborder="0" allowfullscreen></iframe>
 <div align = center>Video: Adding attributes while you create a work item</div> -->
 
-6. Click **Incoming Work** and evaluate your new work items. They are ranked by severity so that you know which tasks are most important. You can either send incoming work items to your backlog to be included on a sprint (<img src="/tutorials/trackplan/images/triagetobacklog.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) or you can delete (<img src="/tutorials/trackplan/images/trash.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) them, which marks the work item as invalid and moves it to the **TRASHED** tab.
+6. Click **Incoming Work** and evaluate your new work items. They are ranked by severity so that you know which tasks are most important. You can either send incoming work items to your backlog to be included on a sprint (<img src="/tutorials/trackplan/images/triagetobacklog.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) or you can delete (<img src="/tutorials/trackplan/images/trash.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">) them, which marks the work item as invalid and moves it to the **TRASHED** section.
 
   ![Incoming Work][26]
 
@@ -153,8 +153,8 @@ Notice the new text after your summary. When you set an attribute, the text code
 3. Add a few more work items to complete this project.
 
   1. Add the following work items and attributes by using the method that you like best. Remember, you can assign or modify attributes after you created the work items.
-    * As a user, I'd like to be able to log into your chat with my Facebook or Google+ account. #login $high 
-    * Integrate OAuth to the chat site. *task #login #website $high
+    * `As a user, I'd like to be able to log into your chat with my Facebook or Google+ account. #login $high` 
+    * `Integrate OAuth to the chat site. *task #login #website $high`
   2.  Make the new task a child of the new story, "As a user, I'd like to be able to log into your chat with my Facebook or Google+ account."
 
   3. Refresh your browser and then click the plus signs (+) next to your story summaries to expand your parent work items.
@@ -193,10 +193,10 @@ Your backlog should look like this image:
 <div align = center>Video: Ranking work items in the backlog </div> -->
 
 
-  2. Rank the rest of the work items in this order:  
+1. Rank the rest of the work items in this order:  
      ![Ranked work items in the backlog][11]
      
-4. Assign story points to the stories.  In agile projects, story points are a team-determined scale that reflects the effort required to implement a story. 
+5. Assign story points to the stories.  In agile projects, story points are a team-determined scale that reflects the effort required to implement a story. 
 
   1. Next to each story, click **0 pts** and from the list, select **20 pts**.  
 **Note**: You can expand each story by clicking the plus sign (+) to review its child items.
