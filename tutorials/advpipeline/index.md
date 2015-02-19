@@ -32,7 +32,7 @@ After you explore the project, make your own copy of it by forking it:
 3. Enter a name for your project, and make sure that the box **Make this a Bluemix Project** is selected.
 4. Leave the other settings as they are, and then click **CREATE**.
 
-![Fork project dialogue][1]
+<!-- ![Fork project dialogue][1] -->
 
 In a moment, your copy of the sample CloudTrader project opens. If you leave the project, you can find it by clicking **MY PROJECTS** on the navigation bar at the top of the page.
 
@@ -155,10 +155,8 @@ You now have a stage that, once the stage that precedes it completes, takes inpu
 ---
 ## Summary
 
-And there you have it: a fully configured pipline that incorporates building, deployment to multiple spaces and regions using scripts and environment variables, and automated testing. Click **Run Stage** on the Build stage to see it in action. From now on, new changes pushed to the project repository will trigger the automated build, test, and deploy process again. You can also disable automation in a pipeline if you like in a stage's options.
+And there you have it: a fully configured pipline that incorporates building, deployment to multiple spaces and regions using scripts and environment variables, and automated testing. Click **Run Stage** on the Build stage to see it in action. From now on, new changes pushed to the project repository will trigger the automated build, test, and deploy process again. If you want, you can also disable automation in a pipeline in a stage's configuration menu.
 
-[1]: 
 [2]: https://hub.jazz.net/project/idsorg/DeliveryPipeline-CFSample
-
 [30]: https://hub.jazz.net/register
 [32]: https://apps.admin.ibmcloud.com/manage/trial/bluemix.html
