@@ -187,13 +187,11 @@ Your backlog should look like this image:
 
 3. Before you populate a sprint, you rank the work items in your backlog. If you use agile management techniques with your projects, you probably use a similar process during your sprint planning meetings.
 
-  1. Collapse the parent items and notice how each work item's rank is not ranked. You can easily change this status. Drag the "Incoming messages are not reaching other chat participants" task to the top of the list and see how its rank changes to 1.  
-<!--- Commenting out videos until they are updated -->
+  1. Collapse the parent items and notice how each work item's rank is not ranked. You can easily change this status. Drag the "Incoming messages are not reaching other chat participants" task to the top of the list and see how its rank changes to 1.  <!--- Commenting out videos until they are updated -->
 <!--- <iframe width="640" height="360" src="//www.youtube.com/embed/twr30-5wcfc" frameborder="0" allowfullscreen></iframe>
 <div align = center>Video: Ranking work items in the backlog </div> -->
 
-
-1. Rank the rest of the work items in this order:  
+4. Rank the rest of the work items in this order:  
      ![Ranked work items in the backlog][11]
      
 5. Assign story points to the stories.  In agile projects, story points are a team-determined scale that reflects the effort required to implement a story. 
@@ -262,9 +260,9 @@ You set up your sprint and are ready to start work.
   1. Click **Incoming Work**.
 
   2. Click in the **Create a work item** field and create three work items:
-    * As a user, I'd like your chat site to look good on my phone. #mobile $low 
-    * Test site on mobile devices and optimize Bootstrap and CSS files to improve performance. *task #mobile #website $low
-    * The server handles the requests too slowly. *defect #server $high !major 
+     1. `As a user, I'd like your chat site to look good on my phone. #mobile $low`
+     1. `Test site on mobile devices and optimize Bootstrap and CSS files to improve performance. *task #mobile #website $low`
+     1. `The server handles the requests too slowly. *defect #server $high !major` 
 
   3. Send all of the work items to the backlog by using the **Triage to Backlog** icon.
 
