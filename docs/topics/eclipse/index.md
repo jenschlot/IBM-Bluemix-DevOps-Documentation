@@ -1,10 +1,10 @@
 ### Tutorial: [Developing Bluemix applications in Java with Eclipse and Bluemix DevOps Services](/tutorials/jazzrtc)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, eclipse, jazz_scm, pipeline, rtc
 
-### Tutorial: [Setting up local clients to work with Git source control](/tutorials/gitclient)  
+### Tutorial: [Setting up local clients to work with Git source control](/docs/reference/gitclient)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> eclipse, git
 
-### Tutorial: [Setting up local clients to work with Jazz source control](/tutorials/jazz_scm_client)  
+### Tutorial: [Setting up local clients to work with Jazz source control](/docs/reference/jazz_scm_client)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> eclipse, jazz_scm
 
 
