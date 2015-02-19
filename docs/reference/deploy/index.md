@@ -1,6 +1,6 @@
 #Build & Deploy reference
 
-Last modified: 10 February 2015
+Last modified: 19 February 2015
 
 The Bluemix DevOps Services Build & Deploy feature, also known as Pipeline, automates the continuous deployment of your projects. In a project's Pipeline, sequences of stages retrieve input and run jobs, such as builds, tests, and deployments.
 
@@ -48,12 +48,12 @@ You can disable automatic builds that run when changes are pushed to your projec
 
 You can configure Bluemix DevOps Services projects to deploy to multiple Bluemix spaces. For example, you might configure three stages: one that deploys to a development space, another that deploys to a staging space, and a third that deploys to a production space.
 
-If your deployment stages all try to use the route that is specified in your project manifest file, a route collision occurs. For more information about preventing route collisions when you deploy to multiple stages, [see the Manifests section][6].
+If your deployment stages all try to use the route that is specified in your project manifest file, a route collision occurs. For more information about preventing route collisions when you deploy to multiple stages, [see the Manifest files section][6].
 
 By default, every time a build is completed or deploys in Pipeline, a deployment starts automatically. In later deploy stages, automatic deployment happens when both a build and the preceding stage succeed. 
 
 <a name="manifests"></a>
-###Manifests
+###Manifest files
 
 Manifest files, which are named `manifest.yml` in a project's root directory, control how your project is deployed to Bluemix. For information about creating manifest files for a project, [see the Cloud Foundry manifest documentation][2]. Bluemix is based on Cloud Foundry.
 
@@ -78,7 +78,7 @@ In addition to logs, you can view unit test results, generated artifacts, and co
 
 ---
 <a name="manual"></a>
-##Deployment from the Web IDE
+##Deployment using the Web IDE
 
 While you're working in the directory that contains your `manifest.yml` file, you can deploy whatever is in the Web IDE workspace to Bluemix by clicking the **Play** icon on the Run Bar. 
 
@@ -90,7 +90,7 @@ Whether you are using command-line tools or the Web IDE, both methods are effect
 
 
 <a name="runbar"></a>
-###The Run Bar explained
+###The Run Bar
 
 ![Annotated Run Bar screenshot][7]
 
