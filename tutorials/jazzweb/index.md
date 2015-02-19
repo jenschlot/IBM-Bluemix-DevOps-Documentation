@@ -143,7 +143,7 @@ While you're working in the directory that contains your `manifest.yml file`, yo
 
 ![The IDE Run bar][28]
 
-You can configure Web IDE deployment and the Delivery Pipeline service to use different app names. Then, you can use the Web IDE deployment for a personal test environment and the Delivery Pipeline deployment for a team integration environment. The Web IDE saves launch configurations; you can access them from the menu on the Run ar. 
+You can configure Web IDE deployment and the Delivery Pipeline service to use different app names. Then, you can use the Web IDE deployment for a personal test environment and the Delivery Pipeline deployment for a team integration environment. The Web IDE saves launch configurations; you can access them from the menu on the Run bar. 
 
 Whether you are using command-line tools or the Web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment via Pipeline so that you can control what is being pushed. By using automatic deployment, you know that the code that is running in the app matches a known state in the repository. In contrast, the Web IDE deploys whatever is in your working directory when you push.
 

@@ -1,7 +1,7 @@
 
 # Getting started with tracking and planning in Bluemix DevOps Services
 
-Last modified: 11 February 2015
+Last modified: 19 February 2015
 
 You can use the Track & Plan feature in IBM&reg; Bluemix&trade; DevOps Services to manage any type of project by using an agile approach. After you enable the Track & Plan feature, you can start getting organized right away by creating and assigning work items for your project.
 
@@ -9,7 +9,7 @@ The Track & Plan tools can simplify your project planning and speed your workflo
 
 The Track & Plan feature is useful for supporting both large and small teams, and for managing complex and simple projects. 
 
-You can use the Track & Plan feature with all of your public IBM Bluemix DevOps Services projects at no cost. If you use the feature with private projects, a fee might apply. For more details, [see the subscription details][22].
+You can use the Track & Plan feature with all of your public IBM Bluemix DevOps Services projects at no cost. If you use the feature with private projects, a fee might apply. For more details, [see the Pricing page][22].
 
 To try the Track & Plan feature, complete this tutorial. You'll start a simple, public, agile project and will use basic story, task, and defect work items to plan a chat page for a website.
 
@@ -280,7 +280,7 @@ You have a good overview of the Track & Plan feature and see that you can use it
 
 [1]: https://hub.jazz.net
 [2]: /tutorials/trackplan/images/myprojectslanding.png
-[3]: https://bluemix.net/ (Register for Bluemix)
+[3]: https://apps.admin.ibmcloud.com/manage/trial/bluemix.html (Register for Bluemix)
 [4]: /tutorials/trackplan/images/restyle_newprojectselection.png
 [5]: /tutorials/trackplan/images/restyle_wiicons.png
 [6]: https://bluemix.net/#/pricing/cloudOEPaneId=pricing 
