@@ -42,9 +42,9 @@ for information about configuring your project and using the Track & Plan featur
 
 
 ### Where can I find help with Bluemix DevOps Service?
-If you need help, click **SUPPORT** in the navigation bar.
+If you need help, click **HELP**, **SUPPORT** in the main menu.
 
-If you are looking for tutorials, click **DOCS** in the navigation bar.
+If you are looking for tutorials, click **HELP**, **DOCS** in main men.
 
 You can review the [Academic resources](#resources) on this page.
 
@@ -59,8 +59,7 @@ students can start collaborating.
 ###Alan Kan: 
 ![Alan Kan](images/alankan.png) 
  
-“I am using Bluemix DevOps Services and Bluemix in my new Agile Development class to help students collaborate on group assignments and  
-get familiar with online collaboration practices using the latest tools used in the industry, without the hassle and cost of  
+“I am using Bluemix DevOps Services and Bluemix in my new Agile Development class to help students collaborate on group assignments and get familiar with online collaboration practices using the latest tools used in the industry, without the hassle and cost of  
 setting up servers."  - Alan Kan, Lecturer, Unitec Institute of Technology, New Zealand.   
 
 ---
