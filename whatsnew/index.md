@@ -33,7 +33,7 @@ The DEPLOY and DEPLOY as buttons for deploying to Bluemix directly from the Web 
 
 ![Run Bar](images/run-bar.png)
 
-For more information, [please see where did the Deploy button go in DevOps Services?](https://developer.ibm.com/devops-services/2015/01/13/deploy_button/)
+For more information, [see where did the Deploy button go in DevOps Services?](https://developer.ibm.com/devops-services/2015/01/13/deploy_button/)
 
 
 ### December 17, 2014
