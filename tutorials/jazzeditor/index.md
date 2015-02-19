@@ -7,7 +7,7 @@ Last modified: 13 February 2015
 * [Set up Git integration and auto-deployment](#git_integration_and_autodeployment)
 * [Push changes to the Git repository by using the command line](#push_to_git)
 * [Push changes to the Git repository by using the Web IDE](#push_with_web_ide)
-* [Deploy by using the Web IDE](#deployments)
+* [Deploy by using the Web IDE](#deployment)
 * [Bluemix Live Sync](#bluemix_live_sync)
 * [Summary](#summary)
  
@@ -48,12 +48,12 @@ Now that your app is running, you can see and modify its code by using IBM® Blu
 
 ---
 <a name='git_integration_and_autodeployment'></a>
-##Set up Git integration and auto-deployment with Bluemix DevOps Services
+##Set up Git integration and autodeployment with Bluemix DevOps Services
 
-You can work with your app code in many ways. For example, with auto-deployment, you can modify the code that runs in your app by pushing the changes to a 
-Git repository. You can use auto-deployment when you use the Build & Deploy capabilities of Bluemix DevOps Services.
+You can work with your app code in many ways. For example, with autodeployment, you can modify the code that runs in your app by pushing the changes to a 
+Git repository. You can use autodeployment when you use the Build & Deploy capabilities of Bluemix DevOps Services.
 
-1. To enable auto-deployment, go to the Bluemix overview for your app and 
+1. To enable autodeployment, go to the Bluemix overview for your app and 
 click **ADD GIT**. A Git repository is created and is populated with example code and a deployed app. 
 ![Add Git button](/tutorials/jazzeditor/images/bm-add-git-integration_NEW.png)
 You might be prompted to enter your password to verify that Bluemix DevOps Services can act on your behalf. 
@@ -140,7 +140,7 @@ You can continue to modify the example code and push the changes to the Git repo
 <a name='push_with_web_ide'></a>
 ##Push changes to the Git repository by using the Web IDE
 
-In addition to auto-deployment, IBM Bluemix DevOps Services provides other useful capabilities 
+In addition to autodeployment, IBM Bluemix DevOps Services provides other useful capabilities 
 for app development:
 
 * Hosting for public projects
@@ -197,7 +197,7 @@ app was deployed again. Then, click the URL link that is next to "Deploy to." Yo
 
 ###Run bar
 
-Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can deploy apps directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the Web IDE, you can deploy your code to Bluemix by clicking the Play icon in the Run bar. 
+Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can deploy apps directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the Web IDE, you can deploy your code to Bluemix by clicking the Play butto in the Run bar. 
 
 ![Run bar][1]
 
