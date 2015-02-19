@@ -1,6 +1,6 @@
 # Get started with Bluemix DevOps Services
 
-Last modified: 17 February 2015
+Last modified: 19 February 2015
 
 In this tutorial, you'll learn how to do these tasks:
 
@@ -21,14 +21,9 @@ You start with the sample project, [Sentiment Analysis App][2]. This Node.js app
 
 Before you start, [explore the live version of the sample project][27]. The app analyzes Twitter users' collective sentiment about a search phrase. 
 
-After you explore the project, make your own copy of it by forking it:
+After you explore the project, click the button below to create your own copy of it by forking and deploying it:
 
-1. Open the sample app's [Overview][2] page. 
-2. Click **Fork Project**.
-3. Enter a name for your project, and make sure that the boxes for **Add features for Scrum development** and **Make this a Bluemix Project** are selected.
-4. Leave the other settings as they are, and then click **CREATE**.
-
-![Create a copy of an existing project dialogue][3]
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/ibmdevopsservices/Sentiment.Analysis.App)
 
 In a moment, your copy of the sample Sentiment Analysis App project opens. If you leave the project, you can find it by clicking **MY PROJECTS** on the navigation bar at the top of the page. 
 

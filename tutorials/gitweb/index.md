@@ -2,7 +2,7 @@
 
 Last modified: 13 February 2015
 
-If you want to learn more about managing your Git repository, an open source code management system, with the IBM® Bluemix&trade; DevOps Services Web IDE, complete this tutorial. The tutorial doesn't cover all of the possible Git commands in the DevOps Services Web IDE, but you can practice creating a change on a separate branch, testing the change, and adding the change to the master branch. If you need help with specific commands, [see the Git reference](/../docs/reference/git).  If you want to try to work locally by using the command line, [see Work locally with IBM DevOps Services projects and Git source control](../../docs/reference/gitclient).
+If you want to learn more about managing your Git repository, an open source code management system, with the IBM® Bluemix&trade; DevOps Services Web IDE, complete this tutorial. The tutorial doesn't cover all of the possible Git commands in the DevOps Services Web IDE, but you can practice creating a change on a separate branch, testing the change, and adding the change to the master branch. If you need help with specific commands, [see the Git reference](/docs/reference/git).  If you want to try to work locally by using the command line, [see Work locally with IBM DevOps Services projects and Git source control](/docs/reference/gitclient).
 
 ---
 ## Contents
@@ -25,16 +25,9 @@ If you want to learn more about managing your Git repository, an open source cod
 ---
 <a name='fork_a_project'></a>
 ##Fork a project
-You complete this tutorial by copying, or forking, a project. Then, you modify the new project. In this case, you fork the YummyRation project, which contains the Node.js code for a catering website
+You complete this tutorial by copying, or forking, a project. Then, you modify the new project. In this case, click the button below to fork the YummyRation project, which contains the Node.js code for a catering website:
 
-1. [Open the YummyRation project](https://hub.jazz.net/project/jlmarech/YummyRation/overview).
-
-1. Click **FORK PROJECT**.
-
-1. In the window that opens, name the project `YummyRation` and review the contents of the window.  Make sure that the **Make this a Bluemix Project** check box is selected.
-
-    ![Options while forking project][2]
-1. Click **CREATE**. The new project's Overview page is shown after a moment.
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/jlmarech/YummyRation)
 
 ---
 <a name='create_a_branch'></a>

@@ -1,9 +1,12 @@
 # What's New
 
+[See all the What's new blog posts](https://developer.ibm.com/devops-services/category/whats-new/)
+
+## February 18, 2015
+
+* #### [Share your code with the new Deploy to Bluemix button](https://developer.ibm.com/devops-services/2015/02/18/share-code-new-deploy-bluemix-button/)
 
 ## February 12, 2015
-
-See the new blog posts:
 
 * #### [Everything AND the kitchen sync: Bluemix Live Sync is here!](https://developer.ibm.com/devops-services/?p=718)
 
@@ -13,7 +16,7 @@ See the new blog posts:
 
 * #### [Don’t hog all the permissions! Use multiple admins support to share project management duties](https://developer.ibm.com/devops-services/2015/02/10/project-admins-support/)
 
-[See all the What's new posts](https://developer.ibm.com/devops-services/category/whats-new/)
+
 
 ##  February 5, 2015
 
@@ -30,7 +33,7 @@ The DEPLOY and DEPLOY as buttons for deploying to Bluemix directly from the Web 
 
 ![Run Bar](images/run-bar.png)
 
-For more information, [please see where did the Deploy button go in DevOps Services?](https://developer.ibm.com/devops-services/2015/01/13/deploy-button/)
+For more information, [please see where did the Deploy button go in DevOps Services?](https://developer.ibm.com/devops-services/2015/01/13/deploy_button/)
 
 
 ### December 17, 2014
