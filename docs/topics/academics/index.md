@@ -42,9 +42,9 @@ for information about configuring your project and using the Track & Plan featur
 
 
 ### Where can I find help with Bluemix DevOps Service?
-If you need help, click **HELP**, **SUPPORT** in the main menu.
+If you need help, click **HELP > SUPPORT** in the main menu.
 
-If you are looking for tutorials, click **HELP**, **DOCS** in main men.
+If you are looking for tutorials, click **HELP > DOCS** in main menu.
 
 You can review the [Academic resources](#resources) on this page.
 
