@@ -1,12 +1,12 @@
 # Start a project in Bluemix DevOps Services 
 
-Last modified: 13 February 2015
+Last modified: 19 February 2015
 
 You can start an IBM&reg; Bluemix&trade; DevOps Services project in three ways. If you want to start by using new code or an existing Git repository, [create a project](#starting_a_devops_services_project). If you want to start from a copy of the code in a Bluemix DevOps Services project, [fork the code](#forking_a_devops_services_project).  You can also [create a Bluemix DevOps Services project from an IBM&reg; Bluemix&trade; app](#creating_a_devops_services_project_for_your_bluemix_app).
 
 **Before you begin**
 * [Register for Bluemix DevOps Services](https://hub.jazz.net). 
-* If you plan to deploy your project to IBM Bluemix, which is a cloud-based software hosting and deployment service, [register for Bluemix](https://ace.ng.bluemix.net/). 
+* If you plan to deploy your project to IBM Bluemix, which is a cloud-based software hosting and deployment service, [register for Bluemix](http://bluemix.net/). 
 
 ---
 ## Contents
@@ -21,7 +21,7 @@ You can start an IBM&reg; Bluemix&trade; DevOps Services project in three ways. 
 
 1. Sign in to [IBM Bluemix DevOps Services](https://hub.jazz.net). The MY PROJECTS page opens.
 
-2. If this project is your first project, click the **Start coding** icon. Otherwise, click **CREATE PROJECT**.
+2. If this project is your first project, click on **Start coding**. Otherwise, click **CREATE PROJECT**.
 
 3. Type the project name.
 
@@ -50,9 +50,9 @@ If you want to use only the traditional planning feature, which uses simplte tas
 2. Click **EXPLORE**, find the project to start from, and click its name.
 ![Bluemix DevOps Services new user landing page][1]
 
-3. Click **FORK PROJECT**. If the **FORK PROJECT** button is not shown, click **EDIT CODE**, and then click **FORK**. 
+3. Click **FORK PROJECT**. 
 
-4. In the window that opens, type your project name, review the contents of the window, and specify options as needed. For more information about the options, [see Starting a Bluemix DevOps Services project](#starting_a_devops_services_project).
+4. In the Fork Project window that opens, type your project name, review the contents of the window, and specify options as needed. For more information about the options, [see Starting a Bluemix DevOps Services project](#starting_a_devops_services_project).
 ![Options while forking project][2]
 
 5. Click **CREATE**.
@@ -63,7 +63,7 @@ If you want to use only the traditional planning feature, which uses simplte tas
 
 1. [Log in to Bluemix][3].
 
-2. On the Bluemix dashboard, click the app to create a Bluemix DevOps Services project for.
+2. On your Bluemix dashboard, click the app to create a Bluemix DevOps Services project for.
 
 3. On the app's dashboard, click **ADD GIT**.
 
@@ -77,4 +77,4 @@ If you want to use only the traditional planning feature, which uses simplte tas
 
 [1]: images/restyle_projectname.png
 [2]: images/restyle_newprojectwindow.png
-[3]: https://ace.ng.bluemix.net/
+[3]: http://bluemix.net/

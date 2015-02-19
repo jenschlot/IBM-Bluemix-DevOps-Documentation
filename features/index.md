@@ -1,8 +1,8 @@
 # Features
 
-Last modified: 17 February 2015
+Last modified: 19 February 2015
 
-## Contents
+## See what IBM® Bluemix™ DevOps Services can do for you:
 * [Easy to find What's New](#whatsnew)
 * [Git hosting](#githosting)
 * [Connect with your GitHub repository](#gitrepo)
@@ -10,7 +10,7 @@ Last modified: 17 February 2015
 * [Simple user interface for starting a project quickly](#simpleui)
 * [No install, just code now](#noinstall)
 * [Integrated source code editor](#editor)
-* [Bluemix Live Sync](#sync)
+* [Update a running app automatically with Bluemix Live Sync](#sync)
 * [Built-in source code management](#scm)
 * [Build and deploy your way](#build)
 * [Work items to track and plan project activities](#wis)
@@ -45,9 +45,7 @@ code changes, and the work item is updated with the new commit information.
 <a name='yourwork'></a>
 ## Your work in one place
 
-Get a quick view of the projects you own, belong to, and
- like. See project invitations and requests too. Just another way 
-to help you stay organized.
+At a glance, see the projects you own, belong to, and like. You can also see requests to join your project and any invitations for you to join other projects.   Just another way to help you stay organized.
 
 ![My Projects](/features/images/my_projects.png)																		 
 
@@ -101,9 +99,13 @@ The Web IDE provides smart features where you can do these tasks:
 
 
 <a name='sync'></a>
-##Bluemix Live Sync
+##Update a running app automatically with Bluemix Live Sync
 
-With node.js apps, you can make changes to static files, like HTML or CSS, and have them immediately included in the deployed app by using the IBM® Bluemix™ Live Sync feature. Refresh the app in your browser to see the changes. You can also edit code, and use the **Quick Restart** icon restart the Node run time in a matter of seconds, without redeploying the app. You can use the Debugger to create breakpoints and inspect variables in your code so you can isolate problem areas as you work.
+Make changes to static files in Node.js apps and have them immediately propagated to the deployed app by using the IBM® Bluemix™ Live Sync feature. 
+
+In the Web IDE, turn on Live Edit and see your updated static files immediately. Update a node module and use the **Quick Restart** icon to restart the Node run time in a matter of seconds, without redeploying the app. 
+
+Use the Debugger to create breakpoints and inspect variables in your node modules so you can isolate problem areas as you work.
 
 ![Bluemix Live Edit](/features/images/live_edit.png)	
 
@@ -159,6 +161,4 @@ for tracking team velocity and work-item and source-control widgets
  to track individual work.
  
 ![Dashboard](/features/images/Charts.png)
-
-&copy; Copyright IBM Corporation 2013, 2015.
 
