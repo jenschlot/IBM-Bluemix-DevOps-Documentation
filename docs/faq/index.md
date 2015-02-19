@@ -75,7 +75,7 @@ Yes it is. You can plan, define requirements, track tasks, and collaborate on an
 ### How can I provide feedback?
 
 We love feedback. If you have a suggestion, [share your idea in the IBM Bluemix DevOps Services project](https://hub.jazz.net/ccm01/web/projects/idsorg | Bluemix DevOps Services#action=com.ibm.team.dashboard.viewDashboard).
-If you need help, [ask a question in the IBM Bluemix DevOps Services Forum](https://developer.ibm.com/answers/questions/?community=Bluemix DevOps-services).
+If you need help, [ask a question in the IBM Bluemix DevOps Services Forum](https://developer.ibm.com/answers/smartspace/devops-services/).
 
 <a name="ibmer"></a>
 
