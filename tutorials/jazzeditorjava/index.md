@@ -4,14 +4,13 @@ Last modified: 17 February 2015
 
 ## Contents
 * [Create an application with IBM Bluemix](#create_bluemix_app)
-* [Build and deploy using Bluemix DevOps Services](#build_and_deploy)
+* [Build and deploy by using Bluemix DevOps Services](#build_and_deploy)
 * [Push changes to the Git repository by using the command line](#push_to_git)
-* [Edit and deploy code using the Bluemix DevOps Services Web IDE](#edit_and_deploy_with_web_ide)
-* [Deployment using the Web IDE](#deployments)
+* [Edit and deploy code by using the Bluemix DevOps Services Web IDE](#edit_and_deploy_with_web_ide)
 * [Summary](#summary)
 
 <a name='create_bluemix_app'></a>
-##Create an app using IBM Bluemix
+##Create an application with IBM Bluemix
 
 IBM® Bluemix™ is an open-standard, cloud-based platform for building, managing and running apps of all types, including web, mobile, big data, smart devices. The Bluemix capabilities include Java™, mobile back-end development, application monitoring, and capabilities from ecosystem partners and open source, all through an as-a-service model in the cloud.
 
@@ -49,7 +48,7 @@ If you click the route on the application dashboard, you can access the running 
 
 Although it's great that the application is running, you will want to modify it to make it more interesting.  
 
-You can work with your application code in many ways. For example, with autodeploy, you can modify the code that runs in your app by pushing the changes to a Git repository. The mechanism that implements autodeploy is provided by the IBM® Bluemix™ DevOps Services, but more about that later.
+You can work with your application code in many ways. For example, with autodeploy, you can modify the code that runs in your app by pushing the changes to a Git repository. The mechanism that implements autodeploy is provided by Bluemix™ DevOps Services, but more about that later.
 
 To enable automatic deployment, on your app’s overview page, click **ADD GIT**. 
 
@@ -72,21 +71,21 @@ You successfully created a Git repo and loaded it with the application starter c
 Before you start editing your code in Bluemix DevOps Services, enable the Delivery Pipeline service in Bluemix so that you can use several of the build and deployment capabilities later. 
 
 1.	On the new app’s overview page, click **ADD A SERVICE**.
-2.	For the DevOps category, select **Delivery Pipeline**. 
+2.	Select the DevOps category, then Click **Delivery Pipeline**. 
 3.	Use the default settings for Space and App.
 4.	Click **CREATE**.
 
 The Delivery Pipeline service is added to your Bluemix space. It will be ready when you need it later.
 
-To see the app's code or configure how it deploys, use Bluemix DevOps Services. Click **EDIT CODE**.
+To see or edit the sample application code or to configure a Delivery Pipeline, use Bluemix DevOps Services. Click **EDIT CODE**.
 
 ![CODE button][15]
 
 ---
 <a name='build_and_deploy'></a>
-##Build and deploy using Bluemix DevOps Services
+##Build and deploy by using Bluemix DevOps Services
 
-Your new project opens in the Bluemix DevOps Services web integrated development environment (IDE). When you clicked **Add Git Integration** in Bluemix, you populated a new Git repository with sample code. When you click EDIT CODE, that content is loaded into a work area associated with the project, called the project workspace. For now, see how the code is pushed to Bluemix.
+Your project opens in the Bluemix DevOps Services Web IDE (integrated development environment). When you clicked **Add Git Integration** in Bluemix, you populated a new Git repository with sample code. When you click EDIT CODE, that content is loaded into a work area associated with the project, called the project workspace. For now, see how the code is pushed to Bluemix.
 
 Click **BUILD & DEPLOY**.
 
@@ -96,12 +95,12 @@ Run your build by selecting the play icon in the Build stage tile.
 
 ![Play button][57]
 
-This starts the build and automatically deploys your app. 
-When the app is running, it is available at the URL shown in the Deploy stage tile. The pipeline will rebuild the app in the build stage then redeploy it to Bluemix in the deploy stage, once the build is complete. You can see the app’s overview on Bluemix by clicking the app name.
+This starts the build stage. The deploy stage is configured to automatically deploy your application after a successful build. 
+When the application is running, it is available at the URL shown in the Deploy stage tile. You can see the application's overview on Bluemix by clicking the app name.
 
 ![Bluemix DevOps Services autoconfigured Pipeline][17]
 
-Bluemix DevOps Services is configured to automatically build and deploy the Liberty for Java sample application, but you can make changes to the configuration.
+Your sample project is configured to automatically build and deploy the Liberty for Java sample application, but you can make changes to the configuration.
 
 ![A preconfigured Pipeline][52]
 
@@ -149,11 +148,11 @@ After a moment, the Pipeline page is refreshed and shows the information about y
 
 ![Fully configured Pipeline][48]
 
-Start the deployment by dragging the build from the bottom of the Build stage onto the Deploy to dev stage. Dragging a build onto a stage with a deploy job is one way to start a deployment. In a few moments, your app is deployed to Bluemix. Because you selected **Automatically execute jobs when the previous stage completes successfully** when you set up the deploy stage, successful builds of your app are deployed automatically.
+Start the deployment by dragging the build from the bottom of the Build stage onto the Deploy to dev stage. Dragging a build onto a stage with a deploy job is one way to start a deployment. In a few moments, your application is deployed to Bluemix. Because you selected **Automatically execute jobs when the previous stage completes successfully** when you set up the deploy stage, successful builds of your app are deployed automatically.
 
 ![Dropping to deploy][49]
 
-To view your app on the web, in the Deploy to dev stage, click the URL under the Last Execution Result heading. To view your app’s Bluemix dashboard, click its name.
+To view your application on the web, in the Deploy to dev stage, click the URL under the Last Execution Result heading. To view your application’s Bluemix dashboard, click its name.
 
 ![A deployed app using fully configured Pipeline][50]
 
@@ -163,7 +162,7 @@ When you build and deploy apps by using Bluemix, your Bluemix billing account mi
 
 ---
 <a name='push_to_git'></a>
-##Push changes to the Git repository using the command line
+##Push changes to the Git repository by using the command line
 
 You now have a Git repo with sample code. You can use many tools to work with Git, including all of the major desktop IDEs and the Bluemix DevOps Services Web IDE. For now, use the command-line Git support.
 
@@ -216,7 +215,7 @@ If you want to configure desktop clients to work with your Git repository, [see 
 
 ---
 <a name='edit_and_deploy_with_web_ide'></a>
-##Edit and deploy code using the Bluemix DevOps Services Web IDE
+##Edit and deploy code by using the Bluemix DevOps Services Web IDE
 
 In addition to build and deploy, Bluemix DevOps Services provides many other capabilities that are useful for application development:
 

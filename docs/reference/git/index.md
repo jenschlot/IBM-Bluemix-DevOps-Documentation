@@ -194,6 +194,8 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 3. Type `git commit -m "<commit_message>"` and press Enter.
 **Tip**: In the commit message, describe your changes well.
 
+4. Type `git push` and press Enter.
+
 ---
 <a name="link_commit"></a>
 ### Link a commit to a work item
@@ -300,9 +302,9 @@ To link a commit to a Track & Plan work item for a Git project that is hosted at
 ### Change the committer name and email address
 
 #### Bluemix DevOps Services Web IDE
-2. Click **Settings**.
+2. Click the configuration icon <img src="./images/configuration.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">.
 
-3. Update the committer Git Email Address and Git Username; then, press Enter.
+3. Update the values of user.email and user.name to change the user email address and name, respectively. Click **Submit** to save each change.
 
 #### Git terminal
 To update your name and email address for a single repository
