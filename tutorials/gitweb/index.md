@@ -25,16 +25,10 @@ If you want to learn more about managing your Git repository, an open source cod
 ---
 <a name='fork_a_project'></a>
 ##Fork a project
-You complete this tutorial by copying, or forking, a project. Then, you modify the new project. In this case, you fork the YummyRation project, which contains the Node.js code for a catering website
+You complete this tutorial by copying, or forking, a project. Then, you modify the new project. In this case, click the button below to fork the YummyRation project, which contains the Node.js code for a catering website:
 
-1. [Open the YummyRation project](https://hub.jazz.net/project/jlmarech/YummyRation/overview).
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/jlmarech/YummyRation)
 
-1. Click **FORK PROJECT**.
-
-1. In the window that opens, name the project `YummyRation` and review the contents of the window.  Make sure that the **Deploy to Bluemix** check box is selected.
-
-    ![Options while forking project][2]
-1. Click **Save**. The new project's Overview page is shown after a moment.
 
 ---
 <a name='create_a_branch'></a>
