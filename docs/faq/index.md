@@ -1,7 +1,7 @@
 # FAQs
 ##### Last modified: 5 February 2015
 
-Can't find the answer to your question here? [See the IBM&reg; Bluemix&trade; Bluemix DevOps Services Forum](https://developer.ibm.com/answers/questions/?community=BDevOps-services).
+Can't find the answer to your question here? [See the IBM&reg; Bluemix&trade; Bluemix DevOps Services Forum](https://developer.ibm.com/answers/smartspace/devops-services/).
 ____
 
 -   [I see IBM DevOps Services is now called IBM Bluemix DevOps Services. Can you tell me more?](#q1)
