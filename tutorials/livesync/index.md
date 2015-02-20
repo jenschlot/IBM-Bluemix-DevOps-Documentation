@@ -111,7 +111,7 @@ bl projects
 ```
 bl sync projectName -d localDirectory
 ```
-Where `localDirectory` is the location where you extracted your project files. 
+Where `localDirectory` is the location where you wouldlike the project files to be synchronized locally. 
 
 By synchronizing your local environment with Bluemix, you populate `localDirectory` with the files from your Node project. When you are finished making changes, type `q` to end synchronization.
 
