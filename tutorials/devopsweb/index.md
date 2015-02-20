@@ -23,9 +23,12 @@ Before you start, [explore the live version of the sample project][27]. The app 
 
 After you explore the project, click the button below to create your own copy of it by forking and deploying it:
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/ibmdevopsservices/Sentiment.Analysis.App)
+[![Deploy to Bluemix](images/bigButton.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/ibmdevopsservices/Sentiment.Analysis.App)
 
-In a moment, your copy of the sample Sentiment Analysis App project opens. If you leave the project, you can find it by clicking **MY PROJECTS** on the navigation bar at the top of the page. 
+Note: During deployment, the suggested app name might not be valid. If necessary, remove the periods from the app name.
+
+After the project is forked and the deployment completes, click **Edit code** to continue.
+
 
 ---
 ## Plan a change to your project
@@ -99,11 +102,27 @@ The sample project uses JSHint validation to check its code for errors. For that
 **Important:** When you use the Build & Deploy feature with Bluemix, you can generate charges to your Bluemix account. However, you can complete this tutorial for free. If you see messages about billing and Bluemix, you can ignore them safely. For more information about Bluemix, DevOps Services, and charges, [see Configure Bluemix billing for Bluemix DevOps Services][39].
 
 1. On the top navigation bar, click **BUILD & DEPLOY**. 
+1. Delete the existing configuration. 
+
+  **Note**: When you fork a project by clicking the **Deploy to Bluemix** button, the configuration is created for your project automatically. Later, you re-create the stages. If you fork a project without clicking the **Deploy to Bluemix** button, the configuration is not created automatically.
+  
+  a. On the rightmost tile, the Deploy stage, click the gear icon.  
+  
+  b. Click **Delete Stage** and confirm the deletion.
+  
+  c. On the remaining stage tile, the Build stage, click the gear icon. 
+  
+  d. Click **Delete Stage** and confirm the deletion.  
+
 2. Click **ADD STAGE**. 
-  1. Click the name of the new stage. Change it from **MyStage** to `Build`. In the Input Settings section, make sure that this stage uses the project repository's master branch as input. 
-  2. Click **JOBS**, and then click **ADD JOB**. Select **Build.**
-  3. For the builder type, seelect **Grunt**. The sample project includes a build file that uses Grunt and JSHint to check the code for errors.
-  4. Leave the other settings as they are, and then click **SAVE**.
+  
+  a. Click the name of the new stage. Change it from **MyStage** to `Build`. In the Input Settings section, make sure that this stage uses the project repository's master branch as input. 
+  
+  b. Click **JOBS**, and then click **ADD JOB**. Select **Build.**
+  
+  c. For the builder type, seelect **Grunt**. The sample project includes a build file that uses Grunt and JSHint to check the code for errors.
+  
+  d. Leave the other settings as they are, and then click **SAVE**.
 
 ![A configured builder stage][8]
 

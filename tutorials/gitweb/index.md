@@ -27,14 +27,14 @@ If you want to learn more about managing your Git repository, an open source cod
 ##Fork a project
 You complete this tutorial by copying, or forking, a project. Then, you modify the new project. In this case, click the button below to fork the YummyRation project, which contains the Node.js code for a catering website:
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/jlmarech/YummyRation)
+[![Deploy to Bluemix](images/bigButton.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/jlmarech/YummyRation)
+
+After the project is forked and the deployment completes, click **Edit code** to continue.
 
 ---
 <a name='create_a_branch'></a>
 ## Create a branch
 When you work with many people or want to test different ideas, a common practice is to work in different branches.
-
-1. Click **EDIT CODE**.
 
 1. Click the **Git Repository** icon <img src="images/gitrepository.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">.
 

@@ -21,7 +21,7 @@ In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an applica
 
 Start with the sample project, [Sentiment Analysis App][2]. That app is a hosted Node.js Git project. You need your own copy of the project, which you can get by clicking the button below to fork the project:
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/ibmdevopsservices/Sentiment.Analysis.App)
+[![Deploy to Bluemix](images/bigButton.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/ibmdevopsservices/Sentiment.Analysis.App)
 
 Note: During deployment, the suggested app name might not be valid. If necessary, remove the periods from the app name.
 
@@ -29,15 +29,25 @@ After the project is forked and the deployment completes, click **Edit code** to
 
 <a name='deploy'></a>
 ##Build and deploy with the Delivery Pipeline
-To make the most of Bluemix DevOps Services and Bluemix, make sure that your Bluemix space has the Delivery Pipeline service. Follow these steps to add the service to your Bluemix space if needed: [Getting started with Delivery Pipeline][26].
+To make the most of Bluemix DevOps Services and Bluemix, make sure that your Bluemix space has the Delivery Pipeline service. If needed, add the service to your Bluemix space by following these steps: [Getting started with Delivery Pipeline][26].
 
 When you configure your own project, you can create and customize as much as you want to. This sample, however, is designed to require minimal activity to get started: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it is automatically found. This Grunt build file includes JSHint validation so that your project's code is checked automatically each time a build runs.
 
-The Delivery Pipeline configuration for your Sentiment Analysis app has two stages: a build stage and a deploy stage. These stages form a pipeline. The build stage runs a build job on the included `Gruntfile.js` to validated your code. Then, the deploy stage runs a deploy job to deploy your code to Bluemix.
+The Delivery Pipeline configuration for your Sentiment Analysis app has two stages: a build stage and a deploy stage. These stages form a pipeline. The build stage runs a build job on the included `Gruntfile.js` to validate your code. Then, the deploy stage runs a deploy job to deploy your code to Bluemix.
 
-Note: When you clicked the Deploy to Bluemix button above, the build and deploy stages were created for you. The following steps help you to create those stages from scratch.
+1. On the top navigation bar, click **BUILD & DEPLOY**. 
+1. Delete the existing configuration. 
 
-1. At the top of the screen, click **BUILD &amp; DEPLOY**. 
+  **Note**: When you fork a project by clicking the **Deploy to Bluemix** button, the configuration is created for your project automatically. Later, you re-create the stages. If you fork a project without clicking the **Deploy to Bluemix** button, the configuration is not created automatically.
+  
+  a. On the rightmost tile, the Deploy stage, click the gear icon.  
+  
+  b. Click **Delete Stage** and confirm the deletion.
+  
+  c. On the remaining stage tile, the Build stage, click the gear icon. 
+  
+  d. Click **Delete Stage** and confirm the deletion. 
+ 
 2. Configure a stage to run a build job on code from your project's Git repository:
 
   a. Click **ADD STAGE**. At the top of the Stage Configuration page, click the **MyStage** name and change it to `Build`.
