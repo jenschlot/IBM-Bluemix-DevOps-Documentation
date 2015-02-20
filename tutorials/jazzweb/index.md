@@ -25,7 +25,7 @@ Start with the sample project, [Sentiment Analysis App][2]. That app is a hosted
 
 Note: During deployment, the suggested app name might not be valid. If necessary, remove the periods from the app name.
 
-After the project is forked and the deployment completes, click **Edit code** to continue.
+After the project is forked and the deployment completes, click **EDIT CODE** to continue.
 
 <a name='deploy'></a>
 ##Build and deploy with the Delivery Pipeline

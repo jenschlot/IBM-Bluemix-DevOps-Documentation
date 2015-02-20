@@ -29,7 +29,7 @@ You complete this tutorial by copying, or forking, a project. Then, you modify t
 
 [![Deploy to Bluemix](images/bigButton.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/jlmarech/YummyRation)
 
-After the project is forked and the deployment completes, click **Edit code** to continue.
+After the project is forked and the deployment completes, click **EDIT CODE** to continue.
 
 ---
 <a name='create_a_branch'></a>
