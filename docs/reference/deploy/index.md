@@ -55,7 +55,7 @@ By default, every time a build is completed or deploys in Pipeline, a deployment
 <a name="manifests"></a>
 ###Manifest files
 
-Manifest files, which are named `manifest.yml` in a project's root directory, control how your project is deployed to Bluemix. For information about creating manifest files for a project, [see the Cloud Foundry manifest documentation][2]. Bluemix is based on Cloud Foundry.
+Manifest files, which are named `manifest.yml` in a project's root directory, control how your project is deployed to Bluemix. For information about creating manifest files for a project, [see the Bluemix documentation about application manifests][1].
 
 To integrate with Bluemix, your project must have a manifest file in its root directory. However, you are not required to deploy based on the information in the file. You can specify everything in a manifest file by using `cf push` command arguments. To learn about the arguments, [see the Cloud Foundry Push documentation][3]. To use the arguments, modify the **Script** field in a deployer job's configuration menu.
 
@@ -102,10 +102,10 @@ Whether you are using command-line tools or the Web IDE, both methods are effect
 
 
  
-[1]: http://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html
+[1]: https://www.ng.bluemix.net/docs/#manageapps/index-gentopic2.html#appmanifest
 [2]: https://www.ng.bluemix.net/docs/#services/DeliveryPipeline/index.html#getstartwithCD
 [3]: http://docs.cloudfoundry.org/devguide/installcf/whats-new-v6.html#push
-[4]: https://ace.ng.bluemix.net/#/pricing/cloudOEPaneId=pricing
+[4]: https://console.ng.bluemix.net/?ace_base=true/#/pricing/cloudOEPaneId=pricing
 [5]: ./images/open_logs.png
 [6]: #manifests
 [7]: ./images/runbar-annotated.png
