@@ -1,1 +1,0 @@
-# Manage IBM DevOps Services project settings
