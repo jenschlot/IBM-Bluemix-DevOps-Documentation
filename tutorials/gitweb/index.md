@@ -2,7 +2,7 @@
 
 Last modified: 13 February 2015
 
-If you want to learn more about managing your Git repository, an open source code management system, with the IBM® Bluemix&trade; DevOps Services Web IDE, complete this tutorial. The tutorial doesn't cover all of the possible Git commands in the DevOps Services Web IDE, but you can practice creating a change on a separate branch, testing the change, and adding the change to the master branch. If you need help with specific commands, [see the Git reference](/docs/reference/git).  If you want to try to work locally by using the command line, [see Work locally with IBM DevOps Services projects and Git source control](/docs/reference/gitclient).
+If you want to learn more about managing your Git repository, an open source code management system, with the IBM® Bluemix&trade; DevOps Services Web IDE, complete this tutorial. The tutorial doesn't cover all of the possible Git commands in the DevOps Services Web IDE, but you can practice creating a change on a separate branch, testing the change, and adding the change to the master branch. If you need help with specific commands, [see the Git reference](/docs/reference/git).  If you want to try to work locally by using the command line, [see Setting up local clients to work with Git source control](/docs/reference/gitclient).
 
 ---
 ## Contents
