@@ -21,7 +21,7 @@ In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an applica
 
 Start with the sample project, [Sentiment Analysis App][2]. That app is a hosted Node.js Git project. You need your own copy of the project, which you can get by clicking the button below to fork the project:
 
-[![Deploy to Bluemix](images/bigButton.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/ibmdevopsservices/Sentiment.Analysis.App)
+<a target="_blank" href="https://bluemix.net/deploy?repository=https://hub.jazz.net/git/ibmdevopsservices/Sentiment.Analysis.App"><img src="images/bigButton.png" alt="Deploy to Bluemix"></a>
 
 Note: During deployment, the suggested app name might not be valid. If necessary, remove the periods from the app name.
 
