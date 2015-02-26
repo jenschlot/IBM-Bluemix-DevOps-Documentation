@@ -13,7 +13,7 @@ In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an applica
 * [Push changes to the repository](#push)
 * [The manifest file](#manifest)
 * [Deploy by using the Web IDE](#deploy_from_web_ide)
-* [Automatic and manual deployment](#automatic_deployment)
+* [Auto-deploy and manual deployment](#automatic_deployment)
 
 ---
 <a name='fork'></a>
@@ -134,7 +134,7 @@ After you edit the `app.js` file, share the changed file with other members of y
 
 ![Pushing Changes][16]
 
-Any changes that are delivered to your project trigger a build. When a build is completed successfully, it is deployed automatically. If you click **BUILD &amp; DEPLOY** again, you'll see that your change started a new build that will be deployed when the build is finished.
+Any changes that are delivered to your project trigger a build. When a build is completed successfully, it is auto-deployed. If you click **BUILD &amp; DEPLOY** again, you'll see that your change started a new build that will be deployed when the build is finished.
 
 ---
 <a name='manifest'></a>
@@ -155,13 +155,13 @@ While you're working in the directory that contains your `manifest.yml file`, yo
 
 You can configure Web IDE deployment and the Delivery Pipeline service to use different app names. Then, you can use the Web IDE deployment for a personal test environment and the Delivery Pipeline deployment for a team integration environment. The Web IDE saves launch configurations; you can access them from the menu on the Run bar. 
 
-Whether you are using command-line tools or the Web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment via Pipeline so that you can control what is being pushed. By using automatic deployment, you know that the code that is running in the app matches a known state in the repository. In contrast, the Web IDE deploys whatever is in your working directory when you push.
+Whether you are using command-line tools or the Web IDE, both methods are effective for rapid, solo development. You might prefer the added security of using auto-deploy so that you can control what is being pushed. Auto-deploy is available through the Delivery Pipeline service. By using auto-deploy, you know that the code that is running in the app matches a known state in the repository. In contrast, the Web IDE deploys whatever is in your working directory when you push.
 
 ---
 <a name='automatic_deployment'></a>
-##Automatic and manual deployment
+##Auto-deploy and manual deployment
 
-Builds are triggered when changes are delivered to a project. Successful builds are automatically deployed.
+Builds are triggered when changes are delivered to a project. Successful builds are auto-deployed.
 
 To manually deploy a specific successful build:
 1. On the build history page, select a build.

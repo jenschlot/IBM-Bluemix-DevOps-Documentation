@@ -15,7 +15,7 @@ The Bluemix DevOps Services Build & Deploy feature, also known as Pipeline, auto
 * [Logging](#logs)
 
 ##[Deployment using the Web IDE](#manual)
-* [The Run Bar](#runbar)
+* [The Run bar](#runbar)
 
 ---
 <a name="key"></a>
@@ -86,18 +86,18 @@ While you're working in the directory that contains your `manifest.yml` file, yo
 
 You can configure Web IDE deployment and Build & Deploy's Pipeline to use different app names. Then, you can use the Web IDE deployment for a personal test environment and Pipeline for a team integration environment. The Web IDE saves deployment launch configurations; you can access them from the menu on the Run bar. 
 
-Whether you are using command-line tools or the Web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment by using Pipeline so that you can control what is being pushed. By using automatic deployment, you know that the code that is running in the app matches a known state in the repository. In contrast, the Web IDE deploys whatever is in your working directory when you push.
+Whether you are using command-line tools or the Web IDE, both methods are effective for rapid, solo development. You might prefer the added security of using auto-deploy so that you can control what is being pushed. Auto-deploy is available through Pipeline. By using auto-deploy, you know that the code that is running in the app matches a known state in the repository. In contrast, the Web IDE deploys whatever is in your working directory when you push.
 
 
 <a name="runbar"></a>
-###The Run Bar
+###The Run ar
 
 ![Annotated Run Bar screenshot][7]
 
 1. **Status area:** Shows which launch configuration is selected and the deployment status of your app. If your project doesn't contain a launch configuration, create one by clicking the menu and then clicking **CREATE NEW**.
-2. **Play button:** Deploys your app manually by using the currently selected launch configuration.
-3. **Stop button:** Stops a running application. 
-4. **Open URL button:** Opens a running application. 
+2. **Play icon:** Deploys your app manually by using the currently selected launch configuration.
+3. **Stop icon:** Stops a running application. 
+4. **Open URL icon:** Opens a running application. 
 
 
 
