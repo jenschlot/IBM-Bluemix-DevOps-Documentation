@@ -12,7 +12,7 @@ A project owner can do everything that a project admin and project member can do
 
 ##Project admin privileges
 
-Project admins have the same privileges as project members, and admins can also do these tasks:
+Project admins have the same privileges as project members and more. Project admins can also do these tasks:
 * Invite others to join the project
 * Accept or decline when others request to join the project
 * Promote members to admins 
