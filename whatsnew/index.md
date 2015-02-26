@@ -1,4 +1,4 @@
-# What's New
+# What's New today
 
 [See all the What's new blog posts](https://developer.ibm.com/devops-services/category/whats-new/)
 
