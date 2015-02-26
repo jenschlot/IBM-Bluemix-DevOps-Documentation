@@ -5,14 +5,14 @@ Last modified: 26 February 2015
 To administer IBM&reg; Bluemix&trade; DevOps Services (DevOps Services) projects, you must be a project admin or a project owner. A project can have multiple admins, but it can only have one owner. 
 
 ##Project owner privileges
-A project owner can do everything that a project admin and project member can do and more. Only project owners can do these tasks:
+Project owners can do everything that project admins and members can do and more. Tasks that only project owners can do are:
 * Rename the project
 * Transfer ownership of the project
 * Delete the project
 
 ##Project admin privileges
 
-Project admins have the same privileges as project members and more. Project admins can also do these tasks:
+In addition to the tasks that project members can do, project admins can also do these tasks:
 * Invite others to join the project
 * Accept or decline when others request to join the project
 * Promote members to admins 
@@ -34,7 +34,7 @@ Project admins have the same privileges as project members and more. Project adm
 
 
 ##Project member privileges
-A project member has the fewest privileges and responsibilities, but members can accomplish these tasks:
+Project members have the fewest privileges and responsibilities. Members can do these tasks:  
 * Add and edit work items
 * Create Git branches for Git projects
 * Create tags for Git projects
