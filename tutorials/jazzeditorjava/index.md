@@ -185,7 +185,7 @@ To make changes to your app source code, find the `WebContent folder` then the f
  
     $ cd /project_directory
     $ git stage Webcontent/index.html
-    $ git commit -M "Sample app headline change"
+    $ git commit -m "Sample app headline change"
     [master 2336018] Sample app headline change
     1 file changed, 1 insertion(+), 1 deletion(-)
 
