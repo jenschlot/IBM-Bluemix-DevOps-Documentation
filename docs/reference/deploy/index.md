@@ -1,6 +1,6 @@
 #Build & Deploy reference
 
-Last modified: 10 February 2015
+Last modified: 19 February 2015
 
 The Bluemix DevOps Services Build & Deploy feature, also known as Pipeline, automates the continuous deployment of your projects. In a project's Pipeline, sequences of stages retrieve input and run jobs, such as builds, tests, and deployments.
 
@@ -15,7 +15,7 @@ The Bluemix DevOps Services Build & Deploy feature, also known as Pipeline, auto
 * [Logging](#logs)
 
 ##[Deployment using the Web IDE](#manual)
-* [The Run Bar](#runbar)
+* [The Run bar](#runbar)
 
 ---
 <a name="key"></a>
@@ -48,14 +48,14 @@ You can disable automatic builds that run when changes are pushed to your projec
 
 You can configure Bluemix DevOps Services projects to deploy to multiple Bluemix spaces. For example, you might configure three stages: one that deploys to a development space, another that deploys to a staging space, and a third that deploys to a production space.
 
-If your deployment stages all try to use the route that is specified in your project manifest file, a route collision occurs. For more information about preventing route collisions when you deploy to multiple stages, [see the Manifests section][6].
+If your deployment stages all try to use the route that is specified in your project manifest file, a route collision occurs. For more information about preventing route collisions when you deploy to multiple stages, [see the Manifest files section][6].
 
 By default, every time a build is completed or deploys in Pipeline, a deployment starts automatically. In later deploy stages, automatic deployment happens when both a build and the preceding stage succeed. 
 
 <a name="manifests"></a>
-###Manifests
+###Manifest files
 
-Manifest files, which are named `manifest.yml` in a project's root directory, control how your project is deployed to Bluemix. For information about creating manifest files for a project, [see the Cloud Foundry manifest documentation][2]. Bluemix is based on Cloud Foundry.
+Manifest files, which are named `manifest.yml` in a project's root directory, control how your project is deployed to Bluemix. For information about creating manifest files for a project, [see the Bluemix documentation about application manifests][1].
 
 To integrate with Bluemix, your project must have a manifest file in its root directory. However, you are not required to deploy based on the information in the file. You can specify everything in a manifest file by using `cf push` command arguments. To learn about the arguments, [see the Cloud Foundry Push documentation][3]. To use the arguments, modify the **Script** field in a deployer job's configuration menu.
 
@@ -78,7 +78,7 @@ In addition to logs, you can view unit test results, generated artifacts, and co
 
 ---
 <a name="manual"></a>
-##Deployment from the Web IDE
+##Deployment using the Web IDE
 
 While you're working in the directory that contains your `manifest.yml` file, you can deploy whatever is in the Web IDE workspace to Bluemix by clicking the **Play** icon on the Run Bar. 
 
@@ -86,26 +86,26 @@ While you're working in the directory that contains your `manifest.yml` file, yo
 
 You can configure Web IDE deployment and Build & Deploy's Pipeline to use different app names. Then, you can use the Web IDE deployment for a personal test environment and Pipeline for a team integration environment. The Web IDE saves deployment launch configurations; you can access them from the menu on the Run bar. 
 
-Whether you are using command-line tools or the Web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment by using Pipeline so that you can control what is being pushed. By using automatic deployment, you know that the code that is running in the app matches a known state in the repository. In contrast, the Web IDE deploys whatever is in your working directory when you push.
+Whether you are using command-line tools or the Web IDE, both methods are effective for rapid, solo development. You might prefer the added security of using auto-deploy so that you can control what is being pushed. Auto-deploy is available through Pipeline. By using auto-deploy, you know that the code that is running in the app matches a known state in the repository. In contrast, the Web IDE deploys whatever is in your working directory when you push.
 
 
 <a name="runbar"></a>
-###The Run Bar explained
+###The Run ar
 
 ![Annotated Run Bar screenshot][7]
 
 1. **Status area:** Shows which launch configuration is selected and the deployment status of your app. If your project doesn't contain a launch configuration, create one by clicking the menu and then clicking **CREATE NEW**.
-2. **Play button:** Deploys your app manually by using the currently selected launch configuration.
-3. **Stop button:** Stops a running application. 
-4. **Open URL button:** Opens a running application. 
+2. **Play icon:** Deploys your app manually by using the currently selected launch configuration.
+3. **Stop icon:** Stops a running application. 
+4. **Open URL icon:** Opens a running application. 
 
 
 
  
-[1]: http://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html
+[1]: https://www.ng.bluemix.net/docs/#manageapps/index-gentopic2.html#appmanifest
 [2]: https://www.ng.bluemix.net/docs/#services/DeliveryPipeline/index.html#getstartwithCD
 [3]: http://docs.cloudfoundry.org/devguide/installcf/whats-new-v6.html#push
-[4]: https://ace.ng.bluemix.net/#/pricing/cloudOEPaneId=pricing
+[4]: https://console.ng.bluemix.net/?ace_base=true/#/pricing/cloudOEPaneId=pricing
 [5]: ./images/open_logs.png
 [6]: #manifests
 [7]: ./images/runbar-annotated.png

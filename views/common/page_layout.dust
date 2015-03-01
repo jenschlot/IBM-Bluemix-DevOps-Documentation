@@ -37,8 +37,9 @@
 				</div>
 			</div>
 
-			{>"common/footer"/}
-
+			{@ne key="Support" value=resourcename}
+				{>"common/footer"/}
+			{/ne}
 		</div>
 		{>"common/google_analytics"/}
 	</body>

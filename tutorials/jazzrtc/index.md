@@ -1,21 +1,18 @@
 #Developing Bluemix applications in Java with Eclipse and Bluemix DevOps Services
 
-Last modified: 11 February 2015
+Last modified: 19 February 2015
 
 Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM&reg; Bluemix&trade; DevOps Services, and the Rational&reg; Team Concert client for Eclipse. 
 
 ## Contents
-* [before you begin](#before_begin)
-* [Get your app (fork)](#fork_app)
-* [Deploy your app](deploy_app)
-* [Add the Delivery Pipeline service](add_pipeline)
+* [Before you begin](#before_begin)
+* [Fork a sample project](#fork_app)
+* [Deploy your app](#deploy_app)
+* [Add the Delivery Pipeline service](#add_pipeline)
 * [Access your app from the Rational Team Concert client for Eclipse](#use_rtc)
 * [Deliver your first change](#first_change)
 * [Add a test failure](#test_failure)
-* [Fix the bug](fix_bug)
-
-
-Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM&reg; Bluemix&trade; DevOps Services, and the Rational&reg; Team Concert client for Eclipse. 
+* [Fix the bug](#fix_bug)
 
 <a name='before_begin'></a>
 ##Before you begin
@@ -24,19 +21,19 @@ Follow the steps in this tutorial to develop a Java&trade; application by using 
 2. Log in to Bluemix DevOps Services by using your IBM id.
 
 <a name='fork_app'></a>
-##Get your app
+##Fork a sample project
 
-To get your app, you fork a sample project named WordCounter. WordCounter uses Jazz&trade; source control management (SCM) and contains a manifest for deploying to Bluemix. You can load the project directly in the Rational Team Concert client for Eclipse. To explore the project before you fork it,  [see the WordCounter project page](https://hub.jazz.net/project/pskhadke/WordCounter/overview).
+To quickly get started developing in Java, you fork a sample project named WordCounter. WordCounter uses Jazz&trade; source control management (SCM) and contains a manifest for deploying to Bluemix. You can load the project directly in the Rational Team Concert client for Eclipse. To explore the project before you fork it,  [see the WordCounter project page](https://hub.jazz.net/project/pskhadke/WordCounter/overview).
 
 Bluemix DevOps Services also supports Git projects. For more information, [see Getting Started with Bluemix and Bluemix DevOps Services using Java](/tutorials/jazzeditorjava).
 
 On the WordCounter project overview page, click **FORK PROJECT**. 
 ![Click Fork Project](/tutorials/jazzrtc/images/click_fork_project.png "Click Fork Project")
 
-When you are prompted, enter a new, unique name for your project. Then, click **CREATE**.
+When you are prompted, enter a unique name for your project. Then, click **CREATE**.
 ![Create Project Dialog](/tutorials/jazzrtc/images/create_project.png "Create Project Dialog")
 
-You get a new project, a new project name, and a copy of the code from the sample project.
+A new project is created with a copy of the code from the sample project.
 
 **Tip:** If you see an error message, [make sure you have a Bluemix account](//bluemix.net).
 
@@ -46,7 +43,7 @@ You're ready to build and deploy.
 <a name='deploy_app'></a>
 ##Deploy your app
 
-1. Go to the deployment page by clicking **BUILD & DEPLOY**. 
+1. Click **BUILD & DEPLOY**. 
   * When you build and deploy, your Bluemix account might be charged. For more information, [see the Bluemix pricing page](https://bluemix.net/#/pricing).
 To track charges, after you deploy your first build, add the Delivery Pipeline service to your Bluemix space.
 
@@ -55,10 +52,10 @@ To track charges, after you deploy your first build, add the Delivery Pipeline s
 
 4. Create a stage to build your application:
     1. Click the default **MyStage** name and change the name of this stage to `Build`. 
-    2. Under the **INPUT** tab, use the default settings. Be sure to enter your account password where indicated.  
-	3. Under the **JOBS** tab, click **ADD JOB** and then click **Build**. Select the **Ant** builder type.  
+    2. On the **INPUT** tab, use the default settings. Be sure to enter your account password where indicated.  
+	3. On the **JOBS** tab, click **ADD JOB**. Select **Build** and the select the **Ant** builder type.   
     4. In the **Working Directory** field, type the name of the folder that contains your code; for example, `WordCounter`. When the project is loaded in the Rational Team Concert client, this folder maps to an Eclipse project automatically.
-    5. In the **Build Archive Directory** field, type the directory where the build output files are archived as part of the build result.
+    5. In the **Build Archive Directory** field, type the name of the directory where the build output files are archived as part of the build result.
     6. Select the **Enable unit tests** check box so that you can run the test cases during a build.
     7. Click **Save**.
 ![Add Builder](/tutorials/jazzrtc/images/configure_builder.png "Add Builder")
@@ -68,8 +65,8 @@ To track charges, after you deploy your first build, add the Delivery Pipeline s
 
 7.  Create a stage to deploy your application to Bluemix:
   1. Click the default **MyStage** name and change the name of this stage to `Deploy to dev`. 
-  2. Under the **INPUT** tab, use the default settings.
-  3. Under the **JOBS** tab, click **ADD JOB** and then click **Deploy**. This job will use the settings that the `manifest.yml` file, which is included as part of the project, provides. You can use all of the values as provided, except for the hostname. The hostname is used to define your application's URL and must be unique for each application deployed that is deployed on Bluemix.
+  2. On the **INPUT** tab, use the default settings.
+  3. . On the **JOBS** tab, click **ADD JOB** and then select **Deploy**. This job will use the settings in the `manifest.yml` file, which is included as part of the sample project. You can use all of the values as provided, except for the hostname. The hostname is used to define your application's URL and must be unique for each application deployed that is deployed on Bluemix.
   4. Override the host with the `-n` option in the cf push command, as shown in the following image.
   5. Click Save. 
 ![Add Deployer](/tutorials/jazzrtc/images/configure_deployer.png "Add Deployer")
@@ -84,14 +81,14 @@ To track charges, after you deploy your first build, add the Delivery Pipeline s
 <a name='add_pipeline'></a>
 ##Add the Delivery Pipeline service
 
-Add the Delivery Pipeline service to the app so that you can use several of the build and deployment capabilities later.  
+Add the Delivery Pipeline service to the app so that you can use the Build & Deploy feature later.  
 
 1. Click the running instance of you app to view it in Bluemix. If prompted, enter your IBM id and password.
 ![Bluemix Instance](/tutorials/jazzrtc/images/running_instance.png "Bluemix Instance")
 
 2. From the new app's overview page, click **ADD A SERVICE**.
 
-3. In the DevOps category, select **Delivery Pipeline**.
+3. Select the DevOps category, then click **Delivery Pipeline**.
 
 4. Leave the settings for Space and App as they are. Click **CREATE**.
 
@@ -131,7 +128,7 @@ When you're in the Rational Team Concert client for Eclipse, change your code th
 	c. Deliver the change. 
 	![Deliver Change Set](/tutorials/jazzrtc/images/deliver.png "Deliver Change Set")
 
-3. In a browser, go to the deployment page. A build is triggered soon; then, the page is updated automatically. Wait until the app status is green. 
+3. In a browser, go to the deployment page. A build is triggered soon and the page is updated automatically. Wait until the app status is green.
 ![Successful Build](/tutorials/jazzrtc/images/build2_success.png "Successful Build")
 
 4. Click the app link and verify that the app name is updated.
@@ -149,7 +146,7 @@ To see what happens when the build fails, add a failure to the JUnit tests.
 2. In the `index.html` file, on line 10, change the app name. 
 ![Edit App Name Again](/tutorials/jazzrtc/images/edit_code_2.png "Edit App Name Again")
 
-3. Deliver the changes. The deployment page shows a failed build, as you expected. The build was not deployed automatically. Only successful builds are deployed automatically. When you click the app link, the app name is not updated.
+3. Deliver the changes. DevOps Services shows a failed build, as you expected. The Build stage could not complete. Only successful builds are deployed automatically. When you click the app link, the app name is not updated.
 ![Failed Build](/tutorials/jazzrtc/images/build3_failure.png "Failed Build")
 
 4. Access the build logs and test results by clicking the build.

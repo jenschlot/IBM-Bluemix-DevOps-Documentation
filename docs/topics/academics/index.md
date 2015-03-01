@@ -1,6 +1,6 @@
-Last modified: 20 October 2014
+Last modified: 18 February 2015
 
-###What is Bluemix DevOps Services?
+###What is IBM Bluemix DevOps Services?
 IBM&reg; Bluemix&trade; DevOps Services offers features you can use to collaborate with others to develop, track, plan, and deploy software in the cloud.
 From your projects, you can access everything you need to build all types of applications right from your web browser. Use our built-in collaboration tools to make team projects simple!
 Easily build and deploy your application with integrated deployment to the IBM&reg; Bluemix&trade; cloud platform. Go from source code
@@ -42,9 +42,9 @@ for information about configuring your project and using the Track & Plan featur
 
 
 ### Where can I find help with Bluemix DevOps Service?
-If you need help, click **SUPPORT** in the navigation bar.
+If you need help, click **HELP > SUPPORT** in the main menu.
 
-If you are looking for tutorials, click **DOCS** in the navigation bar.
+If you are looking for tutorials, click **HELP > DOCS** in main menu.
 
 You can review the [Academic resources](#resources) on this page.
 
@@ -59,20 +59,13 @@ students can start collaborating.
 ###Alan Kan: 
 ![Alan Kan](images/alankan.png) 
  
-“I am using Bluemix DevOps Services and Bluemix in my new Agile Development class to help students collaborate on group assignments and  
-get familiar with online collaboration practices using the latest tools used in the industry, without the hassle and cost of  
+“I am using Bluemix DevOps Services and Bluemix in my new Agile Development class to help students collaborate on group assignments and get familiar with online collaboration practices using the latest tools used in the industry, without the hassle and cost of  
 setting up servers."  - Alan Kan, Lecturer, Unitec Institute of Technology, New Zealand.   
 
 ---
 
 <a name="resources"></a>
 ##Resources
-
-### Tutorial: [Getting started with tracking and planning in IBM Bluemix DevOps Services](/tutorials/trackplan)  
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> plan, track
-
-### Tutorial: [Setting up Eclipse, Git, and Rational Team Concert desktop clients to access IBM Bluemix DevOps Services](/tutorials/clients) 
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> eclipse, git, rtc
 
 ### IBM Academic Initiative Program
 <div style="color:black">Visit the [IBM Academic Initiative website](http://www-304.ibm.com/ibm/university/academic/pub/page/academic_initiative) or 

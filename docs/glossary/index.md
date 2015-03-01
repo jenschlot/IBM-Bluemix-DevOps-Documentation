@@ -154,6 +154,7 @@ A software methodology that integrates application development and IT operations
 
 <a name="eclipse"></a>
 **Eclipse**
+
 An open-source initiative that provides independent software vendors (ISVs) and other tool 
 developers with a standard platform for developing plug-compatible application development tools.
 
@@ -438,5 +439,3 @@ In Eclipse, the collection of projects and other resources that the user is curr
 developing in the workbench. Metadata about these resources resides in a directory on the 
 file system; the resources might reside in the same directory. [See also 
 repository workspace](#repository_workspace).
-
-&copy; Copyright IBM Corporation 2013, 2015.

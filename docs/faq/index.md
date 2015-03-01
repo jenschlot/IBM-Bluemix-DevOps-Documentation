@@ -1,7 +1,7 @@
 # FAQs
 ##### Last modified: 5 February 2015
 
-Can't find the answer to your question here? [See the IBM&reg; Bluemix&trade; Bluemix DevOps Services Forum](https://developer.ibm.com/answers/questions/?community=BDevOps-services).
+Can't find the answer to your question here? [See the IBM&reg; Bluemix&trade; Bluemix DevOps Services Forum](https://developer.ibm.com/answers/smartspace/devops-services/).
 ____
 
 -   [I see IBM DevOps Services is now called IBM Bluemix DevOps Services. Can you tell me more?](#q1)
@@ -68,14 +68,14 @@ Yes it is. You can plan, define requirements, track tasks, and collaborate on an
 
 ### How do I report a bug? 
 
-[Report a bug here](https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
+[Report a bug here](https://hub.jazz.net/ccm01/web/projects/idsorg | Bluemix DevOps Services#action=com.ibm.team.dashboard.viewDashboard).
 
 <a name="q8"></a>
 
 ### How can I provide feedback?
 
-We love feedback. If you have a suggestion, [share your idea in the IBM Bluemix DevOps Services project](https://hub.jazz.net/ccm01/web/projects/srich%20%7C%20JazzHub#action=com.ibm.team.dashboard.viewDashboard).
-If you need help, [ask a question in the IBM Bluemix DevOps Services Forum](https://developer.ibm.com/answers/questions/?community=Bluemix DevOps-services).
+We love feedback. If you have a suggestion, [share your idea in the IBM Bluemix DevOps Services project](https://hub.jazz.net/ccm01/web/projects/idsorg | Bluemix DevOps Services#action=com.ibm.team.dashboard.viewDashboard).
+If you need help, [ask a question in the IBM Bluemix DevOps Services Forum](https://developer.ibm.com/answers/smartspace/devops-services/).
 
 <a name="ibmer"></a>
 

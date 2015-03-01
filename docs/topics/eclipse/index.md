@@ -1,8 +1,12 @@
 ### Tutorial: [Developing Bluemix applications in Java with Eclipse and Bluemix DevOps Services](/tutorials/jazzrtc)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, eclipse, jazz_scm, pipeline, rtc
 
-### Tutorial: [Setting up Eclipse, Git, and Rational Team Concert desktop clients to access Bluemix DevOps Services](/tutorials/clients)  
-<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> eclipse, git, rtc, jazz_scm
+### Tutorial: [Setting up local clients to work with Git source control](/docs/reference/gitclient)  
+<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> eclipse, git
+
+### Tutorial: [Setting up local clients to work with Jazz source control](/docs/reference/jazz_scm_client)  
+<img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> eclipse, jazz_scm
+
 
 ### Article: [Build an Android app to reserve meeting facilities](http://www.ibm.com/developerworks/mobile/library/mo-approval-tool-app/index.html) <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
 Last updated: 03 November 2014 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, cloudant, mqlight, twilio, android, eclipse
