@@ -1,0 +1,6 @@
+tree 71c176514ba163296d5341de1e535c30d3481f59
+parent 9efe9a4a562b1cf206db8672a1df46e98bc54d2d
+author Max Bridges <mdbridge@us.ibm.com> 1422368666 -0500
+committer Max Bridges <mdbridge@us.ibm.com> 1422368666 -0500
+
+Giving Bluemix dev environment variable a string value. 
