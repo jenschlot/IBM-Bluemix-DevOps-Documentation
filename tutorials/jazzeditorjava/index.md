@@ -48,9 +48,9 @@ If you click the route on the application dashboard, you can access the running 
 
 Although it's great that the application is running, you will want to modify it to make it more interesting.  
 
-You can work with your application code in many ways. For example, with autodeploy, you can modify the code that runs in your app by pushing the changes to a Git repository. The mechanism that implements autodeploy is provided by Bluemix™ DevOps Services, but more about that later.
+You can work with your application code in many ways. For example, with auto-deploy, you can modify the code that runs in your app by pushing the changes to a Git repository. The mechanism that implements auto-deploy is provided by Bluemix™ DevOps Services, but more about that later.
 
-To enable automatic deployment, on your app’s overview page, click **ADD GIT**. 
+To enable auto-deploy, on your app’s overview page, click **ADD GIT**. 
 
 ![Add Git][11]
 
@@ -95,8 +95,8 @@ Run your build by selecting the play icon in the Build stage tile.
 
 ![Play button][57]
 
-This starts the build stage. The deploy stage is configured to automatically deploy your application after a successful build. 
-When the application is running, it is available at the URL shown in the Deploy stage tile. You can see the application's overview on Bluemix by clicking the app name.
+This starts the build stage. The deploy stage is configured to auto-deploy your application after a successful build. 
+When the application is running, it is available at the URL shown on the Deploy stage tile. You can see the application's overview on Bluemix by clicking the app name.
 
 ![Bluemix DevOps Services autoconfigured Pipeline][17]
 
@@ -185,7 +185,7 @@ To make changes to your app source code, find the `WebContent folder` then the f
  
     $ cd /project_directory
     $ git stage Webcontent/index.html
-    $ git commit -M "Sample app headline change"
+    $ git commit -m "Sample app headline change"
     [master 2336018] Sample app headline change
     1 file changed, 1 insertion(+), 1 deletion(-)
 

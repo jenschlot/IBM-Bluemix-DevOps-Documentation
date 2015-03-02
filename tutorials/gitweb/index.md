@@ -2,7 +2,7 @@
 
 Last modified: 13 February 2015
 
-If you want to learn more about managing your Git repository, an open source code management system, with the IBM® Bluemix&trade; DevOps Services Web IDE, complete this tutorial. The tutorial doesn't cover all of the possible Git commands in the DevOps Services Web IDE, but you can practice creating a change on a separate branch, testing the change, and adding the change to the master branch. If you need help with specific commands, [see the Git reference](/docs/reference/git).  If you want to try to work locally by using the command line, [see Work locally with IBM DevOps Services projects and Git source control](/docs/reference/gitclient).
+If you want to learn more about managing your Git repository, an open source code management system, with the IBM® Bluemix&trade; DevOps Services Web IDE, complete this tutorial. The tutorial doesn't cover all of the possible Git commands in the DevOps Services Web IDE, but you can practice creating a change on a separate branch, testing the change, and adding the change to the master branch. If you need help with specific commands, [see the Git reference](/docs/reference/git).  If you want to try to work locally by using the command line, [see Setting up local clients to work with Git source control](/docs/reference/gitclient).
 
 ---
 ## Contents
@@ -27,7 +27,9 @@ If you want to learn more about managing your Git repository, an open source cod
 ##Fork a project
 You complete this tutorial by copying, or forking, a project. Then, you modify the new project. In this case, click the button below to fork the YummyRation project, which contains the Node.js code for a catering website:
 
-[![Deploy to Bluemix](images/bigButton.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/jlmarech/YummyRation)
+
+
+<a target="_blank" href="https://bluemix.net/deploy?repository=https://hub.jazz.net/git/jlmarech/YummyRation"><img src="images/bigButton.png" alt="Deploy to Bluemix"></a>
 
 After the project is forked and the deployment completes, click **EDIT CODE** to continue.
 
