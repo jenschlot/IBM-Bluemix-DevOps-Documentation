@@ -37,7 +37,7 @@ You can start an IBM&reg; Bluemix&trade; DevOps Services project in three ways. 
 If you want to use only the traditional planning feature, which uses simplte tasks and iterations without a backlog, clear the check box.
 
 7. To deploy the project code to Bluemix, select the **Make this a Bluemix Project** check box.  
-**Important**: Building and deploying apps can result in charges to your Bluemix billing account. For more information about pricing, [see the Bluemix pricing page](https://www.ng.bluemix.net/#/pricing).
+**Important**: Building and deploying apps can result in charges to your Bluemix billing account. For more information about pricing, [see the Bluemix pricing page](https://console.ng.bluemix.net/?ace_base=true/#/pricing).
 
 8. Click **CREATE**.  
 
