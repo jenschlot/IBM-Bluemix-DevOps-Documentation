@@ -34,7 +34,7 @@ complete product increments at regular intervals, called iterations or sprints.
 
 <a name="alias"></a>
 **alias**  
-A unique, publicly visible short name used in Git repository paths, Track & Plan, and desktop and command line clients. If you have an existing Jazz ID, that is used as your alias.
+A unique, publicly visible short name that is used in desktop and command-line clients, Git repository paths, and tracking and planning features. For users who have a Jazz ID, that ID is their alias.
 
 <a name="app"></a>
 **app**  
@@ -263,8 +263,7 @@ well known example of open source software.
 
 <a name="platform_as_a_service"></a>
 **platform as a service (PaaS)**  
-The delivery of a computing platform, including applications, optimized middleware, 
-development tools, and Java and Web 2.0 runtime environments, as a service over the Internet.
+The delivery of a computing platform, including applications, optimized middleware, development tools, and Java and Web 2.0 runtime environments, in a cloud-based environment.
 
 <a name="priority"></a>
 **priority**  
@@ -363,7 +362,8 @@ length, for example, from 1 to 4 weeks, but typically have a fixed duration with
 
 <a name="stage"></a>
 **stage**  
-To mark a set of files as being ready for commit.
+1. A group of jobs within a shared execution context that consists of source input, environment variables, and a defined order of execution.
+2. To mark a set of files as being ready for commit.
 
 <a name="story"></a>
 **story**  
@@ -396,18 +396,6 @@ and process.
 <a name="track_build_item"></a>
 **track build item**  
 A development work item that tracks required fixes after a failed build.
-
----
-<a name="U"></a>
-##U
----
-
-<a name="user_sentiment"></a>
-**user sentiment**  
-A user-rating score that is derived from gathering users' application ratings from the 
-major application stores. The function crawls all ratings and reviews to generate a 
-cumulative mobile app score  that combines app quality, user satisfaction, and the overall 
-amount of positive and negative feedback that users provide.
 
 ---
 <a name="W"></a>
