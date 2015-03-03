@@ -95,7 +95,7 @@ You can manage the live application instance on the [Bluemix dashboard][11]. Fro
 
 ![Starting a Bluemix app][12]
 
-**Important:** Building and deploying apps by using Bluemix can result in charges to your Bluemix billing account. A project is granted 60 minutes of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information about pricing for any service, [see the Bluemix pricing page](https://bluemix.net/#/pricing).
+**Important:** Building and deploying apps by using Bluemix can result in charges to your Bluemix billing account. A project is granted 60 minutes of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information about pricing for any service, [see the Bluemix Pricing page](https://bluemix.net/#/pricing).
 
 ---
 <a name='edit'></a>

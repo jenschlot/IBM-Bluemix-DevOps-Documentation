@@ -19,7 +19,7 @@ If you plan to use the Delivery Pipeline (Build & Deploy) and Track & Plan servi
 			<td rowspan="2">Delivery Pipeline</td>
 			<td>Build minutes</td>
 			<td>60 minutes per application (project), per month</td>
-			<td rowspan="2">See the Bluemix [Pricing Sheet](https://ace.ng.bluemix.net/#/pricing/)</td>
+			<td rowspan="2">See the Bluemix [Pricing page](https://ace.ng.bluemix.net/#/pricing/)</td>
 		</tr>
 		<tr style="background-color: #FFFFFF">
 			<td>Application instances (deployers)</td>
@@ -29,7 +29,7 @@ If you plan to use the Delivery Pipeline (Build & Deploy) and Track & Plan servi
 			<td rowspan="2">Track &amp; Plan</td>
 			<td rowspan="2">Users per application</td>
 			<td>Private project: Three users</td>
-			<td rowspan="2">See the Bluemix [Pricing Sheet](https://ace.ng.bluemix.net/#/pricing/)</td>
+			<td rowspan="2">See the Bluemix [Pricing page](https://ace.ng.bluemix.net/#/pricing/)</td>
 		</tr>
 		<tr style="background-color: #EBEBFF">
 			<td>Public project: Unlimited users</td>
@@ -55,7 +55,7 @@ To set up your billing account, complete these steps:
 ##Monitor your usage
 
 
-You can monitor the usage details for your Bluemix account. For more information, [see the billing and usage documentation](https://www.ng.bluemix.net/docs/#acctmgmt/index-gentopic1.html#bil_usage). To determine costs, [see the Bluemix pricing page](https://bluemix.net/#/pricing).
+You can monitor the usage details for your Bluemix account. For more information, [see the billing and usage documentation](https://www.ng.bluemix.net/docs/#acctmgmt/index-gentopic1.html#bil_usage). To determine costs, [see the Bluemix Pricing page](https://bluemix.net/#/pricing).
 
 The Delivery Pipeline and Track & Plan services use metered pricing, where you pay based on consumption. However, they also include a free monthly allowance.
 

@@ -44,7 +44,7 @@ You're ready to build and deploy.
 ##Deploy your app
 
 1. Click **BUILD & DEPLOY**. 
-  * When you build and deploy, your Bluemix account might be charged. For more information, [see the Bluemix pricing page](https://bluemix.net/#/pricing).
+  * When you build and deploy, your Bluemix account might be charged. For more information, [see the Bluemix Pricing page](https://bluemix.net/#/pricing).
 To track charges, after you deploy your first build, add the Delivery Pipeline service to your Bluemix space.
 
 3. On the Pipeline page, click **ADD STAGE**. The Stage Configuration page opens.
