@@ -136,10 +136,7 @@ Next, you configure a stage that contains a deploy job. Deploy jobs deploy your 
 1. Click the name of the new stage. Change it from **MyStage** to 
 `Deploy to dev`. In the Input Settings section, make sure that this stage receives the output from the Build stage's build job. 
 2. Click **JOBS**, then **ADD JOB**. Select **Deploy.**
-3. In the Deploy Script section, after `cf push "${CF_APP}"`, type 
-`-n` followed by a space and a new host name. This addition to the script prevents conflicts between your sample app's route and the routes of other Bluemix apps.
-  * An example of a first line in a valid script is `cf push "${CF_APP}" -n SampleApp2015`. By default, this code deploys an app with the name that is specified in the project manifest and the route `sampleapp2015.mybluemix.net`. 
-4. Leave the other settings as they are, and then click **SAVE**.
+3. Leave the settings as they are. Click **SAVE**.
 
 ![A configured deployer stage][9]
 
