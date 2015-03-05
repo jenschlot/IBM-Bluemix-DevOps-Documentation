@@ -26,7 +26,7 @@ First, you need an app to edit. Bluemix provides everything you need to get star
 3. Click **WEB**.
 4. For the starter, select the **SDK for Node.js**, and then click **CONTINUE**.
 5. Name the app, and then click **FINISH**.
-6. On the left of the page, under your app's name, click **Overview**. 
+6. On the left side of the page, under your app's name, click **Overview**. 
 
 After a few moments, your app is running on Bluemix. To view it, click the URL beside Routes.
 
@@ -111,8 +111,10 @@ bl projects
 ```
 4. Synchronize your local environment with your project on Bluemix:
 ```
-bl sync projectName -d localDirectory
+bl sync projectName -d *localDirectory*
 ```
+
+Where `projectName` is your Bluemix app's name and `localDirectory` is the path to a local workspace.
 
 By synchronizing your local environment with Bluemix, you populate `localDirectory` with the files from your Node project. When you are finished making changes, type `q` to end synchronization.
 
