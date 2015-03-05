@@ -1,0 +1,77 @@
+{>"common/page_layout" /}
+
+<script type="text/javascript">
+	$(document).ready(function($) {
+	
+		$(".accordion-content").hide();
+		
+		$(".feeditem-date").each( function() {
+
+			var d = new Date($(this).text());
+			var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+			$(this).text(month[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear());
+		});
+		
+		$('.accordion-header').click(function(){
+			
+			if ($(this).is(".active"))	{
+				$(this).removeClass('active');
+			} else {
+				$(this).addClass("active");
+				$(this).fadeTo("slow", 1);
+			}
+			
+			$(this).next(".accordion-content").slideToggle(400);
+
+			if ( $(".accordion-header").is(".active"))	{
+				$('.accordion-header').not(".active").fadeTo("slow", 0.33);
+			} else	{
+				$('.accordion-header').not(".active").fadeTo("slow", 1);
+			}
+		});
+	});
+</script>
+
+{<sidebar}
+	{>"common/sidebar"/}
+{/sidebar}
+
+{<content}
+
+		
+	<div id="content" class="com-ibm-team-jazzhub-Docs content fluid-content">
+		<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none">
+		</div>
+		<div class="container-fluid ptl">
+			<div class="row">
+				<div class="col-md-12 resource">
+					<div class="feeditem">
+						
+						<h1> What's New </h1>
+						{#feedItems}
+							<div style="padding-top:30px;clear:both">
+								Hello
+								<h2 class="accordion-header" style="color:rgba(0, 113, 97, 0.64)">{title}</h2>
+							</div>
+							<div class="accordion-content">
+								<h3> {author} - <span class="feeditem-date"> {pubDate} </span> </h3>
+								
+								
+								{summary|s}
+							</div>
+							
+						{/feedItems}
+						
+						{>"common/next_steps"/}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="translate-widget-container prl pll">
+		{>"common/machine_translation"/}
+	</div>
+{/content}
