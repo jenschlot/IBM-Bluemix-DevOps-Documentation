@@ -1,6 +1,6 @@
 #Develop with Bluemix Live Sync and Node.js
 
-Last modified: 19 February 2015
+Last modified: 5 March 2015
 
 ##Contents
 * [Create a Node.js app from a Bluemix starter](#create)
@@ -111,7 +111,7 @@ bl projects
 ```
 4. Synchronize your local environment with your project on Bluemix:
 ```
-bl sync projectName -d *localDirectory*
+bl sync projectName -d localDirectory
 ```
 
 Where `projectName` is your Bluemix app's name and `localDirectory` is the path to a local workspace.
