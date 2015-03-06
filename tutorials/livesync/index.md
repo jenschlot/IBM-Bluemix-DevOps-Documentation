@@ -14,7 +14,7 @@ If you are building a Node.js app, you can quickly update it on IBM® Bluemix™
 In this tutorial, you deploy a Node.js app and then update it by using IBM Bluemix DevOps Services and Bluemix Live Sync. You can see the changes to your running Bluemix application immediately, without waiting for redeployment.
 
 ##Before you begin 
-[Download and install the Bluemix Live Sync command-line interface][1].
+[Download and install the Bluemix Live Sync command-line interface for Windows][1].
 
 **Important:** The Live Sync command-line interface is available only for Windows 7 and 8. More platforms are coming soon. [Learn more about the Live Sync command-line interface][16].
 
