@@ -46,7 +46,7 @@ Although it's great that the application is running, you will want to modify it 
 
 You can work with your application code in many ways. For example, with auto-deploy, you can modify the code that runs in your app by pushing the changes to a Git repository. The mechanism that implements auto-deploy is provided by Bluemix™ DevOps Services, but more about that later.
 
-To enable auto-deploy, on your app’s overview page, click **ADD GIT**. 
+On your app’s overview page, click **ADD GIT**. 
 
 ![Add Git][11]
 
