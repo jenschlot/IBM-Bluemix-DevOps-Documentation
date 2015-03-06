@@ -12,7 +12,12 @@
 			<div class="row">
 				<div class="col-md-12 resource">
 					{markdown|s}
-					{>"common/next_steps"/}
+					
+					{@ne key="Support" value=resourcename}
+						{>"common/next_steps"/}
+					{:else}
+						{>"common/machine_translation"/}
+					{/ne}
 				</div>
 			</div>
 		</div>
