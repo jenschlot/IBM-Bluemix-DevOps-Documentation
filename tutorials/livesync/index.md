@@ -1,6 +1,6 @@
 #Develop with Bluemix Live Sync and Node.js
 
-Last modified: 5 March 2015
+Last modified: 6 March 2015
 
 ##Contents
 * [Create a Node.js app from a Bluemix starter](#create)
@@ -16,7 +16,7 @@ In this tutorial, you deploy a Node.js app and then update it by using IBM Bluem
 ##Before you begin 
 [Download and install the Bluemix Live Sync command-line interface][1].
 
-**Important:** The Live Sync command-line interface is available only for Windows 7 and 8. More platforms are coming soon.
+**Important:** The Live Sync command-line interface is available only for Windows 7 and 8. More platforms are coming soon. [Learn more about the Live Sync command-line interface][16].
 
 <a name='create'></a>
 ##Create a Node.js app from a Bluemix starter
@@ -95,7 +95,7 @@ You edited the project in the Web IDE and previewed the result of your changes w
 <a name='edit_local'></a>
 ##Edit the app locally by using Bluemix Live Sync
 
-Live Sync isn't just available for work done in the Web IDE. You can also make changes on your local environment and see them previewed on Bluemix by using the Live Sync command-line tool, "bl," to synchronize the desktop with your project workspace. Before you follow the next steps, be sure to [install the Live Sync command-line interface][1].
+Live Sync isn't just available for work done in the Web IDE. You can also make changes on your local environment and see them previewed on Bluemix by using the Live Sync command-line tool, "bl," to synchronize the desktop with your project workspace. Before you follow the next steps, be sure to [download and install the Live Sync command-line interface][1].
 
 <a name='edit_local_download'></a>
 ###Synchronize your local environment with Bluemix
@@ -164,3 +164,4 @@ You used Bluemix Live Sync to edit a Node.js project both in the cloud and local
 [13]: /tutorials/livesync/images/big_blue_h1.png
 [14]: /tutorials/livesync/images/default_h1.png
 [15]: /tutorials/livesync/images/click_play.png
+[16]: https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html#live_sync_cli
