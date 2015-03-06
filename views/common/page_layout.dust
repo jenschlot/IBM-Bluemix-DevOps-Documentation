@@ -36,10 +36,7 @@
 					{+content/}
 				</div>
 			</div>
-
-			{@ne key="Support" value=resourcename}
-				{>"common/footer"/}
-			{/ne}
+			{>"common/footer"/}
 		</div>
 		{>"common/google_analytics"/}
 	</body>
