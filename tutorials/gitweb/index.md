@@ -1,6 +1,6 @@
 #Developing with Git in the Bluemix DevOps Services Web IDE
 
-Last modified: 13 February 2015
+Last modified: 6 March 2015
 
 If you want to learn more about managing your Git repository, an open source code management system, with the IBM® Bluemix&trade; DevOps Services Web IDE, complete this tutorial. The tutorial doesn't cover all of the possible Git commands in the DevOps Services Web IDE, but you can practice creating a change on a separate branch, testing the change, and adding the change to the master branch. If you need help with specific commands, [see the Git reference](/docs/reference/git).  If you want to try to work locally by using the command line, [see Setting up local clients to work with Git source control](/docs/reference/gitclient).
 
@@ -27,8 +27,6 @@ If you want to learn more about managing your Git repository, an open source cod
 ##Fork a project
 You complete this tutorial by copying, or forking, a project. Then, you modify the new project. In this case, click the button below to fork the YummyRation project, which contains the Node.js code for a catering website:
 
-
-
 <a target="_blank" href="https://bluemix.net/deploy?repository=https://hub.jazz.net/git/jlmarech/YummyRation"><img src="images/bigButton.png" alt="Deploy to Bluemix"></a>
 
 After the project is forked and the deployment completes, click **EDIT CODE** to continue.
@@ -40,17 +38,17 @@ When you work with many people or want to test different ideas, a common practic
 
 1. Click the **Git Repository** icon <img src="images/gitrepository.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">.
 
-1. Click the **REFERENCE field**.
+1. Click the **Reference** field.
 
-1. Click **NEW BRANCH**. For the name, enter `testbranch`. Click **Submit**.
+1. Click **New Branch**. For the name, enter `testbranch`. Click **Submit**.
 ![New branch dialog][10]
 
 1. Under **local**, next to the `testbranch` branch, click the **Checkout** icon.
 
-1. Confirm that the value in the **REFERENCE** field is "testbranch => origin/testbranch [New Branch]".
+1. Confirm that the value in the **Reference** field is "testbranch => origin/testbranch [New branch]".
 ![testbranch reference][11]
 
-1. Beneath the **REFERENCE** field, click the **PUSH** button to populate `origin/testbranch` with the current contents of your local workspace.
+1. Beneath the **Reference** field, click the **Push** button to populate `origin/testbranch` with the current contents of your local workspace.
 
 ---
 <a name='deploy_a_new_bluemix_app'></a>
@@ -117,12 +115,12 @@ You save your changes to your Bluemix DevOps Services project.  Because this pro
 1. In the **Enter the commit message** field, enter a descriptive commit message, like `Add deployment information to manifest and updated home page`.
 ![Sample commit message][6]
 
-1. Click **COMMIT** to commit your changes to your local repository.
+1. Click **Commit** to commit your changes to your local repository.
 
-1. View your commit in the Active Branch (testbranch) panel under OUTGOING.
+1. View your commit in the Active Branch (testbranch) panel under Outgoing.
 ![Outgoing commit][9]
 
-1. Click **PUSH** to copy your commit to the remote repository.
+1. Click **Push** to copy your commit to the remote repository.
 
 ---
 <a name='add_changes_to_the_master_branch'></a>
@@ -132,33 +130,33 @@ After you confirm a change in a test branch, you can introduce its code to the m
 
 To rebase, you must compare the contents of one branch to another by modifying the references.
 
-1. Click the **REFERENCE** field.
+1. Click the **Reference** field.
 ![The Git Repository reference field][15]
 
-1. Next to local, click **>** to expand the list of local branches.
+1. Expand **local** to see the list of local branches.
 ![Click local branch][16]
 
 1. Next to the local master branch, click the **Checkout** icon.
 ![Checkout master branch][13]
 
-1. Click the **REFERENCE field** again.
+1. Click the **Reference** field again.
 
-1. Next to local, click **>** to expand the list of local branches again.
+1. Expand the list of local branches again.
 
 1. Compare the contents of the local master and testbranch branches by clicking the **testbranch** row.
 ![Comparing testbranch to master][12]
 
 1. Click the **Rebase** icon <img src="images/rebase.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">.
 
-1. Click the **REFERENCE field** again.
+1. Click the **Reference field** again.
 
-1. Next to origin, click **>** to expand the list of remote branches.
+1. Expand **origin** to see the list of remote branches.
 
 1. Click the **master** row to compare the contents of the local copy of the master branch and the remote copy of the master branch. 
 
-1. Confirm that the commit that you originally made on the testbranch branch is visible under OUTGOING.
+1. Confirm that the commit that you originally made on the testbranch branch is visible under Outgoing.
 
-1. Click **PUSH**. Your commit moves to the HISTORY panel.
+1. Click **Push**. Your commit moves to the History panel.
 
 ---
 <a name='summary'></a>
