@@ -1,0 +1,33 @@
+{>"common/page_layout" /}
+
+{<sidebar}
+	{>"common/sidebar"/}
+{/sidebar}
+
+{<content}
+
+		
+	<div id="content" class="com-ibm-team-jazzhub-Docs content fluid-content">
+		<div id="com-ibm-team-jazzhub-Announcement" class="com-ibm-team-jazzhub-Announcement" style="display: none">
+		</div>
+		<div class="container-fluid ptl">
+			<div class="row">
+				<div class="col-md-12 resource">
+					<div class="feed-item">
+						
+						<h1> What's New </h1>
+						
+							<h3> {errorMessage} </h3>
+						
+						{>"common/next_steps"/}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="translate-widget-container prl pll">
+		{>"common/machine_translation"/}
+	</div>
+{/content}

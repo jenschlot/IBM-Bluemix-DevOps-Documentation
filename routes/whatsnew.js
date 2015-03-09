@@ -4,6 +4,8 @@ var feedparser = require("feedparser");
 var request = require("request");
 
 
+//var feedUrl = "http://slkjfdlskjdflsjd.com";
+//var feedUrl = "https://developer.ibm.com/devops-services/category/whats-new/fed/";
 var feedUrl = "https://developer.ibm.com/devops-services/category/whats-new/feed/";
 
 var renderLearn = function(req, res, next, headerContent) {
@@ -29,19 +31,40 @@ var renderLearn = function(req, res, next, headerContent) {
 	});
 	
 	fp.on('end', function() {
-	
 				
-		res.render('whatsnew', {
+		if (feedArray.length == 0)	{
+			res.render('whatsnew_error', {
+				sectionname: 'Docs',
+				headerContent: headerContent,
+				headerStyling: headerStyling,
+				sidebarLinks: sidebarLinks,
+				sidebarSelection: '/whatsnew',
+				errorMessage: "An error occurred, the feed is empty."
+			});
+		} else {
+		
+			res.render('whatsnew', {
+				sectionname: 'Docs',
+				headerContent: headerContent,
+				headerStyling: headerStyling,
+				sidebarLinks: sidebarLinks,
+				sidebarSelection: '/whatsnew',
+				feedItems: feedArray
+			});
+		}
+	});
+	
+	request.get({url: feedUrl, timeout: 5*60*1000}).on('error', function() {
+	
+		res.render('whatsnew_error', {
 			sectionname: 'Docs',
 			headerContent: headerContent,
 			headerStyling: headerStyling,
 			sidebarLinks: sidebarLinks,
 			sidebarSelection: '/whatsnew',
-			feedItems: feedArray
+			errorMessage: "An error occurred, the connection to the feed timed out."
 		});
-	});
-	
-	request.get(feedUrl).pipe(fp);
+	}).pipe(fp);
 }
 
 

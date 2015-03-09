@@ -5,7 +5,7 @@
 	
 		$(".accordion-content").hide();
 		
-		$(".feeditem-date").each( function() {
+		$(".feed-item-date").each( function() {
 
 			var d = new Date($(this).text());
 			var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -17,8 +17,10 @@
 			
 			if ($(this).is(".active"))	{
 				$(this).removeClass('active');
+				$(this).find('.feed-item-arrow').css("-webkit-transform", "rotate(0deg)");
 			} else {
 				$(this).addClass("active");
+				$(this).find('.feed-item-arrow').css("-webkit-transform", "rotate(90deg)");
 				$(this).fadeTo("slow", 1);
 			}
 			
@@ -46,17 +48,19 @@
 		<div class="container-fluid ptl">
 			<div class="row">
 				<div class="col-md-12 resource">
-					<div class="feeditem">
+					<div class="feed-item">
 						
 						<h1> What's New </h1>
 						{#feedItems}
-							<div style="padding-top:30px;clear:both">
-								Hello
-								<h2 class="accordion-header" style="color:rgba(0, 113, 97, 0.64)">{title}</h2>
+							<div class="accordion-header">
+								
+								<h3 class="feed-item-title">{title} &nbsp;&nbsp;
+									<span class="feed-item-arrow">></span>
+								</h3>
+								
 							</div>
 							<div class="accordion-content">
-								<h3> {author} - <span class="feeditem-date"> {pubDate} </span> </h3>
-								
+								<h3> {author} - <span class="feed-item-date"> {pubDate} </span> </h3>
 								
 								{summary|s}
 							</div>
