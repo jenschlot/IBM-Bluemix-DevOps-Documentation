@@ -4,8 +4,8 @@ applications:
   domain: mybluemix.net
   path: .
   disk_quota: 100M
-  host: jazzhubdocs
-  name: jazzhubdocs
+  host: dvt2015
+  name: dvt2015
   command: node app.js
   env:
     ENABLE_BLUEMIX_DEV_MODE: "false"
