@@ -14,7 +14,7 @@ If you are building a Node.js app, you can quickly update it on IBM® Bluemix™
 In this tutorial, you deploy a Node.js app and then update it by using IBM Bluemix DevOps Services and Bluemix Live Sync. You can see the changes to your running Bluemix application immediately, without waiting for redeployment.
 
 ##Before you begin 
-[Download and install the Bluemix Live Sync command-line interface][1].
+[Download and install the Bluemix Live Sync command-line interface for Windows][1].
 
 **Important:** The Live Sync command-line interface is available only for Windows 7 and 8. More platforms are coming soon. [Learn more about the Live Sync command-line interface][16].
 
@@ -26,8 +26,9 @@ First, you need an app to edit. Bluemix provides everything you need to get star
 1. Sign in to Bluemix.
 2. Click **CREATE AN APP**.
 3. Click **WEB**.
-4. For the starter, select the **SDK for Node.js** , and then click **CONTINUE**.
+4. For the starter, select the **SDK for Node.js**, and then click **CONTINUE**.
 5. Name the app, and then click **FINISH**.
+6. On the left side of the page, under your app's name, click **Overview**. 
 
 After a few moments, your app is running on Bluemix. To view it, click the URL beside Routes.
 
@@ -41,7 +42,7 @@ Next, create a Git repository that is hosted by Bluemix DevOps Services and asso
 1. On your app's Overview page, click **ADD GIT**.
 ![Clicking ADD GIT][6]
 2. On the Create Git Repository Page, confirm that the **Populate the repository with the starter application package and enable Delivery Pipeline (Build & Deploy)** check box is selected. Click **CONTINUE**.
-3. When the repository is initialized, click **CLOSE**. 
+3. When the repository is initialized, close the Create Git Repository window. 
 
 Your app instance is now associated with a DevOps Services project and Git Repository.
 
@@ -67,7 +68,8 @@ You can use the new launch configuration to edit your project through Bluemix Li
 
 When you’re forced to redeploy to Bluemix each time you make a change, you waste valuable development time. To quickly make changes to your project and preview the changes, turn on Live Edit mode in the DevOps Services Web IDE.
 
-1. On the run bar, click the menu in the and select your new launch configuration. 
+1. On the run bar, click the menu and select your new launch configuration.
+  * The new launch configuration has the name of the original launch configuration with "-1" appended to it.
 2. Turn on **Live Edit**. The code in your workspace is deployed to Bluemix according to the new launch configuration.
 ![Clicking the Live Edit button][9]
 3. When redeployment finishes, the deployment status icon turns green and the phrase "`(running: live edit)`" is shown beside your launch configuration on the run bar.
@@ -113,7 +115,8 @@ bl projects
 ```
 bl sync projectName -d localDirectory
 ```
-Where `localDirectory` is the location where you would like the project files to be synchronized locally. 
+
+Where `projectName` is your Bluemix app's name and `localDirectory` is the path to a local workspace.
 
 By synchronizing your local environment with Bluemix, you populate `localDirectory` with the files from your Node project. When you are finished making changes, type `q` to end synchronization.
 
