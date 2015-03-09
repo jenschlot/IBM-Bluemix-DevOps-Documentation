@@ -1,6 +1,6 @@
 #Developing Bluemix applications in Java with Eclipse and Bluemix DevOps Services
 
-Last modified: 19 February 2015
+Last modified: 9 March 2015
 
 Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM&reg; Bluemix&trade; DevOps Services, and the Rational&reg; Team Concert client for Eclipse. 
 
@@ -52,7 +52,7 @@ To track charges, after you deploy your first build, add the Delivery Pipeline s
 
 4. Create a stage to build your application:
     1. Click the default **MyStage** name and change the name of this stage to `Build`. 
-    2. On the **INPUT** tab, use the default settings. Be sure to enter your account password where indicated.  
+    2. On the **INPUT** tab, use the default settings. Be sure to enter your IBM id password where indicated.  
 	3. On the **JOBS** tab, click **ADD JOB**. Select **Build** and the select the **Ant** builder type.   
     4. In the **Working Directory** field, type the name of the folder that contains your code; for example, `WordCounter`. When the project is loaded in the Rational Team Concert client, this folder maps to an Eclipse project automatically.
     5. In the **Build Archive Directory** field, type the name of the directory where the build output files are archived as part of the build result.
@@ -66,8 +66,9 @@ To track charges, after you deploy your first build, add the Delivery Pipeline s
 7.  Create a stage to deploy your application to Bluemix:
   1. Click the default **MyStage** name and change the name of this stage to `Deploy to dev`. 
   2. On the **INPUT** tab, use the default settings.
-  3. . On the **JOBS** tab, click **ADD JOB** and then select **Deploy**. This job will use the settings in the `manifest.yml` file, which is included as part of the sample project. You can use all of the values as provided, except for the hostname. The hostname is used to define your application's URL and must be unique for each application deployed that is deployed on Bluemix.
+  3. On the **JOBS** tab, click **ADD JOB** and then select **Deploy**. This job will use the settings in the `manifest.yml` file, which is included as part of the sample project. You can use all of the values as provided, except for the hostname. The hostname is used to define your application's URL and must be unique for each application deployed that is deployed on Bluemix.
   4. Override the host with the `-n` option in the cf push command, as shown in the following image.
+    * **Hint:** Use a combination of your username and the date or time to ensure that your route is unique.
   5. Click Save. 
 ![Add Deployer](/tutorials/jazzrtc/images/configure_deployer.png "Add Deployer")
 
@@ -86,7 +87,7 @@ Add the Delivery Pipeline service to the app so that you can use the Build & Dep
 1. Click the running instance of you app to view it in Bluemix. If prompted, enter your IBM id and password.
 ![Bluemix Instance](/tutorials/jazzrtc/images/running_instance.png "Bluemix Instance")
 
-2. From the new app's overview page, click **ADD A SERVICE**.
+2. From the new app's overview page, click **ADD A SERVICE OR API**.
 
 3. Select the DevOps category, then click **Delivery Pipeline**.
 
