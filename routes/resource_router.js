@@ -21,22 +21,22 @@ var renderResource = function(req, res, next, headerContent) {
 	dust.loadSource(require("../views/partials").compiled());
 	dust.loadSource(dust.compile(req.rendered_markdown, "rendered_markdown"));
 	dust.render("rendered_markdown", { something: "somethingelse" }, function(err, out) {
-		dusted_markdown += out;
-	});
+		dusted_markdown = out;
 
-	res.render(
-		'key_resource',
-		{ 
-			markdown: dusted_markdown,
-			sectionname: req.sectionname,
-			resourcename: req.resourcename,
-			imgicon: req.imgicon,
-			headerContent: headerContent,
-			headerStyling: headerStyling,
-			sidebarLinks: sidebarLinks,
-			sidebarSelection: req.uriprefix
-		}
-	);
+		res.render(
+			'key_resource',
+			{ 
+				markdown: dusted_markdown,
+				sectionname: req.sectionname,
+				resourcename: req.resourcename,
+				imgicon: req.imgicon,
+				headerContent: headerContent,
+				headerStyling: headerStyling,
+				sidebarLinks: sidebarLinks,
+				sidebarSelection: req.uriprefix
+			}
+		);
+	});
 }
 
 module.exports =  function (env, section_name, resource_name, img_icon, uri_prefix, directory) {
