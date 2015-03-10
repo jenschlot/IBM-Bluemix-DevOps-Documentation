@@ -1,4 +1,4 @@
-# Instructions for DVT testing 16 Feb - 17 Feb 2015
+# Instructions for DVT testing - March 2015
 
 ## Welcome to the IBM Bluemix DevOps Services documentation
 
