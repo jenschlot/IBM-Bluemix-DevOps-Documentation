@@ -3,9 +3,6 @@ var NavbarClient = require("../lib/clients/navbar-client.js");
 var feedparser = require("feedparser");
 var request = require("request");
 
-
-//var feedUrl = "http://slkjfdlskjdflsjd.com";
-//var feedUrl = "https://developer.ibm.com/devops-services/category/whats-new/fed/";
 var feedUrl = "https://developer.ibm.com/devops-services/category/whats-new/feed/";
 
 var renderLearn = function(req, res, next, headerContent) {

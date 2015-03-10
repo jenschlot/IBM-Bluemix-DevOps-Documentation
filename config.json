@@ -52,13 +52,6 @@
 			"directory": "docs/overview"
 		},
 		{
-			"uri_prefix": "/whatsnew",
-			"section_name": "Docs",
-			"resource_name": "What's New",
-			"img_icon": "whatsnew",
-			"directory": "whatsnew"
-		},
-		{
 			"uri_prefix": "/features",
 			"section_name": "Docs",
 			"resource_name": "Features",
