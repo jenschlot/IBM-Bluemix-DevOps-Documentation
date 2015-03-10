@@ -7,6 +7,7 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "async": "*",
     "consolidate": "*",
     "cookie-parser": "^1.3.3",
     "dustjs-helpers": "*",

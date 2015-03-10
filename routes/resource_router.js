@@ -1,7 +1,10 @@
+'use strict';
+
 var express = require('express');
 var _ = require('underscore');
 var path = require('path');
 var nconf = require('nconf');
+var dust = require('dustjs-linkedin');
 var NavbarClient = require('../lib/clients/navbar-client.js');
 
 var renderResource = function(req, res, next, headerContent) {
@@ -14,10 +17,17 @@ var renderResource = function(req, res, next, headerContent) {
 		headerStyling = config.compositionServiceStylingEndpoint;
 	}
 
+	var dusted_markdown = "";
+	dust.loadSource(require("../views/partials").compiled());
+	dust.loadSource(dust.compile(req.rendered_markdown, "rendered_markdown"));
+	dust.render("rendered_markdown", { something: "somethingelse" }, function(err, out) {
+		dusted_markdown += out;
+	});
+
 	res.render(
 		'key_resource',
 		{ 
-			markdown: req.rendered_markdown,
+			markdown: dusted_markdown,
 			sectionname: req.sectionname,
 			resourcename: req.resourcename,
 			imgicon: req.imgicon,
