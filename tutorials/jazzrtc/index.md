@@ -1,6 +1,6 @@
 #Developing Bluemix applications in Java with Eclipse and Bluemix DevOps Services
 
-Last modified: 9 March 2015
+Last modified: 10 March 2015
 
 Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM&reg; Bluemix&trade; DevOps Services, and the Rational&reg; Team Concert client for Eclipse. 
 
@@ -52,7 +52,7 @@ To track charges, after you deploy your first build, add the Delivery Pipeline s
 
 4. Create a stage to build your application:
     1. Click the default **MyStage** name and change the name of this stage to `Build`. 
-    2. On the **INPUT** tab, use the default settings. Be sure to enter your IBM id password where indicated.  
+    2. On the **INPUT** tab, use the default settings. Be sure to enter the password for your IBM id where indicated.  
 	3. On the **JOBS** tab, click **ADD JOB**. Select **Build** and the select the **Ant** builder type.   
     4. In the **Working Directory** field, type the name of the folder that contains your code; for example, `WordCounter`. When the project is loaded in the Rational Team Concert client, this folder maps to an Eclipse project automatically.
     5. In the **Build Archive Directory** field, type the name of the directory where the build output files are archived as part of the build result.
