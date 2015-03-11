@@ -41,10 +41,11 @@ module.exports =  function (env, section_name, resource_name, img_icon, uri_pref
 	var static_in_dir_middleware = express.static(directory);
 	var less_in_public_middleware = require('less-middleware')(path.join(__dirname, '..', 'public'));
 	var static_in_public_middleware = express.static(path.join(__dirname, '..', 'public'));
-	var _GUEST_USER_ID = "jazzhubguest";
+	var _GUEST_USER_ID = 'jazzhubguest';
 
 	var chain = [
-		dustdown_middleware,
+		dustdown_middleware.file,
+		dustdown_middleware.directory,
 		markdown_middleware.file,
 		markdown_middleware.directory,
 		function (req, res, next) {
