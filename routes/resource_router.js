@@ -17,31 +17,21 @@ var renderResource = function(req, res, next, headerContent) {
 		headerStyling = config.compositionServiceStylingEndpoint;
 	}
 
-	var dusted_markdown = "";
-	var compiled = require("../views/partials/index").compiled_markdown();
-	_.each(compiled, function(c) {
-		dust.loadSource(c);
-		console.log(c);
-	});
-	dust.loadSource(dust.compile(req.rendered_markdown, "rendered_markdown"));
-	console.log(JSON.stringify(dust));
-	dust.render("rendered_markdown", { something: "somethingelse" }, function(err, out) {
-		dusted_markdown = out;
+	console.log(req.dusted_markdown);
 
-		res.render(
-			'key_resource',
-			{ 
-				markdown: dusted_markdown,
-				sectionname: req.sectionname,
-				resourcename: req.resourcename,
-				imgicon: req.imgicon,
-				headerContent: headerContent,
-				headerStyling: headerStyling,
-				sidebarLinks: sidebarLinks,
-				sidebarSelection: req.uriprefix
-			}
-		);
-	});
+	res.render(
+		'key_resource',
+		{ 
+			markdown: req.rendered_markdown,
+			sectionname: req.sectionname,
+			resourcename: req.resourcename,
+			imgicon: req.imgicon,
+			headerContent: headerContent,
+			headerStyling: headerStyling,
+			sidebarLinks: sidebarLinks,
+			sidebarSelection: req.uriprefix
+		}
+	);
 }
 
 module.exports =  function (env, section_name, resource_name, img_icon, uri_prefix, directory) {
