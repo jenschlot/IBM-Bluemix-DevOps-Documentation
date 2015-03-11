@@ -18,8 +18,13 @@ var renderResource = function(req, res, next, headerContent) {
 	}
 
 	var dusted_markdown = "";
-	dust.loadSource(require("../views/partials").compiled());
+	var compiled = require("../views/partials/index").compiled_markdown();
+	_.each(compiled, function(c) {
+		dust.loadSource(c);
+		console.log(c);
+	});
 	dust.loadSource(dust.compile(req.rendered_markdown, "rendered_markdown"));
+	console.log(JSON.stringify(dust));
 	dust.render("rendered_markdown", { something: "somethingelse" }, function(err, out) {
 		dusted_markdown = out;
 
@@ -48,6 +53,8 @@ module.exports =  function (env, section_name, resource_name, img_icon, uri_pref
 	var _GUEST_USER_ID = "jazzhubguest";
 
 	var chain = [
+		dustdown_middleware.file,
+		dustdown_middleware.directory,
 		markdown_middleware.file,
 		markdown_middleware.directory,
 		function (req, res, next) {
