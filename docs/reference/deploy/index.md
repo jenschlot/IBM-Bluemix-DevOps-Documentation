@@ -80,9 +80,9 @@ In addition to logs, you can view unit test results, generated artifacts, and co
 <a name="manual"></a>
 ##Deployment using the Web IDE
 
-While you're working in the directory that contains your `manifest.yml` file, you can deploy whatever is in the Web IDE workspace to Bluemix by clicking the **Play** icon on the Run Bar. 
+While you're working in the directory that contains your `manifest.yml` file, you can deploy whatever is in the Web IDE workspace to Bluemix by clicking the **Play** icon on the Run bar. 
 
-**Remember:** By clicking the **Play** icon in the Run Bar, you deploy the current state of your code in the Web IDE. To deploy the code that is checked in to the repository, use Pipeline.
+**Remember:** By clicking the **Play** icon, you deploy the current state of your code in the Web IDE. To deploy the code that is checked in to the repository, use Pipeline.
 
 You can configure Web IDE deployment and Build & Deploy's Pipeline to use different app names. Then, you can use the Web IDE deployment for a personal test environment and Pipeline for a team integration environment. The Web IDE saves deployment launch configurations; you can access them from the menu on the Run bar. 
 
@@ -90,7 +90,7 @@ Whether you are using command-line tools or the Web IDE, both methods are effect
 
 
 <a name="runbar"></a>
-###The Run ar
+###The Run bar
 
 ![Annotated Run Bar screenshot][7]
 
