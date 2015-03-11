@@ -9,6 +9,8 @@ lib-cov
 
 node_modules
 
+.jshintrc
+
 pids
 logs
 results

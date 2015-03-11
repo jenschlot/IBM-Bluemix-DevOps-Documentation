@@ -47,14 +47,14 @@ var renderResource = function(req, res, next, headerContent) {
 module.exports =  function (env, section_name, resource_name, img_icon, uri_prefix, directory) {
 	var router = express.Router();
 	var markdown_middleware = require('jazzhub-markdown-middleware')(directory);
+	var dustdown_middleware = require('jazzhub-dustdown-middleware')(directory, path.join(__dirname, '..', 'fragments'));
 	var static_in_dir_middleware = express.static(directory);
 	var less_in_public_middleware = require('less-middleware')(path.join(__dirname, '..', 'public'));
 	var static_in_public_middleware = express.static(path.join(__dirname, '..', 'public'));
 	var _GUEST_USER_ID = "jazzhubguest";
 
 	var chain = [
-		dustdown_middleware.file,
-		dustdown_middleware.directory,
+		dustdown_middleware,
 		markdown_middleware.file,
 		markdown_middleware.directory,
 		function (req, res, next) {

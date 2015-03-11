@@ -15,6 +15,7 @@
     "errorhandler": "*",
     "express": "*",
     "jazzhub-markdown-middleware": "*",
+    "jazzhub-dustdown-middleware": "*",
     "less-middleware": "*",
     "marked": "*",
     "morgan": "*",
