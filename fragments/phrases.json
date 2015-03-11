@@ -1,3 +1,6 @@
 {
-	"brandName": "IBM Enterprise-Edition Bluemix DevOps Services"
+	"common": {
+		"brandName": "IBM\u00AE Bluemix™ DevOps Services",
+		"liveSync": "IBM&reg; Bluemix&trade; Live Sync"
+	}
 }
