@@ -11,7 +11,8 @@
 			"email": "hub@jazz.net"
 		},
 		"publicUri": "https://hub.jazz.net",
-		"userServiceEndpoint": "https://hub.jazz.net/manage/service/com.ibm.team.jazzhub.common.service.ICurrentUserService"
+		"userServiceEndpoint": "https://hub.jazz.net/manage/service/com.ibm.team.jazzhub.common.service.ICurrentUserService",
+		"feedUrl": "https://developer.ibm.com/devops-services/category/whats-new/feed/"
 	},
 	"ssl": {
 		"key": "file:./config/ssl/privatekey.pem",

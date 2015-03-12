@@ -21,6 +21,6 @@
     "proxy-middleware": "*",
     "request": "*",
     "underscore": "*",
-	"feedparser": "*"
+    "feedparser": "*"
   }
 }

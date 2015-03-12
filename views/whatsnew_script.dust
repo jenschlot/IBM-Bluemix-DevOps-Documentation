@@ -1,0 +1,36 @@
+<script type="text/javascript">
+	$(document).ready(function($) {
+	
+		$(".accordion-content").hide();
+		
+		$(".feed-item-date").each( function() {
+
+			var d = new Date($(this).text());
+			var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+			$(this).text(month[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear());
+		});
+		
+		$('.accordion-header').click(function(){
+			
+			var node = $(this);
+			
+			if (node.is(".active"))	{
+				node.removeClass('active');
+				node.find('.feed-item-arrow').css("-webkit-transform", "rotate(0deg)");
+			} else {
+				node.addClass("active");
+				node.find('.feed-item-arrow').css("-webkit-transform", "rotate(90deg)");
+				node.fadeTo("slow", 1);
+			}
+			
+			node.next(".accordion-content").slideToggle(400);
+
+			if ( $(".accordion-header").is(".active"))	{
+				$('.accordion-header').not(".active").fadeTo("slow", 0.33);
+			} else	{
+				$('.accordion-header').not(".active").fadeTo("slow", 1);
+			}
+		});
+	});
+</script>

@@ -1,39 +1,6 @@
 {>"common/page_layout" /}
 
-<script type="text/javascript">
-	$(document).ready(function($) {
-	
-		$(".accordion-content").hide();
-		
-		$(".feed-item-date").each( function() {
-
-			var d = new Date($(this).text());
-			var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
-			$(this).text(month[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear());
-		});
-		
-		$('.accordion-header').click(function(){
-			
-			if ($(this).is(".active"))	{
-				$(this).removeClass('active');
-				$(this).find('.feed-item-arrow').css("-webkit-transform", "rotate(0deg)");
-			} else {
-				$(this).addClass("active");
-				$(this).find('.feed-item-arrow').css("-webkit-transform", "rotate(90deg)");
-				$(this).fadeTo("slow", 1);
-			}
-			
-			$(this).next(".accordion-content").slideToggle(400);
-
-			if ( $(".accordion-header").is(".active"))	{
-				$('.accordion-header').not(".active").fadeTo("slow", 0.33);
-			} else	{
-				$('.accordion-header').not(".active").fadeTo("slow", 1);
-			}
-		});
-	});
-</script>
+{>"whatsnew_script"/}
 
 {<sidebar}
 	{>"common/sidebar"/}
@@ -54,8 +21,8 @@
 						{#feedItems}
 							<div class="accordion-header">
 								
-								<h3 class="feed-item-title">{title} &nbsp;&nbsp;
-									<span class="feed-item-arrow">></span>
+								<h3 class="feed-item-title">{title} {~s}{~s}
+									<span class="feed-item-arrow">&gt;</span>
 								</h3>
 								
 							</div>
