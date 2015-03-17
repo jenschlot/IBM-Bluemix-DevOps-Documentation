@@ -149,7 +149,7 @@ It's time to see your work in action. Because you configured the pipeline after 
 
 1. On the Build stage tile, click the **Play** icon. The build is added to the queue, is run, and then is deployed to Bluemix.
 2. After the deployer status tile indicates that your app is running, click the URL that is under the app name. Make sure that your topic is in the input box.
-3. Optional: To open the Bluemix Overview page for your running app, click the app's name. You can view lots of information about your application on the Overview page. For more information, [see Managing applications on Bluemix][28].
+3. Optional: To open the Bluemix Overview page for your running app, click the app's name. You can view lots of information about your app on the Overview page. For more information, [see Managing applications on Bluemix][28].
 
 ![The project's configured Pipeline][10]
 
