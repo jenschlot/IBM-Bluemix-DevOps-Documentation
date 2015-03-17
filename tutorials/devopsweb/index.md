@@ -27,8 +27,6 @@ After you explore the project, click the button below to create your own copy of
 
 <a target="_blank" href="https://bluemix.net/deploy?repository=https://hub.jazz.net/git/ibmdevopsservices/Sentiment.Analysis.App"><img src="images/bigButton.png" alt="Deploy to Bluemix"></a>
 
-Note: During deployment, the suggested app name might not be valid. If necessary, remove the periods from the app name.
-
 After the project is forked and the deployment completes, click **EDIT CODE** to continue.
 
 
