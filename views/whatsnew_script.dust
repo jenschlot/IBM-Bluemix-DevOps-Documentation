@@ -17,10 +17,10 @@
 			
 			if (node.is(".active"))	{
 				node.removeClass('active');
-				node.find('.feed-item-arrow').css("-webkit-transform", "rotate(0deg)");
+				node.find('.feed-item-arrow').css("transform", "rotate(0deg)");
 			} else {
 				node.addClass("active");
-				node.find('.feed-item-arrow').css("-webkit-transform", "rotate(90deg)");
+				node.find('.feed-item-arrow').css("transform", "rotate(90deg)");
 				node.fadeTo("slow", 1);
 			}
 			
