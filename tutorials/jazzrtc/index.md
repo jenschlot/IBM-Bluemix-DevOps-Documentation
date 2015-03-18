@@ -1,4 +1,4 @@
-#Developing Bluemix applications in Java with Eclipse and Bluemix DevOps Services
+#Developing Bluemix apps in Java with Eclipse and Bluemix DevOps Services
 
 Last modified: 10 March 2015
 
@@ -50,7 +50,7 @@ To track charges, after you deploy your first build, add the Delivery Pipeline s
 3. On the Pipeline page, click **ADD STAGE**. The Stage Configuration page opens.
 ![Click Add A Builder](/tutorials/jazzrtc/images/add_builder.png "Click add a builder")
 
-4. Create a stage to build your application:
+4. Create a stage to build your app:
     1. Click the default **MyStage** name and change the name of this stage to `Build`. 
     2. On the **INPUT** tab, use the default settings. Be sure to enter the password for your IBM id where indicated.  
 	3. On the **JOBS** tab, click **ADD JOB**. Select **Build** and the select the **Ant** builder type.   
@@ -63,19 +63,19 @@ To track charges, after you deploy your first build, add the Delivery Pipeline s
 6. Click **ADD STAGE**. The Stage Configuration page opens.
 ![Click Add A New Stage](/tutorials/jazzrtc/images/add_deployer.png "Click add a new stage")
 
-7.  Create a stage to deploy your application to Bluemix:
+7.  Create a stage to deploy your app to Bluemix:
   1. Click the default **MyStage** name and change the name of this stage to `Deploy to dev`. 
   2. On the **INPUT** tab, use the default settings.
-  3. On the **JOBS** tab, click **ADD JOB** and then select **Deploy**. This job will use the settings in the `manifest.yml` file, which is included as part of the sample project. You can use all of the values as provided, except for the hostname. The hostname is used to define your application's URL and must be unique for each application deployed that is deployed on Bluemix.
+  3. On the **JOBS** tab, click **ADD JOB** and then select **Deploy**. This job will use the settings in the `manifest.yml` file, which is included as part of the sample project. You can use all of the values as provided, except for the hostname. The hostname is used to define your app's URL and must be unique for each app that is deployed on Bluemix.
   4. Override the host with the `-n` option in the cf push command, as shown in the following image.
     * **Hint:** Use a combination of your username and the date or time to ensure that your route is unique.
-  5. Click Save. 
+  5. Click **SAVE**. 
 ![Add Deployer](/tutorials/jazzrtc/images/configure_deployer.png "Add Deployer")
 
 9. At the top of the Build stage, click the **Play** icon to build and deploy your project for the first time. The build process takes a couple of minutes. When you see a green circle, the app is live. 
 ![Successful Build](/tutorials/jazzrtc/images/build1_success.png "Successful Build")
 
-10. Verify that the app is running by clicking the application link.
+10. Verify that the app is running by clicking the app link.
 ![Application](/tutorials/jazzrtc/images/app.png "Application")
 
 ---

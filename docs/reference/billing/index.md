@@ -18,16 +18,16 @@ If you plan to use the Delivery Pipeline (Build & Deploy) and Track & Plan servi
 		<tr style="background-color: #FFFFFF">
 			<td rowspan="2">Delivery Pipeline</td>
 			<td>Build minutes</td>
-			<td>60 minutes per application (project), per month</td>
+			<td>60 minutes per app (project), per month</td>
 			<td rowspan="2">See the Bluemix [Pricing page](https://ace.ng.bluemix.net/#/pricing/)</td>
 		</tr>
 		<tr style="background-color: #FFFFFF">
-			<td>Application instances (deployers)</td>
-			<td>First two application instances (deployers) per application (project), per month</td>
+			<td>App instances (deployers)</td>
+			<td>First two app instances (deployers) per app (project), per month</td>
 		</tr>
 		<tr style="background-color: #EBEBFF">
 			<td rowspan="2">Track &amp; Plan</td>
-			<td rowspan="2">Users per application</td>
+			<td rowspan="2">Users per app</td>
 			<td>Private project: Three users</td>
 			<td rowspan="2">See the Bluemix [Pricing page](https://ace.ng.bluemix.net/#/pricing/)</td>
 		</tr>

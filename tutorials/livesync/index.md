@@ -9,9 +9,9 @@ Last modified: 6 March 2015
 * [Edit the app locally by using Bluemix Live Sync](#edit_local)
 * [Summary](#summary)
 
-If you are building a Node.js app, you can quickly update it on IBM® Bluemix™ and develop as you would on the desktop by using Bluemix Live Sync. You can use Bluemix Live Sync on the command line, through the Desktop Sync feature, and in the Web IDE, through the Live Edit feature. You can also [use Bluemix Live Sync to debug Node.js applications][2]. [Learn more about Bluemix Live Sync][4]. 
+If you are building a Node.js app, you can quickly update it on IBM® Bluemix™ and develop as you would on the desktop by using Bluemix Live Sync. You can use Bluemix Live Sync on the command line, through the Desktop Sync feature, and in the Web IDE, through the Live Edit feature. You can also [use Bluemix Live Sync to debug Node.js apps][2]. [Learn more about Bluemix Live Sync][4]. 
 
-In this tutorial, you deploy a Node.js app and then update it by using IBM Bluemix DevOps Services and Bluemix Live Sync. You can see the changes to your running Bluemix application immediately, without waiting for redeployment.
+In this tutorial, you deploy a Node.js app and then update it by using IBM Bluemix DevOps Services and Bluemix Live Sync. You can see the changes to your running Bluemix app immediately, without waiting for redeployment.
 
 ##Before you begin 
 [Download and install the Bluemix Live Sync command-line interface for Windows][1].
@@ -135,7 +135,7 @@ bl start
 
 ###Disable the Desktop Sync feature:
 
-If you made both of the changes, the header on your application page is now big and blue. Nice work!
+If you made both of the changes, the header on your app's page is now big and blue. Nice work!
 ![Big blue header in sample app][13]
 
 Disable the Desktop Sync feature:
