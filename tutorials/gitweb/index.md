@@ -2,7 +2,7 @@
 
 Last modified: 13 February 2015
 
-If you want to learn more about managing your Git repository, an open source code management system, with the IBM® Bluemix&trade; DevOps Services Web IDE, complete this tutorial. The tutorial doesn't cover all of the possible Git commands in the DevOps Services Web IDE, but you can practice creating a change on a separate branch, testing the change, and adding the change to the master branch. If you need help with specific commands, [see the Git reference](/docs/reference/git).  If you want to try to work locally by using the command line, [see Work locally with IBM DevOps Services projects and Git source control](/docs/reference/gitclient).
+If you want to learn more about managing your Git repository, an open source code management system, with the IBM® Bluemix&trade; DevOps Services Web IDE, complete this tutorial. The tutorial doesn't cover all of the possible Git commands in the DevOps Services Web IDE, but you can practice creating a change on a separate branch, testing the change, and adding the change to the master branch. If you need help with specific commands, [see the Git reference](/docs/reference/git).  If you want to try to work locally by using the command line, [see Setting up local clients to work with Git source control](/docs/reference/gitclient).
 
 ---
 ## Contents
@@ -27,7 +27,9 @@ If you want to learn more about managing your Git repository, an open source cod
 ##Fork a project
 You complete this tutorial by copying, or forking, a project. Then, you modify the new project. In this case, click the button below to fork the YummyRation project, which contains the Node.js code for a catering website:
 
-[![Deploy to Bluemix](images/bigButton.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/jlmarech/YummyRation)
+
+
+<a target="_blank" href="https://bluemix.net/deploy?repository=https://hub.jazz.net/git/jlmarech/YummyRation"><img src="images/bigButton.png" alt="Deploy to Bluemix"></a>
 
 After the project is forked and the deployment completes, click **EDIT CODE** to continue.
 
@@ -66,14 +68,14 @@ To see the changes that you make to your code, create a Bluemix app and deploy t
 
 1. Click **File**, and then click **Save**.
 
-1. Click the status area in the Run Bar. Click **+**, and then review the contents of the Edit Launch Configuration window.
+1. Click the status area on the run bar. Click **+**, and then review the contents of the Edit Launch Configuration window.
 ![The dropdown menu in the Run Bar][33]
  * Make sure that the information about the organization and space are as you expected.
- * Make sure that the displayed host and application name match the contents of the `manifest.yml` file
+ * Make sure that the displayed host and app name match the contents of the `manifest.yml` file
 
 6. Click **SAVE**.
 
-7. In the Run Bar, click the Play icon. After the deployment succeeds, click the **Open the application URL** button to see the YummyRation project page.
+7. On the run bar, click the Play icon. After the deployment succeeds, click the **Open the application URL** button to see the YummyRation project page.
 ![Play button in the Run Bar][34]
 ![Open URL button in the Run Bar][31]
 
@@ -86,7 +88,7 @@ Leave this page open; you'll need it in a moment.
 1. Return to your YummyRation project page on Bluemix DevOps Services.
 
 1. Near the run bar, click the **Live Edit** button. Let the app deployment finish.
-  * Bluemix Live Sync allows you to quickly preview changes to Node.js applications in Live Edit mode. When you update your static files with Live Edit turned on, you can refresh your web application's browser window to see those changes reflected seconds after you make them. For more information on Bluemix Live Sync, [see the Bluemix Live Sync documentation][14].
+  * Bluemix Live Sync allows you to quickly preview changes to Node.js apps in Live Edit mode. When you update your static files with Live Edit turned on, you can refresh your web app's browser window to see those changes reflected seconds after you make them. For more information on Bluemix Live Sync, [see the Bluemix Live Sync documentation][14].
 
 2. In the file explorer, next to `views`, click the **>** to expand the contents of the folder. Then, click **home.jade**.
 

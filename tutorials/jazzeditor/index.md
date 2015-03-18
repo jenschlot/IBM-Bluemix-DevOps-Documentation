@@ -4,7 +4,7 @@ Last modified: 19 February 2015
 
 ## Contents
 * [Create an app with IBM Bluemix](#create_bluemix_app)
-* [Set up Git integration and auto-deployment](#git_integration_and_autodeployment)
+* [Set up Git integration and auto-deploy](#git_integration_and_autodeployment)
 * [Push changes to the Git repository by using the command line](#push_to_git)
 * [Push changes to the Git repository by using the Web IDE](#push_with_web_ide)
 * [Deploy by using the Web IDE](#deployment)
@@ -48,12 +48,12 @@ Now that your app is running, you can see and modify its code by using IBM® Blu
 
 ---
 <a name='git_integration_and_autodeployment'></a>
-##Set up Git integration and autodeployment with Bluemix DevOps Services
+##Set up Git integration and auto-deploy in Bluemix DevOps Services
 
-You can work with your app code in many ways. For example, with autodeployment, you can modify the code that runs in your app by pushing the changes to a 
-Git repository. You can use autodeployment when you use the Build & Deploy capabilities of Bluemix DevOps Services.
+You can work with your app's code in many ways. For example, with auto-deploy, you can modify the code that runs in your app by pushing your changes to a 
+Git repository. You can auto-deploy your code if you use the Build & Deploy capabilities of Bluemix DevOps Services.
 
-1. To enable autodeployment, go to the Bluemix overview for your app and 
+1. To enable auto-deploy, go to the Bluemix overview for your app and 
 click **ADD GIT**. A Git repository is created and is populated with example code and a deployed app. 
 ![Add Git button](/tutorials/jazzeditor/images/bm-add-git-integration_NEW.png)
 You might be prompted to enter your password to verify that Bluemix DevOps Services can act on your behalf. 
@@ -133,14 +133,14 @@ At the top of the leftmost tile, under Input, an entry has a comment that matche
 
 ![App page with new title](/tutorials/jazzeditor/images/app-new-title_NEW.png)
 
-You can continue to modify the example code and push the changes to the Git repository. If your project and scope of work grow, you can add people to the project and everyone can push changes to the repository. Standard repository operations and auto-deployment features are all that you need to ensure that the app is always running.
+You can continue to modify the example code and push the changes to the Git repository. If your project and scope of work grow, you can add people to the project and everyone can push changes to the repository. Standard repository operations and auto-deploy are all that you need to ensure that the app is always running.
 
 
 ---
 <a name='push_with_web_ide'></a>
 ##Push changes to the Git repository by using the Web IDE
 
-In addition to autodeployment, IBM Bluemix DevOps Services provides other useful capabilities 
+In addition to auto-deploy, IBM Bluemix DevOps Services provides other useful capabilities 
 for app development:
 
 * Hosting for public projects

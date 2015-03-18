@@ -1,6 +1,6 @@
-#Developing Bluemix applications in Java with Eclipse and Bluemix DevOps Services
+#Developing Bluemix apps in Java with Eclipse and Bluemix DevOps Services
 
-Last modified: 19 February 2015
+Last modified: 10 March 2015
 
 Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM&reg; Bluemix&trade; DevOps Services, and the Rational&reg; Team Concert client for Eclipse. 
 
@@ -44,15 +44,15 @@ You're ready to build and deploy.
 ##Deploy your app
 
 1. Click **BUILD & DEPLOY**. 
-  * When you build and deploy, your Bluemix account might be charged. For more information, [see the Bluemix pricing page](https://bluemix.net/#/pricing).
+  * When you build and deploy, your Bluemix account might be charged. For more information, [see the Bluemix Pricing page](https://bluemix.net/#/pricing).
 To track charges, after you deploy your first build, add the Delivery Pipeline service to your Bluemix space.
 
 3. On the Pipeline page, click **ADD STAGE**. The Stage Configuration page opens.
 ![Click Add A Builder](/tutorials/jazzrtc/images/add_builder.png "Click add a builder")
 
-4. Create a stage to build your application:
+4. Create a stage to build your app:
     1. Click the default **MyStage** name and change the name of this stage to `Build`. 
-    2. On the **INPUT** tab, use the default settings. Be sure to enter your account password where indicated.  
+    2. On the **INPUT** tab, use the default settings. Be sure to enter the password for your IBM id where indicated.  
 	3. On the **JOBS** tab, click **ADD JOB**. Select **Build** and the select the **Ant** builder type.   
     4. In the **Working Directory** field, type the name of the folder that contains your code; for example, `WordCounter`. When the project is loaded in the Rational Team Concert client, this folder maps to an Eclipse project automatically.
     5. In the **Build Archive Directory** field, type the name of the directory where the build output files are archived as part of the build result.
@@ -63,18 +63,19 @@ To track charges, after you deploy your first build, add the Delivery Pipeline s
 6. Click **ADD STAGE**. The Stage Configuration page opens.
 ![Click Add A New Stage](/tutorials/jazzrtc/images/add_deployer.png "Click add a new stage")
 
-7.  Create a stage to deploy your application to Bluemix:
+7.  Create a stage to deploy your app to Bluemix:
   1. Click the default **MyStage** name and change the name of this stage to `Deploy to dev`. 
   2. On the **INPUT** tab, use the default settings.
-  3. . On the **JOBS** tab, click **ADD JOB** and then select **Deploy**. This job will use the settings in the `manifest.yml` file, which is included as part of the sample project. You can use all of the values as provided, except for the hostname. The hostname is used to define your application's URL and must be unique for each application deployed that is deployed on Bluemix.
+  3. On the **JOBS** tab, click **ADD JOB** and then select **Deploy**. This job will use the settings in the `manifest.yml` file, which is included as part of the sample project. You can use all of the values as provided, except for the hostname. The hostname is used to define your app's URL and must be unique for each app that is deployed on Bluemix.
   4. Override the host with the `-n` option in the cf push command, as shown in the following image.
-  5. Click Save. 
+    * **Hint:** Use a combination of your username and the date or time to ensure that your route is unique.
+  5. Click **SAVE**. 
 ![Add Deployer](/tutorials/jazzrtc/images/configure_deployer.png "Add Deployer")
 
 9. At the top of the Build stage, click the **Play** icon to build and deploy your project for the first time. The build process takes a couple of minutes. When you see a green circle, the app is live. 
 ![Successful Build](/tutorials/jazzrtc/images/build1_success.png "Successful Build")
 
-10. Verify that the app is running by clicking the application link.
+10. Verify that the app is running by clicking the app link.
 ![Application](/tutorials/jazzrtc/images/app.png "Application")
 
 ---
@@ -86,7 +87,7 @@ Add the Delivery Pipeline service to the app so that you can use the Build & Dep
 1. Click the running instance of you app to view it in Bluemix. If prompted, enter your IBM id and password.
 ![Bluemix Instance](/tutorials/jazzrtc/images/running_instance.png "Bluemix Instance")
 
-2. From the new app's overview page, click **ADD A SERVICE**.
+2. From the new app's overview page, click **ADD A SERVICE OR API**.
 
 3. Select the DevOps category, then click **Delivery Pipeline**.
 

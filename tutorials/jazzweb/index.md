@@ -1,19 +1,19 @@
-#Develop a Bluemix application in Node.js using the Web IDE
+#Develop a Bluemix app in Node.js using the Web IDE
 
 Last modified: 17 February 2015
 
-In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an application in the cloud and deploy it to [IBM® Bluemix™][1].
+In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an app in the cloud and deploy it to [IBM® Bluemix™][1].
 
 ---
 
 ## Contents
 * [Fork a sample project](#fork)
 * [Build and deploy with the Delivery Pipeline](#deploy)
-* [Edit the sample application](#edit)
+* [Edit the sample app](#edit)
 * [Push changes to the repository](#push)
 * [The manifest file](#manifest)
 * [Deploy by using the Web IDE](#deploy_from_web_ide)
-* [Automatic and manual deployment](#automatic_deployment)
+* [Auto-deploy and manual deployment](#automatic_deployment)
 
 ---
 <a name='fork'></a>
@@ -21,11 +21,11 @@ In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an applica
 
 Start with the sample project, [Sentiment Analysis App][2]. That app is a hosted Node.js Git project. You need your own copy of the project, which you can get by clicking the button below to fork the project:
 
-[![Deploy to Bluemix](images/bigButton.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/ibmdevopsservices/Sentiment.Analysis.App)
-
-Note: During deployment, the suggested app name might not be valid. If necessary, remove the periods from the app name.
+<a target="_blank" href="https://bluemix.net/deploy?repository=https://hub.jazz.net/git/ibmdevopsservices/Sentiment.Analysis.App"><img src="images/bigButton.png" alt="Deploy to Bluemix"></a>
 
 After the project is forked and the deployment completes, click **EDIT CODE** to continue.
+
+---
 
 <a name='deploy'></a>
 ##Build and deploy with the Delivery Pipeline
@@ -74,9 +74,9 @@ The Delivery Pipeline configuration for your Sentiment Analysis app has two stag
 
 	![Configuring the Deployer][9]
 
-	The manifest file that is in this sample application specifies a host name and does not require any services, so you do not need to add anything to the script.
+	The manifest file that is in this sample app specifies a host name and does not require any services, so you do not need to add anything to the script.
 
-5. If the manifest file (`manifest.yml`) didn't specify a host or other parameter, you can define that information by adding cf commands to the Bluemix script. The cf command deploys applications to Cloud Foundry based platforms, such as Bluemix.  For more information, [see Getting Started with the cf CLI v6][24].
+5. If the manifest file (`manifest.yml`) didn't specify a host or other parameter, you can define that information by adding cf commands to the Bluemix script. The cf command deploys apps to Cloud Foundry based platforms, such as Bluemix.  For more information, [see Getting Started with the cf CLI v6][24].
 
 6. Leave the other settings as they are and click **SAVE**. 
 
@@ -86,20 +86,20 @@ The Delivery Pipeline configuration for your Sentiment Analysis app has two stag
 
 	Your project is queued to build. When the build is completed, your app is queued for deployment to Bluemix automatically. You can observe its status from this page and open the app when it is deployed.
 
-8. To open the app, click its URL on the Deploy to dev tile. If you want to see your app's Bluemix dashboard, click its name:
+8. To open the app, click its URL on the Deploy to dev tile. If you want to see your app's Bluemix Dashboard, click its name:
 
 ![Ready to click to Bluemix from Pipeline][10]
 
-You can manage the live application instance on the [Bluemix dashboard][11]. From the dashboard, you can start, stop, edit, or delete the app. On the Services tab, you can add various services such as MongoDB, SSO, MapReduce, and more.
+You can manage the live app instance on the [Bluemix Dashboard][11]. From the Dashboard, you can start, stop, edit, or delete the app. On the Services page, you can add various services such as MongoDB, SSO, MapReduce, and more.
  
 
 ![Starting a Bluemix app][12]
 
-**Important:** Building and deploying apps by using Bluemix can result in charges to your Bluemix billing account. A project is granted 60 minutes of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information about pricing for any service, [see the Bluemix pricing page](https://bluemix.net/#/pricing).
+**Important:** Building and deploying apps by using Bluemix can result in charges to your Bluemix billing account. A project is granted 60 minutes of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information about pricing for any service, [see the Bluemix Pricing page](https://bluemix.net/#/pricing).
 
 ---
 <a name='edit'></a>
-##Edit the sample application
+##Edit the sample app
 
 You can now personalize the sample app in a Bluemix DevOps Services' web-based code editor, push your changes to the project's remote repository, and initiate a redeployment of your project. These activities won’t take more than a few minutes.
 
@@ -134,13 +134,13 @@ After you edit the `app.js` file, share the changed file with other members of y
 
 ![Pushing Changes][16]
 
-Any changes that are delivered to your project trigger a build. When a build is completed successfully, it is deployed automatically. If you click **BUILD &amp; DEPLOY** again, you'll see that your change started a new build that will be deployed when the build is finished.
+Any changes that are delivered to your project trigger a build. When a build is completed successfully, it is auto-deployed. If you click **BUILD &amp; DEPLOY** again, you'll see that your change started a new build that will be deployed when the build is finished.
 
 ---
 <a name='manifest'></a>
 ##The manifest file
 
-When you deploy a Bluemix DevOps Services project from the Web IDE, the project must have a `manifest.yml` file. This file contains important settings, such as the application instance name to use, the host machine, the services that the application uses, and more. The sample application in this tutorial already contains a manifest file.
+When you deploy a Bluemix DevOps Services project from the Web IDE, the project must have a `manifest.yml` file. This file contains important settings, such as the app instance name to use, the host machine, the services that the app uses, and more. The sample app in this tutorial already contains a manifest file.
 
 ![An example manifest][17]
 
@@ -149,19 +149,19 @@ When you deploy a Bluemix DevOps Services project from the Web IDE, the project 
 <a name='deploy_from_web_ide'></a>
 ##Deploy by using the Web IDE
 
-While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the Web IDE workspace to Bluemix by clicking Play on the Run bar. **Remember:** When you deploy by using the Run bar, you deploy the current state of your code in the Web IDE. When you deploy by using the Build &amp; Deploy feature, you deploy the code that is checked into the repository.
+While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the Web IDE workspace to Bluemix by clicking Play on the run bar. **Remember:** When you deploy by using the run bar, you deploy the current state of your code in the Web IDE. When you deploy by using the Build &amp; Deploy feature, you deploy the code that is checked into the repository.
 
 ![The IDE Run bar][28]
 
-You can configure Web IDE deployment and the Delivery Pipeline service to use different app names. Then, you can use the Web IDE deployment for a personal test environment and the Delivery Pipeline deployment for a team integration environment. The Web IDE saves launch configurations; you can access them from the menu on the Run bar. 
+You can configure Web IDE deployment and the Delivery Pipeline service to use different app names. Then, you can use the Web IDE deployment for a personal test environment and the Delivery Pipeline deployment for a team integration environment. The Web IDE saves launch configurations; you can access them from the menu on the run bar. 
 
-Whether you are using command-line tools or the Web IDE, both methods are effective for rapid, solo development. You might prefer the added security of having automatic deployment via Pipeline so that you can control what is being pushed. By using automatic deployment, you know that the code that is running in the app matches a known state in the repository. In contrast, the Web IDE deploys whatever is in your working directory when you push.
+Whether you are using command-line tools or the Web IDE, both methods are effective for rapid, solo development. You might prefer the added security of using auto-deploy so that you can control what is being pushed. Auto-deploy is available through the Delivery Pipeline service. By using auto-deploy, you know that the code that is running in the app matches a known state in the repository. In contrast, the Web IDE deploys whatever is in your working directory when you push.
 
 ---
 <a name='automatic_deployment'></a>
-##Automatic and manual deployment
+##Auto-deploy and manual deployment
 
-Builds are triggered when changes are delivered to a project. Successful builds are automatically deployed.
+Builds are triggered when changes are delivered to a project. Successful builds are auto-deployed.
 
 To manually deploy a specific successful build:
 1. On the build history page, select a build.
@@ -178,7 +178,7 @@ When the app is deployed, try it by clicking its web URL:
 
 ![Our updated app on Bluemix][19]
 
-You developed and deployed a Bluemix application by using the Web IDE. 
+You developed and deployed a Bluemix app by using the Web IDE. 
 
 [1]: https://bluemix.net/ (Bluemix)
 [2]: https://hub.jazz.net/project/ibmdevopsservices/Sentiment%20Analysis%20App/overview
