@@ -13,7 +13,7 @@
 ### Tutorial: [Getting Started with Bluemix and Bluemix DevOps Services using Java](/tutorials/jazzeditorjava)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, git, webide, pipeline
 
-### Tutorial: [Developing Bluemix applications in Node.js with the Web IDE](/tutorials/jazzweb)  
+### Tutorial: [Developing Bluemix apps in Node.js with the Web IDE](/tutorials/jazzweb)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, nodejs, webide, git, pipeline, manifest
 
 ### Tutorial: [Setting up Eclipse, Git, and Rational Team Concert desktop clients to access Bluemix DevOps Services](/tutorials/clients)  
