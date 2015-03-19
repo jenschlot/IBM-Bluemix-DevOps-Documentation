@@ -1,56 +1,60 @@
 #Getting acquainted with Bluemix DevOps Services
 ####Obviously not the final title
 
+Last modified: 19 March 2015
 
 Time: 5 minutes
 
-    Learning objectives
-    Before you begin
-    A. Do first thing
-    B. Do next thing
-    C. Do xxx
-    Summary
-    Next steps
+* Learning objectives
+* Before you begin
+* Do first thing
+* Do next thing
+* Summary
+* Next steps
 
- 
-
- 
-Learning objectives
+---
+##Learning objectives
 
  
 
     How to start with a starter pack and end up with a running application that does ...
     ...
 
- 
-Before you begin
+--- 
+##Before you begin
 
 - link to registering info
 
- 
-A. Do first thing
+--- 
+##Do first thing
 
      Click ...
     Enter
     Deploy
 
 Learn more about A  (link)
-B. Do next thing
+
+---
+##Do next thing
 
      Click ...
     Enter
     Deploy
 
 Learn more about B (link)
-C. Do xxx
+
+---
+##Do xxx
 
     Click ...
     Test
 
 Learn more about B (link)
-Summary
 
-...
-Next steps
+---
+##Summary
+
+---
+##Next steps
 
 See this tutorial ...
