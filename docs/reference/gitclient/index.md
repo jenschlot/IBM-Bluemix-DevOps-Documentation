@@ -96,6 +96,7 @@ If you use Eclipse and have a project that uses Git for source control, you can 
 1. In [Bluemix DevOps Services](https://hub.jazz.net/), browse to your project page. 
 
 2. Copy the **Git URL** from the right side of the page.
+![The Git URL field on the Project page.][3]
 
 3. In Eclipse, click **File > Import**.
 
@@ -182,7 +183,7 @@ IBM® Eclipse Tools for Bluemix™ provides plug-ins that can be installed into 
 
 [1]: https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html
 [2]: https://www.ng.bluemix.net/docs/#manageapps/eclipsetools/eclipsetools.html#eclipsetools
-[3]: /docs/references/gitclient/images/gitURL.png
+[3]: /docs/reference/gitclient/images/gitURL.png
 [18]: https://developer.ibm.com/answers/questions/?community=devops-services (Bluemix DevOps Services forum)
 [19]: mailto:hub%40jazz.net
 [20]: /docs
