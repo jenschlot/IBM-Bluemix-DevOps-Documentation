@@ -45,14 +45,16 @@ After the project is forked and the deployment completes, click **EDIT CODE** to
 ---
 ##Explore the app's pipeline
 
+Deploy DevOps Services projects by using a pipeline. When you fork a project by clicking the **Deploy to Bluemix** button, a pipeline configuration is created for your project automatically.
 
-Learn more about B (link)
+This default pipeline configuration comprises two stages: a Build stage that takes the code in the project's master Git branch, and a Deploy stage that takes the packaged code from the build stage and deploys it to Bluemix. Whenever a project member pushes a change to the project, the pipeline's build and deploy capabilties are automatically triggered.
+
+<!--We shouldn't actually talk about jobs here, right?-->
+
+Next, in order to see the pipeline at work, edit the app.
 
 ---
 ##Edit the app
-
-
-Learn more about B (link)
 
 ---
 ##Summary
