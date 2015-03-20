@@ -27,8 +27,6 @@ After you explore the project, click the button below to create your own copy of
 
 <a target="_blank" href="https://bluemix.net/deploy?repository=https://hub.jazz.net/git/ibmdevopsservices/Sentiment.Analysis.App"><img src="images/bigButton.png" alt="Deploy to Bluemix"></a>
 
-Note: During deployment, the suggested app name might not be valid. If necessary, remove the periods from the app name.
-
 After the project is forked and the deployment completes, click **EDIT CODE** to continue.
 
 
@@ -136,10 +134,7 @@ Next, you configure a stage that contains a deploy job. Deploy jobs deploy your 
 1. Click the name of the new stage. Change it from **MyStage** to 
 `Deploy to dev`. In the Input Settings section, make sure that this stage receives the output from the Build stage's build job. 
 2. Click **JOBS**, then **ADD JOB**. Select **Deploy.**
-3. In the Deploy Script section, after `cf push "${CF_APP}"`, type 
-`-n` followed by a space and a new host name. This addition to the script prevents conflicts between your sample app's route and the routes of other Bluemix apps.
-  * An example of a first line in a valid script is `cf push "${CF_APP}" -n SampleApp2015`. By default, this code deploys an app with the name that is specified in the project manifest and the route `sampleapp2015.mybluemix.net`. 
-4. Leave the other settings as they are, and then click **SAVE**.
+3. Leave the settings as they are. Click **SAVE**.
 
 ![A configured deployer stage][9]
 
@@ -154,7 +149,7 @@ It's time to see your work in action. Because you configured the pipeline after 
 
 1. On the Build stage tile, click the **Play** icon. The build is added to the queue, is run, and then is deployed to Bluemix.
 2. After the deployer status tile indicates that your app is running, click the URL that is under the app name. Make sure that your topic is in the input box.
-3. Optional: To open the Bluemix Overview page for your running app, click the app's name. You can view lots of information about your application on the Overview page. For more information, [see Managing applications on Bluemix][28].
+3. Optional: To open the Bluemix Overview page for your running app, click the app's name. You can view lots of information about your app on the Overview page. For more information, [see Managing applications on Bluemix][28].
 
 ![The project's configured Pipeline][10]
 

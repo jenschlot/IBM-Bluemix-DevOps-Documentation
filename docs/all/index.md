@@ -136,6 +136,9 @@ ___________
 ___________
 ##Videos
 
+### Video: [An Overview of IBM Bluemix DevOps Services](https://www.youtube.com/watch?v=VJesera9jR0)<img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
+Last updated: 18 February 2015 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, git, track_and_plan, node.js, web_ide, live_edit, pipeline, projects
+
 ### Video: [Mobilizing your business with IBM Rational Application Developer, IBM DevOps Services & IBM Bluemix (31:48 min)](https://www.youtube.com/watch?v=-smL9UD92iE) <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
 Last updated: 13 January 2015 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, rational-application-developer
 

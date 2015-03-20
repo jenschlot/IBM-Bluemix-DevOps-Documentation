@@ -4,10 +4,10 @@
 ### Tutorial: [Getting Started with Bluemix and Bluemix DevOps Services using Java](/tutorials/jazzeditorjava)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, git, web_ide, pipeline
 
-### Tutorial: [Developing Bluemix applications in Node.js with the Web IDE](/tutorials/jazzweb)  
+### Tutorial: [Developing Bluemix apps in Node.js with the Web IDE](/tutorials/jazzweb)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, nodejs, web_ide, git, pipeline, manifest
 
-### Tutorial: [Developing Bluemix applications in Java with Eclipse and Bluemix DevOps Services](/tutorials/jazzrtc)  
+### Tutorial: [Developing Bluemix apps in Java with Eclipse and Bluemix DevOps Services](/tutorials/jazzrtc)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, eclipse, jazz_scm, pipeline, rtc
 
 
@@ -106,7 +106,8 @@ Last updated: 26 January 2014 <img src="../all/images/tag.png"  align="bottom" s
 ### Sample: [Twitter Influence Analyzer (Python)](https://hub.jazz.net/project/jstart/Twitter%20Influence%20Analyzer%20%28Python%29/overview)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> python, bottle, klout, cloudant, bluemix, git, twitter
 
-
+### Video: [An Overview of IBM Bluemix DevOps Services](https://www.youtube.com/watch?v=VJesera9jR0)<img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
+Last updated: 18 February 2015 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, git, track_and_plan, node.js, web_ide, live_edit, pipeline, projects
 
 ### Video: [Mobilizing your business with IBM Rational Application Developer, IBM DevOps Services & IBM Bluemix (31:48 min)](https://www.youtube.com/watch?v=-smL9UD92iE) <img src="../all/images/sout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">
 Last updated: 13 January 2015 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, rational-application-developer

@@ -1,4 +1,4 @@
-### Tutorial: [Developing Bluemix applications in Java with Eclipse and Bluemix DevOps Services](/tutorials/jazzrtc)  
+### Tutorial: [Developing Bluemix apps in Java with Eclipse and Bluemix DevOps Services](/tutorials/jazzrtc)  
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, eclipse, jazz_scm, pipeline, rtc
 
 ### Tutorial: [Setting up local clients to work with Git source control](/docs/reference/gitclient)  

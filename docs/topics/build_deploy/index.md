@@ -5,10 +5,10 @@
 ### Tutorial: [Getting Started with Bluemix and Bluemix DevOps Services using Java](/tutorials/jazzeditorjava)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, git, webide, pipeline
 
-### Tutorial: [Developing Bluemix applications in Node.js with the Web IDE](/tutorials/jazzweb)
+### Tutorial: [Developing Bluemix apps in Node.js with the Web IDE](/tutorials/jazzweb)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, nodejs, webide, git, pipeline, manifest
 
-### Tutorial: [Developing Bluemix applications in Java with Eclipse and DevOps Services](/tutorials/jazzrtc)
+### Tutorial: [Developing Bluemix apps in Java with Eclipse and Bluemix DevOps Services](/tutorials/jazzrtc)
 <img src="../all/images/tag.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"> bluemix, java, eclipse, jazz_scm, pipeline, rtc
 
 ### Reference: [Build & Deploy reference](/docs/reference/deploy)
