@@ -1,10 +1,10 @@
 #Setting up local clients to work with Git source control 
 
-Last modified: 17 February 2015
+Last modified: 20 March 2015
 
-If you use a Git repository for your IBM&reg; Bluemix&trade; DevOps Services project, you can manage your repository and work locally or by using the integrated Web IDE in Bluemix DevOps Services. If you install Git, you can use the [command line to manage your repository](#command_line_git). If you work in Eclipse, you can install the EGit plug-in for version control.  For more information, [see using EGit in Eclipse](#eclipse_using_egit).
+If you use a Git repository for your IBM&reg; Bluemix&trade; DevOps Services project, you can manage your repository and work locally or by using the integrated Web IDE in Bluemix DevOps Services. If you install Git, you can use the [command line to manage your repository](#command_line_git). If you work in Eclipse, you can install the EGit plug-in for version control.  For more information, [see how to use EGit in Eclipse](#eclipse_using_egit).
 
-If you use the Track & Plan feature to manage your project plans and work items, and if you install the the Rational Team Concert plug-in, you can access your project locally from Eclipse.
+If you use the Track & Plan feature to manage your project plans and work items, and if you install the IBM Rational Team Concert™ plug-in, you can access your project locally from Eclipse.
 
 ---
 ##Contents
@@ -18,7 +18,7 @@ If you use the Track & Plan feature to manage your project plans and work items,
   * [Install the Rational Team Concert plug-in](#install_eclipse_and_the_rational_team_concert_plugin)
   * [Connect to your Bluemix DevOps Services project from Eclipse](#connect_to_your_devops_service_projects_from_eclipse)
  * [Bluemix Live Sync](#livesync)
- * [Eclipse Tools](#etools)
+ * [IBM Eclipse Tools](#etools)
 
 ---
 <a name='command_line_git'></a>
@@ -40,11 +40,11 @@ Check whether Git is installed. On a command line, enter `git version`. If Git i
 
 **Clone your project**
 
-1. Sign in to [Bluemix DevOps Services](https://hub.jazz.net/)
+1. Sign in to [Bluemix DevOps Services](https://hub.jazz.net/).
 
 2. Navigate to your project page.
 
-2. From the right side of the page, copy the **Git URL** .
+2. From the right side of the page, copy the content of the **Git URL** field.
 
 3. Open a command line.
 
@@ -67,10 +67,10 @@ If you use Eclipse and have a project that uses Git for source control, you can 
 
 **Before you begin**: 
 
-* If you use Eclipse 4.2.2 or later, complete these steps. If you use an earlier version of Eclipse, [see the EGit/FAQs for instructions](http://wiki.eclipse.org/EGit/FAQ#Where_can_I_find_older_releases_of_EGit.3F).  
-* If you do not have Eclipse installed and want tools for Java development, [download and install Eclipse IDE for Java EE Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2).  
+* If you use Eclipse 4.2.2 or later, complete these steps. If you use an earlier version of Eclipse, [see the EGit/FAQ page for instructions](http://wiki.eclipse.org/EGit/FAQ#Where_can_I_find_older_releases_of_EGit.3F).  
+* If you do not have Eclipse installed and want tools for Java™ development, [download and install Eclipse IDE for Java EE Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2).  
 * If you do not have Java 1.7 installed, [download and install the Java SE Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
-* Check whether the EGit plug-in is already installed. In Eclipse, click **Window > Show View > Other** and type `git` as the filter text. If you see a list of Git views, skip ahead to [Connect to your Bluemix DevOps Services Project with EGit](#connect_to_your_devops_services_project_with_egit)
+* Check whether the EGit plug-in is already installed. In Eclipse, click **Window > Show View > Other** and type `git` as the filter text. If you see a list of Git views, skip ahead to [Connect to your Bluemix DevOps Services project by using EGit](#connect_to_your_devops_services_project_with_egit)
 
 **Install the plug-in**
 1. In Eclipse, click **Help > Install New Software**
@@ -90,7 +90,7 @@ If you use Eclipse and have a project that uses Git for source control, you can 
 <a name='connect_to_your_devops_services_project_with_egit'></a>
 ### Connect to your Bluemix DevOps Services project by using EGit
 
-1. In Eclipse, click **Window > Preferences > General > Workspaces**. In the Text file encoding pane, click **Other** and from the list, select **UTF-8**.
+1. In Eclipse, click **Window > Preferences > General > Workspaces**. In the Text file encoding field, click **Other** and from the list, select **UTF-8**.
 
 1. In [Bluemix DevOps Services](https://hub.jazz.net/), browse to your project page. 
 
@@ -98,13 +98,13 @@ If you use Eclipse and have a project that uses Git for source control, you can 
 
 3. In Eclipse, click **File > Import**.
 
-4. In the Import window, click **Git > Projects from Git** and then click **Next**.
+4. In the Import window, click **Git > Projects from Git**, and then click **Next**.
 
 5. Select **Clone URI** and click **Next**.
 
 6. In the **URI** field, paste the Git URL.
 
-6. In the **Authentication** section, enter your alias and IBM id password, and click **Next**.
+6. In the **Authentication** section, enter your alias and IBM id password, and then click **Next**.
 
 7. Select the branches to work on and click **Next**.
 
@@ -129,13 +129,13 @@ If you use Eclipse, you can use the Rational Team Concert plug-in to access your
 
 **Before you begin**
 
-* Rational Team Concert 5.0.2 and later require Eclipse 4.3.2, and Eclipse requires Java 1.7.  
+* Note that Rational Team Concert 5.0.2 and later requires Eclipse 4.3.2. Eclipse requires Java 1.7.  
 * If you do not have Eclipse installed and want tools for Java development, [download and install the  Java EE IDE for Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2).  
 * If you do not have Java 1.7 installed, [download and install the Java SE Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
 
 **Install the plug-in**
 
-1. In Eclipse, click **Help > Install New Software**
+1. In Eclipse, click **Help > Install New Software**.
 
 3. In the Install window, complete these steps:
   1. In the **Work with** field, enter `https://jazz.net/downloads/rational-team-concert/5.0.2/5.0.2/p2`
@@ -157,11 +157,11 @@ If you use Eclipse, you can use the Rational Team Concert plug-in to access your
 
 1. In Eclipse, click **Window > Show View > Other > Team Artifacts**.
 
-2. Click the **Manage JazzHub Projects** icon.
+2. Click the **Manage JazzHub Projects** icon, which is visible under the Team category.
 
  ![Manage JazzHub Projects button within the Team Artifacts View](./images/jazzhubfeature.png)
 
-3. In the **Manage JazzHub Projects** window, enter your alias and IBM id password to sign in to Bluemix DevOps Services, and click **Next**
+3. In the **Manage JazzHub Projects** window, enter your alias and IBM id password to sign in to Bluemix DevOps Services, and click **Next**.
 
 4. Select the Bluemix DevOps Services projects to connect to and click **Finish**.
 
@@ -177,7 +177,7 @@ You can use the Debugger to create breakpoints and inspect variables in your nod
 <a name='etools'></a>
 ## IBM Eclipse Tools
 
-IBM® Eclipse Tools for Bluemix™ provides plug-ins that can be installed into an existing Eclipse environment to assist in integrating the developer's integrated development environment (IDE) with Bluemix. The tools allows you to deploy your JavaScript, WAR (web archive) and EAR (enterprise archive) files, and Liberty Profile packaged servers to the Bluemix server right from your Eclipse IDE, or WebSphere® Application Server Developer Tools (WDT).  The tools also allow you to create and link services to your application and define environment variables as part of the deployment. For more information about the Eclipse Tools, [see Deploying apps with IBM Eclipse Tools for Bluemix][2].
+IBM® Eclipse Tools for Bluemix™ provides plug-ins that can be installed into an existing Eclipse environment to assist in integrating the developer's integrated development environment (IDE) with Bluemix. The tools allow you to deploy your JavaScript, WAR (web archive) and EAR (enterprise archive) files, and Liberty Profile packaged servers to the Bluemix server right from your Eclipse IDE, or from WebSphere® Application Server Developer Tools (WDT). The tools also allow you to create and link services to your application and define environment variables as part of the deployment. For more information about the IBM Eclipse Tools, [see Deploying apps with IBM Eclipse Tools for Bluemix][2].
 
 [1]: https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html
 [2]: https://www.ng.bluemix.net/docs/#manageapps/eclipsetools/eclipsetools.html#eclipsetools
