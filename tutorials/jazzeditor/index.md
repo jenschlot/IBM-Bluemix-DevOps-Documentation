@@ -69,7 +69,7 @@ You created a Git repository, populated it with the example code, and deployed t
 ![CODE button](/tutorials/jazzeditor/images/bm-code-button_NEW.png)
 Your new project opens in the web integrated development environment (Web IDE). The project page contains useful information that you can review later. 
 
-4. To check the status of the app, review the Run bar and click the **Open the application URL** icon.
+4. To check the status of the app, review the run bar and click the **Open the application URL** icon.
 ![Web IDE](/tutorials/jazzeditor/images/orion_NEW.png)
 
 ---
@@ -197,11 +197,11 @@ app was deployed again. Then, click the URL link that is next to "Deploy to." Yo
 
 ###Run bar
 
-Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can deploy apps directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the Web IDE, you can deploy your code to Bluemix by clicking the Play butto in the Run bar. 
+Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can deploy apps directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the Web IDE, you can deploy your code to Bluemix by clicking the Play icon on the run bar. 
 
 ![Run bar][1]
 
-By clicking the Play button in the Run bar, you deploy the current state of your code in the Web IDE. To deploy the code that is checked into the repository, use the Delivery Pipeline.
+By clicking the Play icon on the run bar, you deploy the current state of your code in the Web IDE. To deploy the code that is checked into the repository, use the Delivery Pipeline.
 
 Both the command-line tools and the Web IDE are effective for rapid, solo development, but the Delivery Pipeline feature adds the security of controlling what is pushed, especially in team environments. With the Delivery Pipeline feature, you always know that the code running in the app matches a known state in the repository, instead of whatever was in your working directory when you pushed changes.
 
