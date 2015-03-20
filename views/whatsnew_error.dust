@@ -27,7 +27,4 @@
 	</div>
 	
 	
-	<div class="translate-widget-container prl pll">
-		{>"common/machine_translation"/}
-	</div>
 {/content}

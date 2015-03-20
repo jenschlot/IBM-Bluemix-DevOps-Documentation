@@ -1,8 +1,6 @@
 <script type="text/javascript">
 	$(document).ready(function($) {
-	
-		$(".accordion-content").hide();
-		
+
 		$(".feed-item-date").each( function() {
 
 			var d = new Date($(this).text());
