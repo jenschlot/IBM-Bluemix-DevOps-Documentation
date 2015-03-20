@@ -2,9 +2,9 @@ Last modified: 18 February 2015
 
 ###What is IBM Bluemix DevOps Services?
 IBM&reg; Bluemix&trade; DevOps Services offers features you can use to collaborate with others to develop, track, plan, and deploy software in the cloud.
-From your projects, you can access everything you need to build all types of applications right from your web browser. Use our built-in collaboration tools to make team projects simple!
-Easily build and deploy your application with integrated deployment to the IBM&reg; Bluemix&trade; cloud platform. Go from source code
-to a running application with the push of a button.
+From your projects, you can access everything you need to build all types of apps right from your web browser. Use our built-in collaboration tools to make team projects simple!
+Easily build and deploy your app with integrated deployment to the IBM&reg; Bluemix&trade; cloud platform. Go from source code
+to a running app with the push of a button.
 
 
 ### How can I use Bluemix DevOps Services in the classes I teach?
