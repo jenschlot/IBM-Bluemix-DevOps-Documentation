@@ -1,5 +1,5 @@
 # FAQs
-##### Last modified: 6 March 2015
+##### Last modified: 19 March 2015
 
 Looking for more answers? Check out our [forum](https://developer.ibm.com/answers/smartspace/devops-services/), where you can ask questions and get advice from IBM developers and the DevOps Services community.
 ____
@@ -9,6 +9,7 @@ ____
 -   [What help resources are available?](#q17)
 -   [Why can't I sign in to Bluemix DevOps Services from my Rational Team Concert desktop client or Git client? ](#rtcgit)
 -   [Can I connect my project to a GitHub repository?](#git)
+-   [Why can't I use the Add Git link from the Bluemix console?](#git_link)
 -   [My team doesn't develop code. Is Bluemix DevOps Services right for us?](#q5)
 -   [How do I report a bug?](#q7)
 -   [How can I provide additional feedback?](#q8)
@@ -57,6 +58,12 @@ Yes. When you create a project, select the option for GitHub and enter your GitH
 You can track and plan the work you'll store in your GitHub repository from Bluemix DevOps Services. To configure GitHub to update your work items when you push your changes, navigate to your project and click the **configure GitHub** link on the left side of the page.
 
 You can also edit the code that is stored in your GitHub repository by using the Web IDE. When you want to start coding, navigate to your project and click **Edit Code** at the top of the page. Your GitHub repository is automatically cloned for you, and your files are shown in the navigation pane. You can create and edit files. After you save your changes, select **Activities \> Git Status**. On the page that opens, you can stage, commit, and push your changes.
+
+<a name="git_link"></a>
+
+### Why can't I use the **Add Git** link from the Bluemix console?
+
+For steps to resolve the issue, see [Cannot add Git repository](https://www..ng.bluemix.net/docs/#troubleshoot/index-gentopic4.html#cannot_addgit).
 
 <a name="q5"></a>
 
