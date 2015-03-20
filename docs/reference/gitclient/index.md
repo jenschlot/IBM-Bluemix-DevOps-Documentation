@@ -45,6 +45,7 @@ Check whether Git is installed. On a command line, enter `git version`. If Git i
 2. Navigate to your project page.
 
 2. From the right side of the page, copy the content of the **Git URL** field.
+![The Git URL field on the Project page.][3]
 
 3. Open a command line.
 
@@ -181,6 +182,7 @@ IBM® Eclipse Tools for Bluemix™ provides plug-ins that can be installed into 
 
 [1]: https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html
 [2]: https://www.ng.bluemix.net/docs/#manageapps/eclipsetools/eclipsetools.html#eclipsetools
+[3]: /docs/references/gitclient/images/gitURL.png
 [18]: https://developer.ibm.com/answers/questions/?community=devops-services (Bluemix DevOps Services forum)
 [19]: mailto:hub%40jazz.net
 [20]: /docs
