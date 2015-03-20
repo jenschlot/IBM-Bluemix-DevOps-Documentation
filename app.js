@@ -85,6 +85,11 @@ _.each(['/pricing'],
 	}
 );
 
+_.each(['/whatsnew'],
+       function(i) {
+		app.get(i, routes.whatsnew);
+       }
+);
 
 /*
  * Depending on the request path, try to load and render the corresponding markdown source.

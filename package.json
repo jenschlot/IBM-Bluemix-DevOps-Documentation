@@ -20,6 +20,8 @@
     "nconf": "*",
     "proxy-middleware": "*",
     "request": "*",
-    "underscore": "*"
+    "underscore": "*",
+    "feedparser": "*",
+    "log4js": "*"
   }
 }
