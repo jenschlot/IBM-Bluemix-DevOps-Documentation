@@ -14,11 +14,15 @@ Follow the steps in this tutorial to develop a Java&trade; application by using 
 * [Add a test failure](#test_failure)
 * [Fix the bug](#fix_bug)
 
+---
+
 <a name='before_begin'></a>
 ##Before you begin
 
 1. Make sure that your IBM id is registered with Bluemix. 
 2. Log in to Bluemix DevOps Services by using your IBM id.
+
+---
 
 <a name='fork_app'></a>
 ##Fork a sample project
