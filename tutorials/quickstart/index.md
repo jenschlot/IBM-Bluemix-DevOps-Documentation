@@ -45,7 +45,7 @@ After the project is forked and the deployment completes, click **EDIT CODE** to
 ---
 ##Explore the app's pipeline
 
-Deploy DevOps Services projects by using a pipeline. When you fork a project by clicking the **Deploy to Bluemix** button, a pipeline configuration is created for your project automatically.
+DevOps Services projects are deployed by using pipelines. When you fork a project by clicking the **Deploy to Bluemix** button, a pipeline configuration is created for your project automatically.
 
 This default pipeline configuration comprises two stages: a Build stage that takes the code in the project's master Git branch, and a Deploy stage that takes the packaged code from the build stage and deploys it to Bluemix. Whenever a project member pushes a change to the project, the pipeline's build and deploy capabilties are automatically triggered.
 
@@ -56,13 +56,33 @@ Next, in order to see the pipeline at work, edit the app.
 ---
 ##Edit the app
 
+Click **EDIT CODE**. The Web IDE opens opens and your project’s root directory is shown in the navigation pane. 
+
+1. Click the `app.js` file to open it in the code pane.
+2. On line 6 of the file, find the `DEFAULT_TOPIC` variable. Change its value to whatever you like. 
+3. When you stop typing for a moment, your change is saved automatically. 
+
+Your change is saved and ready to be committed to the project's remote repository. 
+
+Click **Git Repository**. The Repositories page opens. Next, stage the change to `app.js`, commit it, and push it.
+
+1. Under Working Directory Changes, click the checkbox beside `app.js`.
+2. Enter a commit message (`Updating DEFAULT_TOPIC`, for example) and click **Commit**.
+3. Under Active Branch, click **Push**.
+
+The update to `app.js` is pushed to the remote master branch that acts as input to your project's pipeline. 
+
+Click **BUILD & DEPLY** to see the pipeline build and deploy your updated app. When the second stage completes, click the URL beneath Last Execution Result to verify your change.
+
 ---
 ##Summary
+
+There you have it! In a few minutes, you forked and deployed a sample Bluemix app, edited it in the Web IDE, and watched as your changes triggered a new build and deployment of it. Easy, right?
 
 ---
 ##Next steps
 
-See this tutorial ...
+This quick tour barely scratched the surface of what you can do with Bluemix. Want to learn more? See our tutorials on...
 
 [30]: https://hub.jazz.net/register
 [31]: https://jazz.net/action/register
