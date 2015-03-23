@@ -16,9 +16,6 @@ To try the Track & Plan feature, complete this tutorial. You'll start a simple, 
 <!--- Commenting out until feature explorer is updated. -->
 <!--- For a quick overview of features and functions, [explore the Track & Plan feature][9]. -->
 
----
-## Contents
-
 * [Set up an IBM Bluemix DevOps Services project](#set_up_an_IBM_devops_services_project)
 * [Create your first work items](#create_your_first_work_items)
 * [Create parent and child work items from the backlog](#create_work_items_in_the_backlog)

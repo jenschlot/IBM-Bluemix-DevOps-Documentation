@@ -2,22 +2,41 @@
 
 Last modified: 6 March 2015
 
-##Contents
+Time: 30 minutes
+
+If you are building a Node.js app, you can quickly update it on IBM® Bluemix™ and develop as you would on the desktop by using Bluemix Live Sync. You can use Bluemix Live Sync on the command line, through the Desktop Sync feature, and in the Web IDE, through the Live Edit feature. You can also [use Bluemix Live Sync to debug Node.js apps][2]. [Learn more about Bluemix Live Sync][4]. 
+
+In this tutorial, you deploy a Node.js app and then update it by using IBM Bluemix DevOps Services and Bluemix Live Sync. You can see the changes to your running Bluemix app immediately, without waiting for redeployment.
+
+* [Learning objectives](#objectives)
+* [Before you begin](#prereq)
 * [Create a Node.js app from a Bluemix starter](#create)
 * [Connect the Node.js app instance to DevOps Services](#connect)
 * [Edit the app by using the Web IDE and Bluemix Live Sync](#edit_ide)
 * [Edit the app locally by using Bluemix Live Sync](#edit_local)
 * [Summary](#summary)
 
-If you are building a Node.js app, you can quickly update it on IBM® Bluemix™ and develop as you would on the desktop by using Bluemix Live Sync. You can use Bluemix Live Sync on the command line, through the Desktop Sync feature, and in the Web IDE, through the Live Edit feature. You can also [use Bluemix Live Sync to debug Node.js apps][2]. [Learn more about Bluemix Live Sync][4]. 
 
-In this tutorial, you deploy a Node.js app and then update it by using IBM Bluemix DevOps Services and Bluemix Live Sync. You can see the changes to your running Bluemix app immediately, without waiting for redeployment.
+---
+<a name='objectives'></a>
+##Learning objectives
 
+* Create an app in Bluemix with the SDK for Node.js starter pack.
+* Create a Git repository for the app.
+* In the Web IDE run bar, create a launch configuration.
+  * Enable Live edit.
+  * View code changes in the running app.
+* From the command line, enable Live edit.
+  * View code changes in the running app.
+
+---
+<a name='prereq'></a>
 ##Before you begin 
 [Download and install the Bluemix Live Sync command-line interface for Windows][1].
 
 **Important:** The Live Sync command-line interface is available only for Windows 7 and 8. More platforms are coming soon. [Learn more about the Live Sync command-line interface][16].
 
+---
 <a name='create'></a>
 ##Create a Node.js app from a Bluemix starter
 
@@ -34,6 +53,7 @@ After a few moments, your app is running on Bluemix. To view it, click the URL b
 
 ![Sample starter app][14]
 
+---
 <a name='connect'></a>
 ##Connect the Node.js app to DevOps Services
 
@@ -46,6 +66,7 @@ Next, create a Git repository that is hosted by Bluemix DevOps Services and asso
 
 Your app instance is now associated with a DevOps Services project and Git Repository.
 
+---
 <a name='edit_ide'></a>
 ##Edit the app by using the Web IDE and Bluemix Live Sync
 
@@ -92,10 +113,12 @@ Turn off Live Edit mode.
 
 You edited the project in the Web IDE and previewed the result of your changes without redeploying to Bluemix. Excellent!
 
+---
 <a name='edit_local'></a>
 ##Edit the app locally by using Bluemix Live Sync
 
 Live Sync isn't just available for work done in the Web IDE. You can also make changes on your local environment and see them previewed on Bluemix by using the Live Sync command-line tool, "bl," to synchronize the desktop with your project workspace. Before you follow the next steps, be sure to [download and install the Live Sync command-line interface][1].
+
 
 <a name='edit_local_download'></a>
 ###Synchronize your local environment with Bluemix
@@ -143,6 +166,8 @@ Disable the Desktop Sync feature:
 2. In the first command prompt, press `q`.
 
 If you were working on a real project and you liked the way the app looked, you would commit your changes in Git. Then, the Pipeline in DevOps Services would deploy your updated app to Bluemix.
+
+---
 
 <a name='summary'></a>
 ##Summary

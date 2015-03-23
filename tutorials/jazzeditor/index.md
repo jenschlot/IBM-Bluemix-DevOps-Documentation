@@ -2,14 +2,29 @@
 
 Last modified: 19 February 2015
 
-## Contents
+Time: 30 minutes
+
+* [Learning objectives](#objectives)
 * [Create an app with IBM Bluemix](#create_bluemix_app)
 * [Set up Git integration and auto-deploy](#git_integration_and_autodeployment)
-* [Push changes to the Git repository by using the command line](#push_to_git)
-* [Push changes to the Git repository by using the Web IDE](#push_with_web_ide)
+* [Push changes to the Git repository](#push)
+  * [Push changes to the Git repository by using the command line](#push_to_git)
+  * [Push changes to the Git repository by using the Web IDE](#push_with_web_ide)
 * [Deploy by using the Web IDE](#deployment)
 * [Update a running app automatically with Bluemix Live Sync](#bluemix_live_sync)
 * [Summary](#summary)
+ 
+ 
+ ---
+<a name='objectives'></a>
+##Learning objectives
+
+* Create an app in Bluemix with the SDK for Node.js starter pack.
+* Create a Git repository for the app.
+* Push changes to the repository by using Git commands from the command line or the DevOps Services Web IDE.
+* Preview and deploy your changes by using the Web IDE run bar
+
+---
  
 <a name='create_bluemix_app'></a>
 ##Create an app with IBM Bluemix
@@ -73,8 +88,12 @@ Your new project opens in the web integrated development environment (Web IDE). 
 ![Web IDE](/tutorials/jazzeditor/images/orion_NEW.png)
 
 ---
+<a name='push'></a>
+##Push changes to the Git repository
+You can push changes to the Git repository either by using the command line or the Web IDE.
+
 <a name='push_to_git'></a>
-##Push changes to the Git repository by using the command line
+###Push changes to the Git repository by using the command line
 
 You now have a Git repository that contains example code. You can use several tools to work with Git, including desktop IDEs, the Web IDE, and the command line. 
 
@@ -136,9 +155,9 @@ At the top of the leftmost tile, under Input, an entry has a comment that matche
 You can continue to modify the example code and push the changes to the Git repository. If your project and scope of work grow, you can add people to the project and everyone can push changes to the repository. Standard repository operations and auto-deploy are all that you need to ensure that the app is always running.
 
 
----
+
 <a name='push_with_web_ide'></a>
-##Push changes to the Git repository by using the Web IDE
+###Push changes to the Git repository by using the Web IDE
 
 In addition to auto-deploy, IBM Bluemix DevOps Services provides other useful capabilities 
 for app development:
