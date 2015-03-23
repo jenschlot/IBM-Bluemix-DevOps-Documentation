@@ -6,15 +6,6 @@
 
 * Text in <span style="font-color:pink">pink</span> is from Translation Memory and should have been reviewed before.  Please focus on the text that is not pink.
 
-* The following words should NOT be translated:
-  * DevOps Services
-  * IBM Bluemix DevOps Services
-  * Bluemix DevOps Services 
-  * Pipeline
-  * Track & Plan   
-  * Build & Deploy  
-
-
 * The priority for testing (from High to Low) is:
 
    * [Main docs page](/docs)
