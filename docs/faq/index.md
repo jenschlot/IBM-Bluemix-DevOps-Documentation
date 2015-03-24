@@ -63,7 +63,7 @@ You can also edit the code that is stored in your GitHub repository by using the
 
 ### Why can't I use the **Add Git** link from the Bluemix console?
 
-For steps to resolve the issue, see [Cannot add Git repository](https://www..ng.bluemix.net/docs/#troubleshoot/index-gentopic4.html#cannot_addgit).
+For steps to resolve the issue, see [Cannot add Git repository](https://www.ng.bluemix.net/docs/#troubleshoot/index-gentopic4.html#cannot_addgit).
 
 <a name="q5"></a>
 
