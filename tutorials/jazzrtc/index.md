@@ -1,10 +1,10 @@
 #Developing Bluemix apps in Java with Eclipse and Bluemix DevOps Services
 
-Last modified: 10 March 2015
+Last modified: 24 March 2015
 
 Time: 30 minutes
 
-Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM&reg; Bluemix&trade; DevOps Services, and the Rational&reg; Team Concert client for Eclipse. 
+Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM&reg; Bluemix&trade; DevOps Services, and the Rational Team Concert&trade; client for Eclipse. 
 
 * [Learning objectives](#objectives)
 * [Before you begin](#before_begin)
@@ -21,7 +21,7 @@ Follow the steps in this tutorial to develop a Java&trade; application by using 
 <a name='objectives'></a>
 ##Learning objectives
 
-* Create your own version of the IBM® Bluemix DevOps Services project, [WordCounter](https://hub.jazz.net/project/pskhadke/WordCounter/overview), by forking it to your space.
+* Create your own version of a DevOps Services project by forking it to your space.
 * Create build and deployment stages by using the Build & Deploy feature.
 * Open the project in Rational Team Concert.
 * Make a code update and push it to the project repository by using Rational Team Concert.
@@ -34,7 +34,7 @@ Follow the steps in this tutorial to develop a Java&trade; application by using 
 ##Before you begin
 
 1. Make sure that your IBM id is registered with Bluemix. 
-2. Log in to Bluemix DevOps Services by using your IBM id.
+2. Log in to DevOps Services by using your IBM id.
 
 ---
 
@@ -43,9 +43,9 @@ Follow the steps in this tutorial to develop a Java&trade; application by using 
 
 To quickly get started developing in Java, you fork a sample project named WordCounter. WordCounter uses Jazz&trade; source control management (SCM) and contains a manifest for deploying to Bluemix. You can load the project directly in the Rational Team Concert client for Eclipse. To explore the project before you fork it,  [see the WordCounter project page](https://hub.jazz.net/project/pskhadke/WordCounter/overview).
 
-Bluemix DevOps Services also supports Git projects. For more information, [see Getting Started with Bluemix and Bluemix DevOps Services using Java](/tutorials/jazzeditorjava).
+DevOps Services also supports Git projects. For more information, [see Getting Started with Bluemix and Bluemix DevOps Services using Java](/tutorials/jazzeditorjava).
 
-On the WordCounter project overview page, click **FORK PROJECT**. 
+On the WordCounter project Overview page, click **FORK PROJECT**. 
 ![Click Fork Project](/tutorials/jazzrtc/images/click_fork_project.png "Click Fork Project")
 
 When you are prompted, enter a unique name for your project. Then, click **CREATE**.
@@ -105,7 +105,7 @@ Add the Delivery Pipeline service to the app so that you can use the Build & Dep
 1. Click the running instance of you app to view it in Bluemix. If prompted, enter your IBM id and password.
 ![Bluemix Instance](/tutorials/jazzrtc/images/running_instance.png "Bluemix Instance")
 
-2. From the new app's overview page, click **ADD A SERVICE OR API**.
+2. On the new app's Overview page, click **ADD A SERVICE OR API**.
 
 3. Select the DevOps category, then click **Delivery Pipeline**.
 
@@ -119,7 +119,7 @@ The Delivery Pipeline service is added to your Bluemix space.
 
 From the Rational Team Concert client for Eclipse, connect to your running app. 
 
-1. In the Bluemix DevOps Services Web IDE, click the project link to go to the project overview page. 
+1. In the DevOps Services Web IDE, click the project link to go to the project Overview page. 
 ![Project Link](/tutorials/jazzrtc/images/project_link.png "Project Link")
 
 2. From this page, get the Jazz repository information. 

@@ -1,12 +1,12 @@
 #Develop with Bluemix Live Sync and Node.js
 
-Last modified: 6 March 2015
+Last modified: 24 March 2015
 
 Time: 30 minutes
 
 If you are building a Node.js app, you can quickly update it on IBM® Bluemix™ and develop as you would on the desktop by using Bluemix Live Sync. You can use Bluemix Live Sync on the command line, through the Desktop Sync feature, and in the Web IDE, through the Live Edit feature. You can also [use Bluemix Live Sync to debug Node.js apps][2]. [Learn more about Bluemix Live Sync][4]. 
 
-In this tutorial, you deploy a Node.js app and then update it by using IBM Bluemix DevOps Services and Bluemix Live Sync. You can see the changes to your running Bluemix app immediately, without waiting for redeployment.
+In this tutorial, you deploy a Node.js app and then update it by using IBM&reg; Bluemix&trade; DevOps Services and Bluemix Live Sync. You can see the changes to your running Bluemix app immediately, without waiting for redeployment.
 
 * [Learning objectives](#objectives)
 * [Before you begin](#prereq)
@@ -21,12 +21,12 @@ In this tutorial, you deploy a Node.js app and then update it by using IBM Bluem
 <a name='objectives'></a>
 ##Learning objectives
 
-* Create an app in Bluemix with the SDK for Node.js starter pack.
+* Create an app in Bluemix by using the SDK for Node.js starter pack.
 * Create a Git repository for the app.
-* In the Web IDE run bar, create a launch configuration.
-  * Enable Live edit.
+* On the Web IDE run bar, create a launch configuration.
+  * Enable the Live Edit feature.
   * View code changes in the running app.
-* From the command line, enable Live edit.
+* From the command line, enable the Live Edit feature.
   * View code changes in the running app.
 
 ---
@@ -57,7 +57,7 @@ After a few moments, your app is running on Bluemix. To view it, click the URL b
 <a name='connect'></a>
 ##Connect the Node.js app to DevOps Services
 
-Next, create a Git repository that is hosted by Bluemix DevOps Services and associate the repository with your app instance. The repository will be populated with the code from the SDK for Node.js starter.
+Next, create a Git repository that is hosted by DevOps Services and associate the repository with your app instance. The repository will be populated with the code from the SDK for Node.js starter.
 
 1. On your app's Overview page, click **ADD GIT**.
 ![Clicking ADD GIT][6]

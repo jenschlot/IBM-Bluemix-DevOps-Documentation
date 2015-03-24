@@ -1,6 +1,6 @@
 #Developing with Git in the Bluemix DevOps Services Web IDE
 
-Last modified: 13 February 2015
+Last modified: 24 March 2015
 
 Time estimate: 30 minutes
 
@@ -23,8 +23,8 @@ If you want to learn more about managing your Git repository, an open source cod
 ##Learning objectives
 
 * Create a version of an app in your space by clicking the Deploy to Bluemix button.
-* Create a branch to deliver code to in the Web IDE.
-* In the Web IDE run bar, deploy the contents of your workspace to an app.
+* Create a branch in the Web IDE to deliver code to.
+* Deploy the contents of your workspace to an app by using the run bar.
 * Edit code in the Web IDE.
 * Deliver a changed file to the branch in the Web IDE.
 * Deliver a changed file to the master branch in the Web IDE.
@@ -33,7 +33,7 @@ If you want to learn more about managing your Git repository, an open source cod
 ---
 <a name='before_you_begin'></a>
 ##Before you begin
-  * [Register for Bluemix DevOps Services](https://hub.jazz.net)
+  * [Register for DevOps Services](https://hub.jazz.net)
   * [Register for a free trial of IBM&reg; Bluemix&trade;](https://ace.ng.bluemix.net/)
 
 ---
@@ -70,7 +70,7 @@ When you work with many people or want to test different ideas, a common practic
 <a name='deploy_a_new_bluemix_app'></a>
 ##Deploy a new Bluemix app
 
-To see the changes that you make to your code, create a Bluemix app and deploy the changes to the app. To create an app from within the Bluemix DevOps Services Web IDE, you edit the manifest.yml file to direct deployments to a different Bluemix app.
+To see the changes that you make to your code, create a Bluemix app and deploy the changes to the app. To create an app from within the DevOps Services Web IDE, you edit the manifest.yml file to direct deployments to a different Bluemix app.
 
 1. To view your code, click the **Show Current Folder** icon <img src="images/showcurrentfolder.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">.
 
@@ -99,7 +99,7 @@ Leave this page open; you'll need it in a moment.
 <a name='change_and_test_the_code'></a>
 ## Change and test the code
 
-1. Return to your YummyRation project page on Bluemix DevOps Services.
+1. Return to your YummyRation project page in DevOps Services.
 
 1. Near the run bar, click the **Live Edit** button. Let the app deployment finish.
   * Bluemix Live Sync allows you to quickly preview changes to Node.js apps in Live Edit mode. When you update your static files with Live Edit turned on, you can refresh your web app's browser window to see those changes reflected seconds after you make them. For more information on Bluemix Live Sync, [see the Bluemix Live Sync documentation][14].
@@ -120,9 +120,9 @@ That looks better! Click the **Live Edit** button again to stop using Bluemix Li
 <a name='deliver_a_change_to_the_repository'></a>
 ##Deliver a change to the repository
 
-You save your changes to your Bluemix DevOps Services project.  Because this project uses a Git repository, you first make a commit to record all of your changes to your local branch. Then, you push the commit to the remote branch.
+You save your changes to your DevOps Services project.  Because this project uses a Git repository, you first make a commit to record all of your changes to your local branch. Then, you push the commit to the remote branch.
 
-1. Return to your YummyRation project page on Bluemix DevOps Services.
+1. Return to your YummyRation project page in DevOps Services.
 
 1. Click **Git Repository**.
 

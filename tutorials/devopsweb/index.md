@@ -1,6 +1,6 @@
 # Get started with Bluemix DevOps Services
 
-Last modified: 19 February 2015
+Last modified: 24 March 2015
 
 Time: 60 minutes 
 
@@ -21,7 +21,7 @@ Time: 60 minutes
 <a name='objectives'></a>
 ##Learning objectives
 
-+ Create your own version of the IBM® Bluemix DevOps Services project, [Sentiment Analysis App][2], by forking it to your space.
++ Create your own version of an IBM® Bluemix™ DevOps Services project by forking it to your space.
 + Create a work item to plan a updates to your project by using the Track & Plan feature.
 + Make a code update and push it to the project repository by using the Web IDE.
 + Create build and deployment jobs by using the Build & Deploy feature.

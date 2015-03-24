@@ -1,6 +1,6 @@
 #Develop a Bluemix app in Node.js using the Web IDE
 
-Last modified: 17 February 2015
+Last modified: 24 March 2015
 
 Time: 30 minutes
 
@@ -21,10 +21,10 @@ In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an app in 
 <a name='objectives'></a>
 ##Learning objectives
 
-* Create your own version of the IBM® Bluemix DevOps Services project, [Sentiment Analysis App][2], by forking it to your space.
+* Create your own version of a DevOps Services project by forking it to your space.
 * Create build and deployment stages by using the Build & Deploy feature.
 * Make a code update and push it to the project repository by using the Web IDE.
-* Deploy the app from the run bar in the Web IDE.
+* Deploy the app by using the run bar in the Web IDE.
 
 ---
 <a name='fork'></a>
@@ -40,7 +40,7 @@ After the project is forked and the deployment completes, click **EDIT CODE** to
 
 <a name='deploy'></a>
 ##Build and deploy with the Delivery Pipeline
-To make the most of Bluemix DevOps Services and Bluemix, make sure that your Bluemix space has the Delivery Pipeline service. If needed, add the service to your Bluemix space by following these steps: [Getting started with Delivery Pipeline][26].
+To make the most of DevOps Services and Bluemix, make sure that your Bluemix space has the Delivery Pipeline service. If needed, add the service to your Bluemix space by following these steps: [Getting started with Delivery Pipeline][26].
 
 When you configure your own project, you can create and customize as much as you want to. This sample, however, is designed to require minimal activity to get started: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it is automatically found. This Grunt build file includes JSHint validation so that your project's code is checked automatically each time a build runs.
 
@@ -73,7 +73,7 @@ The Delivery Pipeline configuration for your Sentiment Analysis app has two stag
 
   a. Click **ADD STAGE**. At the top of the Stage Configuration page, click the **MyStage** name and change it to `Deploy to dev`.
 
-	This stage immediately follows the Build stage, so its default input is from that stage’s build job. Because Bluemix DevOps Services integrates with Bluemix and this sample project is simple, you can use the other default information to deploy the project, too.
+	This stage immediately follows the Build stage, so its default input is from that stage’s build job. Because DevOps Services integrates with Bluemix and this sample project is simple, you can use the other default information to deploy the project, too.
 
   b. Click **JOBS**. Click **ADD JOB**, and then select **Deploy**.
 
@@ -112,7 +112,7 @@ You can manage the live app instance on the [Bluemix Dashboard][11]. From the Da
 <a name='edit'></a>
 ##Edit the sample app
 
-You can now personalize the sample app in a Bluemix DevOps Services' web-based code editor, push your changes to the project's remote repository, and initiate a redeployment of your project. These activities won’t take more than a few minutes.
+You can now personalize the sample app in the DevOps Services web-based code editor, push your changes to the project's remote repository, and initiate a redeployment of your project. These activities won’t take more than a few minutes.
 
 1. Click **Edit Code**, and then open the `app.js` file by clicking it in the side panel. The editor recognizes and highlights the code as JavaScript.
 
@@ -151,7 +151,7 @@ Any changes that are delivered to your project trigger a build. When a build is 
 <a name='manifest'></a>
 ##The manifest file
 
-When you deploy a Bluemix DevOps Services project from the Web IDE, the project must have a `manifest.yml` file. This file contains important settings, such as the app instance name to use, the host machine, the services that the app uses, and more. The sample app in this tutorial already contains a manifest file.
+When you deploy a DevOps Services project from the Web IDE, the project must have a `manifest.yml` file. This file contains important settings, such as the app instance name to use, the host machine, the services that the app uses, and more. The sample app in this tutorial already contains a manifest file.
 
 ![An example manifest][17]
 

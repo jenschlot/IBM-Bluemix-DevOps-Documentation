@@ -1,7 +1,7 @@
 
 # Getting started with tracking and planning in Bluemix DevOps Services
 
-Last modified: 19 February 2015
+Last modified: 24 March 2015
 
 Time: 30 minutes
 
@@ -11,7 +11,7 @@ The Track & Plan tools can simplify your project planning and speed your workflo
 
 The Track & Plan feature is useful for supporting both large and small teams, and for managing complex and simple projects. 
 
-You can use the Track & Plan feature with all of your public IBM Bluemix DevOps Services projects at no cost. If you use the feature with private projects, a fee might apply. For more details, [see the Pricing page][22].
+You can use the Track & Plan feature with all of your public DevOps Services projects at no cost. If you use the feature with private projects, a fee might apply. For more details, [see the Pricing page][22].
 
 To try the Track & Plan feature, complete this tutorial. You'll start a simple, public, agile project and will use basic story, task, and defect work items to plan a chat page for a website.
 
@@ -19,7 +19,7 @@ To try the Track & Plan feature, complete this tutorial. You'll start a simple, 
 <!--- For a quick overview of features and functions, [explore the Track & Plan feature][9]. -->
 
 * [Learning objectives](#objectives)
-* [Set up an IBM Bluemix DevOps Services project](#set_up_an_IBM_devops_services_project)
+* [Set up a DevOps Services project](#set_up_an_IBM_devops_services_project)
 * [Create your first work items](#create_your_first_work_items)
 * [Create parent and child work items from the backlog](#create_work_items_in_the_backlog)
 * [Triage the backlog](#triage_the_backlog)
@@ -35,14 +35,14 @@ To try the Track & Plan feature, complete this tutorial. You'll start a simple, 
 * Add a Git repository to the project.
 * Add the Track & Plan feature to the project.
 * Plan work by creating work items.
-* Manage work in the backlog against current work.
+* Manage work in the backlog against the current work.
 * Plan sprints.
-* Manage current work.
+* Manage the current work.
 
 ---
 <a name='set_up_an_IBM_devops_services_project'></a>
- ##Set up an IBM Bluemix DevOps Services project
-1. [Sign in to IBM Bluemix DevOps Services][1].  Your MY PROJECTS page opens.  
+ ##Set up a DevOps Services project
+1. [Sign in to DevOps Services][1].  Your Projects page opens.  
 ![Bluemix DevOps Services new user landing page][2]
 
 2. Start a new project by clicking the **Start coding** icon.  
@@ -54,7 +54,7 @@ If you see a list of projects instead of this page, click **CREATE PROJECT**.
 You can also manage an existing GitHub repository or a new Jazz source control management repository.
 
 5. Ensure that the **Private** check box is cleared.  
-IBM Bluemix DevOps Services supports both public and private projects. Anyone can access your public projects, but only the Bluemix DevOps Services users who you invite can access your private projects.  
+DevOps Services supports both public and private projects. Anyone can access your public projects, but only the DevOps Services users who you invite can access your private projects.  
 
 6. Ensure that the **Add features for Scrum development** check box is selected. By enabling Scrum development, you can create sprints from your project's backlog of work items.  
 **Note**: To use the full Track & Plan capabilities, you must enable Scrum development. However, if you plan traditional projects that use simple tasks and iterations without a backlog, clear this check box.
