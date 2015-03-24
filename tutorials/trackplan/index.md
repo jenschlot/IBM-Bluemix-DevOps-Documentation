@@ -3,6 +3,8 @@
 
 Last modified: 19 February 2015
 
+Time: 30 minutes
+
 You can use the Track & Plan feature in IBM&reg; Bluemix&trade; DevOps Services to manage any type of project by using an agile approach. After you enable the Track & Plan feature, you can start getting organized right away by creating and assigning work items for your project.
 
 The Track & Plan tools can simplify your project planning and speed your workflow. For example, you can drag items from one project phase to another, such as from your project backlog to a sprint. You can also quickly assign work item attributes using keyboard shortcuts or icons.
@@ -16,6 +18,7 @@ To try the Track & Plan feature, complete this tutorial. You'll start a simple, 
 <!--- Commenting out until feature explorer is updated. -->
 <!--- For a quick overview of features and functions, [explore the Track & Plan feature][9]. -->
 
+* [Learning objectives](#objectives)
 * [Set up an IBM Bluemix DevOps Services project](#set_up_an_IBM_devops_services_project)
 * [Create your first work items](#create_your_first_work_items)
 * [Create parent and child work items from the backlog](#create_work_items_in_the_backlog)
@@ -23,6 +26,18 @@ To try the Track & Plan feature, complete this tutorial. You'll start a simple, 
 * [Plan Sprint 1](#plan_sprint_1)
 * [Work through the sprint](#work_through_the_sprint)
 * [Summary](#summary)
+
+---
+<a name='objectives'></a>
+##Learning objectives
+ 
+* Create a project in DevOps Services.
+* Add a Git repository to the project.
+* Add the Track & Plan feature to the project.
+* Plan work by creating work items.
+* Manage work in the backlog against current work.
+* Plan sprints.
+* Manage current work.
 
 ---
 <a name='set_up_an_IBM_devops_services_project'></a>

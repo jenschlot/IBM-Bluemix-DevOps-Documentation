@@ -2,11 +2,12 @@
 
 Last modified: 13 February 2015
 
+Time estimate: 30 minutes
+
 If you want to learn more about managing your Git repository, an open source code management system, with the IBM® Bluemix&trade; DevOps Services Web IDE, complete this tutorial. The tutorial doesn't cover all of the possible Git commands in the DevOps Services Web IDE, but you can practice creating a change on a separate branch, testing the change, and adding the change to the master branch. If you need help with specific commands, [see the Git reference](/docs/reference/git).  If you want to try to work locally by using the command line, [see Setting up local clients to work with Git source control](/docs/reference/gitclient).
 
----
-## Contents
 
+ * [Learning objectives](#objectives)
  * [Before you begin](#before_you_begin)
  * [Fork a project](#fork_a_project)
  * [Create a branch](#create_a_branch)
@@ -15,6 +16,19 @@ If you want to learn more about managing your Git repository, an open source cod
  * [Deliver a change to the repository](#deliver_a_change_to_the_repository)
  * [Rebase to add changes to the master branch](#add_changes_to_the_master_branch)
  * [Summary](#summary)
+
+
+---
+<a name='objectives'></a>
+##Learning objectives
+
+* Create a version of an app in your space by clicking the Deploy to Bluemix button.
+* Create a branch to deliver code to in the Web IDE.
+* In the Web IDE run bar, deploy the contents of your workspace to an app.
+* Edit code in the Web IDE.
+* Deliver a changed file to the branch in the Web IDE.
+* Deliver a changed file to the master branch in the Web IDE.
+
 
 ---
 <a name='before_you_begin'></a>

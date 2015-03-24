@@ -2,9 +2,11 @@
 
 Last modified: 10 March 2015
 
+Time: 30 minutes
+
 Follow the steps in this tutorial to develop a Java&trade; application by using IBM&reg; Bluemix&trade;, IBM&reg; Bluemix&trade; DevOps Services, and the Rational&reg; Team Concert client for Eclipse. 
 
-## Contents
+* [Learning objectives](#objectives)
 * [Before you begin](#before_begin)
 * [Fork a sample project](#fork_app)
 * [Deploy your app](#deploy_app)
@@ -13,6 +15,18 @@ Follow the steps in this tutorial to develop a Java&trade; application by using 
 * [Deliver your first change](#first_change)
 * [Add a test failure](#test_failure)
 * [Fix the bug](#fix_bug)
+* [Summary](#summary)
+
+---
+<a name='objectives'></a>
+##Learning objectives
+
+* Create your own version of the IBM® Bluemix DevOps Services project, [WordCounter](https://hub.jazz.net/project/pskhadke/WordCounter/overview), by forking it to your space.
+* Create build and deployment stages by using the Build & Deploy feature.
+* Open the project in Rational Team Concert.
+* Make a code update and push it to the project repository by using Rational Team Concert.
+* Verify automatic builds.
+* Make a code update that causes a build failure to see how the build results look.
 
 ---
 
@@ -169,5 +183,9 @@ To see what happens when the build fails, add a failure to the JUnit tests.
 
 3. Verify that the app is running, too.
 ![Application](/tutorials/jazzrtc/images/app3.png "Application")
-						
+	
+
+---
+<a name='summary'></a>
+##Summary
 You finished this tutorial. You are ready to develop Java applications on your own. 

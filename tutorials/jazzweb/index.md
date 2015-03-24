@@ -2,11 +2,11 @@
 
 Last modified: 17 February 2015
 
+Time: 30 minutes
+
 In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an app in the cloud and deploy it to [IBM® Bluemix™][1].
 
----
-
-## Contents
+* [Learning objectives](#objectives)
 * [Fork a sample project](#fork)
 * [Build and deploy with the Delivery Pipeline](#deploy)
 * [Edit the sample app](#edit)
@@ -14,6 +14,17 @@ In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an app in 
 * [The manifest file](#manifest)
 * [Deploy by using the Web IDE](#deploy_from_web_ide)
 * [Auto-deploy and manual deployment](#automatic_deployment)
+* [Summary](#summary)
+
+
+---
+<a name='objectives'></a>
+##Learning objectives
+
+* Create your own version of the IBM® Bluemix DevOps Services project, [Sentiment Analysis App][2], by forking it to your space.
+* Create build and deployment stages by using the Build & Deploy feature.
+* Make a code update and push it to the project repository by using the Web IDE.
+* Deploy the app from the run bar in the Web IDE.
 
 ---
 <a name='fork'></a>
@@ -177,6 +188,10 @@ OR
 When the app is deployed, try it by clicking its web URL:
 
 ![Our updated app on Bluemix][19]
+
+---
+<a name='summary'></a>
+##Summary
 
 You developed and deployed a Bluemix app by using the Web IDE. 
 
