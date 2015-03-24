@@ -1,7 +1,7 @@
 #Getting acquainted with Bluemix DevOps Services
 ####Obviously not the final title
 
-Last modified: 19 March 2015
+Last modified: 24 March 2015
 
 Time: 5 minutes
 
@@ -72,7 +72,7 @@ Click **Git Repository**. The Repositories page opens. Next, stage the change to
 
 The update to `app.js` is pushed to the remote master branch that acts as input to your project's pipeline. 
 
-Click **BUILD & DEPLY** to see the pipeline build and deploy your updated app. When the second stage completes, click the URL beneath Last Execution Result to verify your change.
+To see the pipeline build and deploy your updated app, click **BUILD & DEPLY**. The Build Stage should already be running. When the Deploy stage completes, click the URL beneath Last Execution Result to verify your change.
 
 ---
 ##Summary
@@ -84,6 +84,10 @@ There you have it! In a few minutes, you forked and deployed a sample Bluemix ap
 
 This quick tour barely scratched the surface of what you can do with Bluemix. Want to learn more? See our tutorials on...
 
+Well, what should we promote next? More complicated E2E? DevOpsWeb? Sample projects?  
+
+[2]: #
+[27]: #
 [30]: https://hub.jazz.net/register
 [31]: https://jazz.net/action/register
 [32]: https://apps.admin.ibmcloud.com/manage/trial/bluemix.html
