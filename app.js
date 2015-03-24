@@ -21,7 +21,7 @@ var sslport = process.env.SSL_PORT;
 var host = '0.0.0.0';				// Listen on all interfaces.
 
 if (!port) {
-	port = 3000;
+	port = 3001;
 }
 
 var app = express();				// Create an app.
