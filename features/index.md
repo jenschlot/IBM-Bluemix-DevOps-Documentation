@@ -47,7 +47,7 @@ code changes, and the work item is updated with the new commit information.
 
 At a glance, see the projects you own, belong to, and like. You can also see requests to join your project and any invitations for you to join other projects.   Just another way to help you stay organized.
 
-![My Projects](/features/images/my_projects.png)																		 
+![Projects](/features/images/my_projects.png)																		 
 
 
 <a name='simpleui'></a>

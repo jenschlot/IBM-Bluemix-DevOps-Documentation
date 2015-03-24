@@ -45,7 +45,7 @@ Project members have the fewest privileges and responsibilities. Members can do 
 ----
 ##Managing projects
 
-A common task for project owners and admins is to manage the project's settings and members. When you sign in to DevOps Services, the MY PROJECTS page opens. The REQUESTS tab on this page lists any incoming requests from others to join projects for which you are an admin. As an admin, you can accept or reject these requests. 
+A common task for project owners and admins is to manage the project's settings and members. When you sign in to DevOps Services, the PROJECTS page opens. The REQUESTS tab on this page lists any incoming requests from others to join projects for which you are an admin. As an admin, you can accept or reject these requests. 
 
 For a project for which you are an owner or admin, you can invite new members from the MEMBERS tab of the project page by clicking the **Invite Members** button.
 
