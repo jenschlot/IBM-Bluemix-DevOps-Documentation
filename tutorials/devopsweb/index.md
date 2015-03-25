@@ -25,7 +25,7 @@ Time: 60 minutes
 + Create a work item to plan updates to your project by using the Track & Plan feature.
 + Make a code update and push it to the project repository by using the Web IDE.
 + Create build and deployment jobs by using the Build & Deploy feature.
-+ Deploy your app to [IBM Bluemix™][1]. 
++ Deploy your app to [IBM Bluemix™][1].
 
 ---
 <a name='prereq'></a>
