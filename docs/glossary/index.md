@@ -1,5 +1,5 @@
 # Glossary
-Last modified: 16 March 2015
+Last modified: 25 March 2015
 
 This glossary provides terms and definitions for the IBM&reg; Bluemix&trade; DevOps Services features.
 
@@ -140,7 +140,7 @@ A project element that allows stakeholders to track bugs and bug fixes.
 
 <a name="deployment"></a>
 **deployment**  
-A process that retrieves the output of a build, packages the output with configuration properties, and installs the package in a pre-defined location so it can be tested or run.
+A process that retrieves the output of a build, packages the output with configuration properties, and installs the package in a pre-defined location so that it can be tested or run.
 
 <a name="DevOps"></a>
 **DevOps**  
@@ -362,7 +362,7 @@ length, for example, from 1 to 4 weeks, but typically have a fixed duration with
 <a name="stage"></a>
 **stage**  
 1. A group of jobs within a shared execution context that consists of source input, environment variables, and a defined order of execution.
-2. To configure an environment for a specific purpose.
+2. To deploy an application, service, or instance to a pre-defined location for running or testing before deployment to a production environment.
 3. To mark a set of file changes as being ready for Git commit
 
 <a name="story"></a>
