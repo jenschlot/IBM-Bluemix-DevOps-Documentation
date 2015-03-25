@@ -74,7 +74,7 @@ If you use Eclipse and have a project that uses Git for source control, you can 
 * Check whether the EGit plug-in is already installed. In Eclipse, click **Window > Show View > Other** and type `git` as the filter text. If you see a list of Git views, skip ahead to [Connect to your Bluemix DevOps Services project by using EGit](#connect_to_your_devops_services_project_with_egit)
 
 **Install the plug-in**
-1. In Eclipse, click **Help > Install New Software**
+1. In Eclipse, click **Help > Install New Software**.
 
 2. In the Install window, complete these  steps:
   1. In the **Work with** field, enter `http://download.eclipse.org/egit/updates`.
@@ -163,7 +163,7 @@ If you use Eclipse, you can use the Rational Team Concert plug-in to access your
 
  ![Manage JazzHub Projects button within the Team Artifacts View](./images/jazzhubfeature.png)
 
-3. In the **Manage JazzHub Projects** window, enter your alias and IBM id password to sign in to Bluemix DevOps Services, and click **Next**.
+3. In the **Manage JazzHub Projects** window, enter your alias and IBM id password to sign in to Bluemix DevOps Services, and then click **Next**.
 
 4. Select the Bluemix DevOps Services projects to connect to and click **Finish**.
 
