@@ -22,7 +22,7 @@ Time: 60 minutes
 ##Learning objectives
 
 + Create your own version of an IBM® Bluemix™ DevOps Services project by forking it to your space.
-+ Create a work item to plan a updates to your project by using the Track & Plan feature.
++ Create a work item to plan updates to your project by using the Track & Plan feature.
 + Make a code update and push it to the project repository by using the Web IDE.
 + Create build and deployment jobs by using the Build & Deploy feature.
 + Deploy your app to [IBM Bluemix™][1]. 
