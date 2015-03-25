@@ -42,10 +42,10 @@ Stages organize input and output as your code is built, deployed, and tested. Wh
 One decision you must make for the stage is whether you want the stage to be triggered automatically or manually.
 
 <a name="pipeline_automatic"></a>
-####Trigger stages to run
-You can trigger builds and deployments every time that changes are delivered to a project's source control repository. In the **Stage Trigger** section of the **Input** tab, select the **Automatically execute jobs when a change is pushed to the repository** option.
+####Stage triggers
+You can trigger builds and deployments every time that changes are delivered to a project's source control repository. On the **Input** tab, in the **Stage Trigger** section, select the **Automatically execute jobs when a change is pushed to the repository** check box.
 
-If you do not want builds to occur every time a change is pushed to the repository, you can disable the capability. In the **Stage Trigger** section of the **Input** tab, select the **Only execute jobs when a user manually runs this stage** option. 
+If you do not want builds to occur every time a change is pushed to the repository, you can disable the capability. On the **Input** tab, in the **Stage Trigger** section, select the **Only execute jobs when a user manually runs this stage** check box. 
 
 Then, you can request on demand builds and deployments from the build history page in one of two ways:
 * Drag a build to the box that is under a configured space.
