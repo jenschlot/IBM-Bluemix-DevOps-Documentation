@@ -76,7 +76,7 @@ IBM Bluemix&trade; is a cloud-based software hosting and deployment service. To 
 2. Review the My Work view. From this view, you can see all of the project work items that are assigned to you. Because you're the only person working on this project, assign ownership of all work items to your alias. The fastest way to do this is to create your work items from this view.
 
 2. In the **Create a work item** field, type a summary for the first work item: `Create a simple chat page for our site.` Press **Enter** to create the task.  
-**Note**: The default work item type is **Task** (<img src="/tutorials/trackplan/images/task.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">). 
+**Note**: The default work item type is **Task** <img src="/tutorials/trackplan/images/task.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">. 
 
 3. Add more attributes to your task. Click the
 **Priority** icon <img src="/tutorials/trackplan/images/nopriority.gif"
@@ -149,7 +149,7 @@ Notice the new text after your summary. When you set an attribute, the text code
 
   6. Click in the **Type a work item summary** field and type `Configure a chat server using Node.js.` 
 
-  7. Slowly type `*task` to assign the task type. When you type to asterisk (*) notice how the **Type** drop-down menu appears.  
+  7. Slowly type `*task` to assign the task type. When you type the asterisk (` * `), notice how the **Type** drop-down menu appears.  
 **Tip**: You can enter most of the attributes by typing their text code instead of using the mouse. 
 
   8. Enter these attributes:
