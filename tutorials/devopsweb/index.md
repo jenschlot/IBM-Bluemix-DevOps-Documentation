@@ -1,20 +1,40 @@
 # Get started with Bluemix DevOps Services
 
-Last modified: 19 February 2015
+Last modified: 24 March 2015
 
-In this tutorial, you'll learn how to do these tasks:
+Time: 60 minutes 
 
-+ Fork an IBM® Bluemix DevOps Services project, the [Sentiment Analysis App][2] 
-+ Plan a minor update to the project by using the Track & Plan feature
-+ Make that update by using the Web IDE
-+ Deploy your updated app to [IBM Bluemix™][1] by using the Build & Deploy feature
+
+* [Learning objectives](#objectives)
+* [Before you begin](#prereq)
+* [Fork a sample project](#fork)
+* [Plan a change to your project](#plan_change)
+* [Modify your project's code](#modify_code)
+* [Push your change to the project repository](#push_changes)
+* [Configure builds and deployments](#build_deploy)
+* [Deploy the app and verify your change](#deploy_app)
+* [Complete the work item](#work_item)
+* [Summary](#summary)
+* [Next steps](#next_steps)
 
 ---
+<a name='objectives'></a>
+##Learning objectives
+
++ Create your own version of an IBM® Bluemix™ DevOps Services project by forking it to your space.
++ Create a work item to plan updates to your project by using the Track & Plan feature.
++ Make a code update and push it to the project repository by using the Web IDE.
++ Create build and deployment jobs by using the Build & Deploy feature.
++ Deploy your app to [IBM Bluemix™][1].
+
+---
+<a name='prereq'></a>
 ## Before you begin
 
 To complete this tutorial, you need an [IBM id][30] that is registered with DevOps Services. Also, be sure to [register for Bluemix][32].
 
 ---
+<a name='fork'></a>
 ## Fork a sample project
 
 You start with the sample project, [Sentiment Analysis App][2]. This Node.js app uses a Git repository, and includes a Grunt build file.
@@ -31,6 +51,7 @@ After the project is forked and the deployment completes, click **EDIT CODE** to
 
 
 ---
+<a name='plan_change'></a>
 ## Plan a change to your project
 
 With the Track & Plan service in DevOps Services, you can manage projects by using an agile approach. You can create sprints and rank and assign stories, tasks, and defects to members of your development team. To keep this tutorial brief, create one task and assign it to yourself.
@@ -64,6 +85,7 @@ Start to work on your task:
 3. Optional: Write down the task's work item number. You need the task number later when you link the task to a commit on the Git Repository page.
 
 ---
+<a name='modify_code'></a>
 ## Modify your project's code
 
 You now have a sample project and a task to personalize it. You can make and deliver that change in your browser by using the DevOps Services Web IDE.
@@ -78,6 +100,7 @@ You now have a sample project and a task to personalize it. You can make and del
 Your change is saved and ready to be committed to the project's remote repository.
 
 ---
+<a name='push_changes'></a>
 ## Push your change to the project repository
 
 For revision control and source code management, DevOps Services currently supports Git, Jazz SCM, and GitHub. Because the original Sentiment Analysis App project uses a Git repository that is hosted by IBM, your copy of the project uses a Git repository, too. The code that you changed is currently in your local workspace. Push the changed code to your project's master branch and then deploy your app to Bluemix.
@@ -95,7 +118,8 @@ On the Git page that opens, check the Working Directory Changes pane to verify t
 You're almost done. Now that your updated code is in your remote repository, you can configure DevOps Services to build the code and then deploy it automatically to Bluemix. Your app is about to go live! 
 
 ---
-## Configure automatic building and deployment
+<a name='build_deploy'></a>
+## Configure builds and deployments
 
 The sample project uses JSHint validation to check its code for errors. For that to work, you must configure a stage that contains a build job that uses Grunt.
 
@@ -143,6 +167,7 @@ You configured a stage to deploy your changes, and you even modified the deploym
 By connecting your stages, you configured a fully functional Build & Deploy pipeline. By default, the changes that you push to the master branch will trigger new builds. Successful builds are deployed according to your deploy stage configuration. 
 
 ---
+<a name='deploy_app'></a>
 ## Deploy the app and verify your change
 
 It's time to see your work in action. Because you configured the pipeline after you changed the code, you need to start your project's first build.
@@ -158,6 +183,7 @@ Now that you’re familiar with the deployment process, return to the code edito
 When you're satisfied with your changes, close the task. 
 
 ---
+<a name='work_item'></a>
 ## Complete the work item
 
 You have paperwork to do, but it's quick and painless. 
@@ -175,9 +201,14 @@ Well done! The Track & Plan service keeps administrative overheard to a minimum 
 ![A resolved work item][11]
 
 ---
+<a name='summary'></a>
 ## Summary
 
 In only a few minutes, you forked a Node.js app project, planned an update to the app, made the update, and deployed the updated app to Bluemix--all without leaving your browser. 
+
+---
+<a name='next_steps'></a>
+## Next steps
 Now that you know the basics, you might want to explore this information:
 
 - [Integrate DevOps Services into your preferred development environment][37]

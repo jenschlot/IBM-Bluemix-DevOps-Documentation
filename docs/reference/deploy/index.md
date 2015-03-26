@@ -9,7 +9,7 @@ The Bluemix DevOps Services Build & Deploy feature, also known as Pipeline, auto
 * [Bluemix and the Delivery Pipeline service](#service)
 * [Deployment using the Bluemix DevOps Services Pipeline](#auto)
   * [Stages](#key)
-    * [Trigger stages to run](#pipeline_automatic)
+    * [Stage triggers](#pipeline_automatic)
     * [Multistage deployments](#multi)
   * [Jobs](#jobs)
     * [Build jobs](#builds)
@@ -42,10 +42,10 @@ Stages organize input and output as your code is built, deployed, and tested. Wh
 One decision you must make for the stage is whether you want the stage to be triggered automatically or manually.
 
 <a name="pipeline_automatic"></a>
-####Trigger stages to run
-You can trigger builds and deployments every time that changes are delivered to a project's source control repository. In the **Stage Trigger** section of the **Input** tab, select the **Automatically execute jobs when a change is pushed to the repository** option.
+####Stage triggers
+The default selection for a stage is that builds and deployments are triggered every time that changes are delivered to a project's source control repository. You do not have to take any action to start a build or deployment.
 
-If you do not want builds to occur every time a change is pushed to the repository, you can disable the capability. In the **Stage Trigger** section of the **Input** tab, select the **Only execute jobs when a user manually runs this stage** option. 
+However, you might want tighter control of a specific build or deployment stage. If you do not want builds to occur every time a change is pushed to the repository, you can disable the capability. On the **Input** tab, in the **Stage Trigger** section, select **Only execute jobs when a user manually runs this stage**. 
 
 Then, you can request on demand builds and deployments from the build history page in one of two ways:
 * Drag a build to the box that is under a configured space.

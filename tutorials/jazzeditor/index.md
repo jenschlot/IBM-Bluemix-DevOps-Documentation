@@ -1,15 +1,30 @@
 #Getting started with Bluemix and Bluemix DevOps Services using Node.js
 
-Last modified: 19 February 2015
+Last modified: 24 March 2015
 
-## Contents
+Time: 30 minutes
+
+* [Learning objectives](#objectives)
 * [Create an app with IBM Bluemix](#create_bluemix_app)
 * [Set up Git integration and auto-deploy](#git_integration_and_autodeployment)
-* [Push changes to the Git repository by using the command line](#push_to_git)
-* [Push changes to the Git repository by using the Web IDE](#push_with_web_ide)
+* [Push changes to the Git repository](#push)
+  * [Push changes to the Git repository by using the command line](#push_to_git)
+  * [Push changes to the Git repository by using the Web IDE](#push_with_web_ide)
 * [Deploy by using the Web IDE](#deployment)
 * [Update a running app automatically with Bluemix Live Sync](#bluemix_live_sync)
 * [Summary](#summary)
+ 
+ 
+ ---
+<a name='objectives'></a>
+##Learning objectives
+
+* Create an app in Bluemix by using the SDK for Node.js starter pack.
+* Create a Git repository for the app.
+* Push changes to the Git repository from the command line or the IBM&reg; Bluemix&trade; DevOps Services Web IDE.
+* Preview and deploy your changes by using the Web IDE run bar.
+
+---
  
 <a name='create_bluemix_app'></a>
 ##Create an app with IBM Bluemix
@@ -48,17 +63,17 @@ Now that your app is running, you can see and modify its code by using IBM® Blu
 
 ---
 <a name='git_integration_and_autodeployment'></a>
-##Set up Git integration and auto-deploy in Bluemix DevOps Services
+##Set up Git integration and auto-deploy in DevOps Services
 
 You can work with your app's code in many ways. For example, with auto-deploy, you can modify the code that runs in your app by pushing your changes to a 
-Git repository. You can auto-deploy your code if you use the Build & Deploy capabilities of Bluemix DevOps Services.
+Git repository. You can auto-deploy your code if you use the Build & Deploy capabilities of DevOps Services.
 
 1. To enable auto-deploy, go to the Bluemix overview for your app and 
 click **ADD GIT**. A Git repository is created and is populated with example code and a deployed app. 
 ![Add Git button](/tutorials/jazzeditor/images/bm-add-git-integration_NEW.png)
-You might be prompted to enter your password to verify that Bluemix DevOps Services can act on your behalf. 
+You might be prompted to enter your password to verify that DevOps Services can act on your behalf. 
 ![Bluemix DevOps Services sign in page](/tutorials/jazzeditor/images/jh-signin.png)
-**Important:** The first time that you access Bluemix DevOps Services, you must create an alias that is linked to your IBM id. An alias is a unique, publicly visible short name that is used in Git repository paths, the Track & Plan feature, and in desktop and command line clients, including the URL for the repository that is created for you. For this one-time process, follow the instructions in the window.
+**Important:** The first time that you access DevOps Services, you must create an alias that is linked to your IBM id. An alias is a unique, publicly visible short name that is used in Git repository paths, the Track & Plan feature, and in desktop and command line clients, including the URL for the repository that is created for you. For this one-time process, follow the instructions in the window.
  
 2. Make sure that the **Populate the repository with the starter application package and enable build and deploy** check box is selected.
 ![Create Git repo dialog](/tutorials/jazzeditor/images/bm-create-git-repo_NEW.png)
@@ -73,8 +88,12 @@ Your new project opens in the web integrated development environment (Web IDE). 
 ![Web IDE](/tutorials/jazzeditor/images/orion_NEW.png)
 
 ---
+<a name='push'></a>
+##Push changes to the Git repository
+You can push changes to the Git repository either by using the command line or the Web IDE.
+
 <a name='push_to_git'></a>
-##Push changes to the Git repository by using the command line
+###Push changes to the Git repository by using the command line
 
 You now have a Git repository that contains example code. You can use several tools to work with Git, including desktop IDEs, the Web IDE, and the command line. 
 
@@ -83,7 +102,7 @@ Git must be installed. For instructions, [see Installing Git](/tutorials/clients
 
 To learn more about working with Git, [browse the Git documentation](http://git-scm.com/doc).
 
-1. Clone the local repository by using the Git URL, which you can find on the Bluemix app dashboard, the BUILD & DEPLOY page, or your Bluemix DevOps Services project overview.
+1. Clone the local repository by using the Git URL, which you can find on the Bluemix app dashboard, the BUILD & DEPLOY page, or your DevOps Services project overview.
 
 		$ git clone https://hub.jazz.net/git/jazzhubdemouser/newcoolwebappdemo
     	Cloning into 'mycoolwebappdemo'...
@@ -136,11 +155,11 @@ At the top of the leftmost tile, under Input, an entry has a comment that matche
 You can continue to modify the example code and push the changes to the Git repository. If your project and scope of work grow, you can add people to the project and everyone can push changes to the repository. Standard repository operations and auto-deploy are all that you need to ensure that the app is always running.
 
 
----
-<a name='push_with_web_ide'></a>
-##Push changes to the Git repository by using the Web IDE
 
-In addition to auto-deploy, IBM Bluemix DevOps Services provides other useful capabilities 
+<a name='push_with_web_ide'></a>
+###Push changes to the Git repository by using the Web IDE
+
+In addition to auto-deploy, DevOps Services provides other useful capabilities 
 for app development:
 
 * Hosting for public projects
@@ -153,7 +172,7 @@ for app development:
 To learn about all of the features, [see the IBM Bluemix DevOps Services website](https://hub.jazz.net/docs). 
 
 You used the command line to modify your code and push it to the repository. 
-Now, try the Web IDE in Bluemix DevOps Services to do the same task.
+Now, try the Web IDE in DevOps Services to do the same task.
 
 1. Return to the deployment page and click **EDIT CODE** to access the complete, integrated Web IDE that's 
 based on [the Eclipse Orion open-source project](http://orion.eclipse.org/). 
@@ -226,7 +245,7 @@ For more information, see
 <a name='summary'></a>
 ##Summary
 
-You have a good overview of how to get started with Bluemix and Bluemix DevOps Services by using Node.js. 
+You have a good overview of how to get started with Node.js in Bluemix and DevOps Services. 
 
 You saw how to create and run a Node.js web app by using Bluemix. 
 With one click, you created a Git repository, populated it with example code, and automatically 

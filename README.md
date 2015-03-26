@@ -27,17 +27,17 @@ RUNNING
 -------
 
 	# In Windows:
-	set PORT=3000
+	set PORT=3001
 	
 	# In Linux:
-	export PORT=3000
+	export PORT=3001
 	
 	git clone https://hub.jazz.net/git/agarcher/JazzHub.Tutorials
 	cd JazzHub.Tutorials
 	npm install
 	node app
 
-	# Browse to http://localhost:3000 by default.
+	# Browse to http://localhost:3001 by default.
 
 DEPLOYING
 ---------

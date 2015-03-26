@@ -1,13 +1,31 @@
 #Getting Started with Bluemix and Bluemix DevOps Services using Java
 
-Last modified: 4 March 2015
+Last modified: 24 March 2015
 
-## Contents
+Time: 30 minutes
+
+
+* [Learning objectives](#objectives)
 * [Create an app with IBM Bluemix](#create_bluemix_app)
-* [Edit files and push changes by using the Bluemix DevOps Services Web IDE](#edit_and_deploy_with_web_ide)
-* [Push changes to the Git repository by using the command line](#push_to_git)
-* [Build and deploy by using Bluemix DevOps Services](#build_and_deploy)
+* [Push changes to the Git repository](#push)
+  * [Edit files and push changes by using the DevOps Services Web IDE](#edit_and_deploy_with_web_ide)
+  * [Push changes to the Git repository by using the command line](#push_to_git)
+* [Build and deploy by using DevOps Services](#build_and_deploy)
 * [Summary](#summary)
+* [Next steps](#next_steps)
+
+
+---
+<a name='objectives'></a>
+##Learning objectives
+
+* Create an app in IBM&reg; Bluemix&trade; by using the Liberty for Java starter pack.
+* Create a Git repository for the app.
+* Add the IBM Continuous Delivery Pipeline for Bluemix (the Delivery Pipeline service).
+* Push changes to the Git repository from the command line or the IBM&reg; Bluemix&trade; DevOps Services Web IDE.
+* Build and deploy your changes by using the Delivery Pipeline service.
+
+---
 
 <a name='create_bluemix_app'></a>
 ##Create an app with IBM Bluemix
@@ -34,7 +52,7 @@ Type a name for your app, such as `Liberty for Java Starter app tutorial` with y
 
 ![Naming a Bluemix app][54]
 
-In a few moments, you'll have a Java web server app instance running on Bluemix. Click the **Overview** tab to view information about your app:
+In a few moments, you'll have a Java web server app instance running on Bluemix. Click **Overview** to view information about your app:
 
 ![The new app's Bluemix dashboard][55]
 
@@ -46,11 +64,11 @@ Although it's great that the app is running, you will want to modify it to make 
 
 You can work with your app code in many ways. For example, with auto-deploy, you can modify the code that runs in your app by pushing the changes to a Git repository. The mechanism that implements auto-deploy is provided by Bluemix™ DevOps Services, but more about that later.
 
-On your app’s overview page, click **ADD GIT**. 
+On your app’s Overview page, click **ADD GIT**. 
 
 ![Add Git][11]
 
-You might be prompted to enter your password because Bluemix DevOps Services must verify that it can act on your behalf. 
+You might be prompted to enter your password because DevOps Services must verify that it can act on your behalf. 
 
 **Note:** The first time that you access IBM DevOps Services, you must create an alias that is linked to your IBM id. An alias is a unique, publicly visible short name that is used in Git repository paths, Track & Plan, and desktop and command line clients, including the URL for the repository that is created for you. For this one-time process, follow the instructions in the window.
 
@@ -60,27 +78,33 @@ Make sure you check the option **Populate the repository with the starter applic
 
 A message displays that you successfully created a Git repo and loaded it with the app starter code.
 
-Before you start editing your code in Bluemix DevOps Services, enable the Delivery Pipeline service in Bluemix so that you can use several of the build and deployment capabilities later. 
+Before you start editing your code in DevOps Services, enable the IBM Continuous Delivery Pipeline for Bluemix (the Delivery Pipeline service) so that you can use several of the build and deployment capabilities later. 
 
-1.	On the app’s overview page, click **ADD A SERVICE OR API**.
+1.	On the app’s Overview page, click **ADD A SERVICE OR API**.
 2.	Select the DevOps category, then click **Delivery Pipeline**. 
 3.	Use the default settings for Space and the Selected plan.
 4.	Click **CREATE**.
 
 The Delivery Pipeline service is added to your Bluemix space. It will be ready when you need it later.
 
-Next, start using Bluemix DevOps Services. Click **EDIT CODE**.
+Next, start using DevOps Services. Click **EDIT CODE**.
 
 ![CODE button][15]
 
-Your project opens in the Bluemix DevOps Services Web IDE (integrated development environment). When you clicked **Add Git** in Bluemix, you populated a new Git repository with sample code. When you clicked **EDIT CODE**, that code is loaded into a work area associated with the project, called the project workspace.
+Your project opens in the DevOps Services Web IDE (integrated development environment). When you clicked **Add Git** in Bluemix, you populated a new Git repository with sample code. When you clicked **EDIT CODE**, that code is loaded into a work area associated with the project, called the project workspace.
 
 
 ---
-<a name='edit_and_deploy_with_web_ide'></a>
-##Edit files and deploy changes by using the Bluemix DevOps Services Web IDE
 
-Bluemix DevOps Services provides many capabilities that are useful for app development:
+<a name='push'></a>
+##Push changes to the Git repository
+
+You can push changes to the Git repository either by the Web IDE or the command line.
+
+<a name='edit_and_deploy_with_web_ide'></a>
+###Edit files and deploy changes by using the DevOps Services Web IDE
+
+DevOps Services provides many capabilities that are useful for app development:
 
   * Hosting for public projects
   * Multiple source code repositories
@@ -121,15 +145,15 @@ Refresh your browser to ensure that the updated page is shown.
 
 ![Application page showing new message][25]
 
----
-<a name='push_to_git'></a>
-##Push changes to the Git repository by using the command line
 
-You now have a Git repo with sample code. You can use many tools to work with Git, including all of the major desktop IDEs and the Bluemix DevOps Services Web IDE. You can also use the command-line Git support.
+<a name='push_to_git'></a>
+###Push changes to the Git repository by using the command line
+
+You now have a Git repo with sample code. You can use many tools to work with Git, including all of the major desktop IDEs and the DevOps Services Web IDE. You can also use the command-line Git support.
 
 **Note:** If you don't have Git installed, [see Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][20]. If you want to learn more about working with Git, [see the Git documentation pages](http://git-scm.com/doc).
 
-Clone from the project repository URL, which you can find on the Bluemix app's dashboard or the DevOps project's overview:
+Clone from the project repository URL, which you can find on the Bluemix app's dashboard or the DevOps project's Overview:
 
 
     $ git clone https://hub.jazz.net/git/jazzhubdemouser/Liberty.for.Java.Starter.app.tutorial
@@ -174,14 +198,14 @@ If you want to configure desktop clients to work with your Git repository, [see 
 
 ---
 <a name='build_and_deploy'></a>
-##Build and deploy by using Bluemix DevOps Services
+##Build and deploy by using DevOps Services
 
 In the **BUILD & DEPLOY** page, run your build by clicking the **Play** icon in the Build stage tile. 
 
 ![Play button][57]
 
 The build stage begins running. The deploy stage is configured to auto-deploy your app after a successful build. 
-When the app is running, it is available at the URL shown on the Deploy stage tile. You can see the app's overview on Bluemix by clicking the tile under LAST EXECUTION RESULT, where the app name is shown.
+When the app is running, it is available at the URL shown on the Deploy stage tile. You can see the app's Overview page on Bluemix by clicking the tile under LAST EXECUTION RESULT, where the app name is shown.
 
 ![Bluemix DevOps Services autoconfigured Pipeline][17]
 
@@ -246,13 +270,17 @@ When you build and deploy apps by using Bluemix, your Bluemix billing account mi
 <a name='Summary'></a>
 ## Summary
 
-In this tutorial, you learned to easily create a Java web app on Bluemix and run that app. With a few clicks, you created a Git repo, loaded it with the sample code, and automatically deployed the app. You changed code and pushed it Bluemix DevOps Services Web IDE, and then by using the Git command line. You configured automatic building and deployment, checked the status of the app deployment, and ran the app to verify your changes. 
+In this tutorial, you learned to easily create a Java web app on Bluemix and run that app. With a few clicks, you created a Git repo, loaded it with the sample code, and automatically deployed the app. You changed code and pushed it DevOps Services Web IDE, and then by using the Git command line. You configured automatic building and deployment, checked the status of the app deployment, and ran the app to verify your changes. 
 
-You learned how to get started with Bluemix and Bluemix DevOps Services by using Java. Lots of details were minimized, but you can find out more from the documentation links at the beginning of the tutorial.
+You learned how to get started with Java in Bluemix and DevOps Services. Lots of details were minimized, but you can find out more from the documentation links at the beginning of the tutorial.
+
+---
+<a name='Next steps'></a>
+## Next steps
 
 To learn more about configuring Eclipse or other desktop clients to work with your Git repository, [see Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][26].
 
-To learn about how to integrate unit testing into your Bluemix DevOps Services projects, [see Developing Bluemix apps in Java with Eclipse and Bluemix DevOps Services][40].
+To learn about how to integrate unit testing into your DevOps Services projects, [see Developing Bluemix apps in Java with Eclipse and Bluemix DevOps Services][40].
 
    [1]: https://bluemix.net/ (Bluemix)
    [2]: /tutorials/jazzeditorjava/images/bm-join.png
