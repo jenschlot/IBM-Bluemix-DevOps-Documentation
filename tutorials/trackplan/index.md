@@ -1,7 +1,7 @@
 
 # Getting started with tracking and planning in Bluemix DevOps Services
 
-Last modified: 26 March 2015
+Last modified: 27 March 2015
 
 Time: 30 minutes
 
@@ -100,8 +100,7 @@ You use these icons to set the work item attributes. Don't worry if you aren't s
 **Note**: You can assign severity only to defects.
  * Add a tag <img src="/tutorials/trackplan/images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;"> named `messages`. 
 
- * Set the priority <img src="/tutorials/trackplan/images/priority.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;"> to **High**.  
-Note that when you set an attribute, the text code for that attribute is added after the summary.  
+ * Set the priority <img src="/tutorials/trackplan/images/priority.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;"> to **High**. Note that when you set an attribute, the text code for that attribute is added after the summary.  
 ![Defect summary appended with attribute codes][7]
 
 5. When you're finished, click **CREATE**.  
@@ -288,7 +287,7 @@ You have a good overview of the Track & Plan feature and see that you can use it
 
 [1]: https://hub.jazz.net
 [2]: /tutorials/trackplan/images/myprojectslanding.png
-[3]: https://apps.admin.ibmcloud.com/manage/trial/bluemix.html (Register for Bluemix)
+
 [4]: /tutorials/trackplan/images/restyle_newprojectselection.png
 [5]: /tutorials/trackplan/images/restyle_wiicons.png
 [6]: https://bluemix.net/#/pricing/cloudOEPaneId=pricing 
