@@ -1,7 +1,7 @@
 
 # Getting started with tracking and planning in Bluemix DevOps Services
 
-Last modified: 25 March 2015
+Last modified: 26 March 2015
 
 Time: 30 minutes
 
@@ -60,7 +60,6 @@ DevOps Services supports both public and private projects. Anyone can access you
 **Note**: To use the full Track & Plan capabilities, you must enable Scrum development. However, if you plan traditional projects that use simple tasks and iterations without a backlog, clear this check box.
 
 7. Ensure that the **Make this a Bluemix Project** check box is cleared.  
-IBM Bluemix&trade; is a cloud-based software hosting and deployment service. To try Bluemix, [you need to register][3].
 
 8. To set up your project and go to the Overview page for the ChatPage project, click **CREATE**.  
 
@@ -73,7 +72,7 @@ IBM Bluemix&trade; is a cloud-based software hosting and deployment service. To 
 
 1. Click **TRACK & PLAN**. 
 
-2. Review the My Work view. From this view, you can see all of the project work items that are assigned to you. Because you're the only person working on this project, assign ownership of all work items to your alias. The fastest way to do this is to create your work items from this view.
+2. Review the My Work view. From this view, you can see any project work items that are assigned to you. Because you're the only person working on this project, assign ownership of all work items to your alias. The fastest way to do this is to create your work items from this view.
 
 2. In the **Create a work item** field, type a summary for the first work item: `Create a simple chat page for our site.` Press **Enter** to create the task.  
 **Note**: The default work item type is **Task** <img src="/tutorials/trackplan/images/task.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">. 
@@ -102,7 +101,7 @@ You use these icons to set the work item attributes. Don't worry if you aren't s
  * Add a tag <img src="/tutorials/trackplan/images/tag.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;"> named `messages`. 
 
  * Set the priority <img src="/tutorials/trackplan/images/priority.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;"> to **High**.  
-Notice the new text after your summary. When you set an attribute, the text code for that attribute is added after the summary.  
+Note that when you set an attribute, the text code for that attribute is added after the summary.  
 ![Defect summary appended with attribute codes][7]
 
 5. When you're finished, click **CREATE**.  
@@ -110,7 +109,7 @@ Notice the new text after your summary. When you set an attribute, the text code
 <!--- <iframe width="640" height="360" src="//www.youtube.com/embed/t5xJnL_jinc" frameborder="0" allowfullscreen></iframe>
 <div align = center>Video: Adding attributes while you create a work item</div> -->
 
-6. Click **Incoming Work** and evaluate your new work items. They are ranked by severity so that you know which tasks are most important. You can either send incoming work items to your backlog to be included on a sprint <img src="/tutorials/trackplan/images/triagetobacklog.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;"> or you can delete <img src="/tutorials/trackplan/images/trash.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;"> them, which marks the work item as invalid and moves it to the **TRASHED** section.
+6. Click **Incoming Work** and evaluate your new work items. They are ranked by severity so that you know which tasks are most important. You can either send incoming work items to your backlog to be included in a sprint <img src="/tutorials/trackplan/images/triagetobacklog.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;"> or you can delete <img src="/tutorials/trackplan/images/trash.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;"> them, which marks the work item as invalid and moves it to the **TRASHED** section.
 
   ![Incoming Work][26]
 
@@ -135,7 +134,7 @@ Notice the new text after your summary. When you set an attribute, the text code
 2. Assign child work items to your story.
 
   1. Click the summary of your story, "As a user, I'd like your site to have a chat page," to open the work item editor.  
-**Tip**: You can change most of the attributes on the **OVERVIEW** tab.  When you share work with a team, add more details about a work item in the **DESCRIPTION** field.
+**Tip**: You can change most of the attributes on the **OVERVIEW** tab.  
 
      ![Work item editor page][8]    
 
@@ -143,7 +142,7 @@ Notice the new text after your summary. When you set an attribute, the text code
 
   3. Scroll down and select **Add Children**.
 
-  4. In the search field, type `chat page`. From the results, select "Create a simple chat page",  and click **OK**.
+  4. In the search field, type `chat page`. From the results, select "Create a simple chat page,"  and click **OK**.
 
   5. Click **SAVE** and then click **Back to Backlog** <img src="/tutorials/trackplan/images/restyle_backtobacklog.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: -10px;">.
 
@@ -164,7 +163,7 @@ Notice the new text after your summary. When you set an attribute, the text code
      
 3. Add a few more work items to complete this project.
 
-  1. Add the following work items and attributes by using the method that you like best. Remember, you can assign or modify attributes after you created the work items.
+  1. Add the following work items and attributes by using the method that you like best. 
     * `As a user, I'd like to be able to log into your chat with my Facebook or Google+ account. #login $high` 
     * `Integrate OAuth to the chat site. *task #login #website $high`
   2.  Make the new task a child of the new story, "As a user, I'd like to be able to log into your chat with my Facebook or Google+ account."
@@ -197,18 +196,17 @@ Your backlog should look like this image:
 
    3. Assign 3-day estimates to your defect and remaining tasks.
 
-3. Before you populate a sprint, you rank the work items in your backlog. If you use agile management techniques with your projects, you probably use a similar process during your sprint planning meetings.
+3. Before you assign work items to a sprint, rank the work items in your backlog. 
 
-  1. Collapse the parent items and notice how each work item's rank is not ranked. You can easily change this status. Drag the "Incoming messages are not reaching other chat participants" task to the top of the list and see how its rank changes to 1.  <!--- Commenting out videos until they are updated -->
+  1. Collapse the parent items and notice how each work item's rank is not ranked. You can easily change this status. 
+  2. Drag the "Incoming messages are not reaching other chat participants" task to the top of the list and see how its rank changes to 1.  <!--- Commenting out videos until they are updated -->
 <!--- <iframe width="640" height="360" src="//www.youtube.com/embed/twr30-5wcfc" frameborder="0" allowfullscreen></iframe>
 <div align = center>Video: Ranking work items in the backlog </div> -->
 
 4. Rank the rest of the work items in this order:  
      ![Ranked work items in the backlog][11]
      
-5. Assign story points to the stories.  In agile projects, story points are a team-determined scale that reflects the effort required to implement a story. 
-
-  1. Next to each story, click **0 pts** and from the list, select **20 pts**.  
+5. Assign story points to the stories.  In agile projects, story points are a team-determined scale that reflects the effort required to implement a story. Next to each story, click **0 pts** and select **20 pts** from the list.  
 **Note**: You can expand each story by clicking the plus sign (+) to review its child items.
 
 
@@ -217,7 +215,7 @@ Your backlog should look like this image:
 ##Plan Sprint 1
 
 1. To start creating sprints for your project, click **Sprint Planning** and then click **Add Sprints**. From the **Quantity** and **Duration** lists, select two 2-week sprints.  
-**Note**: Only the project owner can create and edit sprints.
+**Note**: Only a project owner or project admin can create and edit sprints.
 
   ![Sprint creation menu showing two two-week sprints][27]
 
