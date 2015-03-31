@@ -45,11 +45,11 @@ Before you set up your billing account, determine what the best plan for your pr
 **Important:** The person who is responsible for setting up the billing account might not be the same person who is most affected by build and deployment failures and blocked access to Track & Plan pages. If you are not the person who sets up the account, ask your Bluemix billing manager to enable your billing account early.
 
 To set up your billing account, complete these steps: 
-1. Go to your Bluemix dashboard and select the space that is listed in your Bluemix DevOps Services project settings. 
+1. Go to your Bluemix dashboard and select the space that is listed in your DevOps Services project settings. 
 2. Click **Services** and click **Add a Service or API**.
 3. From the DevOps section, select either **Delivery Pipeline** or **Track & Plan**.
-4. In the "Add Service" section, make sure that the space that corresponds to your Bluemix DevOps Services Bluemix project is selected.
-5. From the "Selected Plan" menu, choose a billing plan. 
+4. In the "Add Service" section, make sure that the space that corresponds to your  DevOps Services project is selected.
+5. From the **Selected Plan** list, choose a billing plan. 
 6. Click **Create.**
 
 ---
