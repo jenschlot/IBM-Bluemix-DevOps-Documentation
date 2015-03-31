@@ -1,5 +1,5 @@
 # FAQs
-##### Last modified: 19 March 2015
+##### Last modified: 31 March 2015
 
 Looking for more answers? Check out our [forum](https://developer.ibm.com/answers/smartspace/devops-services/), where you can ask questions and get advice from IBM developers and the DevOps Services community.
 ____
@@ -13,8 +13,6 @@ ____
 -   [My team doesn't develop code. Is Bluemix DevOps Services right for us?](#q5)
 -   [How do I report a bug?](#q7)
 -   [How can I provide additional feedback?](#q8)
--   [I'm an IBMer. What do I need to know about starting a Bluemix DevOps
-    Services project?](#ibmer)
 -   [How can I report abuse?](#q18)
 -   [How can I see what's new?](#q19)
 -   [Which browser should I be using?](#q20)
@@ -37,11 +35,7 @@ IBM DevOps Services has a new name: IBM&reg; Bluemix DevOps Services. This chang
 
 ### What help resources are available? 
 
-You can find help resources for getting started and improving your skills on the [Docs page](/docs):
-* [Tutorials](/docs/all#tut)
-* [References](/docs/all#ref)
-* [Key resources](/docs#key-resources)
-* [Resources by topic](/docs#topics)
+You can find help resources for getting started and improving your skills on the [Docs page](/docs).
 
 <a name="rtcgit"></a>
 
@@ -83,17 +77,6 @@ Yes it is. You can plan, define requirements, track tasks, and collaborate on an
 
 We love feedback. If you have a suggestion, [share your idea in the IBM Bluemix DevOps Services project](https://hub.jazz.net/ccm01/web/projects/idsorg | Bluemix DevOps Services#action=com.ibm.team.dashboard.viewDashboard).
 If you need help, [ask a question in the IBM Bluemix DevOps Services Forum](https://developer.ibm.com/answers/smartspace/devops-services/).
-
-<a name="ibmer"></a>
-
-### I'm an IBMer. What do I need to know about starting a Bluemix DevOps Services project? 
-
-In the spirit of open development, we encourage both public and private
-projects and ask that you remember these guidelines:
-
-- Never add IBM Confidential information to a Bluemix DevOps Services project. 
-- Before you get involved in projects that have open source code, [consult the Open Source Participation Guidelines](https://w3-connections.ibm.com/wikis/home?lang=en-us#!/wiki/W783ba5fa6c1a_40b3_945a_07d0eb0115bd).
-- When you participate in projects on your own time, [follow the Business Conduct Guidelines](http://w3-03.ibm.com/ibm/documents/corpdocweb.nsf/ContentDocsByTitle/Business+Conduct+Guidelines). In particular, see section 5.0 On Your Own Time. Discuss it  with your manager, and involve IBM legal as needed.
 
 <a name="q18"></a>
 

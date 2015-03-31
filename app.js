@@ -67,6 +67,10 @@ app.get('/docs/trackplan/trackplanfg/*', function(req, res) {
 	res.redirect('/docs/reference/trackplan');
 });
 
+app.get('/tutorials/gitweb', function(req, res) {
+	res.redirect('/docs/reference/git');
+});
+
 _.each(['/docs'],
        function(i) {
 		app.get(i, routes.docs)

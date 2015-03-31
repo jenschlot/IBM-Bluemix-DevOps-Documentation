@@ -322,10 +322,7 @@
 					"title": "Develop with Bluemix Live Sync and Node.js",
 					"uri_prefix": "/tutorials/livesync"
 				},
-				{
-					"title": "Develop with Git in the Web IDE",
-					"uri_prefix": "/tutorials/gitweb"
-				},
+
 				{
 					"title": "Develop with Node.js in the Web IDE",
 					"uri_prefix": "/tutorials/jazzweb"
@@ -341,40 +338,33 @@
 			]
 		},
 		{
-			"title": "Tasks",
+			"title": "How to",
 			"icon": "docs-tasks.svg",
 			"uri_prefix": "/docs/all#ref",
 			"children": [
 				{
-					"title": "Starting a project",
+					"title": "Start a project",
 					"uri_prefix": "/docs/reference/startproject"
 				},
 				{
-					"title": "Setting up local clients to work with Git ",
-					"uri_prefix": "/docs/reference/gitclient"
-				},
-				{
-					"title": "Setting up local Eclipse clients to work with Jazz SCM ",
-					"uri_prefix": "/docs/reference/jazz_scm_client"
-				},
-				{
-					"title": "Administering a project",
+					"title": "Administer a project",
 					"uri_prefix": "/docs/reference/projectadmin"
 				},
 				{
-					"title": "Configuring billing for Bluemix",
+					"title": "Configure billing for Bluemix",
 					"uri_prefix": "/docs/reference/billing"
-				}
-			]
-		},
-		{
-			"title": "Reference",
-			"icon": "docs-reference.svg",
-			"uri_prefix": "/docs/all#ref",
-			"children": [
+				},
 				{
-					"title": "Git",
+					"title": "Control source with Git",
 					"uri_prefix": "/docs/reference/git"
+				},
+				{
+					"title": "Set up local clients to work with Git ",
+					"uri_prefix": "/docs/reference/gitclient"
+				},
+				{
+					"title": "Set up local Eclipse clients to work with Jazz SCM ",
+					"uri_prefix": "/docs/reference/jazz_scm_client"
 				},
 				{
 					"title": "Build & Deploy",
@@ -450,40 +440,48 @@
 			]
 		},
 		{
-			"title": "Articles",
+			"title": "Resources by type",
 			"icon": "docs-articles.svg",
+			"uri_prefix": "/docs/all#ref",
+			"children": [
+				
+		   {
+			"title": "Articles",
 			"uri_prefix": "/docs/all#articles"
-		},
-		{
+	       },
+           {
 			"title": "Blogs",
-			"icon": "docs-blogs.svg",
 			"uri_prefix": "/docs/all#blogs"
-		},
-		{
+		   },
+		   {
 			"title": "Samples",
-			"icon": "docs-samples.svg",
 			"uri_prefix": "/docs/all#samples"
-		},
-		{
+		   },
+		   {
 			"title": "Videos",
-			"icon": "docs-videos.svg",
 			"uri_prefix": "/docs/all#videos"
-		},
-		{
+		   },
+		   {
 			"title": "Workshops",
-			"icon": "docs-workshops.svg",
 			"uri_prefix": "/docs/all#workshops"
-		},
-		{
+			}
+        ]
+	 },
+     {
 			"title": "Glossary",
 			"icon": "docs-glossary.png",
 			"uri_prefix": "/docs/glossary"
-		},
-		{
+	 },
+     {
 			"title": "Support",
 			"icon": "docs-support.png",
 			"uri_prefix": "/support"
-		}
-	]
+	 },
+	 {
+			"title": "Bluemix Docs site",
+			"icon": "docs-general.svg",
+			"uri_prefix": "https://www.ng.bluemix.net/docs/"
+	 }
+  ]
 
 }
