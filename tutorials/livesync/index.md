@@ -32,9 +32,9 @@ In this tutorial, you deploy a Node.js app and then update it by using IBM&reg; 
 ---
 <a name='prereq'></a>
 ##Before you begin 
-[Download and install the Bluemix Live Sync command-line interface for Windows][1].
+Download and install the Bluemix Live Sync command-line interface for [Windows][1] or for [Mac OS X](https://jazz.net/pub/bluemixlive/blive_setup.pkg).
 
-**Important:** The Live Sync command-line interface is available only for Windows 7 and 8. More platforms are coming soon. [Learn more about the Live Sync command-line interface][16].
+**Important:** The Live Sync command-line interface is available only for Windows 7 and 8 and Mac OS X. More platforms are coming soon. [Learn more about the Live Sync command-line interface][16].
 
 ---
 <a name='create'></a>
@@ -117,7 +117,7 @@ You edited the project in the Web IDE and previewed the result of your changes w
 <a name='edit_local'></a>
 ##Edit the app locally by using Bluemix Live Sync
 
-Live Sync isn't just available for work done in the Web IDE. You can also make changes on your local environment and see them previewed on Bluemix by using the Live Sync command-line tool, "bl," to synchronize the desktop with your project workspace. Before you follow the next steps, be sure to [download and install the Live Sync command-line interface][1].
+Live Sync isn't just available for work done in the Web IDE. You can also make changes on your local environment and see them previewed on Bluemix by using the Live Sync command-line tool, "bl," to synchronize the desktop with your project workspace. Before you follow the next steps, be sure to download and install the Live Sync command-line interface for [Windows][1] or for [Mac OS X](https://jazz.net/pub/bluemixlive/blive_setup.pkg)..
 
 
 <a name='edit_local_download'></a>
