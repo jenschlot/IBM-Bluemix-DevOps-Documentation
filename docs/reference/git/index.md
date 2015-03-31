@@ -17,11 +17,12 @@ No matter where you code, you can use this quick reference to do common tasks.
 ##[Branches](#branches)
 * [Create a local branch](#create_a_local_branch)
 * [Work on a local branch](#start_working_on_a_local_branch)
-* [Delete a local branch](#delete_a_local_branch)
 * [Update a local branch with changes from the remote branch](#update_a_local_branch_with_changes_from_the_remote_branch)
+* [Delete a local branch](#delete_a_local_branch)
 
 ##[Commits](#commits)
 * [Commit files and push to the remote branch](#commit_files_to_the_remote_branch)
+* [Commit files from a branch and push to the master branch](#commit_files_to_the_master_branch)
 * [Link a commit to a work item](#link_commit)
 * [View the commit history](#view_the_commit_history)
 * [Compare changes that a commit introduced](#compare_changes_that_a_commit_introduced)
@@ -138,6 +139,21 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 
 2. Type `git checkout <branchname>` and press Enter.
 
+
+---
+<a name="update_a_local_branch_with_changes_from_the_remote_branch"></a>
+### Update a local branch to include changes from the remote branch
+
+####Bluemix DevOps Services Web IDE
+1. Click **SYNC**.
+
+1. If you encounter conflicts, [resolve them](#resolve_a_rebase_conflict).
+
+####Git terminal
+1. Type `git pull` and press Enter.
+
+1. Enter your IBM id and password.
+
 ---
 <a name="delete_a_local_branch"></a>
 ### Delete a local branch
@@ -154,19 +170,6 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 ####Git terminal
 1. Type `git branch -d <branchname>` and press Enter.
 
----
-<a name="update_a_local_branch_with_changes_from_the_remote_branch"></a>
-### Update a local branch to include changes from the remote branch
-
-####Bluemix DevOps Services Web IDE
-1. Click **SYNC**.
-
-1. If you encounter conflicts, [resolve them](#resolve_a_rebase_conflict).
-
-####Git terminal
-1. Type `git pull` and press Enter.
-
-1. Enter your IBM id and password.
 
 ---
 <a name="commits"></a>
@@ -195,6 +198,24 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 **Tip**: In the commit message, describe your changes well.
 
 4. Type `git push` and press Enter.
+
+
+---
+<a name="commit_files_to_the_master_branch"></a>
+### Commit files from a branch and push to the master branch
+
+#### Bluemix DevOps Services Web IDE
+
+1. Click the **Reference** menu.
+
+1. Expand **Local** and in the master row, click the **Checkout** icon.
+
+1. Click the **Reference** menu again.
+
+1. Expand **Local** and click the branch name.
+
+1. Click the **Merge** icon. The changes are merged from the branch into the master branch.
+
 
 ---
 <a name="link_commit"></a>
