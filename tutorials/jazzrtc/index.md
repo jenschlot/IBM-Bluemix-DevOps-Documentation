@@ -1,6 +1,6 @@
 #Developing Bluemix apps in Java with Eclipse and Bluemix DevOps Services
 
-Last modified: 24 March 2015
+Last modified: 31 March 2015
 
 Time: 30 minutes
 
@@ -41,7 +41,7 @@ Follow the steps in this tutorial to develop a Java&trade; application by using 
 <a name='fork_app'></a>
 ##Fork a sample project
 
-To quickly get started developing in Java, you fork a sample project named WordCounter. WordCounter uses Jazz&trade; source control management (SCM) and contains a manifest for deploying to Bluemix. You can load the project directly in the Rational Team Concert client for Eclipse. To explore the project before you fork it,  [see the WordCounter project page](https://hub.jazz.net/project/pskhadke/WordCounter/overview).
+To quickly get started developing in Java, you fork a sample project named WordCounter. WordCounter uses Jazz&trade; source control management (SCM) and contains a manifest for deploying to Bluemix. You can load the project directly in the Rational Team Concert client for Eclipse. To explore the project before you fork it,  [see the WordCounter project page](https://hub.jazz.net/project/ibmdevopsservices/WordCounter/overview).
 
 DevOps Services also supports Git projects. For more information, [see Getting Started with Bluemix and Bluemix DevOps Services using Java](/tutorials/jazzeditorjava).
 

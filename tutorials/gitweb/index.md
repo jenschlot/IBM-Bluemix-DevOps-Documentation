@@ -1,6 +1,6 @@
 #Developing with Git in the Bluemix DevOps Services Web IDE
 
-Last modified: 24 March 2015
+Last modified: 31 March 2015
 
 Time estimate: 30 minutes
 
@@ -43,7 +43,7 @@ You complete this tutorial by copying, or forking, a project. Then, you modify t
 
 
 
-<a target="_blank" href="https://bluemix.net/deploy?repository=https://hub.jazz.net/git/jlmarech/YummyRation"><img src="images/bigButton.png" alt="Deploy to Bluemix"></a>
+<a target="_blank" href="https://bluemix.net/deploy?repository=https://hub.jazz.net/git/ibmdevopsservices/YummyRation"><img src="images/bigButton.png" alt="Deploy to Bluemix"></a>
 
 After the project is forked and the deployment completes, click **EDIT CODE** to continue.
 
