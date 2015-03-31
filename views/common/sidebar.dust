@@ -1,6 +1,7 @@
-<script type="text/javascript" src="/tutorials/javascript/sidebar.js"></script>
+
 <div class="nav mbs mts">
 {#sidebarLinks}
 	{>"common/sidebar_element"/}
 {/sidebarLinks}
 </div>
+<script type="text/javascript" src="/tutorials/javascript/sidebar.js"></script>

@@ -1,5 +1,5 @@
 
-$(document).ready(function() {
+// $(document).ready(function() { // Jazzhub Tutorials: Work item 37770
 	var $linksWithChildren = $(".sidebar-container .item.has-children");
 	$linksWithChildren.children('.item.selected').siblings().show();
 	resizePgOnSidebarExpandCollapse();
@@ -12,7 +12,7 @@ $(document).ready(function() {
 		});
 		event.preventDefault();
 	});
-});
+// });
 
 function resizePgOnSidebarExpandCollapse() {
 	$.getScript("/tutorials/javascript/pageResize.js", function() {
