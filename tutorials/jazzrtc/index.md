@@ -1,5 +1,6 @@
 #Developing Bluemix apps in Java with Eclipse and Bluemix DevOps Services
 
+
 Last modified: 31 March 2015
 
 Time: 30 minutes
@@ -17,6 +18,20 @@ Follow the steps in this tutorial to develop a Java&trade; application by using 
 * [Fix the bug](#fix_bug)
 * [Summary](#summary)
 
+
+---
+
+<a name='objectives'></a>
+##Learning objectives
+
+* Create your own version of a DevOps Services project by forking it to your space.
+* Create build and deployment stages by using the Build & Deploy feature.
+* Open the project in Rational Team Concert.
+* Make a code update and push it to the project repository by using Rational Team Concert.
+* Verify automatic builds.
+* Make a code update that causes a build failure to see how the build results look.
+
+
 ---
 <a name='objectives'></a>
 ##Learning objectives
@@ -30,20 +45,20 @@ Follow the steps in this tutorial to develop a Java&trade; application by using 
 
 ---
 
+
 <a name='before_begin'></a>
 ##Before you begin
 
-1. Make sure that your IBM id is registered with Bluemix. 
-2. Log in to DevOps Services by using your IBM id.
+
+Before completing this tutorial, you must [register with DevOps Services by creating an IBM ID, creating an alias, and registering with Bluemix](https://hub.jazz.net/register).
 
 ---
 
 <a name='fork_app'></a>
 ##Fork a sample project
 
-To quickly get started developing in Java, you fork a sample project named WordCounter. WordCounter uses Jazz&trade; source control management (SCM) and contains a manifest for deploying to Bluemix. You can load the project directly in the Rational Team Concert client for Eclipse. To explore the project before you fork it,  [see the WordCounter project page](https://hub.jazz.net/project/ibmdevopsservices/WordCounter/overview).
+To quickly get started developing in Java, you fork a sample project named WordCounter. WordCounter uses Jazz&trade; source control management (SCM) and contains a manifest for deploying to Bluemix. You can load the project directly in the Rational Team Concert client for Eclipse. To explore the project before you fork it,  [see the WordCounter project page](https://hub.jazz.net/project/pskhadke/WordCounter/overview).
 
-DevOps Services also supports Git projects. For more information, [see Getting Started with Bluemix and Bluemix DevOps Services using Java](/tutorials/jazzeditorjava).
 
 On the WordCounter project Overview page, click **FORK PROJECT**. 
 ![Click Fork Project](/tutorials/jazzrtc/images/click_fork_project.png "Click Fork Project")
@@ -61,9 +76,9 @@ You're ready to build and deploy.
 <a name='deploy_app'></a>
 ##Deploy your app
 
+**Note**: When you build and deploy, your Bluemix account might be charged. For more information, [see the Bluemix Pricing page](https://bluemix.net/#/pricing).
+
 1. Click **BUILD & DEPLOY**. 
-  * When you build and deploy, your Bluemix account might be charged. For more information, [see the Bluemix Pricing page](https://bluemix.net/#/pricing).
-To track charges, after you deploy your first build, add the Delivery Pipeline service to your Bluemix space.
 
 3. On the Pipeline page, click **ADD STAGE**. The Stage Configuration page opens.
 ![Click Add A Builder](/tutorials/jazzrtc/images/add_builder.png "Click add a builder")
@@ -72,8 +87,8 @@ To track charges, after you deploy your first build, add the Delivery Pipeline s
     1. Click the default **MyStage** name and change the name of this stage to `Build`. 
     2. On the **INPUT** tab, use the default settings. Be sure to enter the password for your IBM id where indicated.  
 	3. On the **JOBS** tab, click **ADD JOB**. Select **Build** and the select the **Ant** builder type.   
-    4. In the **Working Directory** field, type the name of the folder that contains your code; for example, `WordCounter`. When the project is loaded in the Rational Team Concert client, this folder maps to an Eclipse project automatically.
-    5. In the **Build Archive Directory** field, type the name of the directory where the build output files are archived as part of the build result.
+    4. In the **Working Directory** field, type the name of the folder that contains your code; which in this case is `WordCounter`. When the project is loaded in the Rational Team Concert client, this folder maps to an Eclipse project automatically.
+    5. In the **Build Archive Directory** field, type the name of the directory where the build output files are archived as part of the build result; for example, `WordCounterArchive`.
     6. Select the **Enable unit tests** check box so that you can run the test cases during a build.
     7. Click **Save**.
 ![Add Builder](/tutorials/jazzrtc/images/configure_builder.png "Add Builder")
@@ -85,9 +100,9 @@ To track charges, after you deploy your first build, add the Delivery Pipeline s
   1. Click the default **MyStage** name and change the name of this stage to `Deploy to dev`. 
   2. On the **INPUT** tab, use the default settings.
   3. On the **JOBS** tab, click **ADD JOB** and then select **Deploy**. This job will use the settings in the `manifest.yml` file, which is included as part of the sample project. You can use all of the values as provided, except for the hostname. The hostname is used to define your app's URL and must be unique for each app that is deployed on Bluemix.
-  4. Override the host with the `-n` option in the cf push command, as shown in the following image.
-    * **Hint:** Use a combination of your username and the date or time to ensure that your route is unique.
-  5. Click **SAVE**. 
+      4. Override the hostname with the `-n` option in the cf push command, as shown in the following image.
+     **Hint:** Use a combination of your username and the date or time to ensure that your route is unique.
+  5. Click **SAVE**.
 ![Add Deployer](/tutorials/jazzrtc/images/configure_deployer.png "Add Deployer")
 
 9. At the top of the Build stage, click the **Play** icon to build and deploy your project for the first time. The build process takes a couple of minutes. When you see a green circle, the app is live. 
@@ -100,7 +115,7 @@ To track charges, after you deploy your first build, add the Delivery Pipeline s
 <a name='add_pipeline'></a>
 ##Add the Delivery Pipeline service
 
-Add the Delivery Pipeline service to the app so that you can use the Build & Deploy feature later.  
+To track charges, after you deploy your first build, add the Delivery Pipeline service to your Bluemix space.  
 
 1. Click the running instance of you app to view it in Bluemix. If prompted, enter your IBM id and password.
 ![Bluemix Instance](/tutorials/jazzrtc/images/running_instance.png "Bluemix Instance")
@@ -125,7 +140,7 @@ From the Rational Team Concert client for Eclipse, connect to your running app.
 2. From this page, get the Jazz repository information. 
 ![Team Invitation](/tutorials/jazzrtc/images/team_invite.png "Team Invitation")
 
-3. In the Rational Team Concert client for Eclipse, connect to your project and load the code. For detailed instructions, [see Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access Bluemix DevOps Services](/tutorials/clients#working_with_a_jazz_scm_project).				
+3. In the Rational Team Concert client for Eclipse, connect to your project and load the code. For detailed instructions, [see Setting up local Eclipse clients to work with Jazz source control](/docs/reference/jazz_scm_client).				
 
 ---
 <a name='first_change'></a>

@@ -1,17 +1,17 @@
 # Get started with Bluemix DevOps Services
 
-Last modified: 24 March 2015
+Last modified: 31 March 2015
 
 Time: 60 minutes 
 
 
 * [Learning objectives](#objectives)
 * [Before you begin](#prereq)
-* [Fork a sample project](#fork)
+* [Explore and clone the sample project](#fork)
 * [Plan a change to your project](#plan_change)
 * [Modify your project's code](#modify_code)
 * [Push your change to the project repository](#push_changes)
-* [Configure builds and deployments](#build_deploy)
+* [Understand builds and deployments](#build_deploy)
 * [Deploy the app and verify your change](#deploy_app)
 * [Complete the work item](#work_item)
 * [Summary](#summary)
@@ -21,7 +21,7 @@ Time: 60 minutes
 <a name='objectives'></a>
 ##Learning objectives
 
-+ Create your own version of an IBM® Bluemix™ DevOps Services project by forking it to your space.
++ Create your own version of an IBM® Bluemix™ DevOps Services project by cloning it in your space.
 + Create a work item to plan updates to your project by using the Track & Plan feature.
 + Make a code update and push it to the project repository by using the Web IDE.
 + Create build and deployment jobs by using the Build & Deploy feature.
@@ -31,23 +31,23 @@ Time: 60 minutes
 <a name='prereq'></a>
 ## Before you begin
 
-To complete this tutorial, you need an [IBM id][30] that is registered with DevOps Services. Also, be sure to [register for Bluemix][32].
+Before completing this tutorial, you must [register with DevOps Services by creating an IBM ID, creating an alias, and registering with Bluemix](https://hub.jazz.net/register).
 
 ---
 <a name='fork'></a>
-## Fork a sample project
+## Explore and clone the sample project
 
-You start with the sample project, [Sentiment Analysis App][2]. This Node.js app uses a Git repository, and includes a Grunt build file.
+Start by [exploring the live version of the sample project you will work with][27]. The app analyzes Twitter users' collective sentiment about a search phrase. 
 
-Before you start, [explore the live version of the sample project][27]. The app analyzes Twitter users' collective sentiment about a search phrase. 
+Next, explore the contents of the  [Sentiment Analysis project][2]. This Node.js app uses a Git repository, and includes a Grunt build file.
 
-After you explore the project, click the button below to create your own copy of it by forking and deploying it:
+After you are familiar with the project, click the button below to create your own copy of it by cloning and deploying it:
 
 
 
 <a target="_blank" href="https://bluemix.net/deploy?repository=https://hub.jazz.net/git/ibmdevopsservices/Sentiment.Analysis.App"><img src="images/bigButton.png" alt="Deploy to Bluemix"></a>
 
-After the project is forked and the deployment completes, click **EDIT CODE** to continue.
+After the project is cloned and the deployment is complete, click **EDIT CODE** to continue.
 
 
 ---
@@ -119,58 +119,59 @@ You're almost done. Now that your updated code is in your remote repository, you
 
 ---
 <a name='build_deploy'></a>
-## Configure builds and deployments
+## Understand builds and deployments
 
-The sample project uses JSHint validation to check its code for errors. For that to work, you must configure a stage that contains a build job that uses Grunt.
+When you clone a project by clicking the **Deploy to Bluemix** button, the Build & Deploy configuration is created for your project automatically. In this section, you will explore how the preconfigured stages work.
 
-**Important:** When you use the Build & Deploy feature with Bluemix, you can generate charges to your Bluemix account. However, you can complete this tutorial for free. If you see messages about billing and Bluemix, you can ignore them safely. For more information about Bluemix, DevOps Services, and charges, [see Configure Bluemix billing for Bluemix DevOps Services][39].
+The Delivery Pipeline configuration for your Sentiment Analysis app has two stages: a build stage and a deploy stage. These stages form a pipeline. The build stage runs a build job on the included `Gruntfile.js` to validate your code. Then, the deploy stage runs a deploy job to deploy your code to Bluemix.
+
+**Important:** When you use the Build & Deploy feature with Bluemix, you can generate charges to your Bluemix account. However, you can complete this tutorial for free because a project is granted 60 minutes of free build time per month. For more information about Bluemix, DevOps Services, and charges, [see Configure Bluemix billing for Bluemix DevOps Services][39].
 
 1. On the top navigation bar, click **BUILD & DEPLOY**. 
-1. Delete the existing configuration. 
 
-  **Note**: When you fork a project by clicking the **Deploy to Bluemix** button, the configuration is created for your project automatically. Later, you re-create the stages. If you fork a project without clicking the **Deploy to Bluemix** button, the configuration is not created automatically.
+2. On the Build Stage tile, click the gear icon and **Configure stage**.  
   
-  a. On the rightmost tile, the Deploy stage, click the gear icon.  
+  a. Click the **INPUT** tab and note the following items:
   
-  b. Click **Delete Stage** and confirm the deletion.
+    * The input for the build is the master branch of the SCM repository. 
+    * The Build Stage runs automatically every time a change is pushed to the repository. 
   
-  c. On the remaining stage tile, the Build stage, click the gear icon. 
+  b. Click the **JOBS** tab and note the following items:
   
-  d. Click **Delete Stage** and confirm the deletion.  
-
-2. Click **ADD STAGE**. 
+    * The builder type is **Grunt**. The sample project uses JSHint validation to check its code for errors. For that to work, the repository must contain a Grunt build file and the build job must use Grunt. Every time a change is pushed to its repository, the project uses JSHint to make sure that the code is error-free.
+    * Since the `app.js` file is located in the root of the project, you do not have to specify a Working Directory or a Build Archive Directory.
+    * If the build does not complete successfully, the stage stops running and any later jobs do not run.
   
-  a. Click the name of the new stage. Change it from **MyStage** to `Build`. In the Input Settings section, make sure that this stage uses the project repository's master branch as input. 
-  
-  b. Click **JOBS**, and then click **ADD JOB**. Select **Build.**
-  
-  c. For the builder type, seelect **Grunt**. The sample project includes a build file that uses Grunt and JSHint to check the code for errors.
-  
-  d. Leave the other settings as they are, and then click **SAVE**.
+  c. Since you did not make any changes, click **DISCARD CHANGES** to return to the BUILD & DEPLOY page.
 
 ![A configured builder stage][8]
 
-When you build your project now, it uses Grunt. In addition, every time a change is pushed to its repository, the project uses JSHint to make sure that the code is error-free. 
 
-Next, you configure a stage that contains a deploy job. Deploy jobs deploy your project to Bluemix. You can have many deploy jobs in a project, but in this tutorial, you need only one:
+The next stage contains a deploy job. Deploy jobs deploy your project to Bluemix. You can have many deploy jobs in a project, but in this tutorial, you need only one:
 
-0. Click **ADD STAGE**:
-1. Click the name of the new stage. Change it from **MyStage** to 
-`Deploy to dev`. In the Input Settings section, make sure that this stage receives the output from the Build stage's build job. 
-2. Click **JOBS**, then **ADD JOB**. Select **Deploy.**
-3. Leave the settings as they are. Click **SAVE**.
+0. On the Deploy Stage tile, click the gear icon and **Configure stage**.
+
+  a. Click the **INPUT** tab and note the following items: 
+  
+     * The input for the build is the output from the Build stage. 
+     * The Deploy Stage runs automatically every time a the Build stage runs successfully. 
+ 
+  b. Click the **JOBS** tab and note the following items:
+  
+     * The app is set to deploy to your Bluemix organization and space.
+     * Bluemix is based on Cloud Foundry, so the deployment script uses the Cloud Foundry command-line interface command cf push to deploy your app. To learn more about configuring deployment scripts when using Cloud Foundry [see the Cloud Foundry documentation][29].
+
+  c. Since you did not make any changes, click **DISCARD CHANGES** to return to the BUILD & DEPLOY page.
 
 ![A configured deployer stage][9]
 
-You configured a stage to deploy your changes, and you even modified the deployment script. Bluemix is based on Cloud Foundry, so the deployment script uses the Cloud Foundry command-line interface command cf push to deploy your app. To learn more about configuring deployment scripts when using Cloud Foundry [see the Cloud Foundry documentation][29]. 
-
-By connecting your stages, you configured a fully functional Build & Deploy pipeline. By default, the changes that you push to the master branch will trigger new builds. Successful builds are deployed according to your deploy stage configuration. 
+With these connected stages, you have a fully functional Build & Deploy pipeline. By default, the changes that you push to the master branch will trigger new builds. Successful builds are deployed according to your deploy stage configuration. 
 
 ---
 <a name='deploy_app'></a>
 ## Deploy the app and verify your change
 
-It's time to see your work in action. Because you configured the pipeline after you changed the code, you need to start your project's first build.
+It's time to see the stages in action. You can start a build without waiting for changes to be pushed.
 
 1. On the Build stage tile, click the **Play** icon. The build is added to the queue, is run, and then is deployed to Bluemix.
 2. After the deployer status tile indicates that your app is running, click the URL that is under the app name. Make sure that your topic is in the input box.
@@ -185,8 +186,6 @@ When you're satisfied with your changes, close the task.
 ---
 <a name='work_item'></a>
 ## Complete the work item
-
-You have paperwork to do, but it's quick and painless. 
 
 1.	On the navigation bar at the top of the page, click **TRACK & PLAN**. 
 2.	In the IN PROGRESS lane, find the task that you created earlier.
@@ -204,7 +203,7 @@ Well done! The Track & Plan service keeps administrative overheard to a minimum 
 <a name='summary'></a>
 ## Summary
 
-In only a few minutes, you forked a Node.js app project, planned an update to the app, made the update, and deployed the updated app to Bluemix--all without leaving your browser. 
+In only a few minutes, you cloned a Node.js app project, planned an update to the app, made the update, and deployed the updated app to Bluemix--all without leaving your browser. 
 
 ---
 <a name='next_steps'></a>

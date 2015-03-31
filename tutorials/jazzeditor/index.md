@@ -1,10 +1,11 @@
 #Getting started with Bluemix and Bluemix DevOps Services using Node.js
 
-Last modified: 24 March 2015
+Last modified: 31 March 2015
 
 Time: 30 minutes
 
 * [Learning objectives](#objectives)
+* [Before you begin](#prereq)
 * [Create an app with IBM Bluemix](#create_bluemix_app)
 * [Set up Git integration and auto-deploy](#git_integration_and_autodeployment)
 * [Push changes to the Git repository](#push)
@@ -25,6 +26,13 @@ Time: 30 minutes
 * Preview and deploy your changes by using the Web IDE run bar.
 
 ---
+
+<a name='prereq'></a>
+##Before you begin
+
+Before completing this tutorial, you must [register with DevOps Services by creating an IBM ID, creating an alias, and registering with Bluemix](https://hub.jazz.net/register).
+
+---
  
 <a name='create_bluemix_app'></a>
 ##Create an app with IBM Bluemix
@@ -34,9 +42,7 @@ of app: mobile, smart devices, web, and big data. The Bluemix capabilities inclu
 app monitoring, and features from ecosystem partners and open source, 
 all through an as-a-service model in the cloud.
 
-Before you can use the Bluemix capabilities, [sign up for free](https://bluemix.net/).
-
-After you sign up, you can find helpful information on the Bluemix website:
+You can find helpful information on the Bluemix website:
 
 * [Getting Started with Bluemix](https://www.ng.bluemix.net/docs/#)
 * [Bluemix Overview](https://www.ng.bluemix.net/docs/#overview/overview.html#overview)
@@ -68,13 +74,12 @@ Now that your app is running, you can see and modify its code by using IBM® Blu
 You can work with your app's code in many ways. For example, with auto-deploy, you can modify the code that runs in your app by pushing your changes to a 
 Git repository. You can auto-deploy your code if you use the Build & Deploy capabilities of DevOps Services.
 
-1. To enable auto-deploy, go to the Bluemix overview for your app and 
-click **ADD GIT**. A Git repository is created and is populated with example code and a deployed app. 
+1. To enable auto-deploy, go to the Bluemix overview for your app and click **ADD GIT**. A Git repository is created and is populated with example code and a deployed app. 
 ![Add Git button](/tutorials/jazzeditor/images/bm-add-git-integration_NEW.png)
+
 You might be prompted to enter your password to verify that DevOps Services can act on your behalf. 
-![Bluemix DevOps Services sign in page](/tutorials/jazzeditor/images/jh-signin.png)
-**Important:** The first time that you access DevOps Services, you must create an alias that is linked to your IBM id. An alias is a unique, publicly visible short name that is used in Git repository paths, the Track & Plan feature, and in desktop and command line clients, including the URL for the repository that is created for you. For this one-time process, follow the instructions in the window.
- 
+
+
 2. Make sure that the **Populate the repository with the starter application package and enable build and deploy** check box is selected.
 ![Create Git repo dialog](/tutorials/jazzeditor/images/bm-create-git-repo_NEW.png)
 You created a Git repository, populated it with the example code, and deployed the app.

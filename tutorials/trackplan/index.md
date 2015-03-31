@@ -19,6 +19,7 @@ To try the Track & Plan feature, complete this tutorial. You'll start a simple, 
 <!--- For a quick overview of features and functions, [explore the Track & Plan feature][9]. -->
 
 * [Learning objectives](#objectives)
+* [Before you begin](#prereq)
 * [Set up a DevOps Services project](#set_up_an_IBM_devops_services_project)
 * [Create your first work items](#create_your_first_work_items)
 * [Create parent and child work items from the backlog](#create_work_items_in_the_backlog)
@@ -38,6 +39,13 @@ To try the Track & Plan feature, complete this tutorial. You'll start a simple, 
 * Manage work in the backlog against the current work.
 * Plan sprints.
 * Manage the current work.
+
+---
+
+<a name='prereq'></a>
+ ##Before you begin
+ 
+Before completing this tutorial, you must [register with DevOps Services by creating an IBM ID, creating an alias, and registering with Bluemix](https://hub.jazz.net/register).
 
 ---
 <a name='set_up_an_IBM_devops_services_project'></a>

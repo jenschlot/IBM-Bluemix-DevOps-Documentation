@@ -9,7 +9,7 @@ If you want to learn more about managing your Git repository, an open source cod
 
  * [Learning objectives](#objectives)
  * [Before you begin](#before_you_begin)
- * [Fork a project](#fork_a_project)
+ * [Explore and clone the sample project](#fork_a_project)
  * [Create a branch](#create_a_branch)
  * [Deploy a new Bluemix app](#deploy_a_new_bluemix_app)
  * [Change and test the code](#change_and_test_the_code)
@@ -33,19 +33,25 @@ If you want to learn more about managing your Git repository, an open source cod
 ---
 <a name='before_you_begin'></a>
 ##Before you begin
-  * [Register for DevOps Services](https://hub.jazz.net)
-  * [Register for a free trial of IBM&reg; Bluemix&trade;](https://ace.ng.bluemix.net/)
+
+Before completing this tutorial, you must [register with DevOps Services by creating an IBM ID, creating an alias, and registering with Bluemix](https://hub.jazz.net/register).
 
 ---
 <a name='fork_a_project'></a>
-##Fork a project
-You complete this tutorial by copying, or forking, a project. Then, you modify the new project. In this case, click the button below to fork the YummyRation project, which contains the Node.js code for a catering website:
+##Explore and clone the sample project
 
+
+Start by [exploring the live version of the sample project you will work with](http://yummyration.mybluemix.net/). The app is a website for a catering service. 
+
+Next, explore the contents of the  [Yummy Ration project](https://hub.jazz.net/project/jlmarech/YummyRation/overview). This Node.js app uses a Git repository, and includes a Grunt build file.
+
+After you are familiar with the project, click the button below to create your own copy of it by cloning and deploying it:
 
 
 <a target="_blank" href="https://bluemix.net/deploy?repository=https://hub.jazz.net/git/ibmdevopsservices/YummyRation"><img src="images/bigButton.png" alt="Deploy to Bluemix"></a>
 
-After the project is forked and the deployment completes, click **EDIT CODE** to continue.
+
+After the project is forked and the deployment is complete, click **EDIT CODE** to continue.
 
 ---
 <a name='create_a_branch'></a>

@@ -1,19 +1,19 @@
 #Develop a Bluemix app in Node.js using the Web IDE
 
-Last modified: 24 March 2015
+Last modified: 31 March 2015
 
 Time: 30 minutes
 
 In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an app in the cloud and deploy it to [IBM® Bluemix™][1].
 
 * [Learning objectives](#objectives)
-* [Fork a sample project](#fork)
-* [Build and deploy with the Delivery Pipeline](#deploy)
+* [Before you begin](#prereq)
+* [Explore and clone the sample project](#fork)
+* [Understand builds and deployments](#deploy)
 * [Edit the sample app](#edit)
+* [Deploy your workspace contents by using the Web IDE](#deploy_from_web_ide)
 * [Push changes to the repository](#push)
-* [The manifest file](#manifest)
-* [Deploy by using the Web IDE](#deploy_from_web_ide)
-* [Auto-deploy and manual deployment](#automatic_deployment)
+* [Verify changes](#automatic_deployment)
 * [Summary](#summary)
 
 
@@ -21,83 +21,89 @@ In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an app in 
 <a name='objectives'></a>
 ##Learning objectives
 
-* Create your own version of a DevOps Services project by forking it to your space.
+* Create your own version of a DevOps Services project by cloning it in your space.
 * Create build and deployment stages by using the Build & Deploy feature.
 * Make a code update and push it to the project repository by using the Web IDE.
 * Deploy the app by using the run bar in the Web IDE.
 
 ---
-<a name='fork'></a>
-##Fork a sample project
 
-Start with the sample project, [Sentiment Analysis App][2]. That app is a hosted Node.js Git project. You need your own copy of the project, which you can get by clicking the button below to fork the project:
+<a name='prereq'></a>
+##Before you begin
+
+Before completing this tutorial, you must [register with DevOps Services by creating an IBM ID, creating an alias, and registering with Bluemix](https://hub.jazz.net/register).
+
+---
+<a name='fork'></a>
+##Explore and clone the sample project
+
+Start by [exploring the live version of the sample project you will work with][27]. The app analyzes Twitter users' collective sentiment about a search phrase. 
+
+Next, explore the contents of the  [Sentiment Analysis project][2]. This Node.js app uses a Git repository, and includes a Grunt build file.
+
+After you are familiar with the project, click the button below to create your own copy of it by cloning and deploying it:
 
 <a target="_blank" href="https://bluemix.net/deploy?repository=https://hub.jazz.net/git/ibmdevopsservices/Sentiment.Analysis.App"><img src="images/bigButton.png" alt="Deploy to Bluemix"></a>
 
-After the project is forked and the deployment completes, click **EDIT CODE** to continue.
+After the project is cloned and the deployment is complete, click **EDIT CODE** to continue.
 
 ---
 
 <a name='deploy'></a>
-##Build and deploy with the Delivery Pipeline
-To make the most of DevOps Services and Bluemix, make sure that your Bluemix space has the Delivery Pipeline service. If needed, add the service to your Bluemix space by following these steps: [Getting started with Delivery Pipeline][26].
+## Understand builds and deployments
 
-When you configure your own project, you can create and customize as much as you want to. This sample, however, is designed to require minimal activity to get started: a pre-configured Grunt build file, `Gruntfile.js`, is in the root directory, so it is automatically found. This Grunt build file includes JSHint validation so that your project's code is checked automatically each time a build runs.
+When you clone a project by clicking the **Deploy to Bluemix** button, the Build & Deploy configuration is created for your project automatically. In this section, you will explore how the preconfigured stages work.
 
 The Delivery Pipeline configuration for your Sentiment Analysis app has two stages: a build stage and a deploy stage. These stages form a pipeline. The build stage runs a build job on the included `Gruntfile.js` to validate your code. Then, the deploy stage runs a deploy job to deploy your code to Bluemix.
 
+**Important:** When you use the Build & Deploy feature with Bluemix, you can generate charges to your Bluemix account. However, you can complete this tutorial for free because a project is granted 60 minutes of free build time per month. For more information about Bluemix, DevOps Services, and charges, [see Configure Bluemix billing for Bluemix DevOps Services](/docs/reference/billing/).
+
+
 1. On the top navigation bar, click **BUILD & DEPLOY**. 
-1. Delete the existing configuration. 
 
-  **Note**: When you fork a project by clicking the **Deploy to Bluemix** button, the configuration is created for your project automatically. Later, you re-create the stages. If you fork a project without clicking the **Deploy to Bluemix** button, the configuration is not created automatically.
+2. On the Build Stage tile, click the gear icon and **Configure stage**.  
   
-  a. On the rightmost tile, the Deploy stage, click the gear icon.  
+  a. Click the **INPUT** tab and note the following items:
   
-  b. Click **Delete Stage** and confirm the deletion.
+    * The input for the build is the master branch of the SCM repository. 
+    * The Build Stage runs automatically every time a change is pushed to the repository. 
   
-  c. On the remaining stage tile, the Build stage, click the gear icon. 
+  b. Click the **JOBS** tab and note the following items:
   
-  d. Click **Delete Stage** and confirm the deletion. 
- 
-2. Configure a stage to run a build job on code from your project's Git repository:
-
-  a. Click **ADD STAGE**. At the top of the Stage Configuration page, click the **MyStage** name and change it to `Build`.
-
-  b. Click **JOBS**. Click **ADD JOB**, and then select **Build**. 
-
-  c. On the Build Configuration page, select **Grunt** as the Builder Type. Leave the default settings as they are and click **SAVE**.
+    * The builder type is **Grunt**. The sample project uses JSHint validation to check its code for errors. For that to work, the repository must contain a Grunt build file and the build job must use Grunt. Every time a change is pushed to its repository, the project uses JSHint to make sure that the code is error-free.
+    * Since the `app.js` file is located in the root of the project, you do not have to specify a Working Directory or a Build Archive Directory.
+    
+    * If the build does not complete successfully, the stage stops running and any later jobs do not run.
+  
+  c. Since you did not make any changes, click **DISCARD CHANGES** to return to the BUILD & DEPLOY page.
 
 	![Configuring the Builder][8]
 
-3. Configure a stage to deploy the output from the Build stage to Bluemix:
+The next stage contains a deploy job. Deploy jobs deploy your project to Bluemix. You can have many deploy jobs in a project, but in this tutorial, you need only one:
 
-  a. Click **ADD STAGE**. At the top of the Stage Configuration page, click the **MyStage** name and change it to `Deploy to dev`.
+0. On the Deploy Stage tile, click the gear icon and **Configure stage**.
 
-	This stage immediately follows the Build stage, so its default input is from that stage’s build job. Because DevOps Services integrates with Bluemix and this sample project is simple, you can use the other default information to deploy the project, too.
-
-  b. Click **JOBS**. Click **ADD JOB**, and then select **Deploy**.
-
-4. Make sure that the project has a unique path by editing the first line of the Bluemix script: add the `-n` flag followed by a unique host name. A complete version of the command might look like this example:
+  a. Click the **INPUT** tab and note the following items: 
+  
+     * The input for the build is the output from the Build stage. 
+     * The Deploy Stage runs automatically every time a the Build stage runs successfully. 
  
-   `cf push "${CF_APP}" -n *mysaap*`
+  b. Click the **JOBS** tab and note the following items:
+  
+     * The app is set to deploy to your Bluemix organization and space.
+     * Bluemix is based on Cloud Foundry, so the deployment script uses the Cloud Foundry command-line interface command cf push to deploy your app. To learn more about configuring deployment scripts when using Cloud Foundry [see the Cloud Foundry documentation][29].
 
-	The configuration for the Deploy Stage might look like this example:
+  c. Since you did not make any changes, click **DISCARD CHANGES** to return to the BUILD & DEPLOY page.
 
-	![Configuring the Deployer][9]
+![Configuring the Deployer][9]
 
-	The manifest file that is in this sample app specifies a host name and does not require any services, so you do not need to add anything to the script.
-
-5. If the manifest file (`manifest.yml`) didn't specify a host or other parameter, you can define that information by adding cf commands to the Bluemix script. The cf command deploys apps to Cloud Foundry based platforms, such as Bluemix.  For more information, [see Getting Started with the cf CLI v6][24].
-
-6. Leave the other settings as they are and click **SAVE**. 
-
-7. On the Pipeline page, click the **Play** icon at the top of the Build stage.
+7. To test the configuration, on the Pipeline page, click the **Play** icon at the top of the Build Stage.
 
 	![Clicking Request Build on configured Pipeline][23]
 
 	Your project is queued to build. When the build is completed, your app is queued for deployment to Bluemix automatically. You can observe its status from this page and open the app when it is deployed.
 
-8. To open the app, click its URL on the Deploy to dev tile. If you want to see your app's Bluemix Dashboard, click its name:
+8. To open the app, click its URL on the Deploy Stage tile. If you want to see your app's Bluemix Dashboard, click its name:
 
 ![Ready to click to Bluemix from Pipeline][10]
 
@@ -105,8 +111,6 @@ You can manage the live app instance on the [Bluemix Dashboard][11]. From the Da
  
 
 ![Starting a Bluemix app][12]
-
-**Important:** Building and deploying apps by using Bluemix can result in charges to your Bluemix billing account. A project is granted 60 minutes of free build time per month, an amount that even the most dedicated tutorial enthusiasts are unlikely to accumulate. For more information about pricing for any service, [see the Bluemix Pricing page](https://bluemix.net/#/pricing).
 
 ---
 <a name='edit'></a>
@@ -125,6 +129,20 @@ You can now personalize the sample app in the DevOps Services web-based code edi
 4. If you want a fully functional version of the app, you must supply your own Twitter API keys. To sign up for API keys, [go to Twitter Application Management][27]. When you have the API keys, you can replace the keys that are in the tweeter variable, which starts at line 22. 
 
 5. When you're finished, save your work by pressing Ctrl+S (or Command+S on a Mac).
+
+---
+
+<a name='deploy_from_web_ide'></a>
+##Deploy your workspace contents by using the Web IDE
+
+While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the Web IDE workspace to Bluemix by clicking Play on the run bar. **Remember:** When you deploy by using the run bar, you deploy the current state of your code in the Web IDE. When you deploy by using the Build &amp; Deploy feature, you deploy the code that is checked into the repository.
+
+![The IDE Run bar][28]
+
+You can configure Web IDE deployment and the Delivery Pipeline service to use different app names. Then, you can use the Web IDE deployment for a personal test environment and the Delivery Pipeline deployment for a team integration environment. The Web IDE saves launch configurations; you can access them from the menu on the run bar. 
+
+Whether you are using command-line tools or the Web IDE, both methods are effective for rapid, solo development. You might prefer the added security of using auto-deploy so that you can control what is being pushed. Auto-deploy is available through the Delivery Pipeline service. By using auto-deploy, you know that the code that is running in the app matches a known state in the repository. In contrast, the Web IDE deploys whatever is in your working directory when you push.
+
 
 ---
 <a name='push'></a>
@@ -147,43 +165,11 @@ After you edit the `app.js` file, share the changed file with other members of y
 
 Any changes that are delivered to your project trigger a build. When a build is completed successfully, it is auto-deployed. If you click **BUILD &amp; DEPLOY** again, you'll see that your change started a new build that will be deployed when the build is finished.
 
----
-<a name='manifest'></a>
-##The manifest file
-
-When you deploy a DevOps Services project from the Web IDE, the project must have a `manifest.yml` file. This file contains important settings, such as the app instance name to use, the host machine, the services that the app uses, and more. The sample app in this tutorial already contains a manifest file.
-
-![An example manifest][17]
-
-
----
-<a name='deploy_from_web_ide'></a>
-##Deploy by using the Web IDE
-
-While you're working in the directory that contains your `manifest.yml file`, you can manually deploy whatever is in the Web IDE workspace to Bluemix by clicking Play on the run bar. **Remember:** When you deploy by using the run bar, you deploy the current state of your code in the Web IDE. When you deploy by using the Build &amp; Deploy feature, you deploy the code that is checked into the repository.
-
-![The IDE Run bar][28]
-
-You can configure Web IDE deployment and the Delivery Pipeline service to use different app names. Then, you can use the Web IDE deployment for a personal test environment and the Delivery Pipeline deployment for a team integration environment. The Web IDE saves launch configurations; you can access them from the menu on the run bar. 
-
-Whether you are using command-line tools or the Web IDE, both methods are effective for rapid, solo development. You might prefer the added security of using auto-deploy so that you can control what is being pushed. Auto-deploy is available through the Delivery Pipeline service. By using auto-deploy, you know that the code that is running in the app matches a known state in the repository. In contrast, the Web IDE deploys whatever is in your working directory when you push.
 
 ---
 <a name='automatic_deployment'></a>
-##Auto-deploy and manual deployment
+##Verify changes
 
-Builds are triggered when changes are delivered to a project. Successful builds are auto-deployed.
-
-To manually deploy a specific successful build:
-1. On the build history page, select a build.
-2. Drag the build to the box that is under a configured space. 
-
-OR
-
-1. On the build history page, Click **Deploy to**
-2. Select a stage with a deploy job from the menu. 
-
-![Deploying an app after expanding a completed build][22]
 
 When the app is deployed, try it by clicking its web URL:
 
@@ -223,3 +209,4 @@ You developed and deployed a Bluemix app by using the Web IDE.
 [26]: https://www.ng.bluemix.net/docs/#services/DeliveryPipeline/index.html#getstartwithCD
 [27]: https://dev.twitter.com/apps
 [28]: /tutorials/jazzweb/images/runbar_green.png
+[29]: http://docs.cloudfoundry.org/devguide/installcf/whats-new-v6.html#push

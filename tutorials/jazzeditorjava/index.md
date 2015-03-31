@@ -1,16 +1,16 @@
 #Getting Started with Bluemix and Bluemix DevOps Services using Java
 
-Last modified: 24 March 2015
+Last modified: 31 March 2015
 
 Time: 30 minutes
 
-
 * [Learning objectives](#objectives)
+* [Before you begin](#prereq)
 * [Create an app with IBM Bluemix](#create_bluemix_app)
 * [Push changes to the Git repository](#push)
   * [Edit files and push changes by using the DevOps Services Web IDE](#edit_and_deploy_with_web_ide)
   * [Push changes to the Git repository by using the command line](#push_to_git)
-* [Build and deploy by using DevOps Services](#build_and_deploy)
+* [Understand builds and deployments](#build_and_deploy)
 * [Summary](#summary)
 * [Next steps](#next_steps)
 
@@ -27,14 +27,18 @@ Time: 30 minutes
 
 ---
 
+<a name='prereq'></a>
+##Before you begin
+
+Before completing this tutorial, you must [register with DevOps Services by creating an IBM ID, creating an alias, and registering with Bluemix](https://hub.jazz.net/register).
+
+---
 <a name='create_bluemix_app'></a>
 ##Create an app with IBM Bluemix
 
 IBM® Bluemix™ is an open-standard, cloud-based platform for building, managing and running apps of all types, including web, mobile, big data, smart devices. The Bluemix capabilities include Java™, mobile back-end development, app monitoring, and capabilities from ecosystem partners and open source, all through an as-a-service model in the cloud.
 
-If you aren't registered, [sign up for free on the Bluemix home page][1]. After you register, [learn more about Bluemix at IBM Bluemix Docs][53]. 
-
-If you prefer to try things rather than read about them, try this tutorial. You can set up and run a sample app in minutes.
+[Learn more about Bluemix at IBM Bluemix Docs][53]. If you prefer to try things rather than read about them, try this tutorial. You can set up and run a sample app in minutes.
 
 [Sign in to Bluemix][1] to start working!
 
@@ -44,15 +48,17 @@ The dashboard shows an overview of the active Bluemix space for your organizatio
 
 If you create other organizations or spaces in Bluemix, be sure to use the default selections as you follow the tutorial. 
 
-Click the **CREATE AN APP** tile, then select **WEB** for the type of app you are creating. On the next page, select **Liberty for Java** to start with, and then click **CONTINUE**: 
+1. Click the **CREATE AN APP** tile.
+2. Select **WEB** for the type of app you are creating. 
+2. On the next page, select **Liberty for Java** to start with, and then click **CONTINUE**. 
 
 ![Bluemix Java Web Starter][7]
 
-Type a name for your app, such as `Liberty for Java Starter app tutorial` with your initials to make it unique, and click **Finish**.
+4. Type a name for your app, such as `Liberty for Java Starter app tutorial` with your initials to make it unique, and click **Finish**.
 
 ![Naming a Bluemix app][54]
 
-In a few moments, you'll have a Java web server app instance running on Bluemix. Click **Overview** to view information about your app:
+In a few moments, when the app finishes staging, you'll have a Java web server app instance running on Bluemix. Click **Overview** to view information about your app:
 
 ![The new app's Bluemix dashboard][55]
 
@@ -70,8 +76,6 @@ On your app’s Overview page, click **ADD GIT**.
 
 You might be prompted to enter your password because DevOps Services must verify that it can act on your behalf. 
 
-**Note:** The first time that you access IBM DevOps Services, you must create an alias that is linked to your IBM id. An alias is a unique, publicly visible short name that is used in Git repository paths, Track & Plan, and desktop and command line clients, including the URL for the repository that is created for you. For this one-time process, follow the instructions in the window.
-
 Make sure you check the option **Populate the repository with the starter application package and enable build and deploy**. Click **CONTINUE**, then **CLOSE**. 
 
 ![Create Git repo dialog][13]
@@ -82,10 +86,10 @@ Before you start editing your code in DevOps Services, enable the IBM Continuous
 
 1.	On the app’s Overview page, click **ADD A SERVICE OR API**.
 2.	Select the DevOps category, then click **Delivery Pipeline**. 
-3.	Use the default settings for Space and the Selected plan.
+3.	Select a Space and use the default settings for the Selected plan.
 4.	Click **CREATE**.
 
-The Delivery Pipeline service is added to your Bluemix space. It will be ready when you need it later.
+The Delivery Pipeline service is added to your Bluemix space. You can view a list of the apps that include the service. Click **Back to Dashboard** and click the app tile for the app you just created.
 
 Next, start using DevOps Services. Click **EDIT CODE**.
 
@@ -198,9 +202,9 @@ If you want to configure desktop clients to work with your Git repository, [see 
 
 ---
 <a name='build_and_deploy'></a>
-##Build and deploy by using DevOps Services
+##Understand builds and deployments
 
-In the **BUILD & DEPLOY** page, run your build by clicking the **Play** icon in the Build stage tile. 
+In the **BUILD & DEPLOY** page, run your build by clicking the **Play** icon in the Build Stage tile. 
 
 ![Play button][57]
 
@@ -209,47 +213,63 @@ When the app is running, it is available at the URL shown on the Deploy stage ti
 
 ![Bluemix DevOps Services autoconfigured Pipeline][17]
 
-Your sample project is configured to automatically build and deploy the Liberty for Java sample app, but you can make changes to the configuration or delete it to set it up from scratch.
+Your sample project is configured to automatically build and deploy the Liberty for Java sample app. You can explore the preconfigured stages or make changes to the configurations.
 
-![A preconfigured Pipeline][52]
+### Exploring the preconfigured stages
 
-To see how to set up the Build & Deploy feature, also known as Pipeline, undo the configuration:
+The Delivery Pipeline configuration for your app has two stages: a build stage and a deploy stage. These stages form a pipeline. The build stage runs a build job on the included `build.xml` . Then, the deploy stage runs a deploy job to deploy your code to Bluemix.
+
+**Important:** When you use the Build & Deploy feature with Bluemix, you can generate charges to your Bluemix account. However, you can complete this tutorial for free because a project is granted 60 minutes of free build time per month. For more information about Bluemix, DevOps Services, and charges, [see Configure Bluemix billing for Bluemix DevOps Services][58].
+
+
+Review the build stage:
+
+1. On the top navigation bar, click **BUILD & DEPLOY**. 
+
+2. On the Build Stage tile, click the gear icon and **Configure stage**.  
   
-  1. On the Deploy Stage tile, click the gear icon. Click **Delete Stage** and confirm the deletion.
-  2. On the Build Stage tile, click the gear icon. Click **Delete Stage** and confirm the deletion.
+  a. Click the **INPUT** tab and note the following items:
+  
+    * The input for the build is the master branch of the SCM repository. 
+    * The Build Stage runs automatically every time a change is pushed to the repository. 
+  
+  b. Click the **JOBS** tab and note the following items:
+  
+    * The builder type is **Ant**. The ant command will find the default build script file, `build.xml`, which is provided in the sample at the root directory.
+    * Since the `build.xml` file is located in the root of the project, you do not have to specify a Working Directory.
+    * The build output will be saved in an `output` directoory, as specified in the a **Build Archive Directory** field. The files that are needed for deployment are copied into the build archive directory.
+    * If the build does not complete successfully, the stage stops running and any later jobs do not run.
+  
+  c. Since you did not make any changes, click **DISCARD CHANGES** to return to the BUILD & DEPLOY page.
 
-Within the Build & Deploy stages, you can configure jobs to compile and package your app, deploy the app to Bluemix, and run tests on your code. In this tutorial, you create a Build stage, which contains a build job, and a Deploy stage, which contains a deploy job.
 
-![Unconfigured Advanced Build & Deploy page][45]
-
-Configure the build stage:
-
-  1. Click **ADD STAGE**. The Stage Configuration page opens.
-  2. Click the stage name, **MyStage**. Type `Build` as the new name.
-  3. Make sure that the **Automatically execute jobs when a change is pushed to Git** option is selected. The stage is configured to accept input from the master branch of your project's Git repository.
-  4. Click **JOBS**. Click **ADD JOB** and then select **Build**.
-  5. For the builder type, select **Ant**. Use the default settings for everything else. The ant command will find the default build script file, `build.xml`, which is provided in the sample at the root directory. The files that are needed for deployment are copied into the build archive directory.
-  6. Click **SAVE**.
 
 ![Configuring the Builder][18]
 
-After a moment, the Pipeline page is refreshed and shows the information about your newly configured stage. At the top of the Build stage tile, click the **Play** icon. After a moment, you have a successful build.
+At the top of the Build stage tile, click the **Play** icon. After a moment, you have a successful build.
 
 ![A configured Builder panel with a successful build][47]
 
-Create another stage so that you can deploy your build to Bluemix:
 
-  1. Click **ADD STAGE**. The Stage Configuration page opens.
-  2. Click the stage name, **MyStage**. Type `Deploy` as the new name.
-  3. Make sure that the **Automatically execute jobs when the previous stage completes successfully** option is selected. The stage is already configured to accept the build job output from the Build stage that precedes it.
-  4. Click **JOBS**. Click **ADD JOB** and then select **Deploy to dev**.
-  5. Use the default settings on the Deploy Configuration page.
-  6. If necessary, update the **Space** field to your Bluemix organization's dev space.
-  7. Click **SAVE**.
+Review the deploy stage:
+
+0. On the Deploy Stage tile, click the gear icon and **Configure stage**.
+
+  a. Click the **INPUT** tab and note the following items: 
+  
+     * The input for the build is the output from the Build stage. 
+     * The Deploy Stage runs automatically every time a the Build stage runs successfully. 
+ 
+  b. Click the **JOBS** tab and note the following items:
+  
+     * The app is set to deploy to your Bluemix organization and space.
+     * Bluemix is based on Cloud Foundry, so the deployment script uses the Cloud Foundry command-line interface command cf push to deploy your app. To learn more about configuring deployment scripts when using Cloud Foundry [see the Cloud Foundry documentation][59].
+
+  c. Since you did not make any changes, click **DISCARD CHANGES** to return to the BUILD & DEPLOY page.
+
 
 ![Configuring the Deployer with the Add Deployer Stage screen][19]
 
-After a moment, the Pipeline page is refreshed and shows the information about your newly configured stage.
 
 Because you selected the **Automatically execute jobs when the previous stage completes successfully** option when you set up the deploy stage, successful builds of your app are deployed automatically. If you did not have this option selected, you could start a deployment by dragging a build to a stage with a deploy job. In the LAST EXECUTION RESULT section of the Build tile, drag the build to the Deploy stage, as shown below. You could also click the **Play** button in the Deploy stage to start the deployment. In a few moments, your app is deployed to Bluemix. 
 
@@ -258,12 +278,6 @@ Because you selected the **Automatically execute jobs when the previous stage co
 To view your app on the web, in the Deploy stage, click the URL under the LAST EXECUTION RESULT heading. If you already had the app open in a browser window, refresh the page. To view your app’s Bluemix dashboard, click its the tile where the app name is displayed. 
 
 ![Our really cool app][36]
-
-In this tutorial, you configured a single stage for deployment. You might want more stages; for example, so that you can have separate instances for testing and production. If so, create more stages that contain the jobs that you want to run.
-
-When you build and deploy apps by using Bluemix, your Bluemix billing account might be charged. A project is granted 60 minutes of free build time per month. For more information about pricing for any service, see the [Bluemix Pricing page](https://bluemix.net/#/pricing).
-
-
 
 
 ---
@@ -339,3 +353,5 @@ To learn about how to integrate unit testing into your DevOps Services projects,
    [55]: /tutorials/jazzeditorjava/images/bm-web-starter.png
    [56]: /tutorials/jazzeditorjava/images/runbar_green.png
    [57]: /tutorials/jazzeditorjava/images/playbutton.png
+   [58]: /docs/reference/billing/
+   [59]: http://docs.cloudfoundry.org/devguide/installcf/whats-new-v6.html#push
