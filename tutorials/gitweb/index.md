@@ -34,7 +34,7 @@ If you want to learn more about managing your Git repository, an open source cod
 <a name='before_you_begin'></a>
 ##Before you begin
 
-Before completing this tutorial, you must [register with DevOps Services by creating an IBM ID, creating an alias, and registering with Bluemix](https://hub.jazz.net/register).
+To complete this tutorial, you must [register with DevOps Services by creating an IBM ID, creating an alias, and registering with Bluemix](https://hub.jazz.net/register).
 
 ---
 <a name='fork_a_project'></a>
@@ -43,7 +43,7 @@ Before completing this tutorial, you must [register with DevOps Services by crea
 
 Start by [exploring the live version of the sample project you will work with](http://yummyration.mybluemix.net/). The app is a website for a catering service. 
 
-Next, explore the contents of the  [Yummy Ration project](https://hub.jazz.net/project/jlmarech/YummyRation/overview). This Node.js app uses a Git repository, and includes a Grunt build file.
+Next, explore the contents of the  [Yummy Ration project](https://hub.jazz.net/project/ibmdevopsservices/YummyRation/overview). This Node.js app uses a Git repository, and includes a Grunt build file.
 
 After you are familiar with the project, click the button below to create your own copy of it by cloning and deploying it:
 

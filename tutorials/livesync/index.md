@@ -32,7 +32,7 @@ In this tutorial, you deploy a Node.js app and then update it by using IBM&reg; 
 ---
 <a name='prereq'></a>
 ##Before you begin 
-* Before completing this tutorial, you must [register with DevOps Services by creating an IBM ID, creating an alias, and registering with Bluemix](https://hub.jazz.net/register).
+* To complete this tutorial, you must [register with DevOps Services by creating an IBM ID, creating an alias, and registering with Bluemix](https://hub.jazz.net/register).
 * [Download and install the Bluemix Live Sync command-line interface for Windows][1].
 
 **Important:** The Live Sync command-line interface is available only for Windows 7 and 8. More platforms are coming soon. [Learn more about the Live Sync command-line interface][16].

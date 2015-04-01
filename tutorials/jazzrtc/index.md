@@ -33,31 +33,19 @@ Follow the steps in this tutorial to develop a Java&trade; application by using 
 
 
 ---
-<a name='objectives'></a>
-##Learning objectives
-
-* Create your own version of a DevOps Services project by forking it to your space.
-* Create build and deployment stages by using the Build & Deploy feature.
-* Open the project in Rational Team Concert.
-* Make a code update and push it to the project repository by using Rational Team Concert.
-* Verify automatic builds.
-* Make a code update that causes a build failure to see how the build results look.
-
----
 
 
 <a name='before_begin'></a>
 ##Before you begin
 
-
-Before completing this tutorial, you must [register with DevOps Services by creating an IBM ID, creating an alias, and registering with Bluemix](https://hub.jazz.net/register).
+To complete this tutorial, you must [register with DevOps Services by creating an IBM ID, creating an alias, and registering with Bluemix](https://hub.jazz.net/register).
 
 ---
 
 <a name='fork_app'></a>
 ##Fork a sample project
 
-To quickly get started developing in Java, you fork a sample project named WordCounter. WordCounter uses Jazz&trade; source control management (SCM) and contains a manifest for deploying to Bluemix. You can load the project directly in the Rational Team Concert client for Eclipse. To explore the project before you fork it,  [see the WordCounter project page](https://hub.jazz.net/project/pskhadke/WordCounter/overview).
+To quickly get started developing in Java, you fork a sample project named WordCounter. WordCounter uses Jazz&trade; source control management (SCM) and contains a manifest for deploying to Bluemix. You can load the project directly in the Rational Team Concert client for Eclipse. To explore the project before you fork it,  [see the WordCounter project page](https://hub.jazz.net/project/ibmdevopsservices/WordCounter/overview).
 
 
 On the WordCounter project Overview page, click **FORK PROJECT**. 

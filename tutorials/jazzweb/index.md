@@ -31,7 +31,7 @@ In this tutorial, you use IBM® Bluemix™ DevOps Services to develop an app in 
 <a name='prereq'></a>
 ##Before you begin
 
-Before completing this tutorial, you must [register with DevOps Services by creating an IBM ID, creating an alias, and registering with Bluemix](https://hub.jazz.net/register).
+To complete this tutorial, you must [register with DevOps Services by creating an IBM ID, creating an alias, and registering with Bluemix](https://hub.jazz.net/register).
 
 ---
 <a name='fork'></a>
