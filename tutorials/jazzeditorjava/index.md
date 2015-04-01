@@ -244,7 +244,7 @@ Review the deploy stage:
   b. Click the **JOBS** tab and note the following items:
   
      * The app is set to deploy to your Bluemix organization and space.
-     * Bluemix is based on Cloud Foundry, so the deployment script uses the Cloud Foundry command-line interface command cf push to deploy your app. To learn more about configuring deployment scripts when using Cloud Foundry [see the Cloud Foundry documentation][59].
+     * Bluemix is based on Cloud Foundry, so the deployment script uses the Cloud Foundry command-line interface command `cf push` to deploy your app. To learn more about configuring deployment scripts when using Cloud Foundry, [see the Cloud Foundry documentation][59].
 
   c. Since you did not make any changes, click **DISCARD CHANGES** to return to the BUILD & DEPLOY page.
 

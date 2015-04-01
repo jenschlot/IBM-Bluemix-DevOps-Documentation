@@ -204,7 +204,7 @@ app was deployed again. Then, click the URL link that is next to "Deploy to." Yo
 
 ###Run bar
 
-Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can deploy apps directly to Bluemix by using the standard cf and gcf command line tools. Similarly, in the Web IDE, you can deploy your code to Bluemix by clicking the Play icon on the run bar. 
+Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can deploy apps directly to Bluemix by using the standard `cf` and `gcf` command line tools. Similarly, in the Web IDE, you can deploy your code to Bluemix by clicking the Play icon on the run bar. 
 
 ![Run bar][1]
 
