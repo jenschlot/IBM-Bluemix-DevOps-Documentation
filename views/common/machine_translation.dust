@@ -1,3 +1,5 @@
 <div class="translate-widget">
-	<p>Translation services are currently unavailable. Please try again later. </p>
-</div>	
+	<label class="translate_label">
+		Translation services are currently unavailable. Please try again later.
+	</label>
+</div>
