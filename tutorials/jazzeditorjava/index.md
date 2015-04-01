@@ -8,8 +8,8 @@ Time: 30 minutes
 * [Before you begin](#prereq)
 * [Create an app with IBM Bluemix](#create_bluemix_app)
 * [Push changes to the Git repository](#push)
-  * [Edit files and push changes by using the DevOps Services Web IDE](#edit_and_deploy_with_web_ide)
-  * [Push changes to the Git repository by using the command line](#push_to_git)
+  * [Option 1: Edit files and push changes by using the DevOps Services Web IDE](#edit_and_deploy_with_web_ide)
+  * [Option 2: Push changes to the Git repository by using the command line](#push_to_git)
 * [Understand builds and deployments](#build_and_deploy)
 * [Summary](#summary)
 * [Next steps](#next_steps)
@@ -49,47 +49,40 @@ The dashboard shows an overview of the active Bluemix space for your organizatio
 If you create other organizations or spaces in Bluemix, be sure to use the default selections as you follow the tutorial. 
 
 1. Click the **CREATE AN APP** tile.
-2. Select **WEB** for the type of app you are creating. 
-2. On the next page, select **Liberty for Java** to start with, and then click **CONTINUE**. 
 
+2. Select **WEB** for the type of app you are creating.
+
+3. On the next page, select **Liberty for Java** to start with, and then click **CONTINUE**. 
 ![Bluemix Java Web Starter][7]
 
-4. Type a name for your app, such as `Liberty for Java Starter app tutorial` with your initials to make it unique, and click **Finish**.
-
+4. Type a name for your app, such as `Liberty for Java Starter app tutorial` with your initials to make it unique, and click **Finish**. In a few moments, when the app finishes staging, you'll have a Java web server app instance running on Bluemix.
 ![Naming a Bluemix app][54]
 
-In a few moments, when the app finishes staging, you'll have a Java web server app instance running on Bluemix. Click **Overview** to view information about your app:
-
+5. Click **Overview** to view information about your app:
 ![The new app's Bluemix dashboard][55]
 
-If you click the route on the app dashboard, you can access the running Starter app:
-
+6. Click the route on the app dashboard to access the running Starter app:
 ![A running web application][10]
 
 Although it's great that the app is running, you will want to modify it to make it more interesting.  
 
 You can work with your app code in many ways. For example, with auto-deploy, you can modify the code that runs in your app by pushing the changes to a Git repository. The mechanism that implements auto-deploy is provided by Bluemix™ DevOps Services, but more about that later.
 
-On your app’s Overview page, click **ADD GIT**. 
-
+1. On your app’s Overview page, click **ADD GIT**. You might be prompted to enter your password because DevOps Services must verify that it can act on your behalf.
 ![Add Git][11]
 
-You might be prompted to enter your password because DevOps Services must verify that it can act on your behalf. 
-
-Make sure you check the option **Populate the repository with the starter application package and enable build and deploy**. Click **CONTINUE**, then **CLOSE**. 
-
+2. Make sure you check the option **Populate the repository with the starter application package and enable build and deploy**. 
 ![Create Git repo dialog][13]
 
-A message displays that you successfully created a Git repo and loaded it with the app starter code.
+3. Click **CONTINUE**, then **CLOSE**. A message displays that you successfully created a Git repo and loaded it with the app starter code.
 
 Before you start editing your code in DevOps Services, enable the IBM Continuous Delivery Pipeline for Bluemix (the Delivery Pipeline service) so that you can use several of the build and deployment capabilities later. 
 
 1.	On the app’s Overview page, click **ADD A SERVICE OR API**.
 2.	Select the DevOps category, then click **Delivery Pipeline**. 
 3.	Select a Space and use the default settings for the Selected plan.
-4.	Click **CREATE**.
-
-The Delivery Pipeline service is added to your Bluemix space. You can view a list of the apps that include the service. Click **Back to Dashboard** and click the app tile for the app you just created.
+4.	Click **CREATE**. The Delivery Pipeline service is added to your Bluemix space. You can view a list of the apps that include the service. 
+5. Click **Back to Dashboard** and click the app tile for the app you just created.
 
 Next, start using DevOps Services. Click **EDIT CODE**.
 
@@ -106,16 +99,7 @@ Your project opens in the DevOps Services Web IDE (integrated development enviro
 You can push changes to the Git repository either by the Web IDE or the command line.
 
 <a name='edit_and_deploy_with_web_ide'></a>
-###Edit files and deploy changes by using the DevOps Services Web IDE
-
-DevOps Services provides many capabilities that are useful for app development:
-
-  * Hosting for public projects
-  * Multiple source code repositories
-  * Support for teams that use agile development
-  * Web-based development tools with customizations specifically for working with Bluemix
-
-To learn more about DevOps Services, see its [Learn page][27].
+###Option 1: Edit files and deploy changes by using the DevOps Services Web IDE
 
 You can work with DevOps Services entirely in your browser, if you want. By clicking **EDIT CODE**, you opened a complete online integrated development environment (IDE), which is based on the work of the [Orion][28] open source project. 
 
@@ -127,76 +111,77 @@ In this environment, you can edit files with syntax coloring support for multipl
 
 **Tip:** While you are outside of the code editor, you can search through the various key bindings in the IDE by pressing **Shift + ?**. To search while you’re in the editor, press **Shift + Alt + ?**. 
 
-Navigate through the directory tree and find the `WebContent/index.html` file. 
+1. Navigate through the directory tree and find the `WebContent/index.html` file. 
 
-Click the file name to edit it.
-
+2. Click the file name to edit it.
 ![Orion editing index](/tutorials/jazzeditorjava/images/heyworld.png)
 
-Save your changes. Click the **Git Repository** icon, then push the change by using the integrated Git support.
+3. Save your changes. 
 
-In the Working Directory pane, stage the change by selecting the files you want to commit to the master branch.
+4. Click the **Git Repository** icon, then push the change by using the integrated Git support.
 
-Type a description of the change and click **Commit**.
+5. In the Working Directory pane, stage the change by selecting the files you want to commit to the master branch.
 
+6. Type a description of the change and click **Commit**.
 ![Orion git commit][34]
 
-Push the change from the local 'master' branch to the remote branch.
-
+7. Push the change from the local 'master' branch to the remote branch.
 ![Orion git push][35]
 
-Refresh your browser to ensure that the updated page is shown.
+8. Refresh your browser to ensure that the updated page is shown.
 
 ![Application page showing new message][25]
 
 
 <a name='push_to_git'></a>
-###Push changes to the Git repository by using the command line
+###Option 2: Push changes to the Git repository by using the command line
 
 You now have a Git repo with sample code. You can use many tools to work with Git, including all of the major desktop IDEs and the DevOps Services Web IDE. You can also use the command-line Git support.
 
-**Note:** If you don't have Git installed, [see Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][20]. If you want to learn more about working with Git, [see the Git documentation pages](http://git-scm.com/doc).
+**Note:** If you don't have Git installed, [see Working locally with Bluemix DevOps Services projects][20]. If you want to learn more about working with Git, [see the Git documentation pages](http://git-scm.com/doc).
 
-Clone from the project repository URL, which you can find on the Bluemix app's dashboard or the DevOps project's Overview:
+1. Clone from the project repository URL, which you can find on the Bluemix app's dashboard or the DevOps project's Overview:
 
+    	$ git clone https://hub.jazz.net/git/jazzhubdemouser/Liberty.for.Java.Starter.app.tutorial
+    	Cloning into 'Liberty.for.Java.Starter.app.tutorial'...
+    	Username for 'https://hub.jazz.net': <username>
+    	Password for 'https://<username>@hub.jazz.net': <password>
+    	remote: Counting objects: 49, done
+	    remote: Finding sources: 100% (49/49)
+    	remote: Total 49 (delta 0), reused 49 (delta 0)
+    	Unpacking objects: 100% (49/49), done.
+    	Checking connectivity... done. 
 
-    $ git clone https://hub.jazz.net/git/jazzhubdemouser/Liberty.for.Java.Starter.app.tutorial
-    Cloning into 'Liberty.for.Java.Starter.app.tutorial'...
-    Username for 'https://hub.jazz.net': <username>
-    Password for 'https://<username>@hub.jazz.net': <password>
-    remote: Counting objects: 49, done
-    remote: Finding sources: 100% (49/49)
-    remote: Total 49 (delta 0), reused 49 (delta 0)
-    Unpacking objects: 100% (49/49), done.
-    Checking connectivity... done. 
+2. To make changes to your app source code, open the root directory for the app, the `WebContent` folder, then the file `index.html`. 
 
-To make changes to your app source code, open the root directory for the app, the `WebContent` folder, then the file `index.html`. Change some text in the body of the HTML.  When you're done, change to your project directory and `git stage`, `git commit`, and `git push`:
+3. Change some text in the body of the HTML.  
+
+4. Change to your project directory and `git stage`, `git commit`, and `git push`:
  
-    $ cd /project_directory
-    $ git stage Webcontent/index.html
-    $ git commit -m "Sample app headline change"
-    [master 2336018] Sample app headline change
-    1 file changed, 1 insertion(+), 1 deletion(-)
-
-
-    $ git push
-    Username for 'https://hub.jazz.net': <username>
-    Password for 'https://<username>@hub.jazz.net':
-    Counting objects: 8, done.
-    Delta compression using up to 4 threads.
-    Compressing objects: 100% (4/4), done.
-    Writing objects: 100% (4/4), 382 bytes | 0 bytes/s, done.
-    Total 4 (delta 3), reused 0 (delta 0)
-    remote: Resolving deltas: 100% (3/3)
-    remote: Processing changes: refs: 1, done
-    To https://hub.jazz.net/git/jazzhubdemouser/Liberty.for.Java.Starter.app.tutorial
+    	$ cd /project_directory
+    	$ git stage Webcontent/index.html
+    	$ git commit -m "Sample app headline change"
+    	[master 2336018] Sample app headline change
+    	1 file changed, 1 insertion(+), 1 deletion(-)
+    	
+    	$ git push
+    	Username for 'https://hub.jazz.net': <username>
+    	Password for 'https://<username>@hub.jazz.net':
+    	Counting objects: 8, done.
+    	Delta compression using up to 4 threads.
+	    Compressing objects: 100% (4/4), done.
+    	Writing objects: 100% (4/4), 382 bytes | 0 bytes/s, done.
+    	Total 4 (delta 3), reused 0 (delta 0)
+    	remote: Resolving deltas: 100% (3/3)
+    	remote: Processing changes: refs: 1, done
+    	To https://hub.jazz.net/git/jazzhubdemouser/Liberty.for.Java.Starter.app.tutorial
     	ab4aaad..2336018 master -> master
 
-In DevOps Services, click **BUILD &amp; DEPLOY**. A new build was requested. It was automatically triggered by the changes that you delivered to the project repository. When the build is finished, it is deployed to Bluemix. When the instance is running, you can view your updated app on the web. 
+5. In DevOps Services, click **BUILD &amp; DEPLOY**. A new build was requested. It was automatically triggered by the changes that you delivered to the project repository. When the build is finished, it is deployed to Bluemix. When the instance is running, you can view your updated app on the web. 
 
 You can continue to modify the example and push your changes to the Git repository as often as needed. As the scope of the work grows and more people are added to the project, everyone can push changes to the repository. Standard repository operations and build and deploy are all that is required to ensure that the right bits are always running.
 
-If you want to configure desktop clients to work with your Git repository, [see Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][26].
+If you want to configure desktop clients to work with your Git repository, [see Working locally with Bluemix DevOps Services projects][26].
 
 
 
@@ -215,7 +200,7 @@ When the app is running, it is available at the URL shown on the Deploy stage ti
 
 Your sample project is configured to automatically build and deploy the Liberty for Java sample app. You can explore the preconfigured stages or make changes to the configurations.
 
-### Exploring the preconfigured stages
+### Explore the preconfigured stages
 
 The Delivery Pipeline configuration for your app has two stages: a build stage and a deploy stage. These stages form a pipeline. The build stage runs a build job on the included `build.xml` . Then, the deploy stage runs a deploy job to deploy your code to Bluemix.
 
@@ -241,13 +226,9 @@ Review the build stage:
     * If the build does not complete successfully, the stage stops running and any later jobs do not run.
   
   c. Since you did not make any changes, click **DISCARD CHANGES** to return to the BUILD & DEPLOY page.
-
-
-
 ![Configuring the Builder][18]
 
-At the top of the Build stage tile, click the **Play** icon. After a moment, you have a successful build.
-
+3. At the top of the Build stage tile, click the **Play** icon. After a moment, you have a successful build.
 ![A configured Builder panel with a successful build][47]
 
 
@@ -292,7 +273,7 @@ You learned how to get started with Java in Bluemix and DevOps Services. Lots of
 <a name='Next steps'></a>
 ## Next steps
 
-To learn more about configuring Eclipse or other desktop clients to work with your Git repository, [see Setting up Eclipse, Git, and Rational Team Concert Desktop Clients for use with DevOps Service][26].
+To learn more about configuring Eclipse or other desktop clients to work with your Git repository, [see Working locally with Bluemix DevOps Services projects][26].
 
 To learn about how to integrate unit testing into your DevOps Services projects, [see Developing Bluemix apps in Java with Eclipse and Bluemix DevOps Services][40].
 

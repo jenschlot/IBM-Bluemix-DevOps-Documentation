@@ -138,7 +138,7 @@ The Delivery Pipeline configuration for your Sentiment Analysis app has two stag
   
   b. Click the **JOBS** tab and note the following items:
   
-    * The builder type is **Grunt**. The sample project uses JSHint validation to check its code for errors. For that to work, the repository must contain a Grunt build file and the build job must use Grunt. Every time a change is pushed to its repository, the project uses JSHint to make sure that the code is error-free.
+    * The builder type is **Grunt**. The sample project uses JSHint validation to check its code for errors. For the validation to work, the repository must contain a Grunt build file and the build job must use Grunt. Every time a change is pushed to its repository, the project uses JSHint to make sure that the code is error-free.
     * Since the `app.js` file is located in the root of the project, you do not have to specify a Working Directory or a Build Archive Directory.
     * If the build does not complete successfully, the stage stops running and any later jobs do not run.
   
@@ -211,7 +211,7 @@ In only a few minutes, you cloned a Node.js app project, planned an update to th
 Now that you know the basics, you might want to explore this information:
 
 - [Integrate DevOps Services into your preferred development environment][37]
-- [Develop like you would on the desktop by using Bluemix Live Sync][40]
+- [Develop by using Bluemix Live Sync][40]
 - [Get started with the Track & Plan feature][35] 
 - [Build & Deploy reference (Pipeline)][36]
 

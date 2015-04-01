@@ -9,8 +9,8 @@ Time: 30 minutes
 * [Create an app with IBM Bluemix](#create_bluemix_app)
 * [Set up Git integration and auto-deploy](#git_integration_and_autodeployment)
 * [Push changes to the Git repository](#push)
-  * [Push changes to the Git repository by using the command line](#push_to_git)
-  * [Push changes to the Git repository by using the Web IDE](#push_with_web_ide)
+  * [Option 1: Push changes to the Git repository by using the command line](#push_to_git)
+  * [Option 2: Push changes to the Git repository by using the Web IDE](#push_with_web_ide)
 * [Deploy by using the Web IDE](#deployment)
 * [Update a running app automatically with Bluemix Live Sync](#bluemix_live_sync)
 * [Summary](#summary)
@@ -74,20 +74,16 @@ Now that your app is running, you can see and modify its code by using IBM® Blu
 You can work with your app's code in many ways. For example, with auto-deploy, you can modify the code that runs in your app by pushing your changes to a 
 Git repository. You can auto-deploy your code if you use the Build & Deploy capabilities of DevOps Services.
 
-1. To enable auto-deploy, go to the Bluemix overview for your app and click **ADD GIT**. A Git repository is created and is populated with example code and a deployed app. 
+1. To enable auto-deploy, go to the Bluemix overview for your app and click **ADD GIT**. A Git repository is created and is populated with example code and a deployed app. You might be prompted to enter your password to verify that DevOps Services can act on your behalf. 
 ![Add Git button](/tutorials/jazzeditor/images/bm-add-git-integration_NEW.png)
-
-You might be prompted to enter your password to verify that DevOps Services can act on your behalf. 
-
 
 2. Make sure that the **Populate the repository with the starter application package and enable build and deploy** check box is selected.
 ![Create Git repo dialog](/tutorials/jazzeditor/images/bm-create-git-repo_NEW.png)
 You created a Git repository, populated it with the example code, and deployed the app.
 ![Git repo success message dialog](/tutorials/jazzeditor/images/bm-git-repo-success-msg_NEW.png)
 
-3. Go to the Bluemix app overview and click **EDIT CODE**.
+3. Go to the Bluemix app overview and click **EDIT CODE**. Your new project opens in the web integrated development environment (Web IDE). The project page contains useful information that you can review later. 
 ![CODE button](/tutorials/jazzeditor/images/bm-code-button_NEW.png)
-Your new project opens in the web integrated development environment (Web IDE). The project page contains useful information that you can review later. 
 
 4. To check the status of the app, review the run bar and click the **Open the application URL** icon.
 ![Web IDE](/tutorials/jazzeditor/images/orion_NEW.png)
@@ -98,7 +94,7 @@ Your new project opens in the web integrated development environment (Web IDE). 
 You can push changes to the Git repository either by using the command line or the Web IDE.
 
 <a name='push_to_git'></a>
-###Push changes to the Git repository by using the command line
+###Option 1: Push changes to the Git repository by using the command line
 
 You now have a Git repository that contains example code. You can use several tools to work with Git, including desktop IDEs, the Web IDE, and the command line. 
 
@@ -162,22 +158,7 @@ You can continue to modify the example code and push the changes to the Git repo
 
 
 <a name='push_with_web_ide'></a>
-###Push changes to the Git repository by using the Web IDE
-
-In addition to auto-deploy, DevOps Services provides other useful capabilities 
-for app development:
-
-* Hosting for public projects
-* Multiple source code repositories
-* Support for agile development
-* Web-based development tools with customizations for Bluemix
-* Continuous delivery pipeline for deploying apps to Bluemix
-* More capabilities under development
-
-To learn about all of the features, [see the IBM Bluemix DevOps Services website](https://hub.jazz.net/docs). 
-
-You used the command line to modify your code and push it to the repository. 
-Now, try the Web IDE in DevOps Services to do the same task.
+###Option 2: Push changes to the Git repository by using the Web IDE
 
 1. Return to the deployment page and click **EDIT CODE** to access the complete, integrated Web IDE that's 
 based on [the Eclipse Orion open-source project](http://orion.eclipse.org/). 
@@ -187,18 +168,21 @@ CSS, JavaScript, Ruby, and Python. For some languages, such as JavaScript, the W
 syntax checking and code completion, both for standard language constructs and for the services that Bluemix provides. To use content assist, press **Ctrl + Space**. For example, this image shows code completion for the standard Node.js express module:
 ![Orion showing express completions](/tutorials/jazzeditor/images/completion.png)
 
-2. Before you make another change to your app, merge the title change that you made on the command line
-so that the change is shown in the Web IDE. You merge from the Git Repository page. 
-![Orion Git repository icon](/tutorials/jazzeditor/images/orion-git-status_NEW.png)
+2. If you made a change from the command line, merge the title change before you make another change to your app.   
+  a. Open the Git Repository page.  
+  ![Orion Git repository icon](/tutorials/jazzeditor/images/orion-git-status_NEW.png)
 
-3. On the Git Repository page, sync the change that you made to the title.
+  b. Sync the change that you made to the title by clicking **Sync**.
 ![Orion Git merge](/tutorials/jazzeditor/images/orion-git-merge_NEW.png)
 
-4. In the left bar, click the pencil icon to open the editor. Then, use the navigation tree to find the file that you modified 
-before; for example, `views/body.jade`. Edit the file in the editor.
+  c. In the left bar, click the pencil icon to open the editor. 
+  
+4. Use the navigation tree to find a file to modify; for example, `views/body.jade`. 
+
+5. Edit the file in the editor.
 ![Orion editing index](/tutorials/jazzeditor/images/orion-really-cool_NEW.png)
 
-5. Push the change by using the integrated Git support. 
+6. Push the change by using the integrated Git support. 
 
 	a. Switch to the Git Repository page.
 	
@@ -208,9 +192,8 @@ before; for example, `views/body.jade`. Edit the file in the editor.
 ![Orion Git commit](/tutorials/jazzeditor/images/orion-commit_NEW.png)
 	d. Push the changes:
 ![Orion Git push](/tutorials/jazzeditor/images/orion-push_NEW.png)
-These steps are the same steps that you completed by using the command line. 
 
-6. To verify that your code was deployed, 
+7. To verify that your code was deployed, 
 go to the Build & Deploy page and wait until you see an indication that the 
 app was deployed again. Then, click the URL link that is next to "Deploy to." Your update is shown.
 ![Our really cool app](/tutorials/jazzeditor/images/really-cool_NEW.png)
