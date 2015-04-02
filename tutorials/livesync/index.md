@@ -4,7 +4,7 @@ Last modified: 31 March 2015
 
 Time: 30 minutes
 
-If you are building a Node.js app, you can quickly update it on IBM® Bluemix™ and develop as you would on the desktop by using Bluemix Live Sync. You can use Bluemix Live Sync on the command line, through the Desktop Sync feature, and in the Web IDE, through the Live Edit feature. You can also [use Bluemix Live Sync to debug Node.js apps][2]. [Learn more about Bluemix Live Sync][4]. 
+If you are building a Node.js app, you can quickly update it on IBM&reg; Bluemix&trade; and develop as you would on the desktop by using Bluemix Live Sync. You can use Bluemix Live Sync on the command line, through the Desktop Sync feature, and in the Web IDE, through the Live Edit feature. You can also [use Bluemix Live Sync to debug Node.js apps][2]. [Learn more about Bluemix Live Sync][4]. 
 
 In this tutorial, you deploy a Node.js app and then update it by using IBM&reg; Bluemix&trade; DevOps Services and Bluemix Live Sync. You can see the changes to your running Bluemix app immediately, without waiting for redeployment.
 
@@ -32,7 +32,7 @@ In this tutorial, you deploy a Node.js app and then update it by using IBM&reg; 
 ---
 <a name='prereq'></a>
 ##Before you begin 
-* To complete this tutorial, you must [register with DevOps Services by creating an IBM ID, creating an alias, and registering with Bluemix](https://hub.jazz.net/register).
+* [Sign up for DevOps Services](https://hub.jazz.net/register). When you sign up, you'll create an IBM id, create an alias, and register with Bluemix. 
 * [Download and install the Bluemix Live Sync command-line interface for Windows][1].
 
 **Important:** The Live Sync command-line interface is available only for Windows 7 and 8. More platforms are coming soon. [Learn more about the Live Sync command-line interface][16].

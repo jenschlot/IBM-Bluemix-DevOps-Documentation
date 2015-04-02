@@ -45,7 +45,7 @@ To try the Track & Plan feature, complete this tutorial. You'll start a simple, 
 <a name='prereq'></a>
  ##Before you begin
  
-To complete this tutorial, you must [register with DevOps Services by creating an IBM ID, creating an alias, and registering with Bluemix](https://hub.jazz.net/register).
+[Sign up for DevOps Services](https://hub.jazz.net/register). When you sign up, you'll create an IBM id, create an alias, and register with IBM&reg; Bluemix&trade;. 
 
 ---
 <a name='set_up_an_IBM_devops_services_project'></a>
