@@ -37,9 +37,9 @@ To complete this tutorial, you must [register with DevOps Services by creating a
 <a name='fork'></a>
 ## Explore and clone the sample project
 
-Start by [exploring the live version of the sample project you will work with][27]. The app analyzes Twitter users' collective sentiment about a search phrase. 
+[Start by exploring the live version of the sample project you will work with][27]. The app analyzes Twitter users' collective sentiment about a search phrase. 
 
-Next, explore the contents of the  [Sentiment Analysis project][2]. This Node.js app uses a Git repository, and includes a Grunt build file.
+Next, [explore the contents of the Sentiment Analysis project][2]. This Node.js app uses a Git repository, and includes a Grunt build file.
 
 After you are familiar with the project, click the button below to create your own copy of it by cloning and deploying it:
 
@@ -175,7 +175,7 @@ It's time to see the stages in action. You can start a build without waiting for
 
 1. On the Build stage tile, click the **Play** icon. The build is added to the queue, is run, and then is deployed to Bluemix.
 2. After the deployer status tile indicates that your app is running, click the URL that is under the app name. Make sure that your topic is in the input box.
-3. Optional: To open the Bluemix Overview page for your running app, click the app's name. You can view lots of information about your app on the Overview page. For more information, [see Managing applications on Bluemix][28].
+3. Optional: To open the Bluemix Overview page for your running app, click the app's name. You can view information about your app on the Overview page. For more information, [see Managing applications on Bluemix][28].
 
 ![The project's configured Pipeline][10]
 
