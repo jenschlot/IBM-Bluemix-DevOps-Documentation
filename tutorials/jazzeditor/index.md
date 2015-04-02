@@ -8,9 +8,7 @@ Time: 30 minutes
 * [Before you begin](#prereq)
 * [Create an app with IBM Bluemix](#create_bluemix_app)
 * [Set up Git integration and auto-deploy](#git_integration_and_autodeployment)
-* [Push changes to the Git repository](#push)
-  * [Option 1: Push changes to the Git repository by using the command line](#push_to_git)
-  * [Option 2: Push changes to the Git repository by using the Web IDE](#push_with_web_ide)
+* [Push changes to the Git repository by using the Web IDE](#push)
 * [Deploy by using the Web IDE](#deployment)
 * [Update a running app automatically with Bluemix Live Sync](#bluemix_live_sync)
 * [Summary](#summary)
@@ -22,7 +20,7 @@ Time: 30 minutes
 
 * Create an app in Bluemix by using the SDK for Node.js starter pack.
 * Create a Git repository for the app.
-* Push changes to the Git repository from the command line or the IBM&reg; Bluemix&trade; DevOps Services Web IDE.
+* Push changes to the Git repository from the IBM&reg; Bluemix&trade; DevOps Services Web IDE.
 * Preview and deploy your changes by using the Web IDE run bar.
 
 ---
@@ -82,7 +80,7 @@ Git repository. You can auto-deploy your code if you use the Build & Deploy capa
 You created a Git repository, populated it with the example code, and deployed the app.
 ![Git repo success message dialog](/tutorials/jazzeditor/images/bm-git-repo-success-msg_NEW.png)
 
-3. Go to the Bluemix app overview and click **EDIT CODE**. Your new project opens in the web integrated development environment (Web IDE). The project page contains useful information that you can review later. 
+3. Go to the Bluemix app overview and click **EDIT CODE**. Your new project opens in the web integrated development environment (Web IDE).  
 ![CODE button](/tutorials/jazzeditor/images/bm-code-button_NEW.png)
 
 4. To check the status of the app, review the run bar and click the **Open the application URL** icon.
@@ -90,93 +88,17 @@ You created a Git repository, populated it with the example code, and deployed t
 
 ---
 <a name='push'></a>
-##Push changes to the Git repository
-You can push changes to the Git repository either by using the command line or the Web IDE.
+##Push changes to the Git repository by using the Web IDE
 
-<a name='push_to_git'></a>
-###Option 1: Push changes to the Git repository by using the command line
-
-You now have a Git repository that contains example code. You can use several tools to work with Git, including desktop IDEs, the Web IDE, and the command line. 
-
-**Before you begin:**
-Git must be installed. For instructions, [see Installing Git](/tutorials/clients#installing_git).
-
-To learn more about working with Git, [browse the Git documentation](http://git-scm.com/doc).
-
-1. Clone the local repository by using the Git URL, which you can find on the Bluemix app dashboard, the BUILD & DEPLOY page, or your DevOps Services project overview.
-
-		$ git clone https://hub.jazz.net/git/jazzhubdemouser/newcoolwebappdemo
-    	Cloning into 'mycoolwebappdemo'...
-    	Username for 'https://hub.jazz.net': jazzhubdemouser
-    	Password for 'https://jazzhubdemouser@hub.jazz.net':
-    	remote: Counting objects: 23, done
-    	remote: Finding sources: 100% (23/23)
-    	remote: Total 23 (delta 0), reused 23 (delta 0)
-	    Unpacking objects: 100% (23/23), done.
-	    Checking connectivity... done. 
-
-2. Change the app source code and see what happens:
-
-	a. Change to your Git clone directory. The views folder contains a file that is named `body.jade`. That file implements the main page for the example. 
-
-	b. Edit the file. For example, modify the heading.
-![Changing the title](/tutorials/jazzeditor/images/cli-edit-file_NEW.png)
-
-	c. Change to your Git clone directory and do a Git add, commit and push:
-
-		$ cd ..
-    	$ git add *
-    	$ git commit -m "changed h1 text"
- 	   [master bf26680] changed h1 text
-    	1 file changed, 2 insertions(+), 2 deletions(-)
-
-		$ git push
-    	Username for 'https://hub.jazz.net': jazzhubdemouser
-    	Password for 'https://jazzhubdemouser@hub.jazz.net':
-    	Counting objects: 8, done.
-    	Delta compression using up to 2 threads.
-    	Compressing objects: 100% (3/3), done.
-    	Writing objects: 100% (4/4), 383 bytes | 0 bytes/s, done.
-    	Total 4 (delta 2), reused 0 (delta 0)
-    	remote: Resolving deltas: 100% (2/2)
-    	remote: Processing changes: refs: 1, done
-    	To https://hub.jazz.net/git/jazzhubdemouser/newcoolwebappdemo
-    		43c6bc7..bf26680 master -> master
-	
-	d. Return to the Web IDE and check the Build & Deploy page.
-	![Auto-deploy in action](/tutorials/jazzeditor/images/jh-autodeployed_NEW.png)
-At the top of the leftmost tile, under Input, an entry has a comment that matches the commit operation that you made from the command line. The entry shows that your app is running the code that you pushed.
-	
-	e. View your running app and verify that the title was updated. You might need to refresh your browser to see the updates.
-
-3. In the rightmost tile, under the Last Execution Result heading, click the app name. The Bluemix app dashboard opens. When you click the URL on the app dashboard, your updated, running app opens. To access your app quickly, click the URL that is under the Last Execution Result heading.
-
-![App page with new title](/tutorials/jazzeditor/images/app-new-title_NEW.png)
-
-You can continue to modify the example code and push the changes to the Git repository. If your project and scope of work grow, you can add people to the project and everyone can push changes to the repository. Standard repository operations and auto-deploy are all that you need to ensure that the app is always running.
-
-
-
-<a name='push_with_web_ide'></a>
-###Option 2: Push changes to the Git repository by using the Web IDE
-
-1. Return to the deployment page and click **EDIT CODE** to access the complete, integrated Web IDE that's 
+The integrated Web IDE is 
 based on [the Eclipse Orion open-source project](http://orion.eclipse.org/). 
 ![Orion at Bluemix DevOps Services](/tutorials/jazzeditor/images/orion_1_NEW.png)
+
 You can edit files with syntax coloring support for multiple languages, including HTML, 
 CSS, JavaScript, Ruby, and Python. For some languages, such as JavaScript, the Web IDE also supports 
 syntax checking and code completion, both for standard language constructs and for the services that Bluemix provides. To use content assist, press **Ctrl + Space**. For example, this image shows code completion for the standard Node.js express module:
 ![Orion showing express completions](/tutorials/jazzeditor/images/completion.png)
 
-2. If you made a change from the command line, merge the title change before you make another change to your app.   
-  a. Open the Git Repository page.  
-  ![Orion Git repository icon](/tutorials/jazzeditor/images/orion-git-status_NEW.png)
-
-  b. Sync the change that you made to the title by clicking **Sync**.
-![Orion Git merge](/tutorials/jazzeditor/images/orion-git-merge_NEW.png)
-
-  c. In the left bar, click the pencil icon to open the editor. 
-  
 4. Use the navigation tree to find a file to modify; for example, `views/body.jade`. 
 
 5. Edit the file in the editor.
@@ -184,7 +106,7 @@ syntax checking and code completion, both for standard language constructs and f
 
 6. Push the change by using the integrated Git support. 
 
-	a. Switch to the Git Repository page.
+	a. In the sidebar, click the Git Repository icon.
 	
 	b. Select the changed file:
 ![Orion Git staging](/tutorials/jazzeditor/images/orion-git-stage_NEW.png)
@@ -218,7 +140,7 @@ Both the command-line tools and the Web IDE are effective for rapid, solo develo
 
 With Node.js apps, you can make changes to static files, like HTML or CSS, and have them immediately propagated to the deployed app by using the IBM® Bluemix™ Live Sync feature. 
 
-In the Web IDE, turn on Live Edit and see your updated static files by refreshing the app in your browser.  If you update a node module, use the **Quick Restart** icon to restart the Node run time in a matter of seconds, without redeploying the app. 
+In the Web IDE, turn on Live Edit and see your updated static files by refreshing the app in your browser.  If you update a node module, use the **Quick Restart** icon to restart the Node run time in a matter of seconds, without redeploying the app.
 
 ![Run bar with Live Edit](images/live_edit.png)
 
@@ -237,7 +159,7 @@ You have a good overview of how to get started with Node.js in Bluemix and DevOp
 
 You saw how to create and run a Node.js web app by using Bluemix. 
 With one click, you created a Git repository, populated it with example code, and automatically 
-deployed the app. You changed the code and pushed the changes to the Git repository by using both the command line and the 
+deployed the app. You changed the code and pushed the changes to the Git repository by using the 
 Web IDE. Then, you automatically built and deployed your changes, checked the deployment status, 
 and verified your changes. 
 

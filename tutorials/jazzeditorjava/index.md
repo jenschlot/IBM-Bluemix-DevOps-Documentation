@@ -7,9 +7,7 @@ Time: 30 minutes
 * [Learning objectives](#objectives)
 * [Before you begin](#prereq)
 * [Create an app with IBM Bluemix](#create_bluemix_app)
-* [Push changes to the Git repository](#push)
-  * [Option 1: Edit files and push changes by using the DevOps Services Web IDE](#edit_and_deploy_with_web_ide)
-  * [Option 2: Push changes to the Git repository by using the command line](#push_to_git)
+* [Push changes to the Git repository by using the command line](#push)
 * [Understand builds and deployments](#build_and_deploy)
 * [Summary](#summary)
 * [Next steps](#next_steps)
@@ -22,7 +20,7 @@ Time: 30 minutes
 * Create an app in IBM&reg; Bluemix&trade; by using the Liberty for Java starter pack.
 * Create a Git repository for the app.
 * Add the IBM Continuous Delivery Pipeline for Bluemix (the Delivery Pipeline service).
-* Push changes to the Git repository from the command line or the IBM&reg; Bluemix&trade; DevOps Services Web IDE.
+* Push changes to the Git repository from the command line.
 * Build and deploy your changes by using the Delivery Pipeline service.
 
 ---
@@ -94,49 +92,9 @@ Your project opens in the DevOps Services Web IDE (integrated development enviro
 ---
 
 <a name='push'></a>
-##Push changes to the Git repository
+##Push changes to the Git repository by using the command line
 
-You can push changes to the Git repository either by the Web IDE or the command line.
-
-<a name='edit_and_deploy_with_web_ide'></a>
-###Option 1: Edit files and deploy changes by using the DevOps Services Web IDE
-
-You can work with DevOps Services entirely in your browser, if you want. By clicking **EDIT CODE**, you opened a complete online integrated development environment (IDE), which is based on the work of the [Orion][28] open source project. 
-
-![Orion at Bluemix DevOps Services][29]
-
-In this environment, you can edit files with syntax coloring support for multiple programming languages, including HTML, CSS, Java, JavaScript, Ruby, and Python. For some languages, such as JavaScript and CSS, the IDE also supports syntax checking and content assist, both for standard language constructs and for services that Bluemix provides. To use content assist, press **Ctrl + Space**. For example, this image shows code completion for the standard Node.js express module:
-
-![Orion showing express completions][30]
-
-**Tip:** While you are outside of the code editor, you can search through the various key bindings in the IDE by pressing **Shift + ?**. To search while you’re in the editor, press **Shift + Alt + ?**. 
-
-1. Navigate through the directory tree and find the `WebContent/index.html` file. 
-
-2. Click the file name to edit it.
-![Orion editing index](/tutorials/jazzeditorjava/images/heyworld.png)
-
-3. Save your changes. 
-
-4. Click the **Git Repository** icon, then push the change by using the integrated Git support.
-
-5. In the Working Directory pane, stage the change by selecting the files you want to commit to the master branch.
-
-6. Type a description of the change and click **Commit**.
-![Orion git commit][34]
-
-7. Push the change from the local 'master' branch to the remote branch.
-![Orion git push][35]
-
-8. Refresh your browser to ensure that the updated page is shown.
-
-![Application page showing new message][25]
-
-
-<a name='push_to_git'></a>
-###Option 2: Push changes to the Git repository by using the command line
-
-You now have a Git repo with sample code. You can use many tools to work with Git, including all of the major desktop IDEs and the DevOps Services Web IDE. You can also use the command-line Git support.
+You now have a Git repository with sample code. You can use many tools to work with Git, including all of the major desktop IDEs and the DevOps Services Web IDE. You can also use the command-line Git support.
 
 **Note:** If you don't have Git installed, [see Working locally with Bluemix DevOps Services projects][20]. If you want to learn more about working with Git, [see the Git documentation pages](http://git-scm.com/doc).
 
@@ -265,7 +223,7 @@ To view your app on the web, in the Deploy stage, click the URL under the LAST E
 <a name='Summary'></a>
 ## Summary
 
-In this tutorial, you learned to easily create a Java web app on Bluemix and run that app. With a few clicks, you created a Git repo, loaded it with the sample code, and automatically deployed the app. You changed code and pushed it DevOps Services Web IDE, and then by using the Git command line. You configured automatic building and deployment, checked the status of the app deployment, and ran the app to verify your changes. 
+In this tutorial, you learned to easily create a Java web app on Bluemix and run that app. With a few clicks, you created a Git repo, loaded it with the sample code, and automatically deployed the app. You changed code and pushed it to the repository by using the Git command line. You learned how automatic building and deployment works, checked the status of the app deployment, and ran the app to verify your changes. 
 
 You learned how to get started with Java in Bluemix and DevOps Services. Lots of details were minimized, but you can find out more from the documentation links at the beginning of the tutorial.
 
