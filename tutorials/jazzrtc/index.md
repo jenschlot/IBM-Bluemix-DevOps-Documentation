@@ -87,9 +87,9 @@ You're ready to build and deploy.
 7.  Create a stage to deploy your app to Bluemix:
   1. Click the default **MyStage** name and change the name of this stage to `Deploy to dev`. 
   2. On the **INPUT** tab, use the default settings.
-  3. On the **JOBS** tab, click **ADD JOB** and then select **Deploy**. This job will use the settings in the `manifest.yml` file, which is included as part of the sample project. You can use all of the values as provided, except for the hostname. The hostname is used to define your app's URL and must be unique for each app that is deployed on Bluemix.
+  3. On the **JOBS** tab, click **ADD JOB** and then select **Deploy**. This job uses the settings in the `manifest.yml` file, which is included as part of the sample project. You can use all of the values as provided, except for the hostname. The hostname is used to define your app's URL and must be unique for each app that is deployed on Bluemix.
       4. Override the hostname with the `-n` option in the cf push command, as shown in the following image.
-     **Hint:** Use a combination of your username and the date or time to ensure that your route is unique.
+     **Tip:** Use a combination of your user name and the date or time to ensure that your route is unique.
   5. Click **SAVE**.
 ![Add Deployer](/tutorials/jazzrtc/images/configure_deployer.png "Add Deployer")
 
