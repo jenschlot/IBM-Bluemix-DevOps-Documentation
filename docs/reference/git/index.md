@@ -22,7 +22,6 @@ No matter where you code, you can use this quick reference to do common tasks.
 
 ##[Commits](#commits)
 * [Commit files and push to the remote branch](#commit_files_to_the_remote_branch)
-* [Commit files from a branch and push to the master branch](#commit_files_to_the_master_branch)
 * [Link a commit to a work item](#link_commit)
 * [View the commit history](#view_the_commit_history)
 * [Compare changes that a commit introduced](#compare_changes_that_a_commit_introduced)
@@ -199,22 +198,6 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 
 4. Type `git push` and press Enter.
 
-
----
-<a name="commit_files_to_the_master_branch"></a>
-### Commit files from a branch and push to the master branch
-
-#### Bluemix DevOps Services Web IDE
-
-1. Click the **Reference** menu.
-
-1. Expand **Local** and in the master row, click the **Checkout** icon.
-
-1. Click the **Reference** menu again.
-
-1. Expand **Local** and click the branch name.
-
-1. Click the **Merge** icon. The changes are merged from the branch into the master branch.
 
 
 ---
