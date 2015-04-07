@@ -1,6 +1,6 @@
 #Get started with Bluemix and Bluemix DevOps Services using Node.js
 
-Last modified: 31 March 2015
+Last modified: 7 April 2015
 
 Time: 30 minutes
 
@@ -125,11 +125,11 @@ app was deployed again. Then, click the URL link that is next to "Deploy to." Yo
 
 ###Run bar
 
-Because Bluemix is based on [Cloud Foundry](http://cloudfoundry.com/), you can deploy apps directly to Bluemix by using the standard `cf` and `gcf` command line tools. Similarly, in the Web IDE, you can deploy your code to Bluemix by clicking the Play icon on the run bar. 
+In the Web IDE, you can deploy your code to Bluemix by clicking the **Play** icon on the run bar. 
 
 ![Run bar][1]
 
-By clicking the Play icon on the run bar, you deploy the current state of your code in the Web IDE. To deploy the code that is checked into the repository, use the Delivery Pipeline.
+By clicking the **Play** icon, you deploy the current state of your code in the Web IDE. To deploy the code that is checked into the repository, use the Delivery Pipeline.
 
 Both the command-line tools and the Web IDE are effective for rapid, solo development, but the IBM Continuous Delivery Pipeline for Bluemix feature adds the security of controlling what is pushed, especially in team environments. With the Delivery Pipeline feature, you always know that the code running in the app matches a known state in the repository, instead of whatever was in your working directory when you pushed changes.
 
@@ -145,7 +145,7 @@ With Node.js apps, you can make changes to static files, like HTML or CSS, and h
 
 ![Run bar with Live Edit](images/live_edit.png)
 
-You can use the Debug feature to create breakpoints and inspect variables in your node modules so you can isolate problem areas as you work.
+You can use the Debug feature to create breakpoints and inspect variables in your node modules so you can isolate problem areas as you work. 
 
 For more information, see 
 [Bluemix Live Sync](https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html#bluemixlive).
