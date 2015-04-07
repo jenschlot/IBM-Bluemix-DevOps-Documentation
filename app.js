@@ -71,6 +71,14 @@ app.get('/tutorials/gitweb', function(req, res) {
 	res.redirect('/docs/reference/git');
 });
 
+app.get('/tutorials/jazzrtc', function(req, res) {
+	res.redirect('/docs/reference/jazz_scm_client');
+});
+
+app.get('/tutorials/jazzweb', function(req, res) {
+	res.redirect('/tutorials/devopsweb');
+});
+
 _.each(['/docs'],
        function(i) {
 		app.get(i, routes.docs)

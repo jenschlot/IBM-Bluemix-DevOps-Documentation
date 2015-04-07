@@ -323,14 +323,7 @@
 					"uri_prefix": "/tutorials/livesync"
 				},
 
-				{
-					"title": "Develop with Node.js in the Web IDE",
-					"uri_prefix": "/tutorials/jazzweb"
-				},
-				{
-					"title": "Develop with Java in the Eclipse IDE",
-					"uri_prefix": "/tutorials/jazzrtc"
-				},
+			
 				{
 					"title": "Get started with Track & Plan",
 					"uri_prefix": "/tutorials/trackplan"
