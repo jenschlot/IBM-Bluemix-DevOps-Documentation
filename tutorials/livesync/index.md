@@ -1,6 +1,6 @@
 #Develop with Bluemix Live Sync and Node.js
 
-Last modified: 31 March 2015
+Last modified: 7 April 2015
 
 Time: 30 minutes
 
@@ -32,10 +32,10 @@ In this tutorial, you deploy a Node.js app and then update it by using IBM&reg; 
 ---
 <a name='prereq'></a>
 ##Before you begin 
-* [Sign up for DevOps Services](https://hub.jazz.net/register). When you sign up, you'll create an IBM id, create an alias, and register with Bluemix. 
-* [Download and install the Bluemix Live Sync command-line interface for Windows][1].
+* [Sign up for DevOps Services](https://hub.jazz.net/register). When you sign up, you'll create an IBM id, create an alias, and register with Bluemix.
+* Download and install the Bluemix Live Sync command-line interface for [Windows][1] or for [Mac OS X](http://livesync.mybluemix.net/downloads/BluemixLive.pkg).
 
-**Important:** The Live Sync command-line interface is available only for Windows 7 and 8. More platforms are coming soon. [Learn more about the Live Sync command-line interface][16].
+**Important:** The Live Sync command-line interface is available only for Windows 7 and 8 and Mac OS X version 10.9 or later. [Learn more about the Live Sync command-line interface][16].
 
 ---
 <a name='create'></a>
