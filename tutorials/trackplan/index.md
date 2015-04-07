@@ -1,5 +1,5 @@
 
-# Getting started with tracking and planning in Bluemix DevOps Services
+# Get started with tracking and planning in Bluemix DevOps Services
 
 Last modified: 27 March 2015
 
@@ -272,7 +272,7 @@ You set up your sprint and are ready to start work.
 
 10. For the "As a user, I'd like to be able to log into your chat with my Facebook or Google+ account" story, click the Status icon.  Resolve the story by clicking **Set Done** from the menu. 
 
-11. Create new work items and address them.
+11. Create work items and address them.
 
   1. Click **Incoming Work**.
 
