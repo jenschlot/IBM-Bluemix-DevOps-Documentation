@@ -1,0 +1,6 @@
+<script src="/tutorials/lib/scrolldepth/jquery.scrolldepth.min.js"></script>
+<script>
+jQuery(function() {
+  jQuery.scrollDepth();
+});
+</script>

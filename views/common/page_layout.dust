@@ -39,5 +39,6 @@
 			{>"common/footer"/}
 		</div>
 		{>"common/google_analytics"/}
+		{>"common/scrolldepth" /}
 	</body>
 </html>
