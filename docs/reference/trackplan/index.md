@@ -2,7 +2,7 @@
 
 # Track & Plan reference for Bluemix DevOps Services
 
-Last updated: 1 February 2015
+Last updated: 8 April 2015
 
 ## Contents
 * [Creating work items](#creatingwis)
@@ -78,6 +78,7 @@ If you type a keyword, the work item summaries that contain that keyword are dis
 |$Priority|$High|
 |!Severity|!Major|
 
+###Save custom filters
 You can save custom filters and share them with your team. 
 1. In the filter field, type the character for an attribute types and an attribute.
 2. Click **SAVE**.
