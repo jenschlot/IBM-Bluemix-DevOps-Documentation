@@ -2,7 +2,7 @@
 
 # Track & Plan reference for Bluemix DevOps Services
 
-Last updated: 8 April 2015
+Last updated: 9 April 2015
 
 ## Contents
 * [Creating work items](#creatingwis)
@@ -78,18 +78,21 @@ If you type a keyword, the work item summaries that contain that keyword are dis
 |$Priority|$High|
 |!Severity|!Major|
 
-###Save custom filters
+###Saving custom filters
 You can save custom filters and share them with your team. 
-1. In the filter field, type the character for an attribute types and an attribute.
+1. In the filter field, type one more more characters for an attribute type and an attribute for each.
+![Filter with attribute types and attributes](images/filterAttributes.png)
 2. Click **SAVE**.
 3. Name the view.
 4. If you want to include the sprint in your custom view, click the check box.
+![Save custom view dialog with sprint included](images/filterIncludeSprints.png)
 5. Click **SAVE**. 
-6. If you want to share the view with your team, click the arrow next to the new view in the Custom Views section, and then click **OK**.
+6. You can keep your custom filters private, but if you want to share the view with your team, click the arrow next to the new view in the Custom Views section, and then click **OK**.
+![Share custom view arrow](images/filterShare.png)
 
-You can delete custom filters or keep them private. Note that custom filters only return results for the current sprint and status that you reviewing.
+Note that custom filters only return results for the current sprint and status that you're viewing unless you selected the option to include a particular sprint in your custom view.
 
-If you want to modify a saved custom filter, you must delete it and create a new filter. 
+
 
 <a name='organizingwis'></a>
 ##Viewing and organizing your work items
