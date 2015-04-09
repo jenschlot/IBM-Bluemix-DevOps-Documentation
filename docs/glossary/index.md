@@ -169,8 +169,7 @@ of work, which is often completed over several sprints. Epics can be divided int
 
 <a name="fork"></a>
 **fork**  
-To create a project that contains a divergent copy of a repository that can be modified without
-affecting or having to synchronize with the original.
+To create a project and Git repository that contain all of the repository content and history of another project.
 
 ---
 <a name="G"></a>
