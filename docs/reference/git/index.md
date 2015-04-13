@@ -1,6 +1,6 @@
 #Git reference
 
-Last modified: 3 February 2015
+Last modified: 13 April 2015
 
 If you store your code in a Git repository that is hosted by IBM® Bluemix&trade; DevOps Services, you can work with code in a Git terminal or in a web integrated development environment (IDE). If you work on a local workstation, you can use Git terminal commands to edit the contents of your hosted repository. If you use the Web IDE, you don't need the Git terminal: you can run many common Git commands in the Web IDE.  
 
@@ -48,7 +48,7 @@ No matter where you code, you can use this quick reference to do common tasks.
 ### Set up a local Git repository
 
 #### DevOps Services Web IDE
-When you use a hosted Git repository with your Bluemix DevOps Services project, you work with both your local and remote repositories through the Web IDE.
+When you use a hosted Git repository with your DevOps Services project, you work with both your local and remote repositories through the Web IDE.
 
 1. Click **EDIT CODE** <img src="./images/editcode.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;"> and start coding!
 
@@ -61,7 +61,7 @@ If you want to code and test locally, set up a local repository.
 
 1. By using your terminal, move to the directory.  
 
-1. [Go to Bluemix DevOps Services][2]. On the My Stuff page, click your project's name.
+1. [Go to DevOps Services][2]. On the My Stuff page, click your project's name.
 
 1. From your project's Overview page, click **Git URL** and copy the URL.
 
@@ -77,7 +77,7 @@ and repeat the steps by using a modified repository address: `https://your_alias
 <a name="replace_your_origin _repository"></a>
 ### Replace your origin repository
 
-#### Bluemix DevOps Services Web IDE
+#### DevOps Services Web IDE
 
 1. Click the configuration icon <img src="./images/configuration.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">.
 
@@ -98,7 +98,7 @@ and repeat the steps by using a modified repository address: `https://your_alias
 
 ###Integrate local commits in the Web IDE
 
-When you work in the Web IDE, both your local and remote repositories are hosted on the cloud. To view the  changes that you made in a local repository that is stored outside of Bluemix DevOps Services, you must sync to your remote repository.
+When you work in the Web IDE, both your local and remote repositories are hosted on the cloud. To view the  changes that you made in a local repository that is stored outside of DevOps Services, you must sync to your remote repository.
 
 1. Click **SYNC**. Sync combines the fetch, rebase, and push commands.
 
@@ -110,7 +110,7 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 <a name="create_a_local_branch"></a>
 ### Create a local branch
 
-#### Bluemix DevOps Services Web IDE
+#### DevOps Services Web IDE
 1. Click the **REFERENCE** field.
 
 1. Click **NEW BRANCH**.
@@ -124,7 +124,7 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 <a name="start_working_on_a_local_branch"></a>
 ### Work on a local branch
 
-#### Bluemix DevOps Services Web IDE
+#### DevOps Services Web IDE
 1. Click the **REFERENCE** field
 
 1. Next to local, click **>**.
@@ -143,7 +143,7 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 <a name="update_a_local_branch_with_changes_from_the_remote_branch"></a>
 ### Update a local branch to include changes from the remote branch
 
-####Bluemix DevOps Services Web IDE
+#### DevOps Services Web IDE
 1. Click **SYNC**.
 
 1. If you encounter conflicts, [resolve them](#resolve_a_rebase_conflict).
@@ -157,7 +157,7 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 <a name="delete_a_local_branch"></a>
 ### Delete a local branch
 
-####Bluemix DevOps Services Web IDE
+#### DevOps Services Web IDE
 1. Confirm that you do not have the branch to delete checked out. If you do, [check out another branch](#start_working_on_a_local_branch).
 
 1. Click the **REFERENCE** field
@@ -178,7 +178,7 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 <a name="commit_files_to_the_remote_branch"></a>
 ### Commit files and push to the remote branch
 
-#### Bluemix DevOps Services Web IDE
+#### DevOps Services Web IDE
 2. In the Working Directory Changes pane, select the check box for each file to commit.
 
 3. In the **Enter the commit message** field, type a message that describes your changes.  
@@ -203,7 +203,7 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 ---
 <a name="link_commit"></a>
 ### Link a commit to a work item
-To link a commit to a Track & Plan work item for a Git project that is hosted at Bluemix DevOps Services, add a work-item keyword and number to the Git commit message.
+To link a commit to a Track & Plan work item for a Git project that is hosted at DevOps Services, add a work-item keyword and number to the Git commit message.
 
 1. When you write a Git commit message, specify a work item. The message format is `<work item keyword> <number>`.
  * For example, if you type `Implements story 32` as the commit message, you link the commit to story item 32.
@@ -217,14 +217,14 @@ To link a commit to a Track & Plan work item for a Git project that is hosted at
 
 **Note:** If your repository is hosted on GitHub, you can link your commits to work items when you push. This activity requires extra configuration:
 
-1. Open your Bluemix DevOps Services project's Overview page.
-2. Under the message to GitHub users, click **configure GitHub** to get instructions to configure commit linking between GitHub and Bluemix DevOps Services.
+1. Open your DevOps Services project's Overview page.
+2. Under the message to GitHub users, click **configure GitHub** to get instructions to configure commit linking between GitHub and DevOps Services.
 
 ---
 <a name="view_the_commit_history"></a>
 ### View the commit history
 
-####Bluemix DevOps Services Web IDE
+####DevOps Services Web IDE
 1. In the Active Branch pane, next to HISTORY, click the **>**.
 
 ####Git terminal
@@ -240,7 +240,7 @@ To link a commit to a Track & Plan work item for a Git project that is hosted at
 <a name="compare_changes_that_a_commit_introduced"></a>
 ### Compare changes that a commit introduced
 
-####Bluemix DevOps Services Web IDE
+####DevOps Services Web IDE
 1. View your commit history and locate the commit. For more information, [see View the commit history][4].
 
 2. View the details of the commit by clicking it.
@@ -266,7 +266,7 @@ To link a commit to a Track & Plan work item for a Git project that is hosted at
 ### Modify the last commit
 **Note**: Do not modify your last commit after you push it to a remote repository.
 
-####Bluemix DevOps Services Web IDE
+####DevOps Services Web IDE
 1. Select the check boxes for the items to add to the commit.
 
 1. Select the **Amend Previous Commit** check box.
@@ -287,7 +287,7 @@ To link a commit to a Track & Plan work item for a Git project that is hosted at
 <a name="tag_a_commit"></a>
 ### Tag a commit
 
-####Bluemix DevOps Services Web IDE
+####DevOps Services Web IDE
 1. View your commit history and locate the commit. For more information, [see View the commit history][4].
 
 2. View the details of the commit by clicking it.
@@ -305,7 +305,7 @@ To link a commit to a Track & Plan work item for a Git project that is hosted at
 <a name="change_the_committer_name_and_email_address"></a>
 ### Change the committer name and email address
 
-#### Bluemix DevOps Services Web IDE
+#### DevOps Services Web IDE
 2. Click the configuration icon <img src="./images/configuration.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">.
 
 3. Update the values of user.email and user.name to change the user email address and name, respectively. Click **Submit** to save each change.
@@ -330,27 +330,29 @@ To update your name and email address for all repositories
 <a name="merge_changes"></a>
 ### Merge changes
 
-####Bluemix DevOps Services Web IDE
-1. Decide which branches to merge. You merge the contents of the source branch into the destination branch.
+When you need to deliver changes from a source branch to a destination branch, you merge. Typically, the source branch is the branch you made changes in, and the destination branch is your master branch.
 
-2. Checkout the destination branch. For more information, [see Work on a local branch][5].
+####DevOps Services Web IDE
+1. Decide which branches to merge.
 
-1. Click the **REFERENCE** field.
+2. Check out the destination branch. For more information, [see Work on a local branch][5].
 
-1. Click the name of the source branch.
+1. Click the arrow next to the **REFERENCE** field.
 
-1. On the Active Branch panel, in the Incoming pane, click **Merge**.
+1. Expand the **local** section, and then click the name of the source branch.
 
-1. Click the **REFERENCE** field.
+1. In the Incoming section on the right, click the **Merge** icon.
 
-1. Expand the **>** by origin and click the name of the source branch.
+1. Click the arrow next to the **REFERENCE** field.
+
+1. Expand the **origin** section, and then click the name of the source branch.
 
 1. Click **PUSH**.
 
 ####Git terminal
-1. Decide which branches to merge. You merge the contents of the source branch into the destination branch.
+1. Decide which branches to merge. 
 
-2. Checkout the destination branch. For more information, [see Work on a local branch][5].
+2. Check out the destination branch. For more information, [see Work on a local branch][5].
 
 3. Type `git merge <source_name>` and press Enter.
 
@@ -358,7 +360,7 @@ To update your name and email address for all repositories
 <a name="resolve_a_merge_conflict"></a>
 ### Resolve a merge conflict
 
-####Bluemix DevOps Services Web IDE
+####DevOps Services Web IDE
 1. In the Changed Files pane, review the list of files that contain conflicts.
 
 2. In the Web IDE, open each file that contains conflicts.
@@ -392,10 +394,10 @@ To update your name and email address for all repositories
 <a name="rebase_branches"></a>
 ### Rebase branches
 
-####Bluemix DevOps Services Web IDE
+####DevOps Services Web IDE
 1. Decide which branches to rebase. You will rebase the contents of the source branch into the destination branch.
 
-2. Checkout the destination branch. For more information, [see Work on a local branch][5].
+2. Check out the destination branch. For more information, [see Work on a local branch][5].
 
 1. Click the **REFERENCE** field.
 
@@ -427,7 +429,7 @@ To update your name and email address for all repositories
 <a name="resolve_a_rebase_conflict"></a>
 ### Resolve a rebase conflict
 
-####Bluemix DevOps Services Web IDE
+####DevOps Services Web IDE
 1. In the Working Directory Changes pane, review the list of conflicting files.
 
 2. In the Web IDE, open each file that contains conflicts.
