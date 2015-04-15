@@ -2,7 +2,7 @@
 
 # Track & Plan reference for Bluemix DevOps Services
 
-Last updated: 14 April 2015
+Last updated: 15 April 2015
 
 ## Contents
 * [Creating work items](#creatingwis)
@@ -69,7 +69,7 @@ You can filter work items based on keywords or on values for specific attribute 
 
 If you type a keyword, the work item summaries that contain that keyword are displayed. You can also filter work items based on values for specific attributes. For details, see the following table.
 
-| Attribute filter |Example | 
+| Attribute type |Attribute example | 
 |-------|-------|
 |*Type  | *Defect |
 |#Tag  | #conference| 
@@ -84,7 +84,7 @@ You can save custom filters and share them with your team.
 ![Filter with attribute types and attributes](images/filterAttributes.png)
 2. Click **SAVE**.
 3. Name the view. 
-4. If you want to include the sprint that you're currently viewing in your new custom filter ("Backlog" in the image below), click the check box to include it.
+4. If you want the sprint that you're currently viewing to be included in your new custom filter ("Backlog" in the image below), click the check box to include it.
 ![Save custom view dialog with sprint included](images/filterIncludeSprints.png)
 5. Click **SAVE**. 
 6. You can keep your custom filters private, but if you want to share the saved filters with your team, click the arrow next to the new view in the Custom Views section, and then click **OK**.
