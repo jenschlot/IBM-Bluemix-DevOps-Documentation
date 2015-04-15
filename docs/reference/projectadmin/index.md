@@ -1,6 +1,6 @@
 # Administer a project in Bluemix DevOps Services 
 
-Last modified: 26 February 2015
+Last modified: 15 April 2015
 
 To administer IBM&reg; Bluemix&trade; DevOps Services (DevOps Services) projects, you must be a project admin or a project owner. A project can have multiple admins, but it can only have one owner. 
 
@@ -66,8 +66,8 @@ To promote others to project admins, complete these steps:
 
 1. If the people that you want to promote aren't project members, invite them. 
 
-2. On the OVERVIEW or MEMBERS page, click **Settings**. 
-![Settings button on the overview page][4]
+2. On the OVERVIEW or MEMBERS pages, click **Settings**. Note that on the MEMBERS page, you can also click **MANAGE ADMINS**, which is a shortcut to the PROJECT ADMINS page.
+![Settings and manage admins buttons on the members page][4]
 
 3. When the GENERAL page opens, click the PROJECT ADMINS page in the navigation pane.
 ![Project Admins page link in navigation pane][5]
