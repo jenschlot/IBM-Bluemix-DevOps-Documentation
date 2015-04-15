@@ -5,7 +5,8 @@
 <Your email>
 
 ---
-Welcome to your tutorial.  Tell the reader why your tutorial is important. What can the reader gain from reading (motive) and doing this tutorial (benefits).
+Welcome to your tutorial.  
+Tell the reader why your tutorial is important. What can the reader gain from reading (motive) and doing this tutorial (benefits).
 
 For example, welcome to the Markdown template to create tutorial content. You can use this template as a basis for a new tutorial, 
 or use it to help you prepare existing content for a tutorial. This template provides examples of common constructs used in tutorials. 
