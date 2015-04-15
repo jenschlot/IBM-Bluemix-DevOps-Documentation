@@ -1,6 +1,6 @@
 #Git reference
 
-Last modified: 13 April 2015
+Last modified: 1 April 2015
 
 If you store your code in a Git repository that is hosted by IBM® Bluemix&trade; DevOps Services, you can work with code in a Git terminal or in a web integrated development environment (IDE). If you work on a local workstation, you can use Git terminal commands to edit the contents of your hosted repository. If you use the Web IDE, you don't need the Git terminal: you can run many common Git commands in the Web IDE.  
 
@@ -61,7 +61,7 @@ If you want to code and test locally, set up a local repository.
 
 1. By using your terminal, move to the directory.  
 
-1. [Go to DevOps Services][2]. On the My Stuff page, click your project's name.
+1. [Go to DevOps Services][2]. On the My Projects page, click your project's name.
 
 1. From your project's Overview page, click **Git URL** and copy the URL.
 
@@ -85,9 +85,7 @@ and repeat the steps by using a modified repository address: `https://your_alias
 
 1. In the **value** field, paste your new repository URL. Click **Submit**.
 
-1. Click the **REFERENCE** field.
-
-1. In the origin pane, click the fetch icon <img src="./images/fetchfromremote.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;"> to fetch from the remote repository.
+1. Click the **REFERENCE** list and expand **origin**. Click the fetch icon <img src="./images/fetchfromremote.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;"> to fetch from the remote repository.
 
 #### Git terminal
 
@@ -111,11 +109,11 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 ### Create a local branch
 
 #### DevOps Services Web IDE
-1. Click the **REFERENCE** field.
+1. Click the **REFERENCE** list.
 
 1. Click **NEW BRANCH**.
 
-2. In the **Name** field, type your branch name. Click **Submit**.
+2. Type your branch name, and then click **Submit**.
 
 #### Git terminal
 1. Type `git branch <branchname>` and press Enter.
@@ -125,13 +123,11 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 ### Work on a local branch
 
 #### DevOps Services Web IDE
-1. Click the **REFERENCE** field
+1. Click the **REFERENCE** list and expand **local**.
 
-1. Next to local, click **>**.
+2. Next to the branch to modify, click the checkout icon <img src="./images/checkout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">.
 
-2. Next to the branch to modify, click **Checkout** <img src="./images/checkout.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">.
-
-1. Confirm that the contents of the **REFERENCE** field contain your selected branch.
+1. Make sure that your selected branch is shown in the **REFERENCE** list.
 
 #### Git terminal
 1. To view your local branches, type `git branch -l` and press Enter.
@@ -158,11 +154,9 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 ### Delete a local branch
 
 #### DevOps Services Web IDE
-1. Confirm that you do not have the branch to delete checked out. If you do, [check out another branch](#start_working_on_a_local_branch).
+1. Make sure that the branch to delete is not checked out. If that branch is checked out, [check out another branch](#start_working_on_a_local_branch).
 
-1. Click the **REFERENCE** field
-
-1. Next to local, click **>**.
+1. Click the **REFERENCE** list and expand **local**.
 
 2. Next to the local branch to remove, click **Delete** <img src="./images/delete.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">.
 
@@ -179,7 +173,7 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 ### Commit files and push to the remote branch
 
 #### DevOps Services Web IDE
-2. In the Working Directory Changes pane, select the check box for each file to commit.
+1. In the Working Directory Changes section, select the check box for each file to commit.
 
 3. In the **Enter the commit message** field, type a message that describes your changes.  
 **Tip**: In the commit message, describe your changes well.
@@ -225,7 +219,7 @@ To link a commit to a Track & Plan work item for a Git project that is hosted at
 ### View the commit history
 
 ####DevOps Services Web IDE
-1. In the Active Branch pane, next to HISTORY, click the **>**.
+1. In the Active Branch section, expand **History**.
 
 ####Git terminal
 1. Type `git log` and press Enter. 
@@ -306,18 +300,18 @@ To link a commit to a Track & Plan work item for a Git project that is hosted at
 ### Change the committer name and email address
 
 #### DevOps Services Web IDE
-2. Click the configuration icon <img src="./images/configuration.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">.
+1. Click the configuration icon <img src="./images/configuration.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">.
 
-3. Update the values of user.email and user.name to change the user email address and name, respectively. Click **Submit** to save each change.
+3. Change the user email address and name by updating the user.email and user.name values. Click **Submit** to save each change.
 
 #### Git terminal
-To update your name and email address for a single repository
+To update your name and email address for a single repository:
 
 1. Type `git config user.email "<your@email.com>"` and press Enter.
 
 2. Type `git config user.name "<Your Name>"` and press Enter.
 
-To update your name and email address for all repositories
+To update your name and email address for all repositories:
 
 1. Type `git config --global user.email "<your@email.com>"` and press Enter.
 
@@ -330,24 +324,28 @@ To update your name and email address for all repositories
 <a name="merge_changes"></a>
 ### Merge changes
 
-When you need to deliver changes from a source branch to a destination branch, you merge. Typically, the source branch is the branch you made changes in, and the destination branch is your master branch.
+When you need to deliver changes from a source branch to a destination branch, you must first merge. Typically, the source branch is the branch you made changes in, and the destination branch is your master branch.
 
 ####DevOps Services Web IDE
 1. Decide which branches to merge.
 
 2. Check out the destination branch. For more information, [see Work on a local branch][5].
 
-1. Click the arrow next to the **REFERENCE** field.
+ <img src="./images/destinationbranch.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">
 
-1. Expand the **local** section, and then click the name of the source branch.
+1. Click the **REFERENCE** list, expand **local**, and click the name of the source branch. The changes from the source branch are shown in the Incoming section.
 
-1. In the Incoming section on the right, click the **Merge** icon.
+  <img src="./images/sourcebranch.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">
 
-1. Click the arrow next to the **REFERENCE** field.
+1. In the Incoming section, click the **Merge** icon. 
 
-1. Expand the **origin** section, and then click the name of the source branch.
+ <img src="./images/mergeicon.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">
 
-1. Click **PUSH**.
+1. In the **REFERENCE** list, click the checkout icon next to the branch that you just merged the changes into.
+
+  <img src="./images/checkoutmaster.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">
+
+1. If you want to deliver the changes, click **PUSH**. Otherwise, at this point, you can create a test deployment to make sure that everything is working as expected.
 
 ####Git terminal
 1. Decide which branches to merge. 
@@ -399,19 +397,17 @@ When you need to deliver changes from a source branch to a destination branch, y
 
 2. Check out the destination branch. For more information, [see Work on a local branch][5].
 
-1. Click the **REFERENCE** field.
+1. Click the **REFERENCE** list.
 
 1. Click the name of the source branch.
 
-1. In the Active Branch panel, under Incoming, click **Rebase** <img src="./images/rebase.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">.
+1. In the Incoming section, click the rebase icon <img src="./images/rebase.gif"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">.
 
 5. If you encounter conflicts, [resolve them](#resolve_a_rebase_conflict).
 
 6. Repeat the previous step as many times as necessary to complete the rebase operation.
 
-1. Click the **REFERENCE** field.
-
-1. Expand the **>** by origin and click the name of the source branch.
+1. Click the **REFERENCE** list, expand **origin**, and click the name of the source branch.
 
 1. Click **PUSH**.
 
@@ -430,7 +426,7 @@ When you need to deliver changes from a source branch to a destination branch, y
 ### Resolve a rebase conflict
 
 ####DevOps Services Web IDE
-1. In the Working Directory Changes pane, review the list of conflicting files.
+1. In the Working Directory Changes section, review the list of conflicting files.
 
 2. In the Web IDE, open each file that contains conflicts.
 
