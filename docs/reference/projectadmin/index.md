@@ -1,18 +1,18 @@
 # Administer a project in Bluemix DevOps Services 
 
-Last modified: 15 April 2015
+Last modified: 16 April 2015
 
-To administer IBM&reg; Bluemix&trade; DevOps Services (DevOps Services) projects, you must be a project admin or a project owner. A project can have multiple admins, but it can only have one owner. 
+To administer IBM&reg; Bluemix&trade; DevOps Services projects, you must be a project admin or a project owner. A project can have multiple admins, but it can only have one owner. 
 
 ##Project owner privileges
-Project owners can do everything that project admins and members can do and more. Tasks that only project owners can do are:
+Project owners can do everything that project admins and members can do. In addition, project owners can do these tasks:
 * Rename the project
 * Transfer ownership of the project
 * Delete the project
 
 ##Project admin privileges
 
-In addition to the tasks that project members can do, project admins can also do these tasks:
+Project admins can do the tasks that project members can do, as well as these tasks:
 * Invite others to join the project
 * Accept or decline when others request to join the project
 * Promote members to admins 
@@ -34,7 +34,7 @@ In addition to the tasks that project members can do, project admins can also do
 
 
 ##Project member privileges
-Project members have the fewest privileges and responsibilities. Members can do these tasks:  
+Project members have the fewest privileges and responsibilities. They can do these tasks:  
 * Add and edit work items
 * Create Git branches for Git projects
 * Create tags for Git projects
@@ -45,15 +45,13 @@ Project members have the fewest privileges and responsibilities. Members can do 
 ----
 ##Managing projects
 
-A common task for project owners and admins is to manage the project's settings and members. When you sign in to DevOps Services, the MY PROJECTS page opens. The REQUESTS tab on this page lists any incoming requests from others to join projects for which you are an admin. As an admin, you can accept or reject these requests. 
+A common task for project owners and admins is to manage the project's settings and members. When you sign in to DevOps Services, the My Projects page opens. The Requests page, you can see any requests to join projects that you administer. As an admin, you can accept or reject those requests. 
 
-For a project for which you are an owner or admin, you can invite new members from the MEMBERS tab of the project page by clicking the **Invite Members** button.
+In projects that you own or administer, you can invite people to be members. On the Members page, click **INVITE MEMBERS**.
 
-As a project owner or admin, you can also change your project settings. To do so, click the **Settings** icon.
+As a project owner or admin, you can also change your project settings. For example, you can add or change the project's image, modify its description, enable or disable features, and make the project public or private. If you are the project owner, you can also reassign its ownership or delete the project. To access the project settings, click the **Settings** icon.
 
 ![Project settings gear icon][7]
-
-On the project settings page, on the OVERVIEW tab, you can add or change the project image and modify the project description.  On the OPTIONS tab, you can make the project public or private and enable or disable Track & Plan. If you are the project owner, you can reassign ownership or delete the project entirely.
 
 ----
 ##Promoting or demoting project admins
