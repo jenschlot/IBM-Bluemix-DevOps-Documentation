@@ -9,8 +9,6 @@ Time: 30 minutes
 * [Create an app with Bluemix](#create_bluemix_app)
 * [Set up Git integration and auto-deploy](#git_integration_and_autodeployment)
 * [Push changes to the Git repository by using the Web IDE](#push)
-* [Deploy by using the Web IDE](#deployment)
-* [Update a running app automatically with Bluemix Live Sync](#bluemix_live_sync)
 * [Summary](#summary)
  
  
@@ -21,7 +19,6 @@ Time: 30 minutes
 * Create an app in IBM&reg; Bluemix&trade; by using the SDK for Node.js starter pack.
 * Create a Git repository for the app.
 * Push changes to the Git repository from the IBM&reg; Bluemix&trade; DevOps Services Web IDE.
-* Preview and deploy your changes by using the Web IDE run bar.
 
 ---
 
@@ -82,9 +79,6 @@ You created a Git repository, populated it with the example code, and deployed t
 3. Go to the app's Overview page and click **EDIT CODE**. Your new project opens in the web integrated development environment (Web IDE).  
 ![CODE button](/tutorials/jazzeditor/images/bm-code-button_NEW.png)
 
-4. To check the status of the app, review the run bar and click the **Open the application URL** icon.
-![Web IDE](/tutorials/jazzeditor/images/orion_NEW.png)
-
 ---
 <a name='push'></a>
 ##Push changes to the Git repository by using the Web IDE
@@ -115,42 +109,9 @@ syntax checking and code completion, both for standard language constructs and f
 ![Orion Git push](/tutorials/jazzeditor/images/orion-push_NEW.png)
 
 7. To verify that your code was deployed, 
-go to the Build & Deploy page and wait until you see an indication that the 
-app was deployed again. Then, click the URL link that is next to "Deploy to." Your update is shown.
+click **BUILD & DEPLOY** and wait until you see an indication that the 
+app was deployed again. In the Deploy stage, under LAST EXECUTION RESULT, click the URL link that is next to "Deploy to." Your update is shown.
 ![Our really cool app](/tutorials/jazzeditor/images/really-cool_NEW.png)
-
----
-<a name='deployment'></a>
-##Deploy by using the Web IDE
-
-###Run bar
-
-In the Web IDE, you can deploy your code to Bluemix by clicking the **Play** icon on the run bar. 
-
-![Run bar][1]
-
-By clicking the **Play** icon, you deploy the current state of your code in the Web IDE. To deploy the code that is checked into the repository, use the Delivery Pipeline.
-
-Both the command-line tools and the Web IDE are effective for rapid, solo development, but the IBM Continuous Delivery Pipeline for Bluemix feature adds the security of controlling what is pushed, especially in team environments. With the Delivery Pipeline feature, you always know that the code running in the app matches a known state in the repository, instead of whatever was in your working directory when you pushed changes.
-
-<a name='bluemix_live_sync'></a>
-
-###Update a running app automatically with Bluemix Live Sync
-
-With Node.js apps, you can make changes to static files, like HTML or CSS, and have them immediately propagated to the deployed app by using the Bluemix Live Sync feature. 
-
-1. In the Web IDE, turn on Live Edit mode. 
-2. To see your updated static files, refresh the app in your browser.  
-3. If you update a node module, use the **Quick Restart** icon to restart the node run time in a matter of seconds, without redeploying the app.
-
-![Run bar with Live Edit](images/live_edit.png)
-
-You can use the Debug feature to create breakpoints and inspect variables in your node modules so you can isolate problem areas as you work. 
-
-For more information, see 
-[Bluemix Live Sync](https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html#bluemixlive).
-
-
 
 ---
 <a name='summary'></a>
