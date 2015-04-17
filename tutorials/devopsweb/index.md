@@ -31,7 +31,7 @@ Time: 60 minutes
 <a name='prereq'></a>
 ## Before you begin
 
-Are you new to DevOps Services? If you're not quite sure what you can do with it, [find out](https://hub.jazz.net/docs/overview/).
+Are you new to DevOps Services? If you're not quite sure what you can do with it, [get a quick overview before you start this tutorial](https://hub.jazz.net/docs/overview/).
 
 If you haven't already registered for DevOps Services, [sign up](https://hub.jazz.net/register). When you sign up, you'll create an IBM id, create an alias, and register with Bluemix. 
 
