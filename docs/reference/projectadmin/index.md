@@ -1,6 +1,6 @@
 # Administer a project in Bluemix DevOps Services 
 
-Last modified: 16 April 2015
+Last modified: 17 April 2015
 
 To administer IBM&reg; Bluemix&trade; DevOps Services projects, you must be a project admin or a project owner. A project can have multiple admins, but it can only have one owner. 
 
@@ -56,29 +56,32 @@ As a project owner or admin, you can also change your project settings. For exam
 ----
 ##Promoting or demoting project admins
 
-In the past, DevOps Services projects only allowed one project admin. Now that you can have multiple admins, you can be promoted or promote others to the project admin role.
+Because each project can have multiple admins, you can be promoted or promote others to the project admin role. 
 
-Before you can be promoted to a project admin, you must be a member of the project. Ask the project owner or a project admin to invite you to join the project and promote you to a project admin. (If you are the project creator, you already have the ability to promote others.)
+Before you can be promoted to a project admin, you must be a member of the project. Ask the project owner or a project admin to invite you to join the project and promote you to be a project admin. If you are the project creator, you can already promote others.
 
-To promote others to project admins, complete these steps:
+To promote others to be project admins:
 
 1. If the people that you want to promote aren't project members, invite them. 
 
-2. On the OVERVIEW or MEMBERS pages, click **Settings**. Note that on the MEMBERS page, you can also click **MANAGE ADMINS**, which is a shortcut to the PROJECT ADMINS page.
+2. On the Overview or Members pages, click the **Settings** icon. 
+**Tip:** If you're on the Members page, you can quickly go to the Project Admins page by clicking **MANAGE ADMINS**. 
 ![Settings and manage admins buttons on the members page][4]
 
-3. When the GENERAL page opens, click the PROJECT ADMINS page in the navigation pane.
+3. If you clicked the **Settings** icon on the Overview page, the project settings pages open. Click **PROJECT ADMINS**.
 ![Project Admins page link in navigation pane][5]
 
-4. On the PROJECT ADMINS page, select the members to promote and click **PROMOTE**.
+4. On the Project Admins page, select the members to promote and click **PROMOTE**.
 ![Promote button on the project admins page][6]
 
-The newly promoted members are listed as project admins and an email is sent that shares the good news.  
+The newly promoted members are listed as project admins, and they automatically receive an email about their new role.
 
-To demote project admins to be regular project members, on the Project Admins page, select the admins whose privileges to remove and click **DEMOTE**.
+To demote project admins to be regular project members:
+1. On the Project Admins page, select the admins whose privileges you want to remove. 
+2. Click **DEMOTE**.
 ![Project admin selected for demotion][8]
 
-The former project admins are listed as members and an email is sent that notifies the former admins of the change.
+The former project admins are listed as members, and they automatically receive an email about the role change..
 
 [1]: images/invitemembers.png
 [2]: images/projadminspage1.png
