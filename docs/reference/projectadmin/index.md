@@ -12,7 +12,7 @@ Project owners can do everything that project admins and members can do. In addi
 
 ##Project admin privileges
 
-Project admins can do the tasks that project members can do, as well as these tasks:
+Project admins can do the tasks that project members can do as well as these tasks:
 * Invite others to join the project
 * Accept or decline when others request to join the project
 * Promote members to admins 
@@ -45,7 +45,7 @@ Project members have the fewest privileges and responsibilities. They can do the
 ----
 ##Managing projects
 
-A common task for project owners and admins is to manage the project's settings and members. When you sign in to DevOps Services, the My Projects page opens. The Requests page, you can see any requests to join projects that you administer. As an admin, you can accept or reject those requests. 
+A common task for project owners and admins is to manage the project's settings and members. When you sign in to DevOps Services, the My Projects page opens. On the Requests page, you can see any requests to join projects that you administer. As an admin, you can accept or reject those requests. 
 
 In projects that you own or administer, you can invite people to be members. On the Members page, click **INVITE MEMBERS**.
 
@@ -64,7 +64,8 @@ To promote others to be project admins:
 
 1. If the people that you want to promote aren't project members, invite them. 
 
-2. On the Overview or Members pages, click the **Settings** icon. 
+2. On the Overview page, click the **Settings** icon. 
+
 **Tip:** If you're on the Members page, you can quickly go to the Project Admins page by clicking **MANAGE ADMINS**. 
 ![Settings and manage admins buttons on the members page][4]
 
