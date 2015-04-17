@@ -64,12 +64,11 @@ To promote others to be project admins:
 
 1. If the people that you want to promote aren't project members, invite them. 
 
-2. On the Overview page, click the **Settings** icon. 
-
-**Tip:** If you're on the Members page, you can quickly go to the Project Admins page by clicking **MANAGE ADMINS**. 
+2. On the Overview or Members pages, click the **Settings** icon.
+ 
+	**Tip:** If you're on the Members page, you can quickly go to the Project Admins page by clicking **MANAGE ADMINS**. 
 ![Settings and manage admins buttons on the members page][4]
-
-3. If you clicked the **Settings** icon on the Overview page, the project settings pages open. Click **PROJECT ADMINS**.
+3. If you clicked the **Settings** icon, the project settings pages open. Click **PROJECT ADMINS**.
 ![Project Admins page link in navigation pane][5]
 
 4. On the Project Admins page, select the members to promote and click **PROMOTE**.
