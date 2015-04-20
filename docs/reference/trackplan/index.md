@@ -20,7 +20,7 @@ With the Track & Plan feature, you track work for a project through work items. 
 
 <a name='creatingwis'></a>
 ##Creating work items
-You can create a work item in more than one way. How you set up a work item depends on how you create it. For example, if you create a work item in the "My Work" view, you own the work item automatically. To set the attributes, click the icons, as shown in the following image. You can also open and edit a work item's attributes by clicking the work item's summary. 
+You can create a work item in more than one way. How you set up a work item depends on how you create it. For example, if you create a work item in the My Work view, you own the work item automatically. To set the attributes, click the icons, as shown in the following image. You can also open and edit a work item's attributes by clicking the work item's summary. 
 
 ![Assigning work item attributes](images/work_item_attributes.png)
 
@@ -97,23 +97,23 @@ Custom views return results for only the current sprint and status that you're v
 <a name='organizingwis'></a>
 ##Viewing and organizing your work items
 
-- To view work items that you own, see the "My Work" view. 
-- If you often use specific work items, you can mark them as your favorites by clicking their Star icons. Then, you can see all of your favorite work items in the "My Starred" view. When you click the Star icon for a work item, no one else can see that you marked it as a favorite.  
-- To view all of the work items that you are subscribed to, see the "My Subscribed" view.
-- To view your work items sorted by their modified dates, see the "My Recent Work" view.
-- To view your work item activity, see the "My Activities" view. The "My Events" section lists the work items that you were mentioned in. The "My Subscriptions" section lists all of the changes that occurred in work items that you are subscribed to.
+- To view work items that you own, see the My Work view. 
+- If you often use specific work items, you can mark them as your favorites by clicking their Star icons. Then, you can see all of your favorite work items in the My Starred view. When you click the Star icon for a work item, no one else can see that you marked it as a favorite.  
+- To view all of the work items that you are subscribed to, see the My Subscribed view.
+- To view your work items sorted by their modified dates, see the My Recent Work view.
+- To view your work item activity, see the My Activities view. The My Events section lists the work items that you were mentioned in. The My Subscriptions section lists all of the changes that occurred in work items that you are subscribed to.
 
 
 
 <a name='triaging'></a>
 ##Triaging work items
 
-When a work item is created byt not assigned to a sprint, the work item is shown in the "Incoming Work" view.
-As soon as a work item is assigned to a sprint, it is removed from the "Incoming Work" view.
+When a work item is created byt not assigned to a sprint, the work item is shown in the Incoming Work view.
+As soon as a work item is assigned to a sprint, it is removed from the Incoming Work view.
 
 In the “Incoming Work” view, you can triage work items in several ways: 
 - To reject the work item, click the **Trash this item** icon . The work item is resolved and its status is changed to Invalid.
-- To accept the work item and assign it to the backlog, click the **Triage to backlog** icon. Then, you can evaluate the work item against other work items in the "Sprint Planning" view and assign the work item to a sprint.
+- To accept the work item and assign it to the backlog, click the **Triage to backlog** icon. Then, you can evaluate the work item against other work items in the Sprint Planning view and assign the work item to a sprint.
 - To assign the work item to a sprint, open the work item and select a value from the **Planned for** list.
 
 ![Triaging work items in the Incoming work view](images/incoming_work_attributes.png)
@@ -121,7 +121,9 @@ In the “Incoming Work” view, you can triage work items in several ways:
 
 <a name='planning'></a>
 ##Planning the work for your team
-In the "Sprint planning" view, you can plan sprints by dragging ranked work items between sprints. To reassign work items, drag them between the lanes.  Tip: If you keep the backlog open, you can move work items easily from the backlog to a specific sprint. You can keep the backlog open by clicking the **Pin** icon.
+In the Sprint Planning view, you can plan sprints by dragging ranked work items between sprint lanes. To reassign work items, drag them between the lanes.  
+
+**Tip:** If you keep the backlog open, you can move work items from the backlog to a specific sprint quickly. To keep the backlog open, click the **Pin** icon.
 
 You can also review statistics about the sprint's progress:
 - Hours worked vs. total hours estimated
@@ -129,17 +131,17 @@ You can also review statistics about the sprint's progress:
 - Story points achieved vs. total story points estimated
 
 ###Ranking work items
-While you plan a sprint, review the work items in the "Backlog" and "Sprint planning" views to rank the work items. Assign story points to work items and  assign them a rank by dragging work items into position.
+While you plan a sprint, review the work items in the Backlog and Sprint Planning views to rank the work items. Rank work items and assign story points to them by dragging work items into position.
 
 
 <a name='progress'></a>
 ##Reviewing the team's progress
-In the "Team's work" view, you can review all of the work items that are assigned to the team and the statistics for the team's progress.
+You can review all of the work items that are assigned to the team on the Team's Work view.
 
-You can also review these available statistics:
+You can also review these statistics:
 - Hours worked vs. total hours estimated
 - Work items completed vs. total work items
 - Story points achieved vs. total story points estimated
 
-You can also review all of the work items by state in the "All work" view.
+To review all of the work items by state, see the All Work view.
 
