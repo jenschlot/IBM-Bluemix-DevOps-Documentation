@@ -111,7 +111,7 @@ Custom views return results for only the current sprint and status that you're v
 When a work item is created byt not assigned to a sprint, the work item is shown in the Incoming Work view.
 As soon as a work item is assigned to a sprint, it is removed from the Incoming Work view.
 
-In the “Incoming Work” view, you can triage work items in several ways: 
+In the Incoming Work view, you can triage work items in several ways: 
 - To reject the work item, click the **Trash this item** icon . The work item is resolved and its status is changed to Invalid.
 - To accept the work item and assign it to the backlog, click the **Triage to backlog** icon. Then, you can evaluate the work item against other work items in the Sprint Planning view and assign the work item to a sprint.
 - To assign the work item to a sprint, open the work item and select a value from the **Planned for** list.
