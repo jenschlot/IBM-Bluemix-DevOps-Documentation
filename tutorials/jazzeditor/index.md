@@ -1,6 +1,6 @@
 #Get started with Bluemix and Bluemix DevOps Services using Node.js
 
-Last modified: 7 April 2015
+Last modified: 21 April 2015
 
 Time: 30 minutes
 
@@ -110,7 +110,10 @@ syntax checking and code completion, both for standard language constructs and f
 
 7. To verify that your code was deployed, 
 click **BUILD & DEPLOY** and wait until you see an indication that the 
-app was deployed again. In the Deploy stage, under LAST EXECUTION RESULT, click the URL link that is next to "Deploy to." Your update is shown.
+app was deployed again. In the Deploy stage, under LAST EXECUTION RESULT, click the URL link that is below the app's name.
+![Clicking the web app's URL](/tutorials/jazzeditor/images/click-webapp-url.png)
+
+Your update is shown.
 ![Our really cool app](/tutorials/jazzeditor/images/really-cool_NEW.png)
 
 ---
