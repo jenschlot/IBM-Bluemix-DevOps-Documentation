@@ -1,6 +1,6 @@
 #Develop with Bluemix Live Sync and Node.js
 
-Last modified: 7 April 2015
+Last modified: 22 April 2015
 
 Time: 30 minutes
 
@@ -15,6 +15,7 @@ In this tutorial, you deploy a Node.js app and then update it by using IBM&reg; 
 * [Edit the app by using the Web IDE and Bluemix Live Sync](#edit_ide)
 * [Edit the app locally by using Bluemix Live Sync](#edit_local)
 * [Summary](#summary)
+* [Next steps](#nextsteps)
 
 
 ---
@@ -174,6 +175,11 @@ If you were working on a real project and you liked the way the app looked, you 
 ##Summary
 
 You used Bluemix Live Sync to edit a Node.js project both in the cloud and locally and to preview your changes along the way.
+
+<a name='nextsteps'></a>
+##Next steps
+
+After you have tested your application, [learn more about setting up automated build and deploy processes](/docs/reference/deploy/). 
 
 [1]: https://jazz.net/pub/bluemixlive/blive_setup.msi 
 [2]: https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html#bluemixlivedebugger

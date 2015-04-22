@@ -1,7 +1,7 @@
 
 # Get started with tracking and planning in Bluemix DevOps Services
 
-Last modified: 27 March 2015
+Last modified: 22 April 2015
 
 Time: 30 minutes
 
@@ -27,6 +27,7 @@ To try the Track & Plan feature, complete this tutorial. You'll start a simple, 
 * [Plan Sprint 1](#plan_sprint_1)
 * [Work through the sprint](#work_through_the_sprint)
 * [Summary](#summary)
+* [Next steps](#nextsteps)
 
 ---
 <a name='objectives'></a>
@@ -291,6 +292,12 @@ You set up your sprint and are ready to start work.
  ##Summary
 
 You have a good overview of the Track & Plan feature and see that you can use it to track any type of project, no matter how small or complex.
+
+---
+ <a name='nextsteps'></a> 
+ ##Next steps
+
+To learn more about the Track & Plan feature, see the [Track & Plan reference for Bluemix DevOps Services](/docs/reference/trackplan).
 
 
 [1]: https://hub.jazz.net

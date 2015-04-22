@@ -1,6 +1,6 @@
 #Get started with Bluemix and Bluemix DevOps Services using Node.js
 
-Last modified: 21 April 2015
+Last modified: 2 April 2015
 
 Time: 30 minutes
 
@@ -10,6 +10,7 @@ Time: 30 minutes
 * [Set up Git integration and auto-deploy](#git_integration_and_autodeployment)
 * [Push changes to the Git repository by using the Web IDE](#push)
 * [Summary](#summary)
+* [Next steps](#nextsteps)
  
  
  ---
@@ -127,5 +128,10 @@ With one click, you created a Git repository, populated it with example code, an
 deployed the app. You changed the code and pushed the changes to the Git repository by using the 
 Web IDE. Then, you automatically built and deployed your changes, checked the deployment status, 
 and verified your changes. 
+
+<a name='nextsteps'></a>
+##Next steps
+
+After you have completed this tutorial, [learn more about testing your application as you develop by using Bluemix Live Sync](/tutorials/livesync). 
 
 [1]: /tutorials/jazzeditor/images/runbar_green.png
