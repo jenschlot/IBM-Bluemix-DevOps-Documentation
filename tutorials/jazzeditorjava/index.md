@@ -231,7 +231,7 @@ In this tutorial, you learned to create and run a Java web app using Bluemix.
 
 
 ---
-<a name='Next steps'></a>
+<a name='next_ steps'></a>
 ## Next steps
 
 [Learn more about Bluemix at IBM Bluemix Docs][53]. 
