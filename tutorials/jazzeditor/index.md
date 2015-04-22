@@ -1,6 +1,6 @@
 #Get started with Bluemix and Bluemix DevOps Services using Node.js
 
-Last modified: 2 April 2015
+Last modified: 21 April 2015
 
 Time: 30 minutes
 
