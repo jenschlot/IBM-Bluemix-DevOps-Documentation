@@ -167,7 +167,28 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 1. Type `git branch -d <branchname>` and press Enter.
 
 ---
-<a name=="reset_remote"></a>
+<a name="reset_remote"></a>
+###Reset a remote branch
+
+To reset the referenced remote branch, overriding its contents with those of your active local branch:
+
+####DevOps Services Web IDE
+
+1. Under Working Directory Changes, click the arrow next to **Push**. 
+2. Click **Force Push Branch**.
+3. Confirm the warning.
+
+####Git terminal
+
+1. Type `git reset 
+
+---
+<a name="reset_local"></a>
+###Reset a remote branch
+
+####DevOps Services Web IDE
+
+####Git terminal
 
 
 ---
