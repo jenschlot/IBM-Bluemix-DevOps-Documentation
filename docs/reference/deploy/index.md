@@ -1,6 +1,6 @@
 #Build & Deploy reference
 
-Last modified: 22 April 2015
+Last modified: 23 April 2015
 
 The Bluemix DevOps Services Build & Deploy feature, also known as Pipeline, automates the continuous deployment of your projects. In a project's Pipeline, sequences of stages retrieve input and run jobs, such as builds, tests, and deployments.
 
@@ -67,10 +67,9 @@ By default, every time a a stage completes in Pipeline, the next stage begins au
 <a name="env_props"></a>
 ####Environment properties
 
-Environment properties are variables whose values are accessible to any job within a stage. This is especially useful when writing scripts that run within stages. For example, a single test script that refers to a `URL` variable could be re-used across many different stages that run jobs that test a particular web app deployment. For each stage, only the `URL` variable would need to be created; the script itself would just refer to its stage's `URL` environment property. 
+Environment properties are variables whose values can be accessed by any job in a stage. These properties are useful when run scripts within stages. For example, you might have a test script that refers to a `URL` variable. You can reuse that script across many stages that run jobs to test a particular web app deployment. For each stage, only the `URL` variable would need to be created; the script itself would just refer to its stage's `URL` environment property. 
 
-You can create environment properties for a stage by entering them individually under ENVIRONMENT PROPERTIES during stage configuration. You can also provide a stage with a properties file by entering the path relative to the stage input. 
-
+You can create environment properties for a stage when you are configuring the stage. Enter the properties individually on the **Environment Properties** tab. You can also provide a stage with a properties file by entering the path relative to the stage input. 
 
 <a name="jobs"></a>
 ###Jobs
