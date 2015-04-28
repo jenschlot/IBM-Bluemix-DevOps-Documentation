@@ -473,8 +473,12 @@
 	 {
 			"title": "Bluemix Docs",
 			"icon": "external_link.gif",
+<<<<<<< HEAD
 			"uri_prefix": "https://www.ng.bluemix.net/docs/",
 			"new_window": true
+=======
+			"uri_prefix": "https://www.ng.bluemix.net/docs/"
+>>>>>>> d621e9e7dad436de0f0193da8fd813d5a749a228
 	 }
   ]
 
