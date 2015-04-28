@@ -2,7 +2,7 @@
 <div class='item
             {@eq key=uri_prefix value=sidebarSelection} selected {/eq}
             {?children} has-children {/children}'>
-	<a href="{uri_prefix}">
+	<a href="{uri_prefix}" {?new_window} target="_blank" {/new_window}>
 		{?icon}
 			<img class="sidebar-icon" src="/tutorials/images/sidebar/{icon}" />
 		{:else}

@@ -471,9 +471,10 @@
 			"uri_prefix": "/support"
 	 },
 	 {
-			"title": "Bluemix Docs",
-			"icon": "external_link.gif",
-			"uri_prefix": "https://www.ng.bluemix.net/docs/"
+			"title": "Bluemix Docs site",
+			"icon": "docs-general.svg",
+			"uri_prefix": "https://www.ng.bluemix.net/docs/",
+			"new_window": true
 	 }
   ]
 
