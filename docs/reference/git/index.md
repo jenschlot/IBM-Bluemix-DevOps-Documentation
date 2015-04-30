@@ -1,10 +1,10 @@
 #Git reference
 
-Last modified: 29 April 2015
+Last modified: 30 April 2015
 
 If you store your code in a Git repository that is hosted by IBM® Bluemix&trade; DevOps Services, you can work with code in a Git terminal or in a web integrated development environment (IDE). If you work on a local workstation, you can use Git terminal commands to edit the contents of your hosted repository. If you use the Web IDE, you don't need the Git terminal: you can run many common Git commands in the Web IDE. 
 
-For a complete guide to Git, [see the official Git documentation][6].
+For a complete Git reference, [see the official Git documentation][6].
 
 To access Git commands from the Web IDE, click the Git Repository icon <img src="./images/gitrepository.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">.
 
