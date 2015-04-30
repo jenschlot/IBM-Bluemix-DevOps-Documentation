@@ -1,5 +1,5 @@
 # FAQs
-##### Last modified: 31 March 2015
+##### Last modified: 29 April 2015
 
 Looking for more answers? Check out our [forum](https://developer.ibm.com/answers/smartspace/devops-services/), where you can ask questions and get advice from IBM developers and the DevOps Services community.
 ____
@@ -10,6 +10,7 @@ ____
 -   [Why can't I sign in to Bluemix DevOps Services from my Rational Team Concert desktop client or Git client? ](#rtcgit)
 -   [Can I connect my project to a GitHub repository?](#git)
 -   [Why can't I use the Add Git link from the Bluemix console?](#git_link)
+-   [Which Git data transfer protocols does DevOps Services support?](#protocols)
 -   [My team doesn't develop code. Is Bluemix DevOps Services right for us?](#q5)
 -   [How do I report a bug?](#q7)
 -   [How can I provide additional feedback?](#q8)
@@ -59,6 +60,12 @@ You can also edit the code that is stored in your GitHub repository by using the
 
 For steps to resolve the issue, see [Cannot add Git repository](https://www.ng.bluemix.net/docs/#troubleshoot/index-gentopic4.html#cannot_addgit).
 
+<a name="protocols"></a>
+
+### Which Git data transfer protocols does DevOps Services support?
+
+DevOps Services only supports the HTTPS protocol for Git URLs. The SSH and Git protocols are not supported.
+ 
 <a name="q5"></a>
 
 ### My team doesn't develop code. Is IBM Bluemix DevOps Services right for us? 
