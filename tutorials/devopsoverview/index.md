@@ -9,9 +9,8 @@ Time: 30 minutes
 <a name='objectives'></a>
 ## Learning objectives
 
-* Learn how to use IBM Bluemix DevOps Services to  do integrated agile planning, coding, building, and deploying to the IBM Bluemix Platform.  You will find step-by-step instructions for the video 
-
-<a href="https://www.youtube.com/watch?v=VJesera9jR0" target="_blank">An Overview of IBM Bluemix DevOps Services by Adam Archer</a>
+Learn how to use IBM Bluemix DevOps Services to  do integrated agile planning, coding, building, and deploying to the IBM Bluemix Platform.  You will find step-by-step instructions for the video 
+<a href="https://www.youtube.com/watch?v=VJesera9jR0" target="_blank"><img src="images/docs-videos.svg"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">An Overview of IBM Bluemix DevOps Services by Adam Archer</a>
 
 # Steps
 * Part 1: Getting started
@@ -45,7 +44,7 @@ Time: 30 minutes
 <a name='create_bluemix_app'></a>
 ## 1.1 Create a sample app
 
-![key info](images/key_info.png)  On the Bluemix website, you can find  [Getting Started with Bluemix](https://www.ng.bluemix.net/docs/#) and  [Bluemix Overview](https://www.ng.bluemix.net/docs/#overview/overview.html#overview).
+<img src="images/key_info.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  On the Bluemix website, you can find  [Getting Started with Bluemix](https://www.ng.bluemix.net/docs/#) and  [Bluemix Overview](https://www.ng.bluemix.net/docs/#overview/overview.html#overview).
 
 
 1. [Sign in to Bluemix](https://www.ng.bluemix.net). The Dashboard opens:
@@ -85,7 +84,7 @@ You created a Git repository, populated it with the example code, and deployed t
 
 ## 1.3 Edit the application with Live Edit
 
-![key info](images/key_info.png) With Node.js apps, you can make changes to static files, like HTML or CSS, and have them immediately propagated to the deployed app by using the Bluemix Live Sync feature.
+<img src="images/key_info.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  With Node.js apps, you can make changes to static files, like HTML or CSS, and have them immediately propagated to the deployed app by using the Bluemix Live Sync feature.
 
 1. Go to the app's Overview page in Bluemix and click **EDIT CODE** (this button replaced the ADD GIT button). Your new project opens in the web integrated development environment (Web IDE).  
 <!--![CODE button](/tutorials/jazzeditor/images/bm-code-button_NEW.png) -->
@@ -97,14 +96,14 @@ You created a Git repository, populated it with the example code, and deployed t
  
 3. To see your updated static files, refresh the deployed app in the browser.  
 
-![key info](images/key_info.png) If you update a node module, use the **Quick Restart** icon to restart the node run time in a matter of seconds, without redeploying the app.
+<img src="images/key_info.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">  If you update a node module, use the **Quick Restart** icon to restart the node run time in a matter of seconds, without redeploying the app.
 
 
 
 <!-- You can use the Debug feature to create breakpoints and inspect variables in your node modules so you can isolate problem areas as you work. -->
  
-![key info](images/key_info.png) For more information and to learn about the Desktop Sync feature, see 
-[Bluemix Live Sync](https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html#bluemixlive).
+<table border="0"><tr><td><img src="images/key_info.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;"></td><td>  For more information and to learn about the Desktop Sync feature, see 
+[Bluemix Live Sync](https://www.ng.bluemix.net/docs/#manageapps/bluemixlive.html#bluemixlive).</td></tr></table>
 
 4. In the directory, click on `public/index.html`.  Change "Hi there!" to "Hi there! More title text!". You can see the changes in the deployed app.  
 
