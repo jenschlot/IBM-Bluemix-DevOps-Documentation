@@ -10,7 +10,7 @@ Time: 30 minutes
 ## Learning objectives
 
 Learn how to use IBM Bluemix DevOps Services to  do integrated agile planning, coding, building, and deploying to the IBM Bluemix Platform.  You will find step-by-step instructions for the video 
-<a href="https://www.youtube.com/watch?v=VJesera9jR0" target="_blank"><img src="images/docs-videos.svg"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">An Overview of IBM Bluemix DevOps Services by Adam Archer</a>
+<a href="https://www.youtube.com/watch?v=VJesera9jR0" target="_blank"><img src="images/video_icon.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 5px;">An Overview of IBM Bluemix DevOps Services by Adam Archer</a>.
 
 # Steps
 * Part 1: Getting started
