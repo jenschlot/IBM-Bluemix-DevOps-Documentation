@@ -1,7 +1,7 @@
 
 # Get started with tracking and planning in Bluemix DevOps Services
 
-Last modified: 22 April 2015
+Last modified: 1 May 2015
 
 Time: 30 minutes
 
@@ -60,7 +60,7 @@ If you see a list of projects instead of this page, click **CREATE PROJECT**.
 3. Name the project `ChatPage`.
 
 4. Create a repository for your code by clicking the **Create a Git repository** icon.  
-You can also manage an existing GitHub repository or a new Jazz source control management repository.
+You can also manage an existing GitHub repository or create a new GitHub or Jazz source control management repository.
 
 5. Ensure that the **Private** check box is cleared.  
 DevOps Services supports both public and private projects. Anyone can access your public projects, but only the DevOps Services users who you invite can access your private projects.  
