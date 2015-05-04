@@ -8,7 +8,7 @@
 
 * [Visit the status page](https://status.hub.jazz.net/).
 
-* [See the maintenance page](/maintenance).
+* [See the maintenance page](https://developer.ibm.com/devops-services/support/#maintenance).
 
 * [Check out the IBM Bluemix DevOps Services forum](https://developer.ibm.com/answers/questions/?community=devops-services).
 
