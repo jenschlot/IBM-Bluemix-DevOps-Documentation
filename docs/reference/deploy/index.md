@@ -10,6 +10,7 @@ The Bluemix DevOps Services Build & Deploy feature, also known as Pipeline, auto
 * [Deployment using the Bluemix DevOps Services Pipeline](#auto)
   * [Stages](#key)
     * [Stage triggers](#pipeline_automatic)
+    * [Stage input and revision selection](#revisions)
     * [Multistage deployments](#multi)
     * [Environment properties](#env_props)
   * [Jobs](#jobs)
@@ -51,6 +52,9 @@ However, you might want tighter control of a specific build or deployment stage.
 Then, you can request on-demand builds and deployments from the build history page in one of two ways:
 * Drag a build to the box that is under a configured space.
 * Next to a build, click the **Deploy to** icon and then select a space to deploy to.
+
+<a name="revisions"></a>
+####Stage input and revision selection
 
 When you manually run a stage, or if that stage runs because the stage before it completes, it selects its input revision (usually a build number) based on the following procedure:
 
