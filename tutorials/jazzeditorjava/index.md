@@ -238,7 +238,7 @@ In this tutorial, you learned to create and run a Java web app using Bluemix.
 
 To learn more about configuring Eclipse or other desktop clients to work with your Git repository, [see Working locally with Bluemix DevOps Services projects][26].
 
-To learn about how to integrate unit testing into your DevOps Services projects, [see Developing Bluemix apps in Java with Eclipse and Bluemix DevOps Services][40].
+To learn about how to integrate unit testing into your DevOps Services projects, [see Setting up local Eclipse clients to work with Jazz source control][40].
 
    [1]: https://bluemix.net/ (Bluemix)
    [2]: /tutorials/jazzeditorjava/images/bm-join.png
@@ -279,7 +279,7 @@ To learn about how to integrate unit testing into your DevOps Services projects,
    [37]: /tutorials/jazzeditorjava/images/manualdeploy.png
    [38]: https://www.ibmdw.net/answers?community=jazzhub (forum)
    [39]: mailto:hub%40jazz.net
-   [40]: /tutorials/jazzrtc (Developing Bluemix apps in Java with Eclipse and Bluemix DevOps Services)
+   [40]: /docs/reference/jazz_scm_client/ (Setting up local Eclipse clients to work with Jazz source control)
    [41]: /tutorials/jazzeditor (Getting Started with Bluemix and Bluemix DevOps Services using Node.js)
    [42]: /tutorials/clients (Setting up Eclipse, Git, and Rational Team Concert Desktop Clients to access Bluemix DevOps Services)
    [43]: /tutorials/jazzweb (Developing Bluemix applications in Node.js with the Bluemix DevOps Services Web IDE)

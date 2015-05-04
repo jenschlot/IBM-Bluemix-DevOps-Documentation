@@ -230,9 +230,9 @@ In only a few minutes, you cloned a Node.js app project, planned and tracked an 
 ## Next steps
 Now that you know the basics, you might want to explore this information:
 
-- [Setting up local clients to work with Git source control][37]
+- [Working locally with Bluemix DevOps Services projects][37]
 - [Develop by using Bluemix Live Sync][40]
-- [Get started with the Track & Plan feature][35] 
+- [Get started with tracking and planning][35] 
 - [Build & Deploy reference (Pipeline)][36]
 
 [1]: https://bluemix.net/ (Bluemix)
