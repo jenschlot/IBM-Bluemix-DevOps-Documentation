@@ -1,6 +1,6 @@
 #Setting up local clients to work with Git source control 
 
-Last modified: 29 April 2015
+Last modified: 4 May 2015
 
 If you use a Git repository for your IBM&reg; Bluemix&trade; DevOps Services project, you can manage your repository and work locally or by using the integrated Web IDE in Bluemix DevOps Services. If you install Git, you can use the [command line to manage your repository](#command_line_git). If you work in Eclipse, you can install the EGit plug-in for version control.  For more information, [see how to use EGit in Eclipse](#eclipse_using_egit).
 
@@ -45,7 +45,7 @@ Check whether Git is installed. On a command line, enter `git version`. If Git i
 2. Navigate to your project page.
 
 2. From the right side of the page, copy the content of the **Git URL** field.  
- **Note**: DevOps Services only supports the HTTPS protocol for Git URLs. The SSH and Git protocols are not supported.  
+ **Note**: DevOps Services supports the HTTPS protocol for Git URLs. The SSH and Git protocols are not supported.  
 ![The Git URL field on the Project page.][3]
 3. Open a command line.
 
@@ -96,7 +96,7 @@ If you use Eclipse and have a project that uses Git for source control, you can 
 1. In [Bluemix DevOps Services](https://hub.jazz.net/), browse to your project page. 
 
 2. Copy the **Git URL** from the right side of the page.  
- **Note**: DevOps Services only supports the HTTPS protocol for Git URLs. The SSH and Git protocols are not supported.  
+ **Note**: DevOps Services supports the HTTPS protocol for Git URLs. The SSH and Git protocols are not supported.  
 ![The Git URL field on the Project page.][3]
 
 3. In Eclipse, click **File > Import**.
