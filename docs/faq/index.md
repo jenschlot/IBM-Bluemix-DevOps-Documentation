@@ -1,5 +1,5 @@
 # FAQs
-##### Last modified: 29 April 2015
+##### Last modified: 4 May 2015
 
 Looking for more answers? Check out our [forum](https://developer.ibm.com/answers/smartspace/devops-services/), where you can ask questions and get advice from IBM developers and the DevOps Services community.
 ____
@@ -64,7 +64,7 @@ For steps to resolve the issue, see [Cannot add Git repository](https://www.ng.b
 
 ### Which Git data transfer protocols does DevOps Services support?
 
-DevOps Services only supports the HTTPS protocol for Git URLs. The SSH and Git protocols are not supported.
+DevOps Services supports the HTTPS protocol for Git URLs. The SSH and Git protocols are not supported.
  
 <a name="q5"></a>
 

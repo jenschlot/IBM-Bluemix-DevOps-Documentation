@@ -1,6 +1,6 @@
 #Git reference
 
-Last modified: 29 April 2015
+Last modified: 4 May 2015
 
 If you store your code in a Git repository that is hosted by IBM® Bluemix&trade; DevOps Services, you can work with code in a Git terminal or in a web integrated development environment (IDE). If you work on a local workstation, you can use Git terminal commands to edit the contents of your hosted repository. If you use the Web IDE, you don't need the Git terminal: you can run many common Git commands in the Web IDE.  
 
@@ -65,7 +65,7 @@ If you want to code and test locally, set up a local repository.
 1. [Go to DevOps Services][2]. On the My Projects page, click your project's name.
 
 1. From your project's Overview page, click **Git URL** and copy the URL.  
-**Note**: DevOps Services only supports the HTTPS protocol for Git URLs. The SSH and Git protocols are not supported.
+**Note**: DevOps Services supports the HTTPS protocol for Git URLs. The SSH and Git protocols are not supported.
 
 1. In your terminal, type `git clone `, paste your Git URL, and press Enter.
 
