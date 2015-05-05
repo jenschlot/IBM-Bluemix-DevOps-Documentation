@@ -1,11 +1,7 @@
 
 # Get started with tracking and planning in Bluemix DevOps Services
 
-<<<<<<< HEAD
-Last modified: 1 May 2015
-=======
 Last modified: 5 May 2015
->>>>>>> d865ae479f5be8f4700ac2f99d1e5a6bcc329a79
 
 Time: 30 minutes
 
