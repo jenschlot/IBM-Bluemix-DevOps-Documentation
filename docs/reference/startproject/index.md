@@ -26,7 +26,7 @@ You can start an IBM&reg; Bluemix&trade; DevOps Services project in three ways. 
 3. Type the project name.
 
 4. Select a repository type. 
-  * If you are familiar with GitHub, you can create a new GitHub repository. Click the **Create a new repository** icon, and then click the **Create a Git repo on GitHub** icon. If you stored code in a GitHub repository, you can also continue to use that repository. Click the **Link to an existing repository** icon, and then select the repository from the list.    
+  * If you are familiar with GitHub, you can create a new GitHub repository or link to your existing GitHub repository. For a new GitHub repository, click the **Create a new repository** icon, and then click the **Create a Git repo on GitHub** icon. If you already have your code in a GitHub repository, you can continue to use that repository with this project. Click the **Link to an existing repository** icon, and then select the repository from the list.    
 **Tip**: You can add supporting files to your repository, like a readme, a Git ignore file, or a license file. Select the readme check box or choose from the list of ignore files and licenses.
  * If you are familiar with Git and want to create a hosted repository, click the **Create a new repository** icon, and then click the **Create a Git repo on Bluemix** icon.  
 **Tip**: You can host a local Git repository on Bluemix DevOps Services. First, create the new Bluemix DevOps Services project; then, force push the local repository to the new hosted repository.
