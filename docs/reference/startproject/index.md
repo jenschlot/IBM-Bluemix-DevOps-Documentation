@@ -1,6 +1,6 @@
 # Start a project in Bluemix DevOps Services 
 
-Last modified: 19 February 2015
+Last modified: 5 May 2015
 
 You can start an IBM&reg; Bluemix&trade; DevOps Services project in three ways. If you want to start by using new code or an existing Git repository, [create a project](#starting_a_devops_services_project). If you want to start from a copy of the code in a Bluemix DevOps Services project, [fork the code](#forking_a_devops_services_project).  You can also [create a Bluemix DevOps Services project from an IBM&reg; Bluemix&trade; app](#creating_a_devops_services_project_for_your_bluemix_app).
 
@@ -25,13 +25,15 @@ You can start an IBM&reg; Bluemix&trade; DevOps Services project in three ways. 
 
 3. Type the project name.
 
-4. Select a repository type.  
- * If you are familiar with IBM&reg;  Rational Team Concert&trade; and want to use Jazz&trade; source control management (SCM), click the **Use Jazz SCM** icon.
+4. Select a repository type. 
+  * If you are familiar with GitHub, you can create a new GitHub repository. Click the **Create a new repository** icon, and then click the **Create a Git repo on GitHub** icon. If you stored code in a GitHub repository, you can also continue to use that repository. Click the **Link to an existing repository** icon, and then select the repository from the list.    
+**Tip**: You can add supporting files to your repository, like a readme, a Git ignore file, or a license file. Select the readme check box or choose from the list of ignore files and licenses.
  * If you are familiar with Git and want to create a hosted repository, click the **Create a Git repository** icon.  
 **Tip**: You can host a local Git repository on Bluemix DevOps Services. First, create the new Bluemix DevOps Services project; then, force push the local repository to the new hosted repository.
- * If you stored code in a GitHub repository, you can continue to use that repository. Click the **Connect to an external GitHub repository** icon and paste the repository URL into the field.
-
-5. If you want to control who can view your project and its code, select the **Private** check box. Bluemix DevOps Services users who you invite can access your private projects. 
+ * If you are familiar with IBM&reg;  Rational Team Concert&trade; and want to use Jazz&trade; source control management (SCM), click the **Use Jazz SCM** icon.
+ 
+5. If you want to control who can view your project and its code, select the **Private** check box. Bluemix DevOps Services users who you invite can access your private projects.    
+**Note**: To create a private repository on GitHub, you must have a paid GitHub account. If necessary, click **Change your GitHub plan" or use a private Bluemix repository instead.
 
 6. If you want to use all of the Track & Plan features, including the ability to create sprints from the project backlog of work items, select the **Add features for Scrum development** check box.  
 If you want to use only the traditional planning feature, which uses simplte tasks and iterations without a backlog, clear the check box.
