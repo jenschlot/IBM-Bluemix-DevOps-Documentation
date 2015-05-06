@@ -1,6 +1,6 @@
 #Build & Deploy reference
 
-Last modified: 4 May 2015
+Last modified: 6 May 2015
 
 The Bluemix DevOps Services Build & Deploy feature, also known as Pipeline, automates the continuous deployment of your projects. In a project's Pipeline, sequences of stages retrieve input and run jobs, such as builds, tests, and deployments.
 
@@ -56,12 +56,11 @@ Then, you can request on-demand builds and deployments from the build history pa
 <a name="revisions"></a>
 ####Stage input and revision selection
 
-When you manually run a stage, or if that stage runs because the stage before it completes, it selects its input revision (usually a build number) based on the following procedure:
+When you run a stage manually, or if it runs because the stage before it is completed, the running stage selects its input revision. Usually, the input revision is a build number. To select the input revision, the stage follows this process:
 
-1. If a specific revision is selected, use that. 
-2. If a specific revision is not specified, search previous stages until a stage is found that uses the same input. Find the last successfully run revision of that input and use that.
-3. If a specific revision is not specified, and no other stages use the specified source as input, use the latest revision of the input
-
+1. If a specific revision is selected, use it.
+2. If a specific revision is not specified, search previous stages until a stage is found that uses the same input. Find and use the last successfully run revision of that input.
+3. If a specific revision is not specified and no other stages use the specified source as input, use the latest revision of the input.
 
 <a name="multi"></a>
 ####Multistage deployments
