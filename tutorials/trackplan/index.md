@@ -1,7 +1,7 @@
 
 # Get started with tracking and planning in Bluemix DevOps Services
 
-Last modified: 5 May 2015
+Last modified: 6 May 2015
 
 Time: 30 minutes
 
@@ -60,12 +60,10 @@ If you see a list of projects instead of this page, click **CREATE PROJECT**.
 3. Name the project `ChatPage`.
 
 4. Create a repository for your code by clicking the **Create a new repository** icon.  
-You can also link to an existing GitHub repository or create a new GitHub or Jazz source control management repository.
 
 5. Choose your repository location by clicking the **Create a Git repo on Bluemix** icon.   
-You can also create a new GitHub or Jazz SCM repository.
 
-5. Ensure that the **Private** check box is cleared.  
+5. Clear the **Private** check box.   
 DevOps Services supports both public and private projects. Anyone can access your public projects, but only the DevOps Services users who you invite can access your private projects.  
 
 6. Ensure that the **Add features for Scrum development** check box is selected. By enabling Scrum development, you can create sprints from your project's backlog of work items.  
