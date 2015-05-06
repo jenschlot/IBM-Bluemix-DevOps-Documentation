@@ -1,6 +1,6 @@
 #Git reference
 
-Last modified: 30 April 2015
+Last modified: 6 May 2015
 
 If you store your code in a Git repository that is hosted by IBM® Bluemix&trade; DevOps Services, you can work with code in a Git terminal or in a web integrated development environment (IDE). If you work on a local workstation, you can use Git terminal commands to edit the contents of your hosted repository. If you use the Web IDE, you don't need the Git terminal: you can run many common Git commands in the Web IDE. 
 
@@ -21,7 +21,7 @@ No matter where you code, you can use this quick reference to do common tasks.
 * [Work on a local branch](#start_working_on_a_local_branch)
 * [Update a local branch with changes from the remote branch](#update_a_local_branch_with_changes_from_the_remote_branch)
 * [Delete a local branch](#delete_a_local_branch)
-* [Force push changes to a remote branch](#force_push)
+* [Force push local changes to a remote branch](#force_push)
 * [Discard unstaged changes from the active local branch](#discard_changes)
 
 ##[Commits](#commits)
@@ -170,7 +170,9 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 
 ---
 <a name="force_push"></a>
-###Force push a local branch to a remote branch
+###Force push local changes to a remote branch
+
+**Note:** This command can cause commits on a remote branch to be lost.
 
 To overwrite a referenced remote branch's contents with those in your active local branch:
 
@@ -352,7 +354,7 @@ To update your name and email address for all repositories:
 <a name="revert"></a>
 ###Revert a commit
 
-To revert the changes a commit has introduced into your active branch:
+Revert the changes that a commit has introduced into your active branch.
 
 ####DevOps Services Web IDE
 
