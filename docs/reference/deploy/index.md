@@ -1,6 +1,6 @@
 #Build & Deploy reference
 
-Last modified: 23 April 2015
+Last modified: 7 May 2015
 
 The Bluemix DevOps Services Build & Deploy feature, also known as Pipeline, automates the continuous deployment of your projects. In a project's Pipeline, sequences of stages retrieve input and run jobs, such as builds, tests, and deployments.
 
@@ -10,13 +10,14 @@ The Bluemix DevOps Services Build & Deploy feature, also known as Pipeline, auto
 * [Deployment using the Bluemix DevOps Services Pipeline](#auto)
   * [Stages](#key)
     * [Stage triggers](#pipeline_automatic)
+    * [Stage input and revision selection](#revisions)
     * [Multistage deployments](#multi)
     * [Environment properties](#env_props)
   * [Jobs](#jobs)
     * [Build jobs](#builds)
     * [Deploy jobs](#deploys)
     * [Test jobs](#tests)
-  * [Simple configuration exxample](#example)
+  * [Simple configuration example](#example)
   * [Logging](#logs)
 * [Deployment using the Web IDE](#manual)
   * [The run bar](#runbar)
@@ -51,6 +52,15 @@ However, you might want tighter control of a specific build or deployment stage.
 Then, you can request on-demand builds and deployments from the build history page in one of two ways:
 * Drag a build to the box that is under a configured space.
 * Next to a build, click the **Deploy to** icon and then select a space to deploy to.
+
+<a name="revisions"></a>
+####Stage input and revision selection
+
+When you run a stage manually, or if it runs because the stage before it is completed, the running stage selects its input revision. Usually, the input revision is a build number. To select the input revision, the stage follows this process:
+
+1. If a specific revision is selected, use it.
+2. If a specific revision is not specified, search previous stages until a stage is found that uses the same input. Find and use the last successfully run revision of that input.
+3. If a specific revision is not specified and no other stages use the specified source as input, use the latest revision of the input.
 
 <a name="multi"></a>
 ####Multistage deployments
@@ -94,18 +104,12 @@ You can require that certain conditions are met by including test jobs before or
 ###Simple configuration example
 A simple Delivery Pipeline configuration might contain a Build stage that takes input from a Git repository.  By running build and test jobs, the Build stage builds a project and runs unit tests against it. If the build and test jobs both run successfully, the compiled project is output to a Deploy stage that contains a job that pushes the app to Bluemix.
 
-
-
-
 <a name="logs"></a>
 ###Logging
 
 You can view the logs for your Build & Deploy jobs on the Stage Job History page. Click a job, or click **View logs and history**.
 
 In addition to logs, you can view unit test results, generated artifacts, and code changes for any build job.
-
-
-
 
 ---
 <a name="manual"></a>
