@@ -1,8 +1,10 @@
 #Git reference
 
-Last modified: 4 May 2015
+Last modified: 7 May 2015
 
-If you store your code in a Git repository that is hosted by IBM® Bluemix&trade; DevOps Services, you can work with code in a Git terminal or in a web integrated development environment (IDE). If you work on a local workstation, you can use Git terminal commands to edit the contents of your hosted repository. If you use the Web IDE, you don't need the Git terminal: you can run many common Git commands in the Web IDE.  
+If you store your code in a Git repository that is hosted by IBM® Bluemix&trade; DevOps Services, you can work with code in a Git terminal or in a web integrated development environment (IDE). If you work on a local workstation, you can use Git terminal commands to edit the contents of your hosted repository. If you use the Web IDE, you don't need the Git terminal: you can run many common Git commands in the Web IDE. 
+
+For a complete Git reference, [see the official Git documentation][6].
 
 To access Git commands from the Web IDE, click the Git Repository icon <img src="./images/gitrepository.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">.
 
@@ -19,6 +21,7 @@ No matter where you code, you can use this quick reference to do common tasks.
 * [Work on a local branch](#start_working_on_a_local_branch)
 * [Update a local branch with changes from the remote branch](#update_a_local_branch_with_changes_from_the_remote_branch)
 * [Delete a local branch](#delete_a_local_branch)
+* [Force push local changes to a remote branch](#force_push)
 * [Discard unstaged changes from the active local branch](#discard_changes)
 
 ##[Commits](#commits)
@@ -29,6 +32,7 @@ No matter where you code, you can use this quick reference to do common tasks.
 * [Modify the last commit](#modify_the_last_commit)
 * [Tag a commit](#tag_a_commit)
 * [Change the committer name and email address](#change_the_committer_name_and_email_address)
+* [Revert a commit](#revert)
 
 ##[Change integration](#change_integration)
 * [Merge changes](#merge_changes)
@@ -164,6 +168,24 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 
 ####Git terminal
 1. Type `git branch -d <branchname>` and press Enter.
+
+---
+<a name="force_push"></a>
+###Force push local changes to a remote branch
+
+Overwrite the contents of a referenced remote branch with the contents of your active local branch.
+
+**Important:** When you force push a local branch to a remote one, you might lose commits on the remote branch.
+
+####DevOps Services Web IDE
+
+1. In the Working Directory Changes section, in the Outgoing section, click the arrow next to **Push**. 
+2. Click **Force Push Branch**.
+3. Confirm the warning.
+
+####Git terminal
+
+1. Type `git push <origin> <remote branch> -f` and press Enter. 
 
 ---
 <a name="discard_changes"></a>
@@ -328,6 +350,22 @@ To update your name and email address for all repositories:
 1. Type `git config --global user.email "<your@email.com>"` and press Enter.
 
 2. Type `git config --global user.name "<Your Name>"` and press Enter.
+
+---
+<a name="revert"></a>
+###Revert a commit
+
+Revert the changes that a commit has introduced into your active branch.
+
+####DevOps Services Web IDE
+
+1. Under History, select a commit. 
+
+2. On the right side of the page, above the commit summary, click the revert icon <img src="./images/revert.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">. 
+
+####Git terminal
+
+1. Type `git revert <commit ID>` and press Enter.
 
 ---
 <a name="change_integration"></a>
@@ -497,3 +535,4 @@ Only project owners can delete branches from origin.
 [3]: https://hub.jazz.net/gitHook/ryehle/GitHubSentiment
 [4]: #view_the_commit_history
 [5]: #start_working_on_a_local_branch
+[6]: http://git-scm.com/docs
