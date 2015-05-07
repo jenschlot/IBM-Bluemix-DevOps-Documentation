@@ -47,7 +47,7 @@ One decision you must make is whether you want the stage to be triggered automat
 ####Stage triggers
 By default in a stage, builds and deployments are triggered automatically every time changes are delivered to a project's source control repository. 
 
-However, you might want tighter control of a specific build or deployment stage. If you do not want builds to occur every time a change is pushed to the repository, you can disable the capability. On the **Input** tab, in the **Stage Trigger** section, click **Only execute jobs when a user manually runs this stage**. 
+However, you might want tighter control of a specific build or deployment stage. If you do not want builds to occur every time a change is pushed to the repository, you can disable the capability. On the **Input** tab, in the Stage Trigger section, click **Only execute jobs when a user manually runs this stage**. 
 
 Then, you can request on-demand builds and deployments from the build history page in one of two ways:
 * Drag a build to the box that is under a configured space.
@@ -65,7 +65,7 @@ When you run a stage manually, or if it runs because the stage before it is comp
 <a name="multi"></a>
 ####Multistage deployments
 
-You might create a multistage deployment when you want to the same project to multiple Bluemix spaces. For example, you might configure three stages: 
+You might create a multistage deployment when you want to deploy the same project to multiple Bluemix spaces. For example, you might configure three stages: 
 * Stage 1: Deploy to a development space
 * Stage 2: Deploy to a staging space
 * Stage 3: Deploy to a production space
@@ -77,7 +77,7 @@ By default, every time a stage is completed in the pipeline, the next stage begi
 <a name="env_props"></a>
 ####Environment properties
 
-Environment properties are variables whose values can be accessed by any job in a stage. These properties are useful when run scripts within stages. For example, you might have a test script that refers to a `URL` variable. You can reuse that script across many stages that run jobs to test a particular web app deployment. For each stage, only the `URL` variable would need to be created; the script itself would just refer to its stage's `URL` environment property. 
+Environment properties are variables whose values can be accessed by any job in a stage. These properties are useful when you run scripts within stages. For example, you might have a test script that refers to a `URL` variable. You can reuse that script across many stages that run jobs to test a particular web app deployment. For each stage, only the `URL` variable would need to be created; the script itself would just refer to its stage's `URL` environment property. 
 
 You can create environment properties for a stage when you are configuring the stage. Enter the properties individually on the **Environment Properties** tab. You can also provide a stage with a properties file by entering the path relative to the stage input. 
 
