@@ -17,7 +17,7 @@ The Bluemix DevOps Services Build & Deploy feature, also known as Pipeline, auto
     * [Build jobs](#builds)
     * [Deploy jobs](#deploys)
     * [Test jobs](#tests)
-  * [Simple configuration exxample](#example)
+  * [Simple configuration example](#example)
   * [Logging](#logs)
 * [Deployment using the Web IDE](#manual)
   * [The run bar](#runbar)
@@ -104,18 +104,12 @@ You can require that certain conditions are met by including test jobs before or
 ###Simple configuration example
 A simple Delivery Pipeline configuration might contain a Build stage that takes input from a Git repository.  By running build and test jobs, the Build stage builds a project and runs unit tests against it. If the build and test jobs both run successfully, the compiled project is output to a Deploy stage that contains a job that pushes the app to Bluemix.
 
-
-
-
 <a name="logs"></a>
 ###Logging
 
 You can view the logs for your Build & Deploy jobs on the Stage Job History page. Click a job, or click **View logs and history**.
 
 In addition to logs, you can view unit test results, generated artifacts, and code changes for any build job.
-
-
-
 
 ---
 <a name="manual"></a>
