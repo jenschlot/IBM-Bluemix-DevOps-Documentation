@@ -1,6 +1,6 @@
 #Git reference
 
-Last modified: 6 May 2015
+Last modified: 7 May 2015
 
 If you store your code in a Git repository that is hosted by IBM® Bluemix&trade; DevOps Services, you can work with code in a Git terminal or in a web integrated development environment (IDE). If you work on a local workstation, you can use Git terminal commands to edit the contents of your hosted repository. If you use the Web IDE, you don't need the Git terminal: you can run many common Git commands in the Web IDE. 
 
@@ -172,13 +172,13 @@ When you work in the Web IDE, both your local and remote repositories are hosted
 <a name="force_push"></a>
 ###Force push local changes to a remote branch
 
-**Note:** This command can cause commits on a remote branch to be lost.
+Overwrite the contents of a referenced remote branch with the contents of your active local branch.
 
-To overwrite a referenced remote branch's contents with those in your active local branch:
+**Important:** When you force push a local branch to a remote one, you might lose commits on the remote branch.
 
 ####DevOps Services Web IDE
 
-1. Under Working Directory Changes, click the arrow next to **Push**. 
+1. In the Working Directory Changes section, in the Outgoing section, click the arrow next to **Push**. 
 2. Click **Force Push Branch**.
 3. Confirm the warning.
 
