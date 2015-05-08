@@ -4,7 +4,7 @@ Last modified: 08 May 2015
 
 
 # IBM Academic Initiative Program
-You can teach students to developi cloud and mobile apps by using IBM&reg; Bluemix&trade; DevOps Services. 
+You can teach students to develop cloud and mobile apps by using IBM&reg; Bluemix&trade; DevOps Services. 
 
 Visit the [IBM Academic Initiative website](http://www-304.ibm.com/ibm/university/academic/pub/page/cloud_paas) or 
 download a [brochure](http://public.dhe.ibm.com/common/ssi/ecm/en/ibf03007usen/IBF03007USEN.PDF). 
