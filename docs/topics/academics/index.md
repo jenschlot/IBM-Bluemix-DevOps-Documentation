@@ -2,17 +2,17 @@ Last modified: 08 May 2015
 
 ---
 
-<a name="resources"></a>
 
-### IBM Academic Initiative Program
- Teach students about Cloud and mobile development using IBM Bluemix DevOps Services. 
-<div style="color:black">
-Visit the [IBM Academic Initiative website] http://www-304.ibm.com/ibm/university/academic/pub/page/cloud_paas) or 
-download a [brochure](http://public.dhe.ibm.com/common/ssi/ecm/en/ibf03007usen/IBF03007USEN.PDF). </div>
+# IBM Academic Initiative Program
+ Teach students about developing cloud and mobile application using IBM Bluemix DevOps Services. 
+
+Visit the [IBM Academic Initiative website](http://www-304.ibm.com/ibm/university/academic/pub/page/cloud_paas) or 
+download a [brochure](http://public.dhe.ibm.com/common/ssi/ecm/en/ibf03007usen/IBF03007USEN.PDF). 
+
+
 
  
-<a name="testimonials"></a> 
-## Professor testimonials
+## Professor testimonial
 
 ###Alan Kan: 
 ![Alan Kan](images/alankan.png) 
