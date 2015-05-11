@@ -57,9 +57,9 @@ With the Track & Plan feature in DevOps Services, you can manage projects by usi
 ###Enable the Track & Plan feature
 
 1. On the project's Overview page, click the **Project settings** icon.
-2. Open the **Options** page.
+2. Click **OPTIONS**.
 3. Select **Enable Track & Plan**.
-4. Click **Save**.
+4. Click **SAVE**.
 
 
 ###Explore the Track & Plan views
@@ -67,14 +67,14 @@ With the Track & Plan feature in DevOps Services, you can manage projects by usi
 1. Near the top of the page, click **TRACK & PLAN**.
 2. If you don't see lanes labeled OPEN and IN PROGRESS, enter the Lanes view by clicking **Display as lanes**.
 ![Click Display as lanes button][38]
-3. In the OPEN lane, click **Create a work item**. Work items are grouped into the OPEN, IN PROGRESS, and RESOLVED lanes based on their status.
+3. In the OPEN lane, click the **Create a work item** field. Work items are grouped into the OPEN, IN PROGRESS, and RESOLVED lanes based on their status.
 
 ###Create a task
 You can create different types of work items depending on what you're planning. For example, to describe a minor feature update, you might create a task item. To track the work to fix a problem, you might create a defect item. 
 
 Describe a task to personalize the Sentiment Analysis App. You can assign attributes to the new work item by clicking the attribute icons under the **Create a work item** field, and you can use shorthand in the field:
 
-1. In the **Create a work item** field, type `Update default search topic, then deploy app` as your work item's summary. In this field, you can also assign other information to the work item, such as its owner and priority, by typing special characters. For more information, see the [Track & Plan reference](https://hub.jazz.net/docs/reference/trackplan/).
+1. In the **Create a work item** field, enter `Update default search topic, then deploy app` as your work item's summary. In this field, you can also assign other information to the work item, such as its owner and priority, by typing special characters. For more information, see the [Track & Plan reference](https://hub.jazz.net/docs/reference/trackplan/).
 
    a. Assign the "task" type to the work item: after the summary, type a space and then type `*task`.
    
@@ -116,13 +116,13 @@ Your change is saved and ready to be committed to the project's remote repositor
 <a name='push_changes'></a>
 ## Push your change to the project repository
 
-For revision control and source code management, DevOps Services currently supports Git, Jazz SCM, and GitHub. Because the original Sentiment Analysis App project uses a Git repository that is hosted by IBM, your copy of the project uses a Git repository, too. 
+For revision control and source code management, DevOps Services supports Git, Jazz SCM, and GitHub. Because the original Sentiment Analysis App project uses a Git repository that is hosted by IBM, your copy of the project uses a Git repository, too. 
 
-The code that you changed is currently in your local workspace. Push the changed code to your project's master branch and then deploy your app to Bluemix.
+The code that you changed is currently in your workspace on the cloud. Push the changed code to your project's master branch and then deploy your app to Bluemix.
 
 1. On the far left, click the **Git Repository** icon. 
 ![The Git Repository icon][14]
-On the Git page that opens, check the Working Directory Changes section to verify that it shows an uncommitted change to the `app.js` file. You might also see other changes that are related to cloning the project into your workspace. You can ignore those changes. For this exercise, you are focused on the updated `app.js` file.
+On the Git page that opens, check the Working Directory Changes section to verify that it shows an uncommitted change to the `app.js` file. You might also see other changes that are related to cloning the project into your workspace. You can check in those changes. 
 2. Select the check box next to `app.js`. If you want to compare your version of the 'app.js' file with the version that is in the Git repository, click the arrow next to 'app.js'.
 3. Type a commit message. Somewhere in the message, be sure to include this phrase: `task <number of your work item>`. That phrase links this commit to the task work item. If you don’t remember the number, return to the Track &amp; Plan area to find it.
 ![Ready to commit a change to app.js][13]
@@ -223,7 +223,7 @@ Well done! The Track & Plan service keeps administrative overheard to a minimum 
 <a name='summary'></a>
 ## Summary
 
-In only a few minutes, you cloned a Node.js app project, planned and tracked an update to the app, made the update, and deployed the updated app to Bluemix--all without leaving your browser. 
+You cloned a Node.js app project, planned and tracked an update to the app, made the update, and deployed the updated app to Bluemix--all without leaving your browser. 
 
 ---
 <a name='next_steps'></a>
