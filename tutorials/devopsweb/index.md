@@ -46,7 +46,7 @@ If you haven't already registered for DevOps Services, [sign up](https://hub.jaz
 4. If you are prompted to log in to Bluemix, log in.
 5. Click **DEPLOY**.
 6. After the project is cloned and the deployment is complete, click **EDIT CODE** to continue.
-
+![EDIT CODE button][41]
 
 ---
 <a name='plan_change'></a>
@@ -267,3 +267,4 @@ Now that you know the basics, you might want to explore this information:
 [38]: /tutorials/devopsweb/images/displayAsLanes.png
 [39]: /docs/reference/billing/
 [40]: /tutorials/livesync
+[41]: /tutorials/devopsweb/images/editcode.png
