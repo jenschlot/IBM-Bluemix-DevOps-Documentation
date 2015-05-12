@@ -177,6 +177,7 @@ The next stage is the Deploy stage; it contains a deploy job. Deploy jobs deploy
   
      * The input for the deployment is the output from the Build stage. 
      * The Deploy stage runs automatically every time the Build stage runs successfully. 
+     ![The INPUT tab][46]
  
   b. Click the **JOBS** tab and note this information:
   
@@ -275,3 +276,4 @@ Now that you know the basics, you might want to explore this information:
 [43]: /tutorials/devopsweb/images/run_stage.png
 [44]: /tutorials/devopsweb/images/project_settings_icon.png
 [45]: /tutorials/devopsweb/images/configure_stage.png
+[46]: /tutorials/devopsweb/images/input_tab_deploy.png
