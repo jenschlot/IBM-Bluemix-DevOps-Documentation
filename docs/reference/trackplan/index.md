@@ -2,7 +2,7 @@
 
 # Track & Plan reference for Bluemix DevOps Services
 
-Last updated: 20 April 2015
+Last updated: 12 May 2015
 
 
 ## Contents
@@ -68,7 +68,7 @@ You can filter work items based on keywords or on values for specific attribute 
 - Team's Work
 - All Work
 
-If you type a keyword, the work item summaries that contain that keyword are displayed. You can also filter work items based on values for specific attributes. For details, see the following table.
+If you type a keyword, the work item summaries that contain that keyword are displayed. You can also filter work items based on values for specific attributes. Type the attribute short form character, like **#** for tags, and the filtering drop-down menu appears with choices. The following table lists all the attributes that have short form characters.
 
 | Attribute type |Attribute example | 
 |-------|-------|
@@ -78,6 +78,9 @@ If you type a keyword, the work item summaries that contain that keyword are dis
 |^Category|^Development team|
 |$Priority|$High|
 |!Severity|!Major|
+
+You can create queries using any work item attribute by entering the attribute name. For example, if you type "Created by", the drop-down menu appears showing you options and the syntax. You can use operators, like "and," "or," and "not" in your filter criteria. You can also use complex operations that nest multiple operators. 
+
 
 ###Saving custom views
 You can create custom views by applying filters and then share the views with your team. 
