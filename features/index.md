@@ -1,6 +1,6 @@
 # Features
 
-Last modified: 19 February 2015
+Last modified: 13 May 2015
 
 ## See what IBM® Bluemix™ DevOps Services can do for you:
 * [Easy to find What's New](#whatsnew)
@@ -83,6 +83,8 @@ The Web IDE provides smart features where you can do these tasks:
    * Syntax highlighting for over 20 popular programming languages
 
    * Syntax highlighting, validation and content assist for Cloud Foundry manifest files
+
+   * Split editor mode for working with two files at the same time
 
    * Code validation
 
