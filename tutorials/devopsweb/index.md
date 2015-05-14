@@ -57,7 +57,7 @@ With the Track & Plan feature in DevOps Services, you can manage projects by usi
 ###Enable the Track & Plan feature
 
 1. On the project's Overview page, click the **Project settings** icon.
-![The Project Settings icon][44]
+![The Project Settings icon][43]
 2. Click **OPTIONS**.
 3. Select **Enable Track & Plan**.
 4. Click **SAVE**.
@@ -127,8 +127,8 @@ On the Git page that opens, check the Working Directory Changes section to verif
 2. Select the check box next to `app.js`. If you want to compare your version of the 'app.js' file with the version that is in the Git repository, click the arrow next to 'app.js'.
 3. Type a commit message. Somewhere in the message, be sure to include this phrase: `task <number of your work item>`. That phrase links this commit to the task work item. If you don’t remember the number, return to the Track &amp; Plan area to find it.
 ![Ready to commit a change to app.js][13]
-4. Click **COMMIT**. Your change is shown in the Active Branch section.
-5. Click **PUSH**. Your local master branch is pushed to the remote master branch. 
+4. Click **Commit**. Your change is shown in the Active Branch section.
+5. Click **Push**. Your local master branch is pushed to the remote master branch. 
 
 ![Ready to push a file update][7]
 
@@ -147,7 +147,7 @@ A pipeline is formed by its stages. The pipeline for your Sentiment Analysis app
 ###Explore the build stage
 1. On the top navigation bar, click **BUILD & DEPLOY**. 
 
-2. On the Build stage tile, click the **Stage Configuration** icon ![The Stage Configuration icon][45] and then click **Configure Stage**.  
+2. On the Build stage tile, click the **Stage Configuration** icon <img src="./images/configure_stage.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;"> and then click **Configure Stage**.  
   
   a. On the **INPUT** tab, note this information:
   
@@ -171,13 +171,13 @@ The next stage is the Deploy stage; it contains a deploy job. Deploy jobs deploy
 
 ###Explore the deployment stage
 
-0. On the Deploy stage tile, click the **Stage Configuration** icon ![The Stage Configuration icon][45] and then click **Configure Stage**.
+0. On the Deploy stage tile, click the **Stage Configuration** icon <img src="./images/configure_stage.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;"> and then click **Configure Stage**.
 
   a. On the **INPUT** tab, note this information: 
   
      * The input for the deployment is the output from the Build stage. 
      * The Deploy stage runs automatically every time the Build stage runs successfully. 
-     ![The INPUT tab][46]
+     ![The INPUT tab][44]
  
   b. Click the **JOBS** tab and note this information:
   
@@ -196,7 +196,7 @@ With these connected stages, you have a fully functional pipeline. By default, t
 
 It's time to see the stages in action. You can start a build without waiting for changes to be pushed.
 
-1. On the Build stage tile, click the **Run Stage** icon ![The Run Stage icon][43]. The build is added to the queue, is run, and then is deployed to Bluemix.
+1. On the Build stage tile, click the **Run Stage** icon <img src="./images/run_stage.png"  align="bottom" style="display: inline; margin: 0px; border-style: none; margin-bottom: 0px;">. The build is added to the queue, is run, and then is deployed to Bluemix.
 2. After the deployment tile indicates that your app is running, in the LAST EXECUTION RESULT section, click the URL that is under the app name. Make sure that your topic is in the INPUT section.
 3. If you want to see more information about your app, open its Bluemix Overview page by clicking the app's name, which is above the URL. For more information about the Overview page, [see Managing applications on Bluemix][28].
 
@@ -273,7 +273,5 @@ Now that you know the basics, you might want to explore this information:
 [40]: /tutorials/livesync
 [41]: /tutorials/devopsweb/images/editcode.png
 [42]: /tutorials/devopsweb/images/input_tab.png
-[43]: /tutorials/devopsweb/images/run_stage.png
-[44]: /tutorials/devopsweb/images/project_settings_icon.png
-[45]: /tutorials/devopsweb/images/configure_stage.png
-[46]: /tutorials/devopsweb/images/input_tab_deploy.png
+[43]: /tutorials/devopsweb/images/project_settings_icon.png
+[44]: /tutorials/devopsweb/images/input_tab_deploy.png
